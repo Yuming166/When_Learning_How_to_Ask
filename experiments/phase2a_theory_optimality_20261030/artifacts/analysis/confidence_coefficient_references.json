@@ -1,0 +1,602 @@
+[
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.332783899922386,
+    "K_lower": 7.3327834240055365,
+    "K_upper": 7.332783899922386,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.770220249367392,
+    "K_lower": 5.7702201139309315,
+    "K_upper": 5.770220249367392,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.332783899922386,
+    "K_lower": 7.3327834240055365,
+    "K_upper": 7.332783899922386,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.770220249367392,
+    "K_lower": 5.7702201139309315,
+    "K_upper": 5.770220249367392,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.332783899922386,
+    "K_lower": 7.3327834240055365,
+    "K_upper": 7.332783899922386,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.770220249367392,
+    "K_lower": 5.7702201139309315,
+    "K_upper": 5.770220249367392,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.76199242361316,
+    "K_lower": 6.7619915283249625,
+    "K_upper": 6.76199242361316,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.200708214585602,
+    "K_lower": 5.200707520181423,
+    "K_upper": 5.200708214585602,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.76199242361316,
+    "K_lower": 6.7619915283249625,
+    "K_upper": 6.76199242361316,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.200708214585602,
+    "K_lower": 5.200707520181423,
+    "K_upper": 5.200708214585602,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.76199242361316,
+    "K_lower": 6.7619915283249625,
+    "K_upper": 6.76199242361316,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.200708214585602,
+    "K_lower": 5.200707520181423,
+    "K_upper": 5.200708214585602,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.233745487366623,
+    "K_lower": 7.233744038528451,
+    "K_upper": 7.233745487366623,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.651043062584278,
+    "K_lower": 5.651043023871377,
+    "K_upper": 5.651043062584278,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.233745487366623,
+    "K_lower": 7.233744038528451,
+    "K_upper": 7.233745487366623,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.651043062584278,
+    "K_lower": 5.651043023871377,
+    "K_upper": 5.651043062584278,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 7.233745487366623,
+    "K_lower": 7.233744038528451,
+    "K_upper": 7.233745487366623,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.651043062584278,
+    "K_lower": 5.651043023871377,
+    "K_upper": 5.651043062584278,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.959248742360371,
+    "K_lower": 6.959247768544768,
+    "K_upper": 6.959248742360371,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.113419333144184,
+    "K_lower": 5.11341865039491,
+    "K_upper": 5.113419333144184,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.959248742360371,
+    "K_lower": 6.959247768544768,
+    "K_upper": 6.959248742360371,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.113419333144184,
+    "K_lower": 5.11341865039491,
+    "K_upper": 5.113419333144184,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 6.959248742360371,
+    "K_lower": 6.959247768544768,
+    "K_upper": 6.959248742360371,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      2,
+      2
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 5.113419333144184,
+    "K_lower": 5.11341865039491,
+    "K_upper": 5.113419333144184,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.810654089290328,
+    "K_lower": 4.810654084479637,
+    "K_upper": 4.810654089290328,
+    "oracle_K": 4.810654084479637
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.66045268029804,
+    "K_lower": 4.66045201051722,
+    "K_upper": 4.66045268029804,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 4,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.253632462877016,
+    "K_lower": 4.253631894927414,
+    "K_upper": 4.253632462877016,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.66045268029804,
+    "K_lower": 4.66045201051722,
+    "K_upper": 4.66045268029804,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.253632462877016,
+    "K_lower": 4.253631894927414,
+    "K_upper": 4.253632462877016,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_only",
+    "K": 4.66045268029804,
+    "K_lower": 4.66045201051722,
+    "K_upper": 4.66045268029804,
+    "oracle_K": 4.101969826071568
+  },
+  {
+    "scenario": "primary_glr",
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "p": 0.85,
+    "q": 0.6,
+    "channel": "iid",
+    "action_class": "task_and_type_s.8",
+    "K": 4.253632462877016,
+    "K_lower": 4.253631894927414,
+    "K_upper": 4.253632462877016,
+    "oracle_K": 4.101969826071568
+  }
+]

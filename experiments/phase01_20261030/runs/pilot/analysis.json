@@ -1,0 +1,157 @@
+{
+  "decision": "REVISE_OR_NO_GO",
+  "coverage": {
+    "planned": 3264,
+    "attempted": 3264,
+    "by_kind": {
+      "task": {
+        "valid": 3072
+      },
+      "direct": {
+        "valid": 96
+      },
+      "metadata": {
+        "valid": 96
+      }
+    },
+    "valid": 3264,
+    "task_correct": 1662,
+    "task_planned": 3072
+  },
+  "valid_yield": 1.0,
+  "baseline_heldout_single_response_accuracy": {
+    "Fixed_A": {
+      "mean": 0.4973958333333333,
+      "low": 0.4453125,
+      "high": 0.546875
+    },
+    "Fixed_B": {
+      "mean": 0.5520833333333334,
+      "low": 0.5026041666666666,
+      "high": 0.6041666666666666
+    },
+    "Round_Robin": {
+      "mean": 0.5416666666666666,
+      "low": 0.4973958333333333,
+      "high": 0.5859375
+    },
+    "LOPO_Global_Format_Audit_Reference": {
+      "mean": 0.5520833333333334,
+      "low": 0.5026041666666666,
+      "high": 0.6041666666666666
+    },
+    "Observation_Only_Agreement": {
+      "mean": 0.5208333333333334,
+      "low": 0.4765625,
+      "high": 0.5598958333333334
+    },
+    "Labelled_Calibration_Oracle": {
+      "mean": 0.53125,
+      "low": 0.4765625,
+      "high": 0.578125
+    },
+    "Hindsight_Oracle_Reference": {
+      "mean": 0.6380208333333334,
+      "low": 0.6119791666666666,
+      "high": 0.6692708333333334
+    },
+    "Direct_Type_Query": {
+      "mean": 0.5182291666666666,
+      "low": 0.46875,
+      "high": 0.5677083333333334
+    },
+    "Public_Metadata_Predictor": {
+      "mean": 0.5208333333333334,
+      "low": 0.46875,
+      "high": 0.5677083333333334
+    },
+    "Shuffled_Group_Audit_Control": {
+      "mean": 0.512436330995324,
+      "low": 0.47275775509352036,
+      "high": 0.5459271407398129
+    }
+  },
+  "five_primary_endpoints_simultaneous_95_intervals": {
+    "replicated_gap_product": {
+      "mean": 0.004720052083333333,
+      "low": -0.004639078776041666,
+      "high": 0.01513671875
+    },
+    "labelled_transfer_minus_shuffled": {
+      "mean": 0.018813669004676018,
+      "low": -0.017749118027722097,
+      "high": 0.05690581684201731
+    },
+    "agreement_minus_global_reference": {
+      "mean": -0.03125,
+      "low": -0.11197916666666667,
+      "high": 0.044270833333333336
+    },
+    "agreement_minus_direct": {
+      "mean": 0.0026041666666666665,
+      "low": -0.08072916666666667,
+      "high": 0.078125
+    },
+    "agreement_minus_metadata": {
+      "mean": 0.0,
+      "low": -0.08072916666666667,
+      "high": 0.08072916666666667
+    }
+  },
+  "gates": {
+    "replicated_gap_product": false,
+    "labelled_transfer_minus_shuffled": false,
+    "agreement_minus_global_reference": false,
+    "agreement_minus_direct": false,
+    "agreement_minus_metadata": false
+  },
+  "type_prediction": {
+    "direct": {
+      "hits": 18,
+      "non_tie_groups": 39,
+      "ties": 9,
+      "all_groups": 48,
+      "invalid_primary": 0,
+      "paraphrase_agreement": 0.4375
+    },
+    "metadata": {
+      "hits": 20,
+      "non_tie_groups": 39,
+      "ties": 9,
+      "all_groups": 48,
+      "invalid_primary": 0,
+      "paraphrase_agreement": 0.3958333333333333
+    }
+  },
+  "group_counts": {
+    "total": 48,
+    "heldout_ties": 9,
+    "heldout_A_better": 16,
+    "heldout_B_better": 23
+  },
+  "persistent_error_audit": {
+    "preference_format_cells": 384,
+    "all_8_same_canonical_answer": 8,
+    "all_8_valid_wrong": 1,
+    "interpretation": "Item heterogeneity and repeated misinterpretation; not proof of temporal dependence"
+  },
+  "shuffle_control": {
+    "permutations": 499,
+    "seed": 935711,
+    "mean": 0.5124363309953239,
+    "permutation_mean_range": [
+      0.4661458333333333,
+      0.5572916666666666
+    ]
+  },
+  "scope": "Development discovery; no human, full-agent, fixed-budget superiority or asymptotic claims",
+  "inference_unit": "24 independent profiles, resampled with all their groups/items/responses",
+  "labelled_oracles": "Audit-only; labelled calibration uses different preferences and templates; hindsight is optimistically biased",
+  "costs": {
+    "main_response_samples": 3072,
+    "direct_report_samples": 96,
+    "metadata_samples": 96,
+    "selector_prefix": "2 preferences/group * 2 formats * 4 responses = 16 task queries/group",
+    "comparison": "Held-out response reliability only; no equal-total-cost agent comparison"
+  }
+}

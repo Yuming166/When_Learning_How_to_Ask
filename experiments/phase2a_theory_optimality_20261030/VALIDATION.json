@@ -1,0 +1,103 @@
+{
+  "source_config_protocol_unchanged": true,
+  "audit_hashes_unchanged": true,
+  "sealed_seed_unchanged": true,
+  "historical": [
+    {
+      "experiment": "phase01_20261030",
+      "files_verified": 47,
+      "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+    },
+    {
+      "experiment": "phase1b_userbench_audit_20261030",
+      "files_verified": 15,
+      "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+    },
+    {
+      "experiment": "phase1c_identifiability_20261030",
+      "files_verified": 69,
+      "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+    },
+    {
+      "experiment": "qrelbench_v01_20261030",
+      "files_verified": 45,
+      "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+    }
+  ],
+  "historical_files_verified": 176,
+  "all_planned_trajectories_accounted_for": true,
+  "trajectories": 792,
+  "fixed_budget_snapshots": 3696,
+  "costs": {
+    "task": 283825,
+    "type": 2719,
+    "offline": 26208
+  },
+  "all_cost_denominators_valid": true,
+  "exact_replays": [
+    {
+      "policy": "Round-Robin",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Repeat-and-Compare",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Explore-Then-Commit",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Direct Type Query",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Oracle Format",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Information Tracking",
+      "protocol": "fixed_budget",
+      "online": 256,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Oracle Format",
+      "protocol": "fixed_confidence",
+      "online": 384,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    },
+    {
+      "policy": "Information Tracking",
+      "protocol": "fixed_confidence",
+      "online": 800,
+      "exact_record_match_excluding_timing": true,
+      "transcript_sha256_match": true
+    }
+  ],
+  "replay_costs": {
+    "task": 2674,
+    "type": 46,
+    "offline": 0
+  },
+  "model_calls": 0,
+  "confirmation_episodes": 0,
+  "scope": "integrity and exact replay only, not independent scientific confirmation"
+}

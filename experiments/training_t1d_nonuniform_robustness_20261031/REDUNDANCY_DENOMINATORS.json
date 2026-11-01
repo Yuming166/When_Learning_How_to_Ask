@@ -1,0 +1,100 @@
+[
+  {
+    "policy": "KL-OriginalSolver",
+    "confidence_ge_095_query_count": 517,
+    "discretionary_task_count": 1297,
+    "fraction": 0.39861218195836545,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "KL-AnalyticReuse",
+    "confidence_ge_095_query_count": 518,
+    "discretionary_task_count": 1297,
+    "fraction": 0.39938319198149574,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "KL-Fresh",
+    "confidence_ge_095_query_count": 517,
+    "discretionary_task_count": 1292,
+    "fraction": 0.4001547987616099,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "Fused-Info",
+    "confidence_ge_095_query_count": 419,
+    "discretionary_task_count": 1382,
+    "fraction": 0.3031837916063676,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Uniform-Block",
+    "confidence_ge_095_query_count": 503,
+    "discretionary_task_count": 1308,
+    "fraction": 0.3845565749235474,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Fact-Block",
+    "confidence_ge_095_query_count": 404,
+    "discretionary_task_count": 1375,
+    "fraction": 0.2938181818181818,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Uniform-Fresh",
+    "confidence_ge_095_query_count": 489,
+    "discretionary_task_count": 1327,
+    "fraction": 0.36850037678975134,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Fact-Fresh",
+    "confidence_ge_095_query_count": 391,
+    "discretionary_task_count": 1399,
+    "fraction": 0.2794853466761973,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Uniform-Direct",
+    "confidence_ge_095_query_count": 514,
+    "discretionary_task_count": 1388,
+    "fraction": 0.3703170028818444,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "Fresh-IG-Lite",
+    "confidence_ge_095_query_count": 405,
+    "discretionary_task_count": 1404,
+    "fraction": 0.28846153846153844,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "Belief-Gated",
+    "confidence_ge_095_query_count": 403,
+    "discretionary_task_count": 1404,
+    "fraction": 0.28703703703703703,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "WorstFact-MI",
+    "confidence_ge_095_query_count": 375,
+    "discretionary_task_count": 1393,
+    "fraction": 0.26920315865039485,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Uniform-FixedType",
+    "confidence_ge_095_query_count": 523,
+    "discretionary_task_count": 1332,
+    "fraction": 0.39264264264264265,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  },
+  {
+    "policy": "IG-Fact-FixedType",
+    "confidence_ge_095_query_count": 365,
+    "discretionary_task_count": 1332,
+    "fraction": 0.27402402402402404,
+    "scope": "posthoc descriptive denominator, threshold and underlying counts preregistered"
+  }
+]

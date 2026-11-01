@@ -1,0 +1,26 @@
+{
+  "stage":"Phase2a bounded development",
+  "split":"development",
+  "eta":0.05,
+  "type_accuracy":0.8,
+  "master_seed":null,
+  "fixed_budget":{
+    "d":16,
+    "partitions":[[1,15],[2,14],[4,12],[8,8],[16]],
+    "alphas":[0,3],"p":0.85,"q":0.60,"episodes":8,
+    "budgets":[32,48,64,96,128,192,256],"planning_R":4,
+    "coverage_rates":[[0.75,0.60],[0.60,0.55]],"coverage_partition":[8,8],"coverage_alpha":3,"coverage_episodes":4
+  },
+  "fixed_confidence":{
+    "d":4,"partitions":[[1,3],[2,2],[4]],"alphas":[0,3],"Rs":[4,16,64],
+    "p":0.85,"q":0.60,"episodes":2,"online_cap":2048,"check_every":16,
+    "technical_dimensions":[6,8],"technical_R":4,"technical_alpha":3,"technical_episodes":1,"technical_cap":1024
+  },
+  "negative_controls":{
+    "cases":["q_boundary","label_asymmetric","persistent"],"d":4,"partition":[2,2],
+    "episodes":2,"R":4,"alpha":3,"online_cap":1024
+  },
+  "tracking_update_every":32,
+  "limits":{"online_actions":650000,"endpoint_decodes":3700,"wall_seconds":900,"blas_threads":1},
+  "confirmation_authorized":false,"model_calls_authorized":false
+}

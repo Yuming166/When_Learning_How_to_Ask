@@ -1,0 +1,664 @@
+[
+  {
+    "case_id": "W1-01",
+    "train_index": 127,
+    "selection_sha256": "00cfe4ce4f6ddfdab13f9c16b47016d869472d4c58925d241678cd06f9ecc866",
+    "record": {
+      "claim": "All regular Indian Railways trains cancelled till 30th September, 2020.",
+      "required_reannotation": false,
+      "label": "Refuted",
+      "justification": "It seems from the answer to the question pair that there is no justification to the claim argument. Therefore the claim is refuted.",
+      "claim_date": "10-8-2020",
+      "speaker": null,
+      "original_claim_url": null,
+      "fact_checking_article": "https://web.archive.org/web/20210721115102/https://newsmobile.in/articles/2020/08/11/fact-check-all-regular-trains-cancelled-till-30th-september-heres-the-truth/",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "IN",
+      "claim_types": [
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence"
+      ],
+      "questions": [
+        {
+          "question": "Are All regular Indian Railways trains cancelled till 30th September, 2020?",
+          "answers": [
+            {
+              "answer": "Rubbishing the claim, Ministry of Railways, in a tweet dated August 10, 2020, clarified that the message in circulation is incorrect.\n\nThe ministry clarified that as of August 10, 2020,  no new circular has been issued by Ministry of Railways regarding the extension of cancellation of trains.",
+              "answer_type": "Extractive",
+              "source_url": "Metadata",
+              "source_medium": "Metadata",
+              "cached_source_url": "Metadata"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": null
+    }
+  },
+  {
+    "case_id": "W1-02",
+    "train_index": 180,
+    "selection_sha256": "004ab10d9f030b74411b957723f7c35c4d6228fe7b7cfb67cd80882e894323c5",
+    "record": {
+      "claim": "In Kenya now with a population of about 48 million, we have one judge serving over 300,000 people",
+      "required_reannotation": false,
+      "label": "Supported",
+      "justification": "The population of Kenya in the claim is accurate. The 2018 State of the Judiciary report says there are 155 judges.\nArithmetic shows that 47,600,000 divided by 155 is over 300,000.",
+      "claim_date": "1-8-2020",
+      "speaker": "David Maraga",
+      "original_claim_url": null,
+      "fact_checking_article": "https://web.archive.org/web/20210127231105/https://africacheck.org/fact-checks/reports/factchecking-kenyas-chief-justice-judiciary-funding-and-backlog-cases",
+      "reporting_source": "NTV",
+      "location_ISO_code": "KE",
+      "claim_types": [
+        "Numerical Claim"
+      ],
+      "fact_checking_strategies": [
+        "Numerical Comparison"
+      ],
+      "questions": [
+        {
+          "question": "What is the population of Kenya as of 2019",
+          "answers": [
+            {
+              "answer": "The population has grown to 47.6 Million in 2019",
+              "answer_type": "Extractive",
+              "source_url": "https://web.archive.org/web/20210105192026/https://www.knbs.or.ke/?p=5621",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20210105192026/https://www.knbs.or.ke/?p=5621"
+            }
+          ]
+        },
+        {
+          "question": "How many judges were in Kenya in the same year",
+          "answers": [
+            {
+              "answer": "The Judiciary is composed of 155 Judges",
+              "answer_type": "Extractive",
+              "source_url": "https://www.judiciary.go.ke/wp-content/uploads/sojar20172018.pdf",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230420135104/https://www.judiciary.go.ke/wp-content/uploads/sojar20172018.pdf"
+            }
+          ]
+        },
+        {
+          "question": "What is the ratio of judges to people in Kenya",
+          "answers": [
+            {
+              "answer": "It is one judge to 307, 097 people",
+              "answer_type": "Abstractive",
+              "source_url": "https://www.symbolab.com/",
+              "source_medium": "Other",
+              "cached_source_url": "https://web.archive.org/web/20230420025754/https://www.symbolab.com/"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": null
+    }
+  },
+  {
+    "case_id": "W1-03",
+    "train_index": 463,
+    "selection_sha256": "002a27b05025661036a7170130968ed095008ba94103ac2fdf410c85ab93d4b8",
+    "record": {
+      "claim": "Cloth masks do not filter anything.",
+      "required_reannotation": false,
+      "label": "Refuted",
+      "justification": "The answers and credible sources show that wearing masks do help in reducing transmission so the claim is refuted.",
+      "claim_date": "21-6-2020",
+      "speaker": "William Senkarik ",
+      "original_claim_url": "https://perma.cc/L98Y-GG8N",
+      "fact_checking_article": "https://web.archive.org/web/20210222141326/https://factcheck.afp.com/covid-19-cases-spike-us-mask-misinformation-also-spreads",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Consultation"
+      ],
+      "questions": [
+        {
+          "question": "Why are cloth masks worn?",
+          "answers": [
+            {
+              "answer": "Well-fitting disposable surgical masks offer more protection than cloth or other woven masks, but less protection than respirators but cloth masks are better for the environment as they are reusable and do not contribute to landfill and useful when there is a mask shortage",
+              "answer_type": "Abstractive",
+              "source_url": "https://www.dhs.wisconsin.gov/covid-19/mask.htm",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230318014229/https://dhs.wisconsin.gov/covid-19/mask.htm"
+            }
+          ]
+        },
+        {
+          "question": "Are cloth masks effective in preventing the spread of viruses?",
+          "answers": [
+            {
+              "answer": "There is evidence to suggest that use of cloth face coverings by the public during a pandemic helps reduce disease transmission. Their primary role is to reduce the release of infectious particles into the air when someone speaks, coughs, or sneezes, including someone who has COVID-19 but feels well. Cloth face coverings are not a substitute for physical distancing, washing hands and staying home when ill, but they may be helpful when combined with these interventions.",
+              "answer_type": "Abstractive",
+              "source_url": "https://www.dhs.wisconsin.gov/covid-19/mask.htm",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230318014229/https://dhs.wisconsin.gov/covid-19/mask.htm"
+            },
+            {
+              "answer": "Dr. Jonathan Karn, of Case Western Reserve University School of Medicine and director of the Cleveland COVID Task Force, pointed to a study that found cloth barriers to be beneficial in protecting mice from droplet spread.",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20201221234605/https://www.biorxiv.org/content/10.1101/2020.04.06.028688v1",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20201221234605/https://www.biorxiv.org/content/10.1101/2020.04.06.028688v1"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://perma.cc/L98Y-GG8N"
+    }
+  },
+  {
+    "case_id": "W1-04",
+    "train_index": 584,
+    "selection_sha256": "00a5b7df90a777081b0bf4bd36988d7fa3b8a1865047a9048a894937f1abc3a0",
+    "record": {
+      "claim": "Thyrocare labs are sealed in Thane over false-positive COVID-19 testing.",
+      "required_reannotation": true,
+      "label": "Refuted",
+      "justification": "Thyro care Lab has not been sealed rather Thyrocare labs to stop testing coronavirus swab samples of suspect patients \nafter the civic body allegedly found irregularities in the in the test results from the private lab",
+      "claim_date": "7-6-2020",
+      "speaker": "Manoj Kalwar",
+      "original_claim_url": "https://www.facebook.com/manojkalwar/posts/10220950134676330",
+      "fact_checking_article": "https://web.archive.org/web/20200817190134/https://www.vishvasnews.com/english/viral/fact-check-no-this-thane-lab-is-not-sealed-over-false-positive-covid19-testing/",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "IN",
+      "claim_types": [
+        "Causal Claim",
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Consultation"
+      ],
+      "questions": [
+        {
+          "question": "Has the Thyro care Lab been sealed up?",
+          "answers": [
+            {
+              "answer": "Thyro care Lab has not been sealed.",
+              "answer_type": "Extractive",
+              "source_url": "https://twitter.com/hashtag/ThyrocareLab?src=hashtag_click",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230510140151/https://twitter.com/login"
+            }
+          ]
+        },
+        {
+          "question": "Has Thyro care Lab stopped preforming covid testing on people because of false positives in their testing?",
+          "answers": [
+            {
+              "answer": "The Thane Municipal Corporation has asked Thyrocare labs to stop testing coronavirus swab samples of suspect patients \nafter the civic body allegedly found irregularities in the in the test results from the private lab",
+              "answer_type": "Extractive",
+              "source_url": "https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230418204457/https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms"
+            }
+          ]
+        },
+        {
+          "question": "Despite the false positive tests was the Thane lab ever actually closed by the Thane Municipal Corporation?",
+          "answers": [
+            {
+              "answer": "Although Thyrocare was told to discontinue COVID testing there is no evidence that the lab was closed.",
+              "answer_type": "Abstractive",
+              "source_url": "https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230418204457/https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://web.archive.org/web/20230510143422/https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmanojkalwar%2Fposts%2F10220950134676330"
+    }
+  },
+  {
+    "case_id": "W1-05",
+    "train_index": 678,
+    "selection_sha256": "00b1bc1d63ce62ed183c9d3afc19900c4adec5079f8f632b0400f82cb094940a",
+    "record": {
+      "claim": "Since the week ending March 14, Wisconsin actually saw a drop in tourism spending compared to last year of $1.7 billion.",
+      "required_reannotation": false,
+      "label": "Supported",
+      "justification": "From the QA it seems evident that Wisconsin had a drop in tourism. Therefore the label is true",
+      "claim_date": "24-5-2020",
+      "speaker": "Sara Meaney",
+      "original_claim_url": "https://web.archive.org/web/20200807031508/https://www.wisn.com/article/upfront-recap-wisconsin-has-lost-dollar17-billion-in-tourism-dollars-since-march-14/32651612",
+      "fact_checking_article": "https://web.archive.org/web/20210117152017/https://www.politifact.com/factchecks/2020/jun/12/sara-meaney/yes-state-has-seen-drop-more-billion-tourism-dolla/",
+      "reporting_source": "WISN-TV \"Upfront\" show.",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Numerical Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Numerical Comparison"
+      ],
+      "questions": [
+        {
+          "question": "Has Wisconsin seen a drop of more than a billion in tourism dollars in 2020 ?",
+          "answers": [
+            {
+              "answer": "Data from weekly studies commissioned by the U.S. Travel Association, an organization with over 1,100 members nationwide, found that beginning the week ending March 14, when the COVID-19 crisis first began to significantly impact tourism spending, Wisconsin was down $17 million compared to a year earlier. The drop in year-over-year travel spending in the state mounted weekly, with the latest available report reporting a drop of $214 million for the week ending May 16. That brings the state tourism sector drop to $1.775 billion since the week ending March 14.\nFor a statement that is accurate and there’s nothing significant missing, our rating is True",
+              "answer_type": "Extractive",
+              "source_url": "https://www.wpr.org/wisconsins-tourism-industry-sees-30-percent-spending-decline-2020-due-covid-19",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230515183158/https://www.wpr.org/wisconsins-tourism-industry-sees-30-percent-spending-decline-2020-due-covid-19"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://web.archive.org/web/20200807031508/https://www.wisn.com/article/upfront-recap-wisconsin-has-lost-dollar17-billion-in-tourism-dollars-since-march-14/32651612"
+    }
+  },
+  {
+    "case_id": "W1-06",
+    "train_index": 1047,
+    "selection_sha256": "00ac9d00e45cbfa631716167ab1a5d26227e197d0db3768f3c5a81c3d1db5edf",
+    "record": {
+      "claim": "F. Scott Fitzgerald wrote a letter in the 1920 Spanish Influenza pandemic, in which he wrote to someone named “Rosemary” in which he wrote: “Even the bars, as I told Hemingway, but to that he punched me in the stomach, to which I asked if he had washed his hands,” the alleged letter says. “He hadn’t. He is much the denier, that one. Why, he considers the virus to be just influenza.”",
+      "required_reannotation": true,
+      "label": "Refuted",
+      "justification": "this was a work of Satire not a real letter from F. Scott Fitzgerald. ",
+      "claim_date": "19-3-2020",
+      "speaker": "Jay Nickerson",
+      "original_claim_url": "https://web.archive.org/web/20200909222356/https://www.facebook.com/jay.nickeron/posts/2617182365228423",
+      "fact_checking_article": "https://web.archive.org/web/20201020164028/https://checkyourfact.com/2020/03/31/fact-check-f-scott-fitzgerald-letter-quarantined-spanish-influenza/",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Quote Verification"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Satirical Source Identification"
+      ],
+      "questions": [
+        {
+          "question": "WHen did Scott Fitzgerald have the Spanish Influenza?",
+          "answers": [
+            {
+              "answer": "Between 1918 and 1919",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20201126181530/https://www.altnews.in/",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20201126181530/https://www.altnews.in/"
+            }
+          ]
+        },
+        {
+          "question": "Did scoot write any letter",
+          "answers": [
+            {
+              "answer": "The letter wasn’t actually written by Fitzgerald. Instead, it is a work of satire published on the website McSweeney’s Internet Tendency on March 13.",
+              "answer_type": "Extractive",
+              "source_url": "https://web.archive.org/web/20201020164028/https://www.mcsweeneys.net/articles/this-side-of-paradise-a-letter-from-f-scott-fitzgerald-quarantined-in-the-south-of-france",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20201020164028/https://www.mcsweeneys.net/articles/this-side-of-paradise-a-letter-from-f-scott-fitzgerald-quarantined-in-the-south-of-france"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://web.archive.org/web/20200909222356/https://www.facebook.com/jay.nickeron/posts/2617182365228423"
+    }
+  },
+  {
+    "case_id": "W1-07",
+    "train_index": 1238,
+    "selection_sha256": "017d5c44b9ad012b51b307b2df69c1e0b84bc86f95a565590d27ab1ea504c2fa",
+    "record": {
+      "claim": "A doctor's office in New South Wales was visited by people who had been exposed to the coronavirus.",
+      "required_reannotation": true,
+      "label": "Supported",
+      "justification": "QA sources provide evidence that at least 2 people confirmed as having coronavirus in New South Wales had visited a GP, though it’s not clear if it was one particular doctor’s office.",
+      "claim_date": "14-2-2020",
+      "speaker": "Cassandra Louise",
+      "original_claim_url": "https://perma.cc/52EG-ER82",
+      "fact_checking_article": "https://web.archive.org/web/20210126122206/https://factcheck.afp.com/australian-officials-dismiss-hoax-report-coronavirus-exposure-doctors-surgery-new-south-wales-town",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "AU",
+      "claim_types": [
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence"
+      ],
+      "questions": [
+        {
+          "question": "Did new south wales endure a coronavirus outbreak in 2020?",
+          "answers": [
+            {
+              "answer": "Three cases of coronavirus confirmed in NSW in nan 2020",
+              "answer_type": "Extractive",
+              "source_url": "https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230316183549/https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428"
+            }
+          ]
+        },
+        {
+          "question": "Did any people with coronavirus visit their doctor?",
+          "answers": [
+            {
+              "answer": "They contacted their GP, they called ahead and were double-masked when they presented to the GP clinic.",
+              "answer_type": "Extractive",
+              "source_url": "https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230316183549/https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428"
+            }
+          ]
+        },
+        {
+          "question": "Did a doctor in Wales have Covid-19 patients in his office",
+          "answers": [
+            {
+              "answer": "Three adult males have been diagnosed with the novel coronavirus. Two cases had travelled to Wuhan, China and one case had direct contact with a confirmed case from Wuhan while in China.",
+              "answer_type": "Extractive",
+              "source_url": "https://web.archive.org/web/20210119120854/https://www.health.nsw.gov.au/news/Pages/20200125_03.aspx",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20210119120854/https://www.health.nsw.gov.au/news/Pages/20200125_03.aspx"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://perma.cc/52EG-ER82"
+    }
+  },
+  {
+    "case_id": "W1-08",
+    "train_index": 1429,
+    "selection_sha256": "00d31cac677a913a6b7e5de6e29800f8a92ae585abeaa288d432bd0870b84904",
+    "record": {
+      "claim": "Donald Trump is rated international public opinion polls below Xi Jinping.",
+      "required_reannotation": false,
+      "label": "Supported",
+      "justification": "according to the question-answer pairs this claim is true",
+      "claim_date": "19-12-2019",
+      "speaker": "Joe Biden",
+      "original_claim_url": "https://www.washingtonpost.com/politics/2019/12/20/transcript-december-democratic-debate/",
+      "fact_checking_article": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/2019/12/factchecking-the-december-democratic-debate/",
+      "reporting_source": "The Washington Post",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Numerical Comparison"
+      ],
+      "questions": [
+        {
+          "question": "Where is Donald Trump ranked in the international  public opinion polls?",
+          "answers": [
+            {
+              "answer": "He is ranked below Xi Jinping",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/"
+            }
+          ]
+        },
+        {
+          "question": "How many countries were included in the poll?",
+          "answers": [
+            {
+              "answer": "25 different countries",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "W1-09",
+    "train_index": 1460,
+    "selection_sha256": "00972df257d9378955f0e65c699b16e7c0266014c0366f54fedece3c1c7cd257",
+    "record": {
+      "claim": "A female army sergeant who became a hero for her war-time actions is the first woman to earn a Silver Star since WWII.",
+      "required_reannotation": false,
+      "label": "Supported",
+      "justification": "True",
+      "claim_date": "9-12-2019",
+      "speaker": "Louise Bevan",
+      "original_claim_url": "https://www.theepochtimes.com/female-army-sergeant-repels-ambush-kills-3-becomes-first-woman-to-earn-silver-star-since-wwii_3164385.html",
+      "fact_checking_article": "https://web.archive.org/web/20210104203739/https://leadstories.com/hoax-alert/2020/03/Fact-Check-Female-Army-Sergeant-Who-Repelled-Ambush-Was-NOT-Only-Woman-To-Earn-Silver-Star-Since-WWII.html",
+      "reporting_source": "The Epoch Times",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence"
+      ],
+      "questions": [
+        {
+          "question": "Who was the first woman to receive a silver a Silver Star after world war 2?",
+          "answers": [
+            {
+              "answer": "Leigh Ann Hester On June 16, 2005",
+              "answer_type": "Abstractive",
+              "source_url": "Metadata",
+              "source_medium": "Metadata",
+              "cached_source_url": "Metadata"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://web.archive.org/web/20230602143520/https://www.theepochtimes.com/female-army-sergeant-repels-ambush-kills-3-becomes-first-woman-to-earn-silver-star-since-wwii_3164385.html"
+    }
+  },
+  {
+    "case_id": "W1-10",
+    "train_index": 2137,
+    "selection_sha256": "00e8d8f6fe578997bd5a78fde97169d5edb830b82ada67ac23d34d27be9e182f",
+    "record": {
+      "claim": "“America is like a healthy body and its resistance is threefold: its patriotism, its morality and its spiritual life. If we can undermine these three areas, America will collapse from within.",
+      "required_reannotation": true,
+      "label": "Refuted",
+      "justification": "There is no evidence to suggest that Stalin ever said this. So the claim is refuted. ",
+      "claim_date": "30-5-2019",
+      "speaker": null,
+      "original_claim_url": null,
+      "fact_checking_article": "https://web.archive.org/web/20201229200109/https://checkyourfact.com/2019/06/04/fact-check-joseph-stalin-healthy-body-patriotism-morality-spiritual-life-collapse/",
+      "reporting_source": "Facebook",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Quote Verification",
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Consultation"
+      ],
+      "questions": [
+        {
+          "question": "When did Joseph Stalin make such a statement",
+          "answers": [
+            {
+              "answer": "Searching through his archive revealed no evidence of him having made such a statement",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20210419013822/https://www.marxists.org/reference/archive/stalin/search.htm",
+              "source_medium": "Web text"
+            }
+          ]
+        },
+        {
+          "question": "Did Joseph Stalin say, \"America is like a healthy body and its resistance is threefold: its patriotism, its morality and its spiritual life. If we can undermine these three areas, America will collapse from within\"?",
+          "answers": [
+            {
+              "answer": "It looks as though Stalin did not state this quote. There is no evidence that he has ever said this.",
+              "answer_type": "Abstractive",
+              "source_url": "https://web.archive.org/web/20210419013822/https://www.marxists.org/reference/archive/stalin/search.htm",
+              "source_medium": "Web text"
+            }
+          ]
+        },
+        {
+          "question": "What is this claim about?",
+          "answers": [
+            {
+              "answer": "The claim is about whether Joseph Stalin stated the quote, \"America is like a healthy body, and its resistance is threefold: its patriotism, its morality, and its spiritual life. If we can undermine these three areas, America will collapse from within.\"",
+              "answer_type": "Abstractive",
+              "source_url": "Metadata",
+              "source_medium": "Metadata"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case_id": "W1-11",
+    "train_index": 2521,
+    "selection_sha256": "00a1deddc5080182ac9c668afd533d12be775000faeea3b2d9aaf7cd953521ce",
+    "record": {
+      "claim": "Blake Griffin, a forward for the Detroit Pistons basketball team, will pay $258,000 per month in child support to his ex Brynn Cameron.",
+      "required_reannotation": false,
+      "label": "Refuted",
+      "justification": "It seems that the divorce was settled amicably. Therefore the label is refuted ",
+      "claim_date": "25-2-2019",
+      "speaker": "",
+      "original_claim_url": "https://web.archive.org/web/20210624155424/https://radaronline.com/videos/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/",
+      "fact_checking_article": "https://web.archive.org/web/20210624155349/https://www.politifact.com/factchecks/2020/aug/03/viral-image/blake-griffin-and-ex-fiancee-say-he-doesnt-pay-258/",
+      "reporting_source": "Radar Online",
+      "location_ISO_code": "US",
+      "claim_types": [
+        "Numerical Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Numerical Comparison"
+      ],
+      "questions": [
+        {
+          "question": "Who is Blake Griffin's ex partner?",
+          "answers": [
+            {
+              "answer": "Blake Griffin's ex was Brynn Cameron",
+              "answer_type": "Extractive",
+              "source_url": "https://www.tmz.com/2018/02/14/blake-griffin-dumped-brynn-cameron-wedding-prenup/",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230607144742/https://www.tmz.com/2018/02/14/blake-griffin-dumped-brynn-cameron-wedding-prenup/"
+            }
+          ]
+        },
+        {
+          "question": "Does Blake Griffin's have a child with his ex Brynn Cameron?",
+          "answers": [
+            {
+              "answer": "Blake Griffin and Brynn Cameron have two children together",
+              "answer_type": "Extractive",
+              "source_url": "https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230607144825/https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court"
+            }
+          ]
+        },
+        {
+          "question": "Does Blake Griffin pay child support to Brynn cameron?",
+          "answers": [
+            {
+              "answer": "Radar Online reported that Griffin, 29, was ordered by the Los Angeles Superior Court to pay a sum of $258,000 a month in child support, citing court documents.",
+              "answer_type": "Extractive",
+              "source_url": "https://radaronline.com/exclusives/2018/08/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230607144857/https://radaronline.com/exclusives/2018/08/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/"
+            }
+          ]
+        },
+        {
+          "question": "Have Griffin or his ex-fiancée, Brynn Cameron given a statement on the amount of child support payments?",
+          "answers": [
+            {
+              "answer": "The recent reports of the financial details of the child support agreement between Blake Griffin and Brynn Cameron are inaccurate. Both sides have settled amicably and are moving forward with co-parenting their two children,\" a statement provided reads",
+              "answer_type": "Extractive",
+              "source_url": "https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20230607144825/https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": "https://web.archive.org/web/20210624155424/https://radaronline.com/videos/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/"
+    }
+  },
+  {
+    "case_id": "W1-12",
+    "train_index": 2772,
+    "selection_sha256": "01874cb71bedb533a66277b27468f74e46bd97634510de796ccd0a86643f8be5",
+    "record": {
+      "claim": "South Africa has invested more than R2 trillion in infrastructure projects over the past 10 years to build more schools, clinics, roads and the freight logistics network.",
+      "required_reannotation": false,
+      "label": "Supported",
+      "justification": "Confirmed 2.3 trillion over the amount stated in claim. ",
+      "claim_date": "12-1-2019",
+      "speaker": "African National Congress",
+      "original_claim_url": null,
+      "fact_checking_article": "https://web.archive.org/web/20210302051737/https://africacheck.org/fact-checks/reports/better-life-all-fact-checking-ancs-2019-election-manifesto",
+      "reporting_source": "ANC manifesto for the 2019",
+      "location_ISO_code": "ZA",
+      "claim_types": [
+        "Numerical Claim",
+        "Event/Property Claim"
+      ],
+      "fact_checking_strategies": [
+        "Written Evidence",
+        "Numerical Comparison"
+      ],
+      "questions": [
+        {
+          "question": "What is the total amount invested in infrastructure projects in South Africa in the past 10 financial years?",
+          "answers": [
+            {
+              "answer": "R2.3 trillion",
+              "answer_type": "Extractive",
+              "source_url": "Metadata",
+              "source_medium": "Metadata",
+              "cached_source_url": "Metadata"
+            }
+          ]
+        },
+        {
+          "question": "What areas of infrastructure are included in the total amount?",
+          "answers": [
+            {
+              "answer": "The annexure presents estimates of infrastructure spending across the public sector, which includes national, provincial and\nlocal government, as well as state-owned companies and other public entities. Public funds allocated to public-private\npartnerships are also included.",
+              "answer_type": "Extractive",
+              "source_url": "https://web.archive.org/web/20210413110818/http://www.treasury.gov.za/documents/national%20budget/2018/review/Annexure%20D.pdf#page=1",
+              "source_medium": "Web text",
+              "cached_source_url": "https://web.archive.org/web/20210413110818/http://www.treasury.gov.za/documents/national%20budget/2018/review/Annexure%20D.pdf#page=1"
+            }
+          ]
+        },
+        {
+          "question": "Are schools, clinics, roads, and freight logistics networks among the infrastructure projects?",
+          "answers": [
+            {
+              "answer": "Yes",
+              "answer_type": "Boolean",
+              "source_url": "Metadata",
+              "source_medium": "Metadata",
+              "boolean_explanation": "The National Treasury confirmed that schools, clinics, roads and the freight logistics network were among these projects.",
+              "cached_source_url": "Metadata"
+            }
+          ]
+        }
+      ],
+      "cached_original_claim_url": null
+    }
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "exact_checks": 112,
+  "decimal_rows": 240,
+  "full_lp_checks": 95,
+  "mixed_checks": 108,
+  "cost_sweep": [
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 0,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        1
+      ],
+      "gamma_at_best": 0.43094105001647504,
+      "oracle_coefficient": 3.6851707227842807,
+      "unknown_coefficient": 7.002779488789293,
+      "cost_ratio": 1.9002591780872604,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 0.5,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        1
+      ],
+      "gamma_at_best": 0.43094105001647504,
+      "oracle_coefficient": 5.5277560841764215,
+      "unknown_coefficient": 7.7961258455935525,
+      "cost_ratio": 1.4103599592446732,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 1,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        2
+      ],
+      "gamma_at_best": 0.6038275471366102,
+      "oracle_coefficient": 7.070205750791063,
+      "unknown_coefficient": 8.589472202397811,
+      "cost_ratio": 1.2148829192752648,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 2,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        3
+      ],
+      "gamma_at_best": 0.7673979554629471,
+      "oracle_coefficient": 9.392965593995305,
+      "unknown_coefficient": 10.176164916006332,
+      "cost_ratio": 1.0833814745911245,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 3,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        3
+      ],
+      "gamma_at_best": 0.7673979554629471,
+      "oracle_coefficient": 11.271558712794365,
+      "unknown_coefficient": 11.76285762961485,
+      "cost_ratio": 1.0435874868187318,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 1.7763568394002505e-15
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 5,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        4
+      ],
+      "gamma_at_best": 0.9304918929680466,
+      "oracle_coefficient": 14.817973744814347,
+      "unknown_coefficient": 14.936243056831888,
+      "cost_ratio": 1.0079814766886688,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 1.7763568394002505e-15
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 10,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        5
+      ],
+      "gamma_at_best": 1.0903799028275667,
+      "oracle_coefficient": 22.635039165179528,
+      "unknown_coefficient": 22.635039165179528,
+      "cost_ratio": 1.0,
+      "predicted_zero_premium": true,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 20,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        7
+      ],
+      "gamma_at_best": 1.4023335667554468,
+      "oracle_coefficient": 36.80438859866776,
+      "unknown_coefficient": 36.80438859866776,
+      "cost_ratio": 1.0,
+      "predicted_zero_premium": true,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 50,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        10
+      ],
+      "gamma_at_best": 1.8459912301309858,
+      "oracle_coefficient": 76.23975140590679,
+      "unknown_coefficient": 76.23975140590679,
+      "cost_ratio": 1.0,
+      "predicted_zero_premium": true,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 12,
+      "c": 100,
+      "ell": 1.0,
+      "actions": 90,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        12
+      ],
+      "gamma_at_best": 2.1253542330637436,
+      "oracle_coefficient": 139.149820178243,
+      "unknown_coefficient": 139.149820178243,
+      "cost_ratio": 1.0,
+      "predicted_zero_premium": true,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    }
+  ],
+  "ties": [
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        1
+      ],
+      "L_max": 2,
+      "c": 0.7740682923740237,
+      "ell": 1.0,
+      "actions": 5,
+      "wrong_answer_alternatives": 2,
+      "oracle_depths": [
+        1,
+        2
+      ],
+      "gamma_at_best": 0.6038275471366102,
+      "oracle_coefficient": 6.537744531276656,
+      "unknown_coefficient": 10.827171702051471,
+      "cost_ratio": 1.6561019859760717,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        2
+      ],
+      "L_max": 2,
+      "c": 0.7740682923740237,
+      "ell": 1.0,
+      "actions": 10,
+      "wrong_answer_alternatives": 6,
+      "oracle_depths": [
+        1,
+        2
+      ],
+      "gamma_at_best": 0.8088924107869159,
+      "oracle_coefficient": 13.075489062553311,
+      "unknown_coefficient": 16.164682581003653,
+      "cost_ratio": 1.2362583536012763,
+      "predicted_zero_premium": false,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        3
+      ],
+      "L_max": 2,
+      "c": 0.7740682923740237,
+      "ell": 1.0,
+      "actions": 15,
+      "wrong_answer_alternatives": 14,
+      "oracle_depths": [
+        1,
+        2
+      ],
+      "gamma_at_best": 1.0139572744372216,
+      "oracle_coefficient": 19.613233593829968,
+      "unknown_coefficient": 19.613233593829968,
+      "cost_ratio": 1.0,
+      "predicted_zero_premium": true,
+      "primal_min_slack": 0.0,
+      "primal_dual_gap": 0.0
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "group_sizes": [
+        4
+      ],
+      "L_max": 2,
+      "c": 0.7740682923740237,
+      "ell": 1.0,
+      "actions": 20,
+      "wrong_answer_alternatives": 30,
+      "oracle_depths": [
+        1,
+        2
+      ],
+      "gamma_at_best": 1.2190221380875275,
+      "oracle_coefficient": 26.150978125106622,
+      "unknown_coefficient": 26.15097812510662,
+      "cost_ratio": 0.9999999999999999,
+      "predicted_zero_premium": true,
+      "primal_min_slack": -6.661338147750939e-16,
+      "primal_dual_gap": 2.1316282072803006e-14
+    }
+  ],
+  "finite_delta_bounds": [
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "k": 8,
+      "c": 100,
+      "ell": 1,
+      "delta": 0.05,
+      "Dbar": 0.7196470428442983,
+      "oracle_relative_upper_bound": 2.2170480021775587
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "k": 16,
+      "c": 1000,
+      "ell": 1,
+      "delta": 0.01,
+      "Dbar": 0.811385325407055,
+      "oracle_relative_upper_bound": 1.4075678236863742
+    },
+    {
+      "r": 0.8,
+      "p": 0.8,
+      "q": 0.6,
+      "k": 16,
+      "c": 1000,
+      "ell": 1,
+      "delta": 1e-06,
+      "Dbar": 0.811385325407055,
+      "oracle_relative_upper_bound": 1.1640948596753005
+    }
+  ]
+}

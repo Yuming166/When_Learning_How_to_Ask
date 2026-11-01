@@ -1,0 +1,13 @@
+{
+  "stage": "one_explicit_engineering_continuation_before_any_scientific_fit",
+  "previous_attempt": "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_20261031",
+  "previous_receipt_sha256": "551c88a9e921f8b19e97c9a5235d474388f25537ea77dbdf4aa6c2e30ccc7942",
+  "seed_source_path": "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_20261031/artifacts/private/seed.json",
+  "seed_source_sha256": "a0eed63a7741cad775269c927579ccc0bdd93092bd4a8bd57ecb07db248fc5ac",
+  "same_master_seed_and_namespace": true,
+  "same_402_world_plan": true,
+  "new_fresh_worlds_due_to_continuation": 0,
+  "reason": "Confirmed marginal4.44e-16 floating overrun; guard-and-clip adapter only",
+  "previous_original_failed_prefix_cost": "unknown; not replaced by technical replay",
+  "scientific_fit_retries": 0
+}

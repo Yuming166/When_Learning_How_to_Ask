@@ -1,0 +1,834 @@
+[
+  {
+    "case_id": "W1-02",
+    "page_a": "P003",
+    "page_b": "P004",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P003",
+    "page_b": "P005",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P003",
+    "page_b": "P006",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P003",
+    "page_b": "P007",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P003",
+    "page_b": "P008",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P004",
+    "page_b": "P005",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P004",
+    "page_b": "P006",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P004",
+    "page_b": "P007",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P004",
+    "page_b": "P008",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P005",
+    "page_b": "P006",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P005",
+    "page_b": "P007",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P005",
+    "page_b": "P008",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P006",
+    "page_b": "P007",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P006",
+    "page_b": "P008",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-02",
+    "page_a": "P007",
+    "page_b": "P008",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P009",
+    "page_b": "P010",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P009",
+    "page_b": "P011",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P009",
+    "page_b": "P012",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P009",
+    "page_b": "P013",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P010",
+    "page_b": "P011",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P010",
+    "page_b": "P012",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P010",
+    "page_b": "P013",
+    "relationship": "EXPLICIT_CITATION_NOT_WHOLE_PAGE_EQUIVALENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P011",
+    "page_b": "P012",
+    "relationship": "UNRESOLVED_REPORTED_OR_TARGET_RELATION",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P011",
+    "page_b": "P013",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-03",
+    "page_a": "P012",
+    "page_b": "P013",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P015",
+    "relationship": "UNRESOLVED_REPORTED_OR_TARGET_RELATION",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P016",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P017",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P018",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P019",
+    "relationship": "UNRESOLVED_REPORTED_OR_TARGET_RELATION",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P014",
+    "page_b": "P020",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P015",
+    "page_b": "P016",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P015",
+    "page_b": "P017",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P015",
+    "page_b": "P018",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P015",
+    "page_b": "P019",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P015",
+    "page_b": "P020",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P016",
+    "page_b": "P017",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P016",
+    "page_b": "P018",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P016",
+    "page_b": "P019",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P016",
+    "page_b": "P020",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P017",
+    "page_b": "P018",
+    "relationship": "UNRESOLVED_REPORTED_OR_TARGET_RELATION",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P017",
+    "page_b": "P019",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P017",
+    "page_b": "P020",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P018",
+    "page_b": "P019",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P018",
+    "page_b": "P020",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-04",
+    "page_a": "P019",
+    "page_b": "P020",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P021",
+    "page_b": "P022",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L05_STUDY_SERIES",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P021",
+    "page_b": "P023",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P021",
+    "page_b": "P024",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P022",
+    "page_b": "P023",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P022",
+    "page_b": "P024",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "page_a": "P023",
+    "page_b": "P024",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P025",
+    "page_b": "P026",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P025",
+    "page_b": "P027",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P025",
+    "page_b": "P028",
+    "relationship": "UNRESOLVED_REPORTED_OR_TARGET_RELATION",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P026",
+    "page_b": "P027",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P026",
+    "page_b": "P028",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L06_PRIMARY_PUBLICATION",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-06",
+    "page_a": "P027",
+    "page_b": "P028",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P029",
+    "page_b": "P030",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P029",
+    "page_b": "P031",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P029",
+    "page_b": "P032",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P029",
+    "page_b": "P033",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P030",
+    "page_b": "P031",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P030",
+    "page_b": "P032",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P030",
+    "page_b": "P033",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P031",
+    "page_b": "P032",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P031",
+    "page_b": "P033",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L07_NSW_CASES",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-07",
+    "page_a": "P032",
+    "page_b": "P033",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-08",
+    "page_a": "P034",
+    "page_b": "P035",
+    "relationship": "EXPLICIT_CITATION_NOT_WHOLE_PAGE_EQUIVALENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-08",
+    "page_a": "P034",
+    "page_b": "P036",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-08",
+    "page_a": "P035",
+    "page_b": "P036",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-09",
+    "page_a": "P037",
+    "page_b": "P038",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-09",
+    "page_a": "P037",
+    "page_b": "P039",
+    "relationship": "EXPLICIT_CITATION_NOT_WHOLE_PAGE_EQUIVALENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-09",
+    "page_a": "P038",
+    "page_b": "P039",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-10",
+    "page_a": "P040",
+    "page_b": "P041",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P043",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P044",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P045",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P046",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L11_RADAR_AMOUNT|L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P047",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P048",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "L11_RADAR_AMOUNT|L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P042",
+    "page_b": "P049",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P044",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P045",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P046",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P047",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P048",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P043",
+    "page_b": "P049",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P044",
+    "page_b": "P045",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P044",
+    "page_b": "P046",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P044",
+    "page_b": "P047",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P044",
+    "page_b": "P048",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P044",
+    "page_b": "P049",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P045",
+    "page_b": "P046",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P045",
+    "page_b": "P047",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P045",
+    "page_b": "P048",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P045",
+    "page_b": "P049",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P046",
+    "page_b": "P047",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P046",
+    "page_b": "P048",
+    "relationship": "KNOWN_SHARED_MATERIAL_OR_NAMED_UPSTREAM",
+    "material_lineages": "L11_RADAR_AMOUNT|L11_JOINT_DENIAL",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P046",
+    "page_b": "P049",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P047",
+    "page_b": "P048",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P047",
+    "page_b": "P049",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-11",
+    "page_a": "P048",
+    "page_b": "P049",
+    "relationship": "SAME_NOMINATED_DOCUMENT_VERSION_CONTENT_NOT_EQUATED",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-12",
+    "page_a": "P050",
+    "page_b": "P051",
+    "relationship": "UNKNOWN_DEPENDENCE",
+    "material_lineages": "",
+    "statistical_independence": "NOT_ESTABLISHED"
+  }
+]

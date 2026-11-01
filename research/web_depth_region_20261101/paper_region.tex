@@ -1,0 +1,59 @@
+% Insert into the paper; requires amsmath/amssymb. This is not a full manuscript.
+% Full proof: REGION_THEOREM.md. Certificate: REGION_CERTIFICATE.json.
+\paragraph{A robust necessity of mixed reading depths.}
+Consider one fact, all format-composition blocks of depths $1,\ldots,6$,
+and extraction parameters bounded above by $39/40$.
+Each source carries a persistent report, correct with known probability $r$;
+the extraction rates $p>q\ge1/2$ are unknown.
+An oracle knows the better format, and receives two labelled calibration
+streams, each of length $M_\delta\sim\alpha\log(1/\delta)$.
+Let $K_{\rm or}$ denote its optimal asymptotic online-cost coefficient,
+and $K_L$ the coefficient restricted to depth $L$, allowing every format
+composition at that depth.
+
+\paragraph{Proposition (nondegenerate depth-mixing region).}
+Put $\varepsilon=1/40000$. For every
+\[
+\begin{gathered}
+|r-3/5|,\ |q-3/5|,\ |p-19/20|\le\varepsilon,\\
+\alpha\in[19/20,6/5],\qquad c/\ell\in[1/2,3/2],
+\end{gathered}
+\]
+where $c$ is the source-access cost and $\ell>0$ the per-read cost,
+\[
+K_{\rm or}\le16c+18\ell,\qquad
+\min_L K_L\ge16c+18\ell+\frac{15}{7}\ell.
+\]
+Consequently, every optimal allocation uses at least two distinct depths,
+with a relative online-cost reduction of at least $5/103$ against every
+fixed depth. At the central rates, the same $(\alpha,c/\ell)$ rectangle
+admits the stronger additive gap $9\ell/4$ and relative reduction $3/59$.
+
+\paragraph{Proof outline (computer-assisted).}
+Normalize $\ell=1$ and use $14$ depth-one and $2$ depth-two good-format
+blocks per $\log(1/\delta)$ units. Profiling the alternative low rate
+sets $v=\min(q,u)$. A rational interval certificate covering the entire
+range $u\in[1/2,39/40]$ gives an information surplus exceeding $1/35$
+at the central rates and $\alpha=1$.
+The profiled calibration divergence is at most $103/200$ there.
+Reducing $\alpha$ to $19/20$ leaves surplus $79/28000$.
+Analytic derivatives bound the total sensitivity to $(r,p,q)$ by $100$,
+leaving surplus at least $9/28000$ throughout the displayed box.
+
+For depth one, the fair-rate alternative gives
+$K_1\ge50(c+1)(1-5151\alpha/10000)$.
+For $L=2,\ldots,6$, the same-rate opposite-truth alternative has zero
+calibration divergence. A certificate for all format compositions,
+including analytic perturbation bounds, gives
+$K_L\ge(206/5)(c+L)/(L+1)$.
+Subtracting $16c+18$ yields a minimum gap $15/7$ on the rectangle.
+Since $16c+18\le42$, the relative saving is at least
+$(15/7)/(42+15/7)=5/103$.
+The finite-action program attains its optimum, so the strict gap excludes
+every allocation supported on one depth. Rescaling costs restores $\ell$.
+
+\paragraph{Scope.}
+This is a sufficient parameter region and a pointwise asymptotic result.
+It neither establishes a maximal phase boundary nor proves that an optimum
+uses only the good format or exactly two depths. Calibration costs are
+excluded from the online objective. Real Web validity requires separate evidence.

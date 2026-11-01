@@ -1,0 +1,9 @@
+{
+  "python": "3.13.13",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.1",
+  "core_dependencies": "standard library only; plotting dependencies separate",
+  "device": "CPU",
+  "experiment_model_id": null,
+  "experiment_model_calls": 0
+}

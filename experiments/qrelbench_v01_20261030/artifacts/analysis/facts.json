@@ -1,0 +1,13 @@
+{
+  "actual_episodes": 3108,
+  "online_actions": 1027579,
+  "llm_calls": 0,
+  "valid_contract_confidence_episodes": 238,
+  "valid_contract_certificate_errors": 0,
+  "valid_contract_censored": 83,
+  "out_of_model_confidence_episodes": 14,
+  "out_of_model_certificate_errors": 13,
+  "decision": "GO_TECHNICAL_CONTROLLED_BENCHMARK_ONLY",
+  "confirmation_ready": false,
+  "natural_shared_reliability_established": false
+}

@@ -1,0 +1,270 @@
+{
+  "url": "https://aristo-data-public.s3.amazonaws.com/proofwriter/proofwriter-dataset-V2020.12.3.zip",
+  "total_bytes": 214185889,
+  "files": [
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3/meta-train.jsonl",
+      "compressed": 5547697,
+      "size": 81359179,
+      "offset": 283,
+      "crc": 3617769985,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3/meta-dev.jsonl",
+      "compressed": 819426,
+      "size": 11757899,
+      "offset": 5548097,
+      "crc": 738503276,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-5/meta-train.jsonl",
+      "compressed": 7809718,
+      "size": 151482282,
+      "offset": 11594834,
+      "crc": 2056575574,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-5/meta-dev.jsonl",
+      "compressed": 1071056,
+      "size": 19321953,
+      "offset": 19404669,
+      "crc": 1694883088,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-2/meta-train.jsonl",
+      "compressed": 5480823,
+      "size": 73933474,
+      "offset": 26859840,
+      "crc": 3470085984,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-2/meta-dev.jsonl",
+      "compressed": 790036,
+      "size": 10659987,
+      "offset": 32340780,
+      "crc": 1606226391,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3ext/meta-train.jsonl",
+      "compressed": 7846527,
+      "size": 109316559,
+      "offset": 38144530,
+      "crc": 3329397797,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3ext/meta-dev.jsonl",
+      "compressed": 1140690,
+      "size": 15686636,
+      "offset": 45991177,
+      "crc": 2474460478,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-0/meta-train.jsonl",
+      "compressed": 10530807,
+      "size": 129334096,
+      "offset": 49486183,
+      "crc": 967445629,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-0/meta-dev.jsonl",
+      "compressed": 1524133,
+      "size": 18722449,
+      "offset": 60017107,
+      "crc": 2280094947,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3ext-NatLang/meta-train.jsonl",
+      "compressed": 10413173,
+      "size": 135782331,
+      "offset": 70836030,
+      "crc": 2978245320,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-3ext-NatLang/meta-dev.jsonl",
+      "compressed": 1512354,
+      "size": 19608097,
+      "offset": 81249331,
+      "crc": 2441394353,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-1/meta-train.jsonl",
+      "compressed": 5814229,
+      "size": 70572594,
+      "offset": 85736915,
+      "crc": 1036809631,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/depth-1/meta-dev.jsonl",
+      "compressed": 853833,
+      "size": 10447967,
+      "offset": 91551261,
+      "crc": 723986381,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/NatLang/meta-train.jsonl",
+      "compressed": 2121464,
+      "size": 26465771,
+      "offset": 97780522,
+      "crc": 3580531755,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/CWA/NatLang/meta-dev.jsonl",
+      "compressed": 297110,
+      "size": 3921460,
+      "offset": 99902103,
+      "crc": 4031014310,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/README.md",
+      "compressed": 4929,
+      "size": 21696,
+      "offset": 102749511,
+      "crc": 3986485520,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3/meta-train.jsonl",
+      "compressed": 5025564,
+      "size": 72168302,
+      "offset": 104041131,
+      "crc": 3852048963,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3/meta-dev.jsonl",
+      "compressed": 744131,
+      "size": 10367461,
+      "offset": 109066812,
+      "crc": 57655881,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-5/meta-train.jsonl",
+      "compressed": 6667177,
+      "size": 122622437,
+      "offset": 116144360,
+      "crc": 1490917150,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-5/meta-dev.jsonl",
+      "compressed": 932564,
+      "size": 16281925,
+      "offset": 122811654,
+      "crc": 3941782674,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-2/meta-train.jsonl",
+      "compressed": 5200825,
+      "size": 68187947,
+      "offset": 130939323,
+      "crc": 2567374492,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-2/meta-dev.jsonl",
+      "compressed": 742161,
+      "size": 9692273,
+      "offset": 136140265,
+      "crc": 1269238821,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3ext/meta-train.jsonl",
+      "compressed": 7179817,
+      "size": 97421417,
+      "offset": 141919907,
+      "crc": 114392711,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3ext/meta-dev.jsonl",
+      "compressed": 1054402,
+      "size": 14057817,
+      "offset": 149099844,
+      "crc": 542856046,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-0/meta-train.jsonl",
+      "compressed": 10059609,
+      "size": 120501114,
+      "offset": 155336877,
+      "crc": 2584410305,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-0/meta-dev.jsonl",
+      "compressed": 1435069,
+      "size": 17179315,
+      "offset": 165396603,
+      "crc": 247551299,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3ext-NatLang/meta-train.jsonl",
+      "compressed": 9743483,
+      "size": 123950207,
+      "offset": 179668318,
+      "crc": 495841709,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-3ext-NatLang/meta-dev.jsonl",
+      "compressed": 1422557,
+      "size": 17988287,
+      "offset": 189411929,
+      "crc": 3396889437,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-1/meta-train.jsonl",
+      "compressed": 5593944,
+      "size": 66877238,
+      "offset": 196210614,
+      "crc": 2148385718,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/depth-1/meta-dev.jsonl",
+      "compressed": 823824,
+      "size": 9885810,
+      "offset": 201804675,
+      "crc": 2913701820,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/NatLang/meta-train.jsonl",
+      "compressed": 2122880,
+      "size": 26528789,
+      "offset": 209038724,
+      "crc": 1119025968,
+      "method": 8
+    },
+    {
+      "name": "proofwriter-dataset-V2020.12.3/OWA/NatLang/meta-dev.jsonl",
+      "compressed": 297248,
+      "size": 3930469,
+      "offset": 211161721,
+      "crc": 3281355000,
+      "method": 8
+    }
+  ]
+}

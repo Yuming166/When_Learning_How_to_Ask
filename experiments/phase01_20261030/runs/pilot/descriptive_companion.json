@@ -1,0 +1,45 @@
+{
+  "scope": "Post-collection descriptive companion; no new hypothesis tests or changed primary gates",
+  "by_format": {
+    "A": {
+      "correct": 803,
+      "total": 1536,
+      "accuracy": 0.5227864583333334
+    },
+    "B": {
+      "correct": 859,
+      "total": 1536,
+      "accuracy": 0.5592447916666666
+    }
+  },
+  "by_private_policy_kind_audit_only": {
+    "weighted_sum": {
+      "groups": 22,
+      "correct": 771,
+      "total": 1408,
+      "accuracy": 0.5475852272727273
+    },
+    "lexicographic": {
+      "groups": 26,
+      "correct": 891,
+      "total": 1664,
+      "accuracy": 0.5354567307692307
+    }
+  },
+  "transfer_direction": {
+    "same_direction": 16,
+    "non_tie_both": 27,
+    "all_groups": 48,
+    "calibration_ties": 13,
+    "heldout_ties": 9
+  },
+  "format_order_and_length": {
+    "paired_evidence_equal": true,
+    "token_gap_B_minus_A_min": 1,
+    "token_gap_B_minus_A_max": 2,
+    "output_digit_counts": {
+      "0": 1148,
+      "1": 1924
+    }
+  }
+}

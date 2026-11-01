@@ -1,0 +1,52 @@
+% Insert into an existing manuscript with amsmath/amssymb.
+% This control deliberately extends the known-source model to r=1.
+\paragraph{Perfect-source control.}
+Suppose sources are known to be perfectly correct ($r=1$ under every
+hypothesis), while extraction rates $p,q$ remain unknown and each labelled
+calibration stream has length $M_\delta\sim\alpha\log(1/\delta)$.
+Retain the complete block menu of depths $1,\ldots,N$, costs $c+\ell L$,
+and no direct type queries. For either the learner or the format-aware
+oracle, let $T$ be the original independent-read optimal coefficient.
+Then the optimal online-cost coefficient is exactly
+\[
+K^{(N)}=(\ell+c/N)T,\qquad K_{[L]}=(\ell+c/L)T.
+\]
+If $c>0$, every optimal allocation is supported only on depth $N$;
+if $c=0$, every fixed depth can attain the same optimum.
+These statements hold for arbitrary fixed fact counts and partitions.
+
+\paragraph{Proof.}
+The observed counts of an $(a,b)$ block are independent binomials.
+For every wrong-truth, type, and continuous-rate alternative,
+\[
+D_{j,a,b}=a\,d_{j,A}+b\,d_{j,B}.
+\]
+Let $t_{j,m}$ be the total number of format-$m$ reads in allocation $x$.
+Repacking them into pure-format depth-$N$ blocks preserves every
+information constraint, including the calibration term. Its cost is
+$(\ell+c/N)\sum_{j,m}t_{j,m}$, whereas the original cost is
+\[
+(\ell+c/N)\sum_{j,m}t_{j,m}
++c\sum_{j,a,b}(1-(a+b)/N)x_{j,a,b}.
+\]
+This proves equality of the programs and excludes shorter-depth support
+when $c>0$. The expected-cost attainment argument uses cap-only count
+streams and the positive online-information bound
+\[
+\chi=\min_{e\in\{p,q\}:e>1/2}
+\frac{\operatorname{kl}(e,1/2)}{\operatorname{kl}(e,1-e)}>0,
+\]
+in place of the source-KL bound, which degenerates at $r=1$.
+Categorical GLR stopping and allocation tracking then attain the
+coefficient. No finite-sample adaptive batching equivalence is asserted.
+
+\paragraph{Mechanism implication.}
+At perfect sources, the learner and oracle coefficients share the same
+scale factor, so the original smallest-sharing-group zero-premium
+criterion is unchanged by source access cost.
+With known extraction rates, imperfect sources also admit a
+single-depth oracle optimum (possibly tied).
+In contrast, the certified imperfect-source, unknown-rate region requires
+multiple depths at every oracle optimum.
+Thus unknown extraction rates alone do not force the depth separation;
+the persistent-source mechanism is essential to this comparison.

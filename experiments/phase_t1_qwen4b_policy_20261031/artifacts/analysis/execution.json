@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "plots": [
+    "accuracy_vs_budget.png",
+    "accuracy_vs_budget.pdf",
+    "offline_quality_vs_inference_cost.png",
+    "offline_quality_vs_inference_cost.pdf"
+  ],
+  "model_calls": 0,
+  "simulation_worlds": 0,
+  "wall_seconds": 2.4123055799864233,
+  "cpu_seconds": 2.412216366,
+  "python": "3.13.13",
+  "executable": "/storage/gaoym/miniforge3/bin/python",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.1"
+}

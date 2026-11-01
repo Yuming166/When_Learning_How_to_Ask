@@ -1,0 +1,680 @@
+{
+  "status": "ANALYZED_NOT_CONFIRMATORY",
+  "decision": "GO_NO_TRAINING",
+  "primary": "AnalyticReuse",
+  "targets": {
+    "speedup": 2,
+    "query_ratio": 1.05
+  },
+  "arms": {
+    "Teacher": {
+      "worlds": 32,
+      "online_mean": 1002.0,
+      "online_sum": 32064,
+      "online_ratio": 1.0,
+      "query_ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "total_mean": 1410.0,
+      "total_sum": 45120,
+      "total_acquisition_ratio": 1.0,
+      "type_mean": 100.90625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 134.93515205999995,
+      "trajectory_cpu_mean": 4.2167235018749984,
+      "cpu_median": 2.868341682999997,
+      "cpu_p90": 9.969190479799996,
+      "cpu_range": [
+        0.6412836649999889,
+        10.506904178
+      ],
+      "speedup": 1.0,
+      "speedup_ci95": [
+        1.0,
+        1.0
+      ],
+      "charged_speedup": 1.0,
+      "planner_cpu_sum": 130.439754359,
+      "glr_cpu_sum": 0.9904514220002547,
+      "gate_cpu_sum": 0.5029210480000064,
+      "other_cpu_sum": 3.002025230999684,
+      "wall_sum": 139.82450854126364,
+      "wall_speedup": 1.0,
+      "wall_speedup_ci95": [
+        1.0,
+        1.0
+      ],
+      "wall_p90": 10.184151767054573,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703
+      },
+      "solver_cpu_components": {
+        "total": 124.1229129289999
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 32,
+      "same_terminal_counts_worlds": 32,
+      "minimum_logged_information": 1.000000001,
+      "maximum_logged_gap": 0.00010561997201200381,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.003796073000000011,
+      "grid_precompute_charge": 0.0
+    },
+    "ExactCache": {
+      "worlds": 32,
+      "online_mean": 1002.0,
+      "online_sum": 32064,
+      "online_ratio": 1.0,
+      "query_ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "total_mean": 1410.0,
+      "total_sum": 45120,
+      "total_acquisition_ratio": 1.0,
+      "type_mean": 100.90625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 131.25182900299998,
+      "trajectory_cpu_mean": 4.1016196563437495,
+      "cpu_median": 2.804661133500005,
+      "cpu_p90": 9.6498805177,
+      "cpu_range": [
+        0.6144040489999867,
+        11.605667423999996
+      ],
+      "speedup": 1.0280630227020744,
+      "speedup_ci95": [
+        0.9982287580903061,
+        1.0515626856904434
+      ],
+      "charged_speedup": 1.0280628401621816,
+      "planner_cpu_sum": 126.91898567000008,
+      "glr_cpu_sum": 0.9745995099999051,
+      "gate_cpu_sum": 0.4994625450000134,
+      "other_cpu_sum": 2.8587812779999817,
+      "wall_sum": 136.41262617800385,
+      "wall_speedup": 1.0250114850718266,
+      "wall_speedup_ci95": [
+        0.9960727215199963,
+        1.0486299215889847
+      ],
+      "wall_p90": 9.982514527020976,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703
+      },
+      "solver_cpu_components": {
+        "total": 120.64729318600023
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 32,
+      "same_terminal_counts_worlds": 32,
+      "minimum_logged_information": 1.000000001,
+      "maximum_logged_gap": 0.00010561997201200381,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.003715756999999986,
+      "grid_precompute_charge": 0.0
+    },
+    "QuantizedCache": {
+      "worlds": 32,
+      "online_mean": 1002.5,
+      "online_sum": 32080,
+      "online_ratio": 1.000499001996008,
+      "query_ratio_ci95": [
+        1.0,
+        1.0014873574615766
+      ],
+      "total_mean": 1410.5,
+      "total_sum": 45136,
+      "total_acquisition_ratio": 1.000354609929078,
+      "type_mean": 101.0625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 140.092257058,
+      "trajectory_cpu_mean": 4.3778830330625,
+      "cpu_median": 3.0172260585000004,
+      "cpu_p90": 10.460185426999999,
+      "cpu_range": [
+        0.5090171659999925,
+        11.757711934
+      ],
+      "speedup": 0.963187794198612,
+      "speedup_ci95": [
+        0.9269744622503352,
+        1.0002675020439942
+      ],
+      "charged_speedup": 0.9631896567364211,
+      "planner_cpu_sum": 135.62567260300006,
+      "glr_cpu_sum": 0.988044778000179,
+      "gate_cpu_sum": 0.5036850269999782,
+      "other_cpu_sum": 2.974854649999789,
+      "wall_sum": 145.145602427423,
+      "wall_speedup": 0.9633396134835014,
+      "wall_speedup_ci95": [
+        0.928875576080974,
+        0.9988050756296766
+      ],
+      "wall_p90": 10.73043732936494,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703,
+        "fallback": 1364,
+        "guard_reject": 1086,
+        "hits": 1425,
+        "accepted": 339
+      },
+      "solver_cpu_components": {
+        "fallback": 118.63018924399995,
+        "guard": 10.365593001000207,
+        "total": 129.29296555599993
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 31,
+      "same_terminal_counts_worlds": 29,
+      "minimum_logged_information": 1.000000001,
+      "maximum_logged_gap": 0.0004974024740219427,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.0036702490000000143,
+      "grid_precompute_charge": 0.0
+    },
+    "Interpolation": {
+      "worlds": 32,
+      "online_mean": 1002.0,
+      "online_sum": 32064,
+      "online_ratio": 1.0,
+      "query_ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "total_mean": 1410.0,
+      "total_sum": 45120,
+      "total_acquisition_ratio": 1.0,
+      "type_mean": 100.90625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 147.84998357500004,
+      "trajectory_cpu_mean": 4.620311986718751,
+      "cpu_median": 3.3879017300000003,
+      "cpu_p90": 10.616385042700003,
+      "cpu_range": [
+        0.5828217729999992,
+        11.205030995999998
+      ],
+      "speedup": 0.912649083870552,
+      "speedup_ci95": [
+        0.9064050852726976,
+        0.9189791989439899
+      ],
+      "charged_speedup": 0.8896726593977217,
+      "planner_cpu_sum": 143.43764406000017,
+      "glr_cpu_sum": 0.9874703559998159,
+      "gate_cpu_sum": 0.49540823899999786,
+      "other_cpu_sum": 2.9294609200000576,
+      "wall_sum": 152.79686746327206,
+      "wall_speedup": 0.9151006225626542,
+      "wall_speedup_ci95": [
+        0.9091011447106134,
+        0.9213091540452294
+      ],
+      "wall_p90": 10.914486540760846,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703,
+        "fallback": 1701,
+        "guard_reject": 1701,
+        "hits": 1703,
+        "accepted": 2
+      },
+      "solver_cpu_components": {
+        "fallback": 125.34071318000002,
+        "guard": 11.588441439999889,
+        "total": 137.2690161019999
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 32,
+      "same_terminal_counts_worlds": 32,
+      "minimum_logged_information": 1.000000001,
+      "maximum_logged_gap": 0.0001591631618295229,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.0034509819999999913,
+      "grid_precompute_charge": 3.8191460349999997
+    },
+    "RadialReuse": {
+      "worlds": 32,
+      "online_mean": 1002.0,
+      "online_sum": 32064,
+      "online_ratio": 1.0,
+      "query_ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "total_mean": 1410.0,
+      "total_sum": 45120,
+      "total_acquisition_ratio": 1.0,
+      "type_mean": 100.90625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 52.36867608199999,
+      "trajectory_cpu_mean": 1.6365211275624998,
+      "cpu_median": 1.3982261950000017,
+      "cpu_p90": 3.212319238700004,
+      "cpu_range": [
+        0.31428178600000223,
+        3.2559279939999968
+      ],
+      "speedup": 2.576638596872596,
+      "speedup_ci95": [
+        2.513319567058153,
+        2.6360674420128025
+      ],
+      "charged_speedup": 2.5765246944671105,
+      "planner_cpu_sum": 48.03155181500006,
+      "glr_cpu_sum": 0.9772204560000388,
+      "gate_cpu_sum": 0.5058320279999895,
+      "other_cpu_sum": 2.854071782999908,
+      "wall_sum": 57.61263496754691,
+      "wall_speedup": 2.4269764543841212,
+      "wall_speedup_ci95": [
+        2.374236277228216,
+        2.476467280911762
+      ],
+      "wall_p90": 3.5169835850596427,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703
+      },
+      "solver_cpu_components": {
+        "total": 41.357887550000015
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 32,
+      "same_terminal_counts_worlds": 32,
+      "minimum_logged_information": 1.0000000009999996,
+      "maximum_logged_gap": 0.00010561997201200381,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.00378843299999998,
+      "grid_precompute_charge": 0.0
+    },
+    "AnalyticReuse": {
+      "worlds": 32,
+      "online_mean": 1002.0,
+      "online_sum": 32064,
+      "online_ratio": 1.0,
+      "query_ratio_ci95": [
+        1.0,
+        1.0
+      ],
+      "total_mean": 1410.0,
+      "total_sum": 45120,
+      "total_acquisition_ratio": 1.0,
+      "type_mean": 100.90625,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 35.33021934700001,
+      "trajectory_cpu_mean": 1.1040693545937503,
+      "cpu_median": 0.8583663610000007,
+      "cpu_p90": 2.0059494496999983,
+      "cpu_range": [
+        0.2590598799999988,
+        2.104884559000002
+      ],
+      "speedup": 3.819255995404899,
+      "speedup_ci95": [
+        3.713792182862946,
+        3.9239074232246582
+      ],
+      "charged_speedup": 3.818948409829674,
+      "planner_cpu_sum": 30.666220851999974,
+      "glr_cpu_sum": 0.9844773859999967,
+      "gate_cpu_sum": 0.5042190449999955,
+      "other_cpu_sum": 3.1753020640000447,
+      "wall_sum": 39.93302446557209,
+      "wall_speedup": 3.5014755434267726,
+      "wall_speedup_ci95": [
+        3.432715016070684,
+        3.566893468985576
+      ],
+      "wall_p90": 2.1804434570483866,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1703
+      },
+      "solver_cpu_components": {
+        "total": 23.890764729000033
+      },
+      "p_terminal_mae": 0.010450821012253607,
+      "q_terminal_mae": 0.03700258479514258,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 32,
+      "same_terminal_counts_worlds": 32,
+      "minimum_logged_information": 1.0000000009999996,
+      "maximum_logged_gap": 0.00010561997201200381,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1703,
+      "startup_cpu": 0.003839574999999984,
+      "grid_precompute_charge": 0.0
+    },
+    "WarmStart": {
+      "worlds": 32,
+      "online_mean": 1001.5,
+      "online_sum": 32048,
+      "online_ratio": 0.9995009980039921,
+      "query_ratio_ci95": [
+        0.9985014985014985,
+        1.0
+      ],
+      "total_mean": 1409.5,
+      "total_sum": 45104,
+      "total_acquisition_ratio": 0.999645390070922,
+      "type_mean": 100.8125,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 30.786602562999995,
+      "trajectory_cpu_mean": 0.9620813300937499,
+      "cpu_median": 0.8985556849999989,
+      "cpu_p90": 1.6348736962999983,
+      "cpu_range": [
+        0.22014458700000006,
+        1.8402598429999992
+      ],
+      "speedup": 4.382917919698224,
+      "speedup_ci95": [
+        4.256286318660686,
+        4.508888816292099
+      ],
+      "charged_speedup": 4.382529735472517,
+      "planner_cpu_sum": 26.036340691000028,
+      "glr_cpu_sum": 1.0866056019999828,
+      "gate_cpu_sum": 0.527937382000006,
+      "other_cpu_sum": 3.1357188879999787,
+      "wall_sum": 35.8928299266845,
+      "wall_speedup": 3.8956111520566177,
+      "wall_speedup_ci95": [
+        3.7984789347677275,
+        3.989969444942302
+      ],
+      "wall_p90": 1.8836280912160879,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {
+        "calls": 1702,
+        "warm_calls": 1670
+      },
+      "solver_cpu_components": {
+        "total": 18.834324136000014
+      },
+      "p_terminal_mae": 0.010463050153357776,
+      "q_terminal_mae": 0.03732861992803943,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 31,
+      "same_terminal_counts_worlds": 30,
+      "minimum_logged_information": 1.000000001,
+      "maximum_logged_gap": 0.00010822742920615436,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 1702,
+      "startup_cpu": 0.0035931179999999507,
+      "grid_precompute_charge": 0.0
+    },
+    "Fused-D-RRC-Type": {
+      "worlds": 32,
+      "online_mean": 1131.0,
+      "online_sum": 36192,
+      "online_ratio": 1.1287425149700598,
+      "query_ratio_ci95": [
+        1.107106708734784,
+        1.1509436327851479
+      ],
+      "total_mean": 1539.0,
+      "total_sum": 49248,
+      "total_acquisition_ratio": 1.0914893617021277,
+      "type_mean": 210.09375,
+      "offline_mean": 408.0,
+      "trajectory_cpu_sum": 16.587617197999993,
+      "trajectory_cpu_mean": 0.5183630374374998,
+      "cpu_median": 0.47986513999999936,
+      "cpu_p90": 0.9568467574000002,
+      "cpu_range": [
+        0.1348879889999992,
+        1.0189112909999984
+      ],
+      "speedup": 8.134691707032484,
+      "speedup_ci95": [
+        7.777997387530072,
+        8.559635805792878
+      ],
+      "charged_speedup": 8.133143623014771,
+      "planner_cpu_sum": 9.982874655000012,
+      "glr_cpu_sum": 1.569803395999993,
+      "gate_cpu_sum": 0.6804894430000012,
+      "other_cpu_sum": 4.354449703999986,
+      "wall_sum": 22.163791307248175,
+      "wall_speedup": 6.30869090052915,
+      "wall_speedup_ci95": [
+        6.05547952407658,
+        6.605025795492612
+      ],
+      "wall_p90": 1.2286411046516152,
+      "certified": 32,
+      "exact_scoring": 32,
+      "wrong_certified": 0,
+      "censored": 0,
+      "gate_attempts": 32,
+      "gate_undetermined": 0,
+      "gate_rejected": 0,
+      "solver_calls_stats": {},
+      "solver_cpu_components": {},
+      "p_terminal_mae": 0.010752441839773055,
+      "q_terminal_mae": 0.03871151992067898,
+      "type_terminal_errors": 0,
+      "theta_estimate_terminal_errors": 0,
+      "same_online_count_worlds": 8,
+      "same_terminal_counts_worlds": 8,
+      "minimum_logged_information": null,
+      "maximum_logged_gap": null,
+      "solver_diagnostic_violations": 0,
+      "planning_updates": 0,
+      "startup_cpu": 0.003624071999999978,
+      "grid_precompute_charge": 0.0
+    }
+  },
+  "cells": [
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "n": 4,
+      "teacher_online_mean": 352.0,
+      "primary_online_mean": 352.0,
+      "primary_speedup": 5.1837020178737845,
+      "warm_online_mean": 348.0
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 256,
+      "n": 4,
+      "teacher_online_mean": 1868.0,
+      "primary_online_mean": 1868.0,
+      "primary_speedup": 5.706917768537765,
+      "warm_online_mean": 1868.0
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "n": 4,
+      "teacher_online_mean": 408.0,
+      "primary_online_mean": 408.0,
+      "primary_speedup": 4.405311413318346,
+      "warm_online_mean": 408.0
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 256,
+      "n": 4,
+      "teacher_online_mean": 1908.0,
+      "primary_online_mean": 1908.0,
+      "primary_speedup": 4.684254185934772,
+      "warm_online_mean": 1908.0
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "n": 4,
+      "teacher_online_mean": 212.0,
+      "primary_online_mean": 212.0,
+      "primary_speedup": 2.3025031024304172,
+      "warm_online_mean": 212.0
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 256,
+      "n": 4,
+      "teacher_online_mean": 1524.0,
+      "primary_online_mean": 1524.0,
+      "primary_speedup": 2.288509264825396,
+      "warm_online_mean": 1524.0
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "n": 4,
+      "teacher_online_mean": 308.0,
+      "primary_online_mean": 308.0,
+      "primary_speedup": 1.4953829114035637,
+      "warm_online_mean": 308.0
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 256,
+      "n": 4,
+      "teacher_online_mean": 1436.0,
+      "primary_online_mean": 1436.0,
+      "primary_speedup": 1.4668429832957477,
+      "warm_online_mean": 1436.0
+    }
+  ],
+  "whole_shared_evaluator_cpu": 50.95117095,
+  "conservative_primary_speedup_charging_all_parent_cpu": 1.5638267668773644,
+  "execution": {
+    "planned_trajectories": 256,
+    "independent_worlds": 32,
+    "maximum_online_actions": 1048576,
+    "freeze_sha256": "50d76628217873bd7fe9a398d23a540ce578ae38155adff8757ffba3da7474bf",
+    "seed_commitment": "53dfc672ee74a7e324df64e3bc10a6bf7a4e641789ce898fd36c4d237b6d24d7",
+    "model_calls": 0,
+    "confirmation_worlds": 0,
+    "retries": 0,
+    "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+    "stop_mode": "certified",
+    "input_snapshot_sha256": "0f29a1da8e7da9617fdc5e49d99fc4aa77ec562551dea76fdf8e1516a9c4f35a",
+    "status": "completed",
+    "error": null,
+    "finished_trajectories": 256,
+    "costs_including_partial": {
+      "task": 231312,
+      "type": 29328,
+      "offline": 104448
+    },
+    "seconds": 734.5646124603227,
+    "evaluator_cpu_seconds": 50.95117095,
+    "frozen_files_preserved": true
+  },
+  "unique_shared_offline_observations": 13056,
+  "bootstrap": {
+    "resamples": 20000,
+    "seed": 9917,
+    "unit": "paired worlds stratified by eight cells",
+    "scope": "exploratory percentile intervals, not uniform noninferiority certification"
+  },
+  "new_worlds": 32,
+  "trajectories": 256,
+  "training_updates": 0,
+  "model_calls": 0,
+  "confirmation_worlds": 0
+}

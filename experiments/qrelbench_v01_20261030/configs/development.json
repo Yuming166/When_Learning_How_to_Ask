@@ -1,0 +1,86 @@
+{
+  "version": "QRelBench-v0.1",
+  "split": "development",
+  "master_seed": null,
+  "p": 0.85,
+  "q": 0.6,
+  "type_accuracy": 0.8,
+  "d": 16,
+  "partitions": [
+    [
+      1,
+      15
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      16
+    ]
+  ],
+  "fixed_budget": {
+    "episodes": 24,
+    "budgets": [
+      64,
+      128,
+      256
+    ],
+    "calibration_size": 64
+  },
+  "fixed_confidence": {
+    "episodes": 2,
+    "deltas": [
+      0.1,
+      0.05,
+      0.01
+    ],
+    "online_cap": 4096,
+    "calibration_alpha": 64
+  },
+  "controls": {
+    "episodes": 8,
+    "budget": 128,
+    "confidence_episodes": 1,
+    "confidence_delta": 0.1,
+    "confidence_cap": 4096,
+    "cases": [
+      "equal_informative",
+      "equal_chance",
+      "no_sharing",
+      "perfect_type",
+      "label_asymmetric",
+      "persistent"
+    ]
+  },
+  "limits": {
+    "maximum_online_actions": 1500000,
+    "wall_seconds": 300,
+    "threads": 1
+  },
+  "split_ranges": {
+    "train": [
+      0,
+      99999
+    ],
+    "development": [
+      100000,
+      199999
+    ],
+    "test": [
+      200000,
+      299999
+    ]
+  },
+  "confirmation_authorized": false,
+  "llm_calls_authorized": false,
+  "seed_source": "sealed evaluator-only development seed; commitment bound before pilot"
+}

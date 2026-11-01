@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "profiles": 24,
+  "facts": 192,
+  "HTML_pages": 1152,
+  "experiment_model_calls": 0,
+  "new_web_requests": 0,
+  "roots": 768,
+  "same_root_triplets_checked": 192,
+  "three_distinct_roots_per_fact_checked": 192,
+  "truth_labels": {
+    "0": 96,
+    "1": 96
+  },
+  "per_profile_truth_balance": "4/4",
+  "per_profile_answer_order_balance": "4 YES-first / 4 NO-first",
+  "semantic_page_counts": {
+    "ASSERT_REFUTE": 234,
+    "ATTRIBUTED_ONLY": 230,
+    "MIXED": 229,
+    "NOT_ADDRESSED": 231,
+    "ASSERT_SUPPORT": 228
+  },
+  "source_error_root_counts": {
+    "correct": 574,
+    "corrupted": 194
+  },
+  "all_statement_DOM_text_record_checks": true,
+  "independent_truth_recomputation": true,
+  "source_draw_recomputation": true,
+  "copy_statement_hash_agreement": true,
+  "edit_ledger_independently_checked": true,
+  "selector_schema_forbidden_fields_absent": true,
+  "DOM_text_disagreement_mutation_rejected": true,
+  "parent_read_only_guard": {
+    "method": "recursive file size/mtime metadata digest; no parent content used",
+    "before": {
+      "../w1_averitec_audit_20261101": {
+        "files": 79,
+        "size_mtime_manifest_sha256": "a893e0b9468b5982637e93cdb14e67f554b7ed856d25d66c925004142efc5e27"
+      },
+      "../w1_1_source_semantics_20261101": {
+        "files": 32,
+        "size_mtime_manifest_sha256": "558b47087ab7f6f96027ec644aa70c50056f5b94d1c5e2f645c6a5a14c32e4ce"
+      }
+    },
+    "after": {
+      "../w1_averitec_audit_20261101": {
+        "files": 79,
+        "size_mtime_manifest_sha256": "a893e0b9468b5982637e93cdb14e67f554b7ed856d25d66c925004142efc5e27"
+      },
+      "../w1_1_source_semantics_20261101": {
+        "files": 32,
+        "size_mtime_manifest_sha256": "558b47087ab7f6f96027ec644aa70c50056f5b94d1c5e2f645c6a5a14c32e4ce"
+      }
+    }
+  },
+  "protocol_sha256": "fdf21d1d40edfb4bd6d9f80818304ffec6a3deeee811d3a4812268aca0bc56af",
+  "generator_sha256": "6bfdfe0174a5ab77607654c7bfe7ead3cb3ea787f4926928d94e4d55061cb4ee",
+  "corpus_inventory_sha256": "3691e7bac0ef9acb2ab20c9befcb137217974a3cd4602b24dc11f95bc7c9f8e1",
+  "example_HTML": "corpus/reader_visible/pages/page_00_2_2_0.html",
+  "scope": "Construction checks only; not Qwen performance, natural reliability, statistical-independence evidence, or iid-truth evidence"
+}

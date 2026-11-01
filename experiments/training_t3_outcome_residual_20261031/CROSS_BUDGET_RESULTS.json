@@ -1,0 +1,154 @@
+{
+  "16": {
+    "WorstFact-MI": {
+      "n": 48,
+      "a_success": 18,
+      "b_success": 17,
+      "wins": 1,
+      "losses": 0,
+      "both": 17,
+      "neither": 30,
+      "delta_pp": 2.083333333333333,
+      "ci95_pp": [
+        0.0,
+        6.25
+      ],
+      "family7_ci_pp": [
+        0.0,
+        8.333333333333332
+      ]
+    },
+    "IG-Fact-FixedType": {
+      "n": 48,
+      "a_success": 18,
+      "b_success": 18,
+      "wins": 1,
+      "losses": 1,
+      "both": 17,
+      "neither": 29,
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        -6.25,
+        6.25
+      ],
+      "family7_ci_pp": [
+        -8.333333333333332,
+        8.333333333333332
+      ]
+    }
+  },
+  "32": {
+    "WorstFact-MI": {
+      "n": 192,
+      "a_success": 154,
+      "b_success": 151,
+      "wins": 8,
+      "losses": 5,
+      "both": 146,
+      "neither": 33,
+      "delta_pp": 1.5625,
+      "ci95_pp": [
+        -2.083333333333333,
+        5.208333333333334
+      ],
+      "family7_ci_pp": [
+        -3.125,
+        6.770833333333333
+      ]
+    },
+    "IG-Fact-FixedType": {
+      "n": 192,
+      "a_success": 154,
+      "b_success": 157,
+      "wins": 8,
+      "losses": 11,
+      "both": 146,
+      "neither": 27,
+      "delta_pp": -1.5625,
+      "ci95_pp": [
+        -5.729166666666666,
+        2.604166666666667
+      ],
+      "family7_ci_pp": [
+        -7.8125,
+        4.166666666666666
+      ]
+    }
+  },
+  "48": {
+    "WorstFact-MI": {
+      "n": 48,
+      "a_success": 43,
+      "b_success": 43,
+      "wins": 1,
+      "losses": 1,
+      "both": 42,
+      "neither": 4,
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        -6.25,
+        6.25
+      ],
+      "family7_ci_pp": [
+        -8.333333333333332,
+        8.333333333333332
+      ]
+    },
+    "IG-Fact-FixedType": {
+      "n": 48,
+      "a_success": 43,
+      "b_success": 45,
+      "wins": 1,
+      "losses": 3,
+      "both": 42,
+      "neither": 2,
+      "delta_pp": -4.166666666666666,
+      "ci95_pp": [
+        -12.5,
+        4.166666666666666
+      ],
+      "family7_ci_pp": [
+        -15.186011904761898,
+        6.25
+      ]
+    }
+  },
+  "64": {
+    "WorstFact-MI": {
+      "n": 48,
+      "a_success": 47,
+      "b_success": 48,
+      "wins": 0,
+      "losses": 1,
+      "both": 47,
+      "neither": 0,
+      "delta_pp": -2.083333333333333,
+      "ci95_pp": [
+        -6.25,
+        0.0
+      ],
+      "family7_ci_pp": [
+        -8.333333333333332,
+        0.0
+      ]
+    },
+    "IG-Fact-FixedType": {
+      "n": 48,
+      "a_success": 47,
+      "b_success": 46,
+      "wins": 2,
+      "losses": 1,
+      "both": 45,
+      "neither": 0,
+      "delta_pp": 2.083333333333333,
+      "ci95_pp": [
+        -4.166666666666666,
+        8.333333333333332
+      ],
+      "family7_ci_pp": [
+        -6.25,
+        12.5
+      ]
+    }
+  }
+}

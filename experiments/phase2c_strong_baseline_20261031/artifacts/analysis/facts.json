@@ -1,0 +1,28 @@
+{
+  "trajectories": 640,
+  "independent_worlds": 128,
+  "cells": 16,
+  "per_cell_n": 8,
+  "costs": {
+    "task": 1894181,
+    "type": 30827,
+    "offline": 652800
+  },
+  "online_actions": 1925008,
+  "total_acquisition": 2577808,
+  "unique_world_offline_observations": 130560,
+  "completed": 637,
+  "censored": 3,
+  "wrong_certificates": 0,
+  "wall_seconds": 1412.9861539569683,
+  "evaluator_cpu_seconds": 381.459658342,
+  "trajectory_cpu_seconds": 1097.8730528660008,
+  "planner_seconds": 762.8744390429929,
+  "glr_seconds": 95.064503476955,
+  "planner_cpu_seconds": 762.842247889001,
+  "glr_cpu_seconds": 95.0990014550015,
+  "new_model_calls": 0,
+  "new_confirmation_worlds": 0,
+  "main_retries": 0,
+  "exact_machine_arithmetic_certificate": false
+}

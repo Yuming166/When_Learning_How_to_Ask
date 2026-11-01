@@ -1,0 +1,6074 @@
+{
+  "status": "PASS",
+  "reference": "Fractions; unsorted root-creation-order Bellman and explicit latent sums",
+  "comparison_tolerance_absolute": 2e-12,
+  "comparisons": [
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.48,
+      "expected_fraction": "12/25",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.48,
+      "expected_fraction": "12/25",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.47040000000000004,
+      "expected_fraction": "294/625",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.470016,
+      "expected_fraction": "7344/15625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.463488,
+      "expected_fraction": "7242/15625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.4625399807999999,
+      "expected_fraction": "4516992/9765625",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.453313536,
+      "expected_fraction": "885378/1953125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.4508860989151642,
+      "expected_fraction": "343998793728/762939453125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.4426206365220864,
+      "expected_fraction": "67538549274/152587890625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.4373921381103997,
+      "expected_fraction": "407353172181546369024/931322574615478515625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.44,
+      "expected_fraction": "11/25",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.44000000000000006,
+      "expected_fraction": "11/25",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.42079999999999995,
+      "expected_fraction": "263/625",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.41043200000000013,
+      "expected_fraction": "6413/15625",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.411584,
+      "expected_fraction": "6431/15625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.38857533440000014,
+      "expected_fraction": "3794681/9765625",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.403916288,
+      "expected_fraction": "788899/1953125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.35514225963696144,
+      "expected_fraction": "270952041349/762939453125",
+      "absolute_error": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.4008479499419648,
+      "expected_fraction": "61164543143/152587890625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.31764765684165197,
+      "expected_fraction": "295832433590341172393/931322574615478515625",
+      "absolute_error": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.41000000000000003,
+      "expected_fraction": "41/100",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.41000000000000003,
+      "expected_fraction": "41/100",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.40145000000000003,
+      "expected_fraction": "8029/20000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.36645800000000006,
+      "expected_fraction": "183229/500000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.40023162500000004,
+      "expected_fraction": "3201853/8000000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.33485957060000004,
+      "expected_fraction": "1674297853/5000000000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.40000664444140627,
+      "expected_fraction": "102401700977/256000000000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.2878090210276658,
+      "expected_fraction": "28780902102766577/100000000000000000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.4000000365914676,
+      "expected_fraction": "8192000749393255921/20480000000000000000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.23739078141005254,
+      "expected_fraction": "29673847676256558208174891921/125000000000000000000000000000",
+      "absolute_error": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.352,
+      "expected_fraction": "44/125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.31744000000000006,
+      "expected_fraction": "992/3125",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.26656768,
+      "expected_fraction": "104128/390625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.6,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.21310318261043204,
+      "expected_fraction": "6503393024/30517578125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.45,
+      "expected_fraction": "9/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.45000000000000007,
+      "expected_fraction": "9/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.426,
+      "expected_fraction": "213/500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.42525000000000013,
+      "expected_fraction": "1701/4000",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.40872,
+      "expected_fraction": "5109/12500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.40687312500000006,
+      "expected_fraction": "650997/1600000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.38328384,
+      "expected_fraction": "598881/1562500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.37857905455078145,
+      "expected_fraction": "19383247593/51200000000",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.356551591305216,
+      "expected_fraction": "43524364173/122070312500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.34649607485290645,
+      "expected_fraction": "1419247922597503929/4096000000000000000",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.34999999999999987,
+      "expected_fraction": "7/20",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.28174999999999983,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.27896,
+      "expected_fraction": "3487/12500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.2351693749999999,
+      "expected_fraction": "376271/1600000",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.25979072,
+      "expected_fraction": "405923/1562500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.1717192855273436,
+      "expected_fraction": "8792027419/51200000000",
+      "absolute_error": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.252119874854912,
+      "expected_fraction": "30776351911/122070312500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.11323113077556413,
+      "expected_fraction": "463794711656711603/4096000000000000000",
+      "absolute_error": 2.3592239273284576e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.275,
+      "expected_fraction": "11/40",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.27500000000000013,
+      "expected_fraction": "11/40",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.253625,
+      "expected_fraction": "2029/8000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.18528125000000017,
+      "expected_fraction": "5929/32000",
+      "absolute_error": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.25057906250000006,
+      "expected_fraction": "801853/3200000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.13161822265625034,
+      "expected_fraction": "6738853/51200000",
+      "absolute_error": 3.3306690738754696e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.25001661110351564,
+      "expected_fraction": "25601700977/102400000000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.07106819557865163,
+      "expected_fraction": "1863010106177/26214400000000",
+      "absolute_error": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.2500000914786689,
+      "expected_fraction": "2048000749393255921/8192000000000000000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.03047790777118997,
+      "expected_fraction": "4090675535242655010421/134217728000000000000000",
+      "absolute_error": 5.204170427930421e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.103515625,
+      "expected_fraction": "53/512",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.04892730712890625,
+      "expected_fraction": "6413/131072",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.017299838364124298,
+      "expected_fraction": "2321945/134217728",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.42000000000000004,
+      "expected_fraction": "21/50",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.41999999999999993,
+      "expected_fraction": "21/50",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.38159999999999994,
+      "expected_fraction": "477/1250",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.3810239999999998,
+      "expected_fraction": "11907/31250",
+      "absolute_error": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.35395200000000004,
+      "expected_fraction": "11061/31250",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.35254033919999994,
+      "expected_fraction": "13771107/39062500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.31325414399999996,
+      "expected_fraction": "1223649/3906250",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.3096920492415589,
+      "expected_fraction": "15121682091873/48828125000000",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.27048254608834565,
+      "expected_fraction": "82544722317/305175781250",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.2629765928965594,
+      "expected_fraction": "250794022461471174238749/953674316406250000000000",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.2599999999999999,
+      "expected_fraction": "13/50",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.2599999999999999,
+      "expected_fraction": "13/50",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.18319999999999992,
+      "expected_fraction": "229/1250",
+      "absolute_error": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.1676479999999998,
+      "expected_fraction": "5239/31250",
+      "absolute_error": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.1463359999999999,
+      "expected_fraction": "4573/31250",
+      "absolute_error": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.11434242559999996,
+      "expected_fraction": "4466501/39062500",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.11566515199999994,
+      "expected_fraction": "451817/3906250",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.05713449935378412,
+      "expected_fraction": "2789770476259/48828125000000",
+      "absolute_error": 2.0122792321330962e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.10339179976785917,
+      "expected_fraction": "31552673269/305175781250",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.021901193254767692,
+      "expected_fraction": "20886605505721882672343/953674316406250000000000",
+      "absolute_error": 1.3530843112619095e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.14,
+      "expected_fraction": "7/50",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.14,
+      "expected_fraction": "7/50",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.1058,
+      "expected_fraction": "529/5000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.053312000000000026,
+      "expected_fraction": "833/15625",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.10092650000000003,
+      "expected_fraction": "201853/2000000",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.022000294400000064,
+      "expected_fraction": "1718773/78125000",
+      "absolute_error": 6.591949208711867e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.10002657776562496,
+      "expected_fraction": "6401700977/64000000000",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 0.004138369119610852,
+      "expected_fraction": "404137609337/97656250000000",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.10000014636587029,
+      "expected_fraction": "512000749393255921/5120000000000000000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 0.0003766580953605825,
+      "expected_fraction": "718418303223753624289/1907348632812500000000000",
+      "absolute_error": 7.15573433840433e-18,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.027999999999999914,
+      "expected_fraction": "7/250",
+      "absolute_error": 8.673617379884035e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.008560000000000012,
+      "expected_fraction": "107/12500",
+      "absolute_error": 1.214306433183765e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.0008909200000000173,
+      "expected_fraction": "22273/25000000",
+      "absolute_error": 1.723881454251952e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.09999999999999998,
+      "expected_fraction": "1/10",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 0.9,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 3.3624887967986794e-05,
+      "expected_fraction": "1050777749/31250000000000",
+      "absolute_error": 1.3206937713589051e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 1
+      },
+      "actual": 0.4,
+      "expected_fraction": "2/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.352,
+      "expected_fraction": "44/125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 3
+      },
+      "actual": 0.352,
+      "expected_fraction": "44/125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.31744000000000006,
+      "expected_fraction": "992/3125",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 5
+      },
+      "actual": 0.31744000000000006,
+      "expected_fraction": "992/3125",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.26656768,
+      "expected_fraction": "104128/390625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 9
+      },
+      "actual": 0.26656768,
+      "expected_fraction": "104128/390625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.21310318261043204,
+      "expected_fraction": "6503393024/30517578125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.6,
+        "n": 15
+      },
+      "actual": 0.21310318261043204,
+      "expected_fraction": "6503393024/30517578125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.10399999999999987,
+      "expected_fraction": "13/125",
+      "absolute_error": 1.249000902703301e-16,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 3
+      },
+      "actual": 0.10399999999999987,
+      "expected_fraction": "13/125",
+      "absolute_error": 1.249000902703301e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.05791999999999997,
+      "expected_fraction": "181/3125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 5
+      },
+      "actual": 0.05791999999999997,
+      "expected_fraction": "181/3125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.01958143999999995,
+      "expected_fraction": "7649/390625",
+      "absolute_error": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 9
+      },
+      "actual": 0.01958143999999995,
+      "expected_fraction": "7649/390625",
+      "absolute_error": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.004239749709823992,
+      "expected_fraction": "129386893/30517578125",
+      "absolute_error": 7.806255641895632e-18,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.8,
+        "n": 15
+      },
+      "actual": 0.004239749709823992,
+      "expected_fraction": "129386893/30517578125",
+      "absolute_error": 7.806255641895632e-18,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.050000000000000044,
+      "expected_fraction": "1/20",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 1
+      },
+      "actual": 0.050000000000000044,
+      "expected_fraction": "1/20",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.007249999999999979,
+      "expected_fraction": "29/4000",
+      "absolute_error": 2.168404344971009e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 3
+      },
+      "actual": 0.007249999999999979,
+      "expected_fraction": "29/4000",
+      "absolute_error": 2.168404344971009e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.0011581250000001209,
+      "expected_fraction": "1853/1600000",
+      "absolute_error": 1.207801220148852e-16,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 5
+      },
+      "actual": 0.0011581250000001209,
+      "expected_fraction": "1853/1600000",
+      "absolute_error": 1.207801220148852e-16,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 3.3222207031280426e-05,
+      "expected_fraction": "1700977/51200000000",
+      "absolute_error": 3.042542346537447e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 9
+      },
+      "actual": 3.3222207031280426e-05,
+      "expected_fraction": "1700977/51200000000",
+      "absolute_error": 3.042542346537447e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 1.829573378353544e-07,
+      "expected_fraction": "749393255921/4096000000000000000",
+      "absolute_error": 3.5983494846579577e-17,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 0.95,
+        "n": 15
+      },
+      "actual": 1.829573378353544e-07,
+      "expected_fraction": "749393255921/4096000000000000000",
+      "absolute_error": 3.5983494846579577e-17,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 5
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 9
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "repeat_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fresh_frozen_law",
+      "parameters": {
+        "r": 1.0,
+        "a": 1.0,
+        "n": 15
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 1
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 2
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 3
+      },
+      "actual": 0.30200000000000005,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 4
+      },
+      "actual": 0.302,
+      "expected_fraction": "151/500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 5
+      },
+      "actual": 0.27896,
+      "expected_fraction": "3487/12500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 6
+      },
+      "actual": 0.27896,
+      "expected_fraction": "3487/12500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 1
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 2
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 3
+      },
+      "actual": 0.27896000000000004,
+      "expected_fraction": "3487/12500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 1
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 2
+      },
+      "actual": 0.25870999999999994,
+      "expected_fraction": "25871/100000",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 4,
+        "depth": 1
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 5,
+        "depth": 1
+      },
+      "actual": 0.235169375,
+      "expected_fraction": "376271/1600000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "roots": 6,
+        "depth": 1
+      },
+      "actual": 0.23516937500000004,
+      "expected_fraction": "376271/1600000",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 2
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 3
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 4
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 5
+      },
+      "actual": 0.05791999999999998,
+      "expected_fraction": "181/3125",
+      "absolute_error": 2.0816681711721685e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 6
+      },
+      "actual": 0.057919999999999965,
+      "expected_fraction": "181/3125",
+      "absolute_error": 3.469446951953614e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 2
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 3
+      },
+      "actual": 0.05791999999999997,
+      "expected_fraction": "181/3125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 1
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 2
+      },
+      "actual": 0.05791999999999996,
+      "expected_fraction": "181/3125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 4,
+        "depth": 1
+      },
+      "actual": 0.10399999999999993,
+      "expected_fraction": "13/125",
+      "absolute_error": 6.938893903907228e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 5,
+        "depth": 1
+      },
+      "actual": 0.057919999999999985,
+      "expected_fraction": "181/3125",
+      "absolute_error": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "roots": 6,
+        "depth": 1
+      },
+      "actual": 0.05791999999999997,
+      "expected_fraction": "181/3125",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 2
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 3
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 4
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 5
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 1,
+        "depth": 6
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 2,
+        "depth": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 2,
+        "depth": 2
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 2,
+        "depth": 3
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 3,
+        "depth": 1
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 3,
+        "depth": 2
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 4,
+        "depth": 1
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 5,
+        "depth": 1
+      },
+      "actual": 0.103515625,
+      "expected_fraction": "53/512",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "roots": 6,
+        "depth": 1
+      },
+      "actual": 0.103515625,
+      "expected_fraction": "53/512",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 2
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 4
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 5
+      },
+      "actual": 0.49999999999999994,
+      "expected_fraction": "1/2",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 1,
+        "depth": 6
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 2
+      },
+      "actual": 0.5000000000000001,
+      "expected_fraction": "1/2",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 2,
+        "depth": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 3,
+        "depth": 2
+      },
+      "actual": 0.5000000000000001,
+      "expected_fraction": "1/2",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 4,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 5,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "roots": 6,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 2
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 4
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 5
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 1,
+        "depth": 6
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 2,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 2,
+        "depth": 2
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 2,
+        "depth": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 3,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 3,
+        "depth": 2
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 4,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 5,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "fixed_depth_complete_count_law",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "roots": 6,
+        "depth": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 5,
+        "cost": 0
+      },
+      "actual": 0.23516937499999999,
+      "expected_fraction": "376271/1600000",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 6,
+        "cost": 0
+      },
+      "actual": 0.23516937500000004,
+      "expected_fraction": "376271/1600000",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.302,
+      "expected_fraction": "151/500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 5,
+        "cost": 1
+      },
+      "actual": 0.302,
+      "expected_fraction": "151/500",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "central_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 6,
+        "cost": 1
+      },
+      "actual": 0.27896000000000004,
+      "expected_fraction": "3487/12500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "frozen_grid_gain_witness_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 8,
+        "cost": 1
+      },
+      "actual": 0.24899,
+      "expected_fraction": "24899/100000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [],
+        "remaining": 8
+      },
+      "actual": 0.24899,
+      "expected_fraction": "24899/100000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 6
+      },
+      "actual": 0.24899,
+      "expected_fraction": "24899/100000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 6
+      },
+      "actual": 0.24899,
+      "expected_fraction": "24899/100000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 4
+      },
+      "actual": 0.20473394495412833,
+      "expected_fraction": "5579/27250",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 4
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 4
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 4
+      },
+      "actual": 0.20473394495412833,
+      "expected_fraction": "5579/27250",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 3
+      },
+      "actual": 0.17272727272727265,
+      "expected_fraction": "19/110",
+      "absolute_error": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 3
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.30199999999999994,
+      "expected_fraction": "151/500",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 3
+      },
+      "actual": 0.28175,
+      "expected_fraction": "1127/4000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 3
+      },
+      "actual": 0.17272727272727265,
+      "expected_fraction": "19/110",
+      "absolute_error": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.22477064220183482,
+      "expected_fraction": "49/218",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.2794117647058823,
+      "expected_fraction": "19/68",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.2794117647058823,
+      "expected_fraction": "19/68",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.2794117647058823,
+      "expected_fraction": "19/68",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 1
+      },
+      "actual": 0.2794117647058823,
+      "expected_fraction": "19/68",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.35,
+      "expected_fraction": "7/20",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 2
+      },
+      "actual": 0.22477064220183482,
+      "expected_fraction": "49/218",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.3499999999999999,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.35000000000000003,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "witness_reachable_conditional_value",
+      "parameters": {
+        "ordered_root_counts": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "remaining": 0
+      },
+      "actual": 0.3499999999999999,
+      "expected_fraction": "7/20",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "center_best_static_including_unspent_reference",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "budget": 8,
+        "cost": 1
+      },
+      "actual": 0.25871,
+      "expected_fraction": "25871/100000",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "larger_frozen_grid_gain_witness_fraction_dp",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "budget": 12,
+        "cost": 1
+      },
+      "actual": 0.07318601523199997,
+      "expected_fraction": "35735359/488281250",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "larger_best_static_including_unspent_reference",
+      "parameters": {
+        "r": 0.9,
+        "a": 0.8,
+        "budget": 12,
+        "cost": 1
+      },
+      "actual": 0.08838951526399998,
+      "expected_fraction": "43158943/488281250",
+      "absolute_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.19999999999999996,
+      "expected_fraction": "1/5",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.10399999999999995,
+      "expected_fraction": "13/125",
+      "absolute_error": 4.163336342344337e-17,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.15625,
+      "expected_fraction": "5/32",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 0,
+        "cost": 0
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 1,
+        "cost": 0
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 2,
+        "cost": 0
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 3,
+        "cost": 0
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 4,
+        "cost": 0
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 0,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 1,
+        "cost": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 2,
+        "cost": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 3,
+        "cost": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "boundary_unsorted_fraction_dp",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "budget": 4,
+        "cost": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.6500000000000001,
+      "expected_fraction": "13/20",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.6500000000000001,
+      "expected_fraction": "13/20",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 2
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 2
+      },
+      "actual": 0.7205882352941176,
+      "expected_fraction": "49/68",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 2
+      },
+      "actual": 0.7752293577981654,
+      "expected_fraction": "169/218",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.7423076923076923,
+      "expected_fraction": "193/260",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.8649606299212601,
+      "expected_fraction": "2197/2540",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 4
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 4
+      },
+      "actual": 0.7480544747081712,
+      "expected_fraction": "769/1028",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 4
+      },
+      "actual": 0.9224533298882504,
+      "expected_fraction": "28561/30962",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.32800000000000007,
+      "expected_fraction": "41/125",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.2504878048780488,
+      "expected_fraction": "1027/4100",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.9566941509920125,
+      "expected_fraction": "371293/388100",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.7495121951219512,
+      "expected_fraction": "3073/4100",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.9566941509920125,
+      "expected_fraction": "371293/388100",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 6
+      },
+      "actual": 0.2622080000000001,
+      "expected_fraction": "4097/15625",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 6
+      },
+      "actual": 0.2501220405174518,
+      "expected_fraction": "4099/16388",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 6
+      },
+      "actual": 0.9762058854580219,
+      "expected_fraction": "4826809/4944458",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 6
+      },
+      "actual": 0.7498779594825481,
+      "expected_fraction": "12289/16388",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 6
+      },
+      "actual": 0.9762058854580219,
+      "expected_fraction": "4826809/4944458",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 7
+      },
+      "actual": 0.5770880000000003,
+      "expected_fraction": "9017/15625",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 7
+      },
+      "actual": 0.2503216147277364,
+      "expected_fraction": "45143/180340",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 7
+      },
+      "actual": 0.9677245863030245,
+      "expected_fraction": "74237916380849/76713888880780",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 7
+      },
+      "actual": 0.7499694842844065,
+      "expected_fraction": "49153/65540",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 7
+      },
+      "actual": 0.9870455196827035,
+      "expected_fraction": "62748517/63572060",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 8
+      },
+      "actual": 0.5034009600000001,
+      "expected_fraction": "196641/390625",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 8
+      },
+      "actual": 0.25008390925595375,
+      "expected_fraction": "65569/262188",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 8
+      },
+      "actual": 0.9817972549259598,
+      "expected_fraction": "130697876003792388343/133121044439718590286",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 8
+      },
+      "actual": 0.7499923707218823,
+      "expected_fraction": "196609/262148",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 8
+      },
+      "actual": 0.9929825533485989,
+      "expected_fraction": "815730721/821495522",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 9
+      },
+      "actual": 0.7385113600000002,
+      "expected_fraction": "288481/390625",
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 9
+      },
+      "actual": 0.25021249233051746,
+      "expected_fraction": "1443631/5769620",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 9
+      },
+      "actual": 0.9762876103950768,
+      "expected_fraction": "1275312434524597230702187/1306287635882743023352460",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 9
+      },
+      "actual": 0.749998092658643,
+      "expected_fraction": "786433/1048580",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 9
+      },
+      "actual": 0.9962090968211756,
+      "expected_fraction": "10604499373/10644852980",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 10
+      },
+      "actual": 0.6778774528000001,
+      "expected_fraction": "6619897/9765625",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 10
+      },
+      "actual": 0.2500574782356885,
+      "expected_fraction": "6621419/26479588",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 10
+      },
+      "actual": 0.986294485843094,
+      "expected_fraction": "8402678223395109955405317093673/8519441550169898265182370988346",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 10
+      },
+      "actual": 0.7499995231632965,
+      "expected_fraction": "3145729/4194308",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 10
+      },
+      "actual": 0.9979551667044607,
+      "expected_fraction": "137858491849/138140967098",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 11
+      },
+      "actual": 0.8390960128,
+      "expected_fraction": "8194297/9765625",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 11
+      },
+      "actual": 0.25014015845410537,
+      "expected_fraction": "8198891/32777188",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 11
+      },
+      "actual": 0.9828202748939762,
+      "expected_fraction": "654279309062283725193733841939759639/665716129159896932832843988028297956",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 11
+      },
+      "actual": 0.7499998807907389,
+      "expected_fraction": "12582913/16777220",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 11
+      },
+      "actual": 0.9988978957857592,
+      "expected_fraction": "1792160394037/1794137720780",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 12
+      },
+      "actual": 0.7946311475200001,
+      "expected_fraction": "38800349/48828125",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 12
+      },
+      "actual": 0.2500391362459137,
+      "expected_fraction": "38806423/155201396",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 12
+      },
+      "actual": 0.9898396800748659,
+      "expected_fraction": "82302023828315078986245354195915132754313783/83146822142036399827684918594000922124634366",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 12
+      },
+      "actual": 0.7499999701976795,
+      "expected_fraction": "50331649/67108868",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 12
+      },
+      "actual": 0.9994062572540015,
+      "expected_fraction": "23298085122481/23311926409682",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 13
+      },
+      "actual": 0.90103539712,
+      "expected_fraction": "43995869/48828125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 13
+      },
+      "actual": 0.25009212001244935,
+      "expected_fraction": "220060403/879917380",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 13
+      },
+      "actual": 0.9877151043681581,
+      "expected_fraction": "5045307033591586940937166999712962380826576601389/5108059005353647132001470353807666430140050534660",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 13
+      },
+      "actual": 0.7499999925494195,
+      "expected_fraction": "201326593/268435460",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 13
+      },
+      "actual": 0.9996802047324068,
+      "expected_fraction": "302875106592253/302971995602660",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 14
+      },
+      "actual": 0.8702064238592,
+      "expected_fraction": "1062263701/1220703125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 14
+      },
+      "actual": 0.2500264590609409,
+      "expected_fraction": "1062376127/4249054804",
+      "absolute_error": 5.551115123125783e-17,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 14
+      },
+      "actual": 0.9925779555632137,
+      "expected_fraction": "285713177225161907389252981007305386032478247415586512649229/287849609820360239858816466505021759451975903630086209163058",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 14
+      },
+      "actual": 0.7499999981373549,
+      "expected_fraction": "805306369/1073741828",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 14
+      },
+      "actual": 0.9998277771284994,
+      "expected_fraction": "3937376385699289/3938054608772138",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 15
+      },
+      "actual": 0.9390617960448001,
+      "expected_fraction": "1146315669/1220703125",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 15
+      },
+      "actual": 0.2500602865876031,
+      "expected_fraction": "9554934157/38210522300",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 15
+      },
+      "actual": 0.9913196236623467,
+      "expected_fraction": "228377801214470799877859394657951486973910189426188901304461/230377565179985309989292554372085547371243725675920430647100",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 15
+      },
+      "actual": 0.7499999995343387,
+      "expected_fraction": "3221225473/4294967300",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.8,
+        "reads": 15
+      },
+      "actual": 0.9999072572357649,
+      "expected_fraction": "51185893014090757/51190640575600700",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.8,
+      "expected_fraction": "4/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.8,
+      "expected_fraction": "4/5",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 0.75,
+      "expected_fraction": "3/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 0.75,
+      "expected_fraction": "3/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 1
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 1
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.5200000000000001,
+      "expected_fraction": "13/25",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.015384615384615372,
+      "expected_fraction": "1/65",
+      "absolute_error": 1.3877787807814457e-17,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.9846153846153846,
+      "expected_fraction": "64/65",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.9846153846153846,
+      "expected_fraction": "64/65",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.9846153846153846,
+      "expected_fraction": "64/65",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 0.9642857142857143,
+      "expected_fraction": "27/28",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 0.75,
+      "expected_fraction": "3/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 0.9642857142857143,
+      "expected_fraction": "27/28",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 3
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 3
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.744,
+      "expected_fraction": "93/125",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.009032258064516121,
+      "expected_fraction": "7/775",
+      "absolute_error": 8.673617379884035e-18,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.9909677419354838,
+      "expected_fraction": "768/775",
+      "absolute_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.9990243902439024,
+      "expected_fraction": "1024/1025",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.9990243902439024,
+      "expected_fraction": "1024/1025",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 0.25,
+      "expected_fraction": "1/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 0.9959016393442623,
+      "expected_fraction": "243/244",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 0.75,
+      "expected_fraction": "3/4",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 0.9959016393442623,
+      "expected_fraction": "243/244",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.5,
+        "a": 0.8,
+        "reads": 5
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 5
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 5
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 0.75,
+        "a": 0.5,
+        "reads": 5
+      },
+      "actual": 0.5,
+      "expected_fraction": "1/2",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_acceptance_probability",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_actual_selective_error",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 0.0,
+      "expected_fraction": "0",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_mean_naive_confidence_when_accepted",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_correct_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "confidence_diagnostic_naive_all_positive_confidence",
+      "parameters": {
+        "r": 1,
+        "a": 1,
+        "reads": 5
+      },
+      "actual": 1.0,
+      "expected_fraction": "1",
+      "absolute_error": 0.0,
+      "pass": true
+    }
+  ],
+  "comparison_count": 461,
+  "max_absolute_error": 3.3306690738754696e-16,
+  "latent_sum_cross_checks": 64,
+  "reference_boundary_checks": 264,
+  "page_copy_complete_joint_law_checks": 6,
+  "witness_reachable_policy_nodes": 37,
+  "confidence_metric_checks_including_zero_coverage": 150,
+  "artifact_checks": {
+    "parent_content_hashes_preserved": {
+      "w1_averitec_audit_20261101": 78,
+      "w1_1_source_semantics_20261101": 31
+    },
+    "frozen_law_rows_complete": 80,
+    "frozen_cost_rows_complete": 81,
+    "cost_accounting_and_static_ordering_checks": 81,
+    "selector_visible_record_counts": {
+      "manifest.jsonl": 1152,
+      "facts.jsonl": 192
+    },
+    "selector_hidden_fields_absent": true,
+    "all_grid_DP_values_independently_recomputed": false,
+    "scope": "All law rows checked exactly elsewhere; only stated small/boundary/witness DP cases independently recomputed."
+  },
+  "engine_sha256": "54c389ecfa6214df1515f031c410778799235fc80eb356345dda2c47c44180c6",
+  "independent_verifier_sha256": "df9ff676f42a484c94c1ef0cdb0fb11763323d15430e165a9da32dc2581ad754",
+  "protocol_sha256": "fdf21d1d40edfb4bd6d9f80818304ffec6a3deeee811d3a4812268aca0bc56af",
+  "human_review": "NOT_PERFORMED_OR_REQUIRED_FOR_CONSTRUCTED_TRUTH",
+  "external_model_calls": 0,
+  "network_calls": 0,
+  "scientific_boundary": "Symbolic controlled channel validation; no natural or model-extraction reliability claim."
+}

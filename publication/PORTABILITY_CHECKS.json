@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "runtime path repair import checks; no training or scientific trajectories",
+  "modules": [
+    "t1.core",
+    "t2.bootstrap",
+    "t2b.bootstrap",
+    "t2b.reuse",
+    "t2b.attribution"
+  ],
+  "frozen_analytic_solver_hash_check": true,
+  "outside_checkout_modules": []
+}

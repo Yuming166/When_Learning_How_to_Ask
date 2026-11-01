@@ -1,0 +1,72 @@
+{
+  "completed_episodes": 3108,
+  "online_actions": 1027579,
+  "model_calls": 0,
+  "source_config_protocol_unchanged": true,
+  "independent_review_unchanged": true,
+  "sealed_seed_commitment_unchanged": true,
+  "all_costs_and_full_denominators_valid": true,
+  "exact_replays": [
+    {
+      "policy": "Fixed A",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Fixed B",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Round-Robin",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Explore-Then-Commit",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Repeat-and-Compare",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Direct Type Query",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Oracle Format",
+      "protocol": "fixed_budget",
+      "online_actions": 64,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    },
+    {
+      "policy": "Oracle Format",
+      "protocol": "fixed_confidence",
+      "online_actions": 791,
+      "exact_record_match": true,
+      "full_transcript_sha256_match": true
+    }
+  ],
+  "replayed_online_actions": 1239,
+  "historical_files_verified": 131,
+  "own_tests": 17,
+  "independent_check_groups": 10,
+  "scope": "Integrity and exact replay of existing development trajectories; not independent confirmatory evidence."
+}

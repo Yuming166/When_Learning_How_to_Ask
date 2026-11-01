@@ -1,0 +1,16 @@
+{
+  "checked_unix_time": 1793393352.467635,
+  "gpu_snapshot": [
+    "0, Tesla V100-PCIE-32GB, 0 MiB",
+    "1, Tesla V100-PCIE-32GB, 0 MiB",
+    "2, Tesla V100-PCIE-32GB, 0 MiB",
+    "3, NVIDIA GeForce RTX 4090, 1 MiB",
+    "4, NVIDIA GeForce RTX 4090, 1 MiB",
+    "5, NVIDIA GeForce RTX 4090, 1 MiB",
+    "6, NVIDIA GeForce RTX 4090, 20172 MiB"
+  ],
+  "compute_processes": [
+    "2507138, VLLM::EngineCore, 20162 MiB"
+  ],
+  "scope": "post-evaluation observation; no process termination or service modification"
+}

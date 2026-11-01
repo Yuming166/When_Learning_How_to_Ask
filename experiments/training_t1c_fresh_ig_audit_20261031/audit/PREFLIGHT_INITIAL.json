@@ -1,0 +1,123 @@
+{
+  "scope": "engineering literal records, not QRelBench worlds or trained rollouts",
+  "tests_passed": 8,
+  "worlds": 0,
+  "model_calls": 0,
+  "training_updates": 0,
+  "literal_records": 640,
+  "rows": [
+    {
+      "policy": "KL-Block",
+      "cpu": 0.20647138999999998,
+      "wall": 0.20647109486162663,
+      "updates": 11,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.045076383,
+        "target": 0.15953926200000002
+      }
+    },
+    {
+      "policy": "KL-Fresh",
+      "cpu": 1.0380747709999998,
+      "wall": 1.0381080848164856,
+      "updates": 56,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.21702841399999984,
+        "target": 0.8182811920000004
+      }
+    },
+    {
+      "policy": "IG-Block",
+      "cpu": 0.4430664740000001,
+      "wall": 0.44307497004047036,
+      "updates": 11,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.04228983199999936,
+        "target": 0.3990659920000008
+      }
+    },
+    {
+      "policy": "IG-Fresh",
+      "cpu": 2.253042294,
+      "wall": 2.2531677670776844,
+      "updates": 56,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.21547690500000005,
+        "target": 2.0346982120000012
+      }
+    },
+    {
+      "policy": "KL-32",
+      "cpu": 0.039378896999999746,
+      "wall": 0.03938773786649108,
+      "updates": 2,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.007693075999999799,
+        "target": 0.030313785999999787
+      }
+    },
+    {
+      "policy": "IG-32",
+      "cpu": 0.08130085899999973,
+      "wall": 0.08130154106765985,
+      "updates": 2,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.007642434000000087,
+        "target": 0.07237079500000032
+      }
+    },
+    {
+      "policy": "IG-Fresh-Direct",
+      "cpu": 2.262684836,
+      "wall": 2.2629809649661183,
+      "updates": 56,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.2180787070000001,
+        "target": 2.041640770999998
+      }
+    },
+    {
+      "policy": "Fresh-IG-Lite",
+      "cpu": 0.1992391540000007,
+      "wall": 0.19964801706373692,
+      "updates": 40,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.1531740949999998,
+        "target": 0.03935477300000123
+      }
+    },
+    {
+      "policy": "Budget-Switch",
+      "cpu": 0.29225944800000025,
+      "wall": 0.2922608209773898,
+      "updates": 11,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.10465706399999775,
+        "target": 0.16393457800000277,
+        "controller": 0.02106375099999891
+      }
+    },
+    {
+      "policy": "Belief-Gated",
+      "cpu": 0.36663046700000024,
+      "wall": 0.3666435368359089,
+      "updates": 11,
+      "literal_records": 64,
+      "component_cpu": {
+        "posterior": 0.16464234199999694,
+        "target": 0.15710456199999978,
+        "controller": 0.0420815680000004
+      }
+    }
+  ],
+  "total_cpu": 7.182148590000001
+}

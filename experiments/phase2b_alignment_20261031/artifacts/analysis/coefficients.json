@@ -1,0 +1,52 @@
+[
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "K_task_only": 7.332783899922386,
+    "K_task_type": 5.770220249367392,
+    "K_oracle": 4.810654084479637,
+    "task_lower": 7.3327834240055365,
+    "type_lower": 5.7702201139309315,
+    "scope": "post-run population reference only; no true parameter sent to learner"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "K_task_only": 6.76199242361316,
+    "K_task_type": 5.200708214585602,
+    "K_oracle": 4.101969826071568,
+    "task_lower": 6.7619915283249625,
+    "type_lower": 5.200707520181423,
+    "scope": "post-run population reference only; no true parameter sent to learner"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "K_task_only": 4.810654089290328,
+    "K_task_type": 4.810654089290328,
+    "K_oracle": 4.810654084479637,
+    "task_lower": 4.810654084479637,
+    "type_lower": 4.810654084479637,
+    "scope": "post-run population reference only; no true parameter sent to learner"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "K_task_only": 4.66045268029804,
+    "K_task_type": 4.253632462877016,
+    "K_oracle": 4.101969826071568,
+    "task_lower": 4.66045201051722,
+    "type_lower": 4.253631894927414,
+    "scope": "post-run population reference only; no true parameter sent to learner"
+  }
+]

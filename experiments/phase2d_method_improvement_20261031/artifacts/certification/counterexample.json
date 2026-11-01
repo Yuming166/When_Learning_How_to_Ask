@@ -1,0 +1,92 @@
+{
+  "counts_successes": 1000000000152,
+  "R_exact_input_float": 559615787992.8533,
+  "floating_gap_minus_beta": 0.0001220703125,
+  "floating_guard": 2.863102111608155e-07,
+  "floating_accepts": true,
+  "gate": {
+    "status": "rejected",
+    "reason": "gap_upper_at_or_below_beta_lower",
+    "certified": false,
+    "interval_certified": false,
+    "decision": "continue_or_abstain",
+    "theta": [
+      1
+    ],
+    "candidate_theta": [
+      1
+    ],
+    "candidate_loglik_lower": "-133531392644.81939482527105964959420497098086963651",
+    "candidate_loglik_upper": "-133531392644.81939482527105964959420497098086963648",
+    "wrong_loglik_lower": "-693147180665.30368086234380848959585053714297270775",
+    "wrong_loglik_upper": "-693147180665.30368086234380848959585053714297270772",
+    "gap_lower": "559615788020.48428603707274884000164556616210307121",
+    "gap_upper": "559615788020.48428603707274884000164556616210307127",
+    "beta_lower": "559615788020.48429260045654820820419295621356435021",
+    "beta_upper": "559615788020.48429260045654820820419295621356435022",
+    "precision": 50,
+    "precision_attempts": [
+      {
+        "precision": 50,
+        "status": "rejected",
+        "gap_lower": "559615788020.48428603707274884000164556616210307121",
+        "gap_upper": "559615788020.48428603707274884000164556616210307127",
+        "beta_lower": "559615788020.48429260045654820820419295621356435021",
+        "beta_upper": "559615788020.48429260045654820820419295621356435022"
+      }
+    ],
+    "dimension": 1,
+    "groups": 1,
+    "sign_candidates": 2,
+    "type_candidates": 2,
+    "joint_candidates": 4,
+    "total_observations": 1000000000152,
+    "task_counts": [
+      [
+        1000000000152,
+        0
+      ]
+    ],
+    "reference_count_per_stream": 0,
+    "type_counts": [
+      0
+    ],
+    "operation_counts": {
+      "exact_joint_mle_fits": 4,
+      "rational_divisions": 8,
+      "ln_evaluations": 6,
+      "directed_multiplications": 16,
+      "directed_additions": 18,
+      "directed_subtractions": 2
+    },
+    "exact_input_parameters": {
+      "R": "2292186267618727/4096",
+      "eta": "1/8",
+      "upper_rate": "7/8",
+      "type_accuracy": [
+        "3602879701896397/4503599627370496"
+      ]
+    },
+    "numerical_scope": {
+      "arithmetic": "exact_Fraction_MLE_and_outward_Decimal_log_intervals",
+      "candidate_domain": "1/2 <= q <= p <= 1-exact_input_eta (closure)",
+      "discrete_search": "all_theta_and_all_z",
+      "max_dimension": 4,
+      "max_total_observations": 1125899906842624,
+      "trust": "analytic_model_reduction_and_Python_Fraction_Decimal_contracts",
+      "formal_proof_assistant_verified": false
+    },
+    "lower_witness": {
+      "z": [
+        0
+      ],
+      "p": "7/8",
+      "q": "1/2"
+    },
+    "timings_seconds": {
+      "validation_and_exact_fits": 0.00011480413377285004,
+      "interval_enclosure": 0.0004398347809910774,
+      "total": 0.0005546389147639275
+    }
+  }
+}

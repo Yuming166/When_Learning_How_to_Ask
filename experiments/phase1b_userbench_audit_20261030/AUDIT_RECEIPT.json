@@ -1,0 +1,26 @@
+{
+  "verified_unix_time": 1793363257.5065053,
+  "model_calls": 0,
+  "old_phase01_all_receipt_hashes_unchanged": true,
+  "upstream_clean": true,
+  "tests_passed": 5,
+  "source_compile_pass": true,
+  "snapshot_files": {
+    ".gitignore": "110c6b962cc3e49b9e799f30b8d95c9eb2b4d97569b8fa40d8382a361e4a4f72",
+    "README.md": "34931311fc967c86c676025c0433ecaad6b9205946a8be757cff14709560f9c4",
+    "audit_execution.log": "82e0ca82c83a6ca37aac6eae0f13bf1f3982ada54f58f9dc1da583baf484c26d",
+    "audit_summary.json": "6a87c6a306b76f2ae40e9a5c629f6146ee30d4d58abba4f67296282913651c8e",
+    "audit_userbench.py": "789d24940b0ee0ef00cea45858eb8d51f614813abcb7e2cb801395a5e0b387c7",
+    "benchmark_selection_report.md": "59e38070b061ffe8b3f57e6a887631dad04acf4e922c431736a719aca5a2a893",
+    "preference_catalog.jsonl": "8c565650ca2eb949d6e3404e26240c14f418c64732ef8508859e1c781da3ea7d",
+    "preview_private.jsonl": "da98653688b9fe852b9a75e9ad06e7d2027b81f26591887c8c5e54218e5ca32a",
+    "preview_public.jsonl": "ec85396969033f3d872a9234a6956b43947572625f115ec06fdac89c82b807d4",
+    "proposed_diagnostic.json": "be56cb0714b6e0f1f1c25d625465b9ed3f229e5e7cdb426509bda15cf6a7ce0f",
+    "source_manifest.json": "5c2cd9510c0776920fccf9f2c834dad11c3a48ed1a3ebe8740157cf26edea4d3",
+    "sources/userbench_emnlp2026.pdf": "97b7e0fd6fee11810f7bab7084a7fe4235c1afa849383d8e1f92b93e0de9482e",
+    "sources/userbench_emnlp2026.txt": "5f644c1f819d5d5e5b28a19881fa0087490d0544dfa53120254623f16a11f2eb",
+    "sources/userbench_pdf_preflight.json": "15ee9238a0c661151d9ceb0c14b80aeb522d1ddd1e7cfd1987464abc28deb49f",
+    "test_audit.py": "a7c9c03c0c8af0cf6fba4507ddfe55067f6d6198c08bd3a7221ba77a4f28a8f1"
+  },
+  "scope": "Source/data/structural adaptation audit, not empirical model reliability or a complete native Gym run"
+}

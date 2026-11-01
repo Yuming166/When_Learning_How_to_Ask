@@ -1,0 +1,218 @@
+[
+  {
+    "index": 910000,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 4.440892098500626e-16,
+    "p_error_32_vs_64": 2.220446049250313e-16,
+    "q_error_32_vs_64": 4.440892098500626e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910000,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 3.3306690738754696e-16,
+    "p_error_32_vs_64": 9.992007221626409e-16,
+    "q_error_32_vs_64": 1.2212453270876722e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910100,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 5.995204332975845e-15,
+    "p_error_32_vs_64": 4.551914400963142e-15,
+    "q_error_32_vs_64": 3.219646771412954e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910100,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 5.995204332975845e-15,
+    "p_error_32_vs_64": 4.551914400963142e-15,
+    "q_error_32_vs_64": 3.219646771412954e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910200,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.3322676295501878e-15,
+    "p_error_32_vs_64": 1.1102230246251565e-16,
+    "q_error_32_vs_64": 2.220446049250313e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910200,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.4432899320127035e-15,
+    "p_error_32_vs_64": 1.4432899320127035e-15,
+    "q_error_32_vs_64": 7.771561172376096e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910300,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.7208456881689926e-15,
+    "p_error_32_vs_64": 2.1094237467877974e-15,
+    "q_error_32_vs_64": 1.9984014443252818e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910300,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.6653345369377348e-15,
+    "p_error_32_vs_64": 2.4424906541753444e-15,
+    "q_error_32_vs_64": 2.6645352591003757e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910400,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.3322676295501878e-15,
+    "p_error_32_vs_64": 1.4432899320127035e-15,
+    "q_error_32_vs_64": 6.661338147750939e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910400,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.3322676295501878e-15,
+    "p_error_32_vs_64": 1.4432899320127035e-15,
+    "q_error_32_vs_64": 6.661338147750939e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910500,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 4.440892098500626e-15,
+    "p_error_32_vs_64": 4.773959005888173e-15,
+    "q_error_32_vs_64": 4.9960036108132044e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910500,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 8.43769498715119e-15,
+    "p_error_32_vs_64": 7.549516567451064e-15,
+    "q_error_32_vs_64": 5.88418203051333e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910600,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 4.440892098500626e-16,
+    "p_error_32_vs_64": 9.992007221626409e-16,
+    "q_error_32_vs_64": 4.440892098500626e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910600,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 8.881784197001252e-16,
+    "p_error_32_vs_64": 7.771561172376096e-16,
+    "q_error_32_vs_64": 6.661338147750939e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910700,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 3.219646771412954e-15,
+    "p_error_32_vs_64": 2.7755575615628914e-15,
+    "q_error_32_vs_64": 2.1094237467877974e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910700,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 5.218048215738236e-15,
+    "p_error_32_vs_64": 7.771561172376096e-15,
+    "q_error_32_vs_64": 6.5503158452884236e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910800,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 4.440892098500626e-16,
+    "p_error_32_vs_64": 2.220446049250313e-16,
+    "q_error_32_vs_64": 4.440892098500626e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910800,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 3.3306690738754696e-16,
+    "p_error_32_vs_64": 0.0,
+    "q_error_32_vs_64": 5.551115123125783e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910900,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.887379141862766e-15,
+    "p_error_32_vs_64": 1.9984014443252818e-15,
+    "q_error_32_vs_64": 1.2212453270876722e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 910900,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.9984014443252818e-15,
+    "p_error_32_vs_64": 1.2212453270876722e-15,
+    "q_error_32_vs_64": 1.5543122344752192e-15,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 911000,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 4.440892098500626e-16,
+    "p_error_32_vs_64": 7.771561172376096e-16,
+    "q_error_32_vs_64": 6.661338147750939e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 911000,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.6653345369377348e-16,
+    "p_error_32_vs_64": 2.220446049250313e-16,
+    "q_error_32_vs_64": 3.3306690738754696e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 911100,
+    "policy": "Recovery-1",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.7763568394002505e-15,
+    "p_error_32_vs_64": 1.3322676295501878e-15,
+    "q_error_32_vs_64": 7.771561172376096e-16,
+    "joint_MAP_agrees": true
+  },
+  {
+    "index": 911100,
+    "policy": "Lookahead-2",
+    "budget": 32,
+    "maximum_joint_theta_mass_error": 1.7763568394002505e-15,
+    "p_error_32_vs_64": 1.3322676295501878e-15,
+    "q_error_32_vs_64": 7.771561172376096e-16,
+    "joint_MAP_agrees": true
+  }
+]

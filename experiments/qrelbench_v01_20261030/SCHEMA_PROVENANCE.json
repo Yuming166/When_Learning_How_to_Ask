@@ -1,0 +1,12 @@
+{
+  "access_date": "2026-10-30",
+  "displayed_schema_version": "V30.1 (2026-09-16), development pages",
+  "source_type": "schema reference only; no external product records",
+  "pages": ["https://schema.org/Product", "https://schema.org/Offer", "https://schema.org/availability", "https://schema.org/price", "https://schema.org/priceCurrency", "https://schema.org/shippingRate", "https://schema.org/merchantReturnDays"],
+  "verified_mappings": {
+    "availability":"Offer -> ItemAvailability; InStock/OutOfStock used",
+    "shippingRate":"OfferShippingDetails -> MonetaryAmount with value/currency",
+    "merchantReturnDays":"MerchantReturnPolicy -> Integer days with MerchantReturnFiniteReturnWindow category"
+  },
+  "limits":"Schema-inspired minimal JSON-LD records; not externally certified Google merchant feeds, real offers, or observed human preferences. Question equivalence is enforced by a shared proposition representation."
+}

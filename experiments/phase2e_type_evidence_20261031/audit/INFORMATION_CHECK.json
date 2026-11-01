@@ -1,0 +1,105 @@
+{
+  "cases": 14,
+  "max_absolute_error": 1.249000902703301e-16,
+  "records": [
+    {
+      "fixture": 0,
+      "action": 0,
+      "exact_information_decimal": "0.01875335598104386244441811390204702716877610210396527792240530045172356637986613",
+      "numerical_information": 0.018753355981043867,
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "fixture": 0,
+      "action": 1,
+      "exact_information_decimal": "0.06519847009111010086696529080080927245130762628685848879930006678934039101185481",
+      "numerical_information": 0.06519847009111011,
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "fixture": 0,
+      "action": 2,
+      "exact_information_decimal": "0.01268577806873708813093499259387296415069162892425156960053335936486119420555066",
+      "numerical_information": 0.01268577806873713,
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "fixture": 1,
+      "action": 0,
+      "exact_information_decimal": "0.02000014780320336351863337122684503253046664938963795045678871330754330947985817",
+      "numerical_information": 0.020000147803203333,
+      "absolute_error": 3.122502256758253e-17
+    },
+    {
+      "fixture": 1,
+      "action": 1,
+      "exact_information_decimal": "0.06858344252552055010167053314657363456616799579842269101002959133488239243073949",
+      "numerical_information": 0.06858344252552068,
+      "absolute_error": 1.249000902703301e-16
+    },
+    {
+      "fixture": 1,
+      "action": 2,
+      "exact_information_decimal": "0.10179342269208939384898166759998523209872218702919489936569762613187773287954003",
+      "numerical_information": 0.10179342269208938,
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "fixture": 1,
+      "action": 3,
+      "exact_information_decimal": "0.02269760029198541681737128002069512894027855475373910319877150622992130361968276",
+      "numerical_information": 0.022697600291985386,
+      "absolute_error": 3.122502256758253e-17
+    },
+    {
+      "fixture": 1,
+      "action": 4,
+      "exact_information_decimal": "0.01320009545453424784725743541106180803966208497350378811852163942693472260382772",
+      "numerical_information": 0.013200095454534232,
+      "absolute_error": 1.5612511283791264e-17
+    },
+    {
+      "fixture": 1,
+      "action": 5,
+      "exact_information_decimal": "0.00305829719173872232760321176813891218172400180031833777076946783463281537638030",
+      "numerical_information": 0.003058297191738736,
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "fixture": 2,
+      "action": 0,
+      "exact_information_decimal": "0.0553872769773939037706129483409525005609909386222103737568139885660251847102477",
+      "numerical_information": 0.05538727697739399,
+      "absolute_error": 9.020562075079397e-17
+    },
+    {
+      "fixture": 2,
+      "action": 1,
+      "exact_information_decimal": "0.0525830630982523587812986833831424245659425230535414563986128469405542207381818",
+      "numerical_information": 0.05258306309825236,
+      "absolute_error": 0.0
+    },
+    {
+      "fixture": 2,
+      "action": 2,
+      "exact_information_decimal": "0.0445344362632268768807657078447792657702202627694602808736097085328950710810846",
+      "numerical_information": 0.044534436263226826,
+      "absolute_error": 4.85722573273506e-17
+    },
+    {
+      "fixture": 2,
+      "action": 3,
+      "exact_information_decimal": "0.0707766230487125663491025061825707833310718508852734286806184613482275774755991",
+      "numerical_information": 0.0707766230487126,
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "fixture": 2,
+      "action": 4,
+      "exact_information_decimal": "0.0326527930904872305430410827030579910709837326632716661957237277452210308029607",
+      "numerical_information": 0.03265279309048729,
+      "absolute_error": 6.245004513516506e-17
+    }
+  ],
+  "scope": "same_context_exact_entropy_cross_check_no_worlds"
+}

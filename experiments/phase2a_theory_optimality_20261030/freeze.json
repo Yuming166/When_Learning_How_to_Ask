@@ -1,0 +1,52 @@
+{
+  "frozen_unix_time": 1793372496.6990275,
+  "files": {
+    "phase2a/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "phase2a/analyze.py": "de3f7367129562d7641b7851c2c7410868b795e3385e2dacec1ed52f632262ca",
+    "phase2a/bootstrap.py": "21bc25d7c0c22c40605a9df0a858602fb78084588900b2d5cb2d865ff2060881",
+    "phase2a/coefficients.py": "a31bf8eb268d99ab4cc28da09955d14082c229c87fc216400b5d3f9600e5253f",
+    "phase2a/glr.py": "7ed182834957d09546e855468fc14082d894bb54308f3ef728d591d1e4a330f6",
+    "phase2a/integrity.py": "ee7120e91b54620b65bd1a6e7407cff0fbb435108893237bea641e08e95c01e5",
+    "phase2a/phase_map.py": "2e1a799286b63ad8c3edceecdcc7cb092a9bd4b7e450d7d0ba90c179c2241d57",
+    "phase2a/policy.py": "68d75f51a71ee90f7ffc19b11e82f19563b5280533ab3bbae1fda6d70ce90a91",
+    "phase2a/runner.py": "cfc3eafa11fe1d7e0c927733ef54f00554fddbcd9f734c032fe8ea0d2aee3f3a",
+    "phase2a/tracking.py": "d44b33df07fe80d517ea0488c570a8bf8cfa09ed16285baefd6a447a7d297474",
+    "tests/test_analysis.py": "c6959124e02beb7c90411c3a5cde0c3dc36f9f222c342c08120c96a117919d43",
+    "tests/test_coefficients_tracking.py": "e7f6689d43f815feb2d68d50ee2ffe815986992f79e17fbafd358ff440587efe",
+    "tests/test_glr.py": "e12f9f3e86a973d5e1708deeb3a1005a42c26c0d184a5a5c3c9fcae34c0fec00",
+    "tests/test_integration.py": "9c8ab303141657d96231c6d3d14eb4e34dff159ff4d8922271a1e83ab1f3e8f8",
+    "config.json": "3bcfa08d9fcffcd790b889345687550394f43b0db792a1f7ac7bf1db972d4c24",
+    "PROTOCOL.md": "bae829e594a420f3f4d31037416e86c9404721fbc261f11f343c17bf52cfec8b"
+  },
+  "audits": {
+    "audit/COEFFICIENT_REVIEW.md": "11a1a5d866ca7ba626fafcc4db45161b0dd957d9cd70d7996a16ca4328982bf2",
+    "audit/EXECUTION_REVIEW.md": "5e888482388820ebacd19ca97b5123a50aed7e66c54fc0495701b494f8bc5127",
+    "audit/GLR_AUDIT.md": "d9d2bf6e58670b4a462adfadb7d1295c57c3ae93da0d019a837d5e71598c8daf",
+    "audit/HISTORY_PRESERVATION_BEFORE.json": "cf8518e9b3f570d08eb1f06b4ef1e7f1f6eaf5dd705ce8e6b0d378f50f579481",
+    "audit/glr_checks.py": "e9d7e2dd33b61ca17320871de999796c26cdcdb429c4e383e09702068a6f10ef",
+    "audit/independent_coefficients.py": "c44df7646670bdb61b95d64bc1a8aa2e85b4f692371a97df753575dba02baa06",
+    "audit/independent_policy_checks.py": "efaee8228b3c885acdb4dff52911ca9eee924fa0d725290cf868b44802c88d4c"
+  },
+  "v1_source": {
+    "qrelbench/__init__.py": "ffdd656d12cc785818eda76d7c39134b82b4393c4b71ea4826343083657a0cbe",
+    "qrelbench/analyze.py": "56638ba1236945f70d01287b895d8083eb15bb7059b562e4c66de8089889496b",
+    "qrelbench/data.py": "3a19293c307d7576d895d3a332e037b3f43dc0cf37db6db1f45255d1c472247e",
+    "qrelbench/decoder.py": "1aecbcf325ab66069bb31f075253f4bb8f13a3fad18d39e9a5494fbc7d14829e",
+    "qrelbench/environment.py": "8bb13e388b83cb2e0d85cdac80af73eca3a6229ba0fc17b61597b4b32c6e5c2c",
+    "qrelbench/evaluate.py": "ad482a692d7bcbbb1267cacf13c913f6481dff87b7f118d1ccefe76ccbf43ca6",
+    "qrelbench/policies.py": "ade516e5db0d54eb6414a9402ea2ec69e019b6eff1225ffcbf0e8260e8130fe1",
+    "qrelbench/randomness.py": "c83448bf784126519ed8f5df0164910409dc76a7a5dc84521e21c620a054d2be",
+    "qrelbench/rpc.py": "603ab85272d9a2da405efc2562643460288740538537f54edc0112bdac376fe9",
+    "qrelbench/security.py": "bf1a9763d91d4a38a118560dc34eeed22c45ebc49bff7662f0c3d03e86e79002"
+  },
+  "private_seed_commitment": "9762ca1a0fcccc23309e4e4191dd116b858522f78002d49dd87b359acb6e373e",
+  "theory_note_sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+  "config_public_seed": null,
+  "development_only": true,
+  "confirmation_authorized": false,
+  "model_calls": 0,
+  "preflight_pass": "preflight_tests_4.log",
+  "preflight_tests": 21,
+  "preserved_failed_preflight": "preflight_tests_3.log: BLAS thread environment omitted; fail-closed bootstrap rejected",
+  "review_scope": "separate same-family numerical/source reviews; no external theorem certification"
+}

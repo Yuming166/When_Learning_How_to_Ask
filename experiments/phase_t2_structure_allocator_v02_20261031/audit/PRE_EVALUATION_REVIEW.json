@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/t2_design_audit",
+  "scope": "native same-family source inspection before heldout predictions; not cross-family or formal review",
+  "expected_path_rows": 858,
+  "not_applicable_paths": 6,
+  "expected_offline_rows": 1536,
+  "not_applicable_offline": 198,
+  "whole_world_risk_clusters": true,
+  "infinities_and_caps_retained": true,
+  "inclusive_estimation_planning_inference_speedup": true,
+  "manual_decision_required": true,
+  "radial_metric_qualification": "full-alternative floating numerical plug-in radial cost relative to numerical teacher K; not oracle regret, true-parameter information, interval certificate or stopping-time regret",
+  "recorded_unix_time": 1793430437.222925,
+  "heldout_predictions_at_freeze": 0
+}

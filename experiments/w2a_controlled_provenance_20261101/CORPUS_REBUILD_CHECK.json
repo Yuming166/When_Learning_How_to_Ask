@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "procedure": "Regenerated corpus using retained evaluator seed; compared pre/post SHA256SUMS entries exactly",
+  "compared_files": 1160,
+  "all_content_hashes_identical": true
+}

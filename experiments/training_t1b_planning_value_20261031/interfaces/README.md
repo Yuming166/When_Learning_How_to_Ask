@@ -1,0 +1,9 @@
+# Agent-facing macro interface
+
+This additive adapter is an interface prototype and was **not used in the frozen T1b comparison**. The comparison's candidate and transition semantics are implemented in t1b/controller.py. No learned policy is instantiated here.
+
+`MacroBeliefInterface(client,R,B)` accepts only the existing observation client and public risk/budget. `prepare()` is idempotent until an action is observed; returns a whitelisted observable belief/ledger state, four macro proposals and a duplicate-action mask. `act(macro)` performs exactly one legal physical query, stores its actual response/cost, and returns reward=None. The final action closes the finite horizon; further actions fail. `finalize()` gives the common full-theta MAP guess and separately audited strict certificate, with no access to truth or reward. A future trusted training parent may assign the terminal 0/1 reward after the submitted guess; no new reward RPC or benchmark change has been implemented.
+
+Three contract tests use a literal deterministic observation stub, not a QRelBench world: repeated state preparation causes no extra acquisition, no episode ID/reward enters state, invalid actions cost nothing, and terminal closure forbids extra queries. These are interface checks, not RL rollouts or effectiveness evidence. The adapter was added separately during evaluation and its receipt is bound independently of the immutable scientific source freeze.
+
+Duplicate macros are masked to the first canonical representative; underlying physical proposal sets match the four-macro comparison. Type-Then-Task is a deliberately stronger fixed-rule baseline with a predeclared group-index purchase order, so its type query is not always the uncertainty-maximizing TYPE candidate. Recovery1 and Lookahead2 always use exactly the same four candidate rules, preserving the primary objective-matched comparison.

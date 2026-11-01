@@ -1,0 +1,86 @@
+{
+  "recorded_utc": "2026-10-30T11:08:04.721734+00:00",
+  "host": "cloud82",
+  "service_generation_calls": 0,
+  "model_endpoints": {
+    "http://127.0.0.1:31519/v1/models": {
+      "object": "list",
+      "data": [
+        {
+          "id": "Hy-MT2-7B",
+          "object": "model",
+          "created": 1793358484,
+          "owned_by": "vllm",
+          "root": "/storage/lianjh/modelzoos/tencent/Hy-MT2-7B-FP8",
+          "parent": null,
+          "max_model_len": 65536,
+          "permission": [
+            {
+              "id": "modelperm-b5ae89cc4a2a4788",
+              "object": "model_permission",
+              "created": 1793358484,
+              "allow_create_engine": false,
+              "allow_sampling": true,
+              "allow_logprobs": true,
+              "allow_search_indices": false,
+              "allow_view": true,
+              "allow_fine_tuning": false,
+              "organization": "*",
+              "group": null,
+              "is_blocking": false
+            }
+          ]
+        }
+      ]
+    },
+    "http://10.63.0.88:31519/v1/models": {
+      "object": "list",
+      "data": [
+        {
+          "id": "Qwen3.6-35B-A3B",
+          "object": "model",
+          "created": 1793358484,
+          "owned_by": "vllm",
+          "root": "/storage/lianjh/modelzoos/Qwen/Qwen3.6-35B-A3B-FP8",
+          "parent": null,
+          "max_model_len": 262144,
+          "permission": [
+            {
+              "id": "modelperm-b4712df3e593a376",
+              "object": "model_permission",
+              "created": 1793358484,
+              "allow_create_engine": false,
+              "allow_sampling": true,
+              "allow_logprobs": true,
+              "allow_search_indices": false,
+              "allow_view": true,
+              "allow_fine_tuning": false,
+              "organization": "*",
+              "group": null,
+              "is_blocking": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gpu": "0, Tesla V100-PCIE-32GB, 32768 MiB, 0 MiB, 0 %\n1, Tesla V100-PCIE-32GB, 32768 MiB, 0 MiB, 0 %\n2, Tesla V100-PCIE-32GB, 32768 MiB, 0 MiB, 0 %\n3, NVIDIA GeForce RTX 4090, 23028 MiB, 1 MiB, 0 %\n4, NVIDIA GeForce RTX 4090, 23028 MiB, 1 MiB, 0 %\n5, NVIDIA GeForce RTX 4090, 23028 MiB, 1 MiB, 0 %\n6, NVIDIA GeForce RTX 4090, 23028 MiB, 20172 MiB, 0 %",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:           503Gi        12Gi       145Gi        48Mi       349Gi       490Gi\nSwap:          2.0Gi       256Ki       2.0Gi",
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sdc2       439G  274G  143G  66% /",
+  "branch": "phase01/reliability-discovery-20261030",
+  "original_commit": "3186587a5eb1aa4abc02c43d2ebb1e5f2ce050c3",
+  "historical_artifacts": {
+    "Learning_How_to_Ask_V5_\u6a21\u62df\u4e0e\u5b9e\u9a8c_\u4e2d\u6587\u7b80\u62a5_2026-10-30.pdf": {
+      "size_bytes": 110231,
+      "sha256": "73041b8c7abba4ffa136aeb681e1548497e57d7084e17bbe44c62bf7e0b040a7"
+    },
+    "README.md": {
+      "size_bytes": 26,
+      "sha256": "72b3000d2be5edd75dd04aa78ae0a3cfc47071a4d252c4e89adfc2076cb75e82"
+    },
+    "Theory_Note.md": {
+      "size_bytes": 31711,
+      "sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef"
+    }
+  }
+}

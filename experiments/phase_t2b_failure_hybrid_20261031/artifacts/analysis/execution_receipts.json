@@ -1,0 +1,39 @@
+{
+  "evaluation_execution": {
+    "confirmation_worlds": 0,
+    "expected_paths": 624,
+    "external_api_calls": 0,
+    "failed_paths": 0,
+    "gpu_jobs": 0,
+    "new_training_updates": 0,
+    "offline_path_charges": 153344,
+    "online_actions": 921568,
+    "outer_parent_cpu_seconds": 5.6904913709999985,
+    "outer_wall_seconds": 340.9967087493278,
+    "path_records": 624,
+    "qwen_calls": 0,
+    "scientific_retries": 0,
+    "status": "completed",
+    "worker_count": 2
+  },
+  "worker_model_loads": [
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_training_t2b/experiments/phase_t2b_failure_hybrid_20261031/artifacts/evaluation/worker_loads/4182884.json",
+      "receipt": {
+        "cpu_seconds": 1.312345754,
+        "gpu_jobs": 0,
+        "wall_seconds": 1.3210960542783141
+      },
+      "sha256": "d94257f8c76000a1ac59c26e83441b9ec73511127d1e1f4a31ca634b1fd54c4b"
+    },
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_training_t2b/experiments/phase_t2b_failure_hybrid_20261031/artifacts/evaluation/worker_loads/4182887.json",
+      "receipt": {
+        "cpu_seconds": 1.358640625,
+        "gpu_jobs": 0,
+        "wall_seconds": 1.3661086931824684
+      },
+      "sha256": "619030db9f9a0a9dbb9be9dd36ddec4361420815eedd26d4623b1ba3c7b2c707"
+    }
+  ]
+}

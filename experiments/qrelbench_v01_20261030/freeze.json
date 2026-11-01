@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-10-30T14:13:44.774043+00:00",
+  "files": {
+    "qrelbench/__init__.py": "ffdd656d12cc785818eda76d7c39134b82b4393c4b71ea4826343083657a0cbe",
+    "qrelbench/analyze.py": "56638ba1236945f70d01287b895d8083eb15bb7059b562e4c66de8089889496b",
+    "qrelbench/data.py": "3a19293c307d7576d895d3a332e037b3f43dc0cf37db6db1f45255d1c472247e",
+    "qrelbench/decoder.py": "1aecbcf325ab66069bb31f075253f4bb8f13a3fad18d39e9a5494fbc7d14829e",
+    "qrelbench/environment.py": "8bb13e388b83cb2e0d85cdac80af73eca3a6229ba0fc17b61597b4b32c6e5c2c",
+    "qrelbench/evaluate.py": "ad482a692d7bcbbb1267cacf13c913f6481dff87b7f118d1ccefe76ccbf43ca6",
+    "qrelbench/policies.py": "ade516e5db0d54eb6414a9402ea2ec69e019b6eff1225ffcbf0e8260e8130fe1",
+    "qrelbench/randomness.py": "c83448bf784126519ed8f5df0164910409dc76a7a5dc84521e21c620a054d2be",
+    "qrelbench/rpc.py": "603ab85272d9a2da405efc2562643460288740538537f54edc0112bdac376fe9",
+    "qrelbench/security.py": "bf1a9763d91d4a38a118560dc34eeed22c45ebc49bff7662f0c3d03e86e79002",
+    "tests/test_core.py": "7879461972d5343005fca8e8820c0fcf6f4faa1b1f11b7c07f2e0aaf1b6e8383",
+    "tests/test_rpc.py": "e9bf5237a5e697d8d64bacd61443dc3cd17632edd5a907cd4019a0900b57a5c1",
+    "configs/development.json": "de670bd10cfc66f967ae71f170d99162dcaf71fdf87de6737b2aa4eb7bc7f6ad",
+    "PROTOCOL.md": "be48a46b33d5662a26a17ba483ef92949feadc41f5f21c182b5d38693dec33a1"
+  },
+  "private_seed_commitment": "04c34817fd109d35f69473b3e72518ad01ae63184ddc9197b43b6d4423743f2f",
+  "independent_audit_sha256": "4fb39e0c6d541ef5b9b0309539f306e8e241403f135f9c1956bd3c805eb99b6a",
+  "reviewer_checks_sha256": "7dd5a4fcc0f6e6cc59d258ef75567ad43087fa9c86c5b90db488ec79db7116b7",
+  "own_tests": 17,
+  "independent_check_groups": 10,
+  "scope": "bounded CPU development only"
+}

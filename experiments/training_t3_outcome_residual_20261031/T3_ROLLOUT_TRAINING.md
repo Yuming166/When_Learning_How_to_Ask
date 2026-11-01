@@ -1,0 +1,17 @@
+# T3 rollout training objective and procedure
+
+## Material Passport
+
+Pre-execution frozen method specification. Results and all attempted checkpoints: TRAINING.json; label ledgers: artifacts/train_label_receipt.json and artifacts/development_label_receipt.json; model selection: DEV_SELECTION.json. These are new development data, never reserved independent confirmation data.
+
+For state s and candidate a, Q_pi0(s,a)=E[1{joint-MAP theta_B=theta}|s,a, continuation pi0], where pi0 is the frozen WorstFact-MI functional rule with the original forced clock. The expectation uses the legal joint posterior b_s over all theta,z,p,q hypotheses, not the heldout world's realized hidden values. The generator's fixed-parameter development performance and this Bayesian-prior objective are different estimands; a learned Bayesian value need not improve every fixed p/q cell.
+
+The numerical posterior uses the unchanged order32 quadrature, not exact continuous integration and not a plug-in of reliability means. Belief.condition updates every joint grid mass. Generate future answers sequentially from P(Y=1|current belief,a), then condition; this has the same predictive law as drawing one latent hypothesis from b_s and fresh answers given it. It avoids any input for the actual environment's theta,z,p,q.
+
+Enumerate the first answer y and weight branches by P(y|s,a). For each branch draw K=16 full-horizon continuation histories with frozen common uniforms across candidate actions. At the end use max_theta b_B(theta), the conditional expectation of terminal 0/1 complete-MAP reward. This is Rao-Blackwellization, not an information-gain surrogate or truncated planning target. A sampled posterior terminal indicator is retained for diagnostics. The first-answer-weighted sampled diagnostic need not itself be0/1. Correlated common-random-number branches reduce variance but do not guarantee small value-estimation error; K is fixed and not increased after seeing results.
+
+Targets are residuals Qhat(s,a)-Qhat(s,a_base). Fit shared action-feature scores by pairwise residual MSE. Report zero-residual DEV MSE as a cheap comparator; a low training loss is not a policy-improvement result. Nine fits are planned: task/type/joint masks x3 seeds, with four fixed candidate checkpoints each. Neither test trajectories nor hidden truth produce counterfactual labels. Network checkpoints are selected by DEV-label MSE; seeds are selected by DEV full-episode recovery before opening TEST. All attempted checkpoints remain local and hash-bound in the final receipt.
+
+This is one rollout-guided approximate policy-improvement step with supervised advantage fitting. It is an RL-related decision-learning experiment, not PPO, online actor-critic, exact policy iteration, or a proven improvement operator. The deployed repeated residual choices may visit states absent from one baseline training trajectory, while labels assume baseline continuation; distribution and continuation mismatch are explicit limitations. No iterative dataset aggregation or extra training round is authorized by this pilot.
+
+Related primary sources: [Deep Adaptive Design, ICML2021](https://proceedings.mlr.press/v139/foster21a.html) establishes amortized adaptive Bayesian design as prior work; [Blau et al., ICML2022](https://proceedings.mlr.press/v162/blau22a.html) studies learned MDP design policies. Neither source proves our claims, and introducing learning alone is not a novelty claim.

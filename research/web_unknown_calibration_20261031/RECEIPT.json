@@ -1,0 +1,175 @@
+{
+  "created_utc": "2026-10-31T14:54:44.785273+00:00",
+  "type": "theory extension; exact arithmetic certificates and labelled numerical relaxations",
+  "decision": {
+    "completed_stage": "GO: continuous cost theorem, one-flip reduction, one-read scalar theorem, two directions of threshold failure",
+    "generic_multiread_oracle_structure": "OPEN",
+    "generic_multiread_scalar_sharing_threshold": "OPEN",
+    "paper_core_novelty": "REVISE; priority and Web validity not established"
+  },
+  "original_inputs_unchanged": {
+    "/home/gaoym/When_Learning_How_to_Ask/Theory_Note.md": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+    "/home/gaoym/.codex/attachments/28232cbe-df30-43d6-ad62-aafa0a112808/Theory_Note_Theorem_1_Expected_Time_Proof.md": "7012c715c57cdce6e9ca7e8b143a525e35ff3012be38c0d556bfc308f23a3774"
+  },
+  "prior_snapshots_unchanged": {
+    "web_native_theory_20261031": {
+      "receipt_sha256": "daa060b05b0c90111d3fb0f06b3fe7e1a21c5fa4f222596e685a1e5f82b04e77",
+      "bound_outputs_unchanged": 9
+    },
+    "web_cost_sharing_20261031": {
+      "receipt_sha256": "4d6d67d2aa93046c09ea2f16b5115c0abce7b6fba9cfcc0be4df4ebff07bea65",
+      "bound_outputs_unchanged": 14
+    }
+  },
+  "scope": {
+    "r": "known",
+    "p_q": "unknown continuous common rates; no fixed positive gap",
+    "calibration": "two labelled raw-extraction success streams; M/log(1/delta) -> finite alpha",
+    "cost": "online block cost; calibration pre-acquired and common",
+    "oracle": "knows z only; p,q remain unknown",
+    "actions": "all mixed/pure fresh-root completed blocks up to a fixed finite cap"
+  },
+  "verified_results": {
+    "continuous_information_coefficient_and_expected_cost": "written proof; reviewed",
+    "finite_delta_joint_categorical_GLR": "written proof; reviewed",
+    "arbitrary_mixed_block_one_flip_reduction": "written proof; reviewed",
+    "one_read_scalar_sharing_criterion": "written proof; reviewed",
+    "finite_calibration_separation": "PASS_EXACT_RATIONAL_CONTINUOUS_DOMAIN_CERTIFICATE",
+    "dual_action_constraints": 20,
+    "continuous_oracle_cover_cells": 900,
+    "unknown_cost_coefficient_lower_display": "24.496612161232778164472220833552150082120033004045",
+    "oracle_cost_coefficient_upper_exact": "483/20",
+    "premium_lower_display": "0.34661216123277816447222083355215008212003300404504",
+    "inner_nonconvexity": {
+      "alternative_good_rates": [
+        "1/2",
+        "3/5",
+        "7/10"
+      ],
+      "midpoint_minus_average_endpoints_lower_display": "0.083885342396757342789764936150845423412879257606573",
+      "scope": "Pure-good depth-5 truth-flip KL versus alternative extraction level; alpha=0 inner objective."
+    },
+    "one_read_zero_calibration": "PASS_EXACT_RATIONAL_INTERVAL_CERTIFICATE",
+    "mathematical_comparisons": "exact Fraction interval bounds; decimals are displays",
+    "ideal_controller_implementation": "not implemented or empirically evaluated"
+  },
+  "numerical_diagnostic": {
+    "calibration_ratios": [
+      0,
+      0.1,
+      1,
+      5,
+      20,
+      100
+    ],
+    "finite_grid_LPs": 12,
+    "grid_rate_points": 1082,
+    "status": "DETERMINISTIC_GRID_RELAXATION_AND_UNCERTIFIED_1D_HEURISTIC",
+    "continuous_optima_from_grid": "NOT_CERTIFIED",
+    "preregistered_empirical_study": false
+  },
+  "review": {
+    "collaborators": [
+      "web_theory_audit",
+      "web_theory_adversary",
+      "web_literature"
+    ],
+    "shared_context_same_model_family": true,
+    "blinded": false,
+    "machine_formal_verification": false,
+    "main_proof_cross_check": "PASS",
+    "certificate_logic_cross_check": "PASS",
+    "literature_core_sources": 5,
+    "literature_supporting_source": 1
+  },
+  "versions": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "execution_scope": {
+    "experimental_model_calls": 0,
+    "training_runs": 0,
+    "sampled_benchmark_worlds": 0,
+    "confirmation_runs": 0,
+    "historical_edits": 0,
+    "github_pushes": 0
+  },
+  "figure_visually_inspected": true,
+  "reproduce": "README.md",
+  "outputs": {
+    "CALIBRATION_NOVELTY_AUDIT.md": {
+      "sha256": "8648544ebbcfa4a183ed314626060d94ab83f8db67a80e90f607ff959ff8090e",
+      "bytes": 17390
+    },
+    "CONTINUOUS_COST_PROOF.md": {
+      "sha256": "392d02e9104b65cccc49c4ecda861347c4d775a7d38f81cbe2d793802decc5a1",
+      "bytes": 21468
+    },
+    "GRID_DIAGNOSTIC.json": {
+      "sha256": "059926b1b23de2148f25e2dcbc1a65d4015381f9926e114c2a414ce8c6bccba1",
+      "bytes": 5410
+    },
+    "MODEL_AND_SCOPE.md": {
+      "sha256": "f9c4adf2fa6660d341abcd818a8f4ac0a289ccbce5b70ea51664c16fcd8d05b6",
+      "bytes": 4469
+    },
+    "ORACLE_AND_THRESHOLD_AUDIT.md": {
+      "sha256": "079417a569026e4949ee3f2100db076a489a67d426872337fa6ade36ef18a49f",
+      "bytes": 20171
+    },
+    "README.md": {
+      "sha256": "68975ce84816acc3ee094d26e6ac5eb4d75b6b0c87c71cad10478e9f106b0a1b",
+      "bytes": 3879
+    },
+    "RESEARCH_REPORT_CN.md": {
+      "sha256": "cf6d64b52d349dc95337f07a555683fd522edf0f6ca836ef2af4b4a61c2e3023",
+      "bytes": 9798
+    },
+    "THEORY_RESULTS.md": {
+      "sha256": "d76ef427caf7ca7325a16e3316d4a8c918c8d5cf205502f572fcf1c8938f8d95",
+      "bytes": 19256
+    },
+    "THRESHOLD_FAILURE_CERTIFICATE.json": {
+      "sha256": "8ae453444ca0c3477df782d65a0810c192158817fd7d90014c74da46995eff64",
+      "bytes": 2273
+    },
+    "calibration_certificates.pdf": {
+      "sha256": "6186896c61702f602d3d32a88098467858aa2c399ff56d403b6336118b004638",
+      "bytes": 23938
+    },
+    "calibration_certificates.png": {
+      "sha256": "e40de03a769f9789d5ae5e5ce1abafb0f989f578107f182533a93177bbb5f87c",
+      "bytes": 136049
+    },
+    "certificate_stdout.txt": {
+      "sha256": "8ae453444ca0c3477df782d65a0810c192158817fd7d90014c74da46995eff64",
+      "bytes": 2273
+    },
+    "certify_threshold_failure.py": {
+      "sha256": "aba663148d9dcb3a67167e9c551eb2452c555d240b604e6760aad3ef9e686a76",
+      "bytes": 6515
+    },
+    "explore_calibration.py": {
+      "sha256": "cecf77c96e73a24379974469d00a157309e3019dba7efffd417b1778619d150d",
+      "bytes": 3901
+    },
+    "grid_stdout.txt": {
+      "sha256": "059926b1b23de2148f25e2dcbc1a65d4015381f9926e114c2a414ce8c6bccba1",
+      "bytes": 5410
+    },
+    "plot_certificates.py": {
+      "sha256": "9c94dcd24d1430006c026c6139d69fbda08ddf50dcb5e066fcdcfcae36452ecf",
+      "bytes": 2037
+    },
+    "singleton_threshold_certificate.json": {
+      "sha256": "fdbf69f889d399d6f7786fc659d45604330efa4009620b4a0706a3d31d369bc9",
+      "bytes": 1694
+    },
+    "singleton_threshold_certificate.py": {
+      "sha256": "45f5e2eb37861eb55138ea387d518ab92ca285c5a720b7e0be11a452f60cb4f2",
+      "bytes": 3195
+    }
+  }
+}

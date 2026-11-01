@@ -1,0 +1,67 @@
+{
+  "status": "DRAFT_NOT_EXECUTED",
+  "version": "T1-KLD-v1",
+  "training_authorized": false,
+  "teacher": "Frozen Phase2e Fused-Original from INPUT_SNAPSHOT.json",
+  "training_worlds": 128,
+  "validation_worlds": 32,
+  "independent_development_worlds": 64,
+  "development_strata": 8,
+  "worlds_per_stratum": 8,
+  "world_generator_split": "development",
+  "reserved_confirmation_worlds": 0,
+  "old_worlds_reused_for_fitting": 0,
+  "train_p": [
+    0.7,
+    0.8,
+    0.9
+  ],
+  "train_q": [
+    0.5,
+    0.6,
+    0.65
+  ],
+  "train_partitions": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      4
+    ]
+  ],
+  "train_alpha": [
+    0,
+    1,
+    3
+  ],
+  "train_R": [
+    16,
+    64
+  ],
+  "eta": 0.05,
+  "s": 0.8,
+  "models_to_fit_once": [
+    "MLP_reduced_state",
+    "NQA_10660_parameters"
+  ],
+  "qwen_runs": 0,
+  "gpu_calls": 0,
+  "RL": false,
+  "loss": "world_equal_then_prefix_equal_forward_KL_group_mass_plus_0.05_logK_squared",
+  "same_estimator_and_cadence": true,
+  "independent_certified_stopping": true,
+  "targets": {
+    "planning_speedup_at_least": 2,
+    "online_query_inflation_at_most": 0.05,
+    "currently_achieved": false
+  },
+  "maximum_online_actions_proposed": 4489216,
+  "execution_entrypoint_provided": false,
+  "new_seed_generated": false,
+  "scope": "Prospective small development proposal; not a confirmation protocol or execution authorization"
+}

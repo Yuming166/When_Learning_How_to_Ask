@@ -1,0 +1,17 @@
+{
+  "historical_artifacts_unchanged": true,
+  "history": [
+    {
+      "directory": "phase01_20261030",
+      "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69",
+      "verified_files": 47,
+      "mismatches": []
+    },
+    {
+      "directory": "phase1b_userbench_audit_20261030",
+      "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f",
+      "verified_files": 15,
+      "mismatches": []
+    }
+  ]
+}

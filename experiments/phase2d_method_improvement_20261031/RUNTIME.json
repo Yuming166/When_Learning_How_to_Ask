@@ -1,0 +1,19 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "libmpdec": "4.0.0",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "launch": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m phase2d.runner",
+  "scope": "one bounded legacy-floating ablation batch; interval audit/existing-world replay later; no confirmation",
+  "branch": "phase2d_method_improvement",
+  "review_provenance": "Separate native Codex roles; requested Astra/xhigh, no independent backend attestation; same model family, not external experts or formal verification",
+  "review_model_requested": "gpt-6-astra",
+  "review_reasoning_requested": "xhigh",
+  "review_model_backend_attestation": null
+}

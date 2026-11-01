@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "verified_unix_time": 1793392742.8417308,
+  "historical_receipts": [
+    {
+      "experiment": "phase01_20261030",
+      "bound_files": 47,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase1c_identifiability_20261030",
+      "bound_files": 69,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase2a_theory_optimality_20261030",
+      "bound_files": 61,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase2b_alignment_20261031",
+      "bound_files": 58,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase2c_strong_baseline_20261031",
+      "bound_files": 58,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase2d_method_improvement_20261031",
+      "bound_files": 68,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "qrelbench_v01_20261030",
+      "bound_files": 45,
+      "receipt_unchanged": true,
+      "mismatches": []
+    },
+    {
+      "experiment": "phase1b_userbench_audit_20261030",
+      "bound_files": 15,
+      "receipt_unchanged": true,
+      "mismatches": []
+    }
+  ],
+  "historical_bound_files": 421,
+  "frozen_manifests": [
+    {
+      "manifest": "generation_freeze.json",
+      "files": 10,
+      "read_only_dependencies": 49,
+      "mismatches": []
+    },
+    {
+      "manifest": "training_freeze.json",
+      "files": 31,
+      "read_only_dependencies": 49,
+      "mismatches": []
+    },
+    {
+      "manifest": "analysis_freeze.json",
+      "files": 3,
+      "read_only_dependencies": 0,
+      "mismatches": []
+    }
+  ],
+  "checkpoint_files": 14,
+  "checkpoint_bytes": 9342907469,
+  "checkpoint_mismatches": [],
+  "problems": [],
+  "scope": "File preservation only; no scientific model calls, no private seed or truth reads, no execution of earlier confirmation protocols."
+}

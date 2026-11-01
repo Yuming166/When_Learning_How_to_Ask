@@ -1,0 +1,94 @@
+{
+  "task_date": "2026-10-31",
+  "snapshot_created_utc": "2026-10-31T14:06:49.451328+00:00",
+  "type": "theory exploration snapshot; not an experimental preregistration",
+  "decision": {
+    "integration": "Option A",
+    "full_reformulation": "REVISE",
+    "standalone_saturation_novelty": "NO-GO",
+    "proposition5": "mathematical derivation checked; priority unestablished"
+  },
+  "input_hashes_unchanged": {
+    "/home/gaoym/When_Learning_How_to_Ask/Theory_Note.md": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+    "/home/gaoym/.codex/attachments/28232cbe-df30-43d6-ad62-aafa0a112808/Theory_Note_Theorem_1_Expected_Time_Proof.md": "7012c715c57cdce6e9ca7e8b143a525e35ff3012be38c0d556bfc308f23a3774"
+  },
+  "mission_attachment_sha256": "4b06c1587787b8a83610b67577e7f44936ab52a1e6f9e0ff9e553e31f8995f01",
+  "outputs": {
+    "ADVERSARIAL_THEORY_NOTES.md": {
+      "sha256": "6cdda6c738907e5a7d8a797d8c6389669035c73a4903afbabb42128fc8b75005",
+      "bytes": 19868
+    },
+    "ANALYTICAL_CHECKS.json": {
+      "sha256": "4d9c957b09d0fe641e21d441bb4bc5e964a81cc38cac3505f810865412597c1f",
+      "bytes": 14180
+    },
+    "EXISTING_THEORY_AUDIT.md": {
+      "sha256": "d3a44a405965e3831579224f360fe1378d27a27cd85d367f4820251e0ac3a670",
+      "bytes": 22230
+    },
+    "RESEARCH_REPORT_CN.md": {
+      "sha256": "b6397f2b3b9babdfc067dff8ae9d65935d2f6c2b549283d8e9296af6ead7a94f",
+      "bytes": 13341
+    },
+    "WEB_THEORY_NOVELTY_MAP.md": {
+      "sha256": "ca9150101e308e3193cb6ccb39a8c48d27c23183dac52ed545a3c6f89438c9e6",
+      "bytes": 24320
+    },
+    "WEB_THEORY_RESULTS.md": {
+      "sha256": "273ae55f7d87bfd5bdc9946280c20005fe2a9300b85bbd869073edc96e2d7f95",
+      "bytes": 19328
+    },
+    "analytical_examples.pdf": {
+      "sha256": "6a5f366a2a5a05b124601dd2ceb8baa20d2165e2e5be2b77a4582bee35149b84",
+      "bytes": 24815
+    },
+    "analytical_examples.png": {
+      "sha256": "a21d04faacc31e31dd9a2e3db67775874bb6f3437ac7e0d212de94e128de7dd0",
+      "bytes": 173071
+    },
+    "exact_checks.py": {
+      "sha256": "fddaa0711c630af49c3bc2c586ec77002d2f86938167a54ac8a4eda10af008c3",
+      "bytes": 9416
+    }
+  },
+  "checks": {
+    "one_step_exact_fraction": 162,
+    "exact_binomial_floor": 8,
+    "finite_budget_dp_comparisons": 12,
+    "block_kl_depths": 64,
+    "activation_cost_examples": 5,
+    "kl_precision_decimal_digits": 80,
+    "interval_certification": false,
+    "plot_visually_inspected": true
+  },
+  "reproduce": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 CUDA_VISIBLE_DEVICES='' /storage/gaoym/miniforge3/bin/python /home/gaoym/When_Learning_How_to_Ask/research/web_native_theory_20261031/exact_checks.py --plot",
+  "execution_scope": {
+    "qwen_calls": 0,
+    "experimental_model_api_calls": 0,
+    "training_runs": 0,
+    "sampled_benchmark_worlds": 0,
+    "confirmation_runs": 0,
+    "historical_edits": 0,
+    "github_pushes": 0
+  },
+  "review": {
+    "native_collaborators": [
+      "web_theory_audit",
+      "web_theory_adversary",
+      "web_literature"
+    ],
+    "same_family_shared_context": true,
+    "blinded": false,
+    "formal_verification": false,
+    "final_mathematical_integration": "PASS within stated assumptions",
+    "novelty": "not established",
+    "resolved_review_notes": [
+      "Matched effective alternative domains in reductions",
+      "Distinguished action-class uniqueness from individual-root ties",
+      "Restricted expensive-source conclusion to ordered limits, not a finite cost interval"
+    ]
+  },
+  "evidence_limit": "Exact enumeration and symbolic proofs concern a stipulated binary model. Decimal KL is numerical. In-memory exploratory parameter probes by a collaborator are not included as reproducible evidence and support no theorem or empirical claim. No real Web or LLM validation.",
+  "official_cfp": "https://www2027.thewebconf.org/research-track-papers/",
+  "primary_source_audit": "WEB_THEORY_NOVELTY_MAP.md"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "core_tests": 118,
+  "residual_contract_tests": 10,
+  "selected_source_files_preserved_locally": 1334,
+  "published_runtime_path_repairs": 6,
+  "secret_pattern_scan": "PASS; no credential patterns found",
+  "literal_auth_field_scan": "PASS; one research-authorization prose field manually classified as non-credential",
+  "root_navigation_links": "PASS",
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "confirmation_runs": 0,
+  "scope": "Publication/engineering verification only; historical scientific results are not recomputed.",
+  "staged_source_blobs_verified": 1334,
+  "staged_scope_matches_allowlist": true,
+  "whitespace_check": "core.whitespace=cr-at-eol,-blank-at-eof; preserve pre-existing blank EOF lines in six frozen source/report files"
+}

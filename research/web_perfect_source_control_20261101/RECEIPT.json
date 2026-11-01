@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-01",
+  "status": "COMPLETE_ANALYTIC_PERFECT_SOURCE_MECHANISM_CONTROL",
+  "python_diagnostic_runtime": "3.13.13",
+  "historical_files_preserved": 81,
+  "diagnostics": "PASS_EXACT_RATIONAL_ALGEBRA_CHECKS",
+  "review": "bounded same-family read audit; not formal or external verification",
+  "outputs_sha256": {
+    "IDENTITY_CHECKS.json": "d2cd2bde87db562ede8864761de1788bd05a67367bf5dc451d7db8006d2881a3",
+    "INPUT_HASHES.json": "037ec9c7aae0c115a2afbc2d7e335e81b8c58ef51458c1a05b069f927afba0aa",
+    "PERFECT_SOURCE_THEOREM.md": "423a3c127e0f0e77e603f8c4872bf541c282311c9947ffa2a4cbc4cf93f038cf",
+    "PROOF_AUDIT.md": "4696399574651b2546c3fe3bed20636f598df32189e2044c9c632b2179e89524",
+    "README.md": "1d4d304c710d51d5abb7f846c9217d8d05c327042abcb604567a1e7c5b6e4f6f",
+    "RESEARCH_REPORT_CN.md": "ceca46d5948d4905bd90e7d9bff562b95d2fa4d40c4eea53d03429e79b356354",
+    "check_identities.py": "6ac1f64e1268da6bda539e0104768a8a1e03e3e91a0a83d962a3c2148a5865d1",
+    "paper_control.tex": "4c16c0772fb8ddbb99e4124cdc59b1bc06e90cb9ea7ee68efb42ae8f96b40b64",
+    "verify_artifacts.py": "ab2c1a9d4b54b501f20cc477fe1c9584f8b36ed466205d49c64868fcf991251b"
+  },
+  "calls": {
+    "model_inference_services": 0,
+    "training": 0,
+    "gpu_jobs": 0,
+    "optimization_search": 0,
+    "stochastic_experiments": 0
+  }
+}

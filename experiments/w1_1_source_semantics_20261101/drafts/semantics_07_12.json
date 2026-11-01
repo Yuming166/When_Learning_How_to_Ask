@@ -1,0 +1,1032 @@
+{
+  "schema": "W1.1-statement-semantics-draft-v1",
+  "cases": [
+    "W1-07",
+    "W1-08",
+    "W1-09",
+    "W1-10",
+    "W1-11",
+    "W1-12"
+  ],
+  "new_page_requests": 0,
+  "new_model_calls": 0,
+  "human_signoffs": 0,
+  "parent_w1_modified": false,
+  "interpretation": {
+    "page_label": "Version-specific statement summary relative to the frozen claim; it never supplies objective theta.",
+    "mixed": "Multiple relevant asserted or attributed voices with opposed positions; does not mean the publisher adopts both.",
+    "not_addressed": "Inspected content does not assert or reject the complete frozen proposition; partial or different-scope evidence remains in statement records.",
+    "null": "Unavailable or insufficiently recovered body; not equivalent to NOT_ADDRESSED.",
+    "polarity": "Signed stance of named speaker on the stated proposition; null for questions, epistemic limits and revision notices. Some denial statements target accuracy of reports rather than independently verifying numeric negation.",
+    "archive": "All historical semantic labels remain null. Archive URL timestamps are identifiers only, not observed historical capture times.",
+    "time": "Page-displayed publication/update dates kept apart from claim date and event/applicability interval; unknown values null.",
+    "quotation": "At most 20 English words of exact evidence spans per unique source group; Radar aliases share one budget. Other explanation is paraphrase."
+  },
+  "rows": [
+    {
+      "case_id": "W1-07",
+      "page_id": "P029",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "Perma 页面被访问挑战阻断；无可读原社交帖。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null
+    },
+    {
+      "case_id": "W1-07",
+      "page_id": "P030",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "核查的具体 Aberglasslyn 事件与冻结的宽泛 NSW 声明并非同一完整命题；不得改写后挽救样本。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "07-P030-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Facebook 帖子，经 AFP 引述",
+          "proposition": "Aberglasslyn 的某诊所此前接待了据称接触过冠状病毒的人。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "a doctor’s office in Aberglasslyn",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P030",
+            "page_internal_lines": "L63-L66"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-02-14（被引帖子日期；诊所事件具体时刻未知）",
+          "applicable_time": null,
+          "target_relation": "NARROWER_LOCATION_SPECIFIC_ALLEGATION"
+        },
+        {
+          "statement_id": "07-P030-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "AFP Australia",
+          "proposition": "上述 Aberglasslyn 诊所事件报道具有误导性。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "The claim is misleading.",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P030",
+            "page_internal_lines": "L75-L85"
+          },
+          "publication_time": "2020-02-20 04:50（网页显示；时区未给）",
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "CHALLENGES_DIFFERENT_SPECIFIC_CLAIM",
+          "stance_strength": "MISLEADING_NOT_LOGICAL_NEGATION"
+        },
+        {
+          "statement_id": "07-P030-S3",
+          "layer": "BODY",
+          "speaker_or_attribution": "NSW Health 发言人，经 AFP 引述",
+          "proposition": "所述四例确诊患者都不在乡村区域。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "none was in a regional area.",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P030",
+            "page_internal_lines": "L80-L82"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-02-17（邮件日期）",
+          "applicable_time": null,
+          "target_relation": "PARTIAL_LOCATION_EVIDENCE"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "AFP_P030",
+      "publication_time": "2020-02-20 04:50",
+      "update_time": null,
+      "scope_alignment": "DIFFERENT_NARROWER_PROPOSITION"
+    },
+    {
+      "case_id": "W1-07",
+      "page_id": "P031",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "涉及 NSW 病例和 Melbourne 就诊，但不建立 NSW 同一家诊所接待多人这一冻结完整命题。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "07-P031-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "ABC，病例信息归于 NSW Health",
+          "proposition": "三例 NSW 患者在悉尼医院接受治疗。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "All three NSW cases",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P031",
+            "page_internal_lines": "L141-L145"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-01-25",
+          "applicable_time": null,
+          "target_relation": "PARTIAL_NSW_CASE_CONTEXT"
+        },
+        {
+          "statement_id": "07-P031-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Victoria 卫生部长 Jenny Mikakos，经 ABC 引述",
+          "proposition": "墨尔本患者曾提前联系并戴口罩到 GP 诊所。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "presented to the GP clinic",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P031",
+            "page_internal_lines": "L175-L192"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": "2020-01-25 报道的 Melbourne/Victoria 病例",
+          "target_relation": "DIFFERENT_GEOGRAPHY_NOT_NSW"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "ABC_P031",
+      "publication_time": "2020-01-25 11:00（页面时区未标）",
+      "update_time": "2020-01-25 20:57（页面时区未标）"
+    },
+    {
+      "case_id": "W1-07",
+      "page_id": "P032",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "归档不可读；P031 当前页面不能赋予归档立场。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "current_counterpart": "P031"
+    },
+    {
+      "case_id": "W1-07",
+      "page_id": "P033",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "两名 NSW 患者分别见过 GP；不说明为同一家诊所，也不确认 Aberglasslyn 事件。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "07-P033-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "NSW Health",
+          "proposition": "一名五十多岁男性在进入悉尼后出现症状并到 GP 就诊。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "he subsequently attended a GP.",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P033",
+            "page_internal_lines": "L68"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-01-20 至 2020-01-25 之间；具体就诊日未知",
+          "applicable_time": null,
+          "target_relation": "PARTIAL_ONE_PATIENT"
+        },
+        {
+          "statement_id": "07-P033-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "NSW Health",
+          "proposition": "另一名三十多岁男性出现症状后也看过自己的 GP。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "and saw his GP.",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_03.json",
+            "page_id": "P033",
+            "page_internal_lines": "L69"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-01-15 至 2020-01-25 之间；具体就诊日未知",
+          "applicable_time": null,
+          "target_relation": "PARTIAL_SEPARATE_PATIENT"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "NSW_P033",
+      "publication_time": "2020-01-25",
+      "update_time": null,
+      "version_note": "当前页面标注信息已被后续信息取代；该提示添加时间未知。",
+      "scope_alignment": "PARTIAL_NO_SAME_OFFICE_IDENTITY"
+    },
+    {
+      "case_id": "W1-08",
+      "page_id": "P034",
+      "semantic_label": "ATTRIBUTED_ONLY",
+      "availability": "READABLE_CURRENT",
+      "reason": "辩论实录记录发言者观点，不等于出版方采纳。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "08-P034-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Joe Biden，辩论实录",
+          "proposition": "中国领导人在该国际民调比较中高于美国总统。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "the Chinese leader is rated above American -- the American president",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_04.json",
+            "page_id": "P034",
+            "page_internal_lines": "L34-L35"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2019-12-19",
+          "applicable_time": null,
+          "target_relation": "SAME_COMPARISON_ATTRIBUTED"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "WASHINGTON_POST_P034",
+      "publication_time": "2019-12-20",
+      "update_time": null
+    },
+    {
+      "case_id": "W1-08",
+      "page_id": "P035",
+      "semantic_label": "ASSERT_SUPPORT",
+      "availability": "READABLE_CURRENT",
+      "reason": "核查者采纳该比较，适用 2018 年 Pew 25 国领导人信任度中位数；非所有民调的永恒排序。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "08-P035-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "FactCheck.org 作者",
+          "proposition": "Biden 所述领导人国际民调排序正确。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "Biden was right",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_04.json",
+            "page_id": "P035",
+            "page_internal_lines": "L65-L67"
+          },
+          "publication_time": "2019-12-20",
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": "2018 年 Pew 调查，评议于 2019-12-19 辩论",
+          "target_relation": "SUPPORTS_WITH_POLL_SCOPE"
+        },
+        {
+          "statement_id": "08-P035-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "FactCheck.org，引用 Pew Research Center",
+          "proposition": "报告的国家中位数中，特朗普为 27%，习近平为 34%。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "while 34% had confidence in Xi Jinping",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_04.json",
+            "page_id": "P035",
+            "page_internal_lines": "L70"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2018 年（具体调查日未在冻结片段核实）",
+          "applicable_time": null,
+          "target_relation": "QUANTITATIVE_SCOPE"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "FACTCHECK_ARTICLE_P035",
+      "publication_time": "2019-12-20",
+      "update_time": null
+    },
+    {
+      "case_id": "W1-08",
+      "page_id": "P036",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "已检查的是当前新闻主页，未出现冻结声明；不能借同站具体文章给主页赋立场。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "FACTCHECK_HOME_P036",
+      "publication_time": null,
+      "update_time": null,
+      "inspection_locator": {
+        "w1_file": "../w1_averitec_audit_20261101/browser_05_08/batch_04.json",
+        "page_id": "P036",
+        "page_internal_lines": "L4-L39"
+      },
+      "event_time": "列示 2026 年文章；首页版本生成时间未知"
+    },
+    {
+      "case_id": "W1-09",
+      "page_id": "P002",
+      "semantic_label": null,
+      "availability": "NON_URL_SENTINEL",
+      "reason": "Metadata 是数据集占位符，不是真实网页。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "occurrence_count": 2
+    },
+    {
+      "case_id": "W1-09",
+      "page_id": "P037",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "原始页面不可读；不能根据 URL、标题或另一网页转述推断其立场。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null
+    },
+    {
+      "case_id": "W1-09",
+      "page_id": "P038",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "历史归档不可读，无历史版本立场。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null
+    },
+    {
+      "case_id": "W1-09",
+      "page_id": "P039",
+      "semantic_label": "ASSERT_SUPPORT",
+      "availability": "READABLE_CURRENT",
+      "reason": "冻结命题是 first，不是 only；参考正文支持前者，说明后来还有第二位获奖者不构成对 first 的反驳。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "09-P039-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Lead Stories / Alexis Tereszcuk",
+          "proposition": "Hester 是二战后第一位获银星勋章的女性。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "This did make her the first woman",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P039",
+            "page_internal_lines": "L27"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2005-06-16（授勋）；2005-03-20（战斗）",
+          "applicable_time": null,
+          "target_relation": "SAME_FIRST_CLAIM"
+        },
+        {
+          "statement_id": "09-P039-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Lead Stories / Alexis Tereszcuk",
+          "proposition": "后来 Brown 成为二战后第二位获此荣誉的女性。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "Brown became the second woman",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P039",
+            "page_internal_lines": "L28"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2008-03-21（授勋）；2007-04-25（行动）",
+          "applicable_time": null,
+          "target_relation": "NEGATES_ONLY_NOT_FIRST"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "LEADSTORIES_P039",
+      "publication_time": "2020-03-11",
+      "update_time": null,
+      "metadata_separation": "页面标题针对 only 的否定，正文针对 first 的肯定分别保留；不标 MIXED。"
+    },
+    {
+      "case_id": "W1-10",
+      "page_id": "P002",
+      "semantic_label": null,
+      "availability": "NON_URL_SENTINEL",
+      "reason": "Metadata 是占位符；其中提到 Stalin 不构成独立网页证据。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "occurrence_count": 1
+    },
+    {
+      "case_id": "W1-10",
+      "page_id": "P040",
+      "semantic_label": null,
+      "availability": "HEADER_ONLY_BODY_UNAVAILABLE",
+      "reason": "冻结 claim 本身未指定 Stalin，speaker=null；核查页面仅标题/作者/日期可见，正文未取得，不能补归属并当成已核验反驳。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "10-P040-M1",
+          "layer": "METADATA_TITLE",
+          "speaker_or_attribution": "Check Your Fact 标题",
+          "proposition": "标题询问该归属是否成立。",
+          "polarity": null,
+          "publisher_adoption": "NOT_APPLICABLE",
+          "evidence_span": "Did Stalin Give This Prescription For Undermining America?",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P040",
+            "page_internal_lines": "L2"
+          },
+          "publication_time": "2019-06-04 14:31（页面时区未标）",
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "INTERROGATIVE_NOT_VERDICT"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "CHECKYOURFACT_P040",
+      "publication_time": "2019-06-04 14:31",
+      "update_time": null,
+      "scope_alignment": "MISSING_ATTRIBUTION_IN_FROZEN_CLAIM"
+    },
+    {
+      "case_id": "W1-10",
+      "page_id": "P041",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "已读页面仅提供检索表单；没有执行档案检索，也没有归属核验结果。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "MARXISTS_SEARCH_P041",
+      "publication_time": null,
+      "update_time": "2021-05-03",
+      "inspection_locator": {
+        "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+        "page_id": "P041",
+        "page_internal_lines": "L0-L13"
+      },
+      "scope_alignment": "SEARCH_INTERFACE_NOT_EVIDENCE"
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P042",
+      "semantic_label": "MIXED",
+      "availability": "READABLE_CURRENT",
+      "reason": "正向报道与双方否认共存；分别记录作者与被引述者。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "11-P042-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Radar Staff，归因于所称法庭文件",
+          "proposition": "Griffin 每月支付 258000 美元子女抚养费。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "has to fork up $258,000 per month",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+            "page_id": "P042",
+            "page_internal_lines": "L35"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "SAME_AMOUNT_CLAIM"
+        },
+        {
+          "statement_id": "11-P042-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Griffin 与 Cameron 的代理人，经 Radar 引述",
+          "proposition": "近期关于协议财务细节的报道准确。",
+          "polarity": -1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "are inaccurate",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+            "page_id": "P042",
+            "page_internal_lines": "L74-L75"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "ATTRIBUTED_CHALLENGE_TO_REPORT_NOT_INDEPENDENT_NUMERIC_VERDICT"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "RADAR_P042_P048_SHARED",
+      "publication_time": null,
+      "update_time": "2019-02-25 11:51 ET（页面显示 Updated；初次发布日未独立核实）",
+      "version_note": "有否认但无已观察的添加时间；没有原版/修正版对照。"
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P043",
+      "semantic_label": "ASSERT_REFUTE",
+      "availability": "READABLE_CURRENT",
+      "reason": "核查者自身给出 False，且承认实际金额未知；其结论有时间与证据范围限制。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "11-P043-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "PolitiFact / Ciara O'Rourke",
+          "proposition": "所核查的每月 258000 美元抚养费报道真实。",
+          "polarity": -1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "We rate that post False.",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P043",
+            "page_internal_lines": "L55-L59"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": "2020-08-02（该核查对象的 Facebook 帖子日期）",
+          "applicable_time": null,
+          "target_relation": "SAME_AMOUNT_LATER_REPOST"
+        },
+        {
+          "statement_id": "11-P043-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Griffin 与 Cameron，经 Detroit Free Press、再经 PolitiFact 引述",
+          "proposition": "近期关于协议财务细节的报道准确。",
+          "polarity": -1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "are inaccurate",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P043",
+            "page_internal_lines": "L56"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "SHARED_DENIAL_LINEAGE"
+        },
+        {
+          "statement_id": "11-P043-S3",
+          "layer": "BODY",
+          "speaker_or_attribution": "PolitiFact / Ciara O'Rourke",
+          "proposition": "核查者不知道实际支付金额。",
+          "polarity": null,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "We don’t know how much",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/references.json",
+            "page_id": "P043",
+            "page_internal_lines": "L57"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "EPISTEMIC_LIMIT"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "POLITIFACT_P043",
+      "publication_time": "2020-08-03",
+      "update_time": null,
+      "theta_limit": "这是有条件参考判定，非独立客观 theta；未取得法庭完整文件。"
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P044",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "关系背景不回答指定月金额。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "11-P044-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Brynn Cameron，经 TMZ 转述诉讼主张",
+          "proposition": "她要求数百万金额的赔偿。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "she wants millions",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources2.json",
+            "page_id": "P044",
+            "page_internal_lines": "L94"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "DIFFERENT_PALIMONY_CLAIM"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "TMZ_P044",
+      "publication_time": "2018-02-14 10:00 PST",
+      "update_time": "2026-03-27 05:09 PDT",
+      "event_time": null
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P045",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "TMZ 历史归档不可读；当前 P044 不可赋值给归档。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "current_counterpart": "P044"
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P046",
+      "semantic_label": "MIXED",
+      "availability": "READABLE_CURRENT",
+      "reason": "SI 同时转述 Radar 金额报道与双方否认；更新说明证明加入否认，不等于 SI 已独立证明金额为假。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "11-P046-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Radar Online，经 SI 引述",
+          "proposition": "法院要求 Griffin 支付每月 258000 美元抚养费。",
+          "polarity": 1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "$258,000 a month in child support",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+            "page_id": "P046",
+            "page_internal_lines": "L82"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "SAME_AMOUNT_CLAIM_REPORTED_FROM_RADAR"
+        },
+        {
+          "statement_id": "11-P046-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Griffin 与 Cameron，向 SI 提供的声明",
+          "proposition": "近期关于协议财务细节的报道准确。",
+          "polarity": -1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "are inaccurate",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+            "page_id": "P046",
+            "page_internal_lines": "L83"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "ATTRIBUTED_CHALLENGE"
+        },
+        {
+          "statement_id": "11-P046-S3",
+          "layer": "BODY_UPDATE_NOTICE",
+          "speaker_or_attribution": "SI 编辑说明",
+          "proposition": "文章曾为反映双方否认而更新。",
+          "polarity": null,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "updated to reflect",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources1.json",
+            "page_id": "P046",
+            "page_internal_lines": "L88"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "REVISION_NOTICE_NOT_ORIGINAL_VERSION_OBSERVATION"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "SI_P046",
+      "publication_time": "2018-08-02T15:26:00Z",
+      "update_time": "2018-08-02T15:26:00Z",
+      "version_note": "未取得原版本；不得从 update notice 重建历史正文。 HTML 时间字段另行记录，不据此认定否认加入时刻。",
+      "time_metadata": [
+        {
+          "layer": "HTML_METADATA",
+          "field": "article:published_time",
+          "observed_value": "2018-08-02T15:26:00Z",
+          "locator": {
+            "w1_file": "../w1_averitec_audit_20261101/snapshots/P046.html",
+            "html_line": 1,
+            "selector": "meta[property=\"article:published_time\"]"
+          },
+          "interpretation": "当前保留 HTML 自报时间；非独立版本历史核实。"
+        },
+        {
+          "layer": "HTML_METADATA",
+          "field": "article:modified_time",
+          "observed_value": "2018-08-02T15:26:00Z",
+          "locator": {
+            "w1_file": "../w1_averitec_audit_20261101/snapshots/P046.html",
+            "html_line": 1,
+            "selector": "meta[property=\"article:modified_time\"]"
+          },
+          "interpretation": "当前保留 HTML 自报时间；非独立版本历史核实。"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P047",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "SI 历史归档不可读；当前 P046 不可赋值给归档。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "current_counterpart": "P046"
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P048",
+      "semantic_label": "MIXED",
+      "availability": "READABLE_CURRENT",
+      "reason": "另一 Radar 路径保留同一报道与否认，不能按两个独立来源计数。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "11-P048-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "Radar Staff，归因于所称法庭文件",
+          "proposition": "Griffin 每月支付 258000 美元子女抚养费。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "has to fork up $258,000 per month",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources2.json",
+            "page_id": "P048",
+            "page_internal_lines": "L41"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "SAME_AMOUNT_CLAIM"
+        },
+        {
+          "statement_id": "11-P048-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "Griffin 与 Cameron 的代理人，经 Radar 引述",
+          "proposition": "近期关于协议财务细节的报道准确。",
+          "polarity": -1,
+          "publisher_adoption": "ATTRIBUTED_NOT_ADOPTED",
+          "evidence_span": "are inaccurate",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources2.json",
+            "page_id": "P048",
+            "page_internal_lines": "L79-L80"
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "ATTRIBUTED_CHALLENGE_NOT_PUBLISHER_NEGATION"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "RADAR_P042_P048_SHARED",
+      "publication_time": "2018-08-01T16:55:54.000Z",
+      "update_time": "2019-02-25T16:51:30.000Z",
+      "version_note": "同站路径及语句复用，不证明原始发布时间或否认添加日。 HTML 时间字段另行记录，不据此认定否认加入时刻。",
+      "time_metadata": [
+        {
+          "layer": "HTML_METADATA",
+          "field": "article:published_time",
+          "observed_value": "2018-08-01T16:55:54.000Z",
+          "locator": {
+            "w1_file": "../w1_averitec_audit_20261101/snapshots/P048.html",
+            "html_line": 17,
+            "selector": "meta[property=\"article:published_time\"]"
+          },
+          "interpretation": "当前保留 HTML 自报时间；非独立版本历史核实。"
+        },
+        {
+          "layer": "HTML_METADATA",
+          "field": "article:modified_time",
+          "observed_value": "2019-02-25T16:51:30.000Z",
+          "locator": {
+            "w1_file": "../w1_averitec_audit_20261101/snapshots/P048.html",
+            "html_line": 17,
+            "selector": "meta[property=\"article:modified_time\"]"
+          },
+          "interpretation": "当前保留 HTML 自报时间；非独立版本历史核实。"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-11",
+      "page_id": "P049",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "Radar 历史归档不可读；P048 当前内容不是历史证据。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "current_counterpart": "P048"
+    },
+    {
+      "case_id": "W1-12",
+      "page_id": "P002",
+      "semantic_label": null,
+      "availability": "NON_URL_SENTINEL",
+      "reason": "Metadata 占位符中的两条 QA 及缓存字段不构成四个网页。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null,
+      "occurrence_count": 4
+    },
+    {
+      "case_id": "W1-12",
+      "page_id": "P050",
+      "semantic_label": null,
+      "availability": "UNAVAILABLE",
+      "reason": "原归档失败，当前原URL返回 403；不从数据集标签推断核查页面立场。",
+      "representation": "NO_READABLE_REPRESENTATION",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [],
+      "human_signoff": false,
+      "Y": null
+    },
+    {
+      "case_id": "W1-12",
+      "page_id": "P051",
+      "semantic_label": "NOT_ADDRESSED",
+      "availability": "READABLE_CURRENT",
+      "reason": "官方 PDF 给出不同时间窗总额与支出定义，不回答冻结的过去十年完整命题；不偷偷重算或重划时间窗。",
+      "representation": "CURRENT_REPRESENTATION_FROZEN_IN_W1",
+      "historical_semantic_label": null,
+      "historical_snapshot_observed": false,
+      "statements": [
+        {
+          "statement_id": "12-P051-S1",
+          "layer": "BODY",
+          "speaker_or_attribution": "South Africa National Treasury",
+          "proposition": "1998/99 至 2016/17 公共部门基础设施支出超过 R2.7 trillion。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "Between 1998/99 and 2016/17",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources2.json",
+            "page_id": "P051",
+            "page_internal_lines": "L10@P0-L15@P0",
+            "pdf_page_index": 0,
+            "printed_page": 139
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": "1998/99—2016/17 财政年度",
+          "target_relation": "DIFFERENT_TIME_WINDOW"
+        },
+        {
+          "statement_id": "12-P051-S2",
+          "layer": "BODY",
+          "speaker_or_attribution": "South Africa National Treasury",
+          "proposition": "该附录支出定义包括资本和利息付款。",
+          "polarity": 1,
+          "publisher_adoption": "ADOPTED",
+          "evidence_span": "Capital and interest payments",
+          "evidence_locator": {
+            "w1_file": "../w1_averitec_audit_20261101/browser_09_12/sources2.json",
+            "page_id": "P051",
+            "page_internal_lines": "L20@P0-L23@P0",
+            "pdf_page_index": 0,
+            "printed_page": 139
+          },
+          "publication_time": null,
+          "update_time": null,
+          "event_time": null,
+          "applicable_time": null,
+          "target_relation": "PARTIAL_DEFINITION_NOT_TEN_YEAR_TOTAL"
+        }
+      ],
+      "human_signoff": false,
+      "Y": null,
+      "source_group_id": "TREASURY_P051",
+      "publication_time": null,
+      "publication_year": 2018,
+      "update_time": null,
+      "version_note": "2018 Budget Review；未从网页推断具体发布日期。PDF 为当前原 URL 读取结果，2021 归档未恢复。"
+    }
+  ],
+  "case_notes": {
+    "W1-07": "保持隔离：不将冻结声明改成 some NSW patients visited GPs；ABC 的 GP 引文属于 Victoria。",
+    "W1-08": "参考支持与原始发言归属分开；首页不能继承文章立场。",
+    "W1-09": "first 与 only 是不同命题；原始网页仍未知。",
+    "W1-10": "claim 缺少 Stalin 归属，reference 正文缺失；no evidence 也不是已证明未曾说过。",
+    "W1-11": "自然网页显示归因、否认与更新机制；完整历史版本、私人协议与客观实际金额均未得到独立核验，不叫天然错误源已确认。",
+    "W1-12": "较长时间窗与十年命题不能交换；QA metadata 不是独立证据。"
+  },
+  "validation": {
+    "case_page_rows": 26,
+    "expected_case_page_rows": 26,
+    "exact_quote_substrings_found": true,
+    "quote_words_by_source_group": {
+      "AFP_P030": 15,
+      "ABC_P031": 9,
+      "NSW_P033": 9,
+      "WASHINGTON_POST_P034": 11,
+      "FACTCHECK_ARTICLE_P035": 10,
+      "LEADSTORIES_P039": 12,
+      "CHECKYOURFACT_P040": 8,
+      "RADAR_P042_P048_SHARED": 18,
+      "POLITIFACT_P043": 12,
+      "TMZ_P044": 3,
+      "SI_P046": 11,
+      "TREASURY_P051": 8
+    },
+    "all_historical_labels_null": true,
+    "no_human_signoffs": true,
+    "new_page_requests": 0,
+    "new_model_calls": 0
+  }
+}

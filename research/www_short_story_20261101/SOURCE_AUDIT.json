@@ -1,0 +1,100 @@
+{
+  "access_date_local": "2026-11-01",
+  "method": "Codex browser, public primary pages; prior bounded local section audits reused and disclosed",
+  "new_general_search_queries": [
+    "sequential hypothesis testing persistent measurement error unknown noise repeated measurements setup cost optimal design",
+    "\"optimal design\" \"unknown\" \"batch sizes\" \"sequential\" hypothesis",
+    "\"persistent\" \"noise\" \"calibration\" \"sequential testing\"",
+    "\"source\" \"extraction\" \"reliability\" \"optimal\" \"sequential\" testing"
+  ],
+  "not_systematic_review": true,
+  "priority_verified": false,
+  "unpublished_manuscript_uploaded": false,
+  "full_web_page_bytes_archived": false,
+  "sources": [
+    {
+      "id": "P1",
+      "title": "Integrating Conflicting Data: The Role of Source Dependence",
+      "url": "https://www.vldb.org/pvldb/vol2/vldb09-pvldb47.pdf",
+      "read_scope": "abstract and introduction",
+      "limitation": "Earlier local audit also inspected model; no priority or full-proof certification"
+    },
+    {
+      "id": "P2",
+      "title": "Knowledge-Based Trust: Estimating the Trustworthiness of Web Sources",
+      "url": "https://www.vldb.org/pvldb/vol8/p938-dong.pdf",
+      "read_scope": "abstract and introduction",
+      "limitation": "Source/extraction distinction is prior art"
+    },
+    {
+      "id": "P3",
+      "title": "Less is More: Selecting Sources Wisely for Integration",
+      "url": "https://www.vldb.org/pvldb/vol6/p37-dong.pdf",
+      "read_scope": "abstract and introduction",
+      "limitation": "Offline source selection; not asserted to cover all online variants"
+    },
+    {
+      "id": "P4",
+      "title": "Near-Optimal Bayesian Active Learning with Noisy Observations",
+      "url": "https://proceedings.neurips.cc/paper/2010/file/1e6e0a04d20f50967c64dac2d639a577-Paper.pdf",
+      "read_scope": "abstract; earlier local scope audit reused",
+      "limitation": "Correlated-noise/cost generality; not full reproof"
+    },
+    {
+      "id": "P5",
+      "title": "Sequential Controlled Sensing for Composite Multihypothesis Testing",
+      "url": "https://arxiv.org/html/1910.12697v1",
+      "read_scope": "model, Lemma 1 and eq18, uniqueness qualification",
+      "limitation": "Versioned preprint; current categorical mixture assumptions require separate proof"
+    },
+    {
+      "id": "P6",
+      "title": "Optimal Best-Arm Identification in Bandits with Access to Offline Data",
+      "url": "https://arxiv.org/html/2306.09048v1",
+      "read_scope": "risk definition, section2.1 and Theorem2.1",
+      "limitation": "Use of previous section-level audit disclosed"
+    },
+    {
+      "id": "P7",
+      "title": "Group sequential hypothesis tests with variable group sizes: optimal design and performance evaluation",
+      "url": "https://arxiv.org/html/2210.07203v2",
+      "read_scope": "section2.1, dynamic-programming vicinity, section4.2.1",
+      "limitation": "Two simple hypotheses; general non-iid setup; setup plus variable cost example"
+    },
+    {
+      "id": "P8",
+      "title": "On Cost-Aware Designs for Sequential Hypothesis Testing",
+      "url": "https://arxiv.org/html/2512.19067v3",
+      "read_scope": "model and fixed-cost objective/decomposition",
+      "limitation": "Versioned preprint; previous optimality scope comparison reused"
+    },
+    {
+      "id": "P9",
+      "title": "Human-AI-Powered Hypothesis Testing: Cost-Aware Selective AI Scoring and Sequential Human Escalation",
+      "url": "https://arxiv.org/html/2609.28859v1",
+      "read_scope": "per-item query limits, Theorem5.3, start of section6",
+      "limitation": "Earlier pilot-risk review reused; no new full-proof certification"
+    },
+    {
+      "id": "P10",
+      "title": "Optimal Decision Tree and Adaptive Submodular Ranking with Noisy Outcomes",
+      "url": "https://arxiv.org/abs/2312.15357",
+      "read_scope": "metadata and abstract only",
+      "limitation": "Full model/theorem overlap unresolved"
+    },
+    {
+      "id": "CFP",
+      "title": "ACM Web 2027 Research Track Papers",
+      "url": "https://www2027.thewebconf.org/research-track-papers/",
+      "read_scope": "scope, relevance, short-paper length, selected topic lists",
+      "limitation": "Track fit is our inference, not organizer approval"
+    },
+    {
+      "id": "DATES",
+      "title": "ACM Web 2027 Important Dates",
+      "url": "https://www2027.thewebconf.org/important-dates/",
+      "read_scope": "Short Papers and AoE rule",
+      "limitation": "2026-11-09 abstract; 2026-11-16 full paper"
+    }
+  ]
+}

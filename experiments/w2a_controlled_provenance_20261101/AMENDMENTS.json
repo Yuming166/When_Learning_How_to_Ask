@@ -1,0 +1,11 @@
+[
+  {
+    "amendment_id": "A1-strong-static-allocation-baseline",
+    "timing": "After inspecting initial frozen-grid results, before computing the stronger baseline",
+    "reason": "Best common fixed depth does not isolate adaptivity from preplanned heterogeneous depth allocation. Add every feasible static integer partition under the same total cost.",
+    "preserve_initial_outputs": "initial_run/",
+    "parameter_grid_changed": false,
+    "new_model_calls": 0,
+    "scientific_effect": "Any adaptive advantage must now be compared with best arbitrary static allocation; do not tune instances to preserve a win."
+  }
+]

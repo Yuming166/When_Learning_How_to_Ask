@@ -1,0 +1,37 @@
+{
+  "split": "development",
+  "master_seed": null,
+  "confirmation_authorized": false,
+  "model_calls_authorized": false,
+  "partitions": [
+    [
+      1,
+      3
+    ],
+    [
+      4
+    ]
+  ],
+  "alphas": [
+    0,
+    3
+  ],
+  "Rs": [
+    16,
+    256
+  ],
+  "episodes_per_cell": 4,
+  "p": 0.85,
+  "q": 0.6,
+  "type_accuracy": 0.8,
+  "eta": 0.05,
+  "cap_floor": 2048,
+  "cap_R_multiplier": 24,
+  "check_floor": 16,
+  "stop_mode": "certified",
+  "development_index_start": 720000,
+  "limits": {
+    "online_actions": 1048576,
+    "wall_seconds": 1200
+  }
+}

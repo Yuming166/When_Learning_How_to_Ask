@@ -1,0 +1,695 @@
+{
+  "scope": "descriptive purchase timing only; completed observations before query, not extra queries or threshold selection",
+  "budgets": {
+    "16": {
+      "KL-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "KL-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "KL-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-Fresh-Direct": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "Fresh-IG-Lite": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "Budget-Switch": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "Belief-Gated": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-Group-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      },
+      "IG-Group-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 0,
+        "worlds_without_type_purchase": 96,
+        "first_type_time_conditional_on_purchase": {
+          "n": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "p95": null
+        },
+        "type_counts_by_online_before_window": {},
+        "type_counts_by_group_index": {}
+      }
+    },
+    "32": {
+      "KL-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 70,
+        "worlds_without_type_purchase": 26,
+        "first_type_time_conditional_on_purchase": {
+          "n": 70,
+          "sum": 1361.0,
+          "mean": 19.442857142857143,
+          "median": 18.0,
+          "p95": 27.099999999999994
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 94,
+          "24-31": 82
+        },
+        "type_counts_by_group_index": {
+          "0": 121,
+          "1": 55
+        }
+      },
+      "KL-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 69,
+        "worlds_without_type_purchase": 27,
+        "first_type_time_conditional_on_purchase": {
+          "n": 69,
+          "sum": 1308.0,
+          "mean": 18.956521739130434,
+          "median": 17.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 109,
+          "24-31": 74
+        },
+        "type_counts_by_group_index": {
+          "0": 120,
+          "1": 63
+        }
+      },
+      "IG-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 26,
+        "worlds_without_type_purchase": 70,
+        "first_type_time_conditional_on_purchase": {
+          "n": 26,
+          "sum": 545.0,
+          "mean": 20.96153846153846,
+          "median": 18.0,
+          "p95": 30.0
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 46,
+          "16-23": 60
+        },
+        "type_counts_by_group_index": {
+          "0": 65,
+          "1": 41
+        }
+      },
+      "IG-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 39,
+        "worlds_without_type_purchase": 57,
+        "first_type_time_conditional_on_purchase": {
+          "n": 39,
+          "sum": 862.0,
+          "mean": 22.102564102564102,
+          "median": 22.0,
+          "p95": 31.0
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 45,
+          "16-23": 57
+        },
+        "type_counts_by_group_index": {
+          "0": 57,
+          "1": 45
+        }
+      },
+      "KL-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 57,
+        "worlds_without_type_purchase": 39,
+        "first_type_time_conditional_on_purchase": {
+          "n": 57,
+          "sum": 1172.0,
+          "mean": 20.56140350877193,
+          "median": 20.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 47,
+          "24-31": 72
+        },
+        "type_counts_by_group_index": {
+          "0": 86,
+          "1": 33
+        }
+      },
+      "IG-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 6,
+        "worlds_without_type_purchase": 90,
+        "first_type_time_conditional_on_purchase": {
+          "n": 6,
+          "sum": 96.0,
+          "mean": 16.0,
+          "median": 16.0,
+          "p95": 16.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 48,
+          "24-31": 48
+        },
+        "type_counts_by_group_index": {
+          "1": 64,
+          "0": 32
+        }
+      },
+      "IG-Fresh-Direct": {
+        "worlds": 96,
+        "worlds_purchasing_type": 45,
+        "worlds_without_type_purchase": 51,
+        "first_type_time_conditional_on_purchase": {
+          "n": 45,
+          "sum": 936.0,
+          "mean": 20.8,
+          "median": 20.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 60,
+          "16-23": 43
+        },
+        "type_counts_by_group_index": {
+          "0": 52,
+          "1": 51
+        }
+      },
+      "Fresh-IG-Lite": {
+        "worlds": 96,
+        "worlds_purchasing_type": 44,
+        "worlds_without_type_purchase": 52,
+        "first_type_time_conditional_on_purchase": {
+          "n": 44,
+          "sum": 907.0,
+          "mean": 20.613636363636363,
+          "median": 20.0,
+          "p95": 27.85
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 61,
+          "16-23": 43
+        },
+        "type_counts_by_group_index": {
+          "0": 53,
+          "1": 51
+        }
+      },
+      "Budget-Switch": {
+        "worlds": 96,
+        "worlds_purchasing_type": 67,
+        "worlds_without_type_purchase": 29,
+        "first_type_time_conditional_on_purchase": {
+          "n": 67,
+          "sum": 1303.0,
+          "mean": 19.44776119402985,
+          "median": 18.0,
+          "p95": 28.699999999999996
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 94,
+          "24-31": 40
+        },
+        "type_counts_by_group_index": {
+          "0": 88,
+          "1": 46
+        }
+      },
+      "Belief-Gated": {
+        "worlds": 96,
+        "worlds_purchasing_type": 47,
+        "worlds_without_type_purchase": 49,
+        "first_type_time_conditional_on_purchase": {
+          "n": 47,
+          "sum": 1005.0,
+          "mean": 21.382978723404257,
+          "median": 20.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 61,
+          "16-23": 44
+        },
+        "type_counts_by_group_index": {
+          "0": 52,
+          "1": 53
+        }
+      },
+      "IG-Group-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 40,
+        "worlds_without_type_purchase": 56,
+        "first_type_time_conditional_on_purchase": {
+          "n": 40,
+          "sum": 779.0,
+          "mean": 19.475,
+          "median": 16.0,
+          "p95": 29.049999999999997
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 65,
+          "16-23": 142
+        },
+        "type_counts_by_group_index": {
+          "0": 131,
+          "1": 76
+        }
+      },
+      "IG-Group-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 51,
+        "worlds_without_type_purchase": 45,
+        "first_type_time_conditional_on_purchase": {
+          "n": 51,
+          "sum": 955.0,
+          "mean": 18.725490196078432,
+          "median": 16.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 145,
+          "24-31": 56
+        },
+        "type_counts_by_group_index": {
+          "1": 93,
+          "0": 108
+        }
+      }
+    },
+    "64": {
+      "KL-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 73,
+        "worlds_without_type_purchase": 23,
+        "first_type_time_conditional_on_purchase": {
+          "n": 73,
+          "sum": 1507.0,
+          "mean": 20.643835616438356,
+          "median": 18.0,
+          "p95": 28.799999999999983
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 94,
+          "24-31": 82,
+          "40-47": 60,
+          "48-55": 66,
+          "56-63": 64
+        },
+        "type_counts_by_group_index": {
+          "0": 250,
+          "1": 116
+        }
+      },
+      "KL-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 71,
+        "worlds_without_type_purchase": 25,
+        "first_type_time_conditional_on_purchase": {
+          "n": 71,
+          "sum": 1410.0,
+          "mean": 19.859154929577464,
+          "median": 17.0,
+          "p95": 28.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 109,
+          "24-31": 74,
+          "40-47": 55,
+          "48-55": 67,
+          "56-63": 62
+        },
+        "type_counts_by_group_index": {
+          "0": 248,
+          "1": 119
+        }
+      },
+      "IG-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 48,
+        "worlds_without_type_purchase": 48,
+        "first_type_time_conditional_on_purchase": {
+          "n": 48,
+          "sum": 1649.0,
+          "mean": 34.354166666666664,
+          "median": 30.0,
+          "p95": 57.0
+        },
+        "type_counts_by_online_before_window": {
+          "56-63": 107,
+          "24-31": 46,
+          "48-55": 97,
+          "16-23": 60,
+          "40-47": 53
+        },
+        "type_counts_by_group_index": {
+          "0": 185,
+          "1": 178
+        }
+      },
+      "IG-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 70,
+        "worlds_without_type_purchase": 26,
+        "first_type_time_conditional_on_purchase": {
+          "n": 70,
+          "sum": 2377.0,
+          "mean": 33.957142857142856,
+          "median": 30.0,
+          "p95": 57.55
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 45,
+          "48-55": 92,
+          "56-63": 75,
+          "16-23": 57,
+          "40-47": 105
+        },
+        "type_counts_by_group_index": {
+          "0": 199,
+          "1": 175
+        }
+      },
+      "KL-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 72,
+        "worlds_without_type_purchase": 24,
+        "first_type_time_conditional_on_purchase": {
+          "n": 72,
+          "sum": 1889.0,
+          "mean": 26.23611111111111,
+          "median": 20.0,
+          "p95": 48.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 47,
+          "24-31": 72,
+          "40-47": 121,
+          "48-55": 81,
+          "56-63": 76
+        },
+        "type_counts_by_group_index": {
+          "0": 269,
+          "1": 128
+        }
+      },
+      "IG-32": {
+        "worlds": 96,
+        "worlds_purchasing_type": 11,
+        "worlds_without_type_purchase": 85,
+        "first_type_time_conditional_on_purchase": {
+          "n": 11,
+          "sum": 331.0,
+          "mean": 30.09090909090909,
+          "median": 16.0,
+          "p95": 47.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 48,
+          "24-31": 48,
+          "40-47": 53,
+          "48-55": 60,
+          "56-63": 56
+        },
+        "type_counts_by_group_index": {
+          "1": 132,
+          "0": 133
+        }
+      },
+      "IG-Fresh-Direct": {
+        "worlds": 96,
+        "worlds_purchasing_type": 70,
+        "worlds_without_type_purchase": 26,
+        "first_type_time_conditional_on_purchase": {
+          "n": 70,
+          "sum": 2050.0,
+          "mean": 29.285714285714285,
+          "median": 25.0,
+          "p95": 49.0
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 60,
+          "40-47": 87,
+          "48-55": 66,
+          "56-63": 50,
+          "16-23": 43
+        },
+        "type_counts_by_group_index": {
+          "0": 158,
+          "1": 148
+        }
+      },
+      "Fresh-IG-Lite": {
+        "worlds": 96,
+        "worlds_purchasing_type": 71,
+        "worlds_without_type_purchase": 25,
+        "first_type_time_conditional_on_purchase": {
+          "n": 71,
+          "sum": 2122.0,
+          "mean": 29.887323943661972,
+          "median": 25.0,
+          "p95": 51.5
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 61,
+          "40-47": 94,
+          "48-55": 65,
+          "56-63": 53,
+          "16-23": 43
+        },
+        "type_counts_by_group_index": {
+          "0": 157,
+          "1": 159
+        }
+      },
+      "Budget-Switch": {
+        "worlds": 96,
+        "worlds_purchasing_type": 81,
+        "worlds_without_type_purchase": 15,
+        "first_type_time_conditional_on_purchase": {
+          "n": 81,
+          "sum": 1908.0,
+          "mean": 23.555555555555557,
+          "median": 19.0,
+          "p95": 51.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 94,
+          "24-31": 82,
+          "40-47": 75,
+          "48-55": 67,
+          "56-63": 70
+        },
+        "type_counts_by_group_index": {
+          "0": 232,
+          "1": 156
+        }
+      },
+      "Belief-Gated": {
+        "worlds": 96,
+        "worlds_purchasing_type": 70,
+        "worlds_without_type_purchase": 26,
+        "first_type_time_conditional_on_purchase": {
+          "n": 70,
+          "sum": 2072.0,
+          "mean": 29.6,
+          "median": 25.5,
+          "p95": 50.55
+        },
+        "type_counts_by_online_before_window": {
+          "24-31": 65,
+          "40-47": 78,
+          "56-63": 48,
+          "48-55": 73,
+          "16-23": 44
+        },
+        "type_counts_by_group_index": {
+          "0": 153,
+          "1": 155
+        }
+      },
+      "IG-Group-Block": {
+        "worlds": 96,
+        "worlds_purchasing_type": 64,
+        "worlds_without_type_purchase": 32,
+        "first_type_time_conditional_on_purchase": {
+          "n": 64,
+          "sum": 1943.0,
+          "mean": 30.359375,
+          "median": 25.0,
+          "p95": 56.849999999999994
+        },
+        "type_counts_by_online_before_window": {
+          "48-55": 106,
+          "40-47": 128,
+          "56-63": 118,
+          "24-31": 65,
+          "16-23": 142
+        },
+        "type_counts_by_group_index": {
+          "0": 289,
+          "1": 270
+        }
+      },
+      "IG-Group-Fresh": {
+        "worlds": 96,
+        "worlds_purchasing_type": 75,
+        "worlds_without_type_purchase": 21,
+        "first_type_time_conditional_on_purchase": {
+          "n": 75,
+          "sum": 2110.0,
+          "mean": 28.133333333333333,
+          "median": 20.0,
+          "p95": 57.0
+        },
+        "type_counts_by_online_before_window": {
+          "16-23": 145,
+          "24-31": 56,
+          "40-47": 100,
+          "48-55": 74,
+          "56-63": 61
+        },
+        "type_counts_by_group_index": {
+          "1": 204,
+          "0": 232
+        }
+      }
+    }
+  }
+}

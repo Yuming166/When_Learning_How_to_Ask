@@ -1,0 +1,91 @@
+{
+  "source_runtime_history_verification": {
+    "passed": true,
+    "sources": 98,
+    "documents": 12,
+    "runtime_files": 2645,
+    "historical_public_files": 132,
+    "manifest_sha256": "e24ae1327b454bbdfe4ab731009577f9a7db8a9e01c8e353a1a716d48e446b54"
+  },
+  "saved_weight_and_DEV_selection_checks": [
+    {
+      "mode": "task",
+      "seed": 7101,
+      "selected_checkpoint_sha256": "296ef66041e5b9c132f5cd322977671e594f3349ab299ea6b6ad1fc620a9d73a",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "task",
+      "seed": 7102,
+      "selected_checkpoint_sha256": "40c63a00a818f8d389316e01f8f92dfef64965737205266fbdd0ce8a235f6a26",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "task",
+      "seed": 7103,
+      "selected_checkpoint_sha256": "ffd2a3d219d1b6164f53b174e6c75b93c8a9a627dfa53d3ccafc691724abc4e7",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "type",
+      "seed": 7101,
+      "selected_checkpoint_sha256": "1cc98ed95dcae696618e734f7dad59e5b6a9586fcb8ae56fb662528224c9eb9d",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "type",
+      "seed": 7102,
+      "selected_checkpoint_sha256": "3ff8e218551e9078c5fcc736e0f9937403ff672cb89c7bdfa0ab485722bd6f00",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "type",
+      "seed": 7103,
+      "selected_checkpoint_sha256": "a3230afaaa68446e656d35aa1ccbe0d411d4aca846c77dcc5451b9ea8ff7b794",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "joint",
+      "seed": 7101,
+      "selected_checkpoint_sha256": "f7970276e041389b0a1efa683c6bca92827bf6695b84bb6a5206590e7c76e58f",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "joint",
+      "seed": 7102,
+      "selected_checkpoint_sha256": "5b4d5c873d6c22388d3ad79ef446249651a1598b4126ff0bd967d0b641a53315",
+      "saved_weight_DEV_MSE_reproduced": true
+    },
+    {
+      "mode": "joint",
+      "seed": 7103,
+      "selected_checkpoint_sha256": "62730033ba38afb7857be9e25e5b5f71571fc1c28a8c5eea3251cfe72698cec1",
+      "saved_weight_DEV_MSE_reproduced": true
+    }
+  ],
+  "prior_to_TEST_selection_hash_preserved": true,
+  "TEST_loaded_weight_hashes_match_opening_receipt": true,
+  "new_split_master_keys_distinct": true,
+  "private_seed_values_in_public_files": 0,
+  "actual_world_paths": 4488,
+  "online_actions": 162048,
+  "optimizer_steps": 4680,
+  "complete_checkpoint_files": 36,
+  "independent_TEST_worlds": 192,
+  "integrity_checks": 373464,
+  "numerical_or_infrastructure_failures": 0,
+  "normal_terminal_noncertifications": 4488,
+  "certified_outputs": 0,
+  "certified_error_rate_denominator": 0,
+  "posthoc_diagnostics": [
+    "LABEL_NOISE_DIAGNOSTIC.json",
+    "RESEARCH_INTERPRETATION_CN.md"
+  ],
+  "posthoc_changes_to_models_or_gates": false,
+  "extra_training_rounds": 0,
+  "confirmation_worlds": 0,
+  "LLM_calls": 0,
+  "GPU_calls": 0,
+  "automatic_continuation": false,
+  "limits": "Saved-checkpoint DEV-MSE and source/ledger checks reproduced. Effectiveness was not independently rerun; no general numerical certification or real-language transfer claim."
+}

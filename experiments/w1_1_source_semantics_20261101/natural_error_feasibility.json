@@ -1,0 +1,88 @@
+{
+  "scope": "Only frozen W1 representations and correction-related leads; no new crawl, search or dataset expansion",
+  "lead_families": [
+    {
+      "case_id": "W1-11",
+      "page_ids": [
+        "P046",
+        "P047"
+      ],
+      "record": "Sports Illustrated update notice",
+      "current_notice_observed": true,
+      "prior_version_body_observed": false,
+      "revision_timestamp_observed": false,
+      "correction_disproves_exact_amount": false,
+      "evidence": "../w1_averitec_audit_20261101/browser_09_12/sources1.json SI L81-95",
+      "classification": "REPORT_UPDATED_TO_INCLUDE_ATTRIBUTED_DENIAL",
+      "natural_error_verified": false,
+      "missing": [
+        "version before update",
+        "independent amount record",
+        "genuine human adjudication"
+      ]
+    },
+    {
+      "case_id": "W1-11",
+      "page_ids": [
+        "P042",
+        "P048",
+        "P049"
+      ],
+      "record": "Radar article contains amount allegation and denial",
+      "current_notice_observed": true,
+      "prior_version_body_observed": false,
+      "revision_timestamp_observed": false,
+      "correction_disproves_exact_amount": false,
+      "evidence": "../w1_averitec_audit_20261101/browser_09_12/sources1.json Radar L35,74-75; sources2.json Radar L41,79-80",
+      "classification": "MIXED_CURRENT_REPORT_NOT_VERSIONED_RETRACTION",
+      "natural_error_verified": false,
+      "missing": [
+        "error-only prior representation",
+        "independent adjudication",
+        "revision chronology"
+      ]
+    },
+    {
+      "case_id": "W1-06",
+      "page_ids": [
+        "P028"
+      ],
+      "record": "McSweeney parody disclaimer",
+      "current_notice_observed": true,
+      "prior_version_body_observed": false,
+      "revision_timestamp_observed": false,
+      "correction_disproves_exact_amount": null,
+      "evidence": "../w1_averitec_audit_20261101/browser_05_08/batch_02.json McSweeney L16-35",
+      "classification": "AUTHORSHIP_CONTEXT_NOT_PROOF_OF_SOURCE_CORRECTION",
+      "natural_error_verified": false,
+      "missing": [
+        "evidence disclaimer was a later correction",
+        "original false factual assertion by this publisher"
+      ]
+    },
+    {
+      "case_id": "W1-04",
+      "page_ids": [
+        "P014",
+        "P015",
+        "P016"
+      ],
+      "record": "Social metadata versus reference correction",
+      "current_notice_observed": false,
+      "prior_version_body_observed": false,
+      "revision_timestamp_observed": false,
+      "correction_disproves_exact_amount": null,
+      "evidence": "../w1_averitec_audit_20261101/browser_01_04/P014_metadata_inspection.json; P016.json",
+      "classification": "METADATA_ONLY_ERROR_LEAD_NOT_ORIGINAL_BODY_CORRECTION_PAIR",
+      "natural_error_verified": false,
+      "missing": [
+        "readable original body",
+        "matched historical version",
+        "independent truth review"
+      ]
+    }
+  ],
+  "outcome": "NO_GO_FOR_VERIFIED_NATURAL_ERROR_SUBSET_IN_THIS_CORPUS",
+  "general_dataset_feasibility": "NOT_ESTIMATED_OUTSIDE_FIXED_CORPUS",
+  "new_page_requests": 0
+}

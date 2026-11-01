@@ -1,0 +1,26 @@
+{
+  "verification_id": "W2a-theory-reconstruction-v1",
+  "status": "PASS",
+  "comparison": "Full parsed JSON equality; every original field independently reconstructed",
+  "original_certificate_sha256": "e4e840be0493a7e87c03febc4df7791cb3dc81b5600ff2bb2944aeb21dd4d67e",
+  "verifier_sha256": "6bf5df41d6db8f6403802a2c74e2a68b07545cad1d0fce4bc7d3f92924dee14c",
+  "base_laws_normalized": 300,
+  "base_risk_formulas_crosschecked": 300,
+  "n3_factorization_points": 25,
+  "additional_checks": {
+    "boundary_checks": 130,
+    "even_parity_checks": 50,
+    "nonzero_outcome_posterior_ceiling_checks": 1315,
+    "additional_exact_laws_for_counterexample": 1,
+    "symbolic_n3_coefficients": {
+      "x*y^3": "1/4",
+      "x^3*y^3": "-1/4"
+    },
+    "rectangle_proof_checks": "Exact endpoint values and positive-interval concavity; see the analytic interval proof in THEORY_RESULTS.md.",
+    "fixed_budget_threshold": "c<=ell/3 versus ell/3<c<=ell, B=4*ell; five original rational points also verified."
+  },
+  "original_certificate_unchanged": true,
+  "arithmetic": "fractions.Fraction, exact",
+  "network_calls": 0,
+  "model_service_calls": 0
+}

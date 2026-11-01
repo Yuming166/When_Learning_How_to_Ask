@@ -1,0 +1,42 @@
+{
+  "stage": "W2a",
+  "status": "COMPLETE",
+  "completed_utc": "2026-10-31T18:54:27.948606+00:00",
+  "client_date": "2026-11-01",
+  "authorized_track": "Human-free controlled theoretical mechanism experiment",
+  "gold_basis": "Deterministic fictional records and independent program checks, not unreviewed natural-Web labels",
+  "experiments": {
+    "HTML_fixtures": 1152,
+    "facts": 192,
+    "constructed_roots": 768,
+    "law_configurations": 80,
+    "cost_configurations": 81,
+    "numerical_controls": 30,
+    "experiment_model_calls": 0,
+    "new_real_web_requests": 0,
+    "training_jobs": 0
+  },
+  "theory": {
+    "same_root_copy_equivalence": true,
+    "explicit_three_read_gap": true,
+    "explicit_cost_reversal_intervals": true,
+    "frozen_adaptive_policy_strict_region": true,
+    "region_error_margin": "143/25000",
+    "global_unknown_channel_optimality_claim": false
+  },
+  "checks": {
+    "parent_files_preserved": 109,
+    "independent_comparisons": 461,
+    "region_independent_review": "PASS",
+    "exact_small_case_arithmetic": "Fraction",
+    "natural_Web_or_Qwen_effectiveness": "NOT_MEASURED"
+  },
+  "reports": [
+    "REPORT_ZH.md",
+    "THEORY_RESULTS.md",
+    "ADAPTIVITY_REGION_PROOF.md",
+    "INDEPENDENT_REVIEW.md",
+    "REGION_REVIEW.md"
+  ],
+  "future_execution_authorized_by_this_receipt": false
+}

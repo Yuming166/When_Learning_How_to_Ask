@@ -1,0 +1,423 @@
+{
+  "started": true,
+  "feasibility_gate_sha256": "e6bb27044c8922709297db87f1d9bd4faf6b8873291f755477c10af230b45860",
+  "train_labels_sha256": "5fba50f4c51d864f367846683fe3045bf185671cbbe0c79c28edfc4bd6dcb7a9",
+  "dev_labels_sha256": "7366d1a8c7f36b5fde42115ef128adf3115bf20a07dbf1aafd4b2c737236c563",
+  "attempts": [
+    {
+      "mode": "task",
+      "seed": 7101,
+      "train_pairs": 156,
+      "dev_pairs": 67,
+      "training_worlds": 47,
+      "parameters": 1857,
+      "optimizer_steps": 360,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 120,
+      "selected_checkpoint": "task_seed7101_epoch120.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0008773113646664572,
+          "dev_mse": 0.0008161674101991698,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7101_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0008596181943220494,
+          "dev_mse": 0.0008335010628770941,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7101_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0008486679886915544,
+          "dev_mse": 0.0008586073398111713,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7101_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0008138012748129995,
+          "dev_mse": 0.0008125384706523959,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7101_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.1422900090000001,
+      "wall_seconds": 0.14228903176262975,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "task",
+      "seed": 7102,
+      "train_pairs": 156,
+      "dev_pairs": 67,
+      "training_worlds": 47,
+      "parameters": 1857,
+      "optimizer_steps": 360,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 90,
+      "selected_checkpoint": "task_seed7102_epoch90.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.001101526635604172,
+          "dev_mse": 0.0010995856516612876,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7102_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009150384731322192,
+          "dev_mse": 0.0008993073958259768,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7102_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0008759882094182341,
+          "dev_mse": 0.0008328907593484907,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7102_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0008447410682870227,
+          "dev_mse": 0.0008848050982822554,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7102_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.141525189,
+      "wall_seconds": 0.14153238479048014,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "task",
+      "seed": 7103,
+      "train_pairs": 156,
+      "dev_pairs": 67,
+      "training_worlds": 47,
+      "parameters": 1857,
+      "optimizer_steps": 360,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 120,
+      "selected_checkpoint": "task_seed7103_epoch120.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.001167978999540849,
+          "dev_mse": 0.0012745384226487476,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7103_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009564545152150381,
+          "dev_mse": 0.0009537300086806692,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7103_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0008736076152558935,
+          "dev_mse": 0.0008879147488239867,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7103_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0008331833188136048,
+          "dev_mse": 0.0008771695586794298,
+          "dev_zero_residual_mse": 0.0008401838722007991,
+          "checkpoint": "task_seed7103_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.14123138099999988,
+      "wall_seconds": 0.14125829515978694,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "type",
+      "seed": 7101,
+      "train_pairs": 210,
+      "dev_pairs": 100,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 480,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 90,
+      "selected_checkpoint": "type_seed7101_epoch90.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0009641274446709246,
+          "dev_mse": 0.0013435664626130974,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7101_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0010277412779410961,
+          "dev_mse": 0.0015069003253969716,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7101_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0009195360629106451,
+          "dev_mse": 0.0012874826359615707,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7101_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0009495588706307572,
+          "dev_mse": 0.0013549879996022877,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7101_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.18623279299999984,
+      "wall_seconds": 0.18623489001765847,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "type",
+      "seed": 7102,
+      "train_pairs": 210,
+      "dev_pairs": 100,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 480,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 120,
+      "selected_checkpoint": "type_seed7102_epoch120.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0010780876458704848,
+          "dev_mse": 0.001656278582134802,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7102_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009321920817629527,
+          "dev_mse": 0.0014879630919418419,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7102_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0009808856015989023,
+          "dev_mse": 0.0015291151035100208,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7102_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0008632389877094925,
+          "dev_mse": 0.001419785601881246,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7102_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.18573366999999985,
+      "wall_seconds": 0.18578184070065618,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "type",
+      "seed": 7103,
+      "train_pairs": 210,
+      "dev_pairs": 100,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 480,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 120,
+      "selected_checkpoint": "type_seed7103_epoch120.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0011066227637653542,
+          "dev_mse": 0.0015519562569890509,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7103_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009891077252216377,
+          "dev_mse": 0.0013756056590751688,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7103_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.000956215858536104,
+          "dev_mse": 0.001306456868241158,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7103_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.000928822426073766,
+          "dev_mse": 0.0012958217357586755,
+          "dev_zero_residual_mse": 0.0012999193160792854,
+          "checkpoint": "type_seed7103_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.1859637649999999,
+      "wall_seconds": 0.18596432311460376,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "joint",
+      "seed": 7101,
+      "train_pairs": 372,
+      "dev_pairs": 178,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 720,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 120,
+      "selected_checkpoint": "joint_seed7101_epoch120.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0009284218174998447,
+          "dev_mse": 0.0012447969988313764,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7101_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009162198269136853,
+          "dev_mse": 0.001270133954220574,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7101_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0009108321239422818,
+          "dev_mse": 0.0012388014659643386,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7101_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0009268165532827681,
+          "dev_mse": 0.0012115949357044001,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7101_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.298685179,
+      "wall_seconds": 0.2987100537866354,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "joint",
+      "seed": 7102,
+      "train_pairs": 372,
+      "dev_pairs": 178,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 720,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 60,
+      "selected_checkpoint": "joint_seed7102_epoch60.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0009534188744169559,
+          "dev_mse": 0.0012946383746961312,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7102_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0008947394021333659,
+          "dev_mse": 0.0012326004974262082,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7102_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0009179838453986238,
+          "dev_mse": 0.0012465980363231385,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7102_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0009109378024203704,
+          "dev_mse": 0.0012757217065778612,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7102_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.2960733179999999,
+      "wall_seconds": 0.2960921241901815,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    },
+    {
+      "mode": "joint",
+      "seed": 7103,
+      "train_pairs": 372,
+      "dev_pairs": 178,
+      "training_worlds": 48,
+      "parameters": 1857,
+      "optimizer_steps": 720,
+      "epochs": 120,
+      "selected_epoch_by_dev_mse": 60,
+      "selected_checkpoint": "joint_seed7103_epoch60.npz",
+      "history": [
+        {
+          "epoch": 30,
+          "train_mse": 0.0010145194446491202,
+          "dev_mse": 0.0012819331987907502,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7103_epoch30.npz"
+        },
+        {
+          "epoch": 60,
+          "train_mse": 0.0009368196707130591,
+          "dev_mse": 0.0012011105448006642,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7103_epoch60.npz"
+        },
+        {
+          "epoch": 90,
+          "train_mse": 0.0009038771851600176,
+          "dev_mse": 0.0012140244461301853,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7103_epoch90.npz"
+        },
+        {
+          "epoch": 120,
+          "train_mse": 0.0008745961662302242,
+          "dev_mse": 0.0012077875505588451,
+          "dev_zero_residual_mse": 0.0012229007886728996,
+          "checkpoint": "joint_seed7103_epoch120.npz"
+        }
+      ],
+      "cpu_seconds": 0.2955675259999997,
+      "wall_seconds": 0.29560554400086403,
+      "selection": "DEV-label MSE checkpoint, then DEV episode success for seed; no TEST access"
+    }
+  ],
+  "test_access": false,
+  "completed": true,
+  "source_check": {
+    "passed": true,
+    "sources": 98,
+    "documents": 12,
+    "runtime_files": 2645,
+    "historical_public_files": 132,
+    "manifest_sha256": "e24ae1327b454bbdfe4ab731009577f9a7db8a9e01c8e353a1a716d48e446b54"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "bootstrap_seed": 731032,
+  "bootstrap_resamples": 4000,
+  "unit": "independent world; five correlated offline states averaged first",
+  "interval_scope": "descriptive paired-world resampling sensitivity on fixed heterogeneous condition grids; not calibrated population confidence intervals",
+  "pooled_scope": "all_24_worlds reuses the same worlds; resamples eight within each declared stratum, no additional independent units",
+  "percent_targets": "saved teacher_percent labels; never regenerated from serialized float weights; numerical largest-remainder ties retain generation convention",
+  "confirmation": false,
+  "missing_outcomes": "unknown, with requested denominators retained"
+}

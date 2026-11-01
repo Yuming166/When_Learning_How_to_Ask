@@ -1,0 +1,10 @@
+{
+  "planned_worlds": 64,
+  "planned_trajectories": 256,
+  "observed_rows": 256,
+  "missing": [],
+  "unexpected": [],
+  "duplicates": [],
+  "metadata_errors": [],
+  "exact": true
+}

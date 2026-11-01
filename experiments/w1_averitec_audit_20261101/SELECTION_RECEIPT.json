@@ -1,0 +1,15 @@
+{
+  "total_train": 3068,
+  "label_counts": {
+    "Supported": 849,
+    "Refuted": 1742,
+    "Conflicting Evidence/Cherrypicking": 195,
+    "Not Enough Evidence": 282
+  },
+  "selected": 12,
+  "selected_counts": {
+    "Refuted": 6,
+    "Supported": 6
+  },
+  "selection_sha256": "c07efbfff2ce7ba8fcadb8d00ce0dce4d522dbe7176e9427bf4dac7fbc396993"
+}

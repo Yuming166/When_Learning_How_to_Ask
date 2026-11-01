@@ -1,0 +1,113 @@
+{
+  "online": 516,
+  "minimum_marginal": 6.157584296690793e-16,
+  "maximum_marginal": 1.0000000000000004,
+  "observed_state": {
+    "schema": "t2_observable_v1",
+    "d": 2,
+    "groups": [
+      [
+        0,
+        1
+      ]
+    ],
+    "eta": 0.05,
+    "known_s": [
+      0.8
+    ],
+    "counts": [
+      [
+        [
+          11,
+          14
+        ],
+        [
+          71,
+          162
+        ]
+      ],
+      [
+        [
+          12,
+          13
+        ],
+        [
+          160,
+          73
+        ]
+      ]
+    ],
+    "forced_counts": [
+      [
+        [
+          4,
+          8
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      [
+        [
+          5,
+          7
+        ],
+        [
+          10,
+          2
+        ]
+      ]
+    ],
+    "type_report_counts": [
+      [
+        0,
+        0
+      ]
+    ],
+    "calibration": {
+      "high": {
+        "successes": 0,
+        "total": 0
+      },
+      "low": {
+        "successes": 0,
+        "total": 0
+      }
+    },
+    "R": 16.0,
+    "online": 516,
+    "online_cap": 6144,
+    "remaining": 5628,
+    "estimate": {
+      "p": 0.6904469727445681,
+      "q": 0.5623402526683199,
+      "theta_prob": [
+        1.0000000000000004,
+        6.157584296690793e-16
+      ],
+      "z_prob": [
+        0.987247892203766
+      ],
+      "z": [
+        1
+      ]
+    },
+    "action_mask": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "offending_values": [
+    1.0000000000000004
+  ],
+  "error": "ValueError('Estimated probabilities')",
+  "deterministic_reproduction": true,
+  "wall_seconds": 0.25387992383912206,
+  "scope": "One explicit technical replay of the same first failed world using its committed seed; no new world, fit, checkpoint, query strategy, or held-out student outcome. Original unknown interrupted cost remains unknown, not replaced by replay cost.",
+  "fresh_worlds": 0,
+  "scientific_fits": 0
+}

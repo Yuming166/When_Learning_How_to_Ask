@@ -1,0 +1,42 @@
+{
+  "analysis_source_sha256": "e098f4f9c2a7f76704180617fd66c01f8216983d32b858eec5a146ee9c070335",
+  "coverage": {
+    "all_applicable_paths_completed": true,
+    "main_applicable": 792,
+    "main_path_records": 792,
+    "main_readout_cells_expected": 1584,
+    "offline_records_expected": 1536,
+    "offline_records_observed": 1536,
+    "offline_status_counts": {
+      "completed": 1338,
+      "not_applicable": 198
+    },
+    "path_records_expected": 858,
+    "path_records_observed": 858,
+    "path_status_counts": {
+      "completed": 852,
+      "not_applicable": 6
+    },
+    "readout_cells_expected": 1704,
+    "readout_cells_observed": 1704,
+    "status": "complete_key_coverage",
+    "variable_applicable": 60,
+    "variable_readout_cells_expected": 120
+  },
+  "decision": "manual_review_required",
+  "figures": [
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031/artifacts/analysis/figures/offline_exact_regret_latency.png",
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031/artifacts/analysis/figures/offline_exact_regret_latency.pdf",
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031/artifacts/analysis/figures/paired_query_compute.png",
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031/artifacts/analysis/figures/paired_query_compute.pdf"
+  ],
+  "matplotlib_version": "3.11.1",
+  "model_calls": 0,
+  "numpy_version": "2.5.3",
+  "outer_cpu_seconds": 7.105039797,
+  "outer_wall_seconds": 7.105814529117197,
+  "python_version": "3.13.13",
+  "scientific_retries": 0,
+  "simulation_worlds": 0,
+  "status": "completed"
+}

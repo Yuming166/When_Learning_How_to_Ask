@@ -1,0 +1,9 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "source_profile_blas_threads": 1,
+  "torch_loaded_in_validation": false,
+  "gpu_used": false
+}

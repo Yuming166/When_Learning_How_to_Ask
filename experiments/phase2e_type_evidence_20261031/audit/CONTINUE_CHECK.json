@@ -1,0 +1,10 @@
+{
+  "case": "new_fused_driver_continues_after_undetermined_then_certifies",
+  "online": 32,
+  "statuses": [
+    "undetermined",
+    "certified"
+  ],
+  "injected_engineering_case": true,
+  "scientific_worlds": 0
+}

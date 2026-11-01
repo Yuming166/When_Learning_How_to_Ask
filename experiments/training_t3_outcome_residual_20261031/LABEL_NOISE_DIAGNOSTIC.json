@@ -1,0 +1,29 @@
+{
+  "status": "POSTHOC_DESCRIPTIVE_LABEL_DIAGNOSTIC",
+  "new_rollouts": 0,
+  "new_fits": 0,
+  "used_for_model_selection": false,
+  "limitations": "Shared states/actions are not independent worlds; these are label-noise diagnostics within the frozen quadrature predictive model, not heldout-policy guarantees.",
+  "train": {
+    "worlds": 48,
+    "states": 192,
+    "residual_labels": 372,
+    "mean_squared_observed_advantage": 0.0010261334069250007,
+    "estimated_mean_MC_variance_of_advantage_mean": 0.0009396875709564476,
+    "mean_MC_standard_error": 0.026833056810229572,
+    "split_half_label_correlation": 0.08471833995534599,
+    "split_half_agreement_exceeds_frozen_002_threshold": 0.6693548387096774,
+    "caution": "Noise variance estimate uses paired CRN residual samples. Subtraction from observed squared advantage is exploratory and not a significance test."
+  },
+  "development": {
+    "worlds": 24,
+    "states": 96,
+    "residual_labels": 178,
+    "mean_squared_observed_advantage": 0.0012229007886728994,
+    "estimated_mean_MC_variance_of_advantage_mean": 0.0010044147995480924,
+    "mean_MC_standard_error": 0.028172161598286415,
+    "split_half_label_correlation": 0.11699300986489308,
+    "split_half_agreement_exceeds_frozen_002_threshold": 0.6573033707865169,
+    "caution": "Noise variance estimate uses paired CRN residual samples. Subtraction from observed squared advantage is exploratory and not a significance test."
+  }
+}

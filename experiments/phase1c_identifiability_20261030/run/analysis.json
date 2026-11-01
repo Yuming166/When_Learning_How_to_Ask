@@ -1,0 +1,558 @@
+{
+  "development_only": true,
+  "model_calls": 192,
+  "valid": 192,
+  "invalid_or_error": 0,
+  "full_correct": 115,
+  "full_accuracy": {
+    "mean": 0.5989583333333333,
+    "cluster_bootstrap_95": [
+      0.546875,
+      0.65625
+    ],
+    "groups": 8
+  },
+  "heldout_per_strategy_denominator": 64,
+  "heldout_unique_targets": 32,
+  "metrics": {
+    "Fixed A": {
+      "mean": 0.625,
+      "cluster_bootstrap_95": [
+        0.421875,
+        0.796875
+      ],
+      "groups": 8
+    },
+    "Fixed B": {
+      "mean": 0.578125,
+      "cluster_bootstrap_95": [
+        0.5,
+        0.65625
+      ],
+      "groups": 8
+    },
+    "Round-Robin": {
+      "mean": 0.578125,
+      "cluster_bootstrap_95": [
+        0.46875,
+        0.6875
+      ],
+      "groups": 8
+    },
+    "Explore-Then-Commit": {
+      "mean": 0.671875,
+      "cluster_bootstrap_95": [
+        0.546875,
+        0.78125
+      ],
+      "groups": 8
+    },
+    "Unsupervised Repeat-and-Compare": {
+      "mean": 0.640625,
+      "cluster_bootstrap_95": [
+        0.484375,
+        0.78125
+      ],
+      "groups": 8
+    },
+    "Labelled-prefix reference": {
+      "mean": 0.625,
+      "cluster_bootstrap_95": [
+        0.53125,
+        0.71875
+      ],
+      "groups": 8
+    },
+    "Constant digit 0": {
+      "mean": 0.46875,
+      "cluster_bootstrap_95": [
+        0.375,
+        0.5625
+      ],
+      "groups": 8
+    },
+    "Constant digit 1": {
+      "mean": 0.53125,
+      "cluster_bootstrap_95": [
+        0.4375,
+        0.625
+      ],
+      "groups": 8
+    },
+    "Hindsight oracle (test labels)": {
+      "mean": 0.734375,
+      "cluster_bootstrap_95": [
+        0.65625,
+        0.8125
+      ],
+      "groups": 8
+    }
+  },
+  "paired_gains": {
+    "Explore-Then-Commit": {
+      "Fixed A": {
+        "mean": 0.046875,
+        "cluster_bootstrap_95": [
+          -0.125,
+          0.234375
+        ],
+        "groups": 8
+      },
+      "Fixed B": {
+        "mean": 0.09375,
+        "cluster_bootstrap_95": [
+          0.03125,
+          0.171875
+        ],
+        "groups": 8
+      },
+      "Round-Robin": {
+        "mean": 0.09375,
+        "cluster_bootstrap_95": [
+          -0.03125,
+          0.21875
+        ],
+        "groups": 8
+      },
+      "Constant digit 0": {
+        "mean": 0.203125,
+        "cluster_bootstrap_95": [
+          0.046875,
+          0.375
+        ],
+        "groups": 8
+      },
+      "Constant digit 1": {
+        "mean": 0.140625,
+        "cluster_bootstrap_95": [
+          -0.03125,
+          0.28125
+        ],
+        "groups": 8
+      }
+    },
+    "Unsupervised Repeat-and-Compare": {
+      "Fixed A": {
+        "mean": 0.015625,
+        "cluster_bootstrap_95": [
+          -0.171875,
+          0.21875
+        ],
+        "groups": 8
+      },
+      "Fixed B": {
+        "mean": 0.0625,
+        "cluster_bootstrap_95": [
+          -0.03125,
+          0.15625
+        ],
+        "groups": 8
+      },
+      "Round-Robin": {
+        "mean": 0.0625,
+        "cluster_bootstrap_95": [
+          -0.109375,
+          0.203125
+        ],
+        "groups": 8
+      },
+      "Constant digit 0": {
+        "mean": 0.171875,
+        "cluster_bootstrap_95": [
+          0.0,
+          0.34375
+        ],
+        "groups": 8
+      },
+      "Constant digit 1": {
+        "mean": 0.109375,
+        "cluster_bootstrap_95": [
+          -0.09414062499999964,
+          0.28125
+        ],
+        "groups": 8
+      }
+    }
+  },
+  "group_sharing_gap_product": {
+    "mean": -0.01953125,
+    "cluster_bootstrap_95": [
+      -0.0625,
+      0.03125
+    ],
+    "groups": 8
+  },
+  "heldout_A_minus_B": {
+    "mean": 0.046875,
+    "cluster_bootstrap_95": [
+      -0.171875,
+      0.21875
+    ],
+    "groups": 8
+  },
+  "groups": [
+    {
+      "group_id": "RelNeg-OWA-D3-699",
+      "metrics": {
+        "Fixed A": 0.125,
+        "Fixed B": 0.625,
+        "Round-Robin": 0.375,
+        "Explore-Then-Commit": 0.625,
+        "Unsupervised Repeat-and-Compare": 0.625,
+        "Labelled-prefix reference": 0.625,
+        "Constant digit 0": 0.5,
+        "Constant digit 1": 0.5,
+        "Hindsight oracle (test labels)": 0.625
+      },
+      "etc_choice": "B",
+      "urc_choices": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "prefix_signed_accuracy_gap": -0.25,
+      "heldout_signed_accuracy_gap": -0.5,
+      "signed_gap_product": 0.125,
+      "repeat_agreement_pairs": {
+        "A": 4,
+        "B": 5
+      },
+      "both_wrong_pairs": {
+        "A": 3,
+        "B": 1
+      },
+      "full_accuracy": 0.5416666666666666
+    },
+    {
+      "group_id": "AttNeg-OWA-D3-529",
+      "metrics": {
+        "Fixed A": 0.875,
+        "Fixed B": 0.625,
+        "Round-Robin": 0.625,
+        "Explore-Then-Commit": 0.875,
+        "Unsupervised Repeat-and-Compare": 0.875,
+        "Labelled-prefix reference": 0.625,
+        "Constant digit 0": 0.5,
+        "Constant digit 1": 0.5,
+        "Hindsight oracle (test labels)": 0.875
+      },
+      "etc_choice": "A",
+      "urc_choices": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "prefix_signed_accuracy_gap": -0.25,
+      "heldout_signed_accuracy_gap": 0.25,
+      "signed_gap_product": -0.0625,
+      "repeat_agreement_pairs": {
+        "A": 4,
+        "B": 3
+      },
+      "both_wrong_pairs": {
+        "A": 1,
+        "B": 1
+      },
+      "full_accuracy": 0.625
+    },
+    {
+      "group_id": "RelNeg-OWA-D3-1613",
+      "metrics": {
+        "Fixed A": 0.875,
+        "Fixed B": 0.625,
+        "Round-Robin": 0.625,
+        "Explore-Then-Commit": 0.875,
+        "Unsupervised Repeat-and-Compare": 0.875,
+        "Labelled-prefix reference": 0.875,
+        "Constant digit 0": 0.25,
+        "Constant digit 1": 0.75,
+        "Hindsight oracle (test labels)": 0.875
+      },
+      "etc_choice": "A",
+      "urc_choices": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "prefix_signed_accuracy_gap": 0.0,
+      "heldout_signed_accuracy_gap": 0.25,
+      "signed_gap_product": 0.0,
+      "repeat_agreement_pairs": {
+        "A": 5,
+        "B": 5
+      },
+      "both_wrong_pairs": {
+        "A": 2,
+        "B": 3
+      },
+      "full_accuracy": 0.5
+    },
+    {
+      "group_id": "RelNeg-OWA-D3-1205",
+      "metrics": {
+        "Fixed A": 0.625,
+        "Fixed B": 0.5,
+        "Round-Robin": 0.625,
+        "Explore-Then-Commit": 0.625,
+        "Unsupervised Repeat-and-Compare": 0.375,
+        "Labelled-prefix reference": 0.625,
+        "Constant digit 0": 0.5,
+        "Constant digit 1": 0.5,
+        "Hindsight oracle (test labels)": 0.625
+      },
+      "etc_choice": "A",
+      "urc_choices": [
+        "A",
+        "A",
+        "B",
+        "B"
+      ],
+      "prefix_signed_accuracy_gap": 0.0,
+      "heldout_signed_accuracy_gap": 0.125,
+      "signed_gap_product": 0.0,
+      "repeat_agreement_pairs": {
+        "A": 3,
+        "B": 4
+      },
+      "both_wrong_pairs": {
+        "A": 1,
+        "B": 2
+      },
+      "full_accuracy": 0.5416666666666666
+    },
+    {
+      "group_id": "AttNeg-OWA-D3-303",
+      "metrics": {
+        "Fixed A": 0.25,
+        "Fixed B": 0.625,
+        "Round-Robin": 0.375,
+        "Explore-Then-Commit": 0.625,
+        "Unsupervised Repeat-and-Compare": 0.625,
+        "Labelled-prefix reference": 0.625,
+        "Constant digit 0": 0.75,
+        "Constant digit 1": 0.25,
+        "Hindsight oracle (test labels)": 0.625
+      },
+      "etc_choice": "B",
+      "urc_choices": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ],
+      "prefix_signed_accuracy_gap": 0.0,
+      "heldout_signed_accuracy_gap": -0.375,
+      "signed_gap_product": -0.0,
+      "repeat_agreement_pairs": {
+        "A": 6,
+        "B": 5
+      },
+      "both_wrong_pairs": {
+        "A": 3,
+        "B": 1
+      },
+      "full_accuracy": 0.625
+    },
+    {
+      "group_id": "RelNeg-OWA-D3-350",
+      "metrics": {
+        "Fixed A": 0.625,
+        "Fixed B": 0.375,
+        "Round-Robin": 0.625,
+        "Explore-Then-Commit": 0.375,
+        "Unsupervised Repeat-and-Compare": 0.25,
+        "Labelled-prefix reference": 0.375,
+        "Constant digit 0": 0.25,
+        "Constant digit 1": 0.75,
+        "Hindsight oracle (test labels)": 0.625
+      },
+      "etc_choice": "B",
+      "urc_choices": [
+        "B",
+        "A",
+        "B",
+        "B"
+      ],
+      "prefix_signed_accuracy_gap": -0.25,
+      "heldout_signed_accuracy_gap": 0.25,
+      "signed_gap_product": -0.0625,
+      "repeat_agreement_pairs": {
+        "A": 1,
+        "B": 4
+      },
+      "both_wrong_pairs": {
+        "A": 0,
+        "B": 2
+      },
+      "full_accuracy": 0.5416666666666666
+    },
+    {
+      "group_id": "AttNeg-OWA-D3-804",
+      "metrics": {
+        "Fixed A": 0.875,
+        "Fixed B": 0.75,
+        "Round-Robin": 0.875,
+        "Explore-Then-Commit": 0.875,
+        "Unsupervised Repeat-and-Compare": 0.875,
+        "Labelled-prefix reference": 0.75,
+        "Constant digit 0": 0.5,
+        "Constant digit 1": 0.5,
+        "Hindsight oracle (test labels)": 0.875
+      },
+      "etc_choice": "A",
+      "urc_choices": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "prefix_signed_accuracy_gap": -0.25,
+      "heldout_signed_accuracy_gap": 0.125,
+      "signed_gap_product": -0.03125,
+      "repeat_agreement_pairs": {
+        "A": 5,
+        "B": 3
+      },
+      "both_wrong_pairs": {
+        "A": 1,
+        "B": 0
+      },
+      "full_accuracy": 0.75
+    },
+    {
+      "group_id": "AttNeg-OWA-D3-311",
+      "metrics": {
+        "Fixed A": 0.75,
+        "Fixed B": 0.5,
+        "Round-Robin": 0.5,
+        "Explore-Then-Commit": 0.5,
+        "Unsupervised Repeat-and-Compare": 0.625,
+        "Labelled-prefix reference": 0.5,
+        "Constant digit 0": 0.5,
+        "Constant digit 1": 0.5,
+        "Hindsight oracle (test labels)": 0.75
+      },
+      "etc_choice": "B",
+      "urc_choices": [
+        "B",
+        "B",
+        "A",
+        "A"
+      ],
+      "prefix_signed_accuracy_gap": -0.5,
+      "heldout_signed_accuracy_gap": 0.25,
+      "signed_gap_product": -0.125,
+      "repeat_agreement_pairs": {
+        "A": 6,
+        "B": 4
+      },
+      "both_wrong_pairs": {
+        "A": 2,
+        "B": 1
+      },
+      "full_accuracy": 0.6666666666666666
+    }
+  ],
+  "shuffled_prefix_control": {
+    "permutations": 40320,
+    "mean": 0.64453125,
+    "range_95": [
+      0.546875,
+      0.71875
+    ],
+    "fraction_at_least_actual": 0.3952380952380952,
+    "scope": "Exact permutation diagnostic, includes ties/identity; exchangeability is not established as a causal randomization design."
+  },
+  "strata": {
+    "format": {
+      "A": {
+        "n": 96,
+        "correct": 56,
+        "invalid": 0
+      },
+      "B": {
+        "n": 96,
+        "correct": 59,
+        "invalid": 0
+      }
+    },
+    "option_flip": {
+      "0": {
+        "n": 96,
+        "correct": 55,
+        "invalid": 0
+      },
+      "1": {
+        "n": 96,
+        "correct": 60,
+        "invalid": 0
+      }
+    },
+    "template_id": {
+      "0": {
+        "n": 64,
+        "correct": 38,
+        "invalid": 0
+      },
+      "1": {
+        "n": 128,
+        "correct": 77,
+        "invalid": 0
+      }
+    },
+    "verified_depth": {
+      "0": {
+        "n": 124,
+        "correct": 75,
+        "invalid": 0
+      },
+      "1": {
+        "n": 44,
+        "correct": 27,
+        "invalid": 0
+      },
+      "2": {
+        "n": 8,
+        "correct": 1,
+        "invalid": 0
+      },
+      "3": {
+        "n": 16,
+        "correct": 12,
+        "invalid": 0
+      }
+    },
+    "theta": {
+      "0": {
+        "n": 96,
+        "correct": 50,
+        "invalid": 0
+      },
+      "1": {
+        "n": 96,
+        "correct": 65,
+        "invalid": 0
+      }
+    }
+  },
+  "decision": {
+    "basic_correctness_supported": true,
+    "cross_target_signed_gap_supported": false,
+    "unlabelled_etc_gain_over_all_fixed_and_rr_supported": false,
+    "empirical_foundation_supported": false,
+    "phase2_started": false,
+    "phase2_ready": false,
+    "status": "REVISE_OR_NO_GO",
+    "additional_limit": "Direct type and public-metadata selectors were not newly generated under the 192 task-response cap; a positive foundation alone would not rule them out."
+  },
+  "replay_query_cost_per_group": {
+    "Fixed A / Fixed B / Round-Robin": 8,
+    "Explore-Then-Commit": 16,
+    "Unsupervised Repeat-and-Compare": 22,
+    "actual_full_grid": 24
+  },
+  "score_scope": "Mean correctness of both chosen-format responses on four heldout targets per group, not joint recovery accuracy or equal-cost policy superiority."
+}

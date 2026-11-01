@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "models": {
+    "mlp": {
+      "parameters": 4778,
+      "initial_tensor_sha256": "c4de864ea905f675be0793496acbb8037e9f4acabfb9f3028e979f7be35d9879",
+      "final_tensor_sha256": "4bb7da30a03c5c2237ab24e1e38121b290edb39f42b1ed0c31d051ae00275844",
+      "changed": true,
+      "updates": 400,
+      "outer_wall_seconds": 4.5112195941619575,
+      "outer_cpu_seconds": 4.508064491999999,
+      "final_batch": {
+        "loss": 0.020240426063537598,
+        "kl": 0.020240426063537598,
+        "finite_cut_positive_regret": 0.0
+      },
+      "checkpoint_sha256": "72ef2235b02c5b55c63214e58cd6e2d89e7a87971bde49b8420d931b3ac67730"
+    },
+    "deepsets_kl": {
+      "parameters": 12899,
+      "initial_tensor_sha256": "23f1271bbc0b9bb708114b652b2341951bcdb2fb70950b73cafed705d1624b1b",
+      "final_tensor_sha256": "3941ad147bd0cf93b0a77c7225e3f5cea048a0e9543f4c35550da3afae6350c7",
+      "changed": true,
+      "updates": 400,
+      "outer_wall_seconds": 4.7837437321431935,
+      "outer_cpu_seconds": 4.783507060999999,
+      "final_batch": {
+        "loss": 0.04118245840072632,
+        "kl": 0.04118245840072632,
+        "finite_cut_positive_regret": 0.0
+      },
+      "checkpoint_sha256": "ea40326419d19e037b89cfc970d937b4c41cd71358934d1872560f96dd892422"
+    },
+    "deepsets_info": {
+      "parameters": 12899,
+      "initial_tensor_sha256": "23f1271bbc0b9bb708114b652b2341951bcdb2fb70950b73cafed705d1624b1b",
+      "final_tensor_sha256": "d2fb97d2f2e956e590db6bf954aad0894b2b50f90cb7d0ffc9a96976da8bc376",
+      "changed": true,
+      "updates": 400,
+      "outer_wall_seconds": 11.060162294656038,
+      "outer_cpu_seconds": 11.059857627000001,
+      "final_batch": {
+        "loss": 0.12704631686210632,
+        "kl": 0.0507114939391613,
+        "finite_cut_positive_regret": 0.07633481919765472
+      },
+      "checkpoint_sha256": "6b94ace8e4cd2c494222aab43c2d999ddc695ddbdaa4e5d18356a8b7013d7f00"
+    }
+  },
+  "deepsets_identical_initialization": true,
+  "heldout_predictions_executed": 0,
+  "qwen_calls": 0,
+  "gpu_jobs": 0
+}

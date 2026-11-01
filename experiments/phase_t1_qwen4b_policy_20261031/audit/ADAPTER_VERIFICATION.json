@@ -1,0 +1,8 @@
+{
+  "saved_adapter_tensors": 496,
+  "all_saved_keys_text_LoRA_only": true,
+  "LoRA_B_tensors": 248,
+  "all_B_updated_from_zero": true,
+  "optimizer_steps": 128,
+  "base_file_not_merged": true
+}

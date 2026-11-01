@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-31T15:22:45.496470+00:00",
+  "stage": "unknown_rate_oracle_structure",
+  "outcome": "CERTIFIED_DEPTH_NECESSITY_AND_PARTIAL_FORMAT_RESOLUTION",
+  "proven": [
+    "Every optimum must mix depths in one explicit full-menu finite-calibration instance.",
+    "All oracle optima are pure good if alpha=0 or true q=1/2.",
+    "At alpha=0, equality with the type-aware unknown-rate oracle holds iff G=1.",
+    "Pure-format calibration-resource comparison and conditional groupwise sharing criterion."
+  ],
+  "open": [
+    "Full pure-good optimality when alpha>0 and q>1/2.",
+    "General unequal-group scalar criterion at positive calibration with nonunique oracle optima.",
+    "Nontrivial universal primal depth support bound."
+  ],
+  "validation": {
+    "depth_certificate": "PASS_EXACT_RATIONAL_CONTINUOUS_DOMAIN_CERTIFICATE",
+    "monotonicity_obstruction_certificate": "PASS_EXACT_RATIONAL_INTERVAL_CERTIFICATE",
+    "independent_read_audit": "PASS; delegated same-family audit, not formal verification",
+    "historical_files_verified_unchanged": 45,
+    "scientific_figure": "Rendered and visually inspected; curves illustrative."
+  },
+  "execution": {
+    "experimental_model_calls": 0,
+    "training_runs": 0,
+    "gpu_experiments": 0,
+    "main_retained_discovery_cases": 768,
+    "main_retained_grid_lps": 1536,
+    "auxiliary_exploration": "Separate reconstructed provenance; interrupted LP completion count unknown.",
+    "confirmatory_evaluation": false,
+    "published_or_pushed": false
+  },
+  "outputs_sha256": {
+    "AUXILIARY_DISCOVERY_PROVENANCE.md": "b5a146723df95b81e0a029275aac6f60a6646ee39d5285e7eb07e699a995923b",
+    "DEPTH_MIXING_CERTIFICATE.json": "b8d38c55f9a9ff66c5efb23ff808eb51fdb7265d248e2ce9c605849c39c8d0b7",
+    "DEPTH_MIXING_THEOREM.md": "270837ca8eed596b3baea35c46b0b7b5803c0ea7d971a60c9bbc076c47b58399",
+    "DEPTH_STRUCTURE_AUDIT.md": "7b78afe32d7ec4c50480b808ece0b684aac8a66218c19e3d5a77e160f02ceab7",
+    "DISCOVERY_GRID.json": "b2f2f9b3d4d5a21b6928d9cb66a57a0cb22fa502ea803f275fb7c3a42d16cdfb",
+    "DISCOVERY_TOP.json": "3615bce6da4c7bf32aace424a6a281c0a8eada0fd4fb0734c7c8ddfdd15adc33",
+    "INPUT_HASHES.json": "4b9dd7a5c39e8aca4b564368dc1a9f9aeb5e897f93cb96a56cc7b35a57028532",
+    "MONOTONICITY_OBSTRUCTION_CERTIFICATE.json": "d5e856fc85d71d0ff838589c84ce994fd5b971c655ed149babfbec7f9c1c89b7",
+    "ORACLE_STRUCTURE_AUDIT.md": "89efd609a1c41a0ab2de2ceba706bbefb6d2ffdd1fa47b3b8e9ae4ecd7fe011b",
+    "README.md": "86ba365bb4d64050c618c7b8e45a97bc2ee68ef0d5d80ae3eebec8c3218c033a",
+    "RESEARCH_REPORT_CN.md": "f3b7b49bf705622d3c84dc636964dea7ffb0b28897e6cbd93ea77b208901d72c",
+    "SCOPE.md": "a7fa6ce85b4be365e15d143cdbc458daef172c4bb99382d995c76b9a51ab23d0",
+    "STRUCTURE_LITERATURE.md": "045d29fcc75c7fb346e7a9a472759307f2e2cd8061f45a92523bdfeaa8c00772",
+    "certificate_stdout.txt": "b8d38c55f9a9ff66c5efb23ff808eb51fdb7265d248e2ce9c605849c39c8d0b7",
+    "certify_depth_mixing.py": "8fa4959b9b8150244939d6080c5d28bfd226a6e46596628439e39e977b6f5ec1",
+    "certify_monotonicity_obstruction.py": "beb54a9415916c6034aebd7bd8b1f29957d4cab2720494832568292be2257347",
+    "depth_mixing.pdf": "3b6ffd2ab6a025e3967925bd94ca04803cd00ff97407461789da91f3d3ebaf99",
+    "depth_mixing.png": "b751deb22e0ad68980118d2b6e7104c46c92fcea8d92c5465d12d09b3c51b843",
+    "discover_structure.py": "c57435c899182d740d513e450307617741d30c6f83f1a53d251ac6d05c5c95c2",
+    "discovery_stdout.txt": "976f83d6997bce5ee852440ea3001b2a7c0873fb0bafa6b583169200eab836a0",
+    "plot_depth_mixing.py": "d30a9970d04540408ab71e4052d77cb82ac42aac5e641973a596879199101bcb",
+    "verify_artifacts.py": "2e8b6df552fab9da3ce0de9eae98f2555f4937cfa3f061327c4940964cfd6498"
+  }
+}

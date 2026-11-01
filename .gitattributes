@@ -1,0 +1,4 @@
+# Frozen research hashes refer to exact bytes, including CSV line endings.
+* -text
+*.pdf binary
+*.png binary

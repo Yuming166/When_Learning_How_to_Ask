@@ -1,0 +1,34 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "executable": "/storage/gaoym/wcl_v100_venv/bin/python",
+  "numpy": "2.3.3",
+  "scipy": "1.18.1",
+  "torch": "2.6.0+cu124",
+  "cpu_affinity": 56,
+  "load_average": [
+    0.1064453125,
+    0.1611328125,
+    0.1640625
+  ],
+  "threads": 1,
+  "gpu_jobs_authorized": 0,
+  "qwen_calls_authorized": 0,
+  "wall_unix_time": 1793428831.8361814,
+  "source_references": [
+    {
+      "title": "Deep Sets",
+      "url": "https://papers.nips.cc/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html",
+      "verified_scope": "official abstract confirms set invariant/equivariant architecture background; no new novelty claim"
+    },
+    {
+      "title": "Amortized Safe Active Learning",
+      "url": "https://proceedings.mlr.press/v300/li26b.html",
+      "verified_scope": "official metadata and abstract only; not full-paper methodology audit"
+    },
+    {
+      "title": "Step-DAD",
+      "url": "https://proceedings.mlr.press/v267/hedman25a.html",
+      "verified_scope": "official metadata and abstract only; not novelty review"
+    }
+  ]
+}

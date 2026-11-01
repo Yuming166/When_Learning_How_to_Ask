@@ -1,0 +1,84 @@
+{
+  "status": "PASS_EXACT_RATIONAL_INTERVAL_CERTIFICATE",
+  "parameters": {
+    "r": "17/20",
+    "p": "39/40",
+    "q": "487/500",
+    "ell": 1,
+    "L_max": 3
+  },
+  "method": {
+    "log_atanh_series_terms": 80,
+    "arithmetic": "exact fractions with proved geometric remainder",
+    "decimal_display_precision": 60,
+    "display_values_are_not_interval_assertions": true
+  },
+  "gamma_decreases": [
+    {
+      "group_size": 1,
+      "old_depth": 2,
+      "new_depth": 3,
+      "exact_rational_interval_comparison_passed": true,
+      "old_gamma_bounds_display": [
+        "0.999858845154713146569694154743404865004705381340927792372120",
+        "0.999858845154713146569694158621826168638643051659119870623458"
+      ],
+      "new_gamma_bounds_display": [
+        "0.999839711462789089672698564456589691177284704054015319184333",
+        "0.999839711462789089672698569058516369326027527559727127613605"
+      ],
+      "positive_margin_lower_endpoint_display": "0.0000191336919240568969955856848884956786778537812006647585145495"
+    },
+    {
+      "group_size": 2,
+      "old_depth": 2,
+      "new_depth": 3,
+      "exact_rational_interval_comparison_passed": true,
+      "old_gamma_bounds_display": [
+        "0.999891784941489884079107150871701466517330055464012960374198",
+        "0.999891784941489884079107154750184327461260837598102060726946"
+      ],
+      "new_gamma_bounds_display": [
+        "0.999888355343112820921272072734094713737331963759662711177494",
+        "0.999888355343112820921272077336125795222437672205584624547304"
+      ],
+      "positive_margin_lower_endpoint_display": "0.00000342959837706315783507353557567129489238325842833582689428689"
+    }
+  ],
+  "oracle_choices": [
+    {
+      "source_cost": 15,
+      "unique_oracle_depth": 2,
+      "competitor_comparisons": [
+        {
+          "depth": 1,
+          "exact_positive_margin_check_passed": true,
+          "margin_lower_endpoint_display": "0.00106919825478458660738303248679409201008957214228703228936070"
+        },
+        {
+          "depth": 3,
+          "exact_positive_margin_check_passed": true,
+          "margin_lower_endpoint_display": "0.000862271360095756799905839280611739703045761541319750770032809"
+        }
+      ]
+    },
+    {
+      "source_cost": 25,
+      "unique_oracle_depth": 3,
+      "competitor_comparisons": [
+        {
+          "depth": 1,
+          "exact_positive_margin_check_passed": true,
+          "margin_lower_endpoint_display": "0.00196388666434323591225845293859390458525031323913791520392027"
+        },
+        {
+          "depth": 2,
+          "exact_positive_margin_check_passed": true,
+          "margin_lower_endpoint_display": "0.000341351791011983807449743382939466934762918428074190659857325"
+        }
+      ]
+    }
+  ],
+  "scope": "Refutes monotonic Gamma in depth/cost; does not refute monotonic integer k_required or equality indicator.",
+  "script_sha256": "77cc1d29d4456bbada1fadfb4873ebc52314cf30e5721f52e2dabe55d6d0d889"
+}

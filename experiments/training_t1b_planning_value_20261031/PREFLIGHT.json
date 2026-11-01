@@ -1,0 +1,84 @@
+{
+  "scope": "deterministic engineering fixtures; no environment episodes or new observations",
+  "rows": [
+    {
+      "prefix": 16,
+      "repeat": 0,
+      "cpu": 0.018510478000000052,
+      "forecast_calls": 0,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        3,
+        "A"
+      ]
+    },
+    {
+      "prefix": 16,
+      "repeat": 1,
+      "cpu": 0.012236464000000002,
+      "forecast_calls": 0,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        3,
+        "A"
+      ]
+    },
+    {
+      "prefix": 16,
+      "repeat": 2,
+      "cpu": 0.01195868,
+      "forecast_calls": 0,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        3,
+        "A"
+      ]
+    },
+    {
+      "prefix": 18,
+      "repeat": 0,
+      "cpu": 0.045202318000000075,
+      "forecast_calls": 4,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        0,
+        "B"
+      ]
+    },
+    {
+      "prefix": 18,
+      "repeat": 1,
+      "cpu": 0.04497105400000001,
+      "forecast_calls": 4,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        0,
+        "B"
+      ]
+    },
+    {
+      "prefix": 18,
+      "repeat": 2,
+      "cpu": 0.04476315200000003,
+      "forecast_calls": 4,
+      "nonmyopic_gain": 0.0,
+      "action": [
+        "query",
+        0,
+        "B"
+      ]
+    }
+  ],
+  "maximum_full_next_cpu": 0.045202318000000075,
+  "unit_tests_passed": 9,
+  "initial_failed_tests": 2,
+  "initial_failure_disposition": "test fixture incorrectly assumed first free action at t=8; corrected to t=16; sampler unchanged",
+  "worlds": 0,
+  "model_calls": 0,
+  "training_updates": 0
+}

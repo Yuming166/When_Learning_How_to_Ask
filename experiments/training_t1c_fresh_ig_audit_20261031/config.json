@@ -1,0 +1,42 @@
+{
+  "split": "development",
+  "training_authorized": false,
+  "confirmation_authorized": false,
+  "partitions": [
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4
+    ]
+  ],
+  "p_values": [
+    0.85,
+    0.75
+  ],
+  "q": 0.6,
+  "alphas": [
+    0,
+    3
+  ],
+  "planning_R": 16,
+  "type_accuracy": 0.8,
+  "eta": 0.05,
+  "budgets": [
+    16,
+    32,
+    64
+  ],
+  "primary_budget": 32,
+  "worlds_per_cell": 8,
+  "development_index_start": 1050000,
+  "limits": {
+    "online_actions": 135000,
+    "wall_seconds": 1800
+  }
+}

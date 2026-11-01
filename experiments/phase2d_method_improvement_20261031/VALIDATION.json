@@ -1,0 +1,58 @@
+{
+  "source_config_protocol_unchanged": true,
+  "proof_audit_hashes_unchanged": true,
+  "seed_commitment_unchanged": true,
+  "trajectories": 256,
+  "independent_worlds": 64,
+  "all_expected_identities_present": true,
+  "costs": {
+    "task": 641207,
+    "type": 47609,
+    "offline": 261120
+  },
+  "all_cost_censoring_pairing_checks_pass": true,
+  "final_GLRS_recomputed": 256,
+  "historical": [
+    {
+      "experiment": "phase01_20261030",
+      "files_verified": 47,
+      "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+    },
+    {
+      "experiment": "phase1b_userbench_audit_20261030",
+      "files_verified": 15,
+      "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+    },
+    {
+      "experiment": "phase1c_identifiability_20261030",
+      "files_verified": 69,
+      "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+    },
+    {
+      "experiment": "qrelbench_v01_20261030",
+      "files_verified": 45,
+      "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+    },
+    {
+      "experiment": "phase2a_theory_optimality_20261030",
+      "files_verified": 61,
+      "receipt_sha256": "084f93e40faafac33167a5badf8677c76935a00b0d49053d9032bf75c1393535"
+    },
+    {
+      "experiment": "phase2b_alignment_20261031",
+      "files_verified": 58,
+      "receipt_sha256": "8b55a08213325bc837db97887552cf5c910787b90cc4eb4d1c821913165c69cc"
+    },
+    {
+      "experiment": "phase2c_strong_baseline_20261031",
+      "files_verified": 58,
+      "receipt_sha256": "d23ccc5290f1bc2f500da6e1a2f880a4c6fe64eb6f83d6f9758ddc9b6b5f4c03"
+    }
+  ],
+  "historical_files_verified": 353,
+  "validation_wall_seconds": 1.9505270011723042,
+  "validation_evaluator_cpu_seconds": 1.9503910270000002,
+  "model_calls": 0,
+  "new_confirmation_worlds": 0,
+  "scope": "legacy-floating mainbatch integrity only; interval and existing-world replay receipts separate"
+}

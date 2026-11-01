@@ -1,0 +1,576 @@
+{
+  "review_id": "W1-cases-01-04-v1",
+  "scope": {
+    "case_ids": [
+      "W1-01",
+      "W1-02",
+      "W1-03",
+      "W1-04"
+    ],
+    "page_ids": [
+      "P001",
+      "P002",
+      "P003",
+      "P004",
+      "P005",
+      "P006",
+      "P007",
+      "P008",
+      "P009",
+      "P010",
+      "P011",
+      "P012",
+      "P013",
+      "P014",
+      "P015",
+      "P016",
+      "P017",
+      "P018",
+      "P019",
+      "P020"
+    ],
+    "model_service_calls": 0,
+    "human_signoffs": 0,
+    "Y": "UNOBSERVED"
+  },
+  "annotation_rule": "V_current describes a nominated current representation only. Metadata-only V is separately flagged and excluded from ordinary body-ready candidates; archive failure never inherits current V.",
+  "counts": {
+    "claims": 4,
+    "page_case_rows": 20,
+    "strict_case_candidates": 0,
+    "strict_nonreference_body_page_candidates": 0,
+    "metadata_only_case_leads": 1,
+    "reference_pages_readable": 2,
+    "reference_full_claim_stances": 2,
+    "ordinary_full_claim_body_stances": 0,
+    "metadata_full_claim_stances": 1,
+    "historical_full_claim_stances": 0
+  },
+  "cases": [
+    {
+      "case_id": "W1-01",
+      "theta_reference": 0,
+      "label": "Refuted",
+      "theta_status": "DATASET_REFERENCE_ONLY",
+      "theta_review": "数据集声称截至 2020-08-10 铁道部没有新发延长停运通知；参考页无法访问，未独立核验这一时间限定。不能由无新通知推出所有列车实际运营。",
+      "scope": "All regular Indian Railways trains cancelled till 2020-09-30; claim date 2020-08-10.",
+      "required_reannotation": false,
+      "case_candidate": false,
+      "disposition": "QUARANTINE",
+      "reason": "仅一个不可读参考页及 Metadata 非 URL 占位，没有可审阅非参考页面。",
+      "page_ids": [
+        "P001",
+        "P002"
+      ],
+      "provenance_findings": [
+        {
+          "type": "NON_URL_SENTINEL",
+          "page_ids": [
+            "P002"
+          ],
+          "basis": "源 URL 和 cached URL 字段重复 Metadata，不是两个来源。"
+        }
+      ],
+      "Y": null,
+      "human_signoffs": 0,
+      "ai_review_status": "AI_ASSISTED_PROVISIONAL_NOT_HUMAN_SIGNOFF",
+      "temporal_policy": "V_current is inspected current representation; V_historical remains null without readable nominated archive."
+    },
+    {
+      "case_id": "W1-02",
+      "theta_reference": 1,
+      "label": "Supported",
+      "theta_status": "DATASET_REFERENCE_ONLY",
+      "theta_review": "数据集以 2019 人口 47.6 million 与 2017/18 司法报告 155 judges 计算每名法官约 307096.77 人；算术可复算，但原网页均未核验，两个年份与 2020 年声明时点不相同，不能升级为独立真值。",
+      "scope": "Kenya has about 48 million population and more than 300000 people per judge as stated 2020-08-01.",
+      "required_reannotation": false,
+      "case_candidate": false,
+      "disposition": "QUARANTINE",
+      "reason": "人口/司法原文不可读；Symbolab 首页不保存参数、运算结果或肯尼亚事实。",
+      "page_ids": [
+        "P003",
+        "P004",
+        "P005",
+        "P006",
+        "P007",
+        "P008"
+      ],
+      "provenance_findings": [
+        {
+          "type": "ARCHIVE_CURRENT_SAME_NOMINATED_PAGE",
+          "page_ids": [
+            "P005",
+            "P006"
+          ],
+          "basis": "相同司法 PDF 的现 URL 与 archive wrapper；不是两份独立报告。"
+        },
+        {
+          "type": "ARCHIVE_CURRENT_SAME_NOMINATED_PAGE",
+          "page_ids": [
+            "P007",
+            "P008"
+          ],
+          "basis": "同一通用计算器首页，未获得保存的具体运算。"
+        },
+        {
+          "type": "COMPOSITION_NOT_MULTIPLE_FULL_CLAIM_REPORTS",
+          "page_ids": [
+            "P004",
+            "P005",
+            "P007"
+          ],
+          "basis": "数据集将人口、法官人数、计算器分列；即使都可访问也不是三个独立断言同一完整声明的来源。"
+        }
+      ],
+      "Y": null,
+      "human_signoffs": 0,
+      "ai_review_status": "AI_ASSISTED_PROVISIONAL_NOT_HUMAN_SIGNOFF",
+      "temporal_policy": "V_current is inspected current representation; V_historical remains null without readable nominated archive."
+    },
+    {
+      "case_id": "W1-03",
+      "theta_reference": 0,
+      "label": "Refuted",
+      "theta_status": "REFERENCE_VERDICT_INSPECTED_NOT_INDEPENDENTLY_ADJUDICATED",
+      "theta_review": "AFP 当前文章明确否定 cloth masks do not filter anything；其 2020 年文章援引专家与动物实验。这里只核验该参考文章表达的结论，未独立阅读被引用论文/政府页面或原始 Facebook 内容。",
+      "scope": "Universal claim that cloth masks filter nothing; dataset claim date 2020-06-21.",
+      "required_reannotation": false,
+      "case_candidate": false,
+      "disposition": "QUARANTINE",
+      "reason": "仅事实核查参考页有可读完整立场。原始帖及非参考证据未取得可标注内容，不能将参考页引述的错误帖子视为独立原网页。",
+      "page_ids": [
+        "P009",
+        "P010",
+        "P011",
+        "P012",
+        "P013"
+      ],
+      "provenance_findings": [
+        {
+          "type": "EXPLICIT_REFERENCE_ATTRIBUTION",
+          "page_ids": [
+            "P010",
+            "P013"
+          ],
+          "basis": "browser_01_04/P010.json L67-L72：AFP 将支持性论据归因于 bioRxiv 研究；论文自身未成功读取。"
+        },
+        {
+          "type": "URL_REUSE",
+          "page_ids": [
+            "P011",
+            "P012"
+          ],
+          "basis": "两条问题答案重复相同 Wisconsin 页面/归档，不能计作不同证据。"
+        },
+        {
+          "type": "REDIRECT_TARGET_CHANGED",
+          "page_ids": [
+            "P011"
+          ],
+          "basis": "access_log.jsonl 记录 Wisconsin URL 重定向至 CDC 后 403，不是读到 2020/2023 年 Wisconsin 原文。"
+        }
+      ],
+      "Y": null,
+      "human_signoffs": 0,
+      "ai_review_status": "AI_ASSISTED_PROVISIONAL_NOT_HUMAN_SIGNOFF",
+      "temporal_policy": "V_current is inspected current representation; V_historical remains null without readable nominated archive."
+    },
+    {
+      "case_id": "W1-04",
+      "theta_reference": 0,
+      "label": "Refuted",
+      "theta_status": "REFERENCE_VERDICT_INSPECTED_NOT_INDEPENDENTLY_ADJUDICATED",
+      "theta_review": "Vishvas 当前参考文章区分停止 COVID 检测与封闭实验室，并给出否定结论及采访。Mumbai Mirror 原报道只确认暂停检测；该文没有明确否定之后实验室封闭，不能独立确定整条声明真假。required_reannotation=true 保留。",
+      "scope": "Thyrocare labs in Thane sealed over false-positive COVID-19 testing; dataset claim date 2020-06-07.",
+      "required_reannotation": true,
+      "case_candidate": false,
+      "disposition": "QUARANTINE_WITH_METADATA_LEAD",
+      "reason": "原 Facebook 只有 HTML 元数据明确断言完整错误声明，未取得可读正文或历史版本；严格正文候选为零，另列人工复核线索。",
+      "page_ids": [
+        "P014",
+        "P015",
+        "P016",
+        "P017",
+        "P018",
+        "P019",
+        "P020"
+      ],
+      "metadata_lead": {
+        "page_id": "P014",
+        "V_current": 1,
+        "V_historical": null,
+        "theta_reference": 0,
+        "source_error_relative_to_reference": "PROVISIONAL_CURRENT_METADATA_ONLY",
+        "body_ready": false,
+        "human_review_lead": true
+      },
+      "provenance_findings": [
+        {
+          "type": "REFERENCE_REPORTS_DERIVATION",
+          "page_ids": [
+            "P014",
+            "P016",
+            "P019"
+          ],
+          "basis": "P016 L62,L67-L68 说原错误帖子链接 Mumbai Mirror 新闻并误把停测说成封闭。P014 正文链接未直接读取，故这种依赖只被参考文章报道，非亲自验证。"
+        },
+        {
+          "type": "ARCHIVE_TARGET_MISMATCH",
+          "page_ids": [
+            "P015"
+          ],
+          "basis": "cached original URL 是 Facebook login?next=...；不能认为已缓存原帖正文。"
+        },
+        {
+          "type": "NOT_A_SPECIFIC_TWEET",
+          "page_ids": [
+            "P017",
+            "P018"
+          ],
+          "basis": "source_url 指向 hashtag 聚合页；cached_source_url 指向 Twitter login。两者都不是数据集摘录否认文本的稳定具体帖子。"
+        },
+        {
+          "type": "URL_REUSE",
+          "page_ids": [
+            "P019",
+            "P020"
+          ],
+          "basis": "数据集 questions[1] 和 questions[2] 引用同一 Mumbai Mirror 文章，归档与现页同源。"
+        }
+      ],
+      "Y": null,
+      "human_signoffs": 0,
+      "ai_review_status": "AI_ASSISTED_PROVISIONAL_NOT_HUMAN_SIGNOFF",
+      "temporal_policy": "V_current is inspected current representation; V_historical remains null without readable nominated archive."
+    }
+  ],
+  "pages": [
+    {
+      "case_id": "W1-01",
+      "page_id": "P001",
+      "disposition": "UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "Archive 原抓取失败，内嵌原 URL 浏览器打开仍不可访问。",
+      "evidence_locators": [
+        "access_log.jsonl:P001",
+        "browser_01_04/P001.json"
+      ]
+    },
+    {
+      "case_id": "W1-01",
+      "page_id": "P002",
+      "disposition": "NON_URL_METADATA_SENTINEL",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "非 HTTP Metadata 占位；保留两次字段出现，未请求网络。",
+      "evidence_locators": [
+        "url_inventory.json:P002",
+        "access_log.jsonl:P002"
+      ]
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P003",
+      "disposition": "UNAVAILABLE_REFERENCE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "Archive 失败；当前参考页 403。",
+      "evidence_locators": [
+        "access_log.jsonl:P003",
+        "browser_01_04/P003.json"
+      ]
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P004",
+      "disposition": "UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "Archive 失败；内嵌 KNBS URL 浏览器超时。",
+      "evidence_locators": [
+        "access_log.jsonl:P004",
+        "browser_01_04/P004.json"
+      ]
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P005",
+      "disposition": "NOT_FOUND",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "HTTP 404 页面正文是站点导航/不存在提示，不是司法报告 PDF。浏览器也不可访问。",
+      "evidence_locators": [
+        "access_log.jsonl:P005",
+        "texts/P005.txt",
+        "browser_01_04/P005.json"
+      ]
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P006",
+      "disposition": "ARCHIVE_UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "司法 PDF archive 未取得；相同内嵌 URL 的当前结果为 P005 404，不能补历史内容。",
+      "evidence_locators": [
+        "access_log.jsonl:P006",
+        "browser_01_04/P005.json"
+      ]
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P007",
+      "disposition": "IRRELEVANT_GENERIC_CALCULATOR",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "当前 Symbolab 首页没有这条声明的输入或结果；不存在全文立场，不可用泛用算术工具替代证据页。",
+      "evidence_locators": [
+        "texts/P007.txt:L1-L29",
+        "access_log.jsonl:P007"
+      ],
+      "current_content_readable": true
+    },
+    {
+      "case_id": "W1-02",
+      "page_id": "P008",
+      "disposition": "ARCHIVE_UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "计算器 archive 未取得；当前同 URL 只有 P007 泛用首页，不能补历史具体运算。",
+      "evidence_locators": [
+        "access_log.jsonl:P008",
+        "texts/P007.txt"
+      ]
+    },
+    {
+      "case_id": "W1-03",
+      "page_id": "P009",
+      "disposition": "BLOCKED_CHALLENGE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "Perma 当前返回 403 challenge；浏览器不可访问，原帖立场未直接审阅。",
+      "evidence_locators": [
+        "access_log.jsonl:P009",
+        "texts/P009.txt:L1",
+        "browser_01_04/P009.json"
+      ]
+    },
+    {
+      "case_id": "W1-03",
+      "page_id": "P010",
+      "disposition": "REFERENCE_ONLY_CURRENT_STANCE",
+      "V_current": 0,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "AFP 页面明确反驳完整声明，但属于 evaluator-only 事实核查参考文章；archive 失败，当前文章不能代表已读取历史归档。",
+      "evidence_locators": [
+        "browser_01_04/P010.json:L24-L25,L67-L72"
+      ],
+      "current_content_readable": true,
+      "reference_only": true
+    },
+    {
+      "case_id": "W1-03",
+      "page_id": "P011",
+      "disposition": "REDIRECT_THEN_BLOCKED",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "当前 URL 重定向 CDC 后 403；浏览器又返回 404。未获得 Wisconsin 原文，不能从数据集答案自动继承立场。",
+      "evidence_locators": [
+        "access_log.jsonl:P011",
+        "texts/P011.txt:L1-L5",
+        "browser_01_04/P011.json"
+      ]
+    },
+    {
+      "case_id": "W1-03",
+      "page_id": "P012",
+      "disposition": "ARCHIVE_AND_CURRENT_UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "Archive 无内容；精确内嵌无 www 版本当前也不可访问。",
+      "evidence_locators": [
+        "access_log.jsonl:P012",
+        "browser_01_04/P012.json"
+      ]
+    },
+    {
+      "case_id": "W1-03",
+      "page_id": "P013",
+      "disposition": "ARCHIVE_AND_CURRENT_UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "bioRxiv v1 archive 及当前原 URL 均未取得文章；不能把 AFP 对论文的转述作为该论文自身的已读立场。",
+      "evidence_locators": [
+        "access_log.jsonl:P013",
+        "browser_01_04/P013.json"
+      ]
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P014",
+      "disposition": "METADATA_ONLY_LEAD",
+      "V_current": 1,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "原帖 HTML 的 og:description 明确说实验室因假阳性被封；可读正文只有截断标题。V_current=1 仅对当前元数据成立，不进入正文就绪候选。",
+      "evidence_locators": [
+        "snapshots/P014.html:meta[property='og:description']@content",
+        "browser_01_04/P014_metadata_inspection.json",
+        "texts/P014.txt:L1",
+        "browser_01_04/P014.json"
+      ],
+      "current_content_readable": false,
+      "current_metadata_readable": true,
+      "body_ready": false,
+      "metadata_only": true,
+      "human_review_lead": true
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P015",
+      "disposition": "ARCHIVE_LOGIN_TARGET_MISMATCH",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "缓存字段指向 Facebook 登录跳转而非可验证帖文快照；archive 失败、当前登录 URL browser throttled。",
+      "evidence_locators": [
+        "url_inventory.json:P015",
+        "access_log.jsonl:P015",
+        "browser_01_04/P015.json"
+      ]
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P016",
+      "disposition": "REFERENCE_ONLY_CURRENT_STANCE",
+      "V_current": 0,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "当前 Vishvas 文章明确否定完整声明，且区分停测与封闭；只作参考核验，archive 未读取。",
+      "evidence_locators": [
+        "browser_01_04/P016.json:L51-L60,L68-L80,L91-L94"
+      ],
+      "current_content_readable": true,
+      "reference_only": true
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P017",
+      "disposition": "AGGREGATE_PAGE_LOGIN_GATE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "hashtag 不是具体推文；原抓取重定向登录门，浏览器 403。数据集的否认摘录未从该页面核验。",
+      "evidence_locators": [
+        "access_log.jsonl:P017",
+        "texts/P017.txt:L1",
+        "browser_01_04/P017.json"
+      ]
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P018",
+      "disposition": "ARCHIVE_LOGIN_TARGET_MISMATCH",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "归档目标 Twitter login 与 hashtag 源页面不等同；archive 失败、当前登录 URL 403，均无可标注声明。",
+      "evidence_locators": [
+        "url_inventory.json:P018",
+        "access_log.jsonl:P018",
+        "browser_01_04/P018.json"
+      ]
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P019",
+      "disposition": "PARTIAL_DIFFERENT_PREDICATE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "当前正文说 TMC 于 2020-05-22 暂停实验室 RT-PCR 检测，讨论假阳性争议；未说封闭整间实验室，也没有对 2020-06-07 是否被封作明确否定。不给完整声明 V=0。",
+      "evidence_locators": [
+        "texts/P019.txt:L41-L53",
+        "access_log.jsonl:P019"
+      ],
+      "current_content_readable": true,
+      "asserted_subclaim": "COVID testing halted after reported irregularities",
+      "subclaim_date": "2020-05-22",
+      "claim_date": "2020-06-07",
+      "temporal_qualification": "current migrated page dated before claim; archive not retrieved"
+    },
+    {
+      "case_id": "W1-04",
+      "page_id": "P020",
+      "disposition": "ARCHIVE_UNAVAILABLE",
+      "V_current": null,
+      "V_historical": null,
+      "Y": null,
+      "page_candidate": false,
+      "human_signoffs": 0,
+      "reason": "archive 未取得；当前相同文章可在 P019 阅读但仅支持停测子命题，不补历史 V。",
+      "evidence_locators": [
+        "access_log.jsonl:P020",
+        "texts/P019.txt:L41-L53"
+      ]
+    }
+  ],
+  "notes": [
+    "No replacement/search-discovered URLs used; only nominated URLs and exact originals inside nominated archive wrappers.",
+    "P002 Metadata is retained as a non-page sentinel; all failed archives retained separately.",
+    "W1-04 is useful as a dependency/error mechanism lead, not yet an ordinary web-page source-error sample.",
+    "All annotations provisional AI review; no human signoff and no Y observations."
+  ]
+}

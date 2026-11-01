@@ -1,0 +1,12 @@
+{
+  "cpu_affinity_count": 56,
+  "configured_scientific_workers": 2,
+  "numeric_threads_per_worker": 1,
+  "available_disk_bytes": 160768962560,
+  "memory": {
+    "MemTotal_kB": 528233952,
+    "MemAvailable_kB": 515285020
+  },
+  "gpu_access": "disabled; no service or GPU operations",
+  "scope": "read-only host resources; not a reservation against unrelated workloads"
+}

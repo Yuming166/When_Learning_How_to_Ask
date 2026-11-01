@@ -1,0 +1,93 @@
+{
+  "source_config_protocol_unchanged": true,
+  "proof_audit_hashes_unchanged": true,
+  "seed_commitment_unchanged": true,
+  "trajectories": 320,
+  "independent_worlds": 64,
+  "all_expected_identities_present": true,
+  "costs": {
+    "task": 1021768,
+    "type": 16888,
+    "offline": 326400
+  },
+  "all_cost_censoring_pairing_checks_pass": true,
+  "final_GLRS_recomputed": 320,
+  "historical": [
+    {
+      "experiment": "phase01_20261030",
+      "files_verified": 47,
+      "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+    },
+    {
+      "experiment": "phase1b_userbench_audit_20261030",
+      "files_verified": 15,
+      "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+    },
+    {
+      "experiment": "phase1c_identifiability_20261030",
+      "files_verified": 69,
+      "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+    },
+    {
+      "experiment": "qrelbench_v01_20261030",
+      "files_verified": 45,
+      "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+    },
+    {
+      "experiment": "phase2a_theory_optimality_20261030",
+      "files_verified": 61,
+      "receipt_sha256": "084f93e40faafac33167a5badf8677c76935a00b0d49053d9032bf75c1393535"
+    }
+  ],
+  "historical_files_verified": 237,
+  "exact_existing_replays": [
+    {
+      "policy": "Round-Robin",
+      "R": 1024,
+      "online": 13120,
+      "censored": false,
+      "full_record_match_excluding_timing": true,
+      "transcript_hash_match": true
+    },
+    {
+      "policy": "Repeat-and-Compare",
+      "R": 1024,
+      "online": 12960,
+      "censored": false,
+      "full_record_match_excluding_timing": true,
+      "transcript_hash_match": true
+    },
+    {
+      "policy": "Direct Type Query",
+      "R": 1024,
+      "online": 24576,
+      "censored": true,
+      "full_record_match_excluding_timing": true,
+      "transcript_hash_match": true
+    },
+    {
+      "policy": "Oracle Format",
+      "R": 1024,
+      "online": 5216,
+      "censored": false,
+      "full_record_match_excluding_timing": true,
+      "transcript_hash_match": true
+    },
+    {
+      "policy": "Aligned Tracking",
+      "R": 1024,
+      "online": 6624,
+      "censored": false,
+      "full_record_match_excluding_timing": true,
+      "transcript_hash_match": true
+    }
+  ],
+  "replay_costs": {
+    "task": 61331,
+    "type": 1165,
+    "offline": 0
+  },
+  "model_calls": 0,
+  "new_confirmation_worlds": 0,
+  "scope": "data integrity and existing-world replay, not new scientific replication"
+}

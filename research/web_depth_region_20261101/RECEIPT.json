@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-01",
+  "status": "COMPLETE_EXPLICIT_REGION_THEOREM",
+  "python_certificate_runtime": "3.13.13",
+  "historical_files_preserved": 68,
+  "certificate_status": "PASS_EXACT_CERTIFICATE_WITH_ANALYTIC_PERTURBATION_BOUNDS",
+  "review": "bounded same-family read audit, no formal or external verification",
+  "outputs_sha256": {
+    "INPUT_HASHES.json": "efe4298a0faad09b754a83d92387eec756415bb7b5d31fbc2e83bc7ecddc57c7",
+    "PROOF_AUDIT.md": "97ce0e4be5425dd07e63b45602fbb304af4bd4285d2a555aa2414e02abc0db72",
+    "README.md": "566a8ccbb96191647eea0f31e56576a34565564e13bdc891037d533fb64d0bf1",
+    "REGION_CERTIFICATE.json": "eddf66ea18d13ee1c6577c6348f07c50c7ab1e14122ed8bdce69b0d5e7463d6a",
+    "REGION_THEOREM.md": "70043426cc5d47b4535cc4fa0c71e159c5948302b3ab5a546e953ee9b13cfb8f",
+    "RESEARCH_REPORT_CN.md": "205a7f7128003c15d490fea732ae769b0708647f5ebf57178f6b87268fdf65a8",
+    "certify_region.py": "074b6d7ea70f2af033826281f71fd4b121b8a837f63a44c39e5221d026c3958f",
+    "depth_region.pdf": "a7b055b6eaaaaf853f0eb41021ec0069496966ad6c6f06cbd93f43f8c2c6f4a1",
+    "depth_region.png": "b220c35a15d42b5df1a3384882553164e9c5bf2f96e218fe791572564df543ba",
+    "paper_region.tex": "a63430513dc384e535bc47a24118c55f4fdcd30088244868ffe67ec6364d2b5f",
+    "plot_region.py": "c78bfb7ddc73f54b0d59921b3711194935ed50bf64a2c1c08885749c9f6bd4c9",
+    "verify_artifacts.py": "8fccc21b278742db65784b29dcdf989e6c79854ed8ebb65f998f8d09426ddbdb"
+  },
+  "calls": {
+    "model_services": 0,
+    "training": 0,
+    "gpu_jobs": 0,
+    "parameter_search": 0
+  }
+}

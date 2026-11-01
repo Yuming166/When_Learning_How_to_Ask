@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "stages": {
+    "smoke": {
+      "status": "completed",
+      "receipt_path": "artifacts/smoke/execution.json",
+      "sha256": "52662bd2547ba597ee57538b97d110f1014a181a3bd79a95fc8a491772b8a22f"
+    },
+    "evaluation": {
+      "status": "completed",
+      "receipt_path": "artifacts/evaluation/execution.json",
+      "sha256": "3b0640b0de0c6ecaca8cf690ac97788b938bff9b5f9f6db2f2366de9c5c337d2"
+    },
+    "analysis": {
+      "status": "completed",
+      "receipt_path": "artifacts/analysis/execution.json",
+      "sha256": "03dcd64104242e1df35720bc4d310604cff4bd920227f18c1542b8321aeda17d"
+    }
+  },
+  "new_training_updates": 0,
+  "scientific_retries": 0,
+  "confirmation_worlds": 0,
+  "qwen_or_provider_calls": 0,
+  "gpu_jobs": 0,
+  "launch_plan_is_initial_snapshot": "audit/EXECUTION_LAUNCHES.json"
+}

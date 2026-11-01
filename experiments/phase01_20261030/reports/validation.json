@@ -1,0 +1,9 @@
+{
+  "command": "python3 -m unittest -v test_pipeline.py",
+  "exit_code": 0,
+  "tests_passed": 5,
+  "observed_test_seconds": 2.283,
+  "semantic_cases": 10000,
+  "unit_fixture": "Fabricated answers confined to TemporaryDirectory, never experiment runs",
+  "recorded_unix_time": 1793358605.721746
+}

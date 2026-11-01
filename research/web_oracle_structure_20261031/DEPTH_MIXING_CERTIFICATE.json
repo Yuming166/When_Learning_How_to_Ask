@@ -1,0 +1,140 @@
+{
+  "status": "PASS_EXACT_RATIONAL_CONTINUOUS_DOMAIN_CERTIFICATE",
+  "parameters": {
+    "r": "3/5",
+    "p": "19/20",
+    "q": "3/5",
+    "eta": "1/40",
+    "alpha": "1",
+    "d": 1,
+    "L_max": 6,
+    "c": "1",
+    "ell": "1",
+    "known_to_oracle": "format only"
+  },
+  "witness": {
+    "per_fact_blocks": {
+      "1": "14",
+      "2": "2"
+    },
+    "format": "pure good",
+    "cost": "34",
+    "global_uniform_information_margin_lower_display": "0.028571621113768523527120355293854982153054510007056",
+    "continuous_domain": "1/2 <= v <= u <= 39/40",
+    "v_profile": "min(3/5,u)",
+    "cells": 950,
+    "cell_width": "1/2000",
+    "second_derivative_bound": "44800"
+  },
+  "single_depth": {
+    "allowed": "any mixture of all formats at that fixed depth",
+    "per_depth": [
+      {
+        "L": 1,
+        "alternative": [
+          "1/2",
+          "1/2"
+        ],
+        "dual_weight": "100",
+        "lower_bound_display": "48.523254923523837358800466513889483893683370583474",
+        "actions_checked": 2,
+        "min_dual_slack_display": "0.37113661750053831692947370860588800291268058553374"
+      },
+      {
+        "L": 2,
+        "alternative": [
+          "19/20",
+          "3/5"
+        ],
+        "dual_weight": "413/10",
+        "lower_bound_display": "41.3",
+        "actions_checked": 3,
+        "min_dual_slack_display": "0.0028817149347738004494927591654524730272338035980048"
+      },
+      {
+        "L": 3,
+        "alternative": [
+          "19/20",
+          "3/5"
+        ],
+        "dual_weight": "413/10",
+        "lower_bound_display": "41.3",
+        "actions_checked": 4,
+        "min_dual_slack_display": "0.74424345083055197234597403467646616623465267478309"
+      },
+      {
+        "L": 4,
+        "alternative": [
+          "19/20",
+          "3/5"
+        ],
+        "dual_weight": "413/10",
+        "lower_bound_display": "41.3",
+        "actions_checked": 5,
+        "min_dual_slack_display": "1.7027145556063428876493054607307056945642254998952"
+      },
+      {
+        "L": 5,
+        "alternative": [
+          "19/20",
+          "3/5"
+        ],
+        "dual_weight": "413/10",
+        "lower_bound_display": "41.3",
+        "actions_checked": 6,
+        "min_dual_slack_display": "2.6657828289469937803686894355274296282816460653131"
+      },
+      {
+        "L": 6,
+        "alternative": [
+          "19/20",
+          "3/5"
+        ],
+        "dual_weight": "413/10",
+        "lower_bound_display": "41.3",
+        "actions_checked": 7,
+        "min_dual_slack_display": "3.6592070688382858290555663195929586345740515319090"
+      }
+    ],
+    "universal_lower_bound": "413/10",
+    "ratio_to_full_oracle_lower_bound": "413/340",
+    "relative_cost_reduction_at_least": "73/413"
+  },
+  "full_oracle_lower": {
+    "alternative": [
+      "73/80",
+      "3/5"
+    ],
+    "dual_weight": "3329/100",
+    "actions_checked": 27,
+    "min_dual_slack_display": "0.00047326551340739624132149447693993564675175091192873",
+    "coefficient_lower_bound_display": "32.947798281831591180433046577759397309018129170180"
+  },
+  "known_rate_comparison": {
+    "unique_best_action": [
+      1,
+      0
+    ],
+    "coefficient_interval_display": [
+      "30.527934268215928676621698651982322679793131496081",
+      "30.527934268215928676909157654854730249675005985072"
+    ],
+    "min_information_per_cost_advantage_display": "0.0085670672809339392522241512851415718719772773934328"
+  },
+  "conclusion": "Every cost-optimal full-menu oracle allocation uses at least two distinct depths.",
+  "limits": [
+    "Neither exact optimal cost nor exact support is computed.",
+    "Pure-good optimality in the full model remains a separate question.",
+    "This is a controlled-model theorem, not an empirical Web/LLM result."
+  ],
+  "arithmetic": {
+    "probabilities": "exact fractions",
+    "log_method": "20-term dyadic atanh interval",
+    "continuous_check": "Taylor lower bound with exact slope and global curvature"
+  },
+  "source_sha256": "8fa4959b9b8150244939d6080c5d28bfd226a6e46596628439e39e977b6f5ec1",
+  "interval_dependency": {
+    "path": "/home/gaoym/When_Learning_How_to_Ask/research/web_unknown_calibration_20261031/certify_threshold_failure.py",
+    "sha256": "aba663148d9dcb3a67167e9c551eb2452c555d240b604e6760aad3ef9e686a76"
+  }
+}

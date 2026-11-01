@@ -1,0 +1,477 @@
+[
+  {
+    "case_id": "W1-01",
+    "train_index": 127,
+    "original_claim": "All regular Indian Railways trains cancelled till 30th September, 2020.",
+    "original_claim_sha256": "5a0683e3e8aacb8971b28e02d577267ea734d3e4586300d660fb508c74fb7bad",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-08-10",
+    "dataset_speaker": null,
+    "C": {
+      "entity": "Indian Railways regular passenger train services",
+      "relation": "all regular services cancelled until",
+      "value": "2020-09-30",
+      "event_time": {
+        "as_of": "2020-08-10",
+        "end": "2020-09-30",
+        "start": null
+      },
+      "geography": "India",
+      "units": "calendar date",
+      "qualifiers": [
+        "all regular trains; distinguish special trains",
+        "announcement of cancellation versus actual service operation"
+      ]
+    },
+    "normalization_status": "PARTIAL_SCOPE",
+    "normalization_note": "The scope of regular services and start of cancellation interval are not established from accessible reference evidence.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-08-10",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-02",
+    "train_index": 180,
+    "original_claim": "In Kenya now with a population of about 48 million, we have one judge serving over 300,000 people",
+    "original_claim_sha256": "71b1ddb57b402ed965cc6b929e492c4a93e7a716f54058135a739db85436a5d3",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-08-01",
+    "dataset_speaker": "David Maraga",
+    "C": {
+      "entity": "Kenya judiciary and national population",
+      "relation": "population per judge exceeds",
+      "value": 300000,
+      "event_time": {
+        "as_of": "2020-08-01",
+        "population_measurement_year": 2019,
+        "judge_count_report_period": "2017/18"
+      },
+      "geography": "Kenya",
+      "units": "people per judge",
+      "qualifiers": [
+        "population approximately 48 million",
+        "judge count excludes magistrates unless reference states otherwise",
+        "population and judge-count years differ"
+      ]
+    },
+    "normalization_status": "CONTEXT_QUALIFIED",
+    "normalization_note": "Ratio 47.6m/155 is reproducible only from dataset numbers; neither source value is independently checked.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-08-01",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-03",
+    "train_index": 463,
+    "original_claim": "Cloth masks do not filter anything.",
+    "original_claim_sha256": "04ecb7f6d89c430da5ebb4730f4c29ff1f12090ab9c0e3e2a41a81dd10a6961c",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-06-21",
+    "dataset_speaker": "William Senkarik ",
+    "C": {
+      "entity": "cloth face masks",
+      "relation": "filter no particles or droplets at all",
+      "value": "universal negative",
+      "event_time": {
+        "as_of": "2020-06-21",
+        "applicability_interval": null
+      },
+      "geography": "not specified by proposition; US is dataset context",
+      "units": "qualitative filtration",
+      "qualifiers": [
+        "do not substitute clinical infection reduction for zero filtration",
+        "universal claim, not equality with respirators"
+      ]
+    },
+    "normalization_status": "EXPLICIT_WITH_UNSPECIFIED_PHYSICAL_SCOPE",
+    "normalization_note": "Filter anything is universal and underspecified in particle size; preserve that wording.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-06-21",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-04",
+    "train_index": 584,
+    "original_claim": "Thyrocare labs are sealed in Thane over false-positive COVID-19 testing.",
+    "original_claim_sha256": "842b449d26dede787be9d82766cb593be00a00dbc6febf938cef48c8f4bca196",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-06-07",
+    "dataset_speaker": "Manoj Kalwar",
+    "C": {
+      "entity": "Thyrocare laboratory facilities in Thane",
+      "relation": "sealed because of false-positive COVID-19 testing",
+      "value": "physical closure plus asserted cause",
+      "event_time": {
+        "as_of": "2020-06-07",
+        "closure_event_time": null
+      },
+      "geography": "Thane, India",
+      "units": "binary event with causal qualifier",
+      "qualifiers": [
+        "stopping COVID testing is not closing the entire laboratory",
+        "do not infer later closure from earlier testing suspension"
+      ]
+    },
+    "normalization_status": "CONTEXT_QUALIFIED",
+    "normalization_note": "Exact facility and closure-event date remain unspecified.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-06-07",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-05",
+    "train_index": 678,
+    "original_claim": "Since the week ending March 14, Wisconsin actually saw a drop in tourism spending compared to last year of $1.7 billion.",
+    "original_claim_sha256": "4a1b2458fd6af5a90cb775576e7b4c1488baac3ad20584a47dde9eb7aa2ee3ea",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-05-24",
+    "dataset_speaker": "Sara Meaney",
+    "C": {
+      "entity": "Wisconsin tourism spending",
+      "relation": "cumulative year-over-year decline since week ending March 14",
+      "value": "approximately 1.7 billion",
+      "event_time": {
+        "start_week_ending": "2020-03-14",
+        "claim_as_of": "2020-05-24",
+        "reference_latest_week_ending": "2020-05-16"
+      },
+      "geography": "Wisconsin, United States",
+      "units": "USD",
+      "qualifiers": [
+        "cumulative loss versus same period previous year",
+        "1.7B claim is rounded; reference reports 1.775B",
+        "do not substitute full-calendar-year 2020 loss"
+      ]
+    },
+    "normalization_status": "CONTEXT_QUALIFIED",
+    "normalization_note": "Year and end of comparison window come from claim date / reference, not explicit in literal statement; retain this interpretive step.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-05-24",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-06",
+    "train_index": 1047,
+    "original_claim": "F. Scott Fitzgerald wrote a letter in the 1920 Spanish Influenza pandemic, in which he wrote to someone named “Rosemary” in which he wrote: “Even the bars, as I told Hemingway, but to that he punched me in the stomach, to which I asked if he had washed his hands,” the alleged letter says. “He hadn’t. He is much the denier, that one. Why, he considers the virus to be just influenza.”",
+    "original_claim_sha256": "9eb789bee13d80ce2af199825551e8d2902c6509d21c3fc53cc6933017bf43d4",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-03-19",
+    "dataset_speaker": "Jay Nickerson",
+    "C": {
+      "entity": "the circulated letter to Rosemary containing the quoted bar/Hemingway passage",
+      "relation": "was authored by F. Scott Fitzgerald during Spanish influenza",
+      "value": "F. Scott Fitzgerald; alleged 1920",
+      "event_time": {
+        "alleged_letter_year": 1920,
+        "circulation_as_of": "2020-03-19",
+        "observed_primary_publication_date": "2020-03-13"
+      },
+      "geography": "alleged letter: South of France; publication/circulation context US",
+      "units": "author identity and year",
+      "qualifiers": [
+        "authorship target, not accuracy of fictional events",
+        "actual author statement and satire disclaimer belong to page context"
+      ]
+    },
+    "normalization_status": "EXPLICIT_ATTRIBUTION",
+    "normalization_note": "Reference is corroborated by first-party byline/disclaimer; no independent human adjudication.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-03-19",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-07",
+    "train_index": 1238,
+    "original_claim": "A doctor's office in New South Wales was visited by people who had been exposed to the coronavirus.",
+    "original_claim_sha256": "0db51d088d4cbe1827c6dffc5a0bfd0fa9e86230982d466f6d68d30bdd794c6f",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2020-02-14",
+    "dataset_speaker": "Cassandra Louise",
+    "C": {
+      "entity": "one doctor office in New South Wales",
+      "relation": "was visited by multiple people exposed to coronavirus",
+      "value": "existential office with plural visitors",
+      "event_time": {
+        "as_of": "2020-02-14",
+        "event_time": null
+      },
+      "geography": "New South Wales, Australia",
+      "units": [
+        "one office",
+        "multiple exposed people"
+      ],
+      "qualifiers": [
+        "do not replace one office with separate GPs",
+        "do not replace NSW with Melbourne/Victoria",
+        "original specific Aberglasslyn allegation is a different scoped proposition"
+      ]
+    },
+    "normalization_status": "UNRESOLVED_SCOPE",
+    "normalization_note": "Neither different GP visits nor a hoax concerning one town resolves the literal broad singular-office/plural-visitors claim.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2020-02-14",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-08",
+    "train_index": 1429,
+    "original_claim": "Donald Trump is rated international public opinion polls below Xi Jinping.",
+    "original_claim_sha256": "890e5c0c0a24b726695725248f9d71e92a4782263e7b335f8e46cd547afa380b",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2019-12-19",
+    "dataset_speaker": "Joe Biden",
+    "C": {
+      "entity": "Donald Trump and Xi Jinping",
+      "relation": "international public-opinion rating of Trump lower than Xi",
+      "value": "Trump < Xi",
+      "event_time": {
+        "as_of": "2019-12-19",
+        "contextual_survey_year": 2018
+      },
+      "geography": "international; contextual survey covers 25 countries",
+      "units": "country-median confidence in handling world affairs (contextual)",
+      "qualifiers": [
+        "specific poll scope, not all international polls",
+        "not preference for US versus China as global leading power"
+      ]
+    },
+    "normalization_status": "CONTEXT_QUALIFIED",
+    "normalization_note": "Poll instrument, country aggregation and year are supplied by reference context, not all present in literal claim.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2019-12-19",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-09",
+    "train_index": 1460,
+    "original_claim": "A female army sergeant who became a hero for her war-time actions is the first woman to earn a Silver Star since WWII.",
+    "original_claim_sha256": "b2a84c245a48432284294296ef8fa042fdbc8eb290f51de8c59edc527edeea79",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2019-12-09",
+    "dataset_speaker": "Louise Bevan",
+    "C": {
+      "entity": "Leigh Ann Hester (identity supplied by reference)",
+      "relation": "was the first woman awarded a Silver Star since WWII",
+      "value": "first, not only",
+      "event_time": {
+        "award_date_contextual": "2005-06-16",
+        "action_date_contextual": "2005-03-20",
+        "claim_as_of": "2019-12-09",
+        "later_award_contextual": "2008-03-21"
+      },
+      "geography": "US military; wartime action in Iraq",
+      "units": "historical ordering of awards",
+      "qualifiers": [
+        "being first does not mean being sole recipient since WWII",
+        "do not portray old award as newly awarded in 2019"
+      ]
+    },
+    "normalization_status": "CONTEXT_QUALIFIED",
+    "normalization_note": "Reference identifies the person; original full page is inaccessible.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2019-12-09",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-10",
+    "train_index": 2137,
+    "original_claim": "“America is like a healthy body and its resistance is threefold: its patriotism, its morality and its spiritual life. If we can undermine these three areas, America will collapse from within.",
+    "original_claim_sha256": "90416fa202129740ebb6d048268da24be600423f21e8a507929a35816faa8599",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2019-05-30",
+    "dataset_speaker": null,
+    "C": {
+      "entity": null,
+      "relation": "attribution predicate missing from literal claim",
+      "value": "quoted geopolitical prescription",
+      "event_time": {
+        "claim_as_of": "2019-05-30",
+        "alleged_utterance_date": null
+      },
+      "geography": "America as object of quotation; alleged speaker location unknown",
+      "units": "not applicable",
+      "qualifiers": [
+        "literal claim omits speaker and asserted attribution",
+        "Stalin attribution appears only in QA/justification"
+      ]
+    },
+    "normalization_status": "MISSING_PREDICATE",
+    "normalization_note": "Do not silently change the test item to Stalin said X; that is a separate contextual interpretation.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2019-05-30",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-11",
+    "train_index": 2521,
+    "original_claim": "Blake Griffin, a forward for the Detroit Pistons basketball team, will pay $258,000 per month in child support to his ex Brynn Cameron.",
+    "original_claim_sha256": "8c8ce028b83616a6b0cd6c3dd18e9513781d980db703aa6b58c25d7b97b05352",
+    "dataset_reference_label": "Refuted",
+    "theta_reference": 0,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2019-02-25",
+    "dataset_speaker": "",
+    "C": {
+      "entity": "Blake Griffin and Brynn Cameron",
+      "relation": "Griffin will pay Cameron child support of",
+      "value": 258000,
+      "event_time": {
+        "claim_as_of": "2019-02-25",
+        "order_period": null,
+        "related_reports_dated": "2018-08",
+        "reference_evaluation_date": "2020-08-03"
+      },
+      "geography": "Los Angeles, California, United States (contextual court jurisdiction)",
+      "units": "USD per month",
+      "qualifiers": [
+        "amount unknown/confidential in inspected reference",
+        "report of denial is not verification of negation",
+        "distinguish ordered versus actual paid amount and time"
+      ]
+    },
+    "normalization_status": "UNRESOLVED_TIME_AND_MODALITY",
+    "normalization_note": "Future will pay, reported order, and actual payments are not interchangeable; original underlying court record absent.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2019-02-25",
+      "reference_publication_date": "2020-08-03",
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  },
+  {
+    "case_id": "W1-12",
+    "train_index": 2772,
+    "original_claim": "South Africa has invested more than R2 trillion in infrastructure projects over the past 10 years to build more schools, clinics, roads and the freight logistics network.",
+    "original_claim_sha256": "f7cb877b00e9764d53a2fd92ef62ee2df918215d77945d3c888eb836b1ca78e5",
+    "dataset_reference_label": "Supported",
+    "theta_reference": 1,
+    "reference_adjudication": "QUALIFIED_DATASET_REFERENCE_NOT_HUMAN_VERIFIED",
+    "dataset_claim_date": "2019-01-12",
+    "dataset_speaker": "African National Congress",
+    "C": {
+      "entity": "South African public sector",
+      "relation": "invested more than 2 trillion in infrastructure over prior ten years",
+      "value": "> 2 trillion",
+      "event_time": {
+        "claim_as_of": "2019-01-12",
+        "ten_year_window_start": null,
+        "ten_year_window_end": null,
+        "exact_financial_years": null
+      },
+      "geography": "South Africa",
+      "units": "ZAR",
+      "qualifiers": [
+        "schools, clinics, roads, freight logistics included",
+        "actual spending versus plans",
+        "financial versus calendar years unresolved",
+        "1998/99-2016/17 aggregate is not the same interval"
+      ]
+    },
+    "normalization_status": "UNRESOLVED_INTERVAL",
+    "normalization_note": "Dataset says 2.3T; reference unavailable and amount QA uses Metadata; annex only supports related definitions and other periods.",
+    "source_relative_evaluation_time": {
+      "dataset_claim_as_of": "2019-01-12",
+      "reference_publication_date": null,
+      "policy": "Compare statement applicability, not page publication date alone; unknown boundaries remain null"
+    },
+    "target_replaced": false,
+    "alternative_subclaims_are_diagnostic_only": true,
+    "human_signoff": "PENDING",
+    "binary_subset_approved": false,
+    "Y": null
+  }
+]

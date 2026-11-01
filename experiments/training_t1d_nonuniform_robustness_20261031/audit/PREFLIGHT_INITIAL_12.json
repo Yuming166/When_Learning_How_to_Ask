@@ -1,0 +1,28 @@
+{
+  "scope": "192 deterministic literal engineering paths across d3/d4; no benchmark world or scientific entropy generated; outcomes are not efficacy results",
+  "paths": 192,
+  "worlds": 0,
+  "literal_query_records": 7680,
+  "CPU": 35.052794597,
+  "wall": 35.05665918532759,
+  "policy_CPU": {
+    "KL-OriginalSolver": 10.685109172999999,
+    "KL-AnalyticReuse": 1.7320895860000052,
+    "KL-Fresh": 7.163060110000001,
+    "Fused-Info": 3.4592641820000045,
+    "IG-Uniform-Block": 0.5596569960000002,
+    "IG-Fact-Block": 0.5615666560000028,
+    "IG-Uniform-Fresh": 2.00762971399999,
+    "IG-Fact-Fresh": 1.9764051709999986,
+    "IG-Uniform-Direct": 1.3201669919999957,
+    "Fresh-IG-Lite": 1.2903235299999996,
+    "Belief-Gated": 2.7728279329999976,
+    "WorstFact-MI": 1.3188046830000002
+  },
+  "tests_log_sha256": "a187e12297b9f50b4de59cd0be95b53c9f672a3c7421d44fb83054fee96eb9d7",
+  "fixture_files": {
+    "audit/fixtures/failures.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/fixtures/trajectories.jsonl": "23eb885d89804c9c8b7670865eacc9e26b8897b7bac4e88d2cd8fab45e9a8916",
+    "audit/fixtures/reproduction.jsonl": "0d97aa52b17b37230046b9cc8e42ba353543b334049fe72f89f08bb7c33b0393"
+  }
+}

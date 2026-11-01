@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "gates": {
+    "historical_candidate_headroom_at_least_5pp": true,
+    "candidate_disagreement_at_least_10percent": true,
+    "mean_within_state_Q_range_at_least_005": true,
+    "observable_association_abs_at_least_010": true
+  },
+  "train_states": 192,
+  "candidate_disagreement_fraction": 1.0,
+  "mean_Q_range": 0.032647689023167725,
+  "type_advantage_sd": 0.03234196855361588,
+  "observable_associations": {
+    "remaining_budget": 0.1538163169394729,
+    "mean_fact_entropy": 0.1493700453992064,
+    "mean_type_entropy": 0.14159412660427184,
+    "joint_map_probability": -0.1850182232388347,
+    "posterior_rate_gap": -0.10609074544735628
+  },
+  "qualification": "Exploratory feasibility only. Repeated states are clustered by world. Correlation is not a learnability theorem, value-label accuracy guarantee, or a test result."
+}

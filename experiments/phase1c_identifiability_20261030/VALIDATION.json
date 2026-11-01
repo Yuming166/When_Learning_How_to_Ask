@@ -1,0 +1,32 @@
+{
+  "frozen_source_data_unchanged": true,
+  "actual_calls": 192,
+  "valid": 192,
+  "correct_independently_rescored": 115,
+  "unique_seeds": 192,
+  "byte_identical_repeated_prompts": true,
+  "source_files_verified": [
+    "proofwriter_README.md",
+    "proofwriter_owa3_meta-train.jsonl",
+    "proofwriter_owa3_meta-dev.jsonl",
+    "contract_LICENSE",
+    "contract_test.json",
+    "contract_dev.json",
+    "contract_README.md",
+    "contract_train.json"
+  ],
+  "same_checkpoint_as_phase01": true,
+  "historical_artifacts_unchanged": [
+    {
+      "directory": "phase01_20261030",
+      "files_verified": 47
+    },
+    {
+      "directory": "phase1b_userbench_audit_20261030",
+      "files_verified": 15
+    }
+  ],
+  "preflight_unit_tests_passed": 8,
+  "analysis_scope": "Development only; validation is artifact integrity, not independent scientific replication.",
+  "freeze_sha256": "915590827156e6864fa907a719c3af22ce901405b7ded2c3808c7c8be71fc300"
+}

@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "train": {
+      "worlds": 4816,
+      "inconsistent_worlds": 0,
+      "questions": 69388,
+      "source_True": 19264,
+      "source_False": 19264,
+      "label_mismatches": 0,
+      "complete_implication_mismatch_worlds": 0,
+      "complete_implications": 58929,
+      "worlds_with_6_distinct_signed_binary_positive_queries": 12,
+      "worlds_with_8_distinct_signed_binary_positive_queries": 0,
+      "extended_worlds_at_least_6": 4358,
+      "extended_worlds_at_least_8": 3411,
+      "source_Unknown": 30860,
+      "extended_worlds_balanced_certificate_disjoint_6": 335,
+      "positive_binary_target_count_histogram": {
+        "2": 14,
+        "3": 315,
+        "4": 4133,
+        "5": 342,
+        "6": 12
+      }
+    },
+    "dev": {
+      "worlds": 719,
+      "inconsistent_worlds": 0,
+      "questions": 10302,
+      "source_True": 2876,
+      "source_False": 2876,
+      "source_Unknown": 4550,
+      "label_mismatches": 0,
+      "complete_implication_mismatch_worlds": 0,
+      "complete_implications": 8832,
+      "worlds_with_6_distinct_signed_binary_positive_queries": 1,
+      "worlds_with_8_distinct_signed_binary_positive_queries": 0,
+      "extended_worlds_at_least_6": 663,
+      "extended_worlds_at_least_8": 522,
+      "extended_worlds_balanced_certificate_disjoint_6": 51,
+      "positive_binary_target_count_histogram": {
+        "2": 1,
+        "3": 55,
+        "4": 615,
+        "5": 47,
+        "6": 1
+      }
+    }
+  },
+  "structural_gate": true,
+  "selected_world_ids": [
+    "RelNeg-OWA-D3-699",
+    "AttNeg-OWA-D3-529",
+    "RelNeg-OWA-D3-1613",
+    "RelNeg-OWA-D3-1205",
+    "AttNeg-OWA-D3-303",
+    "RelNeg-OWA-D3-350",
+    "AttNeg-OWA-D3-804",
+    "AttNeg-OWA-D3-311"
+  ],
+  "scope": "OWA depth-3 only; no Unknown-to-False merge. Fixed unknown signs need not have independent priors. Disjoint chosen-certificate facts are not a statistical-independence proof."
+}

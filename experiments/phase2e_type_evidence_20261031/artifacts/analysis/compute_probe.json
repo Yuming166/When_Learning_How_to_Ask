@@ -1,0 +1,37 @@
+[
+  {
+    "method": "exact_cold",
+    "repeats": 10,
+    "fixture": "2_targets_2_groups_12_task_reference_obs_2_type_reports",
+    "cpu_seconds_mean": 0.007513782699999994,
+    "cpu_seconds_min": 0.007426888999999992
+  },
+  {
+    "method": "quadrature_32",
+    "repeats": 10,
+    "fixture": "2_targets_2_groups_12_task_reference_obs_2_type_reports",
+    "cpu_seconds_mean": 0.001139545600000008,
+    "cpu_seconds_min": 0.0009742100000000309
+  },
+  {
+    "method": "conditional_plugin",
+    "repeats": 10,
+    "fixture": "2_targets_2_groups_12_task_reference_obs_2_type_reports",
+    "cpu_seconds_mean": 0.00041891399999999246,
+    "cpu_seconds_min": 0.0004017879999999585
+  },
+  {
+    "method": "quadrature_64",
+    "repeats": 10,
+    "fixture": "2_targets_2_groups_12_task_reference_obs_2_type_reports",
+    "cpu_seconds_mean": 0.004213344100000005,
+    "cpu_seconds_min": 0.003763976000000002
+  },
+  {
+    "method": "quadrature_plus_10_action_information",
+    "repeats": 10,
+    "fixture": "4_targets_2_groups_fixed_counts",
+    "cpu_seconds_mean": 0.04120916579999999,
+    "cpu_seconds_min": 0.040403254
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "technical_gate": true,
+  "technical_tests": 10,
+  "contract_test_log_sha256": "bd47115b8bcdc038d2799e6dc0fb487f0f1644390d67426bb85f3948e38d8741",
+  "engineering_failures_preserved": [
+    "audit/CONTRACT_TESTS_INITIAL_FAILED.txt"
+  ],
+  "engineering_correction": "Before scientific freeze, normalize tuple group-membership to list for NumPy advanced indexing. Literal tests rerun and pass.",
+  "final_post_test_changes": "Only explicit nonfinite-value rejection and prewritten postprocessing metrics/wording; syntax compiled before freeze.",
+  "historical_public_files_verified": 132,
+  "actual_world_trajectories": 4488,
+  "actual_online_actions": 162048,
+  "counterfactual_continuation_step_ceiling": 414720,
+  "TRAIN_worlds": 48,
+  "DEV_worlds": 24,
+  "TEST_worlds": 192,
+  "planned_training_fits": 9,
+  "training_updates_before_freeze": 0,
+  "scientific_worlds_before_freeze": 0,
+  "four_action_interface_audited": true,
+  "no_reserved_seed_access": true,
+  "all_required_analysis_source_prepared": true,
+  "limitations": [
+    "Shared scorer equivariant; full policy inherits forced/index tie conventions.",
+    "Posterior exact only within frozen quadrature approximation.",
+    "Training feasibility gate does not establish generalization."
+  ]
+}

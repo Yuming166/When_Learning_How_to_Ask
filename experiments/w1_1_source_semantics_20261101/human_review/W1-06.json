@@ -1,0 +1,28 @@
+{
+  "case_id": "W1-06",
+  "status": "PENDING",
+  "reviewer_name": null,
+  "reviewer_is_human": null,
+  "review_date": null,
+  "read_frozen_context_attestation": null,
+  "evidence_receipt": "../../w1_averitec_audit_20261101/browser_05_08/batch_02.json",
+  "evidence_receipt_sha256": "9888ef6b883b714539e9e38644b609be9b088bf96d72b98087896d3a37ae4e9b",
+  "claim_scope_judgement": null,
+  "source_actor_identification": null,
+  "source_stance_judgement": null,
+  "publisher_vs_quoted_speaker": null,
+  "reference_truth_support_and_limits": null,
+  "temporal_comparability": null,
+  "version_scope_confirmed": null,
+  "provenance_limitations": null,
+  "decision": null,
+  "decision_allowed_values": [
+    "ACCEPT_SCOPED_READING_UNIT",
+    "REVISE",
+    "REJECT",
+    "PENDING"
+  ],
+  "rationale": null,
+  "human_signature": null,
+  "model_run_authorization": false
+}

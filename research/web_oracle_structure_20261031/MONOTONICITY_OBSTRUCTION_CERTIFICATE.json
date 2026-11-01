@@ -1,0 +1,32 @@
+{
+  "status": "PASS_EXACT_RATIONAL_INTERVAL_CERTIFICATE",
+  "r": "19/20",
+  "true_coordinate_accuracies": [
+    "13/20",
+    "33/40"
+  ],
+  "alternative_coordinate_accuracies": [
+    "13/20",
+    "650000001/1000000000"
+  ],
+  "all_true_coordinates_at_least_alternative_coordinates": true,
+  "alternative_good_rate_strictly_above_bad_rate": true,
+  "derivative_same_truth_display_bounds": [
+    "-0.00050249803203641233797823539167578670052493067952094",
+    "-0.00050249803203641233797823539167578670052493067952094"
+  ],
+  "derivative_opposite_truth_display_bounds": [
+    "0.97727281571317603777299345984853145243827267788989",
+    "0.97727281571317603777299345984853145243851188289302"
+  ],
+  "F_d": 2000,
+  "F_derivative_display_bounds": [
+    "-0.027220750327612225845499088111366161911063750472460",
+    "-0.027220750327612225845499088111366161910824545469330"
+  ],
+  "finite_coordinate_increase": "1/1000000",
+  "F_strict_decrease_lower_endpoint_display": "2.3592333837477075889847928912199341987516243463594E-8",
+  "claim_limit": "Refutes coordinatewise monotonicity of same-truth KL and F_d; does not refute replacing a complete mixed block by a pure-good block, or pure-good oracle optimality.",
+  "arithmetic": "Exact Fraction logarithm intervals, 100 atanh terms and proved geometric tail; decimal strings display endpoints only.",
+  "script_sha256": "beb54a9415916c6034aebd7bd8b1f29957d4cab2720494832568292be2257347"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "new_unittest_tests": 12,
+  "inherited_certified_tests": 13,
+  "exact_reference_comparisons": 20,
+  "exact_reference_tolerance": 1e-12,
+  "fixture_normalization_cases": 768,
+  "fixture_targets": 96,
+  "information_entropy_checks": 14,
+  "information_max_abs_error": 1.249000902703301e-16,
+  "continue_then_certify_check": {
+    "case": "new_fused_driver_continues_after_undetermined_then_certifies",
+    "online": 32,
+    "statuses": [
+      "undetermined",
+      "certified"
+    ],
+    "injected_engineering_case": true,
+    "scientific_worlds": 0
+  },
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=experiments/phase2e_type_evidence_20261031 python -m unittest discover -s experiments/phase2e_type_evidence_20261031/tests -v",
+    "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=experiments/phase2e_type_evidence_20261031:experiments/phase2d_method_improvement_20261031 python -m unittest discover -s experiments/phase2d_method_improvement_20261031/tests -p test_certified.py -v",
+    "python experiments/phase2e_type_evidence_20261031/audit/information_check.py"
+  ],
+  "review_scope": "same_context engineering/math cross-checks; no independent reviewer or formal verification",
+  "scientific_worlds_from_tests": 0,
+  "model_api_gpu_calls": 0
+}

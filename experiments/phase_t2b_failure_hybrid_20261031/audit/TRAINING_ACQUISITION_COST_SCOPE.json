@@ -1,0 +1,19 @@
+{
+  "status": "known_scope_only",
+  "actual_training_source": "Exact simulator; no paid API or human feedback calls",
+  "data_generation": {
+    "worlds": 352,
+    "online_observations": 360448,
+    "unique_offline_observations": 100976
+  },
+  "all_completed_preparation": {
+    "online_observations": 362880,
+    "offline_observations_or_path_charges": 104048
+  },
+  "previous_failed_attempt": {
+    "known_smoke_actions": 128,
+    "known_same_world_diagnostic_replay_actions": 516,
+    "original_interrupted_prefix_cost_unknown": true
+  },
+  "cost_interpretation": "Frozen primary deployment scenarios charge known historical CPU only; all training observations are synthetic, and their computation is already within preparation CPU. These observation totals are disclosed separately, not charged at hypothetical paid-query prices as if such costs were actually incurred. A hypothetical paid recollection would additionally require lambda*N_train/M plus any CPU cost and unknown prior acquisition; not an empirical human/Natural deployment claim."
+}

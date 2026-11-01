@@ -1,0 +1,3 @@
+# Confirmation disposition
+
+未触发原定广义Lite优越性/实用基线GO门槛，不准备启动该类确认。A2固定类型条件下的预注册子比较呈阳性，因此另列MECHANISM_CONFIRMATION_PROTOCOL_PROPOSAL.md，作为开发后选定、未来数据前须冻结的窄机制提案。它不将控制臂升格为最终方法，也没有执行授权。无确认种子读取或创建，无自动追加实验。

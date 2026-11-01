@@ -1,0 +1,851 @@
+[
+  {
+    "page_id": "P001",
+    "url": "https://web.archive.org/web/20210721115102/https://newsmobile.in/articles/2020/08/11/fact-check-all-regular-trains-cancelled-till-30th-september-heres-the-truth/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-01",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P001"
+      }
+    ]
+  },
+  {
+    "page_id": "P002",
+    "url": "Metadata",
+    "host": "",
+    "occurrences": [
+      {
+        "case_id": "W1-01",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-01",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-09",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-09",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-10",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-12",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-12",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-12",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P002"
+      },
+      {
+        "case_id": "W1-12",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[2].answers[0].cached_source_url",
+        "page_id": "P002"
+      }
+    ]
+  },
+  {
+    "page_id": "P003",
+    "url": "https://web.archive.org/web/20210127231105/https://africacheck.org/fact-checks/reports/factchecking-kenyas-chief-justice-judiciary-funding-and-backlog-cases",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P003"
+      }
+    ]
+  },
+  {
+    "page_id": "P004",
+    "url": "https://web.archive.org/web/20210105192026/https://www.knbs.or.ke/?p=5621",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P004"
+      },
+      {
+        "case_id": "W1-02",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P004"
+      }
+    ]
+  },
+  {
+    "page_id": "P005",
+    "url": "https://www.judiciary.go.ke/wp-content/uploads/sojar20172018.pdf",
+    "host": "www.judiciary.go.ke",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P005"
+      }
+    ]
+  },
+  {
+    "page_id": "P006",
+    "url": "https://web.archive.org/web/20230420135104/https://www.judiciary.go.ke/wp-content/uploads/sojar20172018.pdf",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P006"
+      }
+    ]
+  },
+  {
+    "page_id": "P007",
+    "url": "https://www.symbolab.com/",
+    "host": "www.symbolab.com",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P007"
+      }
+    ]
+  },
+  {
+    "page_id": "P008",
+    "url": "https://web.archive.org/web/20230420025754/https://www.symbolab.com/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-02",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[2].answers[0].cached_source_url",
+        "page_id": "P008"
+      }
+    ]
+  },
+  {
+    "page_id": "P009",
+    "url": "https://perma.cc/L98Y-GG8N",
+    "host": "perma.cc",
+    "occurrences": [
+      {
+        "case_id": "W1-03",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P009"
+      },
+      {
+        "case_id": "W1-03",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P009"
+      }
+    ]
+  },
+  {
+    "page_id": "P010",
+    "url": "https://web.archive.org/web/20210222141326/https://factcheck.afp.com/covid-19-cases-spike-us-mask-misinformation-also-spreads",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-03",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P010"
+      }
+    ]
+  },
+  {
+    "page_id": "P011",
+    "url": "https://www.dhs.wisconsin.gov/covid-19/mask.htm",
+    "host": "www.dhs.wisconsin.gov",
+    "occurrences": [
+      {
+        "case_id": "W1-03",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P011"
+      },
+      {
+        "case_id": "W1-03",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P011"
+      }
+    ]
+  },
+  {
+    "page_id": "P012",
+    "url": "https://web.archive.org/web/20230318014229/https://dhs.wisconsin.gov/covid-19/mask.htm",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-03",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P012"
+      },
+      {
+        "case_id": "W1-03",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P012"
+      }
+    ]
+  },
+  {
+    "page_id": "P013",
+    "url": "https://web.archive.org/web/20201221234605/https://www.biorxiv.org/content/10.1101/2020.04.06.028688v1",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-03",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[1].source_url",
+        "page_id": "P013"
+      },
+      {
+        "case_id": "W1-03",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[1].cached_source_url",
+        "page_id": "P013"
+      }
+    ]
+  },
+  {
+    "page_id": "P014",
+    "url": "https://www.facebook.com/manojkalwar/posts/10220950134676330",
+    "host": "www.facebook.com",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P014"
+      }
+    ]
+  },
+  {
+    "page_id": "P015",
+    "url": "https://web.archive.org/web/20230510143422/https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmanojkalwar%2Fposts%2F10220950134676330",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P015"
+      }
+    ]
+  },
+  {
+    "page_id": "P016",
+    "url": "https://web.archive.org/web/20200817190134/https://www.vishvasnews.com/english/viral/fact-check-no-this-thane-lab-is-not-sealed-over-false-positive-covid19-testing/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P016"
+      }
+    ]
+  },
+  {
+    "page_id": "P017",
+    "url": "https://twitter.com/hashtag/ThyrocareLab?src=hashtag_click",
+    "host": "twitter.com",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P017"
+      }
+    ]
+  },
+  {
+    "page_id": "P018",
+    "url": "https://web.archive.org/web/20230510140151/https://twitter.com/login",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P018"
+      }
+    ]
+  },
+  {
+    "page_id": "P019",
+    "url": "https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms",
+    "host": "mumbaimirror.indiatimes.com",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P019"
+      },
+      {
+        "case_id": "W1-04",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P019"
+      }
+    ]
+  },
+  {
+    "page_id": "P020",
+    "url": "https://web.archive.org/web/20230418204457/https://mumbaimirror.indiatimes.com/coronavirus/news/tmc-halts-thyrocare-covid-19-testing-in-thane/articleshow/75903033.cms",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-04",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P020"
+      },
+      {
+        "case_id": "W1-04",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[2].answers[0].cached_source_url",
+        "page_id": "P020"
+      }
+    ]
+  },
+  {
+    "page_id": "P021",
+    "url": "https://web.archive.org/web/20200807031508/https://www.wisn.com/article/upfront-recap-wisconsin-has-lost-dollar17-billion-in-tourism-dollars-since-march-14/32651612",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-05",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P021"
+      },
+      {
+        "case_id": "W1-05",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P021"
+      }
+    ]
+  },
+  {
+    "page_id": "P022",
+    "url": "https://web.archive.org/web/20210117152017/https://www.politifact.com/factchecks/2020/jun/12/sara-meaney/yes-state-has-seen-drop-more-billion-tourism-dolla/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-05",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P022"
+      }
+    ]
+  },
+  {
+    "page_id": "P023",
+    "url": "https://www.wpr.org/wisconsins-tourism-industry-sees-30-percent-spending-decline-2020-due-covid-19",
+    "host": "www.wpr.org",
+    "occurrences": [
+      {
+        "case_id": "W1-05",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P023"
+      }
+    ]
+  },
+  {
+    "page_id": "P024",
+    "url": "https://web.archive.org/web/20230515183158/https://www.wpr.org/wisconsins-tourism-industry-sees-30-percent-spending-decline-2020-due-covid-19",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-05",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P024"
+      }
+    ]
+  },
+  {
+    "page_id": "P025",
+    "url": "https://web.archive.org/web/20200909222356/https://www.facebook.com/jay.nickeron/posts/2617182365228423",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-06",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P025"
+      },
+      {
+        "case_id": "W1-06",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P025"
+      }
+    ]
+  },
+  {
+    "page_id": "P026",
+    "url": "https://web.archive.org/web/20201020164028/https://checkyourfact.com/2020/03/31/fact-check-f-scott-fitzgerald-letter-quarantined-spanish-influenza/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-06",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P026"
+      }
+    ]
+  },
+  {
+    "page_id": "P027",
+    "url": "https://web.archive.org/web/20201126181530/https://www.altnews.in/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-06",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P027"
+      },
+      {
+        "case_id": "W1-06",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P027"
+      }
+    ]
+  },
+  {
+    "page_id": "P028",
+    "url": "https://web.archive.org/web/20201020164028/https://www.mcsweeneys.net/articles/this-side-of-paradise-a-letter-from-f-scott-fitzgerald-quarantined-in-the-south-of-france",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-06",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P028"
+      },
+      {
+        "case_id": "W1-06",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P028"
+      }
+    ]
+  },
+  {
+    "page_id": "P029",
+    "url": "https://perma.cc/52EG-ER82",
+    "host": "perma.cc",
+    "occurrences": [
+      {
+        "case_id": "W1-07",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P029"
+      },
+      {
+        "case_id": "W1-07",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P029"
+      }
+    ]
+  },
+  {
+    "page_id": "P030",
+    "url": "https://web.archive.org/web/20210126122206/https://factcheck.afp.com/australian-officials-dismiss-hoax-report-coronavirus-exposure-doctors-surgery-new-south-wales-town",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-07",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P030"
+      }
+    ]
+  },
+  {
+    "page_id": "P031",
+    "url": "https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428",
+    "host": "www.abc.net.au",
+    "occurrences": [
+      {
+        "case_id": "W1-07",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P031"
+      },
+      {
+        "case_id": "W1-07",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P031"
+      }
+    ]
+  },
+  {
+    "page_id": "P032",
+    "url": "https://web.archive.org/web/20230316183549/https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-07",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P032"
+      },
+      {
+        "case_id": "W1-07",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P032"
+      }
+    ]
+  },
+  {
+    "page_id": "P033",
+    "url": "https://web.archive.org/web/20210119120854/https://www.health.nsw.gov.au/news/Pages/20200125_03.aspx",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-07",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P033"
+      },
+      {
+        "case_id": "W1-07",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[2].answers[0].cached_source_url",
+        "page_id": "P033"
+      }
+    ]
+  },
+  {
+    "page_id": "P034",
+    "url": "https://www.washingtonpost.com/politics/2019/12/20/transcript-december-democratic-debate/",
+    "host": "www.washingtonpost.com",
+    "occurrences": [
+      {
+        "case_id": "W1-08",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P034"
+      }
+    ]
+  },
+  {
+    "page_id": "P035",
+    "url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/2019/12/factchecking-the-december-democratic-debate/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-08",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P035"
+      }
+    ]
+  },
+  {
+    "page_id": "P036",
+    "url": "https://web.archive.org/web/20210424230922/https://www.factcheck.org/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-08",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P036"
+      },
+      {
+        "case_id": "W1-08",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P036"
+      },
+      {
+        "case_id": "W1-08",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P036"
+      },
+      {
+        "case_id": "W1-08",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P036"
+      }
+    ]
+  },
+  {
+    "page_id": "P037",
+    "url": "https://www.theepochtimes.com/female-army-sergeant-repels-ambush-kills-3-becomes-first-woman-to-earn-silver-star-since-wwii_3164385.html",
+    "host": "www.theepochtimes.com",
+    "occurrences": [
+      {
+        "case_id": "W1-09",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P037"
+      }
+    ]
+  },
+  {
+    "page_id": "P038",
+    "url": "https://web.archive.org/web/20230602143520/https://www.theepochtimes.com/female-army-sergeant-repels-ambush-kills-3-becomes-first-woman-to-earn-silver-star-since-wwii_3164385.html",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-09",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P038"
+      }
+    ]
+  },
+  {
+    "page_id": "P039",
+    "url": "https://web.archive.org/web/20210104203739/https://leadstories.com/hoax-alert/2020/03/Fact-Check-Female-Army-Sergeant-Who-Repelled-Ambush-Was-NOT-Only-Woman-To-Earn-Silver-Star-Since-WWII.html",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-09",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P039"
+      }
+    ]
+  },
+  {
+    "page_id": "P040",
+    "url": "https://web.archive.org/web/20201229200109/https://checkyourfact.com/2019/06/04/fact-check-joseph-stalin-healthy-body-patriotism-morality-spiritual-life-collapse/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-10",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P040"
+      }
+    ]
+  },
+  {
+    "page_id": "P041",
+    "url": "https://web.archive.org/web/20210419013822/https://www.marxists.org/reference/archive/stalin/search.htm",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-10",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P041"
+      },
+      {
+        "case_id": "W1-10",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P041"
+      }
+    ]
+  },
+  {
+    "page_id": "P042",
+    "url": "https://web.archive.org/web/20210624155424/https://radaronline.com/videos/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "original",
+        "dataset_locator": "original_claim_url",
+        "page_id": "P042"
+      },
+      {
+        "case_id": "W1-11",
+        "role": "original_archive",
+        "dataset_locator": "cached_original_claim_url",
+        "page_id": "P042"
+      }
+    ]
+  },
+  {
+    "page_id": "P043",
+    "url": "https://web.archive.org/web/20210624155349/https://www.politifact.com/factchecks/2020/aug/03/viral-image/blake-griffin-and-ex-fiancee-say-he-doesnt-pay-258/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P043"
+      }
+    ]
+  },
+  {
+    "page_id": "P044",
+    "url": "https://www.tmz.com/2018/02/14/blake-griffin-dumped-brynn-cameron-wedding-prenup/",
+    "host": "www.tmz.com",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence",
+        "dataset_locator": "questions[0].answers[0].source_url",
+        "page_id": "P044"
+      }
+    ]
+  },
+  {
+    "page_id": "P045",
+    "url": "https://web.archive.org/web/20230607144742/https://www.tmz.com/2018/02/14/blake-griffin-dumped-brynn-cameron-wedding-prenup/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[0].answers[0].cached_source_url",
+        "page_id": "P045"
+      }
+    ]
+  },
+  {
+    "page_id": "P046",
+    "url": "https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court",
+    "host": "www.si.com",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P046"
+      },
+      {
+        "case_id": "W1-11",
+        "role": "evidence",
+        "dataset_locator": "questions[3].answers[0].source_url",
+        "page_id": "P046"
+      }
+    ]
+  },
+  {
+    "page_id": "P047",
+    "url": "https://web.archive.org/web/20230607144825/https://www.si.com/nba/2018/08/02/blake-griffin-child-support-payments-detroit-pistons-los-angeles-court",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P047"
+      },
+      {
+        "case_id": "W1-11",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[3].answers[0].cached_source_url",
+        "page_id": "P047"
+      }
+    ]
+  },
+  {
+    "page_id": "P048",
+    "url": "https://radaronline.com/exclusives/2018/08/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/",
+    "host": "radaronline.com",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence",
+        "dataset_locator": "questions[2].answers[0].source_url",
+        "page_id": "P048"
+      }
+    ]
+  },
+  {
+    "page_id": "P049",
+    "url": "https://web.archive.org/web/20230607144857/https://radaronline.com/exclusives/2018/08/kendall-jenner-ex-blake-griffin-ordered-pay-baby-mama-258k-a-month-child-support/",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-11",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[2].answers[0].cached_source_url",
+        "page_id": "P049"
+      }
+    ]
+  },
+  {
+    "page_id": "P050",
+    "url": "https://web.archive.org/web/20210302051737/https://africacheck.org/fact-checks/reports/better-life-all-fact-checking-ancs-2019-election-manifesto",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-12",
+        "role": "reference",
+        "dataset_locator": "fact_checking_article",
+        "page_id": "P050"
+      }
+    ]
+  },
+  {
+    "page_id": "P051",
+    "url": "https://web.archive.org/web/20210413110818/http://www.treasury.gov.za/documents/national%20budget/2018/review/Annexure%20D.pdf#page=1",
+    "host": "web.archive.org",
+    "occurrences": [
+      {
+        "case_id": "W1-12",
+        "role": "evidence",
+        "dataset_locator": "questions[1].answers[0].source_url",
+        "page_id": "P051"
+      },
+      {
+        "case_id": "W1-12",
+        "role": "evidence_archive",
+        "dataset_locator": "questions[1].answers[0].cached_source_url",
+        "page_id": "P051"
+      }
+    ]
+  }
+]

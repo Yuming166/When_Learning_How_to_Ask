@@ -1,0 +1,125 @@
+{
+  "worlds": [
+    {
+      "world_id": "RelNeg-OWA-D3-699",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "world_id": "AttNeg-OWA-D3-529",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "world_id": "RelNeg-OWA-D3-1613",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        1,
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "world_id": "RelNeg-OWA-D3-1205",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 0,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "world_id": "AttNeg-OWA-D3-303",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        0,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "world_id": "RelNeg-OWA-D3-350",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 0,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "world_id": "AttNeg-OWA-D3-804",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "world_id": "AttNeg-OWA-D3-311",
+      "chosen_certificate_fact_overlap_pairs": 0,
+      "shared_rule_certificate_pairs": 1,
+      "all_supported_paths_fact_ancestor_overlap_pairs": [],
+      "directed_supported_rule_graph_reachability_pairs": [],
+      "target_depths": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        1
+      ]
+    }
+  ],
+  "scope": "Graph edges represent possible rule influence, not necessary dependence. One disjoint proof certificate per target does not rule out alternative shared proofs or related truths. No claim of independent target priors or iid errors."
+}

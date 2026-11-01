@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-01",
+  "scope": "runtime dependency paths only; no scientific policies, losses, likelihoods, splits, data, or results changed",
+  "changes": [
+    {
+      "path": "experiments/phase_t1_qwen4b_policy_20261031/t1/core.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 10,
+          "before": "Path(\"/home/gaoym/When_Learning_How_to_Ask\")",
+          "after": "(Path(__file__).resolve().parents[3])"
+        }
+      ],
+      "source_sha256": "a7b682c48bb25d7593af1fc5a2703741b04cac8b4d45624450b31e3e6c2b8cac",
+      "published_sha256": "84c856927a02c0ad8d6f1ec62fe5273e3f99e7da97e8ee87aedabe8293afa7f2"
+    },
+    {
+      "path": "experiments/phase_t2_structure_allocator_20261031/t2/bootstrap.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 6,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_phase2e/experiments')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments')"
+        },
+        {
+          "line": 7,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t1/experiments/phase_t1_qwen4b_policy_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/phase_t1_qwen4b_policy_20261031')"
+        }
+      ],
+      "source_sha256": "0b386f9a679c887256d00828d32b43ba3ac03f546bb7ffc666b043d0dd4c63f3",
+      "published_sha256": "49de5c2bcdccbd211fa3cbbae9c0e1254a74b14d83cac06f1c51fb9d190b12f8"
+    },
+    {
+      "path": "experiments/phase_t2_structure_allocator_v02_20261031/t2/bootstrap.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 6,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_phase2e/experiments')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments')"
+        },
+        {
+          "line": 7,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t1/experiments/phase_t1_qwen4b_policy_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/phase_t1_qwen4b_policy_20261031')"
+        }
+      ],
+      "source_sha256": "0b386f9a679c887256d00828d32b43ba3ac03f546bb7ffc666b043d0dd4c63f3",
+      "published_sha256": "49de5c2bcdccbd211fa3cbbae9c0e1254a74b14d83cac06f1c51fb9d190b12f8"
+    },
+    {
+      "path": "experiments/phase_t2b_failure_hybrid_20261031/t2b/attribution.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 19,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/phase_t2_structure_allocator_v02_20261031')"
+        }
+      ],
+      "source_sha256": "a58b71b5596d7f69ae7174970607dff53608a2aa6f63e3ee087c0976bfb19002",
+      "published_sha256": "6158e87c6980de938c3a61cd0011071aa9c68e995c02b8a82000acdf87463766"
+    },
+    {
+      "path": "experiments/phase_t2b_failure_hybrid_20261031/t2b/bootstrap.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 6,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/phase_t2_structure_allocator_v02_20261031')"
+        },
+        {
+          "line": 7,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t1a/experiments/training_t1a_solver_gate_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/training_t1a_solver_gate_20261031')"
+        },
+        {
+          "line": 8,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t1b/experiments/training_t1b_planning_value_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/training_t1b_planning_value_20261031')"
+        }
+      ],
+      "source_sha256": "c59f472bd09f31fcd13191a2da4cb25598b417667c761311356b889786cb8085",
+      "published_sha256": "783e2226a8dde9cfd32c926d3924aa80f5a1d0ce101795b78f678d69fda67a4f"
+    },
+    {
+      "path": "experiments/phase_t2b_failure_hybrid_20261031/t2b/reuse.py",
+      "kind": "replace original workstation dependency locations with repository-relative paths",
+      "edits": [
+        {
+          "line": 17,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t2/experiments/phase_t2_structure_allocator_v02_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/phase_t2_structure_allocator_v02_20261031')"
+        },
+        {
+          "line": 18,
+          "before": "Path('/home/gaoym/When_Learning_How_to_Ask_training_t1a/experiments/training_t1a_solver_gate_20261031')",
+          "after": "(Path(__file__).resolve().parents[3] / 'experiments/training_t1a_solver_gate_20261031')"
+        }
+      ],
+      "source_sha256": "43d296c344cb68a43a6ec3793c9f3e5db281d2590f798fe0b5b311620435c0d4",
+      "published_sha256": "3316aae2ab18ba4ddddc1af80cbf722c3963c6c16b595b4f8f1e8e0cd9b1cf7f"
+    }
+  ]
+}

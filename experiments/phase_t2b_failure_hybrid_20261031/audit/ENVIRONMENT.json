@@ -1,0 +1,14 @@
+{
+  "python_executable": "/storage/gaoym/wcl_v100_venv/bin/python",
+  "python_version": "3.13.13",
+  "numpy_version": "2.3.3",
+  "scipy_version": "1.18.1",
+  "torch_version": "2.6.0+cu124",
+  "cpu_affinity_count": 56,
+  "CUDA_VISIBLE_DEVICES": "",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "MKL_NUM_THREADS": "1",
+  "policy": "CPU only, two single-thread workers; no service use",
+  "recorded_unix_time": 1793435762.6700275
+}

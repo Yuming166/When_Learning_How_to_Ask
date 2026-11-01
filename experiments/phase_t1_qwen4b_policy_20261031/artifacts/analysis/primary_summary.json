@@ -1,0 +1,4482 @@
+[
+  {
+    "split": "eval_id",
+    "method": "NativeAligned",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1914,
+      "type": 134,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 216,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 16.04240549588576,
+      "mean": 2.00530068698572,
+      "observed_mean": 2.00530068698572
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 16.048865057998,
+      "mean": 2.00610813224975,
+      "observed_mean": 2.00610813224975
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 16.562535958364606,
+      "mean": 2.0703169947955757,
+      "observed_mean": 2.0703169947955757
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 16.3333725589996,
+      "mean": 2.04167156987495,
+      "observed_mean": 2.04167156987495
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "NativeAligned",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3787,
+      "type": 309,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 320,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 23.721472195815295,
+      "mean": 2.965184024476912,
+      "observed_mean": 2.965184024476912
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 23.730817703997218,
+      "mean": 2.9663522129996522,
+      "observed_mean": 2.9663522129996522
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 24.474886589683592,
+      "mean": 3.059360823710449,
+      "observed_mean": 3.059360823710449
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 24.248678672000096,
+      "mean": 3.031084834000012,
+      "observed_mean": 3.031084834000012
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "AlignedBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1914,
+      "type": 134,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.213922135066241,
+      "mean": 0.15174026688328013,
+      "observed_mean": 0.15174026688328013
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.2145136550000188,
+      "mean": 0.15181420687500236,
+      "observed_mean": 0.15181420687500236
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.4127996903844178,
+      "mean": 0.17659996129805222,
+      "observed_mean": 0.17659996129805222
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.41334208999956,
+      "mean": 0.176667761249945,
+      "observed_mean": 0.176667761249945
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "AlignedBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3843,
+      "type": 253,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.38980648573488,
+      "mean": 0.29872581071686,
+      "observed_mean": 0.29872581071686
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.3908645440001237,
+      "mean": 0.29885806800001546,
+      "observed_mean": 0.29885806800001546
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.7938240272924304,
+      "mean": 0.3492280034115538,
+      "observed_mean": 0.3492280034115538
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.794951440999739,
+      "mean": 0.3493689301249674,
+      "observed_mean": 0.3493689301249674
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "DNoTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 2048,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0053483122028410435,
+      "mean": 0.0006685390253551304,
+      "observed_mean": 0.0006685390253551304
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0053395319998799096,
+      "mean": 0.0006674414999849887,
+      "observed_mean": 0.0006674414999849887
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20384369837120175,
+      "mean": 0.02548046229640022,
+      "observed_mean": 0.02548046229640022
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20411976999980652,
+      "mean": 0.025514971249975815,
+      "observed_mean": 0.025514971249975815
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "DNoTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 4096,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010686347261071205,
+      "mean": 0.0013357934076339006,
+      "observed_mean": 0.0013357934076339006
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01066786699993827,
+      "mean": 0.0013334833749922836,
+      "observed_mean": 0.0013334833749922836
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.41498022712767124,
+      "mean": 0.051872528390958905,
+      "observed_mean": 0.051872528390958905
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4152913699999772,
+      "mean": 0.05191142124999715,
+      "observed_mean": 0.05191142124999715
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "DTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1503,
+      "type": 545,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.006196524947881699,
+      "mean": 0.0007745656184852123,
+      "observed_mean": 0.0007745656184852123
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0061895929998172505,
+      "mean": 0.0007736991249771563,
+      "observed_mean": 0.0007736991249771563
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20328819612041116,
+      "mean": 0.025411024515051395,
+      "observed_mean": 0.025411024515051395
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20327153099947282,
+      "mean": 0.025408941374934102,
+      "observed_mean": 0.025408941374934102
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "DTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3150,
+      "type": 946,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01234666584059596,
+      "mean": 0.001543333230074495,
+      "observed_mean": 0.001543333230074495
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.012332360999607772,
+      "mean": 0.0015415451249509715,
+      "observed_mean": 0.0015415451249509715
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4095925376750529,
+      "mean": 0.05119906720938161,
+      "observed_mean": 0.05119906720938161
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.40970531499988283,
+      "mean": 0.051213164374985354,
+      "observed_mean": 0.051213164374985354
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "MLP",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1903,
+      "type": 145,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.00988578051328659,
+      "mean": 0.0012357225641608238,
+      "observed_mean": 0.0012357225641608238
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.009875783999632404,
+      "mean": 0.0012344729999540505,
+      "observed_mean": 0.0012344729999540505
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20760800829157233,
+      "mean": 0.02595100103644654,
+      "observed_mean": 0.02595100103644654
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20768961199996738,
+      "mean": 0.025961201499995923,
+      "observed_mean": 0.025961201499995923
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "MLP",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3834,
+      "type": 262,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.018451989628374577,
+      "mean": 0.002306498703546822,
+      "observed_mean": 0.002306498703546822
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.018431658999588763,
+      "mean": 0.0023039573749485953,
+      "observed_mean": 0.0023039573749485953
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.42031867522746325,
+      "mean": 0.052539834403432906,
+      "observed_mean": 0.052539834403432906
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.42035329700001967,
+      "mean": 0.05254416212500246,
+      "observed_mean": 0.05254416212500246
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "BaseQwen",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1744,
+      "type": 304,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 16,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 57.93154193740338,
+      "mean": 7.241442742175423,
+      "observed_mean": 7.241442742175423
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 57.954739088000224,
+      "mean": 7.244342386000028,
+      "observed_mean": 7.244342386000028
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 58.1330624287948,
+      "mean": 7.26663280359935,
+      "observed_mean": 7.26663280359935
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 58.15545214299982,
+      "mean": 7.2694315178749775,
+      "observed_mean": 7.2694315178749775
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5528.0,
+      "mean": 691.0,
+      "observed_mean": 691.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 568.0,
+      "mean": 71.0,
+      "observed_mean": 71.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "BaseQwen",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3472,
+      "type": 624,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 32,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 120.9729018569924,
+      "mean": 15.12161273212405,
+      "observed_mean": 15.12161273212405
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 121.02211983700067,
+      "mean": 15.127764979625084,
+      "observed_mean": 15.127764979625084
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 121.37746513728052,
+      "mean": 15.172183142160065,
+      "observed_mean": 15.172183142160065
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 121.42597878400034,
+      "mean": 15.178247348000042,
+      "observed_mean": 15.178247348000042
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11226.0,
+      "mean": 1403.25,
+      "observed_mean": 1403.25
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1187.0,
+      "mean": 148.375,
+      "observed_mean": 148.375
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "LoRA",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1850,
+      "type": 198,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 7,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.58057187637314,
+      "mean": 11.197571484546643,
+      "observed_mean": 11.197571484546643
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.61828597200042,
+      "mean": 11.202285746500053,
+      "observed_mean": 11.202285746500053
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.78233655029908,
+      "mean": 11.222792068787385,
+      "observed_mean": 11.222792068787385
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.81970926399981,
+      "mean": 11.227463657999976,
+      "observed_mean": 11.227463657999976
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5518.0,
+      "mean": 689.75,
+      "observed_mean": 689.75
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 456.0,
+      "mean": 57.0,
+      "observed_mean": 57.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_id",
+    "method": "LoRA",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3686,
+      "type": 410,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 13,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 179.2312594805844,
+      "mean": 22.40390743507305,
+      "observed_mean": 22.40390743507305
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 179.30850515000043,
+      "mean": 22.413563143750054,
+      "observed_mean": 22.413563143750054
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 179.6366265900433,
+      "mean": 22.454578323755413,
+      "observed_mean": 22.454578323755413
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 179.71334984500004,
+      "mean": 22.464168730625005,
+      "observed_mean": 22.464168730625005
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11164.0,
+      "mean": 1395.5,
+      "observed_mean": 1395.5
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 912.0,
+      "mean": 114.0,
+      "observed_mean": 114.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "NativeAligned",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1910,
+      "type": 138,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 216,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 15.183626641519368,
+      "mean": 1.897953330189921,
+      "observed_mean": 1.897953330189921
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 15.189750582999523,
+      "mean": 1.8987188228749403,
+      "observed_mean": 1.8987188228749403
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 15.462405896745622,
+      "mean": 1.9328007370932028,
+      "observed_mean": 1.9328007370932028
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 15.468566873999862,
+      "mean": 1.9335708592499827,
+      "observed_mean": 1.9335708592499827
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "NativeAligned",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3821,
+      "type": 275,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 320,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 22.49499488901347,
+      "mean": 2.8118743611266837,
+      "observed_mean": 2.8118743611266837
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 22.504645101997994,
+      "mean": 2.8130806377497493,
+      "observed_mean": 2.8130806377497493
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 23.004502688534558,
+      "mean": 2.8755628360668197,
+      "observed_mean": 2.8755628360668197
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 23.0142007999998,
+      "mean": 2.876775099999975,
+      "observed_mean": 2.876775099999975
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "AlignedBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1978,
+      "type": 70,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.1791964480653405,
+      "mean": 0.14739955600816756,
+      "observed_mean": 0.14739955600816756
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.1795474529997136,
+      "mean": 0.1474434316249642,
+      "observed_mean": 0.1474434316249642
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.3765336880460382,
+      "mean": 0.17206671100575477,
+      "observed_mean": 0.17206671100575477
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1.37692522500015,
+      "mean": 0.17211565312501875,
+      "observed_mean": 0.17211565312501875
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "AlignedBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3921,
+      "type": 175,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.251083415467292,
+      "mean": 0.2813854269334115,
+      "observed_mean": 0.2813854269334115
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.252004480999858,
+      "mean": 0.28150056012498226,
+      "observed_mean": 0.28150056012498226
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.6563273333013058,
+      "mean": 0.3320409166626632,
+      "observed_mean": 0.3320409166626632
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.6572702510002273,
+      "mean": 0.3321587813750284,
+      "observed_mean": 0.3321587813750284
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "DNoTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 2048,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.005284593440592289,
+      "mean": 0.0006605741800740361,
+      "observed_mean": 0.0006605741800740361
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.005274353000459087,
+      "mean": 0.0006592941250573858,
+      "observed_mean": 0.0006592941250573858
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19931701058521867,
+      "mean": 0.024914626323152333,
+      "observed_mean": 0.024914626323152333
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19930861700004243,
+      "mean": 0.024913577125005304,
+      "observed_mean": 0.024913577125005304
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "DNoTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 4096,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010401529259979725,
+      "mean": 0.0013001911574974656,
+      "observed_mean": 0.0013001911574974656
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010382294000692127,
+      "mean": 0.001297786750086516,
+      "observed_mean": 0.001297786750086516
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.6495591686107218,
+      "mean": 0.08119489607634023,
+      "observed_mean": 0.08119489607634023
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.6497965690002729,
+      "mean": 0.08122457112503412,
+      "observed_mean": 0.08122457112503412
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "DTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1482,
+      "type": 566,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.006097252015024424,
+      "mean": 0.000762156501878053,
+      "observed_mean": 0.000762156501878053
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0061344420003024425,
+      "mean": 0.0007668052500378053,
+      "observed_mean": 0.0007668052500378053
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19947263225913048,
+      "mean": 0.02493407903239131,
+      "observed_mean": 0.02493407903239131
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19962146500006384,
+      "mean": 0.02495268312500798,
+      "observed_mean": 0.02495268312500798
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "DTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3269,
+      "type": 827,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.012129344046115875,
+      "mean": 0.0015161680057644844,
+      "observed_mean": 0.0015161680057644844
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01215902400053892,
+      "mean": 0.001519878000067365,
+      "observed_mean": 0.001519878000067365
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4033521506935358,
+      "mean": 0.050419018836691976,
+      "observed_mean": 0.050419018836691976
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.40350024400026996,
+      "mean": 0.050437530500033745,
+      "observed_mean": 0.050437530500033745
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "MLP",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1887,
+      "type": 161,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.009727620519697666,
+      "mean": 0.0012159525649622083,
+      "observed_mean": 0.0012159525649622083
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.00971690600022157,
+      "mean": 0.0012146132500276963,
+      "observed_mean": 0.0012146132500276963
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.2037146002985537,
+      "mean": 0.025464325037319213,
+      "observed_mean": 0.025464325037319213
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20376885899963781,
+      "mean": 0.025471107374954727,
+      "observed_mean": 0.025471107374954727
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "MLP",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3796,
+      "type": 300,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01834487123414874,
+      "mean": 0.0022931089042685926,
+      "observed_mean": 0.0022931089042685926
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.018324510000411465,
+      "mean": 0.002290563750051433,
+      "observed_mean": 0.002290563750051433
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4156984551809728,
+      "mean": 0.0519623068976216,
+      "observed_mean": 0.0519623068976216
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4160035309998875,
+      "mean": 0.05200044137498594,
+      "observed_mean": 0.05200044137498594
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "BaseQwen",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1744,
+      "type": 304,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 16,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 60.124439927749336,
+      "mean": 7.515554990968667,
+      "observed_mean": 7.515554990968667
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 60.14694690899978,
+      "mean": 7.5183683636249725,
+      "observed_mean": 7.5183683636249725
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 60.322988610714674,
+      "mean": 7.540373576339334,
+      "observed_mean": 7.540373576339334
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 60.34557711399998,
+      "mean": 7.5431971392499975,
+      "observed_mean": 7.5431971392499975
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5524.0,
+      "mean": 690.5,
+      "observed_mean": 690.5
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 593.0,
+      "mean": 74.125,
+      "observed_mean": 74.125
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "BaseQwen",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3472,
+      "type": 624,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 32,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 120.79545361595228,
+      "mean": 15.099431701994035,
+      "observed_mean": 15.099431701994035
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 120.841930993,
+      "mean": 15.105241374125,
+      "observed_mean": 15.105241374125
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 121.19687791261822,
+      "mean": 15.149609739077277,
+      "observed_mean": 15.149609739077277
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 121.2435264459998,
+      "mean": 15.155440805749976,
+      "observed_mean": 15.155440805749976
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11224.0,
+      "mean": 1403.0,
+      "observed_mean": 1403.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1191.0,
+      "mean": 148.875,
+      "observed_mean": 148.875
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "LoRA",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1865,
+      "type": 183,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 6,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.29031838104129,
+      "mean": 11.161289797630161,
+      "observed_mean": 11.161289797630161
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.3266357619998,
+      "mean": 11.165829470249975,
+      "observed_mean": 11.165829470249975
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.48981217294931,
+      "mean": 11.186226521618664,
+      "observed_mean": 11.186226521618664
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 89.5261554079998,
+      "mean": 11.190769425999974,
+      "observed_mean": 11.190769425999974
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5525.0,
+      "mean": 690.625,
+      "observed_mean": 690.625
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 456.0,
+      "mean": 57.0,
+      "observed_mean": 57.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_parameters",
+    "method": "LoRA",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3699,
+      "type": 397,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 12,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 178.49224240053445,
+      "mean": 22.311530300066806,
+      "observed_mean": 22.311530300066806
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 178.56295661999957,
+      "mean": 22.320369577499946,
+      "observed_mean": 22.320369577499946
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 178.89481541421264,
+      "mean": 22.36185192677658,
+      "observed_mean": 22.36185192677658
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 178.96553638599994,
+      "mean": 22.370692048249992,
+      "observed_mean": 22.370692048249992
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11172.0,
+      "mean": 1396.5,
+      "observed_mean": 1396.5
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 912.0,
+      "mean": 114.0,
+      "observed_mean": 114.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "NativeAligned",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1792,
+      "type": 256,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 216,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 25.19364040112123,
+      "mean": 3.1492050501401536,
+      "observed_mean": 3.1492050501401536
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 25.20080489499992,
+      "mean": 3.15010061187499,
+      "observed_mean": 3.15010061187499
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 25.476509081199765,
+      "mean": 3.1845636351499707,
+      "observed_mean": 3.1845636351499707
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 25.483355521999556,
+      "mean": 3.1854194402499445,
+      "observed_mean": 3.1854194402499445
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "NativeAligned",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3534,
+      "type": 562,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 320,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 37.45244817761704,
+      "mean": 4.68155602220213,
+      "observed_mean": 4.68155602220213
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 37.46372635099988,
+      "mean": 4.682965793874985,
+      "observed_mean": 4.682965793874985
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 37.96968673262745,
+      "mean": 4.746210841578431,
+      "observed_mean": 4.746210841578431
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 37.98067033600023,
+      "mean": 4.747583792000029,
+      "observed_mean": 4.747583792000029
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "AlignedBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1763,
+      "type": 285,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.0167583362199366,
+      "mean": 0.2520947920274921,
+      "observed_mean": 0.2520947920274921
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.017510062999918,
+      "mean": 0.25218875787498973,
+      "observed_mean": 0.25218875787498973
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.216599644161761,
+      "mean": 0.2770749555202201,
+      "observed_mean": 0.2770749555202201
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2.2173298789998626,
+      "mean": 0.2771662348749828,
+      "observed_mean": 0.2771662348749828
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "AlignedBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3463,
+      "type": 633,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 3.9178090766072273,
+      "mean": 0.4897261345759034,
+      "observed_mean": 0.4897261345759034
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 3.9191101289998187,
+      "mean": 0.48988876612497734,
+      "observed_mean": 0.48988876612497734
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4.319979778956622,
+      "mean": 0.5399974723695777,
+      "observed_mean": 0.5399974723695777
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4.321294218000276,
+      "mean": 0.5401617772500344,
+      "observed_mean": 0.5401617772500344
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "DNoTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 2048,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0054499302059412,
+      "mean": 0.00068124127574265,
+      "observed_mean": 0.00068124127574265
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0054404729996804235,
+      "mean": 0.0006800591249600529,
+      "observed_mean": 0.0006800591249600529
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20093782804906368,
+      "mean": 0.02511722850613296,
+      "observed_mean": 0.02511722850613296
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20099720100051854,
+      "mean": 0.025124650125064818,
+      "observed_mean": 0.025124650125064818
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "DNoTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 4096,
+      "type": 0,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010845825541764498,
+      "mean": 0.0013557281927205622,
+      "observed_mean": 0.0013557281927205622
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010827184000390844,
+      "mean": 0.0013533980000488555,
+      "observed_mean": 0.0013533980000488555
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.40611246367916465,
+      "mean": 0.05076405795989558,
+      "observed_mean": 0.05076405795989558
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4062610889998268,
+      "mean": 0.05078263612497835,
+      "observed_mean": 0.05078263612497835
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "DTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1158,
+      "type": 890,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0065845618955791,
+      "mean": 0.0008230702369473875,
+      "observed_mean": 0.0008230702369473875
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.006578433999266053,
+      "mean": 0.0008223042499082567,
+      "observed_mean": 0.0008223042499082567
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19961377698928118,
+      "mean": 0.024951722123660147,
+      "observed_mean": 0.024951722123660147
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.19957779000014852,
+      "mean": 0.024947223750018566,
+      "observed_mean": 0.024947223750018566
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "DTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 2798,
+      "type": 1298,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01314252894371748,
+      "mean": 0.001642816117964685,
+      "observed_mean": 0.001642816117964685
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.013130532999866773,
+      "mean": 0.0016413166249833466,
+      "observed_mean": 0.0016413166249833466
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.41297749849036336,
+      "mean": 0.05162218731129542,
+      "observed_mean": 0.05162218731129542
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.41286812499993175,
+      "mean": 0.05160851562499147,
+      "observed_mean": 0.05160851562499147
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "MLP",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1743,
+      "type": 305,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.010149684268981218,
+      "mean": 0.0012687105336226523,
+      "observed_mean": 0.0012687105336226523
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01013928099973782,
+      "mean": 0.0012674101249672276,
+      "observed_mean": 0.0012674101249672276
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20570785831660032,
+      "mean": 0.02571348228957504,
+      "observed_mean": 0.02571348228957504
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.20572618199980752,
+      "mean": 0.02571577274997594,
+      "observed_mean": 0.02571577274997594
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "MLP",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3388,
+      "type": 708,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.01880876114591956,
+      "mean": 0.002351095143239945,
+      "observed_mean": 0.002351095143239945
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.018787858999530727,
+      "mean": 0.002348482374941341,
+      "observed_mean": 0.002348482374941341
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.41584900952875614,
+      "mean": 0.05198112619109452,
+      "observed_mean": 0.05198112619109452
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.4158190579996699,
+      "mean": 0.05197738224995874,
+      "observed_mean": 0.05197738224995874
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "BaseQwen",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1664,
+      "type": 384,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 16,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 57.84156698035076,
+      "mean": 7.230195872543845,
+      "observed_mean": 7.230195872543845
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 57.86121641300065,
+      "mean": 7.232652051625081,
+      "observed_mean": 7.232652051625081
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 58.042566339019686,
+      "mean": 7.255320792377461,
+      "observed_mean": 7.255320792377461
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 58.06199590499932,
+      "mean": 7.257749488124915,
+      "observed_mean": 7.257749488124915
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5588.0,
+      "mean": 698.5,
+      "observed_mean": 698.5
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 569.0,
+      "mean": 71.125,
+      "observed_mean": 71.125
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "BaseQwen",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3296,
+      "type": 800,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 32,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 119.83500251872465,
+      "mean": 14.979375314840581,
+      "observed_mean": 14.979375314840581
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 119.87528241100017,
+      "mean": 14.984410301375021,
+      "observed_mean": 14.984410301375021
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 120.2378512788564,
+      "mean": 15.02973140985705,
+      "observed_mean": 15.02973140985705
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 120.27759178400015,
+      "mean": 15.034698973000019,
+      "observed_mean": 15.034698973000019
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11357.0,
+      "mean": 1419.625,
+      "observed_mean": 1419.625
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 1182.0,
+      "mean": 147.75,
+      "observed_mean": 147.75
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "LoRA",
+    "budget": 256,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 1989,
+      "type": 59,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 2560.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 2,
+    "inference_calls_observed": 16,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 88.23663151916116,
+      "mean": 11.029578939895146,
+      "observed_mean": 11.029578939895146
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 88.26476963300024,
+      "mean": 11.03309620412503,
+      "observed_mean": 11.03309620412503
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 88.43954730778933,
+      "mean": 11.054943413473666,
+      "observed_mean": 11.054943413473666
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 88.4678410060003,
+      "mean": 11.058480125750037,
+      "observed_mean": 11.058480125750037
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 5579.0,
+      "mean": 697.375,
+      "observed_mean": 697.375
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 450.0,
+      "mean": 56.25,
+      "observed_mean": 56.25
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "eval_ood_partition",
+    "method": "LoRA",
+    "budget": 512,
+    "requested_worlds": 8,
+    "recorded_paths": 8,
+    "failed_paths": 0,
+    "observed_readouts": 8,
+    "missing_readouts": 0,
+    "exact_recovered": 8,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 3982,
+      "type": 114,
+      "offline": 512
+    },
+    "total_acquisition": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 4608.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 4,
+    "inference_calls_observed": 32,
+    "inference_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 176.41460434207693,
+      "mean": 22.051825542759616,
+      "observed_mean": 22.051825542759616
+    },
+    "inference_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 176.47030280000058,
+      "mean": 22.058787850000073,
+      "observed_mean": 22.058787850000073
+    },
+    "elapsed_wall_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 176.82065223017707,
+      "mean": 22.102581528772134,
+      "observed_mean": 22.102581528772134
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 176.8765466880002,
+      "mean": 22.109568336000024,
+      "observed_mean": 22.109568336000024
+    },
+    "prompt_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 11278.0,
+      "mean": 1409.75,
+      "observed_mean": 1409.75
+    },
+    "output_tokens": {
+      "requested": 8,
+      "observed": 8,
+      "missing_or_undefined": 0,
+      "sum": 900.0,
+      "mean": 112.5,
+      "observed_mean": 112.5
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "NativeAligned",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 5616,
+      "type": 528,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 648,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 56.419672538526356,
+      "mean": 2.350819689105265,
+      "observed_mean": 2.350819689105265
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 56.43942053599744,
+      "mean": 2.351642522333227,
+      "observed_mean": 2.351642522333227
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 57.50145093630999,
+      "mean": 2.3958937890129164,
+      "observed_mean": 2.3958937890129164
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 57.28529495499902,
+      "mean": 2.3868872897916256,
+      "observed_mean": 2.3868872897916256
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "NativeAligned",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 11142,
+      "type": 1146,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 960,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 83.66891526244581,
+      "mean": 3.486204802601909,
+      "observed_mean": 3.486204802601909
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 83.69918915699509,
+      "mean": 3.4874662148747952,
+      "observed_mean": 3.4874662148747952
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 85.4490760108456,
+      "mean": 3.5603781671185666,
+      "observed_mean": 3.5603781671185666
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 85.24354980800013,
+      "mean": 3.5518145753333386,
+      "observed_mean": 3.5518145753333386
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "AlignedBlock128",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 5655,
+      "type": 489,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 4.409876919351518,
+      "mean": 0.1837448716396466,
+      "observed_mean": 0.1837448716396466
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 4.41157117099965,
+      "mean": 0.18381546545831876,
+      "observed_mean": 0.18381546545831876
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 5.005933022592217,
+      "mean": 0.20858054260800904,
+      "observed_mean": 0.20858054260800904
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 5.0075971939995725,
+      "mean": 0.20864988308331553,
+      "observed_mean": 0.20864988308331553
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "AlignedBlock128",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 11227,
+      "type": 1061,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 8.5586989778094,
+      "mean": 0.356612457408725,
+      "observed_mean": 0.356612457408725
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 8.5619791539998,
+      "mean": 0.35674913141665837,
+      "observed_mean": 0.35674913141665837
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 9.770131139550358,
+      "mean": 0.4070887974812649,
+      "observed_mean": 0.4070887974812649
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 9.773515910000242,
+      "mean": 0.4072298295833434,
+      "observed_mean": 0.4072298295833434
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "DNoTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 6144,
+      "type": 0,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.016082835849374533,
+      "mean": 0.0006701181603906056,
+      "observed_mean": 0.0006701181603906056
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.01605435800001942,
+      "mean": 0.0006689315833341425,
+      "observed_mean": 0.0006689315833341425
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6040985370054841,
+      "mean": 0.025170772375228505,
+      "observed_mean": 0.025170772375228505
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6044255880003675,
+      "mean": 0.025184399500015314,
+      "observed_mean": 0.025184399500015314
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "DNoTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 12288,
+      "type": 0,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.03193370206281543,
+      "mean": 0.001330570919283976,
+      "observed_mean": 0.001330570919283976
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.03187734500102124,
+      "mean": 0.001328222708375885,
+      "observed_mean": 0.001328222708375885
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.4706518594175577,
+      "mean": 0.0612771608090649,
+      "observed_mean": 0.0612771608090649
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.471349028000077,
+      "mean": 0.061306209500003206,
+      "observed_mean": 0.061306209500003206
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "DTypeBlock128",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 4143,
+      "type": 2001,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.018878338858485222,
+      "mean": 0.0007865974524368843,
+      "observed_mean": 0.0007865974524368843
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.018902468999385746,
+      "mean": 0.0007876028749744061,
+      "observed_mean": 0.0007876028749744061
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6023746053688228,
+      "mean": 0.025098941890367616,
+      "observed_mean": 0.025098941890367616
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6024707859996852,
+      "mean": 0.025102949416653548,
+      "observed_mean": 0.025102949416653548
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "DTypeBlock128",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 9217,
+      "type": 3071,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.037618538830429316,
+      "mean": 0.0015674391179345548,
+      "observed_mean": 0.0015674391179345548
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.037621918000013466,
+      "mean": 0.0015675799166672277,
+      "observed_mean": 0.0015675799166672277
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.225922186858952,
+      "mean": 0.051080091119123004,
+      "observed_mean": 0.051080091119123004
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.2260736840000845,
+      "mean": 0.05108640350000352,
+      "observed_mean": 0.05108640350000352
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "MLP",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 5533,
+      "type": 611,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.029763085301965475,
+      "mean": 0.0012401285542485614,
+      "observed_mean": 0.0012401285542485614
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.029731970999591795,
+      "mean": 0.0012388321249829914,
+      "observed_mean": 0.0012388321249829914
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6170304669067264,
+      "mean": 0.025709602787780266,
+      "observed_mean": 0.025709602787780266
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.6171846529994127,
+      "mean": 0.025716027208308862,
+      "observed_mean": 0.025716027208308862
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "MLP",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 11018,
+      "type": 1270,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 0,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.05560562200844288,
+      "mean": 0.002316900917018453,
+      "observed_mean": 0.002316900917018453
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.055544027999530954,
+      "mean": 0.0023143344999804563,
+      "observed_mean": 0.0023143344999804563
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.2518661399371922,
+      "mean": 0.05216108916404968,
+      "observed_mean": 0.05216108916404968
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1.252175885999577,
+      "mean": 0.052173995249982376,
+      "observed_mean": 0.052173995249982376
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 0.0,
+      "mean": 0.0,
+      "observed_mean": 0.0
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "BaseQwen",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 5152,
+      "type": 992,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 48,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 175.89754884550348,
+      "mean": 7.329064535229311,
+      "observed_mean": 7.329064535229311
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 175.96290241000065,
+      "mean": 7.3317876004166935,
+      "observed_mean": 7.3317876004166935
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 176.49861737852916,
+      "mean": 7.354109057438715,
+      "observed_mean": 7.354109057438715
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 176.56302516199912,
+      "mean": 7.356792715083297,
+      "observed_mean": 7.356792715083297
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 16640.0,
+      "mean": 693.3333333333334,
+      "observed_mean": 693.3333333333334
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1730.0,
+      "mean": 72.08333333333333,
+      "observed_mean": 72.08333333333333
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "BaseQwen",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 10240,
+      "type": 2048,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 96,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 361.6033579916693,
+      "mean": 15.066806582986223,
+      "observed_mean": 15.066806582986223
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 361.73933324100085,
+      "mean": 15.072472218375035,
+      "observed_mean": 15.072472218375035
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 362.81219432875514,
+      "mean": 15.11717476369813,
+      "observed_mean": 15.11717476369813
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 362.9470970140003,
+      "mean": 15.122795708916678,
+      "observed_mean": 15.122795708916678
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 33807.0,
+      "mean": 1408.625,
+      "observed_mean": 1408.625
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 3560.0,
+      "mean": 148.33333333333334,
+      "observed_mean": 148.33333333333334
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "LoRA",
+    "budget": 256,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 5704,
+      "type": 440,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 7680.0,
+      "mean": 320.0,
+      "observed_mean": 320.0
+    },
+    "invalid_fallbacks": 15,
+    "inference_calls_observed": 48,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 267.1075217765756,
+      "mean": 11.129480074023983,
+      "observed_mean": 11.129480074023983
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 267.20969136700046,
+      "mean": 11.133737140291686,
+      "observed_mean": 11.133737140291686
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 267.7116960310377,
+      "mean": 11.154654001293238,
+      "observed_mean": 11.154654001293238
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 267.8137056779999,
+      "mean": 11.158904403249997,
+      "observed_mean": 11.158904403249997
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 16622.0,
+      "mean": 692.5833333333334,
+      "observed_mean": 692.5833333333334
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 1362.0,
+      "mean": 56.75,
+      "observed_mean": 56.75
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  },
+  {
+    "split": "all_24_worlds",
+    "method": "LoRA",
+    "budget": 512,
+    "requested_worlds": 24,
+    "recorded_paths": 24,
+    "failed_paths": 0,
+    "observed_readouts": 24,
+    "missing_readouts": 0,
+    "exact_recovered": 24,
+    "exact_recovery": 1.0,
+    "recovery_identification_bounds": [
+      1.0,
+      1.0
+    ],
+    "costs_observed_sum": {
+      "task": 11367,
+      "type": 921,
+      "offline": 1536
+    },
+    "total_acquisition": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 13824.0,
+      "mean": 576.0,
+      "observed_mean": 576.0
+    },
+    "invalid_fallbacks": 29,
+    "inference_calls_observed": 96,
+    "inference_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 534.1381062231958,
+      "mean": 22.25575442596649,
+      "observed_mean": 22.25575442596649
+    },
+    "inference_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 534.3417645700006,
+      "mean": 22.26424019041669,
+      "observed_mean": 22.26424019041669
+    },
+    "elapsed_wall_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 535.352094234433,
+      "mean": 22.306337259768043,
+      "observed_mean": 22.306337259768043
+    },
+    "elapsed_cpu_seconds": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 535.5554329190002,
+      "mean": 22.31480970495834,
+      "observed_mean": 22.31480970495834
+    },
+    "prompt_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 33614.0,
+      "mean": 1400.5833333333333,
+      "observed_mean": 1400.5833333333333
+    },
+    "output_tokens": {
+      "requested": 24,
+      "observed": 24,
+      "missing_or_undefined": 0,
+      "sum": 2724.0,
+      "mean": 113.5,
+      "observed_mean": 113.5
+    },
+    "scope": "uncertified fixed-budget guesses under public cap2048"
+  }
+]

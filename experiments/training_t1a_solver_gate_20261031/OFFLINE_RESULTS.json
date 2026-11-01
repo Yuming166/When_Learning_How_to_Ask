@@ -1,0 +1,120 @@
+{
+  "states": 23,
+  "historical_worlds": 8,
+  "repeats": 3,
+  "updates": 483,
+  "grid_solves": 56,
+  "grid_cpu": 3.8191460349999997,
+  "grid_load_cpu": 0.0007408129999992852,
+  "fixture_cases": 8,
+  "fixture_evaluations": 56,
+  "seconds": 32.29149711690843,
+  "arms": {
+    "Teacher": {
+      "mean_cpu": 0.06561924910144942,
+      "median_cpu": 0.024159417999999988,
+      "max_group_mass_l1": 0.0,
+      "max_abs_objective_relative_change": 0.0,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 0.0,
+      "first_pass_stats": {
+        "calls": 23
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.522640879327079e-05
+    },
+    "ExactCache": {
+      "mean_cpu": 0.06587380030434789,
+      "median_cpu": 0.024229204000000948,
+      "max_group_mass_l1": 0.0,
+      "max_abs_objective_relative_change": 0.0,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 0.0,
+      "first_pass_stats": {
+        "calls": 23
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.522640879327079e-05
+    },
+    "QuantizedCache": {
+      "mean_cpu": 0.06899211392753614,
+      "median_cpu": 0.03831286800000022,
+      "max_group_mass_l1": 0.0,
+      "max_abs_objective_relative_change": 0.0,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 0.0,
+      "first_pass_stats": {
+        "calls": 23,
+        "fallback": 23,
+        "hits": 6,
+        "guard_reject": 6
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.522640879327079e-05
+    },
+    "Interpolation": {
+      "mean_cpu": 0.07172138221739131,
+      "median_cpu": 0.03220054499999847,
+      "max_group_mass_l1": 0.0,
+      "max_abs_objective_relative_change": 0.0,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 0.0,
+      "first_pass_stats": {
+        "calls": 23,
+        "hits": 23,
+        "guard_reject": 23,
+        "fallback": 23
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.522640879327079e-05
+    },
+    "RadialReuse": {
+      "mean_cpu": 0.02419489850724667,
+      "median_cpu": 0.017760236000000873,
+      "max_group_mass_l1": 1.700029006457271e-16,
+      "max_abs_objective_relative_change": 1.2656542480726785e-14,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 2.220446049250313e-16,
+      "first_pass_stats": {
+        "calls": 23
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.52264087997583e-05
+    },
+    "AnalyticReuse": {
+      "mean_cpu": 0.014917969115942148,
+      "median_cpu": 0.015375434999999271,
+      "max_group_mass_l1": 8.673617379884035e-16,
+      "max_abs_objective_relative_change": 1.2656542480726785e-14,
+      "minimum_information": 1.000000001,
+      "max_information_disagreement": 2.220446049250313e-16,
+      "first_pass_stats": {
+        "calls": 23
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 0.0,
+      "maximum_objective_gap_to_teacher_lower": 9.522640879956749e-05
+    },
+    "WarmStart": {
+      "mean_cpu": 0.013557941536232049,
+      "median_cpu": 0.013349425000001247,
+      "max_group_mass_l1": 0.004660894556881224,
+      "max_abs_objective_relative_change": 6.278715087293385e-05,
+      "minimum_information": 1.0000000010000005,
+      "max_information_disagreement": 2.220446049250313e-16,
+      "first_pass_stats": {
+        "calls": 23,
+        "warm_calls": 19
+      },
+      "maximum_deficit": 0.0,
+      "maximum_deficit_at_teacher_K": 6.204808620169366e-05,
+      "maximum_objective_gap_to_teacher_lower": 9.657611030192546e-05
+    }
+  },
+  "closed_loop_eligible": true
+}

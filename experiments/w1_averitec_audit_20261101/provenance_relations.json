@@ -1,0 +1,267 @@
+[
+  {
+    "case_id": "W1-01",
+    "annotation_source": "reviews_01_04.json",
+    "type": "NON_URL_SENTINEL",
+    "page_ids": [
+      "P002"
+    ],
+    "basis": "源 URL 和 cached URL 字段重复 Metadata，不是两个来源。"
+  },
+  {
+    "case_id": "W1-02",
+    "annotation_source": "reviews_01_04.json",
+    "type": "ARCHIVE_CURRENT_SAME_NOMINATED_PAGE",
+    "page_ids": [
+      "P005",
+      "P006"
+    ],
+    "basis": "相同司法 PDF 的现 URL 与 archive wrapper；不是两份独立报告。"
+  },
+  {
+    "case_id": "W1-02",
+    "annotation_source": "reviews_01_04.json",
+    "type": "ARCHIVE_CURRENT_SAME_NOMINATED_PAGE",
+    "page_ids": [
+      "P007",
+      "P008"
+    ],
+    "basis": "同一通用计算器首页，未获得保存的具体运算。"
+  },
+  {
+    "case_id": "W1-02",
+    "annotation_source": "reviews_01_04.json",
+    "type": "COMPOSITION_NOT_MULTIPLE_FULL_CLAIM_REPORTS",
+    "page_ids": [
+      "P004",
+      "P005",
+      "P007"
+    ],
+    "basis": "数据集将人口、法官人数、计算器分列；即使都可访问也不是三个独立断言同一完整声明的来源。"
+  },
+  {
+    "case_id": "W1-03",
+    "annotation_source": "reviews_01_04.json",
+    "type": "EXPLICIT_REFERENCE_ATTRIBUTION",
+    "page_ids": [
+      "P010",
+      "P013"
+    ],
+    "basis": "browser_01_04/P010.json L67-L72：AFP 将支持性论据归因于 bioRxiv 研究；论文自身未成功读取。"
+  },
+  {
+    "case_id": "W1-03",
+    "annotation_source": "reviews_01_04.json",
+    "type": "URL_REUSE",
+    "page_ids": [
+      "P011",
+      "P012"
+    ],
+    "basis": "两条问题答案重复相同 Wisconsin 页面/归档，不能计作不同证据。"
+  },
+  {
+    "case_id": "W1-03",
+    "annotation_source": "reviews_01_04.json",
+    "type": "REDIRECT_TARGET_CHANGED",
+    "page_ids": [
+      "P011"
+    ],
+    "basis": "access_log.jsonl 记录 Wisconsin URL 重定向至 CDC 后 403，不是读到 2020/2023 年 Wisconsin 原文。"
+  },
+  {
+    "case_id": "W1-04",
+    "annotation_source": "reviews_01_04.json",
+    "type": "REFERENCE_REPORTS_DERIVATION",
+    "page_ids": [
+      "P014",
+      "P016",
+      "P019"
+    ],
+    "basis": "P016 L62,L67-L68 说原错误帖子链接 Mumbai Mirror 新闻并误把停测说成封闭。P014 正文链接未直接读取，故这种依赖只被参考文章报道，非亲自验证。"
+  },
+  {
+    "case_id": "W1-04",
+    "annotation_source": "reviews_01_04.json",
+    "type": "ARCHIVE_TARGET_MISMATCH",
+    "page_ids": [
+      "P015"
+    ],
+    "basis": "cached original URL 是 Facebook login?next=...；不能认为已缓存原帖正文。"
+  },
+  {
+    "case_id": "W1-04",
+    "annotation_source": "reviews_01_04.json",
+    "type": "NOT_A_SPECIFIC_TWEET",
+    "page_ids": [
+      "P017",
+      "P018"
+    ],
+    "basis": "source_url 指向 hashtag 聚合页；cached_source_url 指向 Twitter login。两者都不是数据集摘录否认文本的稳定具体帖子。"
+  },
+  {
+    "case_id": "W1-04",
+    "annotation_source": "reviews_01_04.json",
+    "type": "URL_REUSE",
+    "page_ids": [
+      "P019",
+      "P020"
+    ],
+    "basis": "数据集 questions[1] 和 questions[2] 引用同一 Mumbai Mirror 文章，归档与现页同源。"
+  },
+  {
+    "case_id": "W1-05",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "SHARED_NAMED_UPSTREAM",
+    "members": [
+      "P021",
+      "P022"
+    ],
+    "upstream": "U.S. Travel Association / Tourism Economics",
+    "evidence": "P022 lines 53,64-72 explicitly connect the televised statement and the same commissioned study family.",
+    "independence": "NOT_ESTABLISHED"
+  },
+  {
+    "case_id": "W1-05",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "ANSWER_TEXT_MATCHES_REFERENCE_NOT_NOMINATED_EVIDENCE",
+    "members": [
+      "P022",
+      "P023"
+    ],
+    "evidence": "Dataset questions[0].answers[0].answer matches the reference ruling P022 lines 90-92; nominated WPR source has a different annual statistic.",
+    "independence": "NOT_APPLICABLE"
+  },
+  {
+    "case_id": "W1-05",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "CURRENT_ARCHIVE_PAIR",
+    "members": [
+      "P023",
+      "P024"
+    ],
+    "independence": "SAME_NOMINATED_PAGE"
+  },
+  {
+    "case_id": "W1-06",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "REFERENCE_LINKS_PRIMARY_PUBLICATION",
+    "members": [
+      "P026",
+      "P028"
+    ],
+    "evidence": "Reference P026 line 18 links the nominated McSweeney's article as the parody source.",
+    "independence": "EXPLICIT_DEPENDENCE"
+  },
+  {
+    "case_id": "W1-06",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "MISATTRIBUTED_COPY_DESCRIBED_BY_REFERENCE",
+    "members": [
+      "P025",
+      "P028"
+    ],
+    "evidence": "P026 describes Facebook reproduction of the parody, but P025 itself is inaccessible; copying link remains secondhand, not directly text-verified.",
+    "independence": "UNVERIFIED_EDGE"
+  },
+  {
+    "case_id": "W1-07",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "COMMON_HEALTH_AUTHORITY_UPSTREAM",
+    "members": [
+      "P030",
+      "P031",
+      "P033"
+    ],
+    "evidence": "AFP cites the January 25 NSW release; ABC attributes NSW case counts to NSW Health. Source domains do not establish independent observations.",
+    "independence": "DEPENDENCE_FOR_CASE_COUNTS"
+  },
+  {
+    "case_id": "W1-07",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "CURRENT_ARCHIVE_PAIR_REPEATED_QA_URL",
+    "members": [
+      "P031",
+      "P032"
+    ],
+    "evidence": "Identical URL pair is reused by two QA entries.",
+    "independence": "SAME_NOMINATED_PAGE"
+  },
+  {
+    "case_id": "W1-08",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "REFERENCE_LINKS_ORIGINAL_TRANSCRIPT",
+    "members": [
+      "P034",
+      "P035"
+    ],
+    "evidence": "P035 line 24 links the debate transcript; these are not independent readings of separate underlying polls.",
+    "independence": "DEPENDENT_FOR_SPEAKER_QUOTE"
+  },
+  {
+    "case_id": "W1-08",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "SHARED_PUBLISHER_NOT_SAME_ARTICLE",
+    "members": [
+      "P035",
+      "P036"
+    ],
+    "evidence": "Same host, different paths; homepage cannot inherit the specific article stance.",
+    "independence": "NOT_INDEPENDENT_EVIDENCE"
+  },
+  {
+    "case_id": "W1-08",
+    "annotation_source": "reviews_05_08.json",
+    "relation": "NAMED_UNFETCHED_PRIMARY_POLL",
+    "members": [
+      "P035"
+    ],
+    "upstream": "Pew Research Center 2018 survey",
+    "evidence": "P035 lines 70-72; linked poll not opened within W1 scope.",
+    "independence": "UNKNOWN_NOT_AUDITED"
+  },
+  {
+    "case_id": "W1-09",
+    "annotation_source": "reviews_09_12.json",
+    "from": "P039",
+    "to": "P037",
+    "relation": "reference_explicitly_quotes_original",
+    "locator": "browser_09_12/references.json; Lead Stories L14-25",
+    "independence": "not_independent_for_quoted_claim"
+  },
+  {
+    "case_id": "W1-11",
+    "annotation_source": "reviews_09_12.json",
+    "from": "P046",
+    "to": "P048",
+    "relation": "explicit_attribution",
+    "locator": "browser_09_12/sources1.json; SI L82",
+    "independence": "shared_upstream_for_original_report"
+  },
+  {
+    "case_id": "W1-11",
+    "annotation_source": "reviews_09_12.json",
+    "from": "P042",
+    "to": "P048",
+    "relation": "same_article_two_paths",
+    "locator": "browser_09_12/sources1.json and sources2.json; matching headline, byline, body and denial",
+    "independence": "not_independent"
+  },
+  {
+    "case_id": "W1-11",
+    "annotation_source": "reviews_09_12.json",
+    "from": "P043",
+    "to": "P042",
+    "relation": "reference_cites_original_report",
+    "locator": "browser_09_12/references.json; PolitiFact L55,70",
+    "independence": "not_independent_for_original_report"
+  },
+  {
+    "case_id": "W1-11",
+    "annotation_source": "reviews_09_12.json",
+    "from": "P046",
+    "to": "P043",
+    "relation": "both_rely_on_parties_joint_denial",
+    "locator": "SI L83; PolitiFact L56",
+    "independence": "common_testimony_not_two_independent_measurements"
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "verified_unix_time": 1793373288.2132168,
+  "decision": "GO_NUMERICAL_AND_BOUNDED_DEVELOPMENT_ONLY",
+  "own_tests": 21,
+  "all_own_tests_passed": true,
+  "main_batch": {
+    "trajectories": 792,
+    "fixed_budget_trajectories": 528,
+    "fixed_budget_snapshots": 3696,
+    "fixed_confidence_trajectories": 264,
+    "online_actions": 286544,
+    "task_actions": 283825,
+    "type_actions": 2719,
+    "offline_observations": 26208,
+    "in_model_confidence_n": 240,
+    "in_model_completed": 209,
+    "in_model_censored": 31,
+    "in_model_wrong_certificates": 0,
+    "out_of_model_confidence_n": 24,
+    "out_of_model_completed": 21,
+    "out_of_model_censored": 3,
+    "out_of_model_wrong_certificates": 13,
+    "planner_seconds": 118.83264775108546,
+    "endpoint_decode_seconds": 191.3862549723126,
+    "glr_seconds": 10.362945245578885,
+    "tracking_estimator_updates": 1148,
+    "model_calls": 0,
+    "new_confirmation_episodes": 0,
+    "actual_wall_seconds": 400.95296326000243,
+    "development_only": true,
+    "asymptotic_convergence_established": false,
+    "tracking_original_achievability_proof_verified": false,
+    "rigorous_interval_glr_certification": false
+  },
+  "independent_math_evidence": {
+    "continuous_inner_checks": 240,
+    "full_alternative_checks": 660,
+    "independent_small_coefficients": 7,
+    "continuous_glr_state_fits": 1344
+  },
+  "independent_postrun_public_analysis_pass": true,
+  "validation": {
+    "source_config_protocol_unchanged": true,
+    "audit_hashes_unchanged": true,
+    "sealed_seed_unchanged": true,
+    "historical": [
+      {
+        "experiment": "phase01_20261030",
+        "files_verified": 47,
+        "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+      },
+      {
+        "experiment": "phase1b_userbench_audit_20261030",
+        "files_verified": 15,
+        "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+      },
+      {
+        "experiment": "phase1c_identifiability_20261030",
+        "files_verified": 69,
+        "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+      },
+      {
+        "experiment": "qrelbench_v01_20261030",
+        "files_verified": 45,
+        "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+      }
+    ],
+    "historical_files_verified": 176,
+    "all_planned_trajectories_accounted_for": true,
+    "trajectories": 792,
+    "fixed_budget_snapshots": 3696,
+    "costs": {
+      "task": 283825,
+      "type": 2719,
+      "offline": 26208
+    },
+    "all_cost_denominators_valid": true,
+    "exact_replays": [
+      {
+        "policy": "Round-Robin",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Repeat-and-Compare",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Explore-Then-Commit",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Direct Type Query",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Oracle Format",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Information Tracking",
+        "protocol": "fixed_budget",
+        "online": 256,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Oracle Format",
+        "protocol": "fixed_confidence",
+        "online": 384,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      },
+      {
+        "policy": "Information Tracking",
+        "protocol": "fixed_confidence",
+        "online": 800,
+        "exact_record_match_excluding_timing": true,
+        "transcript_sha256_match": true
+      }
+    ],
+    "replay_costs": {
+      "task": 2674,
+      "type": 46,
+      "offline": 0
+    },
+    "model_calls": 0,
+    "confirmation_episodes": 0,
+    "scope": "integrity and exact replay only, not independent scientific confirmation"
+  },
+  "historical_artifacts_verified": 176,
+  "figures_visually_inspected": [
+    "phase_map",
+    "budget_curves",
+    "confidence_curves",
+    "rate_coverage"
+  ],
+  "total_acquisition_main": 312752,
+  "recorded_existing_replay_online": 2720,
+  "preflight_and_audit_probes": "separate bounded technical fixtures; excluded from main study denominators",
+  "private_seed_not_printed": true,
+  "no_new_confirmation": true,
+  "no_training_or_model_calls": true,
+  "empirical_asymptotic_optimality_established": false,
+  "tracking_original_achievability_proof_verified": false,
+  "rigorous_float_glr_certificate": false,
+  "historical_experiment_comparison": "decoder and calibration changed; do not compare historical percentages directly",
+  "failure_history_preserved": [
+    "preflight_tests_3.log: omitted single-thread BLAS env; fail-closed bootstrap rejection",
+    "initial GLR tie-test failure documented in audit/GLR_AUDIT.md"
+  ],
+  "disclosure": "Separate same-family Codex reviewers, not external experts or cross-model theorem certification.",
+  "artifact_sha256": {
+    ".gitignore": "8d1d21a7207b009c62f44445afd22464267e7aeb953b329f61d3b298574f568a",
+    "PILOT_REPORT.md": "8e2444d6a0177907c5b9248ffcf47d487b88adf895d4974b2a443de28c06e410",
+    "PROTOCOL.md": "bae829e594a420f3f4d31037416e86c9404721fbc261f11f343c17bf52cfec8b",
+    "README.md": "99a5dcf8eae0786507677e6aac2fa8128758cb962516d1f94c9442f2c57df1cb",
+    "RESEARCH_DECISION_CN.md": "a76280e6398a707b2fbcff3e1a166bba06437e92820ed50f3111b71d9aacb906",
+    "RUNTIME.json": "8a8cc4a9ed54d1b7d10cffd942128f419ee281232c278cac3cb9a96a1f809999",
+    "THEORY_PHASE_MAP.md": "92d303ee7e7861ad00b0d089242f140398ba8a9aabcc00ada3e914239602dc89",
+    "VALIDATION.json": "5168ad86e7f447c982f3ec53a23a92823581c614a47ad9d05975fec38cb015bf",
+    "analysis_execution.log": "98afe782e82c1de14bc91a4bad53042e731ca9966fc87f8ade97a5ecf7f8c6ae",
+    "artifacts/analysis/budget.csv": "55af911edd79e0265fc9b164361570a3de22d19dd4584a28c0a3813444e37cc1",
+    "artifacts/analysis/budget.json": "691deeb32d7532fd3ea26b0e2ecefa2c2abc45b6221893fd396405b71d9a9ec1",
+    "artifacts/analysis/budget_curves.pdf": "48f543c8299406bccbf093acc3efc4ea962c83b85aaa76f10e2504ea89756414",
+    "artifacts/analysis/budget_curves.png": "bdbb091db18348d6e6a7d1b2ccd65793ac7c250d4d4b171e751a0e851dda4e86",
+    "artifacts/analysis/confidence.json": "bcc791bc24c2d1025a0408960337a7a433778302647aa5055b6fecfa4ef8aa3a",
+    "artifacts/analysis/confidence_coefficient_references.json": "da16a01a71b046162583f7e975fb91858edcf1cb3711e673792447aa9b0903f5",
+    "artifacts/analysis/confidence_curves.pdf": "5d5a088e539ca3ca4c7bfe208ec63007c8358918714e8dc477e22328756eb7ab",
+    "artifacts/analysis/confidence_curves.png": "67e493de91ae89e2079f27685aafcdbc54a5351608e683c50a2562def6607215",
+    "artifacts/analysis/facts.json": "98afe782e82c1de14bc91a4bad53042e731ca9966fc87f8ade97a5ecf7f8c6ae",
+    "artifacts/analysis/paired.json": "6dc5220801edd01ac41a85eeff17c8a1b1a4d6625b4c28aab9d3a720f938b29a",
+    "artifacts/analysis/rate_coverage.pdf": "b12f7d7e7fa32aa46bf15b4594206636ed667db1ffbd0c20a20f216f867e4ccb",
+    "artifacts/analysis/rate_coverage.png": "71e44f5808d0dd67b94d667a7c8e52af6ab71281aca24f371a89894aa2c6ed2e",
+    "artifacts/private/seed.json": "9762ca1a0fcccc23309e4e4191dd116b858522f78002d49dd87b359acb6e373e",
+    "artifacts/run/execution.json": "024ec70df20e3ab8bce51c66ca4457c92eeae90fd475a7ac5c60aeef4891fd07",
+    "artifacts/run/private/reproduction.jsonl": "49d352e790a709c789e5b3d939cea46695e4c891f8fde4974b326a1dd2350c26",
+    "artifacts/run/snapshots.jsonl": "8defa2b0132f6d94731bcaa55316c16b8ee41debe3e2205427260b58f7a075d2",
+    "artifacts/run/started.json": "faacabda352230166c43f91bf4a8bea8200e4a226591ac4e66f4861214369e3e",
+    "artifacts/run/trajectories.jsonl": "11fda7dc3f9270236ab4c04cd15673cec195545033c131fb850c309ee69d38d1",
+    "artifacts/theory/phase_map.json": "e84ddf202c6ff1635c9dd9951cd148abea1aad0c9e61fa09c2bbb4ea5605310d",
+    "artifacts/theory/phase_map.pdf": "5ca420a1b2143899d1a89f3f98cac52e5c1575ce6f2ecf2be3bd194088576db0",
+    "artifacts/theory/phase_map.png": "0f81b74c20b13321e806496033dee9e0c314d826e5e209d35f62a284228738ec",
+    "audit/COEFFICIENT_REVIEW.md": "11a1a5d866ca7ba626fafcc4db45161b0dd957d9cd70d7996a16ca4328982bf2",
+    "audit/EXECUTION_REVIEW.md": "5e888482388820ebacd19ca97b5123a50aed7e66c54fc0495701b494f8bc5127",
+    "audit/GLR_AUDIT.md": "d9d2bf6e58670b4a462adfadb7d1295c57c3ae93da0d019a837d5e71598c8daf",
+    "audit/HISTORY_PRESERVATION_BEFORE.json": "cf8518e9b3f570d08eb1f06b4ef1e7f1f6eaf5dd705ce8e6b0d378f50f579481",
+    "audit/POSTRUN_REVIEW.md": "ea4b59017c0535dd9bb02d40a4f845d7b061062ea8b2470c0096d912e0530f76",
+    "audit/glr_checks.py": "e9d7e2dd33b61ca17320871de999796c26cdcdb429c4e383e09702068a6f10ef",
+    "audit/independent_coefficients.py": "c44df7646670bdb61b95d64bc1a8aa2e85b4f692371a97df753575dba02baa06",
+    "audit/independent_policy_checks.py": "efaee8228b3c885acdb4dff52911ca9eee924fa0d725290cf868b44802c88d4c",
+    "config.json": "3bcfa08d9fcffcd790b889345687550394f43b0db792a1f7ac7bf1db972d4c24",
+    "freeze.json": "d95bcb0dc8263e7fc74d5529c0803e94a999d26db76a95da2e03b243f0c4b368",
+    "phase2a/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "phase2a/analyze.py": "de3f7367129562d7641b7851c2c7410868b795e3385e2dacec1ed52f632262ca",
+    "phase2a/bootstrap.py": "21bc25d7c0c22c40605a9df0a858602fb78084588900b2d5cb2d865ff2060881",
+    "phase2a/coefficients.py": "a31bf8eb268d99ab4cc28da09955d14082c229c87fc216400b5d3f9600e5253f",
+    "phase2a/glr.py": "7ed182834957d09546e855468fc14082d894bb54308f3ef728d591d1e4a330f6",
+    "phase2a/integrity.py": "ee7120e91b54620b65bd1a6e7407cff0fbb435108893237bea641e08e95c01e5",
+    "phase2a/phase_map.py": "2e1a799286b63ad8c3edceecdcc7cb092a9bd4b7e450d7d0ba90c179c2241d57",
+    "phase2a/policy.py": "68d75f51a71ee90f7ffc19b11e82f19563b5280533ab3bbae1fda6d70ce90a91",
+    "phase2a/runner.py": "cfc3eafa11fe1d7e0c927733ef54f00554fddbcd9f734c032fe8ea0d2aee3f3a",
+    "phase2a/tracking.py": "d44b33df07fe80d517ea0488c570a8bf8cfa09ed16285baefd6a447a7d297474",
+    "pilot_execution.log": "ccc57a75f4d0abf1f39579694a66e7e9bfbc28c9788ad20810eb3ce712684255",
+    "preflight_tests_1.log": "982b0f880cdc808a61c10f888d4ba55590556a8f6f60419589c4dd4cace3e0bb",
+    "preflight_tests_2.log": "587c8c43f4a10c11260aaf3065e66efb6f152523a7b7cd0cf8481c39dd0188ec",
+    "preflight_tests_3.log": "dc12b223dc308426babacbc4512e6f7bfa38fb6cdf3b8442247b36c25b836f8b",
+    "preflight_tests_4.log": "dc07e08be99eefde921e1e2e85c05e96d0888d17f75af2b323e0d0a56a96d889",
+    "tests/test_analysis.py": "c6959124e02beb7c90411c3a5cde0c3dc36f9f222c342c08120c96a117919d43",
+    "tests/test_coefficients_tracking.py": "e7f6689d43f815feb2d68d50ee2ffe815986992f79e17fbafd358ff440587efe",
+    "tests/test_glr.py": "e12f9f3e86a973d5e1708deeb3a1005a42c26c0d184a5a5c3c9fcae34c0fec00",
+    "tests/test_integration.py": "9c8ab303141657d96231c6d3d14eb4e34dff159ff4d8922271a1e83ab1f3e8f8",
+    "theory_execution.log": "0b95d6a538c9cb46c2766a26840fb0aac929b3d2662708dccba402d26b38ff2f",
+    "validation_execution.log": "5168ad86e7f447c982f3ec53a23a92823581c614a47ad9d05975fec38cb015bf"
+  }
+}

@@ -1,0 +1,494 @@
+[
+  {
+    "case_id": "W1-01",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P001"
+  },
+  {
+    "case_id": "W1-01",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-01",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P003"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P004"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P004"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P005"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P006"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P007"
+  },
+  {
+    "case_id": "W1-02",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[2].answers[0].cached_source_url",
+    "page_id": "P008"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P009"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P009"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P010"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P011"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P012"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P011"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P012"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[1].source_url",
+    "page_id": "P013"
+  },
+  {
+    "case_id": "W1-03",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[1].cached_source_url",
+    "page_id": "P013"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P014"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P015"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P016"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P017"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P018"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P019"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P020"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P019"
+  },
+  {
+    "case_id": "W1-04",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[2].answers[0].cached_source_url",
+    "page_id": "P020"
+  },
+  {
+    "case_id": "W1-05",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P021"
+  },
+  {
+    "case_id": "W1-05",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P021"
+  },
+  {
+    "case_id": "W1-05",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P022"
+  },
+  {
+    "case_id": "W1-05",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P023"
+  },
+  {
+    "case_id": "W1-05",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P024"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P025"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P025"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P026"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P027"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P027"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P028"
+  },
+  {
+    "case_id": "W1-06",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P028"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P029"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P029"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P030"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P031"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P032"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P031"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P032"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P033"
+  },
+  {
+    "case_id": "W1-07",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[2].answers[0].cached_source_url",
+    "page_id": "P033"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P034"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P035"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P036"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P036"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P036"
+  },
+  {
+    "case_id": "W1-08",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P036"
+  },
+  {
+    "case_id": "W1-09",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P037"
+  },
+  {
+    "case_id": "W1-09",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P038"
+  },
+  {
+    "case_id": "W1-09",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P039"
+  },
+  {
+    "case_id": "W1-09",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-09",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-10",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P040"
+  },
+  {
+    "case_id": "W1-10",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P041"
+  },
+  {
+    "case_id": "W1-10",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P041"
+  },
+  {
+    "case_id": "W1-10",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "original",
+    "dataset_locator": "original_claim_url",
+    "page_id": "P042"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "original_archive",
+    "dataset_locator": "cached_original_claim_url",
+    "page_id": "P042"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P043"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P044"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P045"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P046"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P047"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P048"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[2].answers[0].cached_source_url",
+    "page_id": "P049"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence",
+    "dataset_locator": "questions[3].answers[0].source_url",
+    "page_id": "P046"
+  },
+  {
+    "case_id": "W1-11",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[3].answers[0].cached_source_url",
+    "page_id": "P047"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "reference",
+    "dataset_locator": "fact_checking_article",
+    "page_id": "P050"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence",
+    "dataset_locator": "questions[0].answers[0].source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[0].answers[0].cached_source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence",
+    "dataset_locator": "questions[1].answers[0].source_url",
+    "page_id": "P051"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[1].answers[0].cached_source_url",
+    "page_id": "P051"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence",
+    "dataset_locator": "questions[2].answers[0].source_url",
+    "page_id": "P002"
+  },
+  {
+    "case_id": "W1-12",
+    "role": "evidence_archive",
+    "dataset_locator": "questions[2].answers[0].cached_source_url",
+    "page_id": "P002"
+  }
+]

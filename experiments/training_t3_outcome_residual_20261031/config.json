@@ -1,0 +1,160 @@
+{
+  "phase": "T3 bounded outcome-aligned residual training pilot",
+  "primary_budget": 32,
+  "secondary_budgets": [
+    16,
+    48,
+    64
+  ],
+  "parallel_processes": 4,
+  "training_seeds": [
+    7101,
+    7102,
+    7103
+  ],
+  "label_seed": 32017,
+  "rollouts_per_branch": 16,
+  "network": {
+    "epochs": 120,
+    "batch_size": 64,
+    "learning_rate": 0.002,
+    "l2": 0.0001,
+    "checkpoints": [
+      30,
+      60,
+      90,
+      120
+    ]
+  },
+  "limits": {
+    "stage_wall_seconds": 3600,
+    "max_independent_worlds": 264,
+    "max_training_fits": 9,
+    "max_actual_online_actions": 200000,
+    "max_rollout_continuation_steps": 1000000
+  },
+  "confirmation_authorized": false,
+  "llm_calls_authorized": false,
+  "GPU_authorized_or_needed": false,
+  "test_panels": [
+    {
+      "name": "ID",
+      "partitions": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "rates": [
+        [
+          0.85,
+          0.6
+        ],
+        [
+          0.75,
+          0.6
+        ]
+      ],
+      "alphas": [
+        0,
+        3
+      ],
+      "replicates": 4
+    },
+    {
+      "name": "OOD-rate",
+      "partitions": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "rates": [
+        [
+          0.72,
+          0.64
+        ],
+        [
+          0.9,
+          0.55
+        ]
+      ],
+      "alphas": [
+        0,
+        3
+      ],
+      "replicates": 4
+    },
+    {
+      "name": "OOD-partition",
+      "partitions": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "rates": [
+        [
+          0.85,
+          0.6
+        ],
+        [
+          0.75,
+          0.6
+        ]
+      ],
+      "alphas": [
+        0,
+        3
+      ],
+      "replicates": 6
+    },
+    {
+      "name": "OOD-calibration",
+      "partitions": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "rates": [
+        [
+          0.85,
+          0.6
+        ],
+        [
+          0.75,
+          0.6
+        ]
+      ],
+      "alphas": [
+        1
+      ],
+      "replicates": 8
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED_NOT_A_PHASE2_AGENT",
+  "model_calls_in_current_audit": 0,
+  "purpose": "Basic answerability, option-position bias and decoding-format diagnostics only",
+  "source_commit": "80506d2ab484cab843e60a2401ff3e0290d05b87",
+  "source_split": "TRAIN only; test model outcomes remain unobserved",
+  "sample_source": "Eight hash-selected construction previews; preserve every result",
+  "profiles": 8,
+  "items_per_profile": 1,
+  "query_formats": 2,
+  "option_orders": 2,
+  "independent_repetitions": 2,
+  "decoding_conditions": [
+    {
+      "name": "answer_only",
+      "model": "Qwen3.5-4B",
+      "backend": "existing offline Transformers checkpoint",
+      "enable_thinking": false,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_new_tokens": 128,
+      "output_contract": "Exactly one JSON object with answer equal to integer 0 or 1"
+    },
+    {
+      "name": "brief_reason",
+      "model": "Qwen3.5-4B",
+      "backend": "same checkpoint and backend",
+      "enable_thinking": false,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_new_tokens": 128,
+      "output_contract": "Exactly one JSON object with a brief reason and answer equal to integer 0 or 1"
+    }
+  ],
+  "task_generations": 128,
+  "direct_format_reports_primary_condition_only": 8,
+  "metadata_only_reports_primary_condition_only": 8,
+  "generation_cap": 144,
+  "concurrency": 1,
+  "retries": 0,
+  "fresh_context_per_response": true,
+  "truth_access": "Private profile is visible to the responding user simulator; labels/correctness/reliability are hidden from query selectors",
+  "reliability_optimisation": false,
+  "both_decoding_conditions_must_be_reported": true,
+  "limits": [
+    "No shared reliability inference from one item per profile",
+    "No human-behavior claim",
+    "No confirmation-set or unseen-cue claim",
+    "No paid API, 35B, training or full-agent run",
+    "Finalize seeds, serialization, parsing, manifests and technical stop rules before any generation"
+  ]
+}

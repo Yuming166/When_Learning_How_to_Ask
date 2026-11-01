@@ -1,0 +1,6 @@
+__pycache__/
+sources/
+run/
+*.log
+selected_worlds.jsonl
+data/

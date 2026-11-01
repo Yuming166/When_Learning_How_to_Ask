@@ -1,0 +1,2880 @@
+{
+  "status": "PROPOSED_METADATA_NOT_WORLDS",
+  "seeds_generated": 0,
+  "worlds_generated": 0,
+  "sampling_authorized": false,
+  "train_condition_slots": [
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    }
+  ],
+  "validation_condition_slots": [
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.65,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.65,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.6,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 0,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.9,
+      "q": 0.5,
+      "partition": [
+        4
+      ],
+      "alpha": 1,
+      "R": 64,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.7,
+      "q": 0.65,
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    },
+    {
+      "p": 0.8,
+      "q": 0.5,
+      "partition": [
+        1,
+        1
+      ],
+      "alpha": 1,
+      "R": 16,
+      "eta": 0.05,
+      "s": 0.8
+    }
+  ],
+  "development_condition_slots": [
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "ID",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "rate_interpolation",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.65,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.65,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.65,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.65,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "rate_extrapolation",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 3,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "grouping",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          2,
+          2
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 1,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          3
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          3
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          3
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "fact_count",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          3
+        ],
+        "alpha": 3,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 2,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 2,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 2,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 2,
+        "R": 16,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 6,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 6,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 6,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "calibration",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 6,
+        "R": 64,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.8,
+        "q": 0.6,
+        "partition": [
+          1,
+          3
+        ],
+        "alpha": 1,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 256,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 256,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 256,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "risk_budget",
+      "condition": {
+        "p": 0.9,
+        "q": 0.5,
+        "partition": [
+          4
+        ],
+        "alpha": 3,
+        "R": 256,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 6,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 6,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 6,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.85,
+        "q": 0.55,
+        "partition": [
+          1,
+          2
+        ],
+        "alpha": 6,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          3
+        ],
+        "alpha": 2,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 0
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          3
+        ],
+        "alpha": 2,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 1
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          3
+        ],
+        "alpha": 2,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 2
+    },
+    {
+      "stratum": "joint_shift",
+      "condition": {
+        "p": 0.94,
+        "q": 0.8,
+        "partition": [
+          3
+        ],
+        "alpha": 2,
+        "R": 128,
+        "eta": 0.05,
+        "s": 0.8
+      },
+      "condition_replicate_slot": 3
+    }
+  ],
+  "development_max_actions_11_arms": 1757184,
+  "all_stages_online_ceiling_from_roster": 1921024,
+  "note": "Same condition in two roles means independent future worlds; no role shares a latent world or potential response streams. Condition metadata is evaluator-only, never Student input."
+}

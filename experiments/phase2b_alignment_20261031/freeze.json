@@ -1,0 +1,64 @@
+{
+  "frozen_unix_time": 1793378192.5203574,
+  "files": {
+    "phase2b/__init__.py": "864525342ea24eb43904595f26a2aad937ef41a34f7658c498ac8e96062e0a4b",
+    "phase2b/aligned.py": "67bdf86cbd21a81bde81fde981b9c00308f35d2f911af766fbd28939ae5b4ab0",
+    "phase2b/analyze.py": "cc6908f48f64fc16dbd0217446ee2927188a8196156f4400a786177593c152c2",
+    "phase2b/bootstrap.py": "13d26affd870793e8e32579906551bc328fa55f95e5b6dae947f08cb4b0a034b",
+    "phase2b/integrity.py": "0d64e95258509477e6aa1323fd022325586d0b2084fd91a10300f8077ae0ffc8",
+    "phase2b/log_glr.py": "2e24081b34fa2b783b85fe5d6d73a3e52574e5466f0fe1eb88ca0513de1233ba",
+    "phase2b/policy.py": "ad1ffc3c65492b5ecd98e4689486a3516d5ea7563537f98f61ea3385dc89c22e",
+    "phase2b/runner.py": "21e95303ba9bb93d22a708be8c55a3bf487c99401f3c4289ff45090785062368",
+    "tests/test_aligned.py": "8299aafbccfbf22a130b9fff9b18b5dac16a9d7a22999f324f8d48fb45654e51",
+    "tests/test_analysis.py": "49b7f6b627e77f09c9d2abfe47625c79643860194b7bf8ba0428bc4cee9c3ce3",
+    "tests/test_integration.py": "4e74cecae0b1d6cc2e7aa9c1f1d619a173f548dbf0b11339738782b52d28c03c",
+    "tests/test_log_glr.py": "381a7657eccca995e0fe13b172d41f45ef11dabbaa8dd7d732de26052c51056d",
+    "config.json": "145a431b4672437d59c51e21ad6ac56d0a095ae34526546ffcb8c503433f864b",
+    "PROTOCOL.md": "77fbb9bc32d88370f7ab6d2f02ea9e31b53daf734c28b26fa90ee284ffb49e65"
+  },
+  "audits": {
+    "audit/ALIGNMENT_IMPLEMENTATION.md": "35373a955512e7b9f9c8f7b175ded9d0a1a079218ebd23767c5c036734401f17",
+    "audit/EXECUTION_ALIGNMENT_REVIEW.md": "46404ec6b6a7c59860f2d42503918aba6003990bf108c3bffa081d0d0a24ab1a",
+    "audit/HISTORY_PRESERVATION_BEFORE.json": "5307ef5975b97b791d9321fea01eacabe8753178c89a3a5040ebd06ecd44eee5",
+    "audit/PROOF_ADDENDUM_REVIEW.md": "5ca84ff48a6167416c701dff04bb459881353552151241d6fef7c6ba69844255",
+    "audit/THEOREM1_REVIEW.md": "ac80995ab40ab3638492d091eb78354606747bdbd4044ebc8900b7797411ebba",
+    "audit/execution_checks.py": "40e6a12b9a6c3c6675522a9739aad64a5c01fecdd4c3b8071508104428430897",
+    "PROOF_ADDENDUM.md": "60d6197e4fe6bb35f5a015d42eaf9394b09eb14c8a77a6076647b65b779eb5e6",
+    "ALIGNMENT_MATRIX.md": "364b64eec92952f5a985a3ba9b87e65b07444fe32d290e59a373194d40d311a7",
+    "RUNTIME.json": "bbed506e08ee754f1792f27551a871d64d56e60a6f3f96703572654107e6f8b2"
+  },
+  "dependencies": {
+    "v1": {
+      "qrelbench/__init__.py": "ffdd656d12cc785818eda76d7c39134b82b4393c4b71ea4826343083657a0cbe",
+      "qrelbench/analyze.py": "56638ba1236945f70d01287b895d8083eb15bb7059b562e4c66de8089889496b",
+      "qrelbench/data.py": "3a19293c307d7576d895d3a332e037b3f43dc0cf37db6db1f45255d1c472247e",
+      "qrelbench/decoder.py": "1aecbcf325ab66069bb31f075253f4bb8f13a3fad18d39e9a5494fbc7d14829e",
+      "qrelbench/environment.py": "8bb13e388b83cb2e0d85cdac80af73eca3a6229ba0fc17b61597b4b32c6e5c2c",
+      "qrelbench/evaluate.py": "ad482a692d7bcbbb1267cacf13c913f6481dff87b7f118d1ccefe76ccbf43ca6",
+      "qrelbench/policies.py": "ade516e5db0d54eb6414a9402ea2ec69e019b6eff1225ffcbf0e8260e8130fe1",
+      "qrelbench/randomness.py": "c83448bf784126519ed8f5df0164910409dc76a7a5dc84521e21c620a054d2be",
+      "qrelbench/rpc.py": "603ab85272d9a2da405efc2562643460288740538537f54edc0112bdac376fe9",
+      "qrelbench/security.py": "bf1a9763d91d4a38a118560dc34eeed22c45ebc49bff7662f0c3d03e86e79002"
+    },
+    "phase2a": {
+      "phase2a/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "phase2a/analyze.py": "de3f7367129562d7641b7851c2c7410868b795e3385e2dacec1ed52f632262ca",
+      "phase2a/bootstrap.py": "21bc25d7c0c22c40605a9df0a858602fb78084588900b2d5cb2d865ff2060881",
+      "phase2a/coefficients.py": "a31bf8eb268d99ab4cc28da09955d14082c229c87fc216400b5d3f9600e5253f",
+      "phase2a/glr.py": "7ed182834957d09546e855468fc14082d894bb54308f3ef728d591d1e4a330f6",
+      "phase2a/integrity.py": "ee7120e91b54620b65bd1a6e7407cff0fbb435108893237bea641e08e95c01e5",
+      "phase2a/phase_map.py": "2e1a799286b63ad8c3edceecdcc7cb092a9bd4b7e450d7d0ba90c179c2241d57",
+      "phase2a/policy.py": "68d75f51a71ee90f7ffc19b11e82f19563b5280533ab3bbae1fda6d70ce90a91",
+      "phase2a/runner.py": "cfc3eafa11fe1d7e0c927733ef54f00554fddbcd9f734c032fe8ea0d2aee3f3a",
+      "phase2a/tracking.py": "d44b33df07fe80d517ea0488c570a8bf8cfa09ed16285baefd6a447a7d297474"
+    }
+  },
+  "theory_sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+  "private_seed_commitment": "c6bdccad939244607b87788b4f4abf2e9b096891da6f23d7f8ca41d85edfce11",
+  "seed_generation": "fresh256bit secrets.token_hex(32), after gates; private bytes never printed",
+  "development_only": true,
+  "model_calls": 0,
+  "confirmation": false,
+  "preflight_tests": 15,
+  "mathematical_verdict": "conditional ideal-policy theorem; actual float program not exactly certified"
+}

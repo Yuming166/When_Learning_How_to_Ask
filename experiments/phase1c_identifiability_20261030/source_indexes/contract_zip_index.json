@@ -1,0 +1,46 @@
+{
+  "url": "https://raw.githubusercontent.com/stanfordnlp/contract-nli/gh-pages/resources/contract-nli.zip",
+  "size": 65362913,
+  "files": [
+    {
+      "name": "contract-nli/LICENSE",
+      "size": 18656,
+      "compressed": 5914,
+      "offset": 71,
+      "crc": 587777361,
+      "method": 8
+    },
+    {
+      "name": "contract-nli/test.json",
+      "size": 2260203,
+      "compressed": 501383,
+      "offset": 7683,
+      "crc": 1225301157,
+      "method": 8
+    },
+    {
+      "name": "contract-nli/dev.json",
+      "size": 1183107,
+      "compressed": 264329,
+      "offset": 509146,
+      "crc": 3915854428,
+      "method": 8
+    },
+    {
+      "name": "contract-nli/README.md",
+      "size": 5561,
+      "compressed": 2377,
+      "offset": 773554,
+      "crc": 3796854205,
+      "method": 8
+    },
+    {
+      "name": "contract-nli/train.json",
+      "size": 7608211,
+      "compressed": 1667134,
+      "offset": 776011,
+      "crc": 2005463566,
+      "method": 8
+    }
+  ]
+}

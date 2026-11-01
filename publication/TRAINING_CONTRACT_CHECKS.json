@@ -1,0 +1,19 @@
+{
+  "scope": "existing engineering fixtures, not new scientific runs",
+  "passed": true,
+  "checks": [
+    {
+      "stage": "training_t3_outcome_residual_20261031",
+      "exit_code": 0,
+      "elapsed_seconds": 9.267,
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "outside_checkout_modules": []
+    }
+  ],
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "confirmation_runs": 0
+}

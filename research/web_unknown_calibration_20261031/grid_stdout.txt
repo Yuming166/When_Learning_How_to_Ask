@@ -1,0 +1,297 @@
+{
+  "status": "DETERMINISTIC_GRID_RELAXATION_AND_UNCERTIFIED_1D_HEURISTIC",
+  "claim_limit": "Grid LP gives a relaxation; no continuous-optimality or nonzero-gap certificate follows without extra bounds.",
+  "parameters": {
+    "r": 0.8,
+    "p": 0.8,
+    "q": 0.6,
+    "eta": 0.05,
+    "L_max": 5,
+    "c": 10,
+    "ell": 1,
+    "grid_step": 0.01
+  },
+  "grid_points": 1082,
+  "actions": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "rows": [
+    {
+      "alpha": 0,
+      "oracle_grid_relaxation": 25.459372965866923,
+      "unknown_grid_relaxation": 25.459372965866923,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.6972915310577947
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.6972915310577947
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": false,
+          "u": 0.5,
+          "v": 0.5,
+          "weight": 25.45937296586692
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 25.459372965866923,
+        "x": 1.6972915310577947,
+        "u": 0.5
+      }
+    },
+    {
+      "alpha": 0.1,
+      "oracle_grid_relaxation": 24.917393145309063,
+      "unknown_grid_relaxation": 25.408109210932295,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.661159543020604
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.6938739473954865
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": true,
+          "u": 0.7999999999999999,
+          "v": 0.5,
+          "weight": 25.45937296586692
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 24.917393145309063,
+        "x": 1.661159543020604,
+        "u": 0.5
+      }
+    },
+    {
+      "alpha": 1,
+      "oracle_grid_relaxation": 22.818798009720894,
+      "unknown_grid_relaxation": 24.946735416520664,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5212532006480595
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.663115694434711
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": true,
+          "u": 0.7999999999999999,
+          "v": 0.5,
+          "weight": 25.45937296586692
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 22.819394035648244,
+        "x": 1.521292935709883,
+        "u": 0.778747190492311
+      }
+    },
+    {
+      "alpha": 5,
+      "oracle_grid_relaxation": 22.741677836025023,
+      "unknown_grid_relaxation": 22.89618521913564,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5161118557350015
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.526412347942376
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": true,
+          "u": 0.7999999999999999,
+          "v": 0.5,
+          "weight": 25.45937296586692
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 22.746257556159026,
+        "x": 1.5164171704106018,
+        "u": 0.7874104148051935
+      }
+    },
+    {
+      "alpha": 20,
+      "oracle_grid_relaxation": 22.637478170326183,
+      "unknown_grid_relaxation": 22.637478170326183,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5091652113550789
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5091652113550789
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": false,
+          "u": 0.79,
+          "v": 0.6,
+          "weight": 22.776411057924637
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 22.68007942855668,
+        "x": 1.5120052952371121,
+        "u": 0.7949572794236631
+      }
+    },
+    {
+      "alpha": 100,
+      "oracle_grid_relaxation": 22.635039165179528,
+      "unknown_grid_relaxation": 22.635039165179528,
+      "oracle_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5090026110119685
+        }
+      ],
+      "unknown_allocation": [
+        {
+          "n_A": 5,
+          "n_B": 0,
+          "x": 1.5090026110119685
+        }
+      ],
+      "unknown_dual_support": [
+        {
+          "swapped": false,
+          "u": 0.8,
+          "v": 0.6,
+          "weight": 22.635039165179528
+        }
+      ],
+      "best_pure_oracle_heuristic": {
+        "L": 5,
+        "cost": 22.645857525480366,
+        "x": 1.5097238350320243,
+        "u": 0.7987936593909054
+      }
+    }
+  ]
+}

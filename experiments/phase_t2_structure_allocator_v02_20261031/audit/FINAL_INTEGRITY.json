@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "freeze_checks": {
+    "generation_freeze.json": {
+      "status": "PASS",
+      "local_files": 22,
+      "readonly_dependencies": 60
+    },
+    "training_freeze.json": {
+      "status": "PASS",
+      "local_files": 36,
+      "readonly_dependencies": 60
+    },
+    "analysis_freeze.json": {
+      "status": "PASS",
+      "local_files": 20,
+      "readonly_dependencies": 60
+    }
+  },
+  "history": {
+    "status": "PASS",
+    "checked_unix_time": 1793431676.694119,
+    "unique_files": 738,
+    "mismatches": []
+  }
+}

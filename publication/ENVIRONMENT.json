@@ -1,0 +1,12 @@
+{
+  "python": "3.13.13",
+  "implementation": "CPython",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "threads_per_numeric_backend": 1,
+  "gpu_used": false,
+  "scope": "Environment used for publication engineering checks, not a claim to reproduce every historical training environment"
+}

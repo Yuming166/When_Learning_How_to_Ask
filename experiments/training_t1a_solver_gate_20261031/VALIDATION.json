@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "saved-result consistency + frozen-dependency hashes; not a general mathematical certificate",
+  "independent_worlds": 32,
+  "matched_arms": 8,
+  "trajectories_checked": 256,
+  "complete_gate_records_checked": 256,
+  "planning_updates_checked": 11920,
+  "minimum_logged_information": 1.0000000009999996,
+  "maximum_logged_relative_gap": 0.0004974024740219427,
+  "offline_updates_independently_scalar_checked": 483,
+  "deterministic_fixture_solver_results_checked": 56,
+  "public_input_files_preserved": 66,
+  "frozen_files_preserved": 70,
+  "prior_T0_inputs_preserved": 56,
+  "training_updates": 0,
+  "model_calls": 0,
+  "confirmation_worlds": 0,
+  "new_worlds_generated_by_analysis": 0
+}

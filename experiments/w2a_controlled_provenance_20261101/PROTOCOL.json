@@ -1,0 +1,30 @@
+{
+  "id": "W2a-controlled-provenance-mechanism-v1",
+  "client_date": "2026-11-01",
+  "status": "Frozen before new experiment implementation and numerical results",
+  "authorization": "User requested autonomous completion of the second, automatically verifiable theoretical-experiment track, without human review",
+  "scope": "CPU-only controlled construction, analytic proofs, finite-state/exhaustive mechanism experiments and reproducible report",
+  "parent_evidence": ["../w1_averitec_audit_20261101", "../w1_1_source_semantics_20261101"],
+  "parents_read_only": true,
+  "hypotheses": [
+    "Under identical conditional-independent reading channels, same-source rereads and same-source page copies induce the same truth-information experiment",
+    "Persistent source errors create an information ceiling that additional same-source reads cannot remove",
+    "Independent constructed roots can reduce factual error, with a cost-dependent tradeoff against repeated extraction",
+    "Treating same-source copies as independent can create false confidence without adding evidence"
+  ],
+  "truth": "Deterministic fictional structured records; original Web cases supply schema motivation only, not unreviewed real-world gold",
+  "document_generation": "Explicit simulated pages with source-attributed atomic assertions, optional quoted/mixed distractors, balanced targets and machine-known report V",
+  "source_generation": "V_r = theta times B_r; independent Bernoulli source-error draws across constructed roots by definition; copies share V_r",
+  "reading_generation": "Main calculations use a specified symbolic Bernoulli reading channel Y=V_r times E; this is a mechanism assumption, not measured Qwen reliability",
+  "policy_information": "Known r, a, costs and declared constructed provenance; observed answers only. Theta, realized V and evaluation outcomes stay evaluator-side",
+  "law_grid": {"r": [0.6, 0.75, 0.9, 1.0], "a": [0.6, 0.8, 0.95, 1.0], "reads": [1, 3, 5, 9, 15]},
+  "cost_grid": {"r": [0.6, 0.75, 0.9], "a": [0.6, 0.8, 0.95], "root_activation_cost": [0, 1, 3], "read_cost": 1, "budget": [4, 8, 12]},
+  "methods": ["Repeat one root", "Different page copies of one root", "One read per fresh root", "Best fixed completed depth within the common budget", "Provenance-aware finite-horizon Bayes dynamic programming"],
+  "decoding": "Correct common generative-law Bayes decoding for all accuracy comparisons; mis-specified URL-iid decoding appears separately as a confidence-failure diagnostic",
+  "matched_cost": "cost = c times activated independent constructed roots + ell times reads; base additional-copy overhead zero, disclosed idealization",
+  "robustness": ["Perfect source r=1", "Perfect reading a=1", "Chance channels", "Small exact-rational cross-checks", "Persistent extraction-error violation control", "Optional nonnegative copy-opening cost dominance argument"],
+  "uncertainty": "Exact/exhaustive probability calculations, with floating arithmetic disclosed and rational small-case verification; no sampling p-values or confidence intervals for enumerated laws",
+  "limits": {"new_real_web_requests": 0, "experiment_model_calls": 0, "training_jobs": 0, "method_confirmation_reruns": 0, "automatic_protocol_tuning": false},
+  "completion": ["Machine-verifiable construction and edit/provenance records", "Proofs or explicitly bounded counterexamples", "All frozen law and cost configurations including negative controls", "Independent checks", "Standalone plots and Chinese report", "Reproduction instructions and hashes"],
+  "claim_boundary": "Controlled proof-to-code validation; no natural Web reliability, LLM format advantage, human behaviour, empirical acquisition cost, or unrestricted asymptotic-optimality claim"
+}

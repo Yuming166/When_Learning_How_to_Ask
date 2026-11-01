@@ -1,0 +1,21 @@
+{
+  "review_type": "same-runtime AI cross-review, not human or cross-family verification",
+  "corrections": [
+    {
+      "case_id": "W1-11",
+      "page_id": "P046",
+      "initial_provisional_V_current": 0,
+      "final_provisional_V_current": null,
+      "initial_case_candidate": true,
+      "final_case_candidate": false,
+      "reason": "Strict quote/attribution rule: reporting denial is not independently rejecting the full factual proposition."
+    }
+  ],
+  "access_deviations": [
+    "Exact original targets embedded in archives were opened as current representations under ACCESS_CLARIFICATION; no historical V inherited.",
+    "Browser cross-reading included already locally readable P019, P023, P031, P044, P046, P048 while capture/review ran concurrently; these are redundant same-URL inspections, not replacement pages."
+  ],
+  "human_signoffs": 0,
+  "model_service_calls": 0,
+  "Y_observations": 0
+}

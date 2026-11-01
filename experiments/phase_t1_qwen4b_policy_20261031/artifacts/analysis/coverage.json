@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "data_manifest_complete": true,
+  "receipts_completed": true,
+  "offline": {
+    "requested": 360,
+    "recorded": 360,
+    "missing": []
+  },
+  "paths": {
+    "requested": 189,
+    "recorded": 189,
+    "missing": []
+  },
+  "missing_primary_readouts": [],
+  "failed_paths": [],
+  "offline_summary_methods": [
+    "MLP",
+    "BaseQwen",
+    "LoRA"
+  ],
+  "independent_data_test_worlds": 24,
+  "offline_summary_receipts_complete": true,
+  "qwen_calls_fully_accounted_within_600": true,
+  "independent_closed_loop_worlds": 24,
+  "reused_diagnostic_worlds": 3,
+  "primary_readouts_requested": 336,
+  "diagnostic_paths_requested": 21
+}

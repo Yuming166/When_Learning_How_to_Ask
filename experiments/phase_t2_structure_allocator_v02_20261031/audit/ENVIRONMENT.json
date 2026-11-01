@@ -1,0 +1,21 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "executable": "/storage/gaoym/wcl_v100_venv/bin/python",
+  "numpy": "2.3.3",
+  "scipy": "1.18.1",
+  "torch": "2.6.0+cu124",
+  "cpu_affinity": 56,
+  "threads": 1,
+  "qwen_calls": 0,
+  "gpu_jobs": 0,
+  "analysis_executable": "/storage/gaoym/miniforge3/bin/python",
+  "analysis_environment_separate": true,
+  "combined_probe_failure": "plotting tests require host Matplotlib; separate intended environments used, no installation",
+  "source_references": [
+    "https://papers.nips.cc/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html",
+    "https://proceedings.mlr.press/v300/li26b.html",
+    "https://proceedings.mlr.press/v267/hedman25a.html"
+  ],
+  "source_reference_scope": "official abstracts/metadata only; no novelty review",
+  "checked_unix_time": 1793429353.8896608
+}

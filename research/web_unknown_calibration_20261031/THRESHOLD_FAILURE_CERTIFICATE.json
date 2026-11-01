@@ -1,0 +1,65 @@
+{
+  "status": "PASS_EXACT_RATIONAL_CONTINUOUS_DOMAIN_CERTIFICATE",
+  "model": {
+    "r": "4/5",
+    "p": "4/5",
+    "q": "3/5",
+    "eta": "1/20",
+    "d": 1,
+    "L_max": 5,
+    "c": 10,
+    "ell": 1,
+    "alpha": 1
+  },
+  "known_rate_comparison": {
+    "unique_oracle_depth": 5,
+    "gamma_singleton_lower_bound_display": "1.0903799028275660767710287625412812632081242056275",
+    "leading_premium": "zero by previous proved theorem"
+  },
+  "nonconvex_inner_kl": {
+    "alternative_good_rates": [
+      "1/2",
+      "3/5",
+      "7/10"
+    ],
+    "midpoint_minus_average_endpoints_lower_display": "0.083885342396757342789764936150845423412879257606573",
+    "scope": "Pure-good depth-5 truth-flip KL versus alternative extraction level; alpha=0 inner objective."
+  },
+  "unknown_rate_lower_bound": {
+    "alternative": {
+      "theta": "negative",
+      "z": "B",
+      "u": "4/5",
+      "v": "1/2"
+    },
+    "dual_weight": "25",
+    "all_action_constraints_checked": 20,
+    "minimum_dual_slack_lower_display": "0.27065059682507510510565199772499804973319607348649",
+    "coefficient_lower_display": "24.496612161232778164472220833552150082120033004045"
+  },
+  "unknown_rate_known_z_oracle_upper": {
+    "action": [
+      5,
+      0
+    ],
+    "count_coefficient": "161/100",
+    "coefficient_upper": "483/20",
+    "continuous_domain": "1/2 <= v <= u <= 19/20",
+    "v_profile": "min(3/5,u)",
+    "u_cells": 900,
+    "cell_width": "1/2000",
+    "global_derivative_bound": "201",
+    "minimum_uniform_information_margin_display": "0.0079820504433267089114424182745069582840658804726122"
+  },
+  "premium_lower_display": "0.34661216123277816447222083355215008212003300404504",
+  "ratio_lower_display": "1.0143524704444214560858062456957412042285727951986",
+  "arithmetic": {
+    "probabilities": "exact Fraction",
+    "log_terms": 20,
+    "log_method": "dyadic range reduction; atanh series; proved geometric remainder",
+    "assertions": "exact rational interval comparisons",
+    "decimal_values": "display approximations only"
+  },
+  "claim_limit": "Certifies a positive premium and failure of known-rate zero-premium criterion; does not compute either exact continuous optimum.",
+  "script_sha256": "aba663148d9dcb3a67167e9c551eb2452c555d240b604e6760aad3ef9e686a76"
+}

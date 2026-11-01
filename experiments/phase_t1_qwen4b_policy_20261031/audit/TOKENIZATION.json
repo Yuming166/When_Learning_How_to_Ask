@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "splits": {
+    "train": {
+      "states": 1024,
+      "worlds": 64,
+      "max_total_tokens": 412,
+      "min_total_tokens": 362,
+      "max_prompt_tokens": 384,
+      "target_tokens": 28093,
+      "prompt_tokens": 371572,
+      "all_labels_prompt_masked": true,
+      "exact_canonical_messages": true,
+      "no_truncation_or_filtering": true
+    },
+    "validation": {
+      "states": 128,
+      "worlds": 8,
+      "max_total_tokens": 413,
+      "min_total_tokens": 362,
+      "max_prompt_tokens": 385,
+      "target_tokens": 3516,
+      "prompt_tokens": 46621,
+      "all_labels_prompt_masked": true,
+      "exact_canonical_messages": true,
+      "no_truncation_or_filtering": true
+    },
+    "id_test": {
+      "states": 128,
+      "worlds": 8,
+      "max_total_tokens": 408,
+      "min_total_tokens": 362,
+      "max_prompt_tokens": 380,
+      "target_tokens": 3514,
+      "prompt_tokens": 46398,
+      "all_labels_prompt_masked": true,
+      "exact_canonical_messages": true,
+      "no_truncation_or_filtering": true
+    },
+    "ood_parameters": {
+      "states": 128,
+      "worlds": 8,
+      "max_total_tokens": 414,
+      "min_total_tokens": 362,
+      "max_prompt_tokens": 386,
+      "target_tokens": 3506,
+      "prompt_tokens": 46341,
+      "all_labels_prompt_masked": true,
+      "exact_canonical_messages": true,
+      "no_truncation_or_filtering": true
+    },
+    "ood_partition": {
+      "states": 128,
+      "worlds": 8,
+      "max_total_tokens": 417,
+      "min_total_tokens": 370,
+      "max_prompt_tokens": 388,
+      "target_tokens": 3506,
+      "prompt_tokens": 47077,
+      "all_labels_prompt_masked": true,
+      "exact_canonical_messages": true,
+      "no_truncation_or_filtering": true
+    }
+  },
+  "student_input_allowlist": true,
+  "completion_only": true,
+  "no_truncation": true,
+  "tokenizer": "unchanged local checkpoint",
+  "tokenization_only_no_model_forward": true
+}

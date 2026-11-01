@@ -1,0 +1,203 @@
+[
+  {
+    "case_id": "W1-01",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [],
+    "remaining_insufficiencies": [
+      "ACCESS_FAILURE",
+      "NON_URL_EVIDENCE"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "No independently inspectable ordinary source or reference body; richer labels cannot supply missing evidence.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-02",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "COMPOSITE_SUBCLAIMS_NOT_REPEATED_REPORTS"
+    ],
+    "remaining_insufficiencies": [
+      "ACCESS_FAILURE",
+      "UNVERIFIED_SOURCE_VALUES",
+      "TIME_ALIGNMENT_UNRESOLVED"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Population, judges and calculator are different ingredients; do not treat them as three reports of a full fact.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-03",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "REFERENCE_ROLE_SEPARATION"
+    ],
+    "remaining_insufficiencies": [
+      "ORIGINAL_AND_NONREFERENCE_INACCESSIBLE"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Reference stance can be represented but is evaluator-only; this does not recover an ordinary source.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-04",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "METADATA_CHANNEL",
+      "PARTIAL_DIFFERENT_PREDICATE",
+      "REPORTED_PROVENANCE"
+    ],
+    "remaining_insufficiencies": [
+      "ORIGINAL_BODY_UNAVAILABLE",
+      "REFERENCE_NOT_INDEPENDENTLY_ADJUDICATED"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "The metadata assertion and testing-suspension story are usable semantic records, not approved error examples.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-05",
+    "W1_candidate_preserved": true,
+    "W1_quarantine_preserved": false,
+    "schema_limitations": [
+      "QUOTE_VS_PARTIAL_EDITORIAL_ADOPTION",
+      "QA_SOURCE_TIME_BINDING"
+    ],
+    "remaining_insufficiencies": [
+      "PRIMARY_STUDY_NOT_RECALCULATED",
+      "HUMAN_ADOPTION_ADJUDICATION_PENDING"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Original W1 candidate retained in the historical receipt; complete target stance is attributed under the stricter W1.1 reading.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-06",
+    "W1_candidate_preserved": true,
+    "W1_quarantine_preserved": false,
+    "schema_limitations": [
+      "SATIRE_AND_AUTHORSHIP_CONTEXT"
+    ],
+    "remaining_insufficiencies": [
+      "HUMAN_AUTHORITY_GATE_PENDING",
+      "HISTORICAL_DISCLAIMER_TIME_UNKNOWN"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Authorship disclaimer provides an attributable current rejection; fictional narrative is not an erroneous factual source.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-07",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "GEOGRAPHIC_CONTEXT",
+      "PARTIAL_EVIDENCE"
+    ],
+    "remaining_insufficiencies": [
+      "SINGULAR_OFFICE_PLURAL_VISITORS_UNRESOLVED",
+      "REFERENCE_TARGET_DRIFT"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "NSW, Melbourne and the specific Aberglasslyn rumor cannot be merged into the same proposition.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-08",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "ATTRIBUTED_TRANSCRIPT",
+      "POLL_SCOPE_QUALIFICATION"
+    ],
+    "remaining_insufficiencies": [
+      "PRIMARY_POLL_NOT_AUDITED",
+      "QA_HOMEPAGE_NO_ARTICLE"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Transcript remains useful for attribution; it is not independent publisher assertion of the polling fact.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-09",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "FIRST_VS_ONLY",
+      "HISTORICAL_AWARD_VS_PUBLICATION"
+    ],
+    "remaining_insufficiencies": [
+      "ORIGINAL_INACCESSIBLE",
+      "MILITARY_PRIMARY_RECORD_NOT_AUDITED"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Reference supports first and warns about only; those are distinct propositions, not opposite observations.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-10",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "SEARCH_INTERFACE_NOT_EVIDENCE"
+    ],
+    "remaining_insufficiencies": [
+      "MISSING_ATTRIBUTION_PREDICATE",
+      "REFERENCE_BODY_UNAVAILABLE"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Adding Stalin would create a different claim; the missing target cannot be repaired silently.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-11",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "MIXED_REPORTS",
+      "DENIAL_IS_ATTRIBUTED",
+      "MULTI_LINEAGE_PAGE"
+    ],
+    "remaining_insufficiencies": [
+      "CONFIDENTIAL_AMOUNT_NOT_INDEPENDENTLY_ESTABLISHED",
+      "ORIGINAL_ORDER_TIME_AND_MODALITY_UNRESOLVED",
+      "PREUPDATE_SNAPSHOT_UNAVAILABLE"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Mixed and quoted statements are recoverable as Web evidence; no independently verified false amount follows.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  },
+  {
+    "case_id": "W1-12",
+    "W1_candidate_preserved": false,
+    "W1_quarantine_preserved": true,
+    "schema_limitations": [
+      "ACTUAL_VS_PLANNED_SPENDING",
+      "SUBCLAIM_DEFINITIONS"
+    ],
+    "remaining_insufficiencies": [
+      "REFERENCE_INACCESSIBLE",
+      "TEN_YEAR_INTERVAL_UNRESOLVED",
+      "TARGET_AMOUNT_NOT_REPRODUCED"
+    ],
+    "schema_only_binary_recovery": false,
+    "interpretation": "Definitions and a different time total do not establish the target ten-year amount.",
+    "human_review": "PENDING",
+    "new_binary_admission": false
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "scope": "historical T1b development, post-hoc audit; not new confirmation",
+  "budgets": {
+    "16": {
+      "fresh_only": 0,
+      "kl_only": 0,
+      "both_success": 39,
+      "both_failed": 57,
+      "difference": 0.0,
+      "paired_stratified_ci95": [
+        0.0,
+        0.0
+      ],
+      "exact_discordant_binomial_p_two_sided": 1.0,
+      "p_scope": "reference McNemar calculation under exchangeable fair discordant signs; heterogeneous-grid weak-null inference not established"
+    },
+    "32": {
+      "fresh_only": 15,
+      "kl_only": 6,
+      "both_success": 65,
+      "both_failed": 10,
+      "difference": 0.09375,
+      "paired_stratified_ci95": [
+        0.010416666666666666,
+        0.17708333333333334
+      ],
+      "exact_discordant_binomial_p_two_sided": 0.0783538818359375,
+      "p_scope": "reference McNemar calculation under exchangeable fair discordant signs; heterogeneous-grid weak-null inference not established"
+    },
+    "64": {
+      "fresh_only": 8,
+      "kl_only": 0,
+      "both_success": 84,
+      "both_failed": 4,
+      "difference": 0.08333333333333333,
+      "paired_stratified_ci95": [
+        0.041666666666666664,
+        0.13541666666666666
+      ],
+      "exact_discordant_binomial_p_two_sided": 0.0078125,
+      "p_scope": "reference McNemar calculation under exchangeable fair discordant signs; heterogeneous-grid weak-null inference not established"
+    }
+  },
+  "unit": "96 worlds, repeated budgets not independent",
+  "B32_KL_updates": [
+    8,
+    11,
+    15,
+    19,
+    24,
+    29
+  ],
+  "B32_IG_updates": [
+    8,
+    11,
+    15,
+    19,
+    24,
+    29
+  ]
+}

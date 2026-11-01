@@ -1,0 +1,540 @@
+{
+  "status": "PASS_EXACT_CERTIFICATE_WITH_ANALYTIC_PERTURBATION_BOUNDS",
+  "date": "2026-11-01",
+  "model": {
+    "d": 1,
+    "L_max": 6,
+    "eta": "1/40",
+    "ell": "1",
+    "oracle_knows": "format, not extraction rates or truth",
+    "objective": "pointwise asymptotic expected online cost / log(1/delta)"
+  },
+  "fixed_rates": {
+    "r": "3/5",
+    "p": "19/20",
+    "q": "3/5"
+  },
+  "intervals": {
+    "alpha": [
+      "19/20",
+      "6/5"
+    ],
+    "c_over_ell": [
+      "1/2",
+      "3/2"
+    ],
+    "r": [
+      "23999/40000",
+      "24001/40000"
+    ],
+    "p": [
+      "37999/40000",
+      "38001/40000"
+    ],
+    "q": [
+      "23999/40000",
+      "24001/40000"
+    ],
+    "rate_radius": "1/40000"
+  },
+  "witness": {
+    "blocks": {
+      "1,0": "14",
+      "2,0": "2"
+    },
+    "cost": "16*c+18*ell",
+    "exact_point_margin_lower": "1/35",
+    "recomputed_point_margin_display": "0.028571621113768523527120355293854982153054510007056",
+    "profiled_calibration_max_upper": "103/200",
+    "calibration_actual_endpoint_upper_display": "0.51476745076476162641199533486110516106316629416526",
+    "fixed_rates_information_margin_lower": "79/28000",
+    "perturbed_information_margin_lower": "9/28000"
+  },
+  "analytic_bounds": {
+    "auxiliary_box": {
+      "r": [
+        ".59",
+        ".61"
+      ],
+      "p": [
+        ".94",
+        ".96"
+      ],
+      "q": [
+        ".59",
+        ".61"
+      ]
+    },
+    "witness_linf_lipschitz": "100",
+    "same_rate_KL_linf_lipschitz": "83*(L+1)/39",
+    "depth_one_fair_KL_linf_lipschitz": "2",
+    "calibration_fair_linf_lipschitz": "4",
+    "log_inequalities": {
+      "depth_one_ratio": {
+        "argument": "1209/791",
+        "upper": "1/2"
+      },
+      "depth_two_ratio": {
+        "argument": "625/96",
+        "upper": "2"
+      },
+      "same_rate_ratio": {
+        "argument": "61/39",
+        "upper": "1/2"
+      },
+      "p_logit": {
+        "argument": "24",
+        "upper": "16/5"
+      },
+      "max_alternative_logit": {
+        "argument": "39",
+        "upper": "4"
+      }
+    }
+  },
+  "conclusions": [
+    {
+      "name": "fixed_rates_rectangle",
+      "long_depth_multiplier": "413/10",
+      "calibration_upper": "103/200",
+      "uniform_additive_gap": "9/4",
+      "relative_saving_lower": "3/59",
+      "depth_one_gap_at_worst_endpoint": "53/20"
+    },
+    {
+      "name": "five_dimensional_box",
+      "long_depth_multiplier": "206/5",
+      "calibration_upper": "5151/10000",
+      "uniform_additive_gap": "15/7",
+      "relative_saving_lower": "5/103",
+      "depth_one_gap_at_worst_endpoint": "2641/1000"
+    }
+  ],
+  "fixed_point_dual_checks": [
+    {
+      "action": [
+        0,
+        1
+      ],
+      "slack_lower_display": "1.9199786530016188125494100863073896402711260638426"
+    },
+    {
+      "action": [
+        1,
+        0
+      ],
+      "slack_lower_display": "0.37113661750053831692947370860588800291268058553374"
+    },
+    {
+      "action": [
+        0,
+        2
+      ],
+      "slack_lower_display": "2.7453430769253692812933418139250403546649103296695"
+    },
+    {
+      "action": [
+        1,
+        1
+      ],
+      "slack_lower_display": "0.28901846205492050472795369447217198389473149996363"
+    },
+    {
+      "action": [
+        2,
+        0
+      ],
+      "slack_lower_display": "0.0028817149347738004494927591654524730272338035980048"
+    },
+    {
+      "action": [
+        0,
+        3
+      ],
+      "slack_lower_display": "3.6310879401395378502850715049421766176428958289098"
+    },
+    {
+      "action": [
+        1,
+        2
+      ],
+      "slack_lower_display": "1.2831776639691871251632336245128003561905040749660"
+    },
+    {
+      "action": [
+        2,
+        1
+      ],
+      "slack_lower_display": "0.99030342102802457834958721102995851029987819681436"
+    },
+    {
+      "action": [
+        3,
+        0
+      ],
+      "slack_lower_display": "0.74424345083055197234597403467646616623465267478309"
+    },
+    {
+      "action": [
+        0,
+        4
+      ],
+      "slack_lower_display": "4.5238775632963974015851007500695698279856040122949"
+    },
+    {
+      "action": [
+        1,
+        3
+      ],
+      "slack_lower_display": "2.2767677473421253418546906687895653250963011091264"
+    },
+    {
+      "action": [
+        2,
+        2
+      ],
+      "slack_lower_display": "1.9786538497885414621644152071261046967753087486190"
+    },
+    {
+      "action": [
+        3,
+        1
+      ],
+      "slack_lower_display": "1.7434934406503873807046170823068100969625152336477"
+    },
+    {
+      "action": [
+        4,
+        0
+      ],
+      "slack_lower_display": "1.7027145556063428876493054607307056945642254998952"
+    },
+    {
+      "action": [
+        0,
+        5
+      ],
+      "slack_lower_display": "5.4228571832854347077685336871180181510264548599503"
+    },
+    {
+      "action": [
+        1,
+        4
+      ],
+      "slack_lower_display": "3.2698167353609241671600872013734009920106401725532"
+    },
+    {
+      "action": [
+        2,
+        3
+      ],
+      "slack_lower_display": "2.9677774547080694718129948951650922919904434439078"
+    },
+    {
+      "action": [
+        3,
+        2
+      ],
+      "slack_lower_display": "2.7426610761410740308368603955485227467275481285007"
+    },
+    {
+      "action": [
+        4,
+        1
+      ],
+      "slack_lower_display": "2.7009213700201991172017947044830506208343385052788"
+    },
+    {
+      "action": [
+        5,
+        0
+      ],
+      "slack_lower_display": "2.6657828289469937803686894355274296282816460653131"
+    },
+    {
+      "action": [
+        0,
+        6
+      ],
+      "slack_lower_display": "6.3273524068716414742233814233628596223331605168686"
+    },
+    {
+      "action": [
+        1,
+        5
+      ],
+      "slack_lower_display": "4.2623683973365449200732783042135320898618796532301"
+    },
+    {
+      "action": [
+        2,
+        4
+      ],
+      "slack_lower_display": "3.9575667500248066683572978713978925822688329630779"
+    },
+    {
+      "action": [
+        3,
+        3
+      ],
+      "slack_lower_display": "3.7417476037882484444202279334393314484844850287263"
+    },
+    {
+      "action": [
+        4,
+        2
+      ],
+      "slack_lower_display": "3.6992604003455909144039399707573092406172932157022"
+    },
+    {
+      "action": [
+        5,
+        1
+      ],
+      "slack_lower_display": "3.6656640738883578162662034484877418868357323163837"
+    },
+    {
+      "action": [
+        6,
+        0
+      ],
+      "slack_lower_display": "3.6592070688382858290555663195929586345740515319090"
+    }
+  ],
+  "robust_dual_checks": [
+    {
+      "action": [
+        0,
+        1
+      ],
+      "divergence_perturbation_bound": "1/20000",
+      "slack_lower_display": "1.9149786530016188125494100863073896402711260638426"
+    },
+    {
+      "action": [
+        1,
+        0
+      ],
+      "divergence_perturbation_bound": "1/20000",
+      "slack_lower_display": "0.36613661750053831692947370860588800291268058553374"
+    },
+    {
+      "action": [
+        0,
+        2
+      ],
+      "divergence_perturbation_bound": "83/520000",
+      "slack_lower_display": "2.7393835257985244683567030648877847158847568868895"
+    },
+    {
+      "action": [
+        1,
+        1
+      ],
+      "divergence_perturbation_bound": "83/520000",
+      "slack_lower_display": "0.28900642815536491401060159947717510630288357493113"
+    },
+    {
+      "action": [
+        2,
+        0
+      ],
+      "divergence_perturbation_bound": "83/520000",
+      "slack_lower_display": "0.0035625060887778869822095768467430518781643233508873"
+    },
+    {
+      "action": [
+        0,
+        3
+      ],
+      "divergence_perturbation_bound": "83/390000",
+      "slack_lower_display": "3.6232129845509464318855484535550315944797945103945"
+    },
+    {
+      "action": [
+        1,
+        2
+      ],
+      "divergence_perturbation_bound": "83/390000",
+      "slack_lower_display": "1.2809877211558265801901557011654359050890308236514"
+    },
+    {
+      "action": [
+        2,
+        1
+      ],
+      "divergence_perturbation_bound": "83/390000",
+      "slack_lower_display": "0.98882261681742713881673603444647503219087619459944"
+    },
+    {
+      "action": [
+        3,
+        0
+      ],
+      "divergence_perturbation_bound": "83/390000",
+      "slack_lower_display": "0.74335843347273291684702991178875385602895630337212"
+    },
+    {
+      "action": [
+        0,
+        4
+      ],
+      "divergence_perturbation_bound": "83/312000",
+      "slack_lower_display": "4.5140701457159317966517289906325105852159114217144"
+    },
+    {
+      "action": [
+        1,
+        3
+      ],
+      "divergence_perturbation_bound": "83/312000",
+      "slack_lower_display": "2.2724012736259557951773247449003995556992218427667"
+    },
+    {
+      "action": [
+        2,
+        2
+      ],
+      "divergence_perturbation_bound": "83/312000",
+      "slack_lower_display": "1.9750092014901772033313356645000465802313069456019"
+    },
+    {
+      "action": [
+        3,
+        1
+      ],
+      "divergence_perturbation_bound": "83/312000",
+      "slack_lower_display": "1.7404181880157958920445636852614282385294402914417"
+    },
+    {
+      "action": [
+        4,
+        0
+      ],
+      "divergence_perturbation_bound": "83/312000",
+      "slack_lower_display": "1.6997380411921970273017346584106897063548752301680"
+    },
+    {
+      "action": [
+        0,
+        5
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "5.4111023158273027183476003777619864438252360271734"
+    },
+    {
+      "action": [
+        1,
+        4
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "3.2632750409001880870384479513048865176399681065739"
+    },
+    {
+      "action": [
+        2,
+        3
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "2.9619670902247010786050289920849756595084401351406"
+    },
+    {
+      "action": [
+        3,
+        2
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "2.7373957876348654328854953023948384860258423870833"
+    },
+    {
+      "action": [
+        4,
+        1
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "2.6957571461777214512447033781358202877982337556851"
+    },
+    {
+      "action": [
+        5,
+        0
+      ],
+      "divergence_perturbation_bound": "83/260000",
+      "slack_lower_display": "2.6607036863177684275758429161268230748885260431769"
+    },
+    {
+      "action": [
+        0,
+        6
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "6.3136367345634528594909848333391959031259218467154"
+    },
+    {
+      "action": [
+        1,
+        5
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "4.2536526863105236093460877750110531830819322200349"
+    },
+    {
+      "action": [
+        2,
+        4
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "3.9495890575152786705882574158826186137639292264689"
+    },
+    {
+      "action": [
+        3,
+        3
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "3.7342924757974530331498244511394535117805119166557"
+    },
+    {
+      "action": [
+        4,
+        2
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "3.6919081469394024220924136990208260308088823114113"
+    },
+    {
+      "action": [
+        5,
+        1
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "3.6583931675195960384780131005339937069396254336409"
+    },
+    {
+      "action": [
+        6,
+        0
+      ],
+      "divergence_perturbation_bound": "581/1560000",
+      "slack_lower_display": "3.6519517968643184144325348993120791792596920602666"
+    }
+  ],
+  "arithmetic": {
+    "probabilities": "exact rational",
+    "logarithms": "dyadic atanh intervals, 20 terms",
+    "nuisance_cells": 950,
+    "cell_radius": "1/4000",
+    "curvature_bound": "44800",
+    "region_check": "analytic Lipschitz bounds plus exact affine endpoint inequalities"
+  },
+  "limitations": [
+    "Sufficient region, not maximal phase boundary.",
+    "Not a proof of pure-good optimality or of an exactly two-depth optimum.",
+    "No uniform finite-delta remainder or empirical Web/LLM claim."
+  ],
+  "source_sha256": "074b6d7ea70f2af033826281f71fd4b121b8a837f63a44c39e5221d026c3958f",
+  "dependencies": {
+    "research/web_oracle_structure_20261031/certify_depth_mixing.py": "8fa4959b9b8150244939d6080c5d28bfd226a6e46596628439e39e977b6f5ec1",
+    "research/web_unknown_calibration_20261031/certify_threshold_failure.py": "aba663148d9dcb3a67167e9c551eb2452c555d240b604e6760aad3ef9e686a76"
+  }
+}

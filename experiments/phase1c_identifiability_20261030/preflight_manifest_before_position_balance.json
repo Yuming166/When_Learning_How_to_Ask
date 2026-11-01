@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-10-30T12:59:56.755066+00:00",
+  "planned_generations": 192,
+  "user_example_upper_bound": 384,
+  "arithmetic_correction": "8*6*2*2=192",
+  "files": {
+    "config.json": "a6f4467b83a64e7117ee91ee595273acaece289196c293f88cdcf7037d815d05",
+    "design.py": "bab4eaef0c2f9e11e11da65f6a895729260bfb5d432ce5d24088dfd59615cf7e",
+    "policies.py": "d3d93c2c4849a60a48c15208f0b65b4775de46fc261f630bbf5f6a2c2834a7db",
+    "collect.py": "8c9d51ba62127290f3f328afda7b9c45888e0e0ad7e506593b38525b0653ea24",
+    "local_sampler.py": "d108d9a0a230b1dae51f77f0441991cf587a9080a6fdc4d8a6be6eedc3e60218",
+    "analyze.py": "25d84eeeaad2517aff674d7d310a32d25dbd8b4f02181564477a7876b3ea1947",
+    "PROTOCOL.md": "ee3f8785f87a94b8dbc7e8ec9576268b766ae5d9d158442417167d799888c2c2",
+    "selected_worlds.jsonl": "cf2ab404d7524c7bb288d711d706730e36cae80420913b7e436f77f8a04ee821",
+    "proofwriter_structure.json": "e242f746cb1a5e1b90dcf58b4dcee9565bcdabb3e4c3b4d955f541807d50de5c",
+    "logic_audit.py": "539a3e182fadc185e2909c627d24e5bd580e8ba7ddc6c9126c1478d41af2c558",
+    "selected_dependencies.json": "6963e785af6a3c9d1c2bd00e15db53a8d0eeca1bd578aa298c5a438f3d5201d4",
+    "dependency_audit.py": "79f1c70eb745ecd79f2dfdf712d4834e09a5b4429973416a90460dd19db88099",
+    "test_phase1c.py": "0081b946253a6f9cfe1404ff7893504d84b1f9fcdc214808bcfb70e8b6408c8b",
+    "data/construction_checks.json": "5dd458ad126a106418625f4516a7b06748db9e79cdd557aa2004a13a7851af6a",
+    "data/private_truth.jsonl": "41db63c2a51ab2cefa097b37cb82dd605266c0ab190ac492de135c173fb2bf4e",
+    "data/requests.jsonl": "70b47c69c35704fa2699769aa986141932a18fd6e4eb65842a37ee6ae7cf1c60"
+  }
+}

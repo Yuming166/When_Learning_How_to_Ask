@@ -1,0 +1,21 @@
+{
+  "stage": "W1.1-source-semantics-provenance-development",
+  "client_date": "2026-11-01",
+  "parent": "../w1_averitec_audit_20261101",
+  "parent_manifest_sha256": "dce2dc430dc0859b5d1894e652dda564885721b390c9436b7dc8e15621d2ac5a",
+  "corpus": "Exactly the frozen W1 12 training claims and 50 real URL strings; retain 9 Metadata occurrences separately",
+  "parent_is_read_only": true,
+  "development_status": "POST_W1 schema development, not preregistered confirmatory evidence",
+  "semantic_labels": ["ASSERT_SUPPORT", "ASSERT_REFUTE", "ATTRIBUTED_ONLY", "MIXED", "NOT_ADDRESSED"],
+  "missingness": "Uninspected/unavailable stance is null plus explicit availability reason; NOT_ADDRESSED requires inspected content",
+  "annotation_unit": "Claim-relative, version-specific attributed evidence statement; page label is a summary, not a substitute for statement records",
+  "human_gate": "Prepare W1-05 and W1-06 review packets; no genuine human signoff available in session, status PENDING",
+  "natural_error_scope": "Inspect only existing frozen original/updated/source representations and correction notices; no new crawling, claims or dataset download",
+  "controlled_alternative": "Design-only, explicitly simulated/Web-derived counterfactual; do not generate counterfactual source pages or run a model",
+  "model_service_calls": 0,
+  "Y_observations": 0,
+  "new_page_requests": 0,
+  "new_claims": 0,
+  "independence_rule": "Merge known shared evidence lineage only at statement level; source citation is not whole-page equivalence or proof of independence",
+  "theory_status": "Candidate generative structure only; no inheritance of previous identifiability or information-complexity theorems"
+}

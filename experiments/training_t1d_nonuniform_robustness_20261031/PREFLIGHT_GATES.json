@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "literal_fixture_paths": 224,
+  "literal_observation_checks": 23636,
+  "final_worst_MI_fixture_rechecks": 16,
+  "source_and_renderer_smoke_passed": true,
+  "distinct_contract_tests": 9,
+  "engineering_compile_corrections_before_execution": 2,
+  "scientific_worlds_consumed": 0,
+  "planned_worlds": 96,
+  "panels": {
+    "ID": 24,
+    "OOD-rate": 24,
+    "OOD-partition": 24,
+    "OOD-calibration": 24
+  },
+  "policies": 14,
+  "planned_paths": 5376,
+  "planned_online": 215040,
+  "projected_scientific_CPU_with_1p75_margin": 1590.097247928,
+  "hard_wall_seconds": 2400,
+  "sources_must_be_sealed_before_entropy": true,
+  "scientific_design_valid": true,
+  "model_supported_d_max4_G_max2": true,
+  "old_public_receipts_preserved": {
+    "t1a": 88,
+    "t1b": 100,
+    "t1c": 108
+  },
+  "all_six_previously_omitted_wrappers_in_source_set": true,
+  "granularity_tie_backend_primary_pair_matched": true,
+  "fixed_type_control_predeclared": true,
+  "native_anchor_noncomparability_disclosed": true,
+  "KL_nonuniform_not_artificially_invented": true,
+  "budgets_and_subgroups_fixed_before_entropy": true,
+  "causal_and_novelty_claim_limits_documented": true,
+  "no_confirmation_or_training_authorized": true
+}

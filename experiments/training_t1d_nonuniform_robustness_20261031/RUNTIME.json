@@ -1,0 +1,58 @@
+{
+  "scientific_execution": {
+    "planned_trajectories": 5376,
+    "independent_worlds": 96,
+    "budgets": [
+      16,
+      32,
+      48,
+      64
+    ],
+    "primary_budget": 32,
+    "maximum_online_actions": 215040,
+    "source_manifest_sha256": "13fbefd8a776bf3d7cbb6b24ae05f11112173ee68cda70cb2ab2621c9c2f8152",
+    "source_coverage": {
+      "all_local_python_files": 92,
+      "documents": 19,
+      "runtime_files": 2645,
+      "source_manifest_sha256": "13fbefd8a776bf3d7cbb6b24ae05f11112173ee68cda70cb2ab2621c9c2f8152",
+      "passed": true
+    },
+    "seed_commitment": "8ca49e32dfdacc259f36f421a97e559d02aa809094c8236d187a3d34e408d1b5",
+    "training_updates": 0,
+    "model_calls": 0,
+    "confirmation_worlds": 0,
+    "retries": 0,
+    "status": "completed",
+    "error": null,
+    "finished_trajectories": 5376,
+    "costs_including_partial": {
+      "task": 204915,
+      "type": 10125,
+      "offline": 236544
+    },
+    "seconds": 1447.7571142548695,
+    "evaluator_cpu_seconds": 93.05952914999999,
+    "frozen_files_preserved": true
+  },
+  "worker_CPU_total": 1354.020235881,
+  "worker_warmup_CPU": {
+    "KL-OriginalSolver": 0.033526038000000036,
+    "KL-AnalyticReuse": 0.03311155600000004,
+    "KL-Fresh": 0.03309863099999999,
+    "Fused-Info": 0.03263095800000004,
+    "IG-Uniform-Block": 0.03229777100000003,
+    "IG-Fact-Block": 0.03340523500000003,
+    "IG-Uniform-Fresh": 0.03273265000000003,
+    "IG-Fact-Fresh": 0.03339397600000005,
+    "IG-Uniform-Direct": 0.033305137999999956,
+    "Fresh-IG-Lite": 0.03282182300000003,
+    "Belief-Gated": 0.03301469999999995,
+    "WorstFact-MI": 0.032890328000000024,
+    "IG-Uniform-FixedType": 0.03360376100000001,
+    "IG-Fact-FixedType": 0.03261599300000001
+  },
+  "analysis_CPU": 54.516557743999996,
+  "analysis_wall": 54.52249622903764,
+  "scope": "per-arm full worker trajectory includes task/type handling, estimator, planner and terminal gate; parent aggregate CPU and pre-timer imports cannot be attributed to arms; offline replay excluded from policy cost"
+}

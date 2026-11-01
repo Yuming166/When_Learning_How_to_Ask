@@ -1,0 +1,16 @@
+{
+  "copied_old_python_files": 76,
+  "all_copy_bytes_equal_historical_originals": true,
+  "complete_trajectory_costs": {
+    "task": 204915,
+    "type": 10125,
+    "offline": 236544
+  },
+  "costs_match_execution_receipt": true,
+  "online_actions": 215040,
+  "total_acquisition": 451584,
+  "observed_paths": 5376,
+  "observed_checks": 564799,
+  "no_extra_scientific_run": true,
+  "postresult_interpretation_does_not_alter_preregistered_source": true
+}

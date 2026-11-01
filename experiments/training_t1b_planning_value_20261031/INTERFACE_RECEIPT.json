@@ -1,0 +1,12 @@
+{
+  "status": "3 contract tests PASS",
+  "not_used_in_scientific_evaluation": true,
+  "training_updates": 0,
+  "worlds": 0,
+  "files": {
+    "interfaces/test_adapter.py": "d058e150590b20bbf52f2dac7babf61e301c2aff8ede628286db1f8e44681867",
+    "interfaces/rl_adapter.py": "d24452e41bf117955b99711db6103ebde82bc52fe2fb01d816e247326893e4cb",
+    "interfaces/README.md": "d8e96634c1aa4529891191f5cbf9fe1ab590de8f3f28be6ea7e8eaf902faa0bb",
+    "audit/INTERFACE_TESTS.txt": "eb93c7400ece0b2208ac81f887fb53fe3e136e7c662fae8fcd26e07e74d5c14f"
+  }
+}

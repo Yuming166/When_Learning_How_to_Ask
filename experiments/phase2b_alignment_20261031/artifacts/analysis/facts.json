@@ -1,0 +1,30 @@
+{
+  "trajectories": 320,
+  "independent_worlds": 64,
+  "cells": 16,
+  "policies": [
+    "Round-Robin",
+    "Repeat-and-Compare",
+    "Direct Type Query",
+    "Oracle Format",
+    "Aligned Tracking"
+  ],
+  "per_cell_n": 4,
+  "costs": {
+    "task": 1021768,
+    "type": 16888,
+    "offline": 326400
+  },
+  "online_actions": 1038656,
+  "total_acquisition": 1365056,
+  "completed": 299,
+  "censored": 21,
+  "wrong_certificates": 0,
+  "planner_seconds": 405.4245143472217,
+  "glr_seconds": 51.442799081560224,
+  "wall_seconds": 723.7527251681313,
+  "new_model_calls": 0,
+  "new_confirmation_episodes": 0,
+  "formal_exact_machine_optimality": false,
+  "scope": "independent-cell development cost diagnostic, no inferential confirmation"
+}

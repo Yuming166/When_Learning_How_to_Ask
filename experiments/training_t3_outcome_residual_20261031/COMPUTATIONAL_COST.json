@@ -1,0 +1,161 @@
+{
+  "stages": [
+    {
+      "stage": "initialize",
+      "wall_seconds": 1.3485421473160386,
+      "coordinator_cpu_seconds": 1.3485294179999998,
+      "reaped_descendant_cpu_seconds": 0.0,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "collect",
+      "wall_seconds": 21.64592159492895,
+      "coordinator_cpu_seconds": 5.31125267,
+      "reaped_descendant_cpu_seconds": 16.38948,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "label-train",
+      "wall_seconds": 25.227356435731053,
+      "coordinator_cpu_seconds": 3.131448428,
+      "reaped_descendant_cpu_seconds": 89.232093,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "label-dev",
+      "wall_seconds": 14.4308528797701,
+      "coordinator_cpu_seconds": 2.9607270199999998,
+      "reaped_descendant_cpu_seconds": 46.084122,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "train",
+      "wall_seconds": 4.583262809086591,
+      "coordinator_cpu_seconds": 4.58283425,
+      "reaped_descendant_cpu_seconds": 0.0,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "dev",
+      "wall_seconds": 26.922769081778824,
+      "coordinator_cpu_seconds": 4.3964426759999995,
+      "reaped_descendant_cpu_seconds": 81.80454900000001,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    },
+    {
+      "stage": "test",
+      "wall_seconds": 229.08121051592752,
+      "coordinator_cpu_seconds": 2.804137672,
+      "reaped_descendant_cpu_seconds": 760.262232,
+      "scope": "aggregate CPU after stage entry, includes reaped descendants; excludes initial coordinator import and other sessions"
+    }
+  ],
+  "aggregate_experiment_cpu_seconds": 1018.3078481340001,
+  "stage_wall_seconds_sum": 323.2399154645391,
+  "scope": "measured collection, labels, network fitting, DEV/TEST through completion; excludes initial coordinator imports, preparation/reporting and unrelated sessions",
+  "train_labels": {
+    "split": "train",
+    "worlds": 48,
+    "states": 192,
+    "continuation_steps": 160128,
+    "K_per_first_answer_branch": 16,
+    "label_worker_cpu_seconds": 86.96927005800002,
+    "wall_seconds": 22.357963442336768,
+    "coordinator_cpu_seconds": 0.262123058,
+    "labels_sha256": "5fba50f4c51d864f367846683fe3045bf185671cbbe0c79c28edfc4bd6dcb7a9",
+    "source_check": {
+      "passed": true,
+      "sources": 98,
+      "documents": 12,
+      "runtime_files": 2645,
+      "historical_public_files": 132,
+      "manifest_sha256": "e24ae1327b454bbdfe4ab731009577f9a7db8a9e01c8e353a1a716d48e446b54"
+    }
+  },
+  "development_labels": {
+    "split": "development",
+    "worlds": 24,
+    "states": 96,
+    "continuation_steps": 77504,
+    "K_per_first_answer_branch": 16,
+    "label_worker_cpu_seconds": 43.633080734,
+    "wall_seconds": 11.60489511815831,
+    "coordinator_cpu_seconds": 0.13482166299999987,
+    "labels_sha256": "7366d1a8c7f36b5fde42115ef128adf3115bf20a07dbf1aafd4b2c737236c563",
+    "source_check": {
+      "passed": true,
+      "sources": 98,
+      "documents": 12,
+      "runtime_files": 2645,
+      "historical_public_files": 132,
+      "manifest_sha256": "e24ae1327b454bbdfe4ab731009577f9a7db8a9e01c8e353a1a716d48e446b54"
+    }
+  },
+  "network_fit_cpu_seconds": 1.8733028299999992,
+  "actual_world_paths": 4488,
+  "actual_world_costs": {
+    "task": 153917,
+    "type": 8131,
+    "offline": 199296
+  },
+  "online_actions": 162048,
+  "total_acquisition": 361344,
+  "selected_joint_cpu_ratio_vs_WorstFact": 2.5804741893248697,
+  "network_parameter_count": 1857,
+  "training_label_MSE_by_attempt": [
+    {
+      "mode": "task",
+      "seed": 7101,
+      "selected_epoch": 120,
+      "selected_dev_mse": 0.0008125384706523959
+    },
+    {
+      "mode": "task",
+      "seed": 7102,
+      "selected_epoch": 90,
+      "selected_dev_mse": 0.0008328907593484907
+    },
+    {
+      "mode": "task",
+      "seed": 7103,
+      "selected_epoch": 120,
+      "selected_dev_mse": 0.0008771695586794298
+    },
+    {
+      "mode": "type",
+      "seed": 7101,
+      "selected_epoch": 90,
+      "selected_dev_mse": 0.0012874826359615707
+    },
+    {
+      "mode": "type",
+      "seed": 7102,
+      "selected_epoch": 120,
+      "selected_dev_mse": 0.001419785601881246
+    },
+    {
+      "mode": "type",
+      "seed": 7103,
+      "selected_epoch": 120,
+      "selected_dev_mse": 0.0012958217357586755
+    },
+    {
+      "mode": "joint",
+      "seed": 7101,
+      "selected_epoch": 120,
+      "selected_dev_mse": 0.0012115949357044001
+    },
+    {
+      "mode": "joint",
+      "seed": 7102,
+      "selected_epoch": 60,
+      "selected_dev_mse": 0.0012326004974262082
+    },
+    {
+      "mode": "joint",
+      "seed": 7103,
+      "selected_epoch": 60,
+      "selected_dev_mse": 0.0012011105448006642
+    }
+  ]
+}

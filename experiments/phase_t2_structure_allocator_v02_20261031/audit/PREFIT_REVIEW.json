@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "native same-family independent public-source/data inspection, not formal or cross-family review",
+  "reviewer": "/root/t2_design_audit",
+  "worlds": 352,
+  "rows": 2112,
+  "train_rows": 1536,
+  "cut_arrays": 3072,
+  "online_actions": 360448,
+  "unique_offline_observations": 100976,
+  "budget_teacher_counts": [
+    4,
+    11,
+    12,
+    15,
+    17,
+    17
+  ],
+  "budget_worlds": 18,
+  "frozen_budgets": [
+    32,
+    64
+  ],
+  "source_files_unchanged": 22,
+  "dependencies_unchanged": 60,
+  "no_fitting_at_review": true,
+  "student_outcomes_used": 0,
+  "private_contents_read_by_reviewer": false,
+  "recorded_unix_time": 1793430210.7703338
+}

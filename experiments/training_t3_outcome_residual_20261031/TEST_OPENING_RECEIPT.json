@@ -1,0 +1,12 @@
+{
+  "dev_selection_sha256": "2d3a809ca8bffa77ff97b795c2fcf51d01bbdba44c9f14d6ce16fc63c23f830b",
+  "model_hashes": {
+    "Learned-Task-7102": "40c63a00a818f8d389316e01f8f92dfef64965737205266fbdd0ce8a235f6a26",
+    "Learned-Type-7101": "1cc98ed95dcae696618e734f7dad59e5b6a9586fcb8ae56fb662528224c9eb9d",
+    "Learned-Joint-7101": "f7970276e041389b0a1efa683c6bca92827bf6695b84bb6a5206590e7c76e58f",
+    "Learned-Joint-7102": "5b4d5c873d6c22388d3ad79ef446249651a1598b4126ff0bd967d0b641a53315",
+    "Learned-Joint-7103": "62730033ba38afb7857be9e25e5b5f71571fc1c28a8c5eea3251cfe72698cec1"
+  },
+  "selection_frozen_before_test": true,
+  "independent_confirmation": false
+}

@@ -1,0 +1,17 @@
+{
+ "stage":"T0; planning only",
+ "selection":"minimum existing Aligned-Full world index per fixed Phase2e cell; all 64/256/terminal stored prefixes",
+ "maximum_states":24,
+ "repeats":3,
+ "wall_seconds":120,
+ "blas_threads":1,
+ "maximum_instrumented_teacher_calls":72,
+ "maximum_unwrapped_teacher_calls":24,
+ "maximum_existing_information_rule_calls":24,
+ "new_worlds":0,
+ "new_queries":0,
+ "training_authorized":false,
+ "model_calls_authorized":false,
+ "qwen_loading_authorized":false,
+ "posthoc_scope":"T0 fixed-state profiling only; excluded from future training and independent evaluation"
+}

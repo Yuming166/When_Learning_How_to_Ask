@@ -1,0 +1,352 @@
+{
+  "WorstFact-MI": {
+    "brier": {
+      "mean_difference": -0.012940562197157404,
+      "ci95": [
+        -0.045265318578141776,
+        0.020427350436331447
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": -0.03236643165119267,
+      "ci95": [
+        -0.09557944937622445,
+        0.03203298129354212
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": -0.00027175466938133994,
+      "ci95": [
+        -0.0022049846294991244,
+        0.0017571480407926722
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": 0.0007648269361214965,
+      "ci95": [
+        -0.0007895719052903219,
+        0.002388595781350275
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": -0.020833333333333332,
+      "ci95": [
+        -0.0625,
+        0.020833333333333332
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": -0.010416666666666666,
+      "ci95": [
+        -0.0625,
+        0.041666666666666664
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "Fresh-IG-Lite": {
+    "brier": {
+      "mean_difference": -0.004876056656085295,
+      "ci95": [
+        -0.03350429633792656,
+        0.025906717728834138
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": -0.004028135785480898,
+      "ci95": [
+        -0.063173105679783,
+        0.05933446623122499
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": 0.0007967537683967989,
+      "ci95": [
+        -0.001509567075386185,
+        0.003191152203174829
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": 0.0005158451422638544,
+      "ci95": [
+        -0.0011799930603690427,
+        0.00229612759352603
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": 0.0,
+      "ci95": [
+        -0.041666666666666664,
+        0.041666666666666664
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": -0.052083333333333336,
+      "ci95": [
+        -0.11458333333333333,
+        0.010416666666666666
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "Belief-Gated": {
+    "brier": {
+      "mean_difference": 0.0017874309622957936,
+      "ci95": [
+        -0.024452646933056356,
+        0.029586362668051955
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": 0.007665027609400389,
+      "ci95": [
+        -0.05108175946936134,
+        0.0670720861382124
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": 0.001387474359302792,
+      "ci95": [
+        -0.0008594328931353774,
+        0.0037223412732343237
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": -1.4632671808694278e-05,
+      "ci95": [
+        -0.0016638205705468586,
+        0.0017116411222969123
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": 0.015625,
+      "ci95": [
+        -0.020833333333333332,
+        0.052083333333333336
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": -0.046875,
+      "ci95": [
+        -0.109375,
+        0.015625
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "KL-AnalyticReuse": {
+    "brier": {
+      "mean_difference": -0.12894764074950685,
+      "ci95": [
+        -0.18697775379876408,
+        -0.07139091033338478
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": -0.23850231151451295,
+      "ci95": [
+        -0.36912860454087754,
+        -0.10959835155630339
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": -0.002279595859798065,
+      "ci95": [
+        -0.006060984072688495,
+        0.0015983229106434071
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": -0.002284104190891322,
+      "ci95": [
+        -0.00513213150138255,
+        0.00048822130101064534
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": -0.15625,
+      "ci95": [
+        -0.234375,
+        -0.078125
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": 0.07291666666666667,
+      "ci95": [
+        -0.010416666666666666,
+        0.15625
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "Fused-Info": {
+    "brier": {
+      "mean_difference": -0.04260817799062344,
+      "ci95": [
+        -0.08953607775656344,
+        0.004495600203173441
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": -0.07126882828077033,
+      "ci95": [
+        -0.1742235021540566,
+        0.03567836333064545
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": -0.0020785625395163244,
+      "ci95": [
+        -0.005239370377322341,
+        0.0010272780273802894
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": 0.0009678134411173223,
+      "ci95": [
+        -0.0012839219457107184,
+        0.0033392566154736283
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": -0.0625,
+      "ci95": [
+        -0.125,
+        -0.005208333333333333
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": -0.010416666666666666,
+      "ci95": [
+        -0.08854166666666667,
+        0.06770833333333333
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "Rule-Switch": {
+    "brier": {
+      "mean_difference": 0.013900821571618377,
+      "ci95": [
+        -0.021502628068696534,
+        0.04786306897054432
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": 0.014038916144711837,
+      "ci95": [
+        -0.06895874521549664,
+        0.09418833021247187
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": -0.0016381680324928933,
+      "ci95": [
+        -0.0037563799036357025,
+        0.0004200151853190032
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": 0.0004907567692835294,
+      "ci95": [
+        -0.0020345906630097293,
+        0.0028906582881293996
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": 0.0,
+      "ci95": [
+        -0.046875,
+        0.046875
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": 0.041666666666666664,
+      "ci95": [
+        -0.03125,
+        0.11458333333333333
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  },
+  "IG-Fact-FixedType": {
+    "brier": {
+      "mean_difference": 0.017025434122526776,
+      "ci95": [
+        -0.024355800547582216,
+        0.05908237365754635
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "nll": {
+      "mean_difference": 0.019003220651262864,
+      "ci95": [
+        -0.08296966009324275,
+        0.1208330958815282
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "p_abs_error": {
+      "mean_difference": -0.0027934338486680192,
+      "ci95": [
+        -0.005508927395865762,
+        -0.00022155170851871934
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "q_abs_error": {
+      "mean_difference": 0.00030480900376749057,
+      "ci95": [
+        -0.0019758461364964763,
+        0.0024876291168010366
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "theta_errors": {
+      "mean_difference": -0.020833333333333332,
+      "ci95": [
+        -0.08333333333333333,
+        0.036458333333333336
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    },
+    "type_errors": {
+      "mean_difference": 0.015625,
+      "ci95": [
+        -0.0625,
+        0.09375
+      ],
+      "interpretation": "negative favors learned Joint; exploratory secondary metric, no multiplicity claim"
+    }
+  }
+}

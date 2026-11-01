@@ -1,0 +1,23 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "system": "Linux",
+  "machine": "x86_64",
+  "host": "cloud82",
+  "branch": "training/t1b_planning_value",
+  "base_commit": "3186587",
+  "thread_limits": {
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1
+  },
+  "worlds": 96,
+  "fixed_budget_paths": 2592,
+  "training_updates": 0,
+  "rl_training_rollouts": 0,
+  "gpu_calls": 0,
+  "qwen_calls": 0,
+  "external_model_calls": 0,
+  "confirmation_worlds": 0,
+  "automatic_retries": 0
+}

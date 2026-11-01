@@ -1,0 +1,279 @@
+{
+  "worlds": 96,
+  "baseline_successes": 80,
+  "all_policy_hindsight_oracle": 89,
+  "candidate_policy_hindsight_oracle": 87,
+  "candidate_oracle_headroom_pp": 7.291666666666667,
+  "pairs": {
+    "Belief-Gated": {
+      "successes": 78,
+      "wins": 2,
+      "losses": 4,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.0878218649281362
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.12465108445460829
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": 0.1113230049640451
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.07224963891570871
+        }
+      }
+    },
+    "Fresh-IG-Lite": {
+      "successes": 77,
+      "wins": 1,
+      "losses": 4,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.10527616926041342
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.16721596732237404
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": 0.13883129796932012
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.10058670003198186
+        }
+      }
+    },
+    "Fused-Info": {
+      "successes": 74,
+      "wins": 2,
+      "losses": 8,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.02955923533110877
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": 0.010657506639971384
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.0012579568494382172
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.09004789162922056
+        }
+      }
+    },
+    "IG-Fact-Block": {
+      "successes": 75,
+      "wins": 2,
+      "losses": 7,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.00809454982384734
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": 0.0397451353556165
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.031444607809912054
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.06267331999009458
+        }
+      }
+    },
+    "IG-Fact-FixedType": {
+      "successes": 82,
+      "wins": 4,
+      "losses": 2,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.003937020601912008
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.0054055581572156775
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.0008056870650682775
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": -0.003547981255159483
+        }
+      }
+    },
+    "IG-Fact-Fresh": {
+      "successes": 78,
+      "wins": 3,
+      "losses": 5,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.04260557539140027
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.07475826726556248
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.020230346116585474
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.018857016522130295
+        }
+      }
+    },
+    "IG-Uniform-Block": {
+      "successes": 74,
+      "wins": 2,
+      "losses": 8,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": 0.0306706744183304
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.0040943111380114805
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.114870679482081
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.10231121229603608
+        }
+      }
+    },
+    "IG-Uniform-Direct": {
+      "successes": 75,
+      "wins": 3,
+      "losses": 8,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.03310970778546682
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": 0.013529292514173646
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.04775849535882791
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.06297139244517411
+        }
+      }
+    },
+    "IG-Uniform-FixedType": {
+      "successes": 70,
+      "wins": 1,
+      "losses": 11,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.0036832613818776707
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.018537753593114322
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.02905486497297519
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.03618882340401814
+        }
+      }
+    },
+    "IG-Uniform-Fresh": {
+      "successes": 73,
+      "wins": 1,
+      "losses": 8,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.015770245695188444
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.038301484842394595
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.0016857227941893152
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.054322230730952666
+        }
+      }
+    },
+    "KL-AnalyticReuse": {
+      "successes": 74,
+      "wins": 6,
+      "losses": 12,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": 0.0048173305794364865
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": 0.09102731382375465
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.1791926213785116
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.12309442984729901
+        }
+      }
+    },
+    "KL-Fresh": {
+      "successes": 73,
+      "wins": 6,
+      "losses": 13,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.030063228080638098
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": -0.03344811540499936
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.06826685211725775
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.04198762095863206
+        }
+      }
+    },
+    "KL-OriginalSolver": {
+      "successes": 72,
+      "wins": 5,
+      "losses": 13,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": -0.0145253679655096
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": 0.05534904532166296
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": -0.14773485472559864
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": 0.1425780592794867
+        }
+      }
+    },
+    "WorstFact-MI": {
+      "successes": 80,
+      "wins": 0,
+      "losses": 0,
+      "observable_prefix_associations": {
+        "type_entropy": {
+          "correlation_with_paired_outcome": null
+        },
+        "mean_fact_entropy": {
+          "correlation_with_paired_outcome": null
+        },
+        "joint_map_probability": {
+          "correlation_with_paired_outcome": null
+        },
+        "estimated_gap": {
+          "correlation_with_paired_outcome": null
+        }
+      }
+    }
+  },
+  "prefix": "first free round at t=4d; all arms share only forced task history at this point",
+  "scope": "Historical development-only opportunity audit. Full-policy oracle cannot select actions; associations are exploratory, not deployable gains.",
+  "T1b_interface": "Four macro proposals KL/IG/TYPE/TASK; all legal joint posterior. T3 adds WorstFact and a task fallback; physical actions deduplicated.",
+  "historical_private_or_confirmation_access": false
+}

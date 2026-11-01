@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "rows_checked": 2112,
+  "complete_world_split_disjoint": true,
+  "strict_nested_student_whitelist": true,
+  "teacher_targets_observable_only": true,
+  "cuts_rows_checked": 1536,
+  "hidden_values_in_student_inputs": false,
+  "wall_seconds": 0.8933167299255729,
+  "scope": "Source-backed legal-input and shape/data audit; no human/Natural validity or asymptotic proof."
+}

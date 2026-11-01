@@ -1,0 +1,20 @@
+{
+  "scope": "two primary-source checks; not exhaustive priority or novelty review",
+  "access_date": "2026-10-31",
+  "sources": [
+    {
+      "title": "Bayesian Active Learning for Classification and Preference Learning",
+      "authors": "Houlsby, Huszar, Ghahramani, Lengyel",
+      "year": 2011,
+      "url": "https://arxiv.org/abs/1112.5745",
+      "used_for": "information-theoretic myopic acquisition is established; does not prove equivalence of its GP classifier to our shared-reliability setting"
+    },
+    {
+      "title": "Bayesian Experimental Design: A Review",
+      "authors": "Chaloner, Verdinelli",
+      "year": 1995,
+      "url": "https://www.stat.cmu.edu/tr/tr599/tr599.html",
+      "used_for": "expected utility Bayesian design is established; general framing only"
+    }
+  ]
+}

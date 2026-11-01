@@ -1,0 +1,48 @@
+{
+  "protocol_id": "W1-AVeriTeC-v1",
+  "client_date": "2026-11-01",
+  "freeze_order": "Written before downloading or inspecting train.json in this audit",
+  "objective": "Audit reference truth theta, page assertion V and provenance feasibility; Y remains unobserved",
+  "upstream_repository": "https://github.com/MichSchli/AVeriTeC",
+  "split": "train",
+  "selection": {
+    "eligibility": "Nonempty string claim and label exactly Supported or Refuted; no other content, access, atomicity, URL or provenance filters",
+    "strata": {"Supported": 6, "Refuted": 6},
+    "rank": "Ascending SHA256 of UTF-8 string W1-v1|{zero_based_train_index}|{claim_text}, tie break train index",
+    "display_order": "Selected train index ascending",
+    "replacement": false,
+    "interpretation": "Label-balanced feasibility sample, not a prevalence estimate"
+  },
+  "access": {
+    "scope": "All nonempty original_claim_url, cached_original_claim_url, fact_checking_article, question-answer source_url and cached_source_url values in the selected 12 records",
+    "deduplication": "Exact URL string after surrounding whitespace removal only; do not infer independent sources from URL/domain differences",
+    "requests_per_url": 1,
+    "timeout_seconds": 20,
+    "max_bytes_per_response": 8000000,
+    "concurrency": 3,
+    "fallback": "One browser-tool open of each distinct nonarchive URL with insufficient local content, and direct inspection of relevant locally downloaded pages; do not search for replacement claims/pages. Additional opens/finds within the same page allowed. Record access method and failures separately.",
+    "historical_status": "A current page or redirect is not evidence of its content at claim time; mark temporal qualifications. An archive URL timestamp alone is not proof of readable historical evidence."
+  },
+  "annotations": {
+    "theta": "Dataset fact-check reference, qualified by time/scope and inspected evidence; never absolute truth or human verification",
+    "V": "Binary 1/0 only if inspected page asserts or explicitly rejects the SAME full scoped claim; otherwise null with reason quote_only, partial, mixed, unclear, unavailable, temporal_mismatch or irrelevant",
+    "reference_role": "Factchecker verdicts are evaluator-only reference pages, not independent ordinary source-error observations",
+    "Y": null,
+    "provenance": "Explicit attribution, common upstream, duplicate content, URL reuse or unknown; different domains do not establish independence",
+    "review_status": "AI-assisted provisional annotations; human signoffs zero"
+  },
+  "decision": {
+    "page_candidate": "Readable frozen excerpt/text with locator, determinate full-claim V, explicit temporal scope and role",
+    "case_candidate": "At least one nonreference page_candidate plus a reviewable qualified reference theta; otherwise quarantine",
+    "stage_go": "Report feasibility candidates and natural error/dependence examples, if present; no automatic W2 signoff or W3 authorization",
+    "stop": "Finish all 12 records including failures, report NO_GO/REVISE when prerequisites fail; no replacement or label relaxation"
+  },
+  "limits": {
+    "model_inference_calls": 0,
+    "training_jobs": 0,
+    "methodology_reruns": 0,
+    "modify_historical_artifacts": false,
+    "W2_human_signoff": "NOT_PERFORMED",
+    "W3": "NOT_AUTHORIZED"
+  }
+}

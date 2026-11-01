@@ -1,0 +1,243 @@
+{
+  "trajectories": 288,
+  "worlds": 32,
+  "counters": {
+    "task": 324298,
+    "type": 24758,
+    "offline": 117504
+  },
+  "unique_shared_offline": 13056,
+  "complete": 287,
+  "exact": 288,
+  "certified_wrong": 0,
+  "censored": 1,
+  "gate_status_counts": {
+    "certified": 287,
+    "rejected": 1
+  },
+  "gate_checks": 288,
+  "quadrature_max_abs": 0.0018835007661976988,
+  "coefficients": [
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 0,
+      "K_with_type": 5.770220249367392,
+      "K_oracle": 4.810654084479637,
+      "premium": 0.9595661648877547,
+      "scope": "post_run_population_reference_only_not_input_to_policy"
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "alpha": 3,
+      "K_with_type": 5.200708214585602,
+      "K_oracle": 4.101969826071568,
+      "premium": 1.0987383885140343,
+      "scope": "post_run_population_reference_only_not_input_to_policy"
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 0,
+      "K_with_type": 4.810654089290328,
+      "K_oracle": 4.810654084479637,
+      "premium": 4.8106905126132915e-09,
+      "scope": "post_run_population_reference_only_not_input_to_policy"
+    },
+    {
+      "partition": [
+        4
+      ],
+      "alpha": 3,
+      "K_with_type": 4.253632462877016,
+      "K_oracle": 4.101969826071568,
+      "premium": 0.15166263680544834,
+      "scope": "post_run_population_reference_only_not_input_to_policy"
+    }
+  ],
+  "aggregates": [
+    {
+      "policy": "Aligned-Full",
+      "n": 32,
+      "online": 39776,
+      "task": 35270,
+      "type": 4506,
+      "offline": 13056,
+      "total_acquisition": 52832,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 158.48939780099994,
+      "trajectory_wall_seconds": 165.05781656643376,
+      "planner_cpu_seconds": 153.14453378899992,
+      "gate_seconds": 0.5183020760305226,
+      "glr_cpu_seconds": 1.2480916839995946
+    },
+    {
+      "policy": "Aligned-NoType",
+      "n": 32,
+      "online": 39376,
+      "task": 39376,
+      "type": 0,
+      "offline": 13056,
+      "total_acquisition": 52432,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 184.498804415,
+      "trajectory_wall_seconds": 191.00250470358878,
+      "planner_cpu_seconds": 179.23321009700012,
+      "gate_seconds": 0.46716250432655215,
+      "glr_cpu_seconds": 1.2513750840002442
+    },
+    {
+      "policy": "D-RRC-NoType",
+      "n": 32,
+      "online": 55344,
+      "task": 55344,
+      "type": 0,
+      "offline": 13056,
+      "total_acquisition": 68400,
+      "complete": 31,
+      "censored": 1,
+      "exact": 32,
+      "trajectory_cpu_seconds": 16.612699299000003,
+      "trajectory_wall_seconds": 26.18993067694828,
+      "planner_cpu_seconds": 0.620507100000022,
+      "gate_seconds": 0.9505151296034455,
+      "glr_cpu_seconds": 4.018163695999963
+    },
+    {
+      "policy": "D-RRC-Type",
+      "n": 32,
+      "online": 41648,
+      "task": 34734,
+      "type": 6914,
+      "offline": 13056,
+      "total_acquisition": 54704,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 13.302136142,
+      "trajectory_wall_seconds": 20.63021007878706,
+      "planner_cpu_seconds": 0.759088761000029,
+      "gate_seconds": 1.0964771057479084,
+      "glr_cpu_seconds": 3.092073448999986
+    },
+    {
+      "policy": "Fused-Original",
+      "n": 32,
+      "online": 32912,
+      "task": 29596,
+      "type": 3316,
+      "offline": 13056,
+      "total_acquisition": 45968,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 141.64243451699997,
+      "trajectory_wall_seconds": 147.1125511387363,
+      "planner_cpu_seconds": 137.15663473800066,
+      "gate_seconds": 0.48966677160933614,
+      "glr_cpu_seconds": 1.0181509510003133
+    },
+    {
+      "policy": "Fused-Info",
+      "n": 32,
+      "online": 31808,
+      "task": 28673,
+      "type": 3135,
+      "offline": 13056,
+      "total_acquisition": 44864,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 64.58604835699998,
+      "trajectory_wall_seconds": 69.88253288716078,
+      "planner_cpu_seconds": 60.27303278300007,
+      "gate_seconds": 0.5327463452704251,
+      "glr_cpu_seconds": 1.0089103379999877
+    },
+    {
+      "policy": "Fused-D-RRC-Type",
+      "n": 32,
+      "online": 36784,
+      "task": 29897,
+      "type": 6887,
+      "offline": 13056,
+      "total_acquisition": 49840,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 16.53220342499999,
+      "trajectory_wall_seconds": 22.51059066131711,
+      "planner_cpu_seconds": 9.815932692999965,
+      "gate_seconds": 0.679043429903686,
+      "glr_cpu_seconds": 1.5481698050000177
+    },
+    {
+      "policy": "Fused-Original-NoType",
+      "n": 32,
+      "online": 36288,
+      "task": 36288,
+      "type": 0,
+      "offline": 13056,
+      "total_acquisition": 49344,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 165.332954218,
+      "trajectory_wall_seconds": 171.38271752698347,
+      "planner_cpu_seconds": 160.6622585880003,
+      "gate_seconds": 0.46528753777965903,
+      "glr_cpu_seconds": 1.086493798000337
+    },
+    {
+      "policy": "Fused-Info-NoType",
+      "n": 32,
+      "online": 35120,
+      "task": 35120,
+      "type": 0,
+      "offline": 13056,
+      "total_acquisition": 48176,
+      "complete": 32,
+      "censored": 0,
+      "exact": 32,
+      "trajectory_cpu_seconds": 59.477260509000025,
+      "trajectory_wall_seconds": 65.28966435836628,
+      "planner_cpu_seconds": 54.93648270700007,
+      "gate_seconds": 0.4763862704858184,
+      "glr_cpu_seconds": 1.0597256180000167
+    }
+  ],
+  "execution": {
+    "planned_trajectories": 288,
+    "independent_worlds": 32,
+    "maximum_online_actions": 1179648,
+    "freeze_sha256": "5effb0a93336b4a857437035630ed2f9a08bfe08620968a7cbef47f8db4ce981",
+    "seed_commitment": "5f90b8571e784ccf62b4ad6232d4952cb899beb694ef2693d0cf7733230ea774",
+    "model_calls": 0,
+    "confirmation_worlds": 0,
+    "retries": 0,
+    "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+    "stop_mode": "certified",
+    "source_snapshot_sha256": "8835941e64666c2274dbcd2a7b926dcec2ae69a0d81f9f2a163d00bb67d8692a",
+    "status": "completed",
+    "error": null,
+    "finished_trajectories": 288,
+    "costs_including_partial": {
+      "task": 324298,
+      "type": 24758,
+      "offline": 117504
+    },
+    "seconds": 884.2764577060007,
+    "evaluator_cpu_seconds": 72.626438554,
+    "frozen_files_preserved": true
+  }
+}

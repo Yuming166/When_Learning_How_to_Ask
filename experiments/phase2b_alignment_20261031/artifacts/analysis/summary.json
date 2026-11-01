@@ -1,0 +1,2660 @@
+[
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 37.0,
+    "bootstrap_mean_95": [
+      21.0,
+      63.0
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 6.412233571856539,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 37.0,
+    "mean_task": 507.5,
+    "mean_type": 84.5,
+    "mean_glr_seconds": 0.017680560471490026,
+    "mean_planner_seconds": 5.49461795669049,
+    "completed_costs": [
+      1200,
+      432,
+      304,
+      432
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 0,
+    "censored": 4,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 128.0,
+    "bootstrap_mean_95": [
+      128.0,
+      128.0
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 22.18286208642262,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 128.0,
+    "mean_task": 2046.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.15300185594242066,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 12.0,
+    "bootstrap_mean_95": [
+      10.5,
+      13.5
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 2.494463286960286,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 12.0,
+    "mean_task": 192.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.015166830155067146,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      208,
+      224,
+      176,
+      160
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 36.0,
+    "bootstrap_mean_95": [
+      33.25,
+      37.75
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 4.909458739181042,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 36.0,
+    "mean_task": 576.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.042305260663852096,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      592,
+      608,
+      512,
+      592
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 36.75,
+    "bootstrap_mean_95": [
+      31.0,
+      42.5
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 5.011739129580646,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 36.75,
+    "mean_task": 588.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03514391090720892,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      704,
+      656,
+      480,
+      512
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 19.3125,
+    "bootstrap_mean_95": [
+      12.375,
+      27.6875
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 3.346925969094038,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 19.3125,
+    "mean_task": 1111.0,
+    "mean_type": 125.0,
+    "mean_glr_seconds": 0.03508039191365242,
+    "mean_planner_seconds": 7.452347928308882,
+    "completed_costs": [
+      1312,
+      640,
+      944
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 2,
+    "censored": 2,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 26.8125,
+    "bootstrap_mean_95": [
+      21.625,
+      32.0
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 4.646703044470364,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 26.8125,
+    "mean_task": 1714.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.1283380031818524,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1456,
+      1312
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.25,
+    "bootstrap_mean_95": [
+      6.5625,
+      7.6875
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.5070715692051726,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 7.25,
+    "mean_task": 464.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03568723984062672,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      480,
+      400,
+      496,
+      480
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 18.6875,
+    "bootstrap_mean_95": [
+      17.125,
+      20.25
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 2.548486394123492,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 18.6875,
+    "mean_task": 1196.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.08615884091705084,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1296,
+      1056,
+      1136,
+      1296
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 18.9375,
+    "bootstrap_mean_95": [
+      17.625,
+      20.8125
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 2.582579857590027,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 18.9375,
+    "mean_task": 1212.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.08325707702897489,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1200,
+      1104,
+      1152,
+      1392
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 8.671875,
+    "bootstrap_mean_95": [
+      8.25,
+      9.296875
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 1.5028672434038763,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 8.671875,
+    "mean_task": 1929.75,
+    "mean_type": 290.25,
+    "mean_glr_seconds": 0.06338029226753861,
+    "mean_planner_seconds": 11.793818268575706,
+    "completed_costs": [
+      2096,
+      2192,
+      2128,
+      2464
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 16.703125,
+    "bootstrap_mean_95": [
+      15.3125,
+      18.09375
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 2.894711861619358,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 16.703125,
+    "mean_task": 4274.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.31672374974004924,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      3984,
+      4752,
+      3856,
+      4512
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.859375,
+    "bootstrap_mean_95": [
+      5.5,
+      6.21875
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.2179996518360772,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.859375,
+    "mean_task": 1500.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.11431267100851983,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1424,
+      1584,
+      1600,
+      1392
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.578125,
+    "bootstrap_mean_95": [
+      13.9375,
+      15.21875
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 1.9880750883923228,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 14.578125,
+    "mean_task": 3732.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.27293112862389535,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      3616,
+      3936,
+      3520,
+      3856
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.109375,
+    "bootstrap_mean_95": [
+      13.71875,
+      14.5
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 1.9241498443925698,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 14.109375,
+    "mean_task": 3612.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.2548352148151025,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      3488,
+      3728,
+      3696,
+      3536
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 6.6875,
+    "bootstrap_mean_95": [
+      6.46875,
+      7.03125
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 1.1589678922105568,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 6.6875,
+    "mean_task": 5764.0,
+    "mean_type": 1084.0,
+    "mean_glr_seconds": 0.10412126989103854,
+    "mean_planner_seconds": 20.49182285112329,
+    "completed_costs": [
+      6624,
+      6624,
+      6752,
+      7392
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 24576,
+    "completed": 1,
+    "censored": 3,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 21.9140625,
+    "bootstrap_mean_95": [
+      17.7421875,
+      24.0
+    ],
+    "coefficient_reference": 5.770220249367392,
+    "restricted_ratio_over_K": 3.797786142115201,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 21.9140625,
+    "mean_task": 22438.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.8337419887538999,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      16032
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.0546875,
+    "bootstrap_mean_95": [
+      4.9296875,
+      5.140625
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.0507276996505892,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.0546875,
+    "mean_task": 5176.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.19891804072540253,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      5216,
+      4992,
+      5280,
+      5216
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 12.171875,
+    "bootstrap_mean_95": [
+      11.875,
+      12.4765625
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 1.6599255025269233,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 12.171875,
+    "mean_task": 12464.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.4559380094287917,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      12960,
+      12096,
+      12224,
+      12576
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 12.1953125,
+    "bootstrap_mean_95": [
+      11.828125,
+      12.59375
+    ],
+    "coefficient_reference": 7.332783899922386,
+    "restricted_ratio_over_K": 1.663121764726911,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 12.1953125,
+    "mean_task": 12488.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.44323646801058203,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      13120,
+      12000,
+      12608,
+      12224
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 42.5,
+    "bootstrap_mean_95": [
+      30.5,
+      55.25
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 8.171963941527615,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 48.5,
+    "mean_task": 594.0,
+    "mean_type": 86.0,
+    "mean_glr_seconds": 0.019815712934359908,
+    "mean_planner_seconds": 6.2036928872112185,
+    "completed_costs": [
+      464,
+      512,
+      736,
+      1008
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 2,
+    "censored": 2,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 84.25,
+    "bootstrap_mean_95": [
+      40.5,
+      128.0
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 16.19971675467533,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 90.25,
+    "mean_task": 1346.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.10052501247264445,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      704,
+      592
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.25,
+    "bootstrap_mean_95": [
+      12.75,
+      15.5
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 3.4739407173180354,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 20.25,
+    "mean_task": 228.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.017915525590069592,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      192,
+      224,
+      240,
+      256
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 48.5,
+    "bootstrap_mean_95": [
+      38.0,
+      60.5
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 7.172442227328735,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 54.5,
+    "mean_task": 776.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.05642601230647415,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1056,
+      800,
+      704,
+      544
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 50.75,
+    "bootstrap_mean_95": [
+      43.5,
+      58.0
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 7.505184392514088,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 56.75,
+    "mean_task": 812.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.0574993904447183,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      992,
+      864,
+      736,
+      656
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 12.875,
+    "bootstrap_mean_95": [
+      11.4375,
+      14.3125
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 2.475624370521601,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 18.875,
+    "mean_task": 651.5,
+    "mean_type": 172.5,
+    "mean_glr_seconds": 0.024056270951405168,
+    "mean_planner_seconds": 6.201415196293965,
+    "completed_costs": [
+      784,
+      688,
+      960,
+      864
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 2,
+    "censored": 2,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 26.75,
+    "bootstrap_mean_95": [
+      21.5,
+      32.0
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 5.143530245549734,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 32.75,
+    "mean_task": 1710.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.12909017002675682,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1488,
+      1264
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.125,
+    "bootstrap_mean_95": [
+      6.5,
+      7.8125
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.7369703586590177,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 13.125,
+    "mean_task": 456.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03614852449391037,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      464,
+      416,
+      416,
+      528
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 20.6875,
+    "bootstrap_mean_95": [
+      19.3125,
+      22.25
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 3.0593793521208905,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 26.6875,
+    "mean_task": 1324.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.10052966396324337,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1280,
+      1200,
+      1472,
+      1344
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 19.875,
+    "bootstrap_mean_95": [
+      18.625,
+      21.4375
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 2.939222459137291,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 25.875,
+    "mean_task": 1272.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.09368839021772146,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1424,
+      1168,
+      1216,
+      1280
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 8.5625,
+    "bootstrap_mean_95": [
+      8.0,
+      9.390625
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 1.6464103823371812,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 14.5625,
+    "mean_task": 1670.5,
+    "mean_type": 521.5,
+    "mean_glr_seconds": 0.07194601965602487,
+    "mean_planner_seconds": 10.346672769635916,
+    "completed_costs": [
+      2016,
+      2080,
+      2160,
+      2512
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 6144,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 18.140625,
+    "bootstrap_mean_95": [
+      14.9375,
+      22.296875
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 3.488106667688809,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 24.140625,
+    "mean_task": 4642.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.39214891369920224,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      4400,
+      4400,
+      3632
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.21875,
+    "bootstrap_mean_95": [
+      4.6875,
+      5.5625
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.272254604807263,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 11.21875,
+    "mean_task": 1336.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.11638204322662205,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1392,
+      1440,
+      1376,
+      1136
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.09375,
+    "bootstrap_mean_95": [
+      13.4375,
+      14.6875
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 2.084259951369368,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 20.09375,
+    "mean_task": 3608.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.30108431493863463,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      3360,
+      3680,
+      3824,
+      3568
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 13.578125,
+    "bootstrap_mean_95": [
+      12.53125,
+      14.625
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 2.0080065385143913,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 19.578125,
+    "mean_task": 3476.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.2824120159493759,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      3152,
+      3776,
+      3712,
+      3264
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 6.3046875,
+    "bootstrap_mean_95": [
+      6.0625,
+      6.65625
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 1.2122747979435267,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 12.3046875,
+    "mean_task": 4924.75,
+    "mean_type": 1531.25,
+    "mean_glr_seconds": 0.14664584316778928,
+    "mean_planner_seconds": 19.02980096952524,
+    "completed_costs": [
+      6176,
+      6240,
+      7008,
+      6400
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 24576,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 16.7109375,
+    "bootstrap_mean_95": [
+      13.9375,
+      21.5
+    ],
+    "coefficient_reference": 5.200708214585602,
+    "restricted_ratio_over_K": 3.2132042042146263,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 22.7109375,
+    "mean_task": 17110.0,
+    "mean_type": 2.0,
+    "mean_glr_seconds": 0.9767562337219715,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      14336,
+      15328,
+      14208
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 4.3359375,
+    "bootstrap_mean_95": [
+      4.296875,
+      4.3828125
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.0570378827365732,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 10.3359375,
+    "mean_task": 4440.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.25966749736107886,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      4384,
+      4512,
+      4416,
+      4448
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 11.140625,
+    "bootstrap_mean_95": [
+      10.8828125,
+      11.375
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 1.6475358595635914,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 17.140625,
+    "mean_task": 11408.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.6428410266526043,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      11648,
+      11648,
+      10976,
+      11360
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      1,
+      3
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 10.625,
+    "bootstrap_mean_95": [
+      10.203125,
+      11.0625
+    ],
+    "coefficient_reference": 6.76199242361316,
+    "restricted_ratio_over_K": 1.5712824467086146,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 16.625,
+    "mean_task": 10880.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.6071786901447922,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      11488,
+      10880,
+      10304,
+      10848
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 19.75,
+    "bootstrap_mean_95": [
+      16.25,
+      24.5
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 4.105470822349969,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 19.75,
+    "mean_task": 316.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.009041524375788867,
+    "mean_planner_seconds": 0.7206053308909759,
+    "completed_costs": [
+      320,
+      240,
+      288,
+      416
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 41.75,
+    "bootstrap_mean_95": [
+      12.0,
+      99.25
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 8.678653510537275,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 41.75,
+    "mean_task": 667.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.04717752826400101,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      176,
+      240,
+      208
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 13.5,
+    "bootstrap_mean_95": [
+      12.0,
+      15.0
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 2.8062711978303216,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 13.5,
+    "mean_task": 216.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.015811948338523507,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      240,
+      176,
+      240,
+      208
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 25.75,
+    "bootstrap_mean_95": [
+      22.0,
+      29.5
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 5.352702464582871,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 25.75,
+    "mean_task": 412.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.02855691220611334,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      496,
+      320,
+      448,
+      384
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 16,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 32.75,
+    "bootstrap_mean_95": [
+      28.75,
+      35.5
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 6.807806047187922,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 32.75,
+    "mean_task": 524.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03428118349984288,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      576,
+      432,
+      544,
+      544
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 9.4375,
+    "bootstrap_mean_95": [
+      8.1875,
+      11.0
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.9617914372621685,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 9.4375,
+    "mean_task": 604.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.01754854549653828,
+    "mean_planner_seconds": 1.0800998917547986,
+    "completed_costs": [
+      560,
+      752,
+      608,
+      496
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.3125,
+    "bootstrap_mean_95": [
+      7.0625,
+      7.625
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.5200635639713491,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 7.3125,
+    "mean_task": 467.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.032677601906470954,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      496,
+      464,
+      464,
+      448
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.125,
+    "bootstrap_mean_95": [
+      6.875,
+      7.375
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.4810875766326697,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 7.125,
+    "mean_task": 456.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03309370740316808,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      480,
+      448,
+      464,
+      432
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 12.5,
+    "bootstrap_mean_95": [
+      11.75,
+      13.3125
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 2.598399254651879,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 12.5,
+    "mean_task": 800.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.05383163352962583,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      880,
+      768,
+      816,
+      736
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 64,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 16.25,
+    "bootstrap_mean_95": [
+      15.3125,
+      17.3125
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 3.3779190310474423,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 16.25,
+    "mean_task": 1040.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.06809252349194139,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1136,
+      1040,
+      1024,
+      960
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.859375,
+    "bootstrap_mean_95": [
+      5.5625,
+      6.171875
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.2179996506180681,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.859375,
+    "mean_task": 1500.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.041615994181483984,
+    "mean_planner_seconds": 1.715382941882126,
+    "completed_costs": [
+      1616,
+      1392,
+      1520,
+      1472
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 6144,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 9.796875,
+    "bootstrap_mean_95": [
+      4.8125,
+      19.234375
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 2.03649541583341,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 9.796875,
+    "mean_task": 2507.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.17487211828120053,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1264,
+      1424,
+      1200
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.171875,
+    "bootstrap_mean_95": [
+      4.75,
+      5.59375
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.0750876926873107,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.171875,
+    "mean_task": 1324.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.09537872450891882,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1440,
+      1264,
+      1424,
+      1168
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 8.09375,
+    "bootstrap_mean_95": [
+      7.5625,
+      8.625
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.6824635173870914,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 8.09375,
+    "mean_task": 2072.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.1412334607448429,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      2240,
+      2000,
+      2176,
+      1872
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 256,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 10.390625,
+    "bootstrap_mean_95": [
+      9.59375,
+      11.1875
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 2.159919380429374,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 10.390625,
+    "mean_task": 2660.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.1760860962094739,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      2880,
+      2480,
+      2848,
+      2432
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.2578125,
+    "bootstrap_mean_95": [
+      5.2265625,
+      5.296875
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.0929516864879465,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.2578125,
+    "mean_task": 5384.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.07276589213870466,
+    "mean_planner_seconds": 3.133295134175569,
+    "completed_costs": [
+      5376,
+      5376,
+      5344,
+      5440
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 24576,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 9.7890625,
+    "bootstrap_mean_95": [
+      5.0,
+      19.25
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 2.0348714162992527,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 9.7890625,
+    "mean_task": 10023.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.3490346926264465,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      5120,
+      5120,
+      5280
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.0625,
+    "bootstrap_mean_95": [
+      5.0,
+      5.125
+    ],
+    "coefficient_reference": 4.810654084479637,
+    "restricted_ratio_over_K": 1.0523516991863706,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 5.0625,
+    "mean_task": 5184.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.1874517546966672,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      5120,
+      5216,
+      5120,
+      5280
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.578125,
+    "bootstrap_mean_95": [
+      7.46875,
+      7.6875
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 1.5752795481327015,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 7.578125,
+    "mean_task": 7760.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.264154295087792,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      7680,
+      7808,
+      7616,
+      7936
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 0,
+    "R": 1024,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 9.7578125,
+    "bootstrap_mean_95": [
+      9.640625,
+      9.9140625
+    ],
+    "coefficient_reference": 4.810654089290328,
+    "restricted_ratio_over_K": 2.028375418162623,
+    "offline": 0,
+    "mean_total_acquisition_over_R": 9.7578125,
+    "mean_task": 9992.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.33166355069261044,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      9888,
+      10240,
+      9856,
+      9984
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 21.5,
+    "bootstrap_mean_95": [
+      18.5,
+      24.0
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 5.054503459722543,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 27.5,
+    "mean_task": 337.0,
+    "mean_type": 7.0,
+    "mean_glr_seconds": 0.010011332691647112,
+    "mean_planner_seconds": 0.9082955765770748,
+    "completed_costs": [
+      336,
+      368,
+      400,
+      272
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 15.25,
+    "bootstrap_mean_95": [
+      13.5,
+      17.0
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 3.5851710586404084,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 21.25,
+    "mean_task": 243.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.017236226121895015,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      224,
+      256,
+      288,
+      208
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.25,
+    "bootstrap_mean_95": [
+      12.75,
+      15.5
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 3.4739407173180354,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 20.25,
+    "mean_task": 228.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.016766429995186627,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      224,
+      240,
+      256,
+      192
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 29.75,
+    "bootstrap_mean_95": [
+      26.5,
+      33.0
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 6.383500067658118,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 35.75,
+    "mean_task": 476.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03286621195729822,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      416,
+      528,
+      528,
+      432
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 16,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 37.0,
+    "bootstrap_mean_95": [
+      32.25,
+      41.25
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 7.939142941289089,
+    "offline": 96,
+    "mean_total_acquisition_over_R": 43.0,
+    "mean_task": 592.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03921920049469918,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      480,
+      624,
+      688,
+      576
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 11.875,
+    "bootstrap_mean_95": [
+      7.875,
+      19.0625
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 2.7917315620560554,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 17.875,
+    "mean_task": 741.0,
+    "mean_type": 19.0,
+    "mean_glr_seconds": 0.021909363102167845,
+    "mean_planner_seconds": 1.3467440557433292,
+    "completed_costs": [
+      576,
+      496,
+      512,
+      1456
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 2048,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 14.1875,
+    "bootstrap_mean_95": [
+      7.5,
+      25.9375
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 3.335384550456445,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 20.1875,
+    "mean_task": 907.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.06596436782274395,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      496,
+      464,
+      624
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 6.9375,
+    "bootstrap_mean_95": [
+      6.0,
+      8.1875
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.6912606123785172,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 12.9375,
+    "mean_task": 444.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.03327107091899961,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      432,
+      368,
+      416,
+      560
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 11.9375,
+    "bootstrap_mean_95": [
+      10.5,
+      13.6875
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 2.561446455719959,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 17.9375,
+    "mean_task": 764.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.054169812821783125,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      768,
+      672,
+      672,
+      944
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 64,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 2048,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 15.3125,
+    "bootstrap_mean_95": [
+      13.25,
+      17.875
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 3.2856250348240317,
+    "offline": 384,
+    "mean_total_acquisition_over_R": 21.3125,
+    "mean_task": 980.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.06633611081633717,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      992,
+      816,
+      880,
+      1232
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 6.0,
+    "bootstrap_mean_95": [
+      5.65625,
+      6.34375
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 1.410559105038849,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 12.0,
+    "mean_task": 1459.25,
+    "mean_type": 76.75,
+    "mean_glr_seconds": 0.049130146857351065,
+    "mean_planner_seconds": 1.9975426299497485,
+    "completed_costs": [
+      1488,
+      1408,
+      1648,
+      1600
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 6144,
+    "completed": 3,
+    "censored": 1,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 10.171875,
+    "bootstrap_mean_95": [
+      5.375,
+      19.359375
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 2.391338482761174,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 16.171875,
+    "mean_task": 2603.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.2068465135525912,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1392,
+      1360,
+      1520
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.09375,
+    "bootstrap_mean_95": [
+      4.875,
+      5.3125
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.2417814406202627,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 11.09375,
+    "mean_task": 1304.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.10771212948020548,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1264,
+      1232,
+      1376,
+      1344
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 7.859375,
+    "bootstrap_mean_95": [
+      7.4375,
+      8.28125
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 1.6863973393025387,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 13.859375,
+    "mean_task": 2012.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.15945030900184065,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      1920,
+      1888,
+      2144,
+      2096
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 256,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 6144,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 10.234375,
+    "bootstrap_mean_95": [
+      9.71875,
+      10.75
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 2.19600448756096,
+    "offline": 1536,
+    "mean_total_acquisition_over_R": 16.234375,
+    "mean_task": 2620.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.20233774569351226,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      2512,
+      2464,
+      2784,
+      2720
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Aligned Tracking",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 4.953125,
+    "bootstrap_mean_95": [
+      4.8828125,
+      5.0703125
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 1.1644459278575916,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 10.953125,
+    "mean_task": 4871.75,
+    "mean_type": 200.25,
+    "mean_glr_seconds": 0.1064057641196996,
+    "mean_planner_seconds": 3.439974198467098,
+    "completed_costs": [
+      5024,
+      5248,
+      5024,
+      4992
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Direct Type Query",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 5.03125,
+    "bootstrap_mean_95": [
+      4.8125,
+      5.25
+    ],
+    "coefficient_reference": 4.253632462877016,
+    "restricted_ratio_over_K": 1.1828125828711182,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 11.03125,
+    "mean_task": 5151.0,
+    "mean_type": 1.0,
+    "mean_glr_seconds": 0.2803423220757395,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      5248,
+      5504,
+      4960,
+      4896
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Oracle Format",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 4.5078125,
+    "bootstrap_mean_95": [
+      4.390625,
+      4.6015625
+    ],
+    "coefficient_reference": 4.101969826071568,
+    "restricted_ratio_over_K": 1.0989384834936986,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 10.5078125,
+    "mean_task": 4616.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.258551650098525,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      4640,
+      4736,
+      4640,
+      4448
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Repeat-and-Compare",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 6.671875,
+    "bootstrap_mean_95": [
+      6.5078125,
+      6.8046875
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 1.431593765173328,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 12.671875,
+    "mean_task": 6832.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.36859713960438967,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      6848,
+      7008,
+      6880,
+      6592
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  },
+  {
+    "partition": [
+      4
+    ],
+    "alpha": 3,
+    "R": 1024,
+    "policy": "Round-Robin",
+    "n": 4,
+    "cap": 24576,
+    "completed": 4,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "mean_min_T_B_over_R": 8.5,
+    "bootstrap_mean_95": [
+      8.2734375,
+      8.671875
+    ],
+    "coefficient_reference": 4.66045268029804,
+    "restricted_ratio_over_K": 1.8238571621880337,
+    "offline": 6144,
+    "mean_total_acquisition_over_R": 14.5,
+    "mean_task": 8704.0,
+    "mean_type": 0.0,
+    "mean_glr_seconds": 0.4664901592768729,
+    "mean_planner_seconds": 0.0,
+    "completed_costs": [
+      8704,
+      8928,
+      8832,
+      8352
+    ],
+    "interpretation": "restricted mean; any censoring leaves E[T]/R unidentified; n=4 exploratory intervals"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_freeze_files": 28,
+  "readonly_dependencies": 80,
+  "historical_integrity": {
+    "status": "PASS",
+    "files": 2248
+  },
+  "freeze_sha256": "1c063bfed149e645585fbe9aba58b794cdad00e3d09c099c6745e839fb951c45"
+}

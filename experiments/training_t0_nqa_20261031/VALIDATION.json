@@ -1,0 +1,25 @@
+{
+  "status": "PASS_WITH_DISCLOSED_DIAGNOSTIC_LIMITATION",
+  "unit_tests_passed": 8,
+  "untrained_parameters": 10660,
+  "teacher_states": 23,
+  "timed_updates": 69,
+  "unwrapped_weight_comparisons": 23,
+  "comparison_tolerance": 1e-13,
+  "old_sources_and_reports_preserved": true,
+  "inputs_verified": 56,
+  "vendor_python_files_verified": 46,
+  "proposed_condition_slots": 224,
+  "new_worlds": 0,
+  "new_queries": 0,
+  "new_calibration_observations": 0,
+  "training_updates": 0,
+  "qwen_loads_or_generations": 0,
+  "gpu_or_paid_api_calls": 0,
+  "table_rows_checked": 65,
+  "diagnostic_limitations": [
+    "secondary cProfile omitted solver/LP top-level fields; saved eight-call output retained and summary repaired without reruns",
+    "initial repetition-comparison flag wording corrected to 23 actually compared distinct states; initial flags retained"
+  ],
+  "review_scope": "same-context math/interface/source checks; no independent review or statistical effectiveness validation"
+}

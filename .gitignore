@@ -1,0 +1,38 @@
+# Runtime state and credentials
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.deps/
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.partial
+# Generated raw data and private evaluator records
+**/private/
+**/evaluator_only/
+**/corpus/
+**/sources/
+**/snapshots/
+**/texts/
+**/artifacts/run/
+**/artifacts/data/
+**/artifacts/training/
+**/artifacts/evaluation/
+**/artifacts/test_evaluation/
+**/artifacts/trajectories.jsonl
+**/artifacts/snapshots.jsonl
+**/data/
+# Models, arrays, and downloaded datasets
+*.safetensors
+*.pt
+*.pth
+*.npz
+*.npy
+*.parquet
+*.arrow
+*.bin

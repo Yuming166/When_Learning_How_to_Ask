@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Deep Adaptive Design: Amortizing Sequential Bayesian Experimental Design",
+    "authors": "Foster, Ivanova, Malik, Rainforth",
+    "venue": "ICML 2021",
+    "url": "https://proceedings.mlr.press/v139/foster21a.html",
+    "verified": "official PMLR abstract and metadata accessed 2026-10-31",
+    "support": "Precedent for amortizing adaptive Bayesian design, contrastive information objectives and symmetry-aware architecture; does not establish BARPO effectiveness."
+  },
+  {
+    "title": "Optimizing Sequential Experimental Design with Deep Reinforcement Learning",
+    "authors": "Blau, Bonilla, Chades, Dezfouli",
+    "venue": "ICML 2022",
+    "url": "https://proceedings.mlr.press/v162/blau22a.html",
+    "verified": "official PMLR abstract and metadata accessed 2026-10-31",
+    "support": "Precedent for an MDP formulation and learned sequential experimental design on discrete/continuous spaces; not a proof for this model."
+  }
+]

@@ -1,0 +1,288 @@
+{
+  "reviewer": "Codex parent, AI-assisted; not human signoff",
+  "cases": [
+    {
+      "case_id": "W1-09",
+      "theta_reference": 1,
+      "theta_status": "QUALIFIED_REFERENCE_REVIEWABLE",
+      "theta_note": "Lead Stories confirms first recipient since WWII (2005), but warns first does not mean only; later recipient in 2008. Original source unavailable; no military primary record inspected.",
+      "scope_note": "Evaluate first since WWII, not only or newly awarded in 2019.",
+      "case_candidate": false,
+      "case_reason": "No accessible nonreference source with determinate V.",
+      "pages": [
+        {
+          "page_id": "P037",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Original tool access failed; do not infer source stance from URL/title or factchecker quotation.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P038",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Historical archive unavailable; no historical V.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P039",
+          "V_current": 1,
+          "V_historical": null,
+          "stance_status": "reference_current",
+          "note": "Evaluator-only factchecker agrees with first, rejects implication only.",
+          "evidence_locator": "browser_09_12/references.json; Lead Stories L13-28",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P002",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "non_url_sentinel",
+          "note": "Metadata is an annotation placeholder, not a page.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        }
+      ],
+      "provenance_edges": [
+        {
+          "from": "P039",
+          "to": "P037",
+          "relation": "reference_explicitly_quotes_original",
+          "locator": "browser_09_12/references.json; Lead Stories L14-25",
+          "independence": "not_independent_for_quoted_claim"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-10",
+      "theta_reference": 0,
+      "theta_status": "UNRESOLVED_SCOPE_AND_REFERENCE",
+      "theta_note": "Dataset justification concerns attribution to Stalin, but raw claim omits speaker and attribution; speaker field null. Factcheck current tool extraction only header, and archive search form proves neither attribution nor its absence.",
+      "scope_note": "Do not silently add Stalin as the subject or treat absence from a search page as disproof.",
+      "case_candidate": false,
+      "case_reason": "Incomplete target proposition and no reviewable reference body.",
+      "pages": [
+        {
+          "page_id": "P040",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable_body",
+          "note": "Current factcheck extraction contains title/byline/navigation only.",
+          "evidence_locator": "browser_09_12/references.json; Check Your Fact L0-20",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P041",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "irrelevant_search_form",
+          "note": "Archive search interface has no quoted-claim evidence.",
+          "evidence_locator": "browser_09_12/sources1.json; Stalin Archive L0-13",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P002",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "non_url_sentinel",
+          "note": "Metadata is not evidence.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        }
+      ],
+      "provenance_edges": []
+    },
+    {
+      "case_id": "W1-11",
+      "theta_reference": 0,
+      "theta_status": "QUALIFIED_REFERENCE_REVIEWABLE",
+      "theta_note": "PolitiFact refutes the numeric report using the parties joint denial; actual confidential payment amount is unknown. This is a reviewable factcheck reference, not independently verified court truth.",
+      "scope_note": "Original page date 2019, SI report 2018, factcheck 2020; current representations only. No inference of historical revision timing from inaccessible archives.",
+      "case_candidate": false,
+      "case_reason": "SI reports the parties denial without independently adjudicating the amount; attributed reports do not determine full-page binary V. No nonreference determinate full-claim body remains.",
+      "pages": [
+        {
+          "page_id": "P042",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "mixed",
+          "note": "并存断言与否认。",
+          "evidence_locator": "browser_09_12/sources1.json; Radar L35,74-75",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P043",
+          "V_current": 0,
+          "V_historical": null,
+          "stance_status": "reference_current",
+          "note": "Evaluator-only verdict with qualified evidence and confidential amount caveat.",
+          "evidence_locator": "browser_09_12/references.json; PolitiFact L44-59",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P044",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "partial",
+          "note": "Earlier relationship background, not the claimed payment amount.",
+          "evidence_locator": "browser_09_12/sources2.json; TMZ L76-94",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P045",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Archive unavailable; current P044 cannot establish historical content.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P046",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "attributed_denial",
+          "note": "Reports original claim and parties denial; editorial update reflects denial, not a publisher finding of the true amount.",
+          "evidence_locator": "browser_09_12/sources1.json; SI L81-88",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P047",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Archive unavailable; current P046 cannot establish historical content.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P048",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "mixed",
+          "note": "同一报道的另一 URL。",
+          "evidence_locator": "browser_09_12/sources2.json; Radar L41,79-80",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P049",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Archive unavailable; do not count alias or archive as an independent source.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        }
+      ],
+      "provenance_edges": [
+        {
+          "from": "P046",
+          "to": "P048",
+          "relation": "explicit_attribution",
+          "locator": "browser_09_12/sources1.json; SI L82",
+          "independence": "shared_upstream_for_original_report"
+        },
+        {
+          "from": "P042",
+          "to": "P048",
+          "relation": "same_article_two_paths",
+          "locator": "browser_09_12/sources1.json and sources2.json; matching headline, byline, body and denial",
+          "independence": "not_independent"
+        },
+        {
+          "from": "P043",
+          "to": "P042",
+          "relation": "reference_cites_original_report",
+          "locator": "browser_09_12/references.json; PolitiFact L55,70",
+          "independence": "not_independent_for_original_report"
+        },
+        {
+          "from": "P046",
+          "to": "P043",
+          "relation": "both_rely_on_parties_joint_denial",
+          "locator": "SI L83; PolitiFact L56",
+          "independence": "common_testimony_not_two_independent_measurements"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-12",
+      "theta_reference": 1,
+      "theta_status": "UNRESOLVED_REFERENCE",
+      "theta_note": "Reference article current fallback 403; dataset numeric answer uses Metadata. Official annex establishes categories and different time totals, not the full claimed ten-year amount.",
+      "scope_note": "Ten-year interval relative to Jan 2019 must be fixed; do not equate 1998/99-2016/17 or planned budgets with that interval.",
+      "case_candidate": false,
+      "case_reason": "Accessible primary PDF only supports a subclaim; reference amount not independently reproduced.",
+      "pages": [
+        {
+          "page_id": "P050",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "unavailable",
+          "note": "Archive and current article inaccessible.",
+          "evidence_locator": "browser_09_12/references.json; Africa Check error",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P051",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "partial",
+          "note": "Official 2018 Annexure D describes definitions and categories; first page cumulative window differs from the claim.",
+          "evidence_locator": "browser_09_12/sources2.json; Treasury PDF printed p139 L0-25",
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        },
+        {
+          "page_id": "P002",
+          "V_current": null,
+          "V_historical": null,
+          "stance_status": "non_url_sentinel",
+          "note": "Amount and category annotation placeholders are not webpages.",
+          "evidence_locator": null,
+          "page_candidate": false,
+          "Y": null,
+          "human_signoff": false
+        }
+      ],
+      "provenance_edges": []
+    }
+  ]
+}

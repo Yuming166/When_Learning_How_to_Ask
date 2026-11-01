@@ -1,0 +1,12 @@
+{
+  "created_unix_time": 1793389266.4257677,
+  "stage": "before any held-out model evaluation",
+  "files": {
+    "t1/analyze.py": "74cb36c97cd5ccf72b5d822ce6bb9f75a1326295b07b9a02570681d61c82bb24",
+    "tests/test_analysis.py": "971d8569838e56664cd4082d408b2a38cfe61eaa7502aa0cb9f9c7108f043ec1",
+    "audit/T1_ANALYSIS_REVIEW.md": "0c05337968a46819edd4368086ce1c492472340bdd7bf389857d82a0b1490bf0"
+  },
+  "dependencies": {},
+  "bootstrap": "world-clustered paired descriptive sensitivity;4000 resamples seed731032;fixed heterogeneous grids",
+  "no_heldout_model_outcomes_seen": true
+}

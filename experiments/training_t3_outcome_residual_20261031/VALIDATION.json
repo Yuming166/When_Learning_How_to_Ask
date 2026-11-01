@@ -1,0 +1,90 @@
+{
+  "source_check": {
+    "passed": true,
+    "sources": 98,
+    "documents": 12,
+    "runtime_files": 2645,
+    "historical_public_files": 132,
+    "manifest_sha256": "e24ae1327b454bbdfe4ab731009577f9a7db8a9e01c8e353a1a716d48e446b54"
+  },
+  "batches": {
+    "collect_train": {
+      "paths": 48,
+      "private_paths_audited": 48,
+      "integrity_checks": 3600,
+      "passed": true,
+      "costs": {
+        "task": 1497,
+        "type": 39,
+        "offline": 2304
+      },
+      "worker_cpu": 8.727655904,
+      "terminal_gate_cpu": 0.4650904969999987,
+      "worker_startup_cpu_once_per_arm": 0.026845445000000023,
+      "certificates": 0,
+      "wrong_certificates": 0,
+      "gate_reasons": {
+        "gap_upper_at_or_below_beta_lower": 48
+      }
+    },
+    "collect_development": {
+      "paths": 24,
+      "private_paths_audited": 24,
+      "integrity_checks": 1800,
+      "passed": true,
+      "costs": {
+        "task": 734,
+        "type": 34,
+        "offline": 1152
+      },
+      "worker_cpu": 4.3299621030000015,
+      "terminal_gate_cpu": 0.23973017699999843,
+      "worker_startup_cpu_once_per_arm": 0.026496589000000015,
+      "certificates": 0,
+      "wrong_certificates": 0,
+      "gate_reasons": {
+        "gap_upper_at_or_below_beta_lower": 24
+      }
+    },
+    "development_evaluation": {
+      "paths": 384,
+      "private_paths_audited": 384,
+      "integrity_checks": 28800,
+      "passed": true,
+      "costs": {
+        "task": 11646,
+        "type": 642,
+        "offline": 18432
+      },
+      "worker_cpu": 64.54581708300007,
+      "terminal_gate_cpu": 4.159044743,
+      "worker_startup_cpu_once_per_arm": 0.4520694859999999,
+      "certificates": 0,
+      "wrong_certificates": 0,
+      "gate_reasons": {
+        "gap_upper_at_or_below_beta_lower": 384
+      }
+    },
+    "test_evaluation": {
+      "paths": 4032,
+      "private_paths_audited": 4032,
+      "integrity_checks": 339264,
+      "passed": true,
+      "costs": {
+        "task": 140040,
+        "type": 7416,
+        "offline": 177408
+      },
+      "worker_cpu": 686.4705479360015,
+      "terminal_gate_cpu": 39.92135576899996,
+      "worker_startup_cpu_once_per_arm": 0.33705955,
+      "certificates": 0,
+      "wrong_certificates": 0,
+      "gate_reasons": {
+        "gap_upper_at_or_below_beta_lower": 4032
+      }
+    }
+  },
+  "failures": 0,
+  "incomplete": 0
+}

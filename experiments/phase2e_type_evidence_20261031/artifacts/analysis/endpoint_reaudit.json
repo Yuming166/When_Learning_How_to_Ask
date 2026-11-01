@@ -1,0 +1,2018 @@
+[
+  {
+    "world": 520000,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 224
+  },
+  {
+    "world": 520000,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520000,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520000,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1072
+  },
+  {
+    "world": 520000,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520000,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 240
+  },
+  {
+    "world": 520000,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520000,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520000,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520200,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 864
+  },
+  {
+    "world": 520200,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 864
+  },
+  {
+    "world": 520200,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 864
+  },
+  {
+    "world": 520200,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 576
+  },
+  {
+    "world": 520200,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 480
+  },
+  {
+    "world": 520200,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 624
+  },
+  {
+    "world": 520200,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 640
+  },
+  {
+    "world": 520200,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 608
+  },
+  {
+    "world": 520200,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 672
+  },
+  {
+    "world": 520400,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520400,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520400,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520400,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520600,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 432
+  },
+  {
+    "world": 520600,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 448
+  },
+  {
+    "world": 520600,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520600,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 496
+  },
+  {
+    "world": 520600,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 432
+  },
+  {
+    "world": 520600,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520600,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520600,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520600,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520100,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2016
+  },
+  {
+    "world": 520100,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1840
+  },
+  {
+    "world": 520100,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2240
+  },
+  {
+    "world": 520100,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2192
+  },
+  {
+    "world": 520100,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2192
+  },
+  {
+    "world": 520100,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 5344
+  },
+  {
+    "world": 520100,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2384
+  },
+  {
+    "world": 520100,
+    "policy": "D-RRC-NoType",
+    "status": "rejected",
+    "precision": 50,
+    "total_observations": 6144
+  },
+  {
+    "world": 520100,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3328
+  },
+  {
+    "world": 520300,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3280
+  },
+  {
+    "world": 520300,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3680
+  },
+  {
+    "world": 520300,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3712
+  },
+  {
+    "world": 520300,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3680
+  },
+  {
+    "world": 520300,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3952
+  },
+  {
+    "world": 520300,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 4064
+  },
+  {
+    "world": 520300,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 5680
+  },
+  {
+    "world": 520300,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3840
+  },
+  {
+    "world": 520300,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3392
+  },
+  {
+    "world": 520500,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1440
+  },
+  {
+    "world": 520500,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1472
+  },
+  {
+    "world": 520500,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1440
+  },
+  {
+    "world": 520700,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3104
+  },
+  {
+    "world": 520700,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3040
+  },
+  {
+    "world": 520700,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3072
+  },
+  {
+    "world": 520700,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3104
+  },
+  {
+    "world": 520700,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3104
+  },
+  {
+    "world": 520700,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3344
+  },
+  {
+    "world": 520700,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3072
+  },
+  {
+    "world": 520700,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3072
+  },
+  {
+    "world": 520700,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3328
+  },
+  {
+    "world": 520101,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2336
+  },
+  {
+    "world": 520101,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2416
+  },
+  {
+    "world": 520101,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2400
+  },
+  {
+    "world": 520101,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3696
+  },
+  {
+    "world": 520101,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2352
+  },
+  {
+    "world": 520101,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2032
+  },
+  {
+    "world": 520101,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520101,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2304
+  },
+  {
+    "world": 520101,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2432
+  },
+  {
+    "world": 520301,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3424
+  },
+  {
+    "world": 520301,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 4192
+  },
+  {
+    "world": 520301,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 5312
+  },
+  {
+    "world": 520301,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3728
+  },
+  {
+    "world": 520301,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3408
+  },
+  {
+    "world": 520301,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3312
+  },
+  {
+    "world": 520301,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3728
+  },
+  {
+    "world": 520301,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3872
+  },
+  {
+    "world": 520301,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3760
+  },
+  {
+    "world": 520501,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1712
+  },
+  {
+    "world": 520501,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520501,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1696
+  },
+  {
+    "world": 520701,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3088
+  },
+  {
+    "world": 520701,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3216
+  },
+  {
+    "world": 520701,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2960
+  },
+  {
+    "world": 520701,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2992
+  },
+  {
+    "world": 520701,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3216
+  },
+  {
+    "world": 520701,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3008
+  },
+  {
+    "world": 520701,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3008
+  },
+  {
+    "world": 520701,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3040
+  },
+  {
+    "world": 520701,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3152
+  },
+  {
+    "world": 520001,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 448
+  },
+  {
+    "world": 520001,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520001,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520001,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520001,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520001,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520001,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520001,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520001,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 672
+  },
+  {
+    "world": 520201,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 560
+  },
+  {
+    "world": 520201,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 512
+  },
+  {
+    "world": 520201,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 608
+  },
+  {
+    "world": 520201,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 560
+  },
+  {
+    "world": 520201,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 528
+  },
+  {
+    "world": 520201,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1584
+  },
+  {
+    "world": 520201,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 576
+  },
+  {
+    "world": 520201,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1024
+  },
+  {
+    "world": 520201,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1936
+  },
+  {
+    "world": 520401,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520401,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520401,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520401,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520401,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520401,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520401,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520401,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520401,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520601,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520601,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520601,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520601,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520601,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520601,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520601,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 720
+  },
+  {
+    "world": 520601,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520601,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520002,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520002,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520002,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520002,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520002,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 912
+  },
+  {
+    "world": 520002,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520002,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520002,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520002,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520202,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520202,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 544
+  },
+  {
+    "world": 520202,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 480
+  },
+  {
+    "world": 520202,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 704
+  },
+  {
+    "world": 520202,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 544
+  },
+  {
+    "world": 520202,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 464
+  },
+  {
+    "world": 520202,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 432
+  },
+  {
+    "world": 520202,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 528
+  },
+  {
+    "world": 520202,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 496
+  },
+  {
+    "world": 520402,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520402,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520402,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520402,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520402,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520402,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 240
+  },
+  {
+    "world": 520402,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520402,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 256
+  },
+  {
+    "world": 520402,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 240
+  },
+  {
+    "world": 520602,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 912
+  },
+  {
+    "world": 520602,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1040
+  },
+  {
+    "world": 520602,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 864
+  },
+  {
+    "world": 520602,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 512
+  },
+  {
+    "world": 520602,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 448
+  },
+  {
+    "world": 520602,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 496
+  },
+  {
+    "world": 520602,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 416
+  },
+  {
+    "world": 520602,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 448
+  },
+  {
+    "world": 520602,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 448
+  },
+  {
+    "world": 520102,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3872
+  },
+  {
+    "world": 520102,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2336
+  },
+  {
+    "world": 520102,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2032
+  },
+  {
+    "world": 520102,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2000
+  },
+  {
+    "world": 520102,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2336
+  },
+  {
+    "world": 520102,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2480
+  },
+  {
+    "world": 520102,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2368
+  },
+  {
+    "world": 520102,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2032
+  },
+  {
+    "world": 520102,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2464
+  },
+  {
+    "world": 520302,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3536
+  },
+  {
+    "world": 520302,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3168
+  },
+  {
+    "world": 520302,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3152
+  },
+  {
+    "world": 520302,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3456
+  },
+  {
+    "world": 520302,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3584
+  },
+  {
+    "world": 520302,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3744
+  },
+  {
+    "world": 520302,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3888
+  },
+  {
+    "world": 520302,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 4368
+  },
+  {
+    "world": 520302,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 5520
+  },
+  {
+    "world": 520502,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1440
+  },
+  {
+    "world": 520502,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1360
+  },
+  {
+    "world": 520502,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1440
+  },
+  {
+    "world": 520502,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1440
+  },
+  {
+    "world": 520502,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1360
+  },
+  {
+    "world": 520502,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1584
+  },
+  {
+    "world": 520502,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1584
+  },
+  {
+    "world": 520502,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1584
+  },
+  {
+    "world": 520502,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1584
+  },
+  {
+    "world": 520702,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2960
+  },
+  {
+    "world": 520702,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3264
+  },
+  {
+    "world": 520702,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2992
+  },
+  {
+    "world": 520702,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2992
+  },
+  {
+    "world": 520702,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2976
+  },
+  {
+    "world": 520702,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2976
+  },
+  {
+    "world": 520702,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2976
+  },
+  {
+    "world": 520702,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3328
+  },
+  {
+    "world": 520702,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2944
+  },
+  {
+    "world": 520103,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2176
+  },
+  {
+    "world": 520103,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2400
+  },
+  {
+    "world": 520103,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2320
+  },
+  {
+    "world": 520103,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2032
+  },
+  {
+    "world": 520103,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2448
+  },
+  {
+    "world": 520103,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 4144
+  },
+  {
+    "world": 520103,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2176
+  },
+  {
+    "world": 520103,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1872
+  },
+  {
+    "world": 520103,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1856
+  },
+  {
+    "world": 520303,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3840
+  },
+  {
+    "world": 520303,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3856
+  },
+  {
+    "world": 520303,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3616
+  },
+  {
+    "world": 520303,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 4048
+  },
+  {
+    "world": 520303,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 5936
+  },
+  {
+    "world": 520303,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3776
+  },
+  {
+    "world": 520303,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3456
+  },
+  {
+    "world": 520303,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3536
+  },
+  {
+    "world": 520303,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3776
+  },
+  {
+    "world": 520503,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1872
+  },
+  {
+    "world": 520503,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1872
+  },
+  {
+    "world": 520503,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520503,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1952
+  },
+  {
+    "world": 520703,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2848
+  },
+  {
+    "world": 520703,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2864
+  },
+  {
+    "world": 520703,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2800
+  },
+  {
+    "world": 520703,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3120
+  },
+  {
+    "world": 520703,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2816
+  },
+  {
+    "world": 520703,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2768
+  },
+  {
+    "world": 520703,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 3104
+  },
+  {
+    "world": 520703,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2848
+  },
+  {
+    "world": 520703,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 2800
+  },
+  {
+    "world": 520003,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520003,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 496
+  },
+  {
+    "world": 520003,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 368
+  },
+  {
+    "world": 520003,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520003,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520003,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520003,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520003,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520003,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520203,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 1008
+  },
+  {
+    "world": 520203,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 688
+  },
+  {
+    "world": 520203,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 480
+  },
+  {
+    "world": 520203,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 496
+  },
+  {
+    "world": 520203,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 608
+  },
+  {
+    "world": 520203,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 560
+  },
+  {
+    "world": 520203,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 464
+  },
+  {
+    "world": 520203,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 656
+  },
+  {
+    "world": 520203,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 704
+  },
+  {
+    "world": 520403,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520403,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520403,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520403,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520403,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 288
+  },
+  {
+    "world": 520403,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520403,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520403,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520403,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 272
+  },
+  {
+    "world": 520603,
+    "policy": "Fused-Original",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 352
+  },
+  {
+    "world": 520603,
+    "policy": "Fused-Info",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520603,
+    "policy": "Fused-D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  },
+  {
+    "world": 520603,
+    "policy": "Fused-Original-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520603,
+    "policy": "Fused-Info-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 304
+  },
+  {
+    "world": 520603,
+    "policy": "Aligned-Full",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520603,
+    "policy": "Aligned-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 336
+  },
+  {
+    "world": 520603,
+    "policy": "D-RRC-NoType",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 320
+  },
+  {
+    "world": 520603,
+    "policy": "D-RRC-Type",
+    "status": "certified",
+    "precision": 50,
+    "total_observations": 384
+  }
+]

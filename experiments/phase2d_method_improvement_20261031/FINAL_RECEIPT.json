@@ -1,0 +1,397 @@
+{
+  "verified_at": "2026-10-31T02:56:33.779373+08:00",
+  "verified_unix_time": 1793386593.779393,
+  "decision": "P0_COMPLETE_BOUNDED_CERTIFIED_CANDIDATE_ONLY_EFFECTIVENESS_EXPLORATORY",
+  "branch": "phase2d_method_improvement",
+  "completed_scope": [
+    "four_policy_task_type_development_ablation",
+    "bounded_outward_interval_stopping_gate",
+    "independent_math_and_public_record_audits",
+    "existing_terminal_enclosures_and_eight_existing_world_replays"
+  ],
+  "candidate_version": "Phase2d-P0-Certified-v1",
+  "main_batch": {
+    "trajectories": 256,
+    "independent_worlds": 64,
+    "cells": 16,
+    "per_cell_n": 4,
+    "costs": {
+      "task": 641207,
+      "type": 47609,
+      "offline": 261120
+    },
+    "online_actions": 688816,
+    "total_acquisition": 949936,
+    "unique_world_offline_observations": 65280,
+    "charged_policy_offline_observations": 261120,
+    "completed": 256,
+    "censored": 0,
+    "wrong_certificates": 0,
+    "wall_seconds": 1103.294857605826,
+    "evaluator_cpu_seconds": 141.14700097600002,
+    "trajectory_wall_seconds": 1097.9654363063164,
+    "trajectory_cpu_seconds": 983.7713298149998,
+    "planner_seconds": 848.5679240892641,
+    "planner_cpu_seconds": 848.5070164319992,
+    "glr_seconds": 28.79975912719965,
+    "glr_cpu_seconds": 28.8088833059969,
+    "stop_mode": "floating",
+    "main_has_strict_certificate": false,
+    "new_model_calls": 0,
+    "new_confirmation_worlds": 0,
+    "main_retries": 0,
+    "bootstrap_resamples": 4000,
+    "bootstrap_analysis_seed": 763401,
+    "scope": "legacy floating main acquisition; certified terminal audit is a separate artifact"
+  },
+  "validation": {
+    "source_config_protocol_unchanged": true,
+    "proof_audit_hashes_unchanged": true,
+    "seed_commitment_unchanged": true,
+    "trajectories": 256,
+    "independent_worlds": 64,
+    "all_expected_identities_present": true,
+    "costs": {
+      "task": 641207,
+      "type": 47609,
+      "offline": 261120
+    },
+    "all_cost_censoring_pairing_checks_pass": true,
+    "final_GLRS_recomputed": 256,
+    "historical": [
+      {
+        "experiment": "phase01_20261030",
+        "files_verified": 47,
+        "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+      },
+      {
+        "experiment": "phase1b_userbench_audit_20261030",
+        "files_verified": 15,
+        "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+      },
+      {
+        "experiment": "phase1c_identifiability_20261030",
+        "files_verified": 69,
+        "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+      },
+      {
+        "experiment": "qrelbench_v01_20261030",
+        "files_verified": 45,
+        "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+      },
+      {
+        "experiment": "phase2a_theory_optimality_20261030",
+        "files_verified": 61,
+        "receipt_sha256": "084f93e40faafac33167a5badf8677c76935a00b0d49053d9032bf75c1393535"
+      },
+      {
+        "experiment": "phase2b_alignment_20261031",
+        "files_verified": 58,
+        "receipt_sha256": "8b55a08213325bc837db97887552cf5c910787b90cc4eb4d1c821913165c69cc"
+      },
+      {
+        "experiment": "phase2c_strong_baseline_20261031",
+        "files_verified": 58,
+        "receipt_sha256": "d23ccc5290f1bc2f500da6e1a2f880a4c6fe64eb6f83d6f9758ddc9b6b5f4c03"
+      }
+    ],
+    "historical_files_verified": 353,
+    "validation_wall_seconds": 1.9505270011723042,
+    "validation_evaluator_cpu_seconds": 1.9503910270000002,
+    "model_calls": 0,
+    "new_confirmation_worlds": 0,
+    "scope": "legacy-floating mainbatch integrity only; interval and existing-world replay receipts separate"
+  },
+  "certification": {
+    "status": "completed",
+    "error": null,
+    "static_worlds_generated": 0,
+    "new_confirmation_worlds": 0,
+    "model_calls": 0,
+    "phase2c_terminals": 509,
+    "phase2d_terminals": 256,
+    "certified": 765,
+    "rejected": 0,
+    "undetermined": 0,
+    "static_gate_seconds": 11.87368181021884,
+    "historical_float_false_crossing_rejected": true,
+    "replay_costs": {
+      "task": 37960,
+      "type": 3912,
+      "offline": 0
+    },
+    "replay_worker_cpu_seconds": 60.591620401,
+    "replay_wall_seconds": 71.62602268299088,
+    "wall_seconds": 85.05886166542768,
+    "evaluator_cpu_seconds": 21.563371840000002,
+    "scope": "outward arithmetic under documented Fraction/Decimal and model contracts; capped ablations remain legacy-floating acquisitions; no new scientific or confirmation worlds"
+  },
+  "existing_replays": [
+    {
+      "policy": "Aligned-Full",
+      "index": 410100,
+      "R": 64,
+      "mode": "floating",
+      "old_online": 688,
+      "online": 688,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 0,
+      "gate_seconds": 0.0
+    },
+    {
+      "policy": "Aligned-NoType",
+      "index": 410100,
+      "R": 64,
+      "mode": "floating",
+      "old_online": 864,
+      "online": 864,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 0,
+      "gate_seconds": 0.0
+    },
+    {
+      "policy": "D-RRC-Type",
+      "index": 410100,
+      "R": 64,
+      "mode": "floating",
+      "old_online": 768,
+      "online": 768,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 0,
+      "gate_seconds": 0.0
+    },
+    {
+      "policy": "D-RRC-NoType",
+      "index": 410100,
+      "R": 64,
+      "mode": "floating",
+      "old_online": 1536,
+      "online": 1536,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 0,
+      "gate_seconds": 0.0
+    },
+    {
+      "policy": "Aligned-Full",
+      "index": 410300,
+      "R": 1024,
+      "mode": "certified",
+      "old_online": 6688,
+      "online": 6688,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 1,
+      "gate_seconds": 0.020514276809990406
+    },
+    {
+      "policy": "Aligned-NoType",
+      "index": 410300,
+      "R": 1024,
+      "mode": "certified",
+      "old_online": 7840,
+      "online": 7840,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 1,
+      "gate_seconds": 0.01566927181556821
+    },
+    {
+      "policy": "D-RRC-Type",
+      "index": 410300,
+      "R": 1024,
+      "mode": "certified",
+      "old_online": 7840,
+      "online": 7840,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 1,
+      "gate_seconds": 0.045776366256177425
+    },
+    {
+      "policy": "D-RRC-NoType",
+      "index": 410300,
+      "R": 1024,
+      "mode": "certified",
+      "old_online": 15648,
+      "online": 15648,
+      "additional_online": 0,
+      "same_cost": true,
+      "same_trace_hash": true,
+      "complete": true,
+      "abstained": false,
+      "gate_calls": 1,
+      "gate_seconds": 0.03444426693022251
+    }
+  ],
+  "tests": {
+    "passed": 39,
+    "log": "preflight_tests_final.log",
+    "independent_deterministic_checks": "independent_stopping_checks.log",
+    "technical_fixture_cost_scope": "Deterministic and small confined-worker fixtures are separate from scientific main/replay accounting; no model calls."
+  },
+  "history_reverified": [
+    {
+      "experiment": "phase01_20261030",
+      "files_verified": 47,
+      "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+    },
+    {
+      "experiment": "phase1b_userbench_audit_20261030",
+      "files_verified": 15,
+      "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+    },
+    {
+      "experiment": "phase1c_identifiability_20261030",
+      "files_verified": 69,
+      "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+    },
+    {
+      "experiment": "qrelbench_v01_20261030",
+      "files_verified": 45,
+      "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+    },
+    {
+      "experiment": "phase2a_theory_optimality_20261030",
+      "files_verified": 61,
+      "receipt_sha256": "084f93e40faafac33167a5badf8677c76935a00b0d49053d9032bf75c1393535"
+    },
+    {
+      "experiment": "phase2b_alignment_20261031",
+      "files_verified": 58,
+      "receipt_sha256": "8b55a08213325bc837db97887552cf5c910787b90cc4eb4d1c821913165c69cc"
+    },
+    {
+      "experiment": "phase2c_strong_baseline_20261031",
+      "files_verified": 58,
+      "receipt_sha256": "d23ccc5290f1bc2f500da6e1a2f880a4c6fe64eb6f83d6f9758ddc9b6b5f4c03"
+    }
+  ],
+  "historical_files_verified": 353,
+  "theory_sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+  "old_confirmation_preserved_unexecuted": true,
+  "old_confirmation_hashes": {
+    "CONFIRMATORY_PROTOCOL.md": "48481667afa26a30fec926d89970d343cca82f2d37310ae0c95a0821c24f8faf",
+    "PHASE2C_PROTOCOL.md": "6f0f519f974c0c7e200311a74c978c6fd9070e1901c1f915d6150de5a2762850",
+    "artifacts/analysis/confirmation_plan.json": "4431e8d20a1ceb39f1ae2b448490136f18b0229acb20e4e29196b0143b85a972"
+  },
+  "main_sampling_stop_mode": "legacy_floating",
+  "certified_output_scope": "exact rational profile with outward Decimal intervals under documented model/backend contract; d<=4 and total observations<=2**50",
+  "not_established": [
+    "independent_confirmation",
+    "natural_LLM_reliability_structure",
+    "universal_finite_R_superiority",
+    "infinite_horizon_executable_optimizer_optimality",
+    "universal_eventual_stopping",
+    "conditional_on_realized_calibration_risk"
+  ],
+  "not_executed": [
+    "confirmation",
+    "new_model_API_GPU_calls",
+    "training_RL",
+    "solver_acceleration",
+    "uncertainty_aware_policy",
+    "additional_scientific_batches"
+  ],
+  "report_link_targets_checked": 4,
+  "artifact_count": 68,
+  "private_artifacts_evaluator_only": [
+    "artifacts/private/seed.json",
+    "artifacts/run/private/partial_reproduction.jsonl",
+    "artifacts/run/private/reproduction.jsonl"
+  ],
+  "artifact_sha256": {
+    ".gitignore": "8d1d21a7207b009c62f44445afd22464267e7aeb953b329f61d3b298574f568a",
+    "ABLATION_REPORT.md": "e1d0ec41b5ebba7a2054f3fc6eb893226324a50a17b7d57f6b4cf32e9af62838",
+    "CERTIFICATION_VALIDATION.json": "f2c6f570dc0eca8077da9c78086cd0d9f9026a5b01565962d1297db9abd9636a",
+    "CERTIFIED_STOPPING_REPORT.md": "5278913836b1ace279275c612bc0076c37731ebc279f11cb6abd54a6307d4778",
+    "CERTIFIED_STOPPING_SPEC.md": "33d90c9b128254e054a87fa99e54e678e66ff5f761c34a907c2ebafd3fb16ea0",
+    "ESTIMATION_DIAGNOSTICS.md": "c365dd4edda70ea387fc6d891877253dc883a884575909ae54034ec1281d5b2f",
+    "METHOD_VERSION_DECISION.md": "63ce750813ed03ed628989f85b1f98e527cc1b5eba54d300a99592c42528f27e",
+    "PHASE2D_PROTOCOL.md": "c256f58ca3f9e1d0e1d2f52626b88d85e0877f358f64005d7b505a928704078c",
+    "README.md": "29baf2d632e42fa05f375ae6b378335173c0d7b9fd339160d34c3ae397d35a5c",
+    "RUNTIME.json": "1491e06f5b649de5e499ac7f3738c39f1881b5654caa05e404ef6ddc37fafb2f",
+    "STOPPING_PROOF_AUDIT.md": "6ac5f705e335e3457bb4cb5a3d2f9c458aaa73b78095045be1222959418369fc",
+    "TYPE_BASELINE_SPEC.md": "f046470401adf6e0fc7554ced9a2bc72bf273b0d707b4fb6fb0bb08fa177f902",
+    "VALIDATION.json": "24bc0f1642fd53e38d027e66f3b7e0246960df513b1945fcd7f480ec8fb35fae",
+    "analysis_execution.log": "8436b039d66a7a41da970a5f48055de8247965fe556c7e4d5926d240c392c2ee",
+    "artifacts/analysis/coefficients.json": "13a329f311cc72e4d8a5716c963affc73015c4e848ccaab8655125c8900f958c",
+    "artifacts/analysis/confidence_curves.json": "2e2e9bdaee6358ff8ad85a99735b968c65180e6c421b10e1fde71a1c8343f641",
+    "artifacts/analysis/coverage.json": "e294b144bba2b639c808160bc358b94fc5e3d950428d991b7185f2d56889bd18",
+    "artifacts/analysis/diagnostics.json": "420016fdc76875f706a4c256a40573ae07be09f17b0830d4d2c6e95c890b245d",
+    "artifacts/analysis/facts.json": "8436b039d66a7a41da970a5f48055de8247965fe556c7e4d5926d240c392c2ee",
+    "artifacts/analysis/online_cost_ablation.pdf": "4a606a225c30a97b2e8f8862a18346b4f566f7038a5e1b077ef51aba543cd01b",
+    "artifacts/analysis/online_cost_ablation.png": "8cd2d21c2ba9d319dc437b315b8d83d5e6d9a5ef9d1fd7967fbd0822697c3fa3",
+    "artifacts/analysis/paired.json": "e3a3e7a7cfd5fcf28d0cfa08cbc7905a4c57feee5882434a16201aa29898632f",
+    "artifacts/analysis/query_vs_cpu.pdf": "c31a912e432f2f0b2674db586fa9b67d36c012f7116251e868f0754c93388999",
+    "artifacts/analysis/query_vs_cpu.png": "686724885117ccf6f1c96de690baac01f141b08fbd73fd5817e128beb3a29273",
+    "artifacts/analysis/summary.json": "975a8fcdeeb70a36f3d3efbdd55ef7149c86f57e74da6c5154e1dbc63360e8ef",
+    "artifacts/analysis/total_cost_ablation.pdf": "eef0da751f0a8dab84feb05e544ae225cb3ea389afcb046cdfb3577d57256d9c",
+    "artifacts/analysis/total_cost_ablation.png": "5af45b7e7c16c48b313083dd3dbb68f897f50aa07e41b78c2dd99c233a03f360",
+    "artifacts/certification/counterexample.json": "55bf804bce296a3483610e85d1b3992a5cfc6f27bac339b66fab9d76b5587c52",
+    "artifacts/certification/existing_replays.jsonl": "6f6bf87e7ca4d7f92b9589cfb07c238531e22dbdfd93122fa60096df3f70ad07",
+    "artifacts/certification/terminal_enclosures.jsonl": "1bd3531dee3ea53b4f7bdfaf243df54d6ccd0cd028172fa31c589ae356eef680",
+    "artifacts/preseed_source_commitment.json": "3f26cf04e9cd2c4ee29c94e7757471ddce2167bb2a6932a9a5158e657e276a2b",
+    "artifacts/private/seed.json": "77bc86bfa33b74f2c92ad96aaa4d1313a2927b62dbf3f091b0c5b02ef9aa639b",
+    "artifacts/run/execution.json": "da137a1ee2c1fa74b71daee7eb5a1ba126ce358918b36b208a2c1a677d534211",
+    "artifacts/run/failures.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/run/private/partial_reproduction.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/run/private/reproduction.jsonl": "13282b7211d259368ef0c755c595e3589d0ba0c147713b745e12720c50ba2ea0",
+    "artifacts/run/snapshots.jsonl": "e73b3a66b618de029673d454c0b55d82c91884586f4243e8ff82ab12c6b1a8f7",
+    "artifacts/run/started.json": "6308a66f675e4e287b20366341866dc0c370604185e5087929bd4119a780016d",
+    "artifacts/run/trajectories.jsonl": "8292381634ab9051097380418855f27668168aca2f8f7a02fbc38c6dff17adeb",
+    "audit/EXECUTION_REVIEW.md": "5d4d6e5d9a0c54bb49b79423c7dd69b1c95963c9643e185f367ab26c83a48ef9",
+    "audit/HISTORY_PRESERVATION_BEFORE.json": "5125383ba2c7b62b5fac60ab407e1a1bb4c7a1aa34103d4de690a87ce76f09ef",
+    "audit/POSTRUN_REVIEW.md": "acfe8e1db0140cfdb44918c0a6c22c1c100a8585c6ac0befb9793b0186738a9e",
+    "audit/stopping_independent_checks.py": "e1d9aa5b786a51e6728c2ec95dd78ef34606e3e24f6ad5f48f740955a6532e1d",
+    "certification_execution.log": "d303460c459515ae93098a5f21a4759b0e2823d84fc84a0cdc567f15d20e5d00",
+    "config.json": "77618b52921830c892c3e4aee7006879aaacdd13132cae6259f55e3e2b48fbe4",
+    "freeze.json": "d72940d83384c572132e4802cf054510add53a312e9507ae6707362110e3cedf",
+    "freeze_execution.log": "950126654e09cd4fae962e1a31a49d790d83bd809d0c907d7c4d889d0a5206d1",
+    "independent_stopping_checks.log": "c1a87c94071a2cdd26295ab1b8ba17268c3c81f6b142c323296fb8ea14b78173",
+    "phase2d/__init__.py": "8521a16fa82e9a3281ff022cb653cddccff438de0c5bad26cb3dee2bd417101b",
+    "phase2d/analyze.py": "f8e7903833fcc0e8128bbf7ebb38b0846fcc6447c55ad1c812032bd42c7573ca",
+    "phase2d/bootstrap.py": "748b2dafb7795c76cd0c786cb82bfdbfa2618ab8f834c95ecca0d5cca74c4377",
+    "phase2d/certificate_audit.py": "5c9415743cc13b8f265028f599000e9f14db980ebeb33ae36fc2ec0f7e45dd66",
+    "phase2d/certified.py": "162fe61943bdebf2b297cdca914a734e9b0befcf66939c800a00a9a35820130c",
+    "phase2d/freeze.py": "6dd0c55e071b1ab6048fa55f1cbb4df94ff58bac7404259e933704b2d85b1eca",
+    "phase2d/integrity.py": "e135ca8bfcabcdf4fea7c9e84c0b8a96019506fab29c40f0b2e06207aa6965cf",
+    "phase2d/policy.py": "8b6d915829a269f18530e01739f204a34050f9d499d7030677bfb82cd796904b",
+    "phase2d/report.py": "4ab744fa1ec068e9487e002187839057f2afad63e35eb4155e5f5fd27bddd985",
+    "phase2d/runner.py": "b906e7dce0b5e25f028e3a6e6dd4f012f496189f4757d44502ef59bde1c5405a",
+    "phase2d/strategies.py": "2453c77edd311b90c14eab24f7a0dbc793738248491aafd6893ef74aaabd748b",
+    "pilot_execution.log": "b4d5c446ee3e45f397dde7e72e4fcfc6d0ee26e1786978c2c8d285bb9f317ce8",
+    "preflight_tests.log": "78f41755de934a8a11c339b6df6d11fdc84481c2de3f29cb4805e0c50e4b412e",
+    "preflight_tests_final.log": "f2baa3477a74484b9a6e8eeeba6e32131ac17ea0af75c93ec26ea7a009e8fca4",
+    "tests/test_analysis.py": "2f53992f78f9b305497c07ec04aa5f6c9dd34e6a41ff3534223d8f40d09016ee",
+    "tests/test_certified.py": "6a3ea241726050e7c5164935d1032d3da7bf2ee53696c64bcd8245b2e71caeba",
+    "tests/test_failure_receipt.py": "c0d810b8819a85aa37cbe1ff6565862c7adf242c86db38e59cef2176e0ac376f",
+    "tests/test_integration.py": "aaa2d8c9aac11fa49fd4ab3e186b425fcf70fb5785de32f04825be0673214fd4",
+    "tests/test_strategies.py": "2df717fb31593869f69180891144bc882838c5136a7fbb93a8429d1d4fc0dbf9",
+    "validation_execution.log": "24bc0f1642fd53e38d027e66f3b7e0246960df513b1945fcd7f480ec8fb35fae"
+  }
+}

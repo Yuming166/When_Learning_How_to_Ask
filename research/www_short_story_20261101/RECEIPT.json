@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-01",
+  "task": "Synthesize existing theory, audit contribution boundaries, and organize a WWW short-paper motivation and blueprint",
+  "delivery_status": "COMPLETE_FOR_THIS_SYNTHESIS_TASK",
+  "writing_decision": "GO_CANDIDATE_DRAFT",
+  "novelty_and_submission_readiness": "REVISE",
+  "scope": "Existing-theory synthesis plus bounded public-primary-source comparison; not full manuscript, new proof, or independent peer review",
+  "new_experimental_model_calls": 0,
+  "new_training_runs": 0,
+  "new_random_worlds": 0,
+  "confirmation_runs": 0,
+  "old_certificate_reruns": 0,
+  "new_human_annotation": 0,
+  "new_independent_proof_review": false,
+  "validation": {
+    "input_files_hash_preserved": 54,
+    "changed_input_files": [],
+    "local_markdown_links_checked": 31,
+    "local_claim_evidence_targets_valid": true,
+    "missing_targets": [],
+    "claim_count": 23,
+    "primary_research_sources": 10,
+    "official_venue_pages": 2,
+    "figure_generated": true,
+    "figure_visually_inspected": true,
+    "four_page_layout_compiled": false
+  },
+  "main_outputs": [
+    "README_ZH.md",
+    "THEORY_INVENTORY.md",
+    "CONTRIBUTION_AUDIT.md",
+    "PAPER_BLUEPRINT.md",
+    "CLAIM_EVIDENCE.csv",
+    "theory_story.pdf"
+  ],
+  "output_hashes_excluding_receipt_and_manifest": {
+    "CLAIM_EVIDENCE.csv": "05fbb753c34acbb5f6e8589224fe0a550badeb3a96aee462bd4791004fa0ba35",
+    "CONTRIBUTION_AUDIT.md": "b472c07fa49c6ed2f24cfb3e2bb5af3b6f9a43803941c09efe798bda4d3a07bf",
+    "INPUT_HASHES.json": "f1de36509c6a26c0fea39c2f4cffd4589cca2edde7b737ed6cf493f6db388919",
+    "PAPER_BLUEPRINT.md": "67f6f42180332bfcfd6f4b6c759b4c077431bb2d2f4fec07475ea4efc23a008f",
+    "README_ZH.md": "f9be32432f8e23c104cf1fc278426ccd24c0fa9833aeb017ebaed9821530dcb0",
+    "SOURCE_AUDIT.json": "71f7eaca051b049ca921b7f5d8fb848c2ca2d2f81a95052aa2941f52df102aad",
+    "THEORY_INVENTORY.md": "091aef58fd491702c0ba29826f1caba1b6abe55583d93c3807460281b4bbabaf",
+    "plot_story.py": "c6f350bb5dbf3364b972aebf373f336e6c7f5d326b92e49728bbdbde571f37f4",
+    "theory_story.pdf": "5721299f3fafe21c337e91d608ef1cd4d4260d66a7a3e9b31952ce2c65f9debe",
+    "theory_story.png": "0e0ba297fca96978f0e14de4ee48646b7b3cbeded59183bb9fe120bac795d73d"
+  }
+}

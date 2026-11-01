@@ -1,0 +1,31 @@
+{
+  "scope": "224 deterministic literal engineering paths across d3/d4; initial 12 arms preserved, only 2 fixed-type arms appended; no benchmark world or scientific entropy generated; outcomes are not efficacy results",
+  "paths": 224,
+  "worlds": 0,
+  "literal_query_records": 8960,
+  "CPU": 37.859458284,
+  "wall": 37.86340572545305,
+  "policy_CPU": {
+    "IG-Uniform-FixedType": 1.4091464369999995,
+    "IG-Fact-FixedType": 1.3640621639999988,
+    "KL-OriginalSolver": 10.685109172999999,
+    "KL-AnalyticReuse": 1.7320895860000052,
+    "KL-Fresh": 7.163060110000001,
+    "Fused-Info": 3.4592641820000045,
+    "IG-Uniform-Block": 0.5596569960000002,
+    "IG-Fact-Block": 0.5615666560000028,
+    "IG-Uniform-Fresh": 2.00762971399999,
+    "IG-Fact-Fresh": 1.9764051709999986,
+    "IG-Uniform-Direct": 1.3201669919999957,
+    "Fresh-IG-Lite": 1.2903235299999996,
+    "Belief-Gated": 2.7728279329999976,
+    "WorstFact-MI": 1.3188046830000002
+  },
+  "tests_log_sha256": "a187e12297b9f50b4de59cd0be95b53c9f672a3c7421d44fb83054fee96eb9d7",
+  "fixed_type_test_sha256": "c736f3c954a1224f4b4df2454a08c080886b8763dbd6fc57fcc616682b03ad94",
+  "fixture_files": {
+    "audit/fixtures/failures.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "audit/fixtures/trajectories.jsonl": "db4d47a4649c4d08967b66c0e2c7447567a84d9f43ef4d6d701dd4a279a9865e",
+    "audit/fixtures/reproduction.jsonl": "424600d94fae635e36182e901ced65c0d7b007262b3aba54a4d9eec9242e7754"
+  }
+}

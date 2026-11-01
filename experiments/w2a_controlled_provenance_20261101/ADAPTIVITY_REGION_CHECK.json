@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "check_id": "W2a-fixed-adaptive-policy-region-v1",
+  "policy_sha256": "78266efc5e4a9124ae45964b6713a889b05c79a7b5a553f596fd5b3f0d2c665c",
+  "checker_sha256": "411393c54525beb335f127c3374b7f2eaa9d1618bd26da263d90fbeaee9e2b80",
+  "reachable_frozen_policy_nodes": 37,
+  "static_allocations_including_empty_and_unused_budget": 22,
+  "center_frozen_policy_risk": {
+    "fraction": "24899/100000",
+    "float": 0.24899
+  },
+  "center_best_static_risk": {
+    "fraction": "25871/100000",
+    "float": 0.25871
+  },
+  "center_static_minimizers": [
+    [
+      1,
+      2,
+      2
+    ]
+  ],
+  "center_gap": {
+    "fraction": "243/25000",
+    "float": 0.00972
+  },
+  "epsilon": "1/4000",
+  "analytic_full_region_margin": {
+    "fraction": "143/25000",
+    "float": 0.00572
+  },
+  "action_menu_endpoint_checks": 112,
+  "corner_sanity_checks": [
+    {
+      "r": "2999/4000",
+      "a": "3199/4000",
+      "frozen_policy_risk": {
+        "fraction": "1021471983662374149561826997/4096000000000000000000000000",
+        "float": 0.2493828085113218
+      },
+      "reoptimized_static_risk": {
+        "fraction": "265302394950723274601/1024000000000000000000",
+        "float": 0.2590843700690657
+      },
+      "gap": {
+        "fraction": "39737596140518948842173003/4096000000000000000000000000",
+        "float": 0.009701561557743883
+      }
+    },
+    {
+      "r": "2999/4000",
+      "a": "3201/4000",
+      "frozen_policy_risk": {
+        "fraction": "1020147382410925540410209003/4096000000000000000000000000",
+        "float": 0.24905941953391736
+      },
+      "reoptimized_static_risk": {
+        "fraction": "265002338191983132599/1024000000000000000000",
+        "float": 0.25879134589060854
+      },
+      "gap": {
+        "fraction": "39861970357006989985790997/4096000000000000000000000000",
+        "float": 0.00973192635669116
+      }
+    },
+    {
+      "r": "3001/4000",
+      "a": "3199/4000",
+      "frozen_policy_risk": {
+        "fraction": "1019580352767387707530191003/4096000000000000000000000000",
+        "float": 0.2489209845623505
+      },
+      "reoptimized_static_risk": {
+        "fraction": "264836112368047107399/1024000000000000000000",
+        "float": 0.258629015984421
+      },
+      "gap": {
+        "fraction": "39764096704800722065808997/4096000000000000000000000000",
+        "float": 0.009708031422070489
+      }
+    },
+    {
+      "r": "3001/4000",
+      "a": "3201/4000",
+      "frozen_policy_risk": {
+        "fraction": "1018253819228308122281772997/4096000000000000000000000000",
+        "float": 0.24859712383503615
+      },
+      "reoptimized_static_risk": {
+        "fraction": "264535593273347285401/1024000000000000000000",
+        "float": 0.2583355403060032
+      },
+      "gap": {
+        "fraction": "39888553865081019322227003/4096000000000000000000000000",
+        "float": 0.009738416470967046
+      }
+    }
+  ],
+  "corners_are_not_the_region_proof": true,
+  "policy_actions_and_decoder_reoptimized": false,
+  "static_decoder_allowed_to_reoptimize": true,
+  "center_global_adaptive_optimality_reproved_here": false,
+  "center_optimality_needed_for_separation": false,
+  "continuous_region_proof": "ADAPTIVITY_REGION_PROOF.md: common finite menu, adaptive coupling, uniform Lipschitz infimum bound.",
+  "network_calls": 0,
+  "model_service_calls": 0,
+  "existing_files_modified": false
+}

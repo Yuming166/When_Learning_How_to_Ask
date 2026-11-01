@@ -1,0 +1,233 @@
+{
+  "verified_unix_time": 1793379453.877334,
+  "decision": "GO_CONDITIONAL_IDEAL_POLICY_AND_BOUNDED_COST_TREND_ONLY",
+  "own_tests_passed": 15,
+  "main_batch": {
+    "trajectories": 320,
+    "independent_worlds": 64,
+    "cells": 16,
+    "policies": [
+      "Round-Robin",
+      "Repeat-and-Compare",
+      "Direct Type Query",
+      "Oracle Format",
+      "Aligned Tracking"
+    ],
+    "per_cell_n": 4,
+    "costs": {
+      "task": 1021768,
+      "type": 16888,
+      "offline": 326400
+    },
+    "online_actions": 1038656,
+    "total_acquisition": 1365056,
+    "completed": 299,
+    "censored": 21,
+    "wrong_certificates": 0,
+    "planner_seconds": 405.4245143472217,
+    "glr_seconds": 51.442799081560224,
+    "wall_seconds": 723.7527251681313,
+    "new_model_calls": 0,
+    "new_confirmation_episodes": 0,
+    "formal_exact_machine_optimality": false,
+    "scope": "independent-cell development cost diagnostic, no inferential confirmation"
+  },
+  "validation": {
+    "source_config_protocol_unchanged": true,
+    "proof_audit_hashes_unchanged": true,
+    "seed_commitment_unchanged": true,
+    "trajectories": 320,
+    "independent_worlds": 64,
+    "all_expected_identities_present": true,
+    "costs": {
+      "task": 1021768,
+      "type": 16888,
+      "offline": 326400
+    },
+    "all_cost_censoring_pairing_checks_pass": true,
+    "final_GLRS_recomputed": 320,
+    "historical": [
+      {
+        "experiment": "phase01_20261030",
+        "files_verified": 47,
+        "receipt_sha256": "8ed05f8ca00748d3bde26514317b849b1d0e08f9191dade4d0239fd7af0daf69"
+      },
+      {
+        "experiment": "phase1b_userbench_audit_20261030",
+        "files_verified": 15,
+        "receipt_sha256": "03878e208f481b58bff04b436227a5f1d2cf1e64bc672d84e14121bd3640fc3f"
+      },
+      {
+        "experiment": "phase1c_identifiability_20261030",
+        "files_verified": 69,
+        "receipt_sha256": "fba29fdcf02a5757a63fc608a39ec7209aba6829116450932e5d0c20bdedd38d"
+      },
+      {
+        "experiment": "qrelbench_v01_20261030",
+        "files_verified": 45,
+        "receipt_sha256": "dd4c3cfaf8f7f26e7318ade3b547240e1044078255c0a3c7c35029f9258a80a9"
+      },
+      {
+        "experiment": "phase2a_theory_optimality_20261030",
+        "files_verified": 61,
+        "receipt_sha256": "084f93e40faafac33167a5badf8677c76935a00b0d49053d9032bf75c1393535"
+      }
+    ],
+    "historical_files_verified": 237,
+    "exact_existing_replays": [
+      {
+        "policy": "Round-Robin",
+        "R": 1024,
+        "online": 13120,
+        "censored": false,
+        "full_record_match_excluding_timing": true,
+        "transcript_hash_match": true
+      },
+      {
+        "policy": "Repeat-and-Compare",
+        "R": 1024,
+        "online": 12960,
+        "censored": false,
+        "full_record_match_excluding_timing": true,
+        "transcript_hash_match": true
+      },
+      {
+        "policy": "Direct Type Query",
+        "R": 1024,
+        "online": 24576,
+        "censored": true,
+        "full_record_match_excluding_timing": true,
+        "transcript_hash_match": true
+      },
+      {
+        "policy": "Oracle Format",
+        "R": 1024,
+        "online": 5216,
+        "censored": false,
+        "full_record_match_excluding_timing": true,
+        "transcript_hash_match": true
+      },
+      {
+        "policy": "Aligned Tracking",
+        "R": 1024,
+        "online": 6624,
+        "censored": false,
+        "full_record_match_excluding_timing": true,
+        "transcript_hash_match": true
+      }
+    ],
+    "replay_costs": {
+      "task": 61331,
+      "type": 1165,
+      "offline": 0
+    },
+    "model_calls": 0,
+    "new_confirmation_worlds": 0,
+    "scope": "data integrity and existing-world replay, not new scientific replication"
+  },
+  "independent_public_postrun_pass": true,
+  "independent_public_checks": {
+    "summary_cells": 80,
+    "paired_cells": 64,
+    "budget_curve_points": 600,
+    "posthoc_population_KL_values": 64,
+    "allocation_updates": 5082
+  },
+  "theory_status": "Uniform finite-calibration tail repaired for the stated ideal policy conditions; no formal proof-assistant or external expert certification",
+  "actual_program_exact_asymptotic_optimality": false,
+  "rigorous_interval_GLR": false,
+  "empirical_expected_cost_limit_established": false,
+  "observed_tolerance_platform": {
+    "updates": 5082,
+    "requested_tolerances": [
+      0.0001
+    ],
+    "maximum_attained_floating_relative_gap": 0.00011468999018662395,
+    "numerical_floor_active_updates": 0,
+    "caveat": "The actual finite batch never left the1e-4 requested-tolerance platform"
+  },
+  "historical_files_unchanged": 237,
+  "figures_visually_inspected": [
+    "online_cost_convergence",
+    "total_cost_convergence",
+    "aligned_diagnostics",
+    "completion_and_compute",
+    "budget_completion_curves"
+  ],
+  "main_policy_comparison_acquisition": 1365056,
+  "unique_paired_world_offline_observations": 65280,
+  "recorded_existing_replay_online_actions": 62496,
+  "preflight_probes": "separate bounded technical fixtures, excluded from scientific denominator",
+  "development_seed": "fresh256bit, sealed and commitment-bound; no private bytes printed",
+  "new_confirmation_worlds": 0,
+  "new_model_calls": 0,
+  "main_retries": 0,
+  "claim_limits": [
+    "n4percell exploratory uncertainty",
+    "retained21censored incl1Aligned",
+    "CPU cost separate fromquerycost",
+    "RRC fixed balanced-exploration schedule; simpler vanishing-exploration baseline not evaluated",
+    "naturalLLM sharing not established"
+  ],
+  "review_provenance": "Separate same-family Codex reviewers, not external experts or cross-model verification",
+  "artifact_sha256": {
+    ".gitignore": "8d1d21a7207b009c62f44445afd22464267e7aeb953b329f61d3b298574f568a",
+    "ALIGNMENT_MATRIX.md": "364b64eec92952f5a985a3ba9b87e65b07444fe32d290e59a373194d40d311a7",
+    "PILOT_REPORT.md": "4b525e50c05b2c9e0ee4d931caf1d7912b1583e4b603fc040e75f522682165cc",
+    "PROOF_ADDENDUM.md": "60d6197e4fe6bb35f5a015d42eaf9394b09eb14c8a77a6076647b65b779eb5e6",
+    "PROTOCOL.md": "77fbb9bc32d88370f7ab6d2f02ea9e31b53daf734c28b26fa90ee284ffb49e65",
+    "README.md": "c7d0e32fdfffbbb287f2db9d773abbd9c50c684a3cb6233ee3ab6a47629f067f",
+    "RESEARCH_DECISION_CN.md": "141a07182a6483d1550713b712ae457ae940b08ad8b24d06aa96603d3b9d46a9",
+    "RUNTIME.json": "bbed506e08ee754f1792f27551a871d64d56e60a6f3f96703572654107e6f8b2",
+    "VALIDATION.json": "a4096dbd83f8f45ef5c10cfa392da7f831fecb0052da0bdffa023438b3c5c6b7",
+    "analysis_execution.log": "5e392d2d70603ecd939a67519c30da966ad924cbd7e1685fc843a342c65b395f",
+    "artifacts/analysis/aligned_diagnostics.pdf": "e8c9945d1c114f51cea768c094eaf20ba0e39e4bc907b7a6eaa61e5130806dfa",
+    "artifacts/analysis/aligned_diagnostics.png": "b353bb72e6509413a258ced9673ac8f84356914e9176a42bd3fc9d0e631d4367",
+    "artifacts/analysis/budget_completion_curves.pdf": "8e0b84f1ed2a82b9b9e11dda401ed29fb93a88468d8ee270eab254a209c331dd",
+    "artifacts/analysis/budget_completion_curves.png": "fbd30f25bf67405108fcd91ac098aa8f210ddcd04ff6833f2512ca40ec549c44",
+    "artifacts/analysis/coefficients.json": "094b1cb289725b1037d66efffb8282a25f6d6bfced490cc59a9a4ede3a87c246",
+    "artifacts/analysis/completion_and_compute.pdf": "eb33de275918c939b46422cff8c03e6e83aaadb9856b9c68fef10fa7d5e33731",
+    "artifacts/analysis/completion_and_compute.png": "e611ec0ace64d08a4cbe080e4793f87b0b8d970703d8fe59f265f3b7c48d4164",
+    "artifacts/analysis/confidence_curves.json": "e1fb3c136f7fd8a15e8c99c89f22c2e8c0a19f17894892cc9711bddc9eda443d",
+    "artifacts/analysis/diagnostics.json": "5d46389a5c82085e3a5e36c6643965b88f9ea8a167ec3f52d81b0231efb43649",
+    "artifacts/analysis/facts.json": "5e392d2d70603ecd939a67519c30da966ad924cbd7e1685fc843a342c65b395f",
+    "artifacts/analysis/online_cost_convergence.pdf": "47a6004d08b1adaaf4351172ee288a18600919a3af996cb94c8c527952af1b7a",
+    "artifacts/analysis/online_cost_convergence.png": "8aefb5a832424e79e33bf07d0874add62de171832098da56f18adf02faa1b5d8",
+    "artifacts/analysis/paired.json": "d1255c2843f24103b173cd251593778edf63e69fec9255aaef75d2126de7324e",
+    "artifacts/analysis/summary.json": "d17cec228f0101be22359840dac086ee0038c8e12806edce1b30f692365d9245",
+    "artifacts/analysis/total_cost_convergence.pdf": "959e7fd1291d948728d951b95d79465b415f50412ca089b3e68adce8f1d3562e",
+    "artifacts/analysis/total_cost_convergence.png": "4896adc5fb5bcf2b0a60f2540552dfd3859145de4f377671928da041c652625b",
+    "artifacts/private/seed.json": "c6bdccad939244607b87788b4f4abf2e9b096891da6f23d7f8ca41d85edfce11",
+    "artifacts/run/execution.json": "dabf562f6efb2c7fb6893418d81568db77f794c5b2122c4c6ba1dfb5e3d34510",
+    "artifacts/run/private/reproduction.jsonl": "74c15341c633d357b36cd856d7d3b23b2a90498713f1bdf6401d381b043c665f",
+    "artifacts/run/snapshots.jsonl": "c8a7f1b507adafc3797ce2d67eebd5fe7576837f82ba8ac145b0ea1b75eb2ceb",
+    "artifacts/run/started.json": "e9c5ecae254b1ee58e2b616bba9cf055d7a8ff559a3e904e13cb3e76a155426d",
+    "artifacts/run/trajectories.jsonl": "1d0ebd8a320613c0d42301fdd6bbaf6d0dcb325c245ff0bb5ee38f7ad4de7cbc",
+    "audit/ALIGNMENT_IMPLEMENTATION.md": "35373a955512e7b9f9c8f7b175ded9d0a1a079218ebd23767c5c036734401f17",
+    "audit/EXECUTION_ALIGNMENT_REVIEW.md": "46404ec6b6a7c59860f2d42503918aba6003990bf108c3bffa081d0d0a24ab1a",
+    "audit/HISTORY_PRESERVATION_BEFORE.json": "5307ef5975b97b791d9321fea01eacabe8753178c89a3a5040ebd06ecd44eee5",
+    "audit/POSTRUN_REVIEW.md": "9368bee73ea216914f230fc2f66cf1f2bf5ac98b02f7602aa55dcde74a3cc1e0",
+    "audit/PROOF_ADDENDUM_REVIEW.md": "5ca84ff48a6167416c701dff04bb459881353552151241d6fef7c6ba69844255",
+    "audit/THEOREM1_REVIEW.md": "ac80995ab40ab3638492d091eb78354606747bdbd4044ebc8900b7797411ebba",
+    "audit/execution_checks.py": "40e6a12b9a6c3c6675522a9739aad64a5c01fecdd4c3b8071508104428430897",
+    "config.json": "145a431b4672437d59c51e21ad6ac56d0a095ae34526546ffcb8c503433f864b",
+    "freeze.json": "325ed7d0fc71fd42808fe87c5ed4f9117fd729f27080b54136894cade27f79cd",
+    "phase2b/__init__.py": "864525342ea24eb43904595f26a2aad937ef41a34f7658c498ac8e96062e0a4b",
+    "phase2b/aligned.py": "67bdf86cbd21a81bde81fde981b9c00308f35d2f911af766fbd28939ae5b4ab0",
+    "phase2b/analyze.py": "cc6908f48f64fc16dbd0217446ee2927188a8196156f4400a786177593c152c2",
+    "phase2b/bootstrap.py": "13d26affd870793e8e32579906551bc328fa55f95e5b6dae947f08cb4b0a034b",
+    "phase2b/integrity.py": "0d64e95258509477e6aa1323fd022325586d0b2084fd91a10300f8077ae0ffc8",
+    "phase2b/log_glr.py": "2e24081b34fa2b783b85fe5d6d73a3e52574e5466f0fe1eb88ca0513de1233ba",
+    "phase2b/policy.py": "ad1ffc3c65492b5ecd98e4689486a3516d5ea7563537f98f61ea3385dc89c22e",
+    "phase2b/runner.py": "21e95303ba9bb93d22a708be8c55a3bf487c99401f3c4289ff45090785062368",
+    "pilot_execution.log": "fe8ff9754263c865b770fb728767bc646dc298f9a2e2a58fb8446cfacee01a26",
+    "preflight_tests_1.log": "0fda70d347d5ddfc8174d50babaa19d57b0a9ebf4527e1cad1245a826348197e",
+    "preflight_tests_2.log": "f7d7907a14c96bbf1a939b1f4f005cb6c7dfabbe8a494ec766c3be029f6a5970",
+    "preflight_tests_3.log": "6cd55c7e8ac89e406f72c7923827b1d41eb2aca383f651c27de853edceb6094b",
+    "tests/test_aligned.py": "8299aafbccfbf22a130b9fff9b18b5dac16a9d7a22999f324f8d48fb45654e51",
+    "tests/test_analysis.py": "49b7f6b627e77f09c9d2abfe47625c79643860194b7bf8ba0428bc4cee9c3ce3",
+    "tests/test_integration.py": "4e74cecae0b1d6cc2e7aa9c1f1d619a173f548dbf0b11339738782b52d28c03c",
+    "tests/test_log_glr.py": "381a7657eccca995e0fe13b172d41f45ef11dabbaa8dd7d732de26052c51056d",
+    "validation_execution.log": "a4096dbd83f8f45ef5c10cfa392da7f831fecb0052da0bdffa023438b3c5c6b7"
+  }
+}

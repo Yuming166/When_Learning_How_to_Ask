@@ -1,0 +1,272 @@
+[
+  {
+    "r": 0.5,
+    "a": 0.8,
+    "reads": 1,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.5,
+    "a": 0.8,
+    "reads": 3,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.5,
+    "a": 0.8,
+    "reads": 5,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.5,
+    "a": 0.8,
+    "reads": 9,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.5,
+    "a": 0.8,
+    "reads": 15,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.5,
+    "reads": 1,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.5,
+    "reads": 3,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.5,
+    "reads": 5,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.5,
+    "reads": 9,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.5,
+    "reads": 15,
+    "iid_read_repeat_risk": 0.5,
+    "fresh_risk": 0.5,
+    "sticky_extractor_repeat_risk": 0.5,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 0.8,
+    "reads": 1,
+    "iid_read_repeat_risk": 0.19999999999999996,
+    "fresh_risk": 0.19999999999999996,
+    "sticky_extractor_repeat_risk": 0.19999999999999996,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 0.8,
+    "reads": 3,
+    "iid_read_repeat_risk": 0.10399999999999987,
+    "fresh_risk": 0.10399999999999987,
+    "sticky_extractor_repeat_risk": 0.19999999999999996,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 0.8,
+    "reads": 5,
+    "iid_read_repeat_risk": 0.05791999999999997,
+    "fresh_risk": 0.05791999999999997,
+    "sticky_extractor_repeat_risk": 0.19999999999999996,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 0.8,
+    "reads": 9,
+    "iid_read_repeat_risk": 0.01958143999999995,
+    "fresh_risk": 0.01958143999999995,
+    "sticky_extractor_repeat_risk": 0.19999999999999996,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 0.8,
+    "reads": 15,
+    "iid_read_repeat_risk": 0.004239749709823992,
+    "fresh_risk": 0.004239749709823992,
+    "sticky_extractor_repeat_risk": 0.19999999999999996,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 1,
+    "reads": 1,
+    "iid_read_repeat_risk": 0.25,
+    "fresh_risk": 0.25,
+    "sticky_extractor_repeat_risk": 0.25,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 1,
+    "reads": 3,
+    "iid_read_repeat_risk": 0.25,
+    "fresh_risk": 0.15625,
+    "sticky_extractor_repeat_risk": 0.25,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 1,
+    "reads": 5,
+    "iid_read_repeat_risk": 0.25,
+    "fresh_risk": 0.103515625,
+    "sticky_extractor_repeat_risk": 0.25,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 1,
+    "reads": 9,
+    "iid_read_repeat_risk": 0.25,
+    "fresh_risk": 0.04892730712890625,
+    "sticky_extractor_repeat_risk": 0.25,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 1,
+    "reads": 15,
+    "iid_read_repeat_risk": 0.25,
+    "fresh_risk": 0.017299838364124298,
+    "sticky_extractor_repeat_risk": 0.25,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 1,
+    "reads": 1,
+    "iid_read_repeat_risk": 0,
+    "fresh_risk": 0,
+    "sticky_extractor_repeat_risk": 0,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 1,
+    "reads": 3,
+    "iid_read_repeat_risk": 0,
+    "fresh_risk": 0,
+    "sticky_extractor_repeat_risk": 0,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 1,
+    "reads": 5,
+    "iid_read_repeat_risk": 0,
+    "fresh_risk": 0,
+    "sticky_extractor_repeat_risk": 0,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 1,
+    "reads": 9,
+    "iid_read_repeat_risk": 0,
+    "fresh_risk": 0,
+    "sticky_extractor_repeat_risk": 0,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 1,
+    "a": 1,
+    "reads": 15,
+    "iid_read_repeat_risk": 0,
+    "fresh_risk": 0,
+    "sticky_extractor_repeat_risk": 0,
+    "interpretation": "sticky extraction draws one E per root and reuses it; outside iid-reading assumption"
+  },
+  {
+    "r": 0.75,
+    "a": 0.8,
+    "reads": 1,
+    "iid_read_repeat_risk": 0.35,
+    "fresh_risk": 0.34999999999999987,
+    "sticky_extractor_repeat_risk": 0.35,
+    "interpretation": "same one-read marginal, different repeat dependence"
+  },
+  {
+    "r": 0.75,
+    "a": 0.8,
+    "reads": 3,
+    "iid_read_repeat_risk": 0.30199999999999994,
+    "fresh_risk": 0.28174999999999983,
+    "sticky_extractor_repeat_risk": 0.35,
+    "interpretation": "same one-read marginal, different repeat dependence"
+  },
+  {
+    "r": 0.75,
+    "a": 0.8,
+    "reads": 5,
+    "iid_read_repeat_risk": 0.27896,
+    "fresh_risk": 0.2351693749999999,
+    "sticky_extractor_repeat_risk": 0.35,
+    "interpretation": "same one-read marginal, different repeat dependence"
+  },
+  {
+    "r": 0.75,
+    "a": 0.8,
+    "reads": 9,
+    "iid_read_repeat_risk": 0.25979072,
+    "fresh_risk": 0.1717192855273436,
+    "sticky_extractor_repeat_risk": 0.35,
+    "interpretation": "same one-read marginal, different repeat dependence"
+  },
+  {
+    "r": 0.75,
+    "a": 0.8,
+    "reads": 15,
+    "iid_read_repeat_risk": 0.252119874854912,
+    "fresh_risk": 0.11323113077556413,
+    "sticky_extractor_repeat_risk": 0.35,
+    "interpretation": "same one-read marginal, different repeat dependence"
+  }
+]

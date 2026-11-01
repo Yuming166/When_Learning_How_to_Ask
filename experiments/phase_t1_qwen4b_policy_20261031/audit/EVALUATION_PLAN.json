@@ -1,0 +1,495 @@
+{
+  "evaluation_world_ids": [
+    "aad1b99d77130faf7989480d",
+    "09bbb9479cc05f5f74af50f7",
+    "92c1143c716aa49373cf523b",
+    "bdb79f37be514a7fe25a5708",
+    "31134cf1cb1f73eb8bea8075",
+    "0ae0c9798003c80d3924bfb4",
+    "ad3d58f6e972aecb6e95c05d",
+    "83808ded2d94382cfbdd9fe9",
+    "e71e58c6e957f33a6fe8aaff",
+    "ea0e148f7c98066ce47091bb",
+    "2ed7ba0e5ae0403efc5c89df",
+    "964eefa78520da220c7091a9",
+    "9cad12450716b6859bd041ea",
+    "051927f482aa682e39b5ee84",
+    "0a3e703cc38e2922cbdcbfa8",
+    "d7e638182e88907c3ebac803",
+    "82304b40dd1a5f23003377b7",
+    "d4cdbaf9f1974b68a5bb9f0c",
+    "039765abeb98ceecc8948f5b",
+    "53191fece5170cfc420aea3c",
+    "12ed224a3ae9ac6c838c204a",
+    "0a81c1f30a340c24001ea1e6",
+    "5b900a9a8b4c819eaf4b0764",
+    "618726624cdbc7155b7e7795"
+  ],
+  "diagnostic_world_ids": [
+    "aad1b99d77130faf7989480d",
+    "e71e58c6e957f33a6fe8aaff",
+    "82304b40dd1a5f23003377b7"
+  ],
+  "selection": "first declared world of each stratum; fixed before seed; all M=0",
+  "world_plan": [
+    {
+      "world_id": "aad1b99d77130faf7989480d",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600000,
+      "partition": [
+        4
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "09bbb9479cc05f5f74af50f7",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600001,
+      "partition": [
+        4
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "92c1143c716aa49373cf523b",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600002,
+      "partition": [
+        4
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "bdb79f37be514a7fe25a5708",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600003,
+      "partition": [
+        4
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "31134cf1cb1f73eb8bea8075",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600004,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "0ae0c9798003c80d3924bfb4",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600005,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "ad3d58f6e972aecb6e95c05d",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600006,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "83808ded2d94382cfbdd9fe9",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_id",
+      "index": 7600007,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "e71e58c6e957f33a6fe8aaff",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610000,
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "ea0e148f7c98066ce47091bb",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610001,
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "2ed7ba0e5ae0403efc5c89df",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610002,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "964eefa78520da220c7091a9",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610003,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "9cad12450716b6859bd041ea",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610004,
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "051927f482aa682e39b5ee84",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610005,
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "0a3e703cc38e2922cbdcbfa8",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610006,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "d7e638182e88907c3ebac803",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_parameters",
+      "index": 7610007,
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "q": 0.6,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "82304b40dd1a5f23003377b7",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620000,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "d4cdbaf9f1974b68a5bb9f0c",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620001,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "039765abeb98ceecc8948f5b",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620002,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "53191fece5170cfc420aea3c",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620003,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "12ed224a3ae9ac6c838c204a",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620004,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "0a81c1f30a340c24001ea1e6",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620005,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.8,
+      "q": 0.55,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "5b900a9a8b4c819eaf4b0764",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620006,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 0,
+      "R": 64,
+      "M": 0,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    },
+    {
+      "world_id": "618726624cdbc7155b7e7795",
+      "namespace": "phase_t1_qwen4b_policy_20261031",
+      "environment_split": "development",
+      "split": "eval_ood_partition",
+      "index": 7620007,
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.9,
+      "q": 0.65,
+      "alpha": 1,
+      "R": 64,
+      "M": 64,
+      "s": 0.8,
+      "eta": 0.05,
+      "online_cap": 2048
+    }
+  ],
+  "independent_from_state_data_worlds": true,
+  "primary_R": 64,
+  "diagnostic_R": 16,
+  "offline_positions": [
+    0,
+    3,
+    6,
+    9,
+    15
+  ],
+  "offline_states_per_method": 120
+}

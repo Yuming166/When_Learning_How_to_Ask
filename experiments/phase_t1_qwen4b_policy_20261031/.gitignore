@@ -1,0 +1,8 @@
+.deps/
+__pycache__/
+*.pyc
+artifacts/private/
+artifacts/**/private/
+artifacts/adapters/
+artifacts/smoke_adapter/
+artifacts/smoke_long_adapter/

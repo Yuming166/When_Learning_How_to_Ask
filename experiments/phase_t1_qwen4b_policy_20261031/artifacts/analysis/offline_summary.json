@@ -1,0 +1,1190 @@
+[
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.873953147221006,
+        "mean": 0.3592441434026257,
+        "observed_mean": 0.3592441434026257
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.28226427383063,
+        "mean": 0.2852830342288287,
+        "observed_mean": 0.2852830342288287
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 1.7455425363224222,
+        "mean": 0.21819281704030277,
+        "observed_mean": 0.21819281704030277
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.892,
+        "mean": 0.3615,
+        "observed_mean": 0.3615
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.09720156974731206,
+        "mean": 0.012150196218414008,
+        "observed_mean": 0.012150196218414008
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.16203568251456724,
+        "mean": 0.020254460314320905,
+        "observed_mean": 0.020254460314320905
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.004249921627342701,
+        "mean": 0.0005312402034178376,
+        "observed_mean": 0.0005312402034178376
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.00425342720000188,
+        "mean": 0.000531678400000235,
+        "observed_mean": 0.000531678400000235
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 40,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.934951609739564,
+        "mean": 0.9918689512174454,
+        "observed_mean": 0.9918689512174454
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 5.3690658776070865,
+        "mean": 0.6711332347008858,
+        "observed_mean": 0.6711332347008858
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 3.338110085564879,
+        "mean": 0.4172637606956099,
+        "observed_mean": 0.4172637606956099
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.948,
+        "mean": 0.9935,
+        "observed_mean": 0.9935
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.09720156974731206,
+        "mean": 0.012150196218414008,
+        "observed_mean": 0.012150196218414008
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0711111111111109,
+        "mean": 0.008888888888888863,
+        "observed_mean": 0.008888888888888863
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 29.614803931396455,
+        "mean": 3.701850491424557,
+        "observed_mean": 3.701850491424557
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 29.63002256320001,
+        "mean": 3.7037528204000014,
+        "observed_mean": 3.7037528204000014
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2879.8,
+        "mean": 359.975,
+        "observed_mean": 359.975
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 291.6,
+        "mean": 36.45,
+        "observed_mean": 36.45
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 12,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.783069930227496,
+        "mean": 0.972883741278437,
+        "observed_mean": 0.972883741278437
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 49.25696919891217,
+        "mean": 6.157121149864021,
+        "observed_mean": 6.157121149864021
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 3.9713803792220426,
+        "mean": 0.4964225474027553,
+        "observed_mean": 0.4964225474027553
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.788,
+        "mean": 0.9735,
+        "observed_mean": 0.9735
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 1.0,
+        "mean": 0.125,
+        "observed_mean": 0.125
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.09720156974731206,
+        "mean": 0.012150196218414008,
+        "observed_mean": 0.012150196218414008
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 44.48369684908539,
+        "mean": 5.560462106135674,
+        "observed_mean": 5.560462106135674
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 44.50409055260002,
+        "mean": 5.563011319075002,
+        "observed_mean": 5.563011319075002
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2879.8,
+        "mean": 359.975,
+        "observed_mean": 359.975
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 228.0,
+        "mean": 28.5,
+        "observed_mean": 28.5
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.77473305139661,
+        "mean": 0.34684163142457625,
+        "observed_mean": 0.34684163142457625
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.004084256945549,
+        "mean": 0.25051053211819363,
+        "observed_mean": 0.25051053211819363
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.2080252980038955,
+        "mean": 0.27600316225048693,
+        "observed_mean": 0.27600316225048693
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2.8040000000000003,
+        "mean": 0.35050000000000003,
+        "observed_mean": 0.35050000000000003
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.11537467643283834,
+        "mean": 0.014421834554104793,
+        "observed_mean": 0.014421834554104793
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.17557203842793645,
+        "mean": 0.021946504803492056,
+        "observed_mean": 0.021946504803492056
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.004235734604299069,
+        "mean": 0.0005294668255373836,
+        "observed_mean": 0.0005294668255373836
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.004237412599997015,
+        "mean": 0.0005296765749996269,
+        "observed_mean": 0.0005296765749996269
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 38,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 8.248133598102333,
+        "mean": 1.0310166997627916,
+        "observed_mean": 1.0310166997627916
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 8.76066936512994,
+        "mean": 1.0950836706412426,
+        "observed_mean": 1.0950836706412426
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 3.908289031883159,
+        "mean": 0.4885361289853949,
+        "observed_mean": 0.4885361289853949
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 8.276,
+        "mean": 1.0345,
+        "observed_mean": 1.0345
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.11537467643283834,
+        "mean": 0.014421834554104793,
+        "observed_mean": 0.014421834554104793
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.06755555555555535,
+        "mean": 0.00844444444444442,
+        "observed_mean": 0.00844444444444442
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 29.791177563462405,
+        "mean": 3.7238971954328006,
+        "observed_mean": 3.7238971954328006
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 29.805326596200015,
+        "mean": 3.725665824525002,
+        "observed_mean": 3.725665824525002
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2874.4,
+        "mean": 359.3,
+        "observed_mean": 359.3
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 294.0,
+        "mean": 36.75,
+        "observed_mean": 36.75
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 12,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 9.674746033551648,
+        "mean": 1.209343254193956,
+        "observed_mean": 1.209343254193956
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 64.72349358601373,
+        "mean": 8.090436698251716,
+        "observed_mean": 8.090436698251716
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 4.950521268718058,
+        "mean": 0.6188151585897572,
+        "observed_mean": 0.6188151585897572
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 9.668,
+        "mean": 1.2085,
+        "observed_mean": 1.2085
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.2,
+        "mean": 0.025,
+        "observed_mean": 0.025
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.11537467643283834,
+        "mean": 0.014421834554104793,
+        "observed_mean": 0.014421834554104793
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 44.75585986375809,
+        "mean": 5.594482482969761,
+        "observed_mean": 5.594482482969761
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 44.77631758599998,
+        "mean": 5.597039698249998,
+        "observed_mean": 5.597039698249998
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2874.4,
+        "mean": 359.3,
+        "observed_mean": 359.3
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 228.0,
+        "mean": 28.5,
+        "observed_mean": 28.5
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 5.164550561925081,
+        "mean": 0.6455688202406351,
+        "observed_mean": 0.6455688202406351
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 5.055930566718889,
+        "mean": 0.6319913208398611,
+        "observed_mean": 0.6319913208398611
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 5.328980205312183,
+        "mean": 0.6661225256640229,
+        "observed_mean": 0.6661225256640229
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 5.204,
+        "mean": 0.6505,
+        "observed_mean": 0.6505
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.14589093129938308,
+        "mean": 0.018236366412422884,
+        "observed_mean": 0.018236366412422884
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.20772384215707115,
+        "mean": 0.025965480269633894,
+        "observed_mean": 0.025965480269633894
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.00414347667247057,
+        "mean": 0.0005179345840588212,
+        "observed_mean": 0.0005179345840588212
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0041379687999999245,
+        "mean": 0.0005172460999999906,
+        "observed_mean": 0.0005172460999999906
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 38,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 6.846003310224109,
+        "mean": 0.8557504137780136,
+        "observed_mean": 0.8557504137780136
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 4.233481509903437,
+        "mean": 0.5291851887379296,
+        "observed_mean": 0.5291851887379296
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 3.3910841902644386,
+        "mean": 0.42388552378305483,
+        "observed_mean": 0.42388552378305483
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 6.848,
+        "mean": 0.856,
+        "observed_mean": 0.856
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.14589093129938308,
+        "mean": 0.018236366412422884,
+        "observed_mean": 0.018236366412422884
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 28.548204040247946,
+        "mean": 3.568525505030993,
+        "observed_mean": 3.568525505030993
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 28.56140038379997,
+        "mean": 3.5701750479749963,
+        "observed_mean": 3.5701750479749963
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2919.8,
+        "mean": 364.975,
+        "observed_mean": 364.975
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 281.6,
+        "mean": 35.2,
+        "observed_mean": 35.2
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "requested_worlds": 8,
+    "requested_states": 40,
+    "observed_states": 40,
+    "invalid_fallbacks": 29,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.293644445871118,
+        "mean": 0.9117055557338898,
+        "observed_mean": 0.9117055557338898
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 19.61889130651113,
+        "mean": 2.4523614133138913,
+        "observed_mean": 2.4523614133138913
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 3.8840965561976,
+        "mean": 0.4855120695247,
+        "observed_mean": 0.4855120695247
+      },
+      "percent_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 7.268,
+        "mean": 0.9085,
+        "observed_mean": 0.9085
+      },
+      "percent_exact": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.14589093129938308,
+        "mean": 0.018236366412422884,
+        "observed_mean": 0.018236366412422884
+      },
+      "student_rounding_l1": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 45.190034839417784,
+        "mean": 5.648754354927223,
+        "observed_mean": 5.648754354927223
+      },
+      "inference_cpu_seconds": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 45.21075276940005,
+        "mean": 5.6513440961750065,
+        "observed_mean": 5.6513440961750065
+      },
+      "prompt_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 2919.8,
+        "mean": 364.975,
+        "observed_mean": 364.975
+      },
+      "output_tokens": {
+        "requested": 8,
+        "observed": 8,
+        "missing_or_undefined": 0,
+        "sum": 230.2,
+        "mean": 28.775,
+        "observed_mean": 28.775
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "MLP",
+    "split": "all_24_worlds",
+    "requested_worlds": 24,
+    "requested_states": 120,
+    "observed_states": 120,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 10.813236760542695,
+        "mean": 0.450551531689279,
+        "observed_mean": 0.450551531689279
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 9.342279097495068,
+        "mean": 0.3892616290622945,
+        "observed_mean": 0.3892616290622945
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 9.2825480396385,
+        "mean": 0.38677283498493753,
+        "observed_mean": 0.38677283498493753
+      },
+      "percent_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 10.9,
+        "mean": 0.45416666666666666,
+        "observed_mean": 0.45416666666666666
+      },
+      "percent_exact": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.3584671774795335,
+        "mean": 0.014936132394980562,
+        "observed_mean": 0.014936132394980562
+      },
+      "student_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.5453315630995749,
+        "mean": 0.022722148462482286,
+        "observed_mean": 0.022722148462482286
+      },
+      "inference_wall_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.012629132904112338,
+        "mean": 0.0005262138710046808,
+        "observed_mean": 0.0005262138710046808
+      },
+      "inference_cpu_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.01262880859999882,
+        "mean": 0.0005262003583332842,
+        "observed_mean": 0.0005262003583332842
+      },
+      "prompt_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "BaseQwen",
+    "split": "all_24_worlds",
+    "requested_worlds": 24,
+    "requested_states": 120,
+    "observed_states": 120,
+    "invalid_fallbacks": 116,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 23.029088518066008,
+        "mean": 0.959545354919417,
+        "observed_mean": 0.959545354919417
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 18.363216752640465,
+        "mean": 0.7651340313600193,
+        "observed_mean": 0.7651340313600193
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 10.637483307712477,
+        "mean": 0.44322847115468655,
+        "observed_mean": 0.44322847115468655
+      },
+      "percent_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 23.072000000000003,
+        "mean": 0.9613333333333335,
+        "observed_mean": 0.9613333333333335
+      },
+      "percent_exact": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.3584671774795335,
+        "mean": 0.014936132394980562,
+        "observed_mean": 0.014936132394980562
+      },
+      "student_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.13866666666666627,
+        "mean": 0.005777777777777761,
+        "observed_mean": 0.005777777777777761
+      },
+      "inference_wall_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 87.9541855351068,
+        "mean": 3.66475773062945,
+        "observed_mean": 3.66475773062945
+      },
+      "inference_cpu_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 87.9967495432,
+        "mean": 3.6665312309666667,
+        "observed_mean": 3.6665312309666667
+      },
+      "prompt_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 8674.0,
+        "mean": 361.4166666666667,
+        "observed_mean": 361.4166666666667
+      },
+      "output_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 867.2,
+        "mean": 36.13333333333333,
+        "observed_mean": 36.13333333333333
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  },
+  {
+    "method": "LoRA",
+    "split": "all_24_worlds",
+    "requested_worlds": 24,
+    "requested_states": 120,
+    "observed_states": 120,
+    "invalid_fallbacks": 53,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 24.75146040965026,
+        "mean": 1.0313108504020942,
+        "observed_mean": 1.0313108504020942
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 133.59935409143702,
+        "mean": 5.566639753809876,
+        "observed_mean": 5.566639753809876
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 12.805998204137701,
+        "mean": 0.5335832585057375,
+        "observed_mean": 0.5335832585057375
+      },
+      "percent_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 24.724,
+        "mean": 1.0301666666666667,
+        "observed_mean": 1.0301666666666667
+      },
+      "percent_exact": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 1.2,
+        "mean": 0.049999999999999996,
+        "observed_mean": 0.049999999999999996
+      },
+      "teacher_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.3584671774795335,
+        "mean": 0.014936132394980562,
+        "observed_mean": 0.014936132394980562
+      },
+      "student_rounding_l1": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 134.42959155226126,
+        "mean": 5.601232981344219,
+        "observed_mean": 5.601232981344219
+      },
+      "inference_cpu_seconds": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 134.49116090800004,
+        "mean": 5.603798371166668,
+        "observed_mean": 5.603798371166668
+      },
+      "prompt_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 8674.0,
+        "mean": 361.4166666666667,
+        "observed_mean": 361.4166666666667
+      },
+      "output_tokens": {
+        "requested": 24,
+        "observed": 24,
+        "missing_or_undefined": 0,
+        "sum": 686.2,
+        "mean": 28.59166666666667,
+        "observed_mean": 28.59166666666667
+      }
+    },
+    "unit": "within-world mean of five declared states; then equal independent-world weight"
+  }
+]

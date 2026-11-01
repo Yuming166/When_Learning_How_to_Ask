@@ -1,0 +1,1651 @@
+{
+  "kind": "FROZEN_OBSERVATION_ADAPTED_POLICY",
+  "r_center": "3/4",
+  "a_center": "4/5",
+  "nominal_activation_cost": 1,
+  "budget": 8,
+  "root_indexing": "creation order",
+  "terminal_decoder": "center-parameter Bayes sign, fair tie; held fixed under perturbation",
+  "nodes": [
+    {
+      "ordered_root_counts": [],
+      "remaining": 8,
+      "optimal_conditional_risk": {
+        "fraction": "24899/100000",
+        "float": 0.24899
+      },
+      "action": "NEW_ROOT",
+      "root_index": 0,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 6
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 6
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 6,
+      "optimal_conditional_risk": {
+        "fraction": "24899/100000",
+        "float": 0.24899
+      },
+      "action": "NEW_ROOT",
+      "root_index": 1,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "109/200",
+            "float": 0.545
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 4
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "91/200",
+            "float": 0.455
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 4
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 6,
+      "optimal_conditional_risk": {
+        "fraction": "24899/100000",
+        "float": 0.24899
+      },
+      "action": "NEW_ROOT",
+      "root_index": 1,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "91/200",
+            "float": 0.455
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 4
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "109/200",
+            "float": 0.545
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 4
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 4,
+      "optimal_conditional_risk": {
+        "fraction": "5579/27250",
+        "float": 0.20473394495412844
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "77/109",
+            "float": 0.7064220183486238
+          },
+          "next_root_counts": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 3
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "32/109",
+            "float": 0.29357798165137616
+          },
+          "next_root_counts": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 3
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 4,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "NEW_ROOT",
+      "root_index": 2,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 2
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 2
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 4,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "NEW_ROOT",
+      "root_index": 2,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 2
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 2
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 4,
+      "optimal_conditional_risk": {
+        "fraction": "5579/27250",
+        "float": 0.20473394495412844
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "32/109",
+            "float": 0.29357798165137616
+          },
+          "next_root_counts": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 3
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "77/109",
+            "float": 0.7064220183486238
+          },
+          "next_root_counts": [
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 3
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 3,
+      "optimal_conditional_risk": {
+        "fraction": "19/110",
+        "float": 0.17272727272727273
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 3,
+      "optimal_conditional_risk": {
+        "fraction": "1127/4000",
+        "float": 0.28175
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "109/200",
+            "float": 0.545
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 2
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "91/200",
+            "float": 0.455
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 2
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "17/25",
+            "float": 0.68
+          },
+          "next_root_counts": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 1
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "8/25",
+            "float": 0.32
+          },
+          "next_root_counts": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 1
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 1,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "8/25",
+            "float": 0.32
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 1
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "17/25",
+            "float": 0.68
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 1
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 1,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "17/25",
+            "float": 0.68
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 1
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "8/25",
+            "float": 0.32
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 1
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "151/500",
+        "float": 0.302
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "8/25",
+            "float": 0.32
+          },
+          "next_root_counts": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 1
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "17/25",
+            "float": 0.68
+          },
+          "next_root_counts": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 1
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 3,
+      "optimal_conditional_risk": {
+        "fraction": "1127/4000",
+        "float": 0.28175
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "91/200",
+            "float": 0.455
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 2
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "109/200",
+            "float": 0.545
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 2
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 3,
+      "optimal_conditional_risk": {
+        "fraction": "19/110",
+        "float": 0.17272727272727273
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "49/218",
+        "float": 0.22477064220183487
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "NEW_ROOT",
+      "root_index": 2,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "19/68",
+        "float": 0.27941176470588236
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 1,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "19/68",
+        "float": 0.27941176470588236
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "19/68",
+        "float": 0.27941176470588236
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 1,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "READ_EXISTING_ROOT",
+      "root_index": 0,
+      "action_cost": 1,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 1,
+      "optimal_conditional_risk": {
+        "fraction": "19/68",
+        "float": 0.27941176470588236
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "NEW_ROOT",
+      "root_index": 2,
+      "action_cost": 2,
+      "transitions": [
+        {
+          "answer": 0,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "next_remaining": 0
+        },
+        {
+          "answer": 1,
+          "probability": {
+            "fraction": "1/2",
+            "float": 0.5
+          },
+          "next_root_counts": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "next_remaining": 0
+        }
+      ]
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 2,
+      "optimal_conditional_risk": {
+        "fraction": "49/218",
+        "float": 0.22477064220183487
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    },
+    {
+      "ordered_root_counts": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "remaining": 0,
+      "optimal_conditional_risk": {
+        "fraction": "7/20",
+        "float": 0.35
+      },
+      "action": "STOP",
+      "root_index": null,
+      "action_cost": 0,
+      "transitions": []
+    }
+  ],
+  "source_receipt_sha256": "80f7316bd939a950941dfc58b12abf25a6a8235dd48f30d446b6d2fa1fcf9f9d"
+}

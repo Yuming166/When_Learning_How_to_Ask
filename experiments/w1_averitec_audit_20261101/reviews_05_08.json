@@ -1,0 +1,512 @@
+{
+  "review_id": "W1-05-08-AI-review-v1",
+  "client_date": "2026-11-01",
+  "scope": "Selected cases W1-05 through W1-08, original nominated URLs and exact embedded original URLs only",
+  "global_constraints": {
+    "model_inference_calls": 0,
+    "training_jobs": 0,
+    "human_signoffs": 0,
+    "Y": null,
+    "archives": "Failed nominated archive access never establishes historical V. All determinate values below concern current representations only.",
+    "independence": "Different URLs, hosts, current/archive pairs and repeated question links are not independent roots."
+  },
+  "access_notes": [
+    "All browser outputs are retained verbatim as JSON under browser_05_08/batch_01.json through batch_04.json. They are partial browser text representations, not raw HTML snapshots.",
+    "P023 and P031 received one redundant browser cross-read while the parent raw-capture task also succeeded. This is a bounded access-method deviation, not a new source or replacement sample.",
+    "No searches, alternative paths, new evidence pages, or linked pages were opened. Automatic server redirects are recorded in browser returns.",
+    "P024 and P032 are failed archive URLs whose exact embedded current URLs were already captured as P023 and P031; current values must not be assigned to the archives."
+  ],
+  "cases": [
+    {
+      "case_id": "W1-05",
+      "dataset_theta": 1,
+      "dataset_label": "Supported",
+      "theta_status": "QUALIFIED_REFERENCE_CORROBORATED_BY_FACTCHECK_NOT_INDEPENDENT_RAW_RECALCULATION",
+      "theta_review": "PolitiFact affirms the quoted $1.7B claim and reports a $1.775B cumulative year-over-year decline from week ending March 14 through May 16, 2020, based on Tourism Economics studies commissioned by the U.S. Travel Association. The dataset's linked QA evidence page is instead a May 2021 article about the full year 2020. Preserve the stated claim-time scope and rounding; primary study data were not separately fetched.",
+      "theta_locator": "browser_05_08/batch_01.json: P022 browser lines 43-47,64-72,87-108",
+      "w2_candidate": true,
+      "w2_candidate_page_ids": [
+        "P021"
+      ],
+      "w2_caveat": "Provisional current-page candidate only. Human signoff and independent recalculation of the underlying study remain absent; no recovered historical snapshot.",
+      "natural_wrong_nonreference_source_established": false,
+      "pages": [
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P021",
+          "roles": [
+            "original",
+            "original_archive"
+          ],
+          "V_current": 1,
+          "disposition": "CURRENT_SUPPORTS_FULL_CLAIM",
+          "reason": "Headline adopts the loss claim; interview supplies scope.",
+          "evidence_locator": "browser_05_08/batch_01.json: P021 lines 57-70",
+          "eligible_nonreference_w2_candidate": true,
+          "current_representation_url": "https://www.wisn.com/article/upfront-recap-wisconsin-has-lost-dollar17-billion-in-tourism-dollars-since-march-14/32651612",
+          "temporal_scope": "Claim is dated May 24, 2020; current representation only; archived 2020 snapshot unreadable."
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P022",
+          "roles": [
+            "reference"
+          ],
+          "V_current": 1,
+          "disposition": "REFERENCE_ONLY_CURRENT_SUPPORTS",
+          "reason": "Factchecker gives True for the scoped cumulative spending decline. Evaluator-only; not an independent ordinary-page trial.",
+          "evidence_locator": "browser_05_08/batch_01.json: P022 lines 29-47,87-108",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.politifact.com/factchecks/2020/jun/12/sara-meaney/yes-state-has-seen-drop-more-billion-tourism-dolla/",
+          "temporal_scope": "Published June 12, 2020; evaluates May 24 statement using studies through May 16."
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P023",
+          "roles": [
+            "evidence"
+          ],
+          "V_current": null,
+          "disposition": "TEMPORAL_AND_SCOPE_MISMATCH",
+          "reason": "The nominated article concerns the whole of 2020, reports approximately $4B lower spending, and was published May 5, 2021. It does not assert or refute the selected cumulative March-to-May $1.7B claim.",
+          "evidence_locator": "texts/P023.txt lines 38-50; browser_05_08/batch_01.json: P023 lines 36-48",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.wpr.org/wisconsins-tourism-industry-sees-30-percent-spending-decline-2020-due-covid-19",
+          "semantic_flags": [
+            "QA_ANSWER_SOURCE_BINDING_MISMATCH",
+            "POST_CLAIM_PUBLICATION",
+            "DIFFERENT_MEASUREMENT_WINDOW"
+          ]
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P024",
+          "roles": [
+            "evidence_archive"
+          ],
+          "V_current": null,
+          "disposition": "ARCHIVE_UNAVAILABLE",
+          "reason": "Archive capture failed. The same underlying current page is P023, which has a different measurement window; its content is not historical archive evidence.",
+          "evidence_locator": "access_log.jsonl entry P024; browser_05_08/batch_01.json current counterpart P023",
+          "eligible_nonreference_w2_candidate": false,
+          "current_equivalent_page_id": "P023",
+          "semantic_flags": [
+            "ARCHIVE_NOT_RECOVERED"
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "relation": "SHARED_NAMED_UPSTREAM",
+          "members": [
+            "P021",
+            "P022"
+          ],
+          "upstream": "U.S. Travel Association / Tourism Economics",
+          "evidence": "P022 lines 53,64-72 explicitly connect the televised statement and the same commissioned study family.",
+          "independence": "NOT_ESTABLISHED"
+        },
+        {
+          "relation": "ANSWER_TEXT_MATCHES_REFERENCE_NOT_NOMINATED_EVIDENCE",
+          "members": [
+            "P022",
+            "P023"
+          ],
+          "evidence": "Dataset questions[0].answers[0].answer matches the reference ruling P022 lines 90-92; nominated WPR source has a different annual statistic.",
+          "independence": "NOT_APPLICABLE"
+        },
+        {
+          "relation": "CURRENT_ARCHIVE_PAIR",
+          "members": [
+            "P023",
+            "P024"
+          ],
+          "independence": "SAME_NOMINATED_PAGE"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-06",
+      "dataset_theta": 0,
+      "dataset_label": "Refuted",
+      "theta_status": "QUALIFIED_REFERENCE_CORROBORATED_BY_PRIMARY_AUTHORSHIP_NOTE",
+      "theta_review": "The reference article identifies a March 2020 parody by Nick Farriella; the nominated McSweeney's current page names him and explicitly denies that Fitzgerald wrote an actual letter. This corroborates the reference label for the attribution claim. The archival timestamp does not establish when the explanatory note was added.",
+      "theta_locator": "browser_05_08/batch_02.json: P026 lines 8-20; P028 lines 16-35",
+      "w2_candidate": true,
+      "w2_candidate_page_ids": [
+        "P028"
+      ],
+      "w2_caveat": "Current-page explicit-refutation candidate. No human signoff and no claim that the correction note existed in the 2020 archived version.",
+      "natural_wrong_nonreference_source_established": false,
+      "pages": [
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P025",
+          "roles": [
+            "original",
+            "original_archive"
+          ],
+          "V_current": null,
+          "disposition": "UNAVAILABLE",
+          "reason": "Archived Facebook post failed; exact current original returned a throttling failure. No original post stance is independently observed.",
+          "evidence_locator": "access_log.jsonl entry P025; browser_05_08/batch_02.json: P025 error",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.facebook.com/jay.nickeron/posts/2617182365228423"
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P026",
+          "roles": [
+            "reference"
+          ],
+          "V_current": 0,
+          "disposition": "REFERENCE_ONLY_CURRENT_REFUTES",
+          "reason": "Reference explicitly rejects Fitzgerald attribution and identifies a March 2020 parody. Excluded from ordinary source trials.",
+          "evidence_locator": "browser_05_08/batch_02.json: P026 lines 8-20",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://checkyourfact.com/2020/03/31/fact-check-f-scott-fitzgerald-letter-quarantined-spanish-influenza/",
+          "temporal_scope": "Reference dated March 31, 2020, concerning March 2020 circulated post."
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P027",
+          "roles": [
+            "evidence",
+            "evidence_archive"
+          ],
+          "V_current": null,
+          "disposition": "IRRELEVANT_CURRENT_HOMEPAGE_ARCHIVE_UNAVAILABLE",
+          "reason": "The archived URL is a site homepage. The current homepage contains 2026 material and no inspected Fitzgerald evidence. A domain homepage cannot substitute for the absent specific evidence article.",
+          "evidence_locator": "browser_05_08/batch_02.json: P027 lines 44-108,360-408",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.altnews.in/",
+          "semantic_flags": [
+            "HOMEPAGE_NOT_ARTICLE",
+            "HISTORICAL_CONTENT_UNKNOWN"
+          ]
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P028",
+          "roles": [
+            "evidence",
+            "evidence_archive"
+          ],
+          "V_current": 0,
+          "disposition": "CURRENT_EXPLICIT_ATTRIBUTION_REFUTATION",
+          "reason": "Current primary publication names Nick Farriella and includes an explicit parody / not-an-actual-Fitzgerald-letter note. Read this whole-page qualification; the embedded fictional letter alone is not an assertion of authentic authorship.",
+          "evidence_locator": "browser_05_08/batch_02.json: P028 lines 16-35",
+          "eligible_nonreference_w2_candidate": true,
+          "current_representation_url": "https://www.mcsweeneys.net/articles/this-side-of-paradise-a-letter-from-f-scott-fitzgerald-quarantined-in-the-south-of-france",
+          "temporal_scope": "Page dated March 13, 2020, but current correction-note addition time unknown.",
+          "semantic_flags": [
+            "SATIRE_NOT_NATURAL_SOURCE_ERROR",
+            "HEADER_CONTEXT_MUST_BE_PRESERVED"
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "relation": "REFERENCE_LINKS_PRIMARY_PUBLICATION",
+          "members": [
+            "P026",
+            "P028"
+          ],
+          "evidence": "Reference P026 line 18 links the nominated McSweeney's article as the parody source.",
+          "independence": "EXPLICIT_DEPENDENCE"
+        },
+        {
+          "relation": "MISATTRIBUTED_COPY_DESCRIBED_BY_REFERENCE",
+          "members": [
+            "P025",
+            "P028"
+          ],
+          "evidence": "P026 describes Facebook reproduction of the parody, but P025 itself is inaccessible; copying link remains secondhand, not directly text-verified.",
+          "independence": "UNVERIFIED_EDGE"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-07",
+      "dataset_theta": 1,
+      "dataset_label": "Supported",
+      "theta_status": "UNRESOLVED_SCOPE_DRIFT_AND_PARTIAL_SUPPORT",
+      "theta_review": "AFP evaluates a specific February 14 Aberglasslyn doctor's-office allegation and calls that allegation misleading. The dataset removes the town and changes the target to a broad NSW claim. NSW Health documents two patients separately attending GPs in January, but does not establish the same doctor's office received multiple people. ABC's double-mask GP passage concerns Melbourne/Victoria, not NSW. Do not change the label to Refuted or treat the AFP/Supported discrepancy as natural source disagreement on the same proposition.",
+      "theta_locator": "browser_05_08/batch_03.json: P030 lines 60-88; P031 lines 175-195; P033 lines 68-70",
+      "w2_candidate": false,
+      "w2_candidate_page_ids": [],
+      "quarantine_reason": "Original specific event, literal broad dataset claim, and cited support do not resolve to one unambiguous full proposition; no determinate nonreference V for the frozen claim.",
+      "natural_wrong_nonreference_source_established": false,
+      "pages": [
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P029",
+          "roles": [
+            "original",
+            "original_archive"
+          ],
+          "V_current": null,
+          "disposition": "UNAVAILABLE",
+          "reason": "Perma capture returned an access challenge; browser also could not access it. Original social post is not directly observed.",
+          "evidence_locator": "texts/P029.txt line 1; access_log.jsonl P029; browser_05_08/batch_03.json: P029 failure",
+          "eligible_nonreference_w2_candidate": false
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P030",
+          "roles": [
+            "reference"
+          ],
+          "V_current": null,
+          "disposition": "REFERENCE_PROPOSITION_SCOPE_MISMATCH",
+          "reason": "AFP rejects the specific Aberglasslyn incident, not the broad claim that some NSW patients attended GPs. Its verdict must not be assigned as a binary stance on the selected full claim.",
+          "evidence_locator": "browser_05_08/batch_03.json: P030 lines 60-88",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://factcheck.afp.com/australian-officials-dismiss-hoax-report-coronavirus-exposure-doctors-surgery-new-south-wales-town",
+          "semantic_flags": [
+            "LOCATION_DROPPED_IN_DATASET_CLAIM",
+            "QUOTED_ALLEGATION_IS_NOT_PAGE_ENDORSEMENT"
+          ]
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P031",
+          "roles": [
+            "evidence"
+          ],
+          "V_current": null,
+          "disposition": "PARTIAL_AND_GEOGRAPHIC_MISMATCH",
+          "reason": "Article reports NSW cases but the QA-cited GP/double-mask passage is explicitly about Melbourne/Victoria. It neither asserts nor rejects the selected complete NSW doctor's-office claim.",
+          "evidence_locator": "texts/P031.txt lines 142-153; browser_05_08/batch_03.json: P031 lines 141-150,175-195",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.abc.net.au/news/2020-01-25/first-confirmed-coronavirus-case-australian-as-china-toll-rises/11900428",
+          "semantic_flags": [
+            "QA_GEOGRAPHIC_CONTEXT_LOSS",
+            "PARTIAL_EVIDENCE"
+          ]
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P032",
+          "roles": [
+            "evidence_archive"
+          ],
+          "V_current": null,
+          "disposition": "ARCHIVE_UNAVAILABLE",
+          "reason": "Archive access failed. P031's current version is retained separately and cannot supply historical V.",
+          "evidence_locator": "access_log.jsonl entry P032; current counterpart browser_05_08/batch_03.json P031",
+          "eligible_nonreference_w2_candidate": false,
+          "current_equivalent_page_id": "P031"
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P033",
+          "roles": [
+            "evidence",
+            "evidence_archive"
+          ],
+          "V_current": null,
+          "disposition": "PARTIAL_SINGULAR_PLURAL_SCOPE_UNRESOLVED",
+          "reason": "Official release states two NSW patients separately attended GPs. It does not identify one doctor's office receiving multiple exposed persons or confirm the Aberglasslyn incident; full frozen claim remains ambiguous.",
+          "evidence_locator": "browser_05_08/batch_03.json: P033 lines 45,56-72",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.health.nsw.gov.au/news/Pages/20200125_03.aspx",
+          "semantic_flags": [
+            "GP_VISITS_EXIST_BUT_SAME_OFFICE_UNKNOWN",
+            "NO_SILENT_CLAIM_REWRITE"
+          ],
+          "temporal_scope": "Release dated January 25, 2020; now marked superseded. Historical medical guidance is not current guidance."
+        }
+      ],
+      "provenance": [
+        {
+          "relation": "COMMON_HEALTH_AUTHORITY_UPSTREAM",
+          "members": [
+            "P030",
+            "P031",
+            "P033"
+          ],
+          "evidence": "AFP cites the January 25 NSW release; ABC attributes NSW case counts to NSW Health. Source domains do not establish independent observations.",
+          "independence": "DEPENDENCE_FOR_CASE_COUNTS"
+        },
+        {
+          "relation": "CURRENT_ARCHIVE_PAIR_REPEATED_QA_URL",
+          "members": [
+            "P031",
+            "P032"
+          ],
+          "evidence": "Identical URL pair is reused by two QA entries.",
+          "independence": "SAME_NOMINATED_PAGE"
+        }
+      ]
+    },
+    {
+      "case_id": "W1-08",
+      "dataset_theta": 1,
+      "dataset_label": "Supported",
+      "theta_status": "QUALIFIED_REFERENCE_ONLY_POLL_SCOPE",
+      "theta_review": "FactCheck.org supports the comparison for a 2018 Pew survey of 25 countries, with country-median confidence in world-affairs leadership. It is not a timeless claim about all international polls, every respondent, or preference for U.S. versus China as leading power. The specific primary poll was linked by the reference but not opened because it is outside the frozen nominated-URL set.",
+      "theta_locator": "browser_05_08/batch_04.json: P035 lines 65-72",
+      "w2_candidate": false,
+      "w2_candidate_page_ids": [],
+      "quarantine_reason": "Only a reference article provides determinate full-claim stance; original is a speaker-attributed transcript and nominated QA evidence is a site homepage.",
+      "natural_wrong_nonreference_source_established": false,
+      "pages": [
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P034",
+          "roles": [
+            "original"
+          ],
+          "V_current": null,
+          "disposition": "QUOTE_ONLY",
+          "reason": "Debate transcript attributes the assertion to Biden without endorsing it.",
+          "evidence_locator": "browser_05_08/batch_04.json: P034 lines 15-18,34-36",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.washingtonpost.com/politics/2019/12/20/transcript-december-democratic-debate/",
+          "semantic_flags": [
+            "SPEAKER_ASSERTION_NOT_PUBLISHER_STANCE"
+          ]
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P035",
+          "roles": [
+            "reference"
+          ],
+          "V_current": 1,
+          "disposition": "REFERENCE_ONLY_QUALIFIED_CURRENT_SUPPORTS",
+          "reason": "Reference supports the comparison using 2018 survey country medians; it explicitly distinguishes leader confidence from preference over which country should lead. Evaluator-only page.",
+          "evidence_locator": "browser_05_08/batch_04.json: P035 lines 20,65-72",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.factcheck.org/2019/12/factchecking-the-december-democratic-debate/",
+          "temporal_scope": "December 2019 factcheck reports 2018 poll; current representation only."
+        },
+        {
+          "annotation_status": "AI_ASSISTED_PROVISIONAL",
+          "human_signoffs": 0,
+          "Y": null,
+          "V_historical": null,
+          "historical_recovered": false,
+          "page_id": "P036",
+          "roles": [
+            "evidence",
+            "evidence_archive"
+          ],
+          "V_current": null,
+          "disposition": "IRRELEVANT_CURRENT_HOMEPAGE_ARCHIVE_UNAVAILABLE",
+          "reason": "The nominated QA URL is the FactCheck.org homepage, not the already nominated 2019 factchecking article. Current homepage contains 2026 items. Failed 2021 archive cannot recover the required claim passage.",
+          "evidence_locator": "browser_05_08/batch_04.json: P036 lines 4-39,65-78",
+          "eligible_nonreference_w2_candidate": false,
+          "current_representation_url": "https://www.factcheck.org/",
+          "semantic_flags": [
+            "HOMEPAGE_NOT_ARTICLE",
+            "QA_ANSWER_NOT_LOCATED_AT_NOMINATED_URL"
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "relation": "REFERENCE_LINKS_ORIGINAL_TRANSCRIPT",
+          "members": [
+            "P034",
+            "P035"
+          ],
+          "evidence": "P035 line 24 links the debate transcript; these are not independent readings of separate underlying polls.",
+          "independence": "DEPENDENT_FOR_SPEAKER_QUOTE"
+        },
+        {
+          "relation": "SHARED_PUBLISHER_NOT_SAME_ARTICLE",
+          "members": [
+            "P035",
+            "P036"
+          ],
+          "evidence": "Same host, different paths; homepage cannot inherit the specific article stance.",
+          "independence": "NOT_INDEPENDENT_EVIDENCE"
+        },
+        {
+          "relation": "NAMED_UNFETCHED_PRIMARY_POLL",
+          "members": [
+            "P035"
+          ],
+          "upstream": "Pew Research Center 2018 survey",
+          "evidence": "P035 lines 70-72; linked poll not opened within W1 scope.",
+          "independence": "UNKNOWN_NOT_AUDITED"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "cases_reviewed": 4,
+    "nominated_unique_pages_reviewed": 16,
+    "current_binary_nonreference_page_candidates": 2,
+    "current_binary_reference_pages": 3,
+    "case_candidates_for_W2": 2,
+    "case_quarantined": 2,
+    "historical_binary_stances": 0,
+    "human_signoffs": 0,
+    "Y_observations": 0,
+    "established_natural_wrong_nonreference_pages": 0,
+    "interpretation": "Feasibility and source-binding diagnostics only; no error-rate estimate, no semantic human signoff, no model reliability evidence."
+  }
+}

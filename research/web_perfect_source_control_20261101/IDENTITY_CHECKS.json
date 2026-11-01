@@ -1,0 +1,76 @@
+{
+  "status": "PASS_EXACT_RATIONAL_ALGEBRA_CHECKS",
+  "date": "2026-11-01",
+  "law_cases": 8640,
+  "count_outcomes": 66880,
+  "repacking_allocations": 12,
+  "cost_identities": 144,
+  "true_rate_fixtures": [
+    [
+      "3/4",
+      "1/2"
+    ],
+    [
+      "19/20",
+      "3/5"
+    ],
+    [
+      "39/40",
+      "3/5"
+    ],
+    [
+      "3/5",
+      "599/1000"
+    ]
+  ],
+  "alternative_rate_fixtures": [
+    [
+      "1/2",
+      "1/2"
+    ],
+    [
+      "39/40",
+      "39/40"
+    ],
+    [
+      "19/20",
+      "3/5"
+    ],
+    [
+      "3/4",
+      "1/2"
+    ],
+    [
+      "3/5",
+      "599/1000"
+    ]
+  ],
+  "labels_checked": "all 16 true/alternative truth and format combinations",
+  "depth_caps_checked": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "checks": [
+    "observed-count likelihood ratio factorization",
+    "exact expected log-term coefficients for additive KL",
+    "per-fact per-format read totals after repacking",
+    "exact cost identity and strictness, including c=0 and N=1"
+  ],
+  "mechanism": {
+    "perfect_sources_unknown_rates": "depth 6 by analytic theorem",
+    "imperfect_sources_known_rates": "unique depth 1 by sealed certificate",
+    "imperfect_sources_unknown_rates": "every optimum mixes depths by sealed certificate"
+  },
+  "source_sha256": "6ac1f64e1268da6bda539e0104768a8a1e03e3e91a0a83d962a3c2148a5865d1",
+  "dependencies": {
+    "research/web_unknown_calibration_20261031/certify_threshold_failure.py": "aba663148d9dcb3a67167e9c551eb2452c555d240b604e6760aad3ef9e686a76",
+    "research/web_oracle_structure_20261031/DEPTH_MIXING_CERTIFICATE.json": "b8d38c55f9a9ff66c5efb23ff808eb51fdb7265d248e2ce9c605849c39c8d0b7"
+  },
+  "limits": [
+    "Finite algebra diagnostics do not replace the general analytic proof.",
+    "No finite-delta batching equivalence is tested or claimed.",
+    "No new stochastic worlds, model calls, or optimizations."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.13.13",
+  "implementation": "CPython",
+  "beautifulsoup4": "4.15.0",
+  "client_audit_date": "2026-11-01",
+  "recorded_system_utc": "2026-10-31T17:59:56.551731+00:00",
+  "annotation_execution": "Codex parent and native AI reviewers; exact served model identity not independently attested",
+  "no_experiment_model_calls": true
+}

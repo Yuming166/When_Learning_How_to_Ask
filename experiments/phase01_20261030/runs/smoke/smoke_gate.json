@@ -1,0 +1,27 @@
+{
+  "stage": "smoke",
+  "status": "completed",
+  "planned": 80,
+  "attempted": 80,
+  "unattempted": 0,
+  "invalid": 0,
+  "errors": 0,
+  "seconds": 62.494083208963275,
+  "freeze_sha256": "60e0b3cb1cdfd76d5900f2e9296b7774f688a59a47959ee343292ba22080f50f",
+  "pass": true,
+  "by_kind": {
+    "task": {
+      "total": 64,
+      "valid": 64
+    },
+    "direct": {
+      "total": 8,
+      "valid": 8
+    },
+    "metadata": {
+      "total": 8,
+      "valid": 8
+    }
+  },
+  "accuracy_used_for_gate": false
+}

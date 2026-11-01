@@ -1,0 +1,2456 @@
+{
+  "status": "BOUNDED_DEVELOPMENT_ONLY",
+  "decision": "REVISE",
+  "worlds": 96,
+  "trajectories": 2592,
+  "primary_budget": 32,
+  "summaries": {
+    "16": {
+      "AnalyticReuse": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 10.478572487000003,
+        "trajectory_wall": 11.02286731544882,
+        "cpu_median": 0.11582215400000084,
+        "cpu_p90": 0.1426049899999997,
+        "planner_cpu": 8.962724017999987,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.615971091999982,
+        "gate_cpu": 0.6740658559999961,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-Info": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 15.732895054000043,
+        "trajectory_wall": 16.269894488155842,
+        "cpu_median": 0.17880562999999938,
+        "cpu_p90": 0.20782128899999996,
+        "planner_cpu": 14.527561238999994,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.47536060600003105,
+        "gate_cpu": 0.5538988079999789,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-D-RRC-Type": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 2.8921253989999967,
+        "trajectory_wall": 3.404154443182051,
+        "cpu_median": 0.029354803499999527,
+        "cpu_p90": 0.05532669649999988,
+        "planner_cpu": 1.4746000310000174,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.5736838249999975,
+        "gate_cpu": 0.6625667330000027,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fixed-KL-IG": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 7.885581375999985,
+        "trajectory_wall": 8.417758918832988,
+        "cpu_median": 0.07700802600000012,
+        "cpu_p90": 0.11586070750000133,
+        "planner_cpu": 6.59701209099993,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.51927890700001,
+        "gate_cpu": 0.5856411439999708,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Type-Then-Task": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 7.425009872000003,
+        "trajectory_wall": 7.954526181332767,
+        "cpu_median": 0.07457694700000062,
+        "cpu_p90": 0.11201534949999825,
+        "planner_cpu": 6.204731159999879,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.49844010300002806,
+        "gate_cpu": 0.5474931740000475,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fresh-IG": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 10.17914847000001,
+        "trajectory_wall": 10.713810591492802,
+        "cpu_median": 0.11283464749999439,
+        "cpu_p90": 0.14474704199999522,
+        "planner_cpu": 8.688602724999976,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.6084639860000334,
+        "gate_cpu": 0.6650417300000196,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Task-Only": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 11.318928964999989,
+        "trajectory_wall": 11.864315564744174,
+        "cpu_median": 0.12157713200000053,
+        "cpu_p90": 0.145464156500001,
+        "planner_cpu": 9.737683272000051,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.649120714000007,
+        "gate_cpu": 0.7030510769999819,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Recovery-1": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 9.913995001000073,
+        "trajectory_wall": 10.460953697562218,
+        "cpu_median": 0.10760547149999855,
+        "cpu_p90": 0.14272327650000038,
+        "planner_cpu": 8.45928496900002,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.5907424249999782,
+        "gate_cpu": 0.6473699049999951,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Lookahead-2": {
+        "worlds": 96,
+        "successes": 39,
+        "accuracy": 0.40625,
+        "accuracy_ci95": [
+          0.3125,
+          0.5
+        ],
+        "online_sum": 1536,
+        "online_mean": 16,
+        "costs": {
+          "task": 1536,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 6144,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 10.83575885300001,
+        "trajectory_wall": 11.38125513587147,
+        "cpu_median": 0.11460483549999845,
+        "cpu_p90": 0.1454186154999917,
+        "planner_cpu": 9.299907200000037,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.6214325480000362,
+        "gate_cpu": 0.6879028399999313,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.7054680419881538,
+        "joint_brier_mean": 0.7533141291742164,
+        "p_mae": 0.04371367619103855,
+        "q_mae": 0.03598125815685193,
+        "terminal_type_errors": 48,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      }
+    },
+    "32": {
+      "AnalyticReuse": {
+        "worlds": 96,
+        "successes": 71,
+        "accuracy": 0.7395833333333334,
+        "accuracy_ci95": [
+          0.65625,
+          0.8125
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2892,
+          "type": 180,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 1.875,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 17.871009833000013,
+        "trajectory_wall": 18.718687895685434,
+        "cpu_median": 0.19059667000000013,
+        "cpu_p90": 0.23752464750000257,
+        "planner_cpu": 15.554943576999984,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4861666099999905,
+        "gate_cpu": 1.366146150000018,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.8555743955219336,
+        "joint_brier_mean": 0.3854633807206483,
+        "p_mae": 0.04302356199790242,
+        "q_mae": 0.03715886483541952,
+        "terminal_type_errors": 18,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-Info": {
+        "worlds": 96,
+        "successes": 70,
+        "accuracy": 0.7291666666666666,
+        "accuracy_ci95": [
+          0.6458333333333334,
+          0.8125
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2979,
+          "type": 93,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 0.96875,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 29.28123744399996,
+        "trajectory_wall": 30.11732810921967,
+        "cpu_median": 0.3453659209999991,
+        "cpu_p90": 0.37978822199999973,
+        "planner_cpu": 27.156680187000006,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4762131750000358,
+        "gate_cpu": 1.2770038210000207,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.9331930578742081,
+        "joint_brier_mean": 0.3917973529654111,
+        "p_mae": 0.04581755881228975,
+        "q_mae": 0.03366050579722083,
+        "terminal_type_errors": 36,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-D-RRC-Type": {
+        "worlds": 96,
+        "successes": 62,
+        "accuracy": 0.6458333333333334,
+        "accuracy_ci95": [
+          0.5625,
+          0.7291666666666666
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2503,
+          "type": 569,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 5.927083333333333,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 5.677485967999997,
+        "trajectory_wall": 6.488339352887124,
+        "cpu_median": 0.05675155350000116,
+        "cpu_p90": 0.09636005450000051,
+        "planner_cpu": 3.242628166000008,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.5763116110000057,
+        "gate_cpu": 1.4296909309999934,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.9730523721578885,
+        "joint_brier_mean": 0.46239799006779103,
+        "p_mae": 0.041805663554315496,
+        "q_mae": 0.037318168826940196,
+        "terminal_type_errors": 12,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fixed-KL-IG": {
+        "worlds": 96,
+        "successes": 80,
+        "accuracy": 0.8333333333333334,
+        "accuracy_ci95": [
+          0.7708333333333334,
+          0.8958333333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2975,
+          "type": 97,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 1.0104166666666667,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 21.46672333000002,
+        "trajectory_wall": 22.471295684110373,
+        "cpu_median": 0.22020305150000086,
+        "cpu_p90": 0.2823207125000007,
+        "planner_cpu": 12.248787648000123,
+        "controller_cpu": 7.055300399000163,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.45211239399998693,
+        "gate_cpu": 1.2340022830000295,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.6495640167491953,
+        "joint_brier_mean": 0.24754168712905575,
+        "p_mae": 0.04248320580792031,
+        "q_mae": 0.033650037597860095,
+        "terminal_type_errors": 26,
+        "macros": {
+          "IG": 1536
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Type-Then-Task": {
+        "worlds": 96,
+        "successes": 63,
+        "accuracy": 0.65625,
+        "accuracy_ci95": [
+          0.5729166666666666,
+          0.7395833333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2912,
+          "type": 160,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 1.6666666666666667,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 21.196110718999996,
+        "trajectory_wall": 22.195313102565706,
+        "cpu_median": 0.21853353650000007,
+        "cpu_p90": 0.2883888960000043,
+        "planner_cpu": 12.081733914000027,
+        "controller_cpu": 7.0273593379999,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4428541699999806,
+        "gate_cpu": 1.1806559110000119,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.2736591906149994,
+        "joint_brier_mean": 0.5428589970656746,
+        "p_mae": 0.04366153769770236,
+        "q_mae": 0.03858889108424472,
+        "terminal_type_errors": 26,
+        "macros": {
+          "TYPE": 160,
+          "TASK": 1376
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fresh-IG": {
+        "worlds": 96,
+        "successes": 80,
+        "accuracy": 0.8333333333333334,
+        "accuracy_ci95": [
+          0.7708333333333334,
+          0.8958333333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2975,
+          "type": 97,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 1.0104166666666667,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 24.413480048999997,
+        "trajectory_wall": 25.424097845330834,
+        "cpu_median": 0.2642738679999965,
+        "cpu_p90": 0.3268155879999952,
+        "planner_cpu": 14.693064201999995,
+        "controller_cpu": 7.483370141999878,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.45546979700002377,
+        "gate_cpu": 1.2400678660000308,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.6495640167491953,
+        "joint_brier_mean": 0.24754168712905575,
+        "p_mae": 0.04248320580792031,
+        "q_mae": 0.033650037597860095,
+        "terminal_type_errors": 26,
+        "macros": {
+          "IG": 1536
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Task-Only": {
+        "worlds": 96,
+        "successes": 66,
+        "accuracy": 0.6875,
+        "accuracy_ci95": [
+          0.6041666666666666,
+          0.7708333333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 3072,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 25.944649165999998,
+        "trajectory_wall": 26.9608775828965,
+        "cpu_median": 0.26995073450000007,
+        "cpu_p90": 0.3277425924999946,
+        "planner_cpu": 15.957393587999999,
+        "controller_cpu": 7.823578566999864,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4781403450000441,
+        "gate_cpu": 1.1297364180000617,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 1.1675513790734042,
+        "joint_brier_mean": 0.5162200319648964,
+        "p_mae": 0.0426496478991896,
+        "q_mae": 0.03700840119868582,
+        "terminal_type_errors": 34,
+        "macros": {
+          "TASK": 1536
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Recovery-1": {
+        "worlds": 96,
+        "successes": 72,
+        "accuracy": 0.75,
+        "accuracy_ci95": [
+          0.6666666666666666,
+          0.8333333333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2907,
+          "type": 165,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 1.71875,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 24.298000737999967,
+        "trajectory_wall": 25.307621168438345,
+        "cpu_median": 0.26583647799999977,
+        "cpu_p90": 0.3332032629999979,
+        "planner_cpu": 14.466889460000194,
+        "controller_cpu": 7.482664551000137,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4535594260000241,
+        "gate_cpu": 1.3739575230000283,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.8317373914001243,
+        "joint_brier_mean": 0.3662480783199118,
+        "p_mae": 0.04186703319293933,
+        "q_mae": 0.03652520361382574,
+        "terminal_type_errors": 16,
+        "macros": {
+          "KL": 1204,
+          "IG": 263,
+          "TYPE": 2,
+          "TASK": 67
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Lookahead-2": {
+        "worlds": 96,
+        "successes": 73,
+        "accuracy": 0.7604166666666666,
+        "accuracy_ci95": [
+          0.6770833333333334,
+          0.8333333333333334
+        ],
+        "online_sum": 3072,
+        "online_mean": 32,
+        "costs": {
+          "task": 2853,
+          "type": 219,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 7680,
+        "type_mean": 2.28125,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 67.34222329799998,
+        "trajectory_wall": 68.39287523226812,
+        "cpu_median": 0.7109721454999995,
+        "cpu_p90": 0.8965667945000035,
+        "planner_cpu": 15.52517316299967,
+        "controller_cpu": 49.56184070899985,
+        "forecast_solver_cpu": 29.655200244000213,
+        "terminal_belief_cpu": 0.4127586710000648,
+        "gate_cpu": 1.244745734999751,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.88637550868228,
+        "joint_brier_mean": 0.3653266989002584,
+        "p_mae": 0.03999039215544905,
+        "q_mae": 0.03641160814827525,
+        "terminal_type_errors": 20,
+        "macros": {
+          "IG": 600,
+          "KL": 839,
+          "TYPE": 90,
+          "TASK": 7
+        },
+        "controlled_actions": 1536,
+        "two_step_decisions": 1440,
+        "model_gain_over_1e6": 431,
+        "model_gain_positive_fraction": 0.29930555555555555,
+        "model_gain_mean": 0.0073517831171985,
+        "model_gain_max": 0.08634527298794192,
+        "different_from_myopic": 582
+      }
+    },
+    "64": {
+      "AnalyticReuse": {
+        "worlds": 96,
+        "successes": 84,
+        "accuracy": 0.875,
+        "accuracy_ci95": [
+          0.8125,
+          0.9270833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5779,
+          "type": 365,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 3.8020833333333335,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 27.298062059999985,
+        "trajectory_wall": 28.707383022177964,
+        "cpu_median": 0.2930779725000008,
+        "cpu_p90": 0.3778822055000006,
+        "planner_cpu": 24.286216636999967,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4938141889999872,
+        "gate_cpu": 1.7591791429999875,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.30056492245901,
+        "joint_brier_mean": 0.1487663813589813,
+        "p_mae": 0.03361814944838451,
+        "q_mae": 0.036560027615374975,
+        "terminal_type_errors": 13,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-Info": {
+        "worlds": 96,
+        "successes": 91,
+        "accuracy": 0.9479166666666666,
+        "accuracy_ci95": [
+          0.90625,
+          0.9791666666666666
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5776,
+          "type": 368,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 3.8333333333333335,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 47.37166571300003,
+        "trajectory_wall": 48.77560895495117,
+        "cpu_median": 0.5537964164999991,
+        "cpu_p90": 0.6233821500000012,
+        "planner_cpu": 44.98747075700012,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.3841778439999708,
+        "gate_cpu": 1.364273402999941,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.25341735224341233,
+        "joint_brier_mean": 0.08475061371397206,
+        "p_mae": 0.03604293720300517,
+        "q_mae": 0.0336363699553549,
+        "terminal_type_errors": 17,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fused-D-RRC-Type": {
+        "worlds": 96,
+        "successes": 81,
+        "accuracy": 0.84375,
+        "accuracy_ci95": [
+          0.78125,
+          0.90625
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 4846,
+          "type": 1298,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 13.520833333333334,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 8.28445412400001,
+        "trajectory_wall": 9.618876661174,
+        "cpu_median": 0.07555658899999962,
+        "cpu_p90": 0.14374511850000005,
+        "planner_cpu": 5.3067759529999865,
+        "controller_cpu": 0.0,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.5268727250000019,
+        "gate_cpu": 1.691087478999996,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.43345813862014015,
+        "joint_brier_mean": 0.19843651584970856,
+        "p_mae": 0.03842320072536779,
+        "q_mae": 0.038110112927973235,
+        "terminal_type_errors": 6,
+        "macros": {},
+        "controlled_actions": 0,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fixed-KL-IG": {
+        "worlds": 96,
+        "successes": 91,
+        "accuracy": 0.9479166666666666,
+        "accuracy_ci95": [
+          0.90625,
+          0.9895833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5819,
+          "type": 325,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 3.3854166666666665,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 38.88404066500005,
+        "trajectory_wall": 40.72864683996886,
+        "cpu_median": 0.4010675544999991,
+        "cpu_p90": 0.5473834650000011,
+        "planner_cpu": 19.85744558499994,
+        "controller_cpu": 16.21009958600048,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.430517165999982,
+        "gate_cpu": 1.528256487999989,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.25308453997839914,
+        "joint_brier_mean": 0.09458583239638192,
+        "p_mae": 0.03638426927685732,
+        "q_mae": 0.03594990332979958,
+        "terminal_type_errors": 13,
+        "macros": {
+          "KL": 1536,
+          "IG": 2304
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Type-Then-Task": {
+        "worlds": 96,
+        "successes": 76,
+        "accuracy": 0.7916666666666666,
+        "accuracy_ci95": [
+          0.71875,
+          0.8645833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5984,
+          "type": 160,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 1.6666666666666667,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 35.98338028800005,
+        "trajectory_wall": 37.816906318534166,
+        "cpu_median": 0.3766580044999994,
+        "cpu_p90": 0.5182392399999998,
+        "planner_cpu": 18.549903412999992,
+        "controller_cpu": 14.923784042999921,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4001429929999918,
+        "gate_cpu": 1.303917338999974,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.7744192963864548,
+        "joint_brier_mean": 0.3440765600776734,
+        "p_mae": 0.04204241674504119,
+        "q_mae": 0.03511096790412807,
+        "terminal_type_errors": 12,
+        "macros": {
+          "TYPE": 160,
+          "TASK": 3680
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Fresh-IG": {
+        "worlds": 96,
+        "successes": 92,
+        "accuracy": 0.9583333333333334,
+        "accuracy_ci95": [
+          0.9166666666666666,
+          0.9895833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5867,
+          "type": 277,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 2.8854166666666665,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 44.19825504000001,
+        "trajectory_wall": 46.04020790522918,
+        "cpu_median": 0.47413233699999946,
+        "cpu_p90": 0.6044528860000007,
+        "planner_cpu": 23.55213068600009,
+        "controller_cpu": 17.577143041999893,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.46656446900009807,
+        "gate_cpu": 1.6324244250000144,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.15195913098120553,
+        "joint_brier_mean": 0.0644847193138881,
+        "p_mae": 0.036961987454420836,
+        "q_mae": 0.0345653680202368,
+        "terminal_type_errors": 15,
+        "macros": {
+          "IG": 3840
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Task-Only": {
+        "worlds": 96,
+        "successes": 77,
+        "accuracy": 0.8020833333333334,
+        "accuracy_ci95": [
+          0.7395833333333334,
+          0.8645833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 6144,
+          "type": 0,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 0.0,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 47.01135086899998,
+        "trajectory_wall": 48.865789756178856,
+        "cpu_median": 0.498008178500001,
+        "cpu_p90": 0.6020014304999965,
+        "planner_cpu": 25.446334562000192,
+        "controller_cpu": 18.60650713800048,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.4906052100000047,
+        "gate_cpu": 1.4718222039999116,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.7419541552287962,
+        "joint_brier_mean": 0.3315123417465335,
+        "p_mae": 0.043002305381290185,
+        "q_mae": 0.03454453596879494,
+        "terminal_type_errors": 18,
+        "macros": {
+          "TASK": 3840
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Recovery-1": {
+        "worlds": 96,
+        "successes": 84,
+        "accuracy": 0.875,
+        "accuracy_ci95": [
+          0.8229166666666666,
+          0.9270833333333334
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5771,
+          "type": 373,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 3.8854166666666665,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 42.45335780299998,
+        "trajectory_wall": 44.298370759002864,
+        "cpu_median": 0.4406860160000008,
+        "cpu_p90": 0.6086615400000017,
+        "planner_cpu": 22.917182537000073,
+        "controller_cpu": 16.64085453000003,
+        "forecast_solver_cpu": 0,
+        "terminal_belief_cpu": 0.42742723499996726,
+        "gate_cpu": 1.5598060760000334,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.31611598660857576,
+        "joint_brier_mean": 0.153541746256382,
+        "p_mae": 0.03632703113750152,
+        "q_mae": 0.036341269662223556,
+        "terminal_type_errors": 11,
+        "macros": {
+          "KL": 3371,
+          "IG": 377,
+          "TYPE": 2,
+          "TASK": 90
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 0,
+        "model_gain_over_1e6": 0,
+        "model_gain_positive_fraction": 0.0,
+        "model_gain_mean": 0,
+        "model_gain_max": 0,
+        "different_from_myopic": 0
+      },
+      "Lookahead-2": {
+        "worlds": 96,
+        "successes": 89,
+        "accuracy": 0.9270833333333334,
+        "accuracy_ci95": [
+          0.875,
+          0.96875
+        ],
+        "online_sum": 6144,
+        "online_mean": 64,
+        "costs": {
+          "task": 5706,
+          "type": 438,
+          "offline": 4608
+        },
+        "total_acquisition_sum": 10752,
+        "type_mean": 4.5625,
+        "offline_mean": 48.0,
+        "trajectory_cpu": 131.70298717699993,
+        "trajectory_wall": 133.62793052149937,
+        "cpu_median": 1.3479382460000018,
+        "cpu_p90": 1.7197849355000017,
+        "planner_cpu": 22.862754356999865,
+        "controller_cpu": 106.0777313330003,
+        "forecast_solver_cpu": 62.427586638999216,
+        "terminal_belief_cpu": 0.3667794510001241,
+        "gate_cpu": 1.3849648810000201,
+        "certified": 0,
+        "wrong_certified": 0,
+        "gate_undetermined": 0,
+        "fixed_budget_completed": 96,
+        "terminal_uncertified": 96,
+        "joint_nll_mean": 0.28139186989096276,
+        "joint_brier_mean": 0.12172833108147559,
+        "p_mae": 0.03387939941607298,
+        "q_mae": 0.03685082358772717,
+        "terminal_type_errors": 14,
+        "macros": {
+          "IG": 844,
+          "KL": 2867,
+          "TYPE": 116,
+          "TASK": 13
+        },
+        "controlled_actions": 3840,
+        "two_step_decisions": 3744,
+        "model_gain_over_1e6": 596,
+        "model_gain_positive_fraction": 0.15918803418803418,
+        "model_gain_mean": 0.003745480814231685,
+        "model_gain_max": 0.08689407926428916,
+        "different_from_myopic": 798
+      }
+    }
+  },
+  "paired_accuracy_differences": [
+    {
+      "budget": 16,
+      "reference": "AnalyticReuse",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Fused-Info",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Fused-D-RRC-Type",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Fixed-KL-IG",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Type-Then-Task",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Fresh-IG",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Task-Only",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 16,
+      "reference": "Recovery-1",
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wins": 0,
+      "losses": 0,
+      "ties": 96,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "AnalyticReuse",
+      "difference": 0.020833333333333332,
+      "ci95": [
+        -0.052083333333333336,
+        0.09375
+      ],
+      "wins": 8,
+      "losses": 6,
+      "ties": 82,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Fused-Info",
+      "difference": 0.03125,
+      "ci95": [
+        -0.052083333333333336,
+        0.11458333333333333
+      ],
+      "wins": 10,
+      "losses": 7,
+      "ties": 79,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Fused-D-RRC-Type",
+      "difference": 0.11458333333333333,
+      "ci95": [
+        0.041666666666666664,
+        0.1875
+      ],
+      "wins": 13,
+      "losses": 2,
+      "ties": 81,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Fixed-KL-IG",
+      "difference": -0.07291666666666667,
+      "ci95": [
+        -0.14583333333333334,
+        0.0
+      ],
+      "wins": 4,
+      "losses": 11,
+      "ties": 81,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Type-Then-Task",
+      "difference": 0.10416666666666667,
+      "ci95": [
+        0.020833333333333332,
+        0.1875
+      ],
+      "wins": 14,
+      "losses": 4,
+      "ties": 78,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Fresh-IG",
+      "difference": -0.07291666666666667,
+      "ci95": [
+        -0.14583333333333334,
+        0.0
+      ],
+      "wins": 4,
+      "losses": 11,
+      "ties": 81,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Task-Only",
+      "difference": 0.07291666666666667,
+      "ci95": [
+        0.0,
+        0.15625
+      ],
+      "wins": 12,
+      "losses": 5,
+      "ties": 79,
+      "n": 96
+    },
+    {
+      "budget": 32,
+      "reference": "Recovery-1",
+      "difference": 0.010416666666666666,
+      "ci95": [
+        -0.052083333333333336,
+        0.07291666666666667
+      ],
+      "wins": 5,
+      "losses": 4,
+      "ties": 87,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "AnalyticReuse",
+      "difference": 0.052083333333333336,
+      "ci95": [
+        0.0,
+        0.10416666666666667
+      ],
+      "wins": 7,
+      "losses": 2,
+      "ties": 87,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Fused-Info",
+      "difference": -0.020833333333333332,
+      "ci95": [
+        -0.0625,
+        0.020833333333333332
+      ],
+      "wins": 2,
+      "losses": 4,
+      "ties": 90,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Fused-D-RRC-Type",
+      "difference": 0.08333333333333333,
+      "ci95": [
+        0.03125,
+        0.13541666666666666
+      ],
+      "wins": 9,
+      "losses": 1,
+      "ties": 86,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Fixed-KL-IG",
+      "difference": -0.020833333333333332,
+      "ci95": [
+        -0.0625,
+        0.010416666666666666
+      ],
+      "wins": 1,
+      "losses": 3,
+      "ties": 92,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Type-Then-Task",
+      "difference": 0.13541666666666666,
+      "ci95": [
+        0.0625,
+        0.20833333333333334
+      ],
+      "wins": 15,
+      "losses": 2,
+      "ties": 79,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Fresh-IG",
+      "difference": -0.03125,
+      "ci95": [
+        -0.07291666666666667,
+        0.010416666666666666
+      ],
+      "wins": 1,
+      "losses": 4,
+      "ties": 91,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Task-Only",
+      "difference": 0.125,
+      "ci95": [
+        0.052083333333333336,
+        0.19791666666666666
+      ],
+      "wins": 15,
+      "losses": 3,
+      "ties": 78,
+      "n": 96
+    },
+    {
+      "budget": 64,
+      "reference": "Recovery-1",
+      "difference": 0.052083333333333336,
+      "ci95": [
+        0.0,
+        0.10416666666666667
+      ],
+      "wins": 7,
+      "losses": 2,
+      "ties": 87,
+      "n": 96
+    }
+  ],
+  "cells": [
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 4,
+        "Fused-Info": 4,
+        "Fused-D-RRC-Type": 4,
+        "Fixed-KL-IG": 4,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 4,
+        "Task-Only": 4,
+        "Recovery-1": 4,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 2,
+        "Fused-Info": 2,
+        "Fused-D-RRC-Type": 2,
+        "Fixed-KL-IG": 2,
+        "Type-Then-Task": 2,
+        "Fresh-IG": 2,
+        "Task-Only": 2,
+        "Recovery-1": 2,
+        "Lookahead-2": 2
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 3,
+        "Fused-Info": 3,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 3,
+        "Type-Then-Task": 3,
+        "Fresh-IG": 3,
+        "Task-Only": 3,
+        "Recovery-1": 3,
+        "Lookahead-2": 3
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 6,
+        "Fused-Info": 6,
+        "Fused-D-RRC-Type": 6,
+        "Fixed-KL-IG": 6,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 6,
+        "Task-Only": 6,
+        "Recovery-1": 6,
+        "Lookahead-2": 6
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 1,
+        "Fused-Info": 1,
+        "Fused-D-RRC-Type": 1,
+        "Fixed-KL-IG": 1,
+        "Type-Then-Task": 1,
+        "Fresh-IG": 1,
+        "Task-Only": 1,
+        "Recovery-1": 1,
+        "Lookahead-2": 1
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 1,
+        "Fused-Info": 1,
+        "Fused-D-RRC-Type": 1,
+        "Fixed-KL-IG": 1,
+        "Type-Then-Task": 1,
+        "Fresh-IG": 1,
+        "Task-Only": 1,
+        "Recovery-1": 1,
+        "Lookahead-2": 1
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 4,
+        "Fused-Info": 4,
+        "Fused-D-RRC-Type": 4,
+        "Fixed-KL-IG": 4,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 4,
+        "Task-Only": 4,
+        "Recovery-1": 4,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 4,
+        "Fused-Info": 4,
+        "Fused-D-RRC-Type": 4,
+        "Fixed-KL-IG": 4,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 4,
+        "Task-Only": 4,
+        "Recovery-1": 4,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 3,
+        "Fused-Info": 3,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 3,
+        "Type-Then-Task": 3,
+        "Fresh-IG": 3,
+        "Task-Only": 3,
+        "Recovery-1": 3,
+        "Lookahead-2": 3
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 5,
+        "Fused-Info": 5,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 5,
+        "Type-Then-Task": 5,
+        "Fresh-IG": 5,
+        "Task-Only": 5,
+        "Recovery-1": 5,
+        "Lookahead-2": 5
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 4,
+        "Fused-Info": 4,
+        "Fused-D-RRC-Type": 4,
+        "Fixed-KL-IG": 4,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 4,
+        "Task-Only": 4,
+        "Recovery-1": 4,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 16,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 2,
+        "Fused-Info": 2,
+        "Fused-D-RRC-Type": 2,
+        "Fixed-KL-IG": 2,
+        "Type-Then-Task": 2,
+        "Fresh-IG": 2,
+        "Task-Only": 2,
+        "Recovery-1": 2,
+        "Lookahead-2": 2
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 6,
+        "Fused-Info": 6,
+        "Fused-D-RRC-Type": 6,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 7,
+        "Task-Only": 6,
+        "Recovery-1": 7,
+        "Lookahead-2": 6
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 5,
+        "Fused-Info": 5,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 6,
+        "Type-Then-Task": 5,
+        "Fresh-IG": 6,
+        "Task-Only": 5,
+        "Recovery-1": 5,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 8,
+        "Task-Only": 6,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 8,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 8,
+        "Fresh-IG": 8,
+        "Task-Only": 8,
+        "Recovery-1": 7,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 6,
+        "Fused-Info": 3,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 4,
+        "Type-Then-Task": 3,
+        "Fresh-IG": 4,
+        "Task-Only": 3,
+        "Recovery-1": 4,
+        "Lookahead-2": 5
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 3,
+        "Fused-Info": 3,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 3,
+        "Type-Then-Task": 3,
+        "Fresh-IG": 3,
+        "Task-Only": 3,
+        "Recovery-1": 4,
+        "Lookahead-2": 4
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 6,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 8,
+        "Task-Only": 7,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 7,
+        "Task-Only": 5,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 3,
+        "Fused-Info": 6,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 8,
+        "Task-Only": 5,
+        "Recovery-1": 4,
+        "Lookahead-2": 5
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 6,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 5,
+        "Fresh-IG": 7,
+        "Task-Only": 5,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 5,
+        "Fused-Info": 5,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 5,
+        "Fresh-IG": 7,
+        "Task-Only": 6,
+        "Recovery-1": 6,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 32,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 6,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 6,
+        "Fresh-IG": 7,
+        "Task-Only": 7,
+        "Recovery-1": 7,
+        "Lookahead-2": 6
+      },
+      "reference_ceiling": true
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 8,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 7,
+        "Fresh-IG": 8,
+        "Task-Only": 7,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": true
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 5,
+        "Fresh-IG": 7,
+        "Task-Only": 5,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 7,
+        "Fresh-IG": 8,
+        "Task-Only": 7,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": true
+    },
+    {
+      "partition": [
+        1,
+        3
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 8,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 8,
+        "Fresh-IG": 8,
+        "Task-Only": 8,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": true
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 7,
+        "Fused-D-RRC-Type": 5,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 8,
+        "Task-Only": 3,
+        "Recovery-1": 6,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 3,
+        "Fused-Info": 5,
+        "Fused-D-RRC-Type": 3,
+        "Fixed-KL-IG": 6,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 6,
+        "Task-Only": 3,
+        "Recovery-1": 3,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 7,
+        "Fresh-IG": 8,
+        "Task-Only": 8,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": true
+    },
+    {
+      "partition": [
+        2,
+        2
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 8,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 7,
+        "Fresh-IG": 8,
+        "Task-Only": 8,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 4,
+        "Fresh-IG": 8,
+        "Task-Only": 5,
+        "Recovery-1": 7,
+        "Lookahead-2": 6
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.75,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 7,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 7,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 7,
+        "Fresh-IG": 8,
+        "Task-Only": 7,
+        "Recovery-1": 7,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 0,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 6,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 6,
+        "Fixed-KL-IG": 7,
+        "Type-Then-Task": 8,
+        "Fresh-IG": 7,
+        "Task-Only": 8,
+        "Recovery-1": 6,
+        "Lookahead-2": 7
+      },
+      "reference_ceiling": false
+    },
+    {
+      "partition": [
+        4
+      ],
+      "p": 0.85,
+      "alpha": 3,
+      "budget": 64,
+      "n": 8,
+      "success_counts": {
+        "AnalyticReuse": 8,
+        "Fused-Info": 8,
+        "Fused-D-RRC-Type": 8,
+        "Fixed-KL-IG": 8,
+        "Type-Then-Task": 8,
+        "Fresh-IG": 8,
+        "Task-Only": 8,
+        "Recovery-1": 8,
+        "Lookahead-2": 8
+      },
+      "reference_ceiling": true
+    }
+  ],
+  "execution": {
+    "planned_trajectories": 2592,
+    "independent_worlds": 96,
+    "budgets": [
+      16,
+      32,
+      64
+    ],
+    "primary_budget": 32,
+    "maximum_online_actions": 96768,
+    "freeze_sha256": "b9b04635f809a590e66ceb28c72dd96352535b8898bdaaf8dc2173abc519dad5",
+    "seed_commitment": "ce80613d068d375ffc98da4e3fb87d3dac38e299a39b67abe9de2c79f9fea9a5",
+    "training_updates": 0,
+    "model_calls": 0,
+    "confirmation_worlds": 0,
+    "retries": 0,
+    "status": "completed",
+    "error": null,
+    "finished_trajectories": 2592,
+    "costs_including_partial": {
+      "task": 91584,
+      "type": 5184,
+      "offline": 124416
+    },
+    "seconds": 788.76247500116,
+    "evaluator_cpu_seconds": 40.627195635999996,
+    "frozen_files_preserved": true
+  },
+  "gate_checks": {
+    "gain_vs_KL": {
+      "budget": 32,
+      "reference": "AnalyticReuse",
+      "difference": 0.020833333333333332,
+      "ci95": [
+        -0.052083333333333336,
+        0.09375
+      ],
+      "wins": 8,
+      "losses": 6,
+      "ties": 82,
+      "n": 96
+    },
+    "gain_vs_same_objective_one_step": {
+      "budget": 32,
+      "reference": "Recovery-1",
+      "difference": 0.010416666666666666,
+      "ci95": [
+        -0.052083333333333336,
+        0.07291666666666667
+      ],
+      "wins": 5,
+      "losses": 4,
+      "ties": 87,
+      "n": 96
+    },
+    "not_below_other_cheap_baselines_by_point": false,
+    "positive_model_gain_fraction": 0.29930555555555555,
+    "passed": false
+  },
+  "training_updates": 0,
+  "rl_training_rollouts": 0,
+  "model_calls": 0,
+  "confirmation_worlds": 0,
+  "uncertainty": "world-paired stratified 20000 percentile bootstrap, seed22017; exploratory, not confirmation"
+}

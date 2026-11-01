@@ -1,0 +1,21 @@
+{
+  "coverage": {
+    "planned": 80,
+    "attempted": 80,
+    "by_kind": {
+      "task": {
+        "valid": 64
+      },
+      "direct": {
+        "valid": 8
+      },
+      "metadata": {
+        "valid": 8
+      }
+    },
+    "valid": 80,
+    "task_correct": 33,
+    "task_planned": 64
+  },
+  "inference": "No scientific inference from smoke"
+}

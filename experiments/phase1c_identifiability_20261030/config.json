@@ -1,0 +1,17 @@
+{
+  "backend": "transformers",
+  "model": "Qwen3.5-4B",
+  "model_path": "/storage/lianjh/modelzoos/Qwen/Qwen3.5-4B",
+  "physical_gpu": "3",
+  "device": "cuda:0",
+  "dtype": "float32",
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "max_new_tokens": 64,
+  "total_generation_cap": 192,
+  "timeout_seconds": 3600,
+  "max_infrastructure_failures": 1,
+  "thinking": false,
+  "prompt_policy": "answer digit only; no sampling or accuracy tuning",
+  "python": "/storage/gaoym/wcl_v100_venv/bin/python"
+}

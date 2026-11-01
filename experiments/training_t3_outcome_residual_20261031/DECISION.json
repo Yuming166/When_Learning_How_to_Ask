@@ -1,0 +1,25 @@
+{
+  "overall": "NO-GO_FOR_WWW_ENHANCEMENT_THIS_PILOT",
+  "gates": {
+    "at_least_5pp_vs_all_frozen": false,
+    "positive_family7_paired_lower_vs_all": false,
+    "no_observed_panel_deficit_worse_than_5pp": false,
+    "joint_seed_range_at_most_5pp": true,
+    "no_joint_seed_below_WorstFact": true,
+    "worker_CPU_at_most_2x_WorstFact": false
+  },
+  "selected_joint": "Learned-Joint-7102",
+  "selected_task": "Learned-Task-7102",
+  "selected_type": "Learned-Type-7101",
+  "DEV_strongest_reference": "IG-Fact-FixedType",
+  "training_fits": 9,
+  "statistical_estimation": "see paired joint Brier/NLL and error summaries; no general consistency improvement claim",
+  "online_query_cost": "NOT_DEMONSTRATED: equal fixed budgets by design",
+  "total_acquisition_cost": "NOT_DEMONSTRATED: equal per-world B+2M by design",
+  "worker_cpu_ratio_vs_WorstFact": 2.5804741893248697,
+  "certified_reliability": "no improvement established by fixed-budget recovery; terminal gate unchanged",
+  "automatic_next_stage": false,
+  "independent_confirmation_executed": false,
+  "LLM_calls": 0,
+  "GPU_training": false
+}

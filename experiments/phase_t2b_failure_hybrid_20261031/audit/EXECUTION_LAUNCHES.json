@@ -1,0 +1,34 @@
+{
+  "common_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "smoke": {
+    "interpreter": "/storage/gaoym/wcl_v100_venv/bin/python",
+    "module": "t2b.run",
+    "stage": "smoke",
+    "external_hard_seconds": 180,
+    "kill_after_seconds": 10,
+    "log": "logs/smoke.log",
+    "automatic_retry": false
+  },
+  "evaluation": {
+    "interpreter": "/storage/gaoym/wcl_v100_venv/bin/python",
+    "module": "t2b.run",
+    "stage": "evaluate",
+    "external_hard_seconds": 3660,
+    "internal_hard_seconds": 3600,
+    "kill_after_seconds": 30,
+    "log": "logs/evaluation.log",
+    "automatic_retry": false
+  },
+  "analysis": {
+    "interpreter": "/storage/gaoym/miniforge3/bin/python",
+    "module": "t2b.analyze",
+    "log": "logs/analysis.log",
+    "execution_status": "planned_not_yet_executed"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-10-30T13:01:04.823795+00:00",
+  "planned_generations": 192,
+  "user_example_upper_bound": 384,
+  "arithmetic_correction": "8*6*2*2=192",
+  "preflight_revision": "Balanced correct option positions before any generation; retained earlier preflight manifest.",
+  "files": {
+    "config.json": "a6f4467b83a64e7117ee91ee595273acaece289196c293f88cdcf7037d815d05",
+    "design.py": "e07ad6f5fc0de1ebd9b3c04278a795f59f8d7d9813753375cb80ad7f7f554e6c",
+    "policies.py": "d3d93c2c4849a60a48c15208f0b65b4775de46fc261f630bbf5f6a2c2834a7db",
+    "collect.py": "8c9d51ba62127290f3f328afda7b9c45888e0e0ad7e506593b38525b0653ea24",
+    "local_sampler.py": "d108d9a0a230b1dae51f77f0441991cf587a9080a6fdc4d8a6be6eedc3e60218",
+    "analyze.py": "8a6150e692cea3550c832be70ffc9ed8efd7b7a463b1905b84c59b8bd1b7e3e7",
+    "PROTOCOL.md": "d664883228440ad2ad5548ff46b4f1cafc590a7b07e640e4b6419aba235a5971",
+    "selected_worlds.jsonl": "cf2ab404d7524c7bb288d711d706730e36cae80420913b7e436f77f8a04ee821",
+    "proofwriter_structure.json": "e242f746cb1a5e1b90dcf58b4dcee9565bcdabb3e4c3b4d955f541807d50de5c",
+    "logic_audit.py": "539a3e182fadc185e2909c627d24e5bd580e8ba7ddc6c9126c1478d41af2c558",
+    "selected_dependencies.json": "6963e785af6a3c9d1c2bd00e15db53a8d0eeca1bd578aa298c5a438f3d5201d4",
+    "dependency_audit.py": "79f1c70eb745ecd79f2dfdf712d4834e09a5b4429973416a90460dd19db88099",
+    "test_phase1c.py": "0081b946253a6f9cfe1404ff7893504d84b1f9fcdc214808bcfb70e8b6408c8b",
+    "data/construction_checks.json": "bab43a3b837158a5a054a1820657600f9da9e3af658e7c4f1fe9efcf3dfd07df",
+    "data/private_truth.jsonl": "f88a5f0aef58ecd0d7b1abf4b04aef23b1327267f9ec058f97d0fbec03850520",
+    "data/requests.jsonl": "15736ca661c31024b8b6a772bcf2649d8a880a65fffa5436108ca39be0c035bd"
+  }
+}

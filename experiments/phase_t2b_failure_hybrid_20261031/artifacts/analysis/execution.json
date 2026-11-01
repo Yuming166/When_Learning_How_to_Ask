@@ -1,0 +1,37 @@
+{
+  "analysis_source_sha256": "d0c71667af7847d8ef3054fa4c8404517a91f7225238bc28a11960be400842e7",
+  "automatic_retry": false,
+  "coverage": {
+    "all_applicable_paths_completed": true,
+    "main_applicable": 576,
+    "main_path_records": 576,
+    "main_readout_cells_expected": 1152,
+    "offline_records_expected": 0,
+    "offline_records_observed": 0,
+    "offline_status_counts": {},
+    "path_records_expected": 624,
+    "path_records_observed": 624,
+    "path_status_counts": {
+      "completed": 624
+    },
+    "readout_cells_expected": 1248,
+    "readout_cells_observed": 1248,
+    "status": "complete_key_coverage",
+    "variable_applicable": 48,
+    "variable_readout_cells_expected": 96
+  },
+  "decision": "manual_review_required",
+  "figures": [
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2b/experiments/phase_t2b_failure_hybrid_20261031/artifacts/analysis/figures/paired_query_cpu.png",
+    "/home/gaoym/When_Learning_How_to_Ask_training_t2b/experiments/phase_t2b_failure_hybrid_20261031/artifacts/analysis/figures/paired_query_cpu.pdf"
+  ],
+  "matplotlib_version": "3.11.1",
+  "model_calls": 0,
+  "numpy_version": "2.5.3",
+  "outer_cpu_seconds": 7.224043601,
+  "outer_wall_seconds": 7.225621758960187,
+  "python_version": "3.13.13",
+  "simulation_worlds": 0,
+  "status": "completed",
+  "training_updates": 0
+}

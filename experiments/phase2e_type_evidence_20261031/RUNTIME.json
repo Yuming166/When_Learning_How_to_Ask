@@ -1,0 +1,11 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "executable": "/storage/gaoym/miniforge3/bin/python",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "decimal": "1.70",
+  "libmpdec": "4.0.0",
+  "blas_threads_in_acquisition": 1,
+  "gpu_model_api_calls": 0
+}

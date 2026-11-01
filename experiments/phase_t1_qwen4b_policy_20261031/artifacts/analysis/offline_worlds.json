@@ -1,0 +1,7130 @@
+[
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "08c6d39a552085a89c946eb2",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.6338088289165378,
+        "mean": 0.32676176578330757,
+        "observed_mean": 0.32676176578330757
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7840891909610131,
+        "mean": 0.15681783819220263,
+        "observed_mean": 0.15681783819220263
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.1559049995806472,
+        "mean": 0.23118099991612945,
+        "observed_mean": 0.23118099991612945
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.68,
+        "mean": 0.33599999999999997,
+        "observed_mean": 0.33599999999999997
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07314583298749461,
+        "mean": 0.014629166597498921,
+        "observed_mean": 0.014629166597498921
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07764178010532811,
+        "mean": 0.015528356021065623,
+        "observed_mean": 0.015528356021065623
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025737760588526726,
+        "mean": 0.0005147552117705345,
+        "observed_mean": 0.0005147552117705345
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025707240000052423,
+        "mean": 0.0005141448000010485,
+        "observed_mean": 0.0005141448000010485
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "389235889fe58c85f0758645",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.656175721338804,
+        "mean": 0.3312351442677608,
+        "observed_mean": 0.3312351442677608
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7397568458192756,
+        "mean": 0.14795136916385512,
+        "observed_mean": 0.14795136916385512
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.5153877272081409,
+        "mean": 0.3030775454416282,
+        "observed_mean": 0.3030775454416282
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7,
+        "mean": 0.33999999999999997,
+        "observed_mean": 0.33999999999999997
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08892039875265585,
+        "mean": 0.01778407975053117,
+        "observed_mean": 0.01778407975053117
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09232699433117592,
+        "mean": 0.01846539886623518,
+        "observed_mean": 0.01846539886623518
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002588142640888691,
+        "mean": 0.0005176285281777382,
+        "observed_mean": 0.0005176285281777382
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025847999999975,
+        "mean": 0.0005169599999995001,
+        "observed_mean": 0.0005169599999995001
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "76c57917b18676fe913ae6a6",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7117001713800974,
+        "mean": 0.3423400342760195,
+        "observed_mean": 0.3423400342760195
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.6916479314470999,
+        "mean": 0.13832958628942,
+        "observed_mean": 0.13832958628942
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0568645643081562,
+        "mean": 0.21137291286163123,
+        "observed_mean": 0.21137291286163123
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7000000000000002,
+        "mean": 0.34,
+        "observed_mean": 0.34
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1000660646068262,
+        "mean": 0.02001321292136524,
+        "observed_mean": 0.02001321292136524
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09334293799473306,
+        "mean": 0.01866858759894661,
+        "observed_mean": 0.01866858759894661
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002583717927336693,
+        "mean": 0.0005167435854673385,
+        "observed_mean": 0.0005167435854673385
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025801100000002464,
+        "mean": 0.0005160220000000493,
+        "observed_mean": 0.0005160220000000493
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "780cd78e50ba2d33fe3a457b",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.5334853533894632,
+        "mean": 0.30669707067789265,
+        "observed_mean": 0.30669707067789265
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7186985246239247,
+        "mean": 0.14373970492478494,
+        "observed_mean": 0.14373970492478494
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7915065049775405,
+        "mean": 0.3583013009955081,
+        "observed_mean": 0.3583013009955081
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.54,
+        "mean": 0.308,
+        "observed_mean": 0.308
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06136907338600718,
+        "mean": 0.012273814677201436,
+        "observed_mean": 0.012273814677201436
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.13739183999943666,
+        "mean": 0.027478367999887333,
+        "observed_mean": 0.027478367999887333
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025938930921256542,
+        "mean": 0.0005187786184251309,
+        "observed_mean": 0.0005187786184251309
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0026364190000016663,
+        "mean": 0.0005272838000003333,
+        "observed_mean": 0.0005272838000003333
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "8eb2b8720504dfa13419e50a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.4684933846239194,
+        "mean": 0.49369867692478386,
+        "observed_mean": 0.49369867692478386
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.3943367464175678,
+        "mean": 0.47886734928351354,
+        "observed_mean": 0.47886734928351354
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.2686320947827967,
+        "mean": 0.25372641895655934,
+        "observed_mean": 0.25372641895655934
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.44,
+        "mean": 0.488,
+        "observed_mean": 0.488
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09707007126935037,
+        "mean": 0.019414014253870075,
+        "observed_mean": 0.019414014253870075
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0031970785930752754,
+        "mean": 0.0006394157186150551,
+        "observed_mean": 0.0006394157186150551
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0031922780000073203,
+        "mean": 0.0006384556000014641,
+        "observed_mean": 0.0006384556000014641
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "a7928546d97ceb5c8fffd83a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.1726487613032446,
+        "mean": 0.23452975226064893,
+        "observed_mean": 0.23452975226064893
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.4538606453002633,
+        "mean": 0.09077212906005266,
+        "observed_mean": 0.09077212906005266
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7899619674704006,
+        "mean": 0.15799239349408012,
+        "observed_mean": 0.15799239349408012
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.16,
+        "mean": 0.23199999999999998,
+        "observed_mean": 0.23199999999999998
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08478620802589179,
+        "mean": 0.016957241605178357,
+        "observed_mean": 0.016957241605178357
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1234939015236516,
+        "mean": 0.02469878030473032,
+        "observed_mean": 0.02469878030473032
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025450601242482662,
+        "mean": 0.0005090120248496532,
+        "observed_mean": 0.0005090120248496532
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025418699999981698,
+        "mean": 0.000508373999999634,
+        "observed_mean": 0.000508373999999634
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "b2499e321b1360b414e3588c",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.37422174552358783,
+        "mean": 0.07484434910471757,
+        "observed_mean": 0.07484434910471757
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10903894691712225,
+        "mean": 0.02180778938342445,
+        "observed_mean": 0.02180778938342445
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.40833655638729616,
+        "mean": 0.08166731127745923,
+        "observed_mean": 0.08166731127745923
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.4,
+        "mean": 0.08,
+        "observed_mean": 0.08
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07772027097768465,
+        "mean": 0.01554405419553693,
+        "observed_mean": 0.01554405419553693
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0907389057901204,
+        "mean": 0.018147781158024078,
+        "observed_mean": 0.018147781158024078
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025914297439157963,
+        "mean": 0.0005182859487831593,
+        "observed_mean": 0.0005182859487831593
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002587887999997207,
+        "mean": 0.0005175775999994414,
+        "observed_mean": 0.0005175775999994414
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "id_test",
+    "world_id": "d849979af1eca4db5645905d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.819231769629374,
+        "mean": 0.7638463539258747,
+        "observed_mean": 0.7638463539258747
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.519892537666883,
+        "mean": 1.1039785075333766,
+        "observed_mean": 1.1039785075333766
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7411182668971331,
+        "mean": 0.1482236533794266,
+        "observed_mean": 0.1482236533794266
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.84,
+        "mean": 0.768,
+        "observed_mean": 0.768
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09817198155904001,
+        "mean": 0.019634396311808,
+        "observed_mean": 0.019634396311808
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025765099562704563,
+        "mean": 0.0005153019912540913,
+        "observed_mean": 0.0005153019912540913
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002573047000002049,
+        "mean": 0.0005146094000004098,
+        "observed_mean": 0.0005146094000004098
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "08c6d39a552085a89c946eb2",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.273826109691067,
+        "mean": 1.0547652219382133,
+        "observed_mean": 1.0547652219382133
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.6224462208948403,
+        "mean": 0.7244892441789681,
+        "observed_mean": 0.7244892441789681
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.8363084507288532,
+        "mean": 0.36726169014577065,
+        "observed_mean": 0.36726169014577065
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.28,
+        "mean": 1.056,
+        "observed_mean": 1.056
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07314583298749461,
+        "mean": 0.014629166597498921,
+        "observed_mean": 0.014629166597498921
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.109872843604535,
+        "mean": 3.621974568720907,
+        "observed_mean": 3.621974568720907
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.118501329000026,
+        "mean": 3.623700265800005,
+        "observed_mean": 3.623700265800005
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1815.0,
+        "mean": 363.0,
+        "observed_mean": 363.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 179.0,
+        "mean": 35.8,
+        "observed_mean": 35.8
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "389235889fe58c85f0758645",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.215889567598955,
+        "mean": 0.843177913519791,
+        "observed_mean": 0.843177913519791
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.588111753377317,
+        "mean": 0.5176223506754634,
+        "observed_mean": 0.5176223506754634
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.126916165293857,
+        "mean": 0.42538323305877135,
+        "observed_mean": 0.42538323305877135
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.18,
+        "mean": 0.836,
+        "observed_mean": 0.836
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08892039875265585,
+        "mean": 0.01778407975053117,
+        "observed_mean": 0.01778407975053117
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.25206385459751,
+        "mean": 3.4504127709195016,
+        "observed_mean": 3.4504127709195016
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.25931853600001,
+        "mean": 3.451863707200002,
+        "observed_mean": 3.451863707200002
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1806.0,
+        "mean": 361.2,
+        "observed_mean": 361.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 170.0,
+        "mean": 34.0,
+        "observed_mean": 34.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "76c57917b18676fe913ae6a6",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.325904595587097,
+        "mean": 0.8651809191174195,
+        "observed_mean": 0.8651809191174195
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.692050537420936,
+        "mean": 0.5384101074841872,
+        "observed_mean": 0.5384101074841872
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.8924256910400057,
+        "mean": 0.3784851382080011,
+        "observed_mean": 0.3784851382080011
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.34,
+        "mean": 0.868,
+        "observed_mean": 0.868
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1000660646068262,
+        "mean": 0.02001321292136524,
+        "observed_mean": 0.02001321292136524
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.913234984502196,
+        "mean": 3.7826469969004393,
+        "observed_mean": 3.7826469969004393
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.921872617000048,
+        "mean": 3.7843745234000097,
+        "observed_mean": 3.7843745234000097
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1820.0,
+        "mean": 364.0,
+        "observed_mean": 364.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 187.0,
+        "mean": 37.4,
+        "observed_mean": 37.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "780cd78e50ba2d33fe3a457b",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.889363949939128,
+        "mean": 0.9778727899878256,
+        "observed_mean": 0.9778727899878256
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.2553339637302003,
+        "mean": 0.6510667927460401,
+        "observed_mean": 0.6510667927460401
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.516164387297432,
+        "mean": 0.5032328774594864,
+        "observed_mean": 0.5032328774594864
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.92,
+        "mean": 0.984,
+        "observed_mean": 0.984
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06136907338600718,
+        "mean": 0.012273814677201436,
+        "observed_mean": 0.012273814677201436
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.820056938100606,
+        "mean": 3.7640113876201213,
+        "observed_mean": 3.7640113876201213
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.828296502,
+        "mean": 3.7656593004000003,
+        "observed_mean": 3.7656593004000003
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1788.0,
+        "mean": 357.6,
+        "observed_mean": 357.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 186.0,
+        "mean": 37.2,
+        "observed_mean": 37.2
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "8eb2b8720504dfa13419e50a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.555555555555555,
+        "mean": 1.1111111111111112,
+        "observed_mean": 1.1111111111111112
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.054651081081644,
+        "mean": 0.8109302162163289,
+        "observed_mean": 0.8109302162163289
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.60889042335696,
+        "mean": 0.521778084671392,
+        "observed_mean": 0.521778084671392
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.58,
+        "mean": 1.116,
+        "observed_mean": 1.116
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.83671674085781,
+        "mean": 3.567343348171562,
+        "observed_mean": 3.567343348171562
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.856166698999996,
+        "mean": 3.571233339799999,
+        "observed_mean": 3.571233339799999
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1773.0,
+        "mean": 354.6,
+        "observed_mean": 354.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 170.0,
+        "mean": 34.0,
+        "observed_mean": 34.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "a7928546d97ceb5c8fffd83a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.492473759673538,
+        "mean": 0.8984947519347075,
+        "observed_mean": 0.8984947519347075
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.815882847480777,
+        "mean": 0.5631765694961554,
+        "observed_mean": 0.5631765694961554
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.158072502055779,
+        "mean": 0.4316145004111558,
+        "observed_mean": 0.4316145004111558
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.48,
+        "mean": 0.8960000000000001,
+        "observed_mean": 0.8960000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08478620802589179,
+        "mean": 0.016957241605178357,
+        "observed_mean": 0.016957241605178357
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 20.413393115624785,
+        "mean": 4.082678623124957,
+        "observed_mean": 4.082678623124957
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 20.423227531999984,
+        "mean": 4.084645506399997,
+        "observed_mean": 4.084645506399997
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1845.0,
+        "mean": 369.0,
+        "observed_mean": 369.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 203.0,
+        "mean": 40.6,
+        "observed_mean": 40.6
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "b2499e321b1360b414e3588c",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.366188955096923,
+        "mean": 1.0732377910193844,
+        "observed_mean": 1.0732377910193844
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.7622019029680756,
+        "mean": 0.7524403805936151,
+        "observed_mean": 0.7524403805936151
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.270294224652229,
+        "mean": 0.4540588449304458,
+        "observed_mean": 0.4540588449304458
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.42,
+        "mean": 1.084,
+        "observed_mean": 1.084
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07772027097768465,
+        "mean": 0.01554405419553693,
+        "observed_mean": 0.01554405419553693
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.26073710480705,
+        "mean": 3.45214742096141,
+        "observed_mean": 3.45214742096141
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.266763315999995,
+        "mean": 3.453352663199999,
+        "observed_mean": 3.453352663199999
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1790.0,
+        "mean": 358.0,
+        "observed_mean": 358.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 170.0,
+        "mean": 34.0,
+        "observed_mean": 34.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "id_test",
+    "world_id": "d849979af1eca4db5645905d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.555555555555555,
+        "mean": 1.1111111111111112,
+        "observed_mean": 1.1111111111111112
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.054651081081644,
+        "mean": 0.8109302162163289,
+        "observed_mean": 0.8109302162163289
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.2814785833992808,
+        "mean": 0.2562957166798562,
+        "observed_mean": 0.2562957166798562
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.540000000000001,
+        "mean": 1.108,
+        "observed_mean": 1.108
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.467944074887782,
+        "mean": 3.8935888149775564,
+        "observed_mean": 3.8935888149775564
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.47596628499999,
+        "mean": 3.895193256999998,
+        "observed_mean": 3.895193256999998
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1762.0,
+        "mean": 352.4,
+        "observed_mean": 352.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 193.0,
+        "mean": 38.6,
+        "observed_mean": 38.6
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "08c6d39a552085a89c946eb2",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.1554190649424614,
+        "mean": 0.4310838129884923,
+        "observed_mean": 0.4310838129884923
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.991547606404968,
+        "mean": 3.5983095212809935,
+        "observed_mean": 3.5983095212809935
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.6152202240506813,
+        "mean": 0.12304404481013627,
+        "observed_mean": 0.12304404481013627
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.18,
+        "mean": 0.43600000000000005,
+        "observed_mean": 0.43600000000000005
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0,
+        "mean": 0.2,
+        "observed_mean": 0.2
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07314583298749461,
+        "mean": 0.014629166597498921,
+        "observed_mean": 0.014629166597498921
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.315396999940276,
+        "mean": 5.463079399988056,
+        "observed_mean": 5.463079399988056
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.32805457699999,
+        "mean": 5.465610915399997,
+        "observed_mean": 5.465610915399997
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1815.0,
+        "mean": 363.0,
+        "observed_mean": 363.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "389235889fe58c85f0758645",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.215889567598955,
+        "mean": 0.843177913519791,
+        "observed_mean": 0.843177913519791
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.588111753377317,
+        "mean": 0.5176223506754634,
+        "observed_mean": 0.5176223506754634
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.126916165293857,
+        "mean": 0.42538323305877135,
+        "observed_mean": 0.42538323305877135
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.18,
+        "mean": 0.836,
+        "observed_mean": 0.836
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08892039875265585,
+        "mean": 0.01778407975053117,
+        "observed_mean": 0.01778407975053117
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.285983126610518,
+        "mean": 5.657196625322103,
+        "observed_mean": 5.657196625322103
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.299103583000033,
+        "mean": 5.659820716600007,
+        "observed_mean": 5.659820716600007
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1806.0,
+        "mean": 361.2,
+        "observed_mean": 361.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "76c57917b18676fe913ae6a6",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.325904595587097,
+        "mean": 0.8651809191174195,
+        "observed_mean": 0.8651809191174195
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.692050537420936,
+        "mean": 0.5384101074841872,
+        "observed_mean": 0.5384101074841872
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.8924256910400057,
+        "mean": 0.3784851382080011,
+        "observed_mean": 0.3784851382080011
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.34,
+        "mean": 0.868,
+        "observed_mean": 0.868
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1000660646068262,
+        "mean": 0.02001321292136524,
+        "observed_mean": 0.02001321292136524
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.288296680897474,
+        "mean": 5.657659336179495,
+        "observed_mean": 5.657659336179495
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.301179522999973,
+        "mean": 5.660235904599995,
+        "observed_mean": 5.660235904599995
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1820.0,
+        "mean": 364.0,
+        "observed_mean": 364.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "780cd78e50ba2d33fe3a457b",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 1,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 6.334980432497218,
+        "mean": 1.2669960864994436,
+        "observed_mean": 1.2669960864994436
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 45.05182435237268,
+        "mean": 9.010364870474536,
+        "observed_mean": 9.010364870474536
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.256732164482427,
+        "mean": 0.8513464328964855,
+        "observed_mean": 0.8513464328964855
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 6.36,
+        "mean": 1.272,
+        "observed_mean": 1.272
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06136907338600718,
+        "mean": 0.012273814677201436,
+        "observed_mean": 0.012273814677201436
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.283800318371505,
+        "mean": 5.656760063674301,
+        "observed_mean": 5.656760063674301
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.296598606000032,
+        "mean": 5.659319721200006,
+        "observed_mean": 5.659319721200006
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1788.0,
+        "mean": 357.6,
+        "observed_mean": 357.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "8eb2b8720504dfa13419e50a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.0,
+        "mean": 1.6,
+        "observed_mean": 1.6
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 68.13754594132988,
+        "mean": 13.627509188265975,
+        "observed_mean": 13.627509188265975
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.9973751498756984,
+        "mean": 0.7994750299751396,
+        "observed_mean": 0.7994750299751396
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.0,
+        "mean": 1.6,
+        "observed_mean": 1.6
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0,
+        "mean": 0.2,
+        "observed_mean": 0.2
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.315789219457656,
+        "mean": 5.463157843891532,
+        "observed_mean": 5.463157843891532
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.32819094300004,
+        "mean": 5.465638188600008,
+        "observed_mean": 5.465638188600008
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1773.0,
+        "mean": 354.6,
+        "observed_mean": 354.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "a7928546d97ceb5c8fffd83a",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 1,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.67206554205268,
+        "mean": 1.134413108410536,
+        "observed_mean": 1.134413108410536
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 40.71016747180793,
+        "mean": 8.142033494361586,
+        "observed_mean": 8.142033494361586
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.265589000193039,
+        "mean": 0.8531178000386077,
+        "observed_mean": 0.8531178000386077
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.66,
+        "mean": 1.1320000000000001,
+        "observed_mean": 1.1320000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08478620802589179,
+        "mean": 0.016957241605178357,
+        "observed_mean": 0.016957241605178357
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.286572811193764,
+        "mean": 5.657314562238753,
+        "observed_mean": 5.657314562238753
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.299398603999975,
+        "mean": 5.659879720799995,
+        "observed_mean": 5.659879720799995
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1845.0,
+        "mean": 369.0,
+        "observed_mean": 369.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "b2499e321b1360b414e3588c",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.211090448459068,
+        "mean": 0.8422180896918136,
+        "observed_mean": 0.8422180896918136
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 35.04482523618219,
+        "mean": 7.008965047236439,
+        "observed_mean": 7.008965047236439
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.9398024240561833,
+        "mean": 0.3879604848112367,
+        "observed_mean": 0.3879604848112367
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.22,
+        "mean": 0.844,
+        "observed_mean": 0.844
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07772027097768465,
+        "mean": 0.01554405419553693,
+        "observed_mean": 0.01554405419553693
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.2997800684534,
+        "mean": 5.459956013690681,
+        "observed_mean": 5.459956013690681
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.312336530000152,
+        "mean": 5.462467306000031,
+        "observed_mean": 5.462467306000031
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1790.0,
+        "mean": 358.0,
+        "observed_mean": 358.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "id_test",
+    "world_id": "d849979af1eca4db5645905d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.0,
+        "mean": 0.8,
+        "observed_mean": 0.8
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 34.06877309566493,
+        "mean": 6.813754619132986,
+        "observed_mean": 6.813754619132986
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7628410771183222,
+        "mean": 0.15256821542366444,
+        "observed_mean": 0.15256821542366444
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.0,
+        "mean": 0.8,
+        "observed_mean": 0.8
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.0,
+        "mean": 0.6,
+        "observed_mean": 0.6
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.34286502050236,
+        "mean": 5.468573004100472,
+        "observed_mean": 5.468573004100472
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.3555903969999,
+        "mean": 5.4711180793999805,
+        "observed_mean": 5.4711180793999805
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1762.0,
+        "mean": 352.4,
+        "observed_mean": 352.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "10c9be8694da83ace91c6753",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.31904430907071013,
+        "mean": 0.06380886181414203,
+        "observed_mean": 0.06380886181414203
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.062377650141311594,
+        "mean": 0.012475530028262318,
+        "observed_mean": 0.012475530028262318
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.3176576539650484,
+        "mean": 0.06353153079300969,
+        "observed_mean": 0.06353153079300969
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.36,
+        "mean": 0.072,
+        "observed_mean": 0.072
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08720877298045085,
+        "mean": 0.01744175459609017,
+        "observed_mean": 0.01744175459609017
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.003363033290952444,
+        "mean": 0.0006726066581904888,
+        "observed_mean": 0.0006726066581904888
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0033594280000031063,
+        "mean": 0.0006718856000006212,
+        "observed_mean": 0.0006718856000006212
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "7197c55a6fb916e30441646d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.5599727967650696,
+        "mean": 0.3119945593530139,
+        "observed_mean": 0.3119945593530139
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0066162454350909,
+        "mean": 0.20132324908701818,
+        "observed_mean": 0.20132324908701818
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.9999981866176569,
+        "mean": 0.19999963732353138,
+        "observed_mean": 0.19999963732353138
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.54,
+        "mean": 0.308,
+        "observed_mean": 0.308
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09991727644425326,
+        "mean": 0.019983455288850652,
+        "observed_mean": 0.019983455288850652
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025284267030656338,
+        "mean": 0.0005056853406131268,
+        "observed_mean": 0.0005056853406131268
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002525100999996255,
+        "mean": 0.000505020199999251,
+        "observed_mean": 0.000505020199999251
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "760b455206ffc33fe6a65d03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.8869141139777516,
+        "mean": 0.17738282279555032,
+        "observed_mean": 0.17738282279555032
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.3368904434774108,
+        "mean": 0.06737808869548216,
+        "observed_mean": 0.06737808869548216
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7820611067001567,
+        "mean": 0.15641222134003135,
+        "observed_mean": 0.15641222134003135
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.9400000000000001,
+        "mean": 0.188,
+        "observed_mean": 0.188
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09328392584770795,
+        "mean": 0.01865678516954159,
+        "observed_mean": 0.01865678516954159
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08862487621286298,
+        "mean": 0.017724975242572598,
+        "observed_mean": 0.017724975242572598
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002549121156334877,
+        "mean": 0.0005098242312669754,
+        "observed_mean": 0.0005098242312669754
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002545734999998217,
+        "mean": 0.0005091469999996435,
+        "observed_mean": 0.0005091469999996435
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "b6161429ae681b9b130745b8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.389388238583871,
+        "mean": 1.0778776477167742,
+        "observed_mean": 1.0778776477167742
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.937001278141199,
+        "mean": 1.18740025562824,
+        "observed_mean": 1.18740025562824
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.745876539706507,
+        "mean": 0.7491753079413014,
+        "observed_mean": 0.7491753079413014
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.4,
+        "mean": 1.08,
+        "observed_mean": 1.08
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10056014878382792,
+        "mean": 0.020112029756765584,
+        "observed_mean": 0.020112029756765584
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.14002501247102203,
+        "mean": 0.028005002494204408,
+        "observed_mean": 0.028005002494204408
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025263987481594086,
+        "mean": 0.0005052797496318817,
+        "observed_mean": 0.0005052797496318817
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025229770000017027,
+        "mean": 0.0005045954000003405,
+        "observed_mean": 0.0005045954000003405
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "d7ecaf1f3c5ea09bb1979d23",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.5674062414988139,
+        "mean": 0.11348124829976278,
+        "observed_mean": 0.11348124829976278
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.22578364995701702,
+        "mean": 0.0451567299914034,
+        "observed_mean": 0.0451567299914034
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.6094114889441441,
+        "mean": 0.12188229778882882,
+        "observed_mean": 0.12188229778882882
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.66,
+        "mean": 0.132,
+        "observed_mean": 0.132
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07738184241012966,
+        "mean": 0.015476368482025932,
+        "observed_mean": 0.015476368482025932
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0776307786566849,
+        "mean": 0.01552615573133698,
+        "observed_mean": 0.01552615573133698
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002545588184148073,
+        "mean": 0.0005091176368296147,
+        "observed_mean": 0.0005091176368296147
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002578839999998195,
+        "mean": 0.000515767999999639,
+        "observed_mean": 0.000515767999999639
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "e1a74d8457b0573e72771a82",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.0258635262244664,
+        "mean": 0.4051727052448933,
+        "observed_mean": 0.4051727052448933
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0294267741869505,
+        "mean": 0.2058853548373901,
+        "observed_mean": 0.2058853548373901
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.8401022572185601,
+        "mean": 0.36802045144371204,
+        "observed_mean": 0.36802045144371204
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.02,
+        "mean": 0.404,
+        "observed_mean": 0.404
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09233115832145153,
+        "mean": 0.018466231664290306,
+        "observed_mean": 0.018466231664290306
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1475848539972339,
+        "mean": 0.02951697079944678,
+        "observed_mean": 0.02951697079944678
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002562721725553274,
+        "mean": 0.0005125443451106549,
+        "observed_mean": 0.0005125443451106549
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025588659999975505,
+        "mean": 0.0005117731999995101,
+        "observed_mean": 0.0005117731999995101
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "ea95d71d311a59c15f7732d0",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.5208190385338394,
+        "mean": 0.3041638077067679,
+        "observed_mean": 0.3041638077067679
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7762380763607126,
+        "mean": 0.15524761527214254,
+        "observed_mean": 0.15524761527214254
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.2744242251745317,
+        "mean": 0.2548848450349063,
+        "observed_mean": 0.2548848450349063
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.52,
+        "mean": 0.304,
+        "observed_mean": 0.304
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08338376209223175,
+        "mean": 0.01667675241844635,
+        "observed_mean": 0.01667675241844635
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10519895586027815,
+        "mean": 0.02103979117205563,
+        "observed_mean": 0.02103979117205563
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025511281564831734,
+        "mean": 0.0005102256312966347,
+        "observed_mean": 0.0005102256312966347
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025474699999961103,
+        "mean": 0.0005094939999992221,
+        "observed_mean": 0.0005094939999992221
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_parameters",
+    "world_id": "eb7356721f772dcba2d5e400",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.604256992328528,
+        "mean": 0.3208513984657056,
+        "observed_mean": 0.3208513984657056
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.6460871670280516,
+        "mean": 0.12921743340561032,
+        "observed_mean": 0.12921743340561032
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.470595031692872,
+        "mean": 0.2941190063385744,
+        "observed_mean": 0.2941190063385744
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.58,
+        "mean": 0.316,
+        "observed_mean": 0.316
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1299325447088429,
+        "mean": 0.02598650894176858,
+        "observed_mean": 0.02598650894176858
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1316696655168961,
+        "mean": 0.02633393310337922,
+        "observed_mean": 0.02633393310337922
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002552255056798458,
+        "mean": 0.0005104510113596916,
+        "observed_mean": 0.0005104510113596916
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002548645999993937,
+        "mean": 0.0005097291999987874,
+        "observed_mean": 0.0005097291999987874
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "10c9be8694da83ace91c6753",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 6.444444444444445,
+        "mean": 1.288888888888889,
+        "observed_mean": 1.288888888888889
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 20.278107337697783,
+        "mean": 4.055621467539557,
+        "observed_mean": 4.055621467539557
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.207363898528228,
+        "mean": 0.6414727797056455,
+        "observed_mean": 0.6414727797056455
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 6.460000000000001,
+        "mean": 1.2920000000000003,
+        "observed_mean": 1.2920000000000003
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0711111111111109,
+        "mean": 0.014222222222222181,
+        "observed_mean": 0.014222222222222181
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.386084966827184,
+        "mean": 3.477216993365437,
+        "observed_mean": 3.477216993365437
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.394348486999974,
+        "mean": 3.4788696973999946,
+        "observed_mean": 3.4788696973999946
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1769.0,
+        "mean": 353.8,
+        "observed_mean": 353.8
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 171.0,
+        "mean": 34.2,
+        "observed_mean": 34.2
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "7197c55a6fb916e30441646d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.555555555555555,
+        "mean": 1.1111111111111112,
+        "observed_mean": 1.1111111111111112
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.054651081081644,
+        "mean": 0.8109302162163289,
+        "observed_mean": 0.8109302162163289
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.7101157757402,
+        "mean": 0.54202315514804,
+        "observed_mean": 0.54202315514804
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.6000000000000005,
+        "mean": 1.12,
+        "observed_mean": 1.12
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.910851715132594,
+        "mean": 3.3821703430265186,
+        "observed_mean": 3.3821703430265186
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.918711547000015,
+        "mean": 3.383742309400003,
+        "observed_mean": 3.383742309400003
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1740.0,
+        "mean": 348.0,
+        "observed_mean": 348.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 166.0,
+        "mean": 33.2,
+        "observed_mean": 33.2
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "760b455206ffc33fe6a65d03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.323762246355037,
+        "mean": 1.0647524492710074,
+        "observed_mean": 1.0647524492710074
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.6969253793284595,
+        "mean": 0.7393850758656919,
+        "observed_mean": 0.7393850758656919
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.3555837773138464,
+        "mean": 0.47111675546276927,
+        "observed_mean": 0.47111675546276927
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.380000000000001,
+        "mean": 1.076,
+        "observed_mean": 1.076
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09328392584770795,
+        "mean": 0.01865678516954159,
+        "observed_mean": 0.01865678516954159
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.258351632393897,
+        "mean": 3.451670326478779,
+        "observed_mean": 3.451670326478779
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.266431529000016,
+        "mean": 3.4532863058000034,
+        "observed_mean": 3.4532863058000034
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1788.0,
+        "mean": 357.6,
+        "observed_mean": 357.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 170.0,
+        "mean": 34.0,
+        "observed_mean": 34.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "b6161429ae681b9b130745b8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.046217983555481,
+        "mean": 1.0092435967110962,
+        "observed_mean": 1.0092435967110962
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.4510195937926844,
+        "mean": 0.6902039187585369,
+        "observed_mean": 0.6902039187585369
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.463005390038691,
+        "mean": 0.4926010780077382,
+        "observed_mean": 0.4926010780077382
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.0600000000000005,
+        "mean": 1.012,
+        "observed_mean": 1.012
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10056014878382792,
+        "mean": 0.020112029756765584,
+        "observed_mean": 0.020112029756765584
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.518785717431456,
+        "mean": 3.903757143486291,
+        "observed_mean": 3.903757143486291
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.527873151999984,
+        "mean": 3.9055746303999967,
+        "observed_mean": 3.9055746303999967
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1857.0,
+        "mean": 371.4,
+        "observed_mean": 371.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 193.0,
+        "mean": 38.6,
+        "observed_mean": 38.6
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "d7ecaf1f3c5ea09bb1979d23",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.429188288646731,
+        "mean": 1.0858376577293463,
+        "observed_mean": 1.0858376577293463
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.8191774497025985,
+        "mean": 0.7638354899405198,
+        "observed_mean": 0.7638354899405198
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.5772161072299187,
+        "mean": 0.5154432214459838,
+        "observed_mean": 0.5154432214459838
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.48,
+        "mean": 1.096,
+        "observed_mean": 1.096
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07738184241012966,
+        "mean": 0.015476368482025932,
+        "observed_mean": 0.015476368482025932
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08888888888888863,
+        "mean": 0.017777777777777726,
+        "observed_mean": 0.017777777777777726
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.689569547772408,
+        "mean": 3.9379139095544815,
+        "observed_mean": 3.9379139095544815
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.698712170999983,
+        "mean": 3.9397424341999967,
+        "observed_mean": 3.9397424341999967
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1758.0,
+        "mean": 351.6,
+        "observed_mean": 351.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 194.0,
+        "mean": 38.8,
+        "observed_mean": 38.8
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "e1a74d8457b0573e72771a82",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.483314064999071,
+        "mean": 0.8966628129998142,
+        "observed_mean": 0.8966628129998142
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.8336424602537584,
+        "mean": 0.5667284920507517,
+        "observed_mean": 0.5667284920507517
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.9317570975970244,
+        "mean": 0.3863514195194049,
+        "observed_mean": 0.3863514195194049
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.5,
+        "mean": 0.9,
+        "observed_mean": 0.9
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09233115832145153,
+        "mean": 0.018466231664290306,
+        "observed_mean": 0.018466231664290306
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 20.360918145161122,
+        "mean": 4.072183629032224,
+        "observed_mean": 4.072183629032224
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 20.370720812000002,
+        "mean": 4.0741441624000005,
+        "observed_mean": 4.0741441624000005
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1838.0,
+        "mean": 367.6,
+        "observed_mean": 367.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 202.0,
+        "mean": 40.4,
+        "observed_mean": 40.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "ea95d71d311a59c15f7732d0",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.3105412218087675,
+        "mean": 0.8621082443617535,
+        "observed_mean": 0.8621082443617535
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.7100098913972195,
+        "mean": 0.5420019782794439,
+        "observed_mean": 0.5420019782794439
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.079315974996727,
+        "mean": 0.41586319499934543,
+        "observed_mean": 0.41586319499934543
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.28,
+        "mean": 0.8560000000000001,
+        "observed_mean": 0.8560000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08338376209223175,
+        "mean": 0.01667675241844635,
+        "observed_mean": 0.01667675241844635
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.914348712190986,
+        "mean": 3.782869742438197,
+        "observed_mean": 3.782869742438197
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.92367579800009,
+        "mean": 3.784735159600018,
+        "observed_mean": 3.784735159600018
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1826.0,
+        "mean": 365.2,
+        "observed_mean": 365.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 187.0,
+        "mean": 37.4,
+        "observed_mean": 37.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_parameters",
+    "world_id": "eb7356721f772dcba2d5e400",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.647644185146581,
+        "mean": 0.9295288370293162,
+        "observed_mean": 0.9295288370293162
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.959813632395552,
+        "mean": 0.5919627264791104,
+        "observed_mean": 0.5919627264791104
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.217087137971159,
+        "mean": 0.44341742759423186,
+        "observed_mean": 0.44341742759423186
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.62,
+        "mean": 0.924,
+        "observed_mean": 0.924
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1299325447088429,
+        "mean": 0.02598650894176858,
+        "observed_mean": 0.02598650894176858
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.916977380402386,
+        "mean": 3.7833954760804773,
+        "observed_mean": 3.7833954760804773
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.926159485,
+        "mean": 3.785231897,
+        "observed_mean": 3.785231897
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1796.0,
+        "mean": 359.2,
+        "observed_mean": 359.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 187.0,
+        "mean": 37.4,
+        "observed_mean": 37.4
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "10c9be8694da83ace91c6753",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.0,
+        "mean": 1.6,
+        "observed_mean": 1.6
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 68.13754594132988,
+        "mean": 13.627509188265975,
+        "observed_mean": 13.627509188265975
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.958647838056875,
+        "mean": 0.791729567611375,
+        "observed_mean": 0.791729567611375
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.0,
+        "mean": 1.6,
+        "observed_mean": 1.6
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.0,
+        "mean": 0.2,
+        "observed_mean": 0.2
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.39112561242655,
+        "mean": 5.47822512248531,
+        "observed_mean": 5.47822512248531
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.403619180000078,
+        "mean": 5.480723836000015,
+        "observed_mean": 5.480723836000015
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1769.0,
+        "mean": 353.8,
+        "observed_mean": 353.8
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "7197c55a6fb916e30441646d",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 10.0,
+        "mean": 2.0,
+        "observed_mean": 2.0
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 85.17193236416234,
+        "mean": 17.03438647283247,
+        "observed_mean": 17.03438647283247
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.847760495415449,
+        "mean": 0.9695520990830898,
+        "observed_mean": 0.9695520990830898
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 10.0,
+        "mean": 2.0,
+        "observed_mean": 2.0
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.413529615383595,
+        "mean": 5.482705923076719,
+        "observed_mean": 5.482705923076719
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.42601704499998,
+        "mean": 5.485203408999996,
+        "observed_mean": 5.485203408999996
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1740.0,
+        "mean": 348.0,
+        "observed_mean": 348.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "760b455206ffc33fe6a65d03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.1391421611950037,
+        "mean": 0.42782843223900074,
+        "observed_mean": 0.42782843223900074
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.46572564497577,
+        "mean": 3.493145128995154,
+        "observed_mean": 3.493145128995154
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.7231726690373953,
+        "mean": 0.14463453380747907,
+        "observed_mean": 0.14463453380747907
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.14,
+        "mean": 0.42800000000000005,
+        "observed_mean": 0.42800000000000005
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09328392584770795,
+        "mean": 0.01865678516954159,
+        "observed_mean": 0.01865678516954159
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.563930809497833,
+        "mean": 5.512786161899567,
+        "observed_mean": 5.512786161899567
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.576432884999917,
+        "mean": 5.5152865769999835,
+        "observed_mean": 5.5152865769999835
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1788.0,
+        "mean": 357.6,
+        "observed_mean": 357.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "b6161429ae681b9b130745b8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 1,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.4309715700674674,
+        "mean": 1.0861943140134935,
+        "observed_mean": 1.0861943140134935
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 36.46549182452216,
+        "mean": 7.2930983649044325,
+        "observed_mean": 7.2930983649044325
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.240829482753523,
+        "mean": 0.6481658965507047,
+        "observed_mean": 0.6481658965507047
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.4399999999999995,
+        "mean": 1.0879999999999999,
+        "observed_mean": 1.0879999999999999
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10056014878382792,
+        "mean": 0.020112029756765584,
+        "observed_mean": 0.020112029756765584
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.497031564358622,
+        "mean": 5.699406312871725,
+        "observed_mean": 5.699406312871725
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.509550614999853,
+        "mean": 5.701910122999971,
+        "observed_mean": 5.701910122999971
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1857.0,
+        "mean": 371.4,
+        "observed_mean": 371.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "d7ecaf1f3c5ea09bb1979d23",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.041307223391312,
+        "mean": 1.6082614446782624,
+        "observed_mean": 1.6082614446782624
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 67.9775583732136,
+        "mean": 13.595511674642719,
+        "observed_mean": 13.595511674642719
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.987808211221534,
+        "mean": 0.7975616422443068,
+        "observed_mean": 0.7975616422443068
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 8.04,
+        "mean": 1.6079999999999999,
+        "observed_mean": 1.6079999999999999
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.07738184241012966,
+        "mean": 0.015476368482025932,
+        "observed_mean": 0.015476368482025932
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.494893691968173,
+        "mean": 5.498978738393634,
+        "observed_mean": 5.498978738393634
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.507450166999888,
+        "mean": 5.501490033399977,
+        "observed_mean": 5.501490033399977
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1758.0,
+        "mean": 351.6,
+        "observed_mean": 351.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 140.0,
+        "mean": 28.0,
+        "observed_mean": 28.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "e1a74d8457b0573e72771a82",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.483314064999071,
+        "mean": 0.8966628129998142,
+        "observed_mean": 0.8966628129998142
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.8336424602537584,
+        "mean": 0.5667284920507517,
+        "observed_mean": 0.5667284920507517
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.9317570975970244,
+        "mean": 0.3863514195194049,
+        "observed_mean": 0.3863514195194049
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.5,
+        "mean": 0.9,
+        "observed_mean": 0.9
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09233115832145153,
+        "mean": 0.018466231664290306,
+        "observed_mean": 0.018466231664290306
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.493899903725833,
+        "mean": 5.698779980745167,
+        "observed_mean": 5.698779980745167
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.507105340999942,
+        "mean": 5.701421068199989,
+        "observed_mean": 5.701421068199989
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1838.0,
+        "mean": 367.6,
+        "observed_mean": 367.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "ea95d71d311a59c15f7732d0",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.3105412218087675,
+        "mean": 0.8621082443617535,
+        "observed_mean": 0.8621082443617535
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.7100098913972195,
+        "mean": 0.5420019782794439,
+        "observed_mean": 0.5420019782794439
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.079315974996727,
+        "mean": 0.41586319499934543,
+        "observed_mean": 0.41586319499934543
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.28,
+        "mean": 0.8560000000000001,
+        "observed_mean": 0.8560000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08338376209223175,
+        "mean": 0.01667675241844635,
+        "observed_mean": 0.01667675241844635
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.462007137481123,
+        "mean": 5.6924014274962245,
+        "observed_mean": 5.6924014274962245
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.475546677000125,
+        "mean": 5.695109335400025,
+        "observed_mean": 5.695109335400025
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1826.0,
+        "mean": 365.2,
+        "observed_mean": 365.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_parameters",
+    "world_id": "eb7356721f772dcba2d5e400",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 1,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.968453926296613,
+        "mean": 1.1936907852593226,
+        "observed_mean": 1.1936907852593226
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 42.85556143021391,
+        "mean": 8.571112286042782,
+        "observed_mean": 8.571112286042782
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.9833145745117617,
+        "mean": 0.7966629149023523,
+        "observed_mean": 0.7966629149023523
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.94,
+        "mean": 1.1880000000000002,
+        "observed_mean": 1.1880000000000002
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1299325447088429,
+        "mean": 0.02598650894176858,
+        "observed_mean": 0.02598650894176858
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.462880983948708,
+        "mean": 5.692576196789742,
+        "observed_mean": 5.692576196789742
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.475866020000126,
+        "mean": 5.695173204000025,
+        "observed_mean": 5.695173204000025
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1796.0,
+        "mean": 359.2,
+        "observed_mean": 359.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "17002be31abd855551b20a03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3572544182599433,
+        "mean": 0.6714508836519887,
+        "observed_mean": 0.6714508836519887
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.55620864107328,
+        "mean": 0.511241728214656,
+        "observed_mean": 0.511241728214656
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.0887334179503667,
+        "mean": 0.6177466835900733,
+        "observed_mean": 0.6177466835900733
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.38,
+        "mean": 0.6759999999999999,
+        "observed_mean": 0.6759999999999999
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08231645350936187,
+        "mean": 0.016463290701872375,
+        "observed_mean": 0.016463290701872375
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.12845138781620663,
+        "mean": 0.025690277563241326,
+        "observed_mean": 0.025690277563241326
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025462466292083263,
+        "mean": 0.0005092493258416653,
+        "observed_mean": 0.0005092493258416653
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002542694000002399,
+        "mean": 0.0005085388000004798,
+        "observed_mean": 0.0005085388000004798
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "222e652761e1a2f5452caf98",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3617183241775312,
+        "mean": 0.6723436648355062,
+        "observed_mean": 0.6723436648355062
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.555585993974836,
+        "mean": 0.5111171987949672,
+        "observed_mean": 0.5111171987949672
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.545953346362385,
+        "mean": 0.509190669272477,
+        "observed_mean": 0.509190669272477
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.4000000000000004,
+        "mean": 0.68,
+        "observed_mean": 0.68
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10377345672802536,
+        "mean": 0.02075469134560507,
+        "observed_mean": 0.02075469134560507
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1256517586495123,
+        "mean": 0.02513035172990246,
+        "observed_mean": 0.02513035172990246
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002562609501183033,
+        "mean": 0.0005125219002366066,
+        "observed_mean": 0.0005125219002366066
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002559393999995052,
+        "mean": 0.0005118787999990104,
+        "observed_mean": 0.0005118787999990104
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "29494fdabf33b3f035b37caa",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.1509904278913257,
+        "mean": 0.6301980855782652,
+        "observed_mean": 0.6301980855782652
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.9842194342577875,
+        "mean": 0.9968438868515574,
+        "observed_mean": 0.9968438868515574
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3876056625799773,
+        "mean": 0.6775211325159954,
+        "observed_mean": 0.6775211325159954
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.16,
+        "mean": 0.632,
+        "observed_mean": 0.632
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09329618781682315,
+        "mean": 0.01865923756336463,
+        "observed_mean": 0.01865923756336463
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.13728280905839152,
+        "mean": 0.027456561811678305,
+        "observed_mean": 0.027456561811678305
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0027024555020034313,
+        "mean": 0.0005404911004006863,
+        "observed_mean": 0.0005404911004006863
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002699004999996646,
+        "mean": 0.0005398009999993292,
+        "observed_mean": 0.0005398009999993292
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "68cf74631a31101c0399be11",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.189567371573154,
+        "mean": 0.8379134743146308,
+        "observed_mean": 0.8379134743146308
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.292389027497703,
+        "mean": 0.6584778054995406,
+        "observed_mean": 0.6584778054995406
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.0531643006389855,
+        "mean": 0.8106328601277971,
+        "observed_mean": 0.8106328601277971
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.22,
+        "mean": 0.844,
+        "observed_mean": 0.844
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06304522422206743,
+        "mean": 0.012609044844413487,
+        "observed_mean": 0.012609044844413487
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.13589850146439483,
+        "mean": 0.027179700292878965,
+        "observed_mean": 0.027179700292878965
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025824159383773804,
+        "mean": 0.000516483187675476,
+        "observed_mean": 0.000516483187675476
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025790380000003665,
+        "mean": 0.0005158076000000734,
+        "observed_mean": 0.0005158076000000734
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "8b46400ce068bc655709c863",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.562247441721146,
+        "mean": 0.7124494883442292,
+        "observed_mean": 0.7124494883442292
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.088882367414612,
+        "mean": 0.6177764734829224,
+        "observed_mean": 0.6177764734829224
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.2380173322169807,
+        "mean": 0.6476034664433962,
+        "observed_mean": 0.6476034664433962
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.5999999999999996,
+        "mean": 0.72,
+        "observed_mean": 0.72
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06360174307952421,
+        "mean": 0.012720348615904842,
+        "observed_mean": 0.012720348615904842
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.13334522904914597,
+        "mean": 0.026669045809829196,
+        "observed_mean": 0.026669045809829196
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025418209843337536,
+        "mean": 0.0005083641968667507,
+        "observed_mean": 0.0005083641968667507
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025382210000017835,
+        "mean": 0.0005076442000003567,
+        "observed_mean": 0.0005076442000003567
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "bcb67cf8ccdc46ab744b5040",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.445676097142745,
+        "mean": 0.689135219428549,
+        "observed_mean": 0.689135219428549
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.083131219806644,
+        "mean": 0.8166262439613288,
+        "observed_mean": 0.8166262439613288
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.01331373867715,
+        "mean": 0.80266274773543,
+        "observed_mean": 0.80266274773543
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.44,
+        "mean": 0.688,
+        "observed_mean": 0.688
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0650093586144539,
+        "mean": 0.013001871722890778,
+        "observed_mean": 0.013001871722890778
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.14197909178783422,
+        "mean": 0.028395818357566844,
+        "observed_mean": 0.028395818357566844
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025356668047606945,
+        "mean": 0.0005071333609521389,
+        "observed_mean": 0.0005071333609521389
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025324439999963033,
+        "mean": 0.0005064887999992607,
+        "observed_mean": 0.0005064887999992607
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "e9cfaa591e78949c7dee1efc",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.2939158808702804,
+        "mean": 0.45878317617405606,
+        "observed_mean": 0.45878317617405606
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.6420280618352896,
+        "mean": 0.528405612367058,
+        "observed_mean": 0.528405612367058
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.39580249130757,
+        "mean": 0.679160498261514,
+        "observed_mean": 0.679160498261514
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.34,
+        "mean": 0.46799999999999997,
+        "observed_mean": 0.46799999999999997
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1536182783036212,
+        "mean": 0.03072365566072424,
+        "observed_mean": 0.03072365566072424
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1321256519129302,
+        "mean": 0.026425130382586037,
+        "observed_mean": 0.026425130382586037
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0026854798197746277,
+        "mean": 0.0005370959639549256,
+        "observed_mean": 0.0005370959639549256
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0026818030000050896,
+        "mean": 0.0005363606000010179,
+        "observed_mean": 0.0005363606000010179
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "MLP",
+    "split": "ood_partition",
+    "world_id": "ece9cc8f222cd63a286a5ee8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 0,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.4613828479892765,
+        "mean": 0.4922765695978553,
+        "observed_mean": 0.4922765695978553
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.0772080877342924,
+        "mean": 0.4154416175468585,
+        "observed_mean": 0.4154416175468585
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.922310736827498,
+        "mean": 0.5844621473654996,
+        "observed_mean": 0.5844621473654996
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.48,
+        "mean": 0.496,
+        "observed_mean": 0.496
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10479395422303832,
+        "mean": 0.020958790844607663,
+        "observed_mean": 0.020958790844607663
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10388478104694013,
+        "mean": 0.020776956209388027,
+        "observed_mean": 0.020776956209388027
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0025606881827116013,
+        "mean": 0.0005121376365423202,
+        "observed_mean": 0.0005121376365423202
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.002557245000001984,
+        "mean": 0.0005114490000003968,
+        "observed_mean": 0.0005114490000003968
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "17002be31abd855551b20a03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.967670657104956,
+        "mean": 0.7935341314209912,
+        "observed_mean": 0.7935341314209912
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.465187086638752,
+        "mean": 0.4930374173277504,
+        "observed_mean": 0.4930374173277504
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.6512383997156506,
+        "mean": 0.3302476799431301,
+        "observed_mean": 0.3302476799431301
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.0,
+        "mean": 0.8,
+        "observed_mean": 0.8
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08231645350936187,
+        "mean": 0.016463290701872375,
+        "observed_mean": 0.016463290701872375
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.725763130467385,
+        "mean": 3.545152626093477,
+        "observed_mean": 3.545152626093477
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.73384946400006,
+        "mean": 3.546769892800012,
+        "observed_mean": 3.546769892800012
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1830.0,
+        "mean": 366.0,
+        "observed_mean": 366.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 175.0,
+        "mean": 35.0,
+        "observed_mean": 35.0
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "222e652761e1a2f5452caf98",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.972768316086717,
+        "mean": 0.9945536632173434,
+        "observed_mean": 0.9945536632173434
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3163432936033193,
+        "mean": 0.6632686587206639,
+        "observed_mean": 0.6632686587206639
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.6713788301905605,
+        "mean": 0.5342757660381121,
+        "observed_mean": 0.5342757660381121
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.0,
+        "mean": 1.0,
+        "observed_mean": 1.0
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10377345672802536,
+        "mean": 0.02075469134560507,
+        "observed_mean": 0.02075469134560507
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.93665702221915,
+        "mean": 3.5873314044438303,
+        "observed_mean": 3.5873314044438303
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.945082815999967,
+        "mean": 3.5890165631999933,
+        "observed_mean": 3.5890165631999933
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1803.0,
+        "mean": 360.6,
+        "observed_mean": 360.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 177.0,
+        "mean": 35.4,
+        "observed_mean": 35.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "29494fdabf33b3f035b37caa",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.390192195364991,
+        "mean": 0.8780384390729982,
+        "observed_mean": 0.8780384390729982
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.8988675988063184,
+        "mean": 0.5797735197612637,
+        "observed_mean": 0.5797735197612637
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.3453989333554124,
+        "mean": 0.46907978667108247,
+        "observed_mean": 0.46907978667108247
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.4,
+        "mean": 0.8800000000000001,
+        "observed_mean": 0.8800000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09329618781682315,
+        "mean": 0.01865923756336463,
+        "observed_mean": 0.01865923756336463
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.35899356054142,
+        "mean": 3.8717987121082844,
+        "observed_mean": 3.8717987121082844
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 19.367712707999942,
+        "mean": 3.8735425415999885,
+        "observed_mean": 3.8735425415999885
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1842.0,
+        "mean": 368.4,
+        "observed_mean": 368.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 192.0,
+        "mean": 38.4,
+        "observed_mean": 38.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "68cf74631a31101c0399be11",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.7843960306492335,
+        "mean": 0.9568792061298467,
+        "observed_mean": 0.9568792061298467
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.1558565790839843,
+        "mean": 0.6311713158167969,
+        "observed_mean": 0.6311713158167969
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.6244951959591307,
+        "mean": 0.5248990391918261,
+        "observed_mean": 0.5248990391918261
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.76,
+        "mean": 0.952,
+        "observed_mean": 0.952
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06304522422206743,
+        "mean": 0.012609044844413487,
+        "observed_mean": 0.012609044844413487
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.973503544460982,
+        "mean": 3.5947007088921965,
+        "observed_mean": 3.5947007088921965
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.98202721499996,
+        "mean": 3.596405442999992,
+        "observed_mean": 3.596405442999992
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1810.0,
+        "mean": 362.0,
+        "observed_mean": 362.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 177.0,
+        "mean": 35.4,
+        "observed_mean": 35.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "8b46400ce068bc655709c863",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.1389758589279095,
+        "mean": 0.8277951717855819,
+        "observed_mean": 0.8277951717855819
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.5557400249572506,
+        "mean": 0.5111480049914501,
+        "observed_mean": 0.5111480049914501
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7978448947593915,
+        "mean": 0.3595689789518783,
+        "observed_mean": 0.3595689789518783
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.12,
+        "mean": 0.8240000000000001,
+        "observed_mean": 0.8240000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06360174307952421,
+        "mean": 0.012720348615904842,
+        "observed_mean": 0.012720348615904842
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.488300507888198,
+        "mean": 3.2976601015776397,
+        "observed_mean": 3.2976601015776397
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.495822501999953,
+        "mean": 3.2991645003999905,
+        "observed_mean": 3.2991645003999905
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1821.0,
+        "mean": 364.2,
+        "observed_mean": 364.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 162.0,
+        "mean": 32.4,
+        "observed_mean": 32.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "bcb67cf8ccdc46ab744b5040",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.840168790959069,
+        "mean": 0.9680337581918138,
+        "observed_mean": 0.9680337581918138
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.037361844004793,
+        "mean": 0.6074723688009586,
+        "observed_mean": 0.6074723688009586
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.5401078006839475,
+        "mean": 0.5080215601367895,
+        "observed_mean": 0.5080215601367895
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.88,
+        "mean": 0.976,
+        "observed_mean": 0.976
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0650093586144539,
+        "mean": 0.013001871722890778,
+        "observed_mean": 0.013001871722890778
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.910016365349293,
+        "mean": 3.3820032730698584,
+        "observed_mean": 3.3820032730698584
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 16.918025001000046,
+        "mean": 3.383605000200009,
+        "observed_mean": 3.383605000200009
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1815.0,
+        "mean": 363.0,
+        "observed_mean": 363.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 166.0,
+        "mean": 33.2,
+        "observed_mean": 33.2
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "e9cfaa591e78949c7dee1efc",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3850752644183304,
+        "mean": 0.677015052883666,
+        "observed_mean": 0.677015052883666
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.434411852257432,
+        "mean": 0.2868823704514864,
+        "observed_mean": 0.2868823704514864
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.6141476939104613,
+        "mean": 0.32282953878209225,
+        "observed_mean": 0.32282953878209225
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.3200000000000003,
+        "mean": 0.664,
+        "observed_mean": 0.664
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1536182783036212,
+        "mean": 0.03072365566072424,
+        "observed_mean": 0.03072365566072424
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.431429957970977,
+        "mean": 3.4862859915941953,
+        "observed_mean": 3.4862859915941953
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 17.43940305699988,
+        "mean": 3.4878806113999756,
+        "observed_mean": 3.4878806113999756
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1818.0,
+        "mean": 363.6,
+        "observed_mean": 363.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 172.0,
+        "mean": 34.4,
+        "observed_mean": 34.4
+      }
+    }
+  },
+  {
+    "method": "BaseQwen",
+    "split": "ood_partition",
+    "world_id": "ece9cc8f222cd63a286a5ee8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.750769437609338,
+        "mean": 0.7501538875218676,
+        "observed_mean": 0.7501538875218676
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.303639270165336,
+        "mean": 0.46072785403306715,
+        "observed_mean": 0.46072785403306715
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.7108092027476403,
+        "mean": 0.34216184054952803,
+        "observed_mean": 0.34216184054952803
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.7600000000000002,
+        "mean": 0.752,
+        "observed_mean": 0.752
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10479395422303832,
+        "mean": 0.020958790844607663,
+        "observed_mean": 0.020958790844607663
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.916356112342328,
+        "mean": 3.7832712224684655,
+        "observed_mean": 3.7832712224684655
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 18.925079156000038,
+        "mean": 3.7850158312000075,
+        "observed_mean": 3.7850158312000075
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1860.0,
+        "mean": 372.0,
+        "observed_mean": 372.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 187.0,
+        "mean": 37.4,
+        "observed_mean": 37.4
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "17002be31abd855551b20a03",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.967670657104956,
+        "mean": 0.7935341314209912,
+        "observed_mean": 0.7935341314209912
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.465187086638752,
+        "mean": 0.4930374173277504,
+        "observed_mean": 0.4930374173277504
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.6512383997156506,
+        "mean": 0.3302476799431301,
+        "observed_mean": 0.3302476799431301
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.0,
+        "mean": 0.8,
+        "observed_mean": 0.8
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.08231645350936187,
+        "mean": 0.016463290701872375,
+        "observed_mean": 0.016463290701872375
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.39778952486813,
+        "mean": 5.679557904973626,
+        "observed_mean": 5.679557904973626
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.410589545999756,
+        "mean": 5.682117909199951,
+        "observed_mean": 5.682117909199951
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1830.0,
+        "mean": 366.0,
+        "observed_mean": 366.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "222e652761e1a2f5452caf98",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.42775211840287,
+        "mean": 1.085550423680574,
+        "observed_mean": 1.085550423680574
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 13.088992143253634,
+        "mean": 2.617798428650727,
+        "observed_mean": 2.617798428650727
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.2082799142572282,
+        "mean": 0.6416559828514456,
+        "observed_mean": 0.6416559828514456
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.44,
+        "mean": 1.088,
+        "observed_mean": 1.088
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10377345672802536,
+        "mean": 0.02075469134560507,
+        "observed_mean": 0.02075469134560507
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.279352023266256,
+        "mean": 5.6558704046532515,
+        "observed_mean": 5.6558704046532515
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.292039470999953,
+        "mean": 5.658407894199991,
+        "observed_mean": 5.658407894199991
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1803.0,
+        "mean": 360.6,
+        "observed_mean": 360.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 144.0,
+        "mean": 28.8,
+        "observed_mean": 28.8
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "29494fdabf33b3f035b37caa",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.160710732504637,
+        "mean": 0.8321421465009274,
+        "observed_mean": 0.8321421465009274
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.078449241556212,
+        "mean": 1.0156898483112424,
+        "observed_mean": 1.0156898483112424
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.1872953541330125,
+        "mean": 0.4374590708266025,
+        "observed_mean": 0.4374590708266025
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.16,
+        "mean": 0.8320000000000001,
+        "observed_mean": 0.8320000000000001
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.09329618781682315,
+        "mean": 0.01865923756336463,
+        "observed_mean": 0.01865923756336463
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.272886561229825,
+        "mean": 5.654577312245965,
+        "observed_mean": 5.654577312245965
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.28578350900011,
+        "mean": 5.657156701800022,
+        "observed_mean": 5.657156701800022
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1842.0,
+        "mean": 368.4,
+        "observed_mean": 368.4
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 144.0,
+        "mean": 28.8,
+        "observed_mean": 28.8
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "68cf74631a31101c0399be11",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 5,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.7843960306492335,
+        "mean": 0.9568792061298467,
+        "observed_mean": 0.9568792061298467
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.1558565790839843,
+        "mean": 0.6311713158167969,
+        "observed_mean": 0.6311713158167969
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.6244951959591307,
+        "mean": 0.5248990391918261,
+        "observed_mean": 0.5248990391918261
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.76,
+        "mean": 0.952,
+        "observed_mean": 0.952
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06304522422206743,
+        "mean": 0.012609044844413487,
+        "observed_mean": 0.012609044844413487
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.47636758396402,
+        "mean": 5.695273516792804,
+        "observed_mean": 5.695273516792804
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.489548409999998,
+        "mean": 5.697909682,
+        "observed_mean": 5.697909682
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1810.0,
+        "mean": 362.0,
+        "observed_mean": 362.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 145.0,
+        "mean": 29.0,
+        "observed_mean": 29.0
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "8b46400ce068bc655709c863",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.638390595067821,
+        "mean": 0.9276781190135642,
+        "observed_mean": 0.9276781190135642
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 11.234232609243799,
+        "mean": 2.24684652184876,
+        "observed_mean": 2.24684652184876
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.1899918908946954,
+        "mean": 0.43799837817893905,
+        "observed_mean": 0.43799837817893905
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 4.6,
+        "mean": 0.9199999999999999,
+        "observed_mean": 0.9199999999999999
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.06360174307952421,
+        "mean": 0.012720348615904842,
+        "observed_mean": 0.012720348615904842
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.262911991216242,
+        "mean": 5.652582398243249,
+        "observed_mean": 5.652582398243249
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.27571259100023,
+        "mean": 5.655142518200046,
+        "observed_mean": 5.655142518200046
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1821.0,
+        "mean": 364.2,
+        "observed_mean": 364.2
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 144.0,
+        "mean": 28.8,
+        "observed_mean": 28.8
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "bcb67cf8ccdc46ab744b5040",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 2,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.069072852962865,
+        "mean": 1.013814570592573,
+        "observed_mean": 1.013814570592573
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 25.73619874247412,
+        "mean": 5.147239748494824,
+        "observed_mean": 5.147239748494824
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.2684725512188084,
+        "mean": 0.6536945102437617,
+        "observed_mean": 0.6536945102437617
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.08,
+        "mean": 1.016,
+        "observed_mean": 1.016
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0650093586144539,
+        "mean": 0.013001871722890778,
+        "observed_mean": 0.013001871722890778
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.076146772596985,
+        "mean": 5.615229354519397,
+        "observed_mean": 5.615229354519397
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.089482597000142,
+        "mean": 5.617896519400029,
+        "observed_mean": 5.617896519400029
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1815.0,
+        "mean": 363.0,
+        "observed_mean": 363.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 143.0,
+        "mean": 28.6,
+        "observed_mean": 28.6
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "e9cfaa591e78949c7dee1efc",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 4,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.330865967235911,
+        "mean": 0.6661731934471822,
+        "observed_mean": 0.6661731934471822
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.39758157825414,
+        "mean": 1.079516315650828,
+        "observed_mean": 1.079516315650828
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1.5059674491574104,
+        "mean": 0.3011934898314821,
+        "observed_mean": 0.3011934898314821
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 3.24,
+        "mean": 0.648,
+        "observed_mean": 0.648
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.1536182783036212,
+        "mean": 0.03072365566072424,
+        "observed_mean": 0.03072365566072424
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.299391600303352,
+        "mean": 5.65987832006067,
+        "observed_mean": 5.65987832006067
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 28.312606991999928,
+        "mean": 5.662521398399986,
+        "observed_mean": 5.662521398399986
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1818.0,
+        "mean": 363.6,
+        "observed_mean": 363.6
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 144.0,
+        "mean": 28.8,
+        "observed_mean": 28.8
+      }
+    }
+  },
+  {
+    "method": "LoRA",
+    "split": "ood_partition",
+    "world_id": "ece9cc8f222cd63a286a5ee8",
+    "requested_states": 5,
+    "observed_states": 5,
+    "missing_states": 0,
+    "invalid_fallbacks": 1,
+    "metrics": {
+      "allocation_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.089363275427299,
+        "mean": 1.0178726550854598,
+        "observed_mean": 1.0178726550854598
+      },
+      "forward_kl_epsilon_1e8": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 31.937958552051004,
+        "mean": 6.3875917104102005,
+        "observed_mean": 6.3875917104102005
+      },
+      "plugin_relative_information_deficit": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 2.784742025652063,
+        "mean": 0.5569484051304127,
+        "observed_mean": 0.5569484051304127
+      },
+      "percent_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 5.0600000000000005,
+        "mean": 1.012,
+        "observed_mean": 1.012
+      },
+      "percent_exact": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "teacher_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.10479395422303832,
+        "mean": 0.020958790844607663,
+        "observed_mean": 0.020958790844607663
+      },
+      "student_rounding_l1": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 0.0,
+        "mean": 0.0,
+        "observed_mean": 0.0
+      },
+      "inference_wall_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.885328139644116,
+        "mean": 5.577065627928823,
+        "observed_mean": 5.577065627928823
+      },
+      "inference_cpu_seconds": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 27.89800073100014,
+        "mean": 5.579600146200027,
+        "observed_mean": 5.579600146200027
+      },
+      "prompt_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 1860.0,
+        "mean": 372.0,
+        "observed_mean": 372.0
+      },
+      "output_tokens": {
+        "requested": 5,
+        "observed": 5,
+        "missing_or_undefined": 0,
+        "sum": 142.0,
+        "mean": 28.4,
+        "observed_mean": 28.4
+      }
+    }
+  }
+]

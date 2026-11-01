@@ -1,0 +1,127 @@
+{
+  "snapshot_created_utc": "2026-10-31T14:30:46.606218+00:00",
+  "type": "restricted-model theory and deterministic verification snapshot; not empirical preregistration",
+  "decision": {
+    "restricted_model_theorems": "GO; written proofs and same-family adversarial review pass",
+    "general_unknown_reliability_or_revisit_model": "OPEN; not established",
+    "novelty": "candidate specialized iff; priority not established",
+    "paper_readiness": "REVISE; restricted extension only"
+  },
+  "model_scope": "known fixed r,p,q; finite completed fresh-root block menu; shared unknown format; separate source purchase per fact",
+  "previous_snapshot": {
+    "path": "/home/gaoym/When_Learning_How_to_Ask/research/web_native_theory_20261031",
+    "receipt_sha256": "daa060b05b0c90111d3fb0f06b3fe7e1a21c5fa4f222596e685a1e5f82b04e77",
+    "all_9_bound_outputs_unchanged": true
+  },
+  "original_inputs_unchanged": {
+    "/home/gaoym/When_Learning_How_to_Ask/Theory_Note.md": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+    "/home/gaoym/.codex/attachments/28232cbe-df30-43d6-ad62-aafa0a112808/Theory_Note_Theorem_1_Expected_Time_Proof.md": "7012c715c57cdce6e9ca7e8b143a525e35ff3012be38c0d556bfc308f23a3774"
+  },
+  "checks": {
+    "exact_rational_distribution_sufficiency": 112,
+    "decimal_information_rows": 240,
+    "decimal_digits": 80,
+    "decimal_interval_certification": false,
+    "full_lp_instances": 95,
+    "all_mixed_actions_and_wrong_answer_alternatives_included": true,
+    "numerical_mixed_dominance_comparisons": 108,
+    "max_lp_absolute_min_slack": 2.710054403110007e-13,
+    "gamma_nonmonotonicity": "PASS_EXACT_RATIONAL_INTERVAL_CERTIFICATE",
+    "certified_group_sizes": [
+      1,
+      2
+    ],
+    "certified_costs": [
+      15,
+      25
+    ],
+    "figure_visually_inspected": true
+  },
+  "versions": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "review": {
+    "agents": [
+      "web_theory_audit",
+      "web_theory_adversary",
+      "web_literature"
+    ],
+    "same_family_shared_context": true,
+    "blinded": false,
+    "formal_verification": false,
+    "finite_state_expected_cost": "PASS",
+    "structural_iff_ties_and_cost_limits": "PASS",
+    "focused_literature_substantive_sources": 8,
+    "literature_unresolved_access_leads": 1
+  },
+  "execution_scope": {
+    "model_api_calls": 0,
+    "training_runs": 0,
+    "sampled_benchmark_worlds": 0,
+    "confirmation_runs": 0,
+    "historical_edits": 0,
+    "github_pushes": 0
+  },
+  "reproduction": "README.md",
+  "outputs": {
+    "ADVERSARIAL_AUDIT.md": {
+      "sha256": "4a4af51c52c26bcd3e2bb39c648ed31f0243be92615c8ae506c916d5ef147e0e",
+      "bytes": 19674
+    },
+    "CHECK_RESULTS.json": {
+      "sha256": "7ba046ccd3f2b85a9625a94a23e7c7dd2338436531156027a823246332642267",
+      "bytes": 177012
+    },
+    "FINITE_STATE_PROOF_AUDIT.md": {
+      "sha256": "e999bf0eb8ee2161f7695bfc63a158be456abbac1ea0dc38a4d3015623910821",
+      "bytes": 16375
+    },
+    "FOCUSED_NOVELTY_AUDIT.md": {
+      "sha256": "7ab538b9d2c8b721732123d6131ab8bbc85557d36c43aadd0c96215b2f3adade",
+      "bytes": 21594
+    },
+    "MODEL_AND_SCOPE.md": {
+      "sha256": "ce1c565d8f7247a5bfa65d3742bccda78283d42f1bb842e748c65687b81858da",
+      "bytes": 3910
+    },
+    "README.md": {
+      "sha256": "1708bbf12f9b87d192be47c3343af003e020b9ef8b9f8521dc05c1e0c6769bb1",
+      "bytes": 2983
+    },
+    "RESEARCH_REPORT_CN.md": {
+      "sha256": "90beec147b44caabfbb2c1b3af9b3ec53d2fd5395acb94804d77b133ed04d2fb",
+      "bytes": 9856
+    },
+    "THEORY_RESULTS.md": {
+      "sha256": "c40bfa632e2ebb3399dfa3fe1ee5851fe1623263cd26f3c3c50f21456722c533",
+      "bytes": 18638
+    },
+    "certified_counterexample.json": {
+      "sha256": "5fe9be6735cfefe1a0b8bc89af0b1e2cb3a4f5409da8a4da28cca0e41684c476",
+      "bytes": 2971
+    },
+    "certified_counterexample.py": {
+      "sha256": "77cc1d29d4456bbada1fadfb4873ebc52314cf30e5721f52e2dabe55d6d0d889",
+      "bytes": 3857
+    },
+    "check_cost_sharing.py": {
+      "sha256": "5c4117c0d2348b96d8d1a1ea8ff620e56dd65fe16a35618af8b3b52a8354fa4b",
+      "bytes": 12941
+    },
+    "check_summary.txt": {
+      "sha256": "63a858d94e119bee6b0de41e21c10444b95ade0b4312fcf3ec4e272202fec136",
+      "bytes": 8426
+    },
+    "cost_sharing_examples.pdf": {
+      "sha256": "3896d4f31e3edcd488bb277cac5b5c74bdc3851c1543f7fc52404f61ea50e669",
+      "bytes": 25414
+    },
+    "cost_sharing_examples.png": {
+      "sha256": "cfcb4c6671f2d5c5cf0097fc7294d30ff487e737d09e8d462ec379069daebd59",
+      "bytes": 153416
+    }
+  }
+}
