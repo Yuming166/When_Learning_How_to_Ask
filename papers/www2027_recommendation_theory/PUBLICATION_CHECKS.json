@@ -1,0 +1,16 @@
+{
+  "existing_publication_check": {
+    "passed": true,
+    "exported_source_files": 1334,
+    "python": 691,
+    "json": 329,
+    "text_files_scanned": 1316,
+    "failures": []
+  },
+  "draft_diff_check_exit": 0,
+  "historical_source_manifest_changed": false,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "allowed_public_material": "paper sources, compiled PDF, formula illustration and aggregate checks only",
+  "private_raw_generations_or_credentials_added": false
+}

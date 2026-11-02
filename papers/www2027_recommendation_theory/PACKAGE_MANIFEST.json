@@ -1,0 +1,98 @@
+{
+  "draft_date": "2026-11-03",
+  "manifest_scope": "this paper directory; manifest itself excluded to avoid self-reference",
+  "base_public_commit": "2357f458aca45af8f663673ed2347b5a43cdbebf",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 95,
+      "sha256": "1a335c19af29949bf5ae7c6f2a44e9cdc16dc1ce6c05186e1225a12ab51c7c04"
+    },
+    {
+      "path": "main.tex",
+      "bytes": 20069,
+      "sha256": "f53724c05a12c369515fd7d51a9b9e6ea7826a4c6db6fd9ebaaa1673b81efbec"
+    },
+    {
+      "path": "main.pdf",
+      "bytes": 140674,
+      "sha256": "3055cc407a69d31fa1abb4570d62081bd7cd629ce55ec6c0629759e6d30a760e"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 3083,
+      "sha256": "973b6ad0b669a18b924031a80fac38ef9384ccea4274e7ec897864f387df1bba"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 7115,
+      "sha256": "7086f03f05352bef7fdeaa634292a47967b8c94fec5c3fd0a6659cece4ea0082"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 40,
+      "sha256": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494"
+    },
+    {
+      "path": "README_ZH.md",
+      "bytes": 6460,
+      "sha256": "94c3853916cfb581eb6bdc1449e3112fbab3470ae936510990a78aa28b0ff832"
+    },
+    {
+      "path": "CLAIM_EVIDENCE.md",
+      "bytes": 4684,
+      "sha256": "7caf0af3423dd3d1bde19c3a524448edf6f0f00ba9e914ca2b50964cfd55d038"
+    },
+    {
+      "path": "WRITING_REVIEW_ZH.md",
+      "bytes": 3636,
+      "sha256": "d9af0dbea5954fef84a6c1a2349414422b3030bf72c1f2797d7b6d26af995217"
+    },
+    {
+      "path": "BUILD_RECEIPT.json",
+      "bytes": 2214,
+      "sha256": "beaff1e7339a9b56a96badcabcb0fe71c1e7461cd5c082198158a9304db38db9"
+    },
+    {
+      "path": "PUBLICATION_CHECKS.json",
+      "bytes": 476,
+      "sha256": "5d1de375f358db3be71de126d669e8733fb6d90fc58ac7f486fbac3b198066f8"
+    },
+    {
+      "path": "figures/sharing_boundary.pdf",
+      "bytes": 16522,
+      "sha256": "298112b498898fb9c74b817c0c3f112e927b946ede613c6f3bfb57f5d46f325d"
+    },
+    {
+      "path": "figures/sharing_boundary.png",
+      "bytes": 47896,
+      "sha256": "9d655ae04986b915ae9b6775164535eaa750bd7ff0053f960076d9b5c61db029"
+    },
+    {
+      "path": "evidence/boundary_values.csv",
+      "bytes": 57110,
+      "sha256": "d690755114fff9aa9ae6bb962f8e303d78ccdef24e3bc4e5e9c40a5773da51f6"
+    },
+    {
+      "path": "evidence/numerical_checks.json",
+      "bytes": 2529,
+      "sha256": "b0a847b6243e5753b08ac64e371fb02318d2376240f6e2a276554316e5b7cee1"
+    },
+    {
+      "path": "evidence/interface_diagnostic_summary.json",
+      "bytes": 1856,
+      "sha256": "0f0ea6c749c6dac344cd17afc3d312614478ea49c21886cf51eb8c795c634f5d"
+    },
+    {
+      "path": "evidence/source_snapshot.json",
+      "bytes": 1045,
+      "sha256": "77caab0326c97b57bb6c88cc1ff8370c144194620742b3fbb71950c38ef7a6d3"
+    }
+  ],
+  "root_navigation_file": {
+    "path": "../../README.md",
+    "sha256": "b67c99a99d25f6a3de62685a1827b4afb61b3c2766fb3768639fa0521ac219bf"
+  },
+  "model_generation_replay_available": false,
+  "formula_figure_reproduction_available": true
+}

@@ -1,0 +1,58 @@
+{
+  "status": "COMPILED_AUTHOR_REVIEW_DRAFT_NOT_SUBMITTED",
+  "draft_date": "2026-11-03",
+  "compiler": "Tectonic 0.15.0",
+  "command": "tectonic --keep-logs main.tex",
+  "compiler_exit": 0,
+  "pdf_pages_including_references": 4,
+  "acmart_version": "2022/02/19 v1.83 from Tectonic resource bundle",
+  "current_submission_template_recompile_required": true,
+  "acm_font_sizes_or_page_geometry_overridden": false,
+  "line_breaking_adjustment": "emergencystretch=1em; no font or margin scaling",
+  "layout_errors_overfull_boxes": 0,
+  "missing_reference_or_citation_markers": false,
+  "cited_primary_records": 8,
+  "cross_references_resolved": true,
+  "bibliography_metadata_warnings": 20,
+  "bibliography_warning_scope": "unchecked publisher/address/volume/page metadata omitted; no unresolved citation keys; warnings are not proof of complete metadata",
+  "numerical_consistency_checks": {
+    "oracle_minimizations": 5,
+    "gamma_minimizations": 25,
+    "status": "PASS_NOT_PROOFS"
+  },
+  "historical_theory_source_hashes_verified": true,
+  "raw_model_responses_exported": false,
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "compiler_download": {
+    "source": "https://github.com/tectonic-typesetting/tectonic/releases/tag/tectonic%400.15.0",
+    "asset": "tectonic-0.15.0-x86_64-unknown-linux-musl.tar.gz",
+    "sha256": "dfb82876f2986862996e564fa507a9e576e0c1e3bee63c2c1bd677c2543e6407",
+    "included_in_repository": false
+  },
+  "pdf_sha256": "3055cc407a69d31fa1abb4570d62081bd7cd629ce55ec6c0629759e6d30a760e",
+  "limitations": [
+    "same-session mathematical review only",
+    "not exhaustive novelty verification",
+    "no natural-user recommendation validation",
+    "numerical checks do not establish a theorem",
+    "original diagnostic raw records outside public package"
+  ],
+  "visual_review": {
+    "pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewer": "same-session assistant, not human sign-off",
+    "finding": "No clipping, missing glyphs, or unresolved placeholders observed in rendered final pages"
+  },
+  "draft_status_in_running_header": true
+}

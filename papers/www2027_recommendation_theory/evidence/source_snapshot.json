@@ -1,0 +1,29 @@
+{
+  "base_public_commit": "2357f458aca45af8f663673ed2347b5a43cdbebf",
+  "historical_files_modified": false,
+  "sources": [
+    {
+      "path": "Theory_Note.md",
+      "sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef"
+    },
+    {
+      "path": "research/original_expected_time_proof_20261031/EXPECTED_TIME_PROOF.md",
+      "sha256": "7012c715c57cdce6e9ca7e8b143a525e35ff3012be38c0d556bfc308f23a3774"
+    },
+    {
+      "path": "experiments/phase2b_alignment_20261031/PROOF_ADDENDUM.md",
+      "sha256": "60d6197e4fe6bb35f5a015d42eaf9394b09eb14c8a77a6076647b65b779eb5e6"
+    },
+    {
+      "path": "experiments/phase2c_strong_baseline_20261031/PROOF_AUDIT.md",
+      "sha256": "c486fc8f80f009a92d74a75ead7fed7e70084bde4c3577db240c52425aa794d5"
+    },
+    {
+      "path": "experiments/phase2e_type_evidence_20261031/FINAL_RESEARCH_DECISION.md",
+      "sha256": "023f951836841dbfeff4191b6f64d30c37241b9cf541d0ea3da1e44627fd92fa"
+    }
+  ],
+  "draft_date": "2026-11-03",
+  "new_model_calls": 0,
+  "new_training_runs": 0
+}

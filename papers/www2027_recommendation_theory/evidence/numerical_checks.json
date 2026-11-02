@@ -1,0 +1,89 @@
+{
+  "parameters": {
+    "d": 16,
+    "p": 0.85,
+    "q": 0.6,
+    "eta": 0.05,
+    "equal_size_partitions": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "alpha_range": [
+      0,
+      20
+    ],
+    "alpha_grid_points": 401
+  },
+  "checks": {
+    "kind": "numerical_consistency_checks_not_proofs",
+    "independent_oracle_minimizations": 5,
+    "independent_gamma_minimizations": 25,
+    "max_oracle_minimum_error": 5.329070518200751e-15,
+    "max_gamma_minimum_error": 2.220446049250313e-15,
+    "max_oracle_equation_residual": 2.220446049250313e-15,
+    "zero_calibration_criterion": "PASS",
+    "group_size_monotonicity_on_checked_grid": "PASS"
+  },
+  "grid_crossings": {
+    "1": {
+      "first_grid_alpha_with_gamma_ge_one": null,
+      "interpretation": "grid diagnostic; not a proved monotonic threshold"
+    },
+    "2": {
+      "first_grid_alpha_with_gamma_ge_one": null,
+      "interpretation": "grid diagnostic; not a proved monotonic threshold"
+    },
+    "4": {
+      "first_grid_alpha_with_gamma_ge_one": null,
+      "interpretation": "grid diagnostic; not a proved monotonic threshold"
+    },
+    "8": {
+      "first_grid_alpha_with_gamma_ge_one": 2.0500000000000003,
+      "interpretation": "grid diagnostic; not a proved monotonic threshold"
+    },
+    "16": {
+      "first_grid_alpha_with_gamma_ge_one": 0.0,
+      "interpretation": "grid diagnostic; not a proved monotonic threshold"
+    }
+  },
+  "alpha_zero": {
+    "alpha": 0.0,
+    "a_oracle": 0.907033354492649,
+    "K_oracle": 14.512533671882384,
+    "gamma_k1": 0.24529637045321342,
+    "gamma_k2": 0.49059274090642685,
+    "gamma_k4": 0.7541871342767824,
+    "gamma_k8": 0.910458079394853,
+    "gamma_k16": 1.0000000000000004
+  },
+  "alpha_twenty": {
+    "alpha": 20.0,
+    "a_oracle": 0.8569922775071264,
+    "K_oracle": 13.711876440114022,
+    "gamma_k1": 0.3560903856851695,
+    "gamma_k2": 0.4956982896042806,
+    "gamma_k4": 0.7478889962171008,
+    "gamma_k8": 1.1667998636729873,
+    "gamma_k16": 1.7765652516018446
+  },
+  "equal_average_group_comparison": {
+    "alpha": 4.0,
+    "partition_1": [
+      8,
+      8
+    ],
+    "partition_2": [
+      1,
+      15
+    ],
+    "gamma_8": 1.050690251101321,
+    "gamma_1": 0.31752394452613,
+    "interpretation": "same average group size; zero versus positive leading premium"
+  },
+  "source_script_sha256": "7086f03f05352bef7fdeaa634292a47967b8c94fec5c3fd0a6659cece4ea0082",
+  "new_model_calls": 0,
+  "claim_limit": "equation evaluations, not observations or empirical method comparison"
+}

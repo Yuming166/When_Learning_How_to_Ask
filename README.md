@@ -6,6 +6,7 @@
 
 ## 从这里开始
 
+- **2026-11-03 新增：[WWW 推荐系统理论短文初稿](papers/www2027_recommendation_theory/README_ZH.md)**（[英文 PDF](papers/www2027_recommendation_theory/main.pdf)、[LaTeX](papers/www2027_recommendation_theory/main.tex)）。以可靠偏好获取的额外成本为主线；属于待作者审阅的初稿，不代表真实推荐效果已获验证。
 - [目前已有的理论与 WWW 故事](research/www_short_story_20261101/README_ZH.md)
 - [全部理论及适用假设](research/www_short_story_20261101/THEORY_INVENTORY.md)
 - [贡献与最近邻审计](research/www_short_story_20261101/CONTRIBUTION_AUDIT.md)
