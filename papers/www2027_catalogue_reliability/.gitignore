@@ -1,0 +1,10 @@
+artifacts/
+main.aux
+main.bbl
+main.blg
+main.out
+main.xdv
+main.log
+build-output.txt
+draft-text.txt
+__pycache__/

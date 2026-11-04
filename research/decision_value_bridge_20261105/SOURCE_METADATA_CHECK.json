@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ARXIV:1212.2442",
+    "status": "S2-API-UNAVAILABLE",
+    "reason": "HTTP Error 429: "
+  },
+  {
+    "id": "ARXIV:1902.03475",
+    "status": "S2-API-UNAVAILABLE",
+    "reason": "HTTP Error 429: "
+  },
+  {
+    "id": "DOI:10.1145/1557019.1557053",
+    "status": "S2-API-UNAVAILABLE",
+    "reason": "HTTP Error 429: "
+  },
+  {
+    "id": "ARXIV:2106.04193",
+    "status": "S2-API-UNAVAILABLE",
+    "reason": "HTTP Error 429: "
+  },
+  {
+    "id": "ARXIV:1401.3474",
+    "status": "S2-API-UNAVAILABLE",
+    "reason": "HTTP Error 429: "
+  }
+]

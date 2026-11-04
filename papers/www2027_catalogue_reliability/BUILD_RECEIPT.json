@@ -1,0 +1,76 @@
+{
+  "status": "ANONYMOUS_AUTHOR_REVIEW_DRAFT_NOT_SUBMITTED",
+  "command": [
+    "/home/gaoym/.cache/lha-paper-build/tectonic",
+    "--keep-logs",
+    "--keep-intermediates",
+    "main.tex"
+  ],
+  "compiler_exit": 0,
+  "compiler_version": "tectonic 0.15.0Tectonic 0.15.0",
+  "acmart_version": "2022/02/19 v1.83 (local Tectonic bundle)",
+  "current_submission_template_recompile_required": true,
+  "bibliography_followup": {
+    "performed": true,
+    "initial_rerun_warning": true,
+    "command": [
+      "/home/gaoym/.cache/lha-paper-build/tectonic",
+      "--pass",
+      "tex",
+      "--keep-logs",
+      "--keep-intermediates",
+      "main.tex"
+    ],
+    "stable_aux": true,
+    "stable_bibliography": true
+  },
+  "font_size_or_page_geometry_overridden": false,
+  "checks": {
+    "pages_including_references": 4,
+    "within_four_pages": true,
+    "missing_reference_or_citation_markers": false,
+    "unresolved_aux_labels": false,
+    "overfull_hboxes": 0,
+    "overfull_vboxes": 0,
+    "compiler_rerun_warning": false,
+    "placeholders_in_manuscript": false
+  },
+  "source_and_artifact_sha256": {
+    "main.tex": "cc4532e4d9a865d07fdfcda1cd55157f565e227cd5ac76f267c68559389d55ab",
+    "references.bib": "89a0ac2577ab1b133667813ceea02e9f2525f06d11f1dfe2bb59f480ae39aef6",
+    "results.tex": "daf7aa39c4206a873fbd3b155cc67d1b8991a8cc344fbb6255adc0f1e7a29bd6",
+    "make_results.py": "d0e792bb2196cb5c24ef23f75b50ce07ce9863ffbd6273492d996379bd685253",
+    "RESULTS_SOURCE.json": "e968f39e5800a72d35097fb2f4d1b5383fe76ba898b4e9d9d215f60b9c0d1d16",
+    "main.pdf": "8208592b9478666ddbfd9fda9bb8deebbb40e5ef4363e2e7e60b6e356559eea3",
+    "../../research/catalogue_paper_mainline_20261104/PROOF_COMPANION.md": "f7c8ed1c65d7db77705918605a8099a981516aba315a22c5120eacd178a815bf",
+    "../../research/catalogue_paper_mainline_20261104/STRUCTURE_CHECKS.json": "8d12f4486e4e6e1bb2dbdb6558506375d9d4b8db3437aa2b6be26b5794d0570f",
+    "../../experiments/decision_value_bridge_20261105/FREEZE.json": "cc64992849db88573c1cdcfd88b02793a8d71dede91e4e949694b6990d600444",
+    "../../experiments/decision_value_bridge_20261105/results/analysis.json": "45266b265fefd1e1b12266bf1dc3a2192e59b964c7770912745e190bf19b9791",
+    "../../research/decision_value_bridge_20261105/BRIDGE_PROPOSITIONS.md": "d1afce4791570ca1ec51f90dab2e095e8b70ffd9e8910256f551cf9a1ff25620",
+    "../../research/decision_value_bridge_20261105/EXACT_CERTIFICATES.json": "7b44d5fcc799da7adf85109be7818f2fa00f4dc27c70cc4c867ea9d7fa6fb426",
+    "../../experiments/fashion_evidence_snapshot_20261105/results/RECOMPUTED.json": "424c64d52091da4d83c95130f50152e38e360c412879c8cb629f65f58d93ad47"
+  },
+  "citation_count": 9,
+  "bibliography_metadata_warnings": 14,
+  "new_model_calls": 0,
+  "training_runs": 0,
+  "limits": [
+    "No formal proof-assistant certificate or external peer review",
+    "Finite-policy tests do not certify ideal allocation optimality",
+    "Seven numerical KL failures retained; one-step DV does not beat decision-IG",
+    "Historical Luna field-answer replay is not human or dialogue validity",
+    "Fashion outcome replay is released; full source dataset/profile regeneration is not bundled"
+  ],
+  "visual_review": {
+    "reviewer": "AI assistant, not human sign-off",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "method": "pdftoppm rasterization and visual inspection",
+    "findings": "Readable equations/tables and references; no overlap, clipping or missing glyphs observed",
+    "final_pdf_sha256": "8208592b9478666ddbfd9fda9bb8deebbb40e5ef4363e2e7e60b6e356559eea3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "path": "results/synthetic_raw_replay.tar.gz",
+  "sha256": "1f4baa4b20dc79060306480fa1a2859d8e80abad8927688bb9d38d000082efb9",
+  "bytes": 4537243,
+  "contents": "all engineering and main synthetic raw JSON artifacts; repository-relative paths",
+  "raw_manifest": "RECEIPT.json",
+  "freeze_unchanged": true
+}

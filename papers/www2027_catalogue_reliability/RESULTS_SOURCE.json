@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "experiments/decision_value_bridge_20261105/results/analysis.json": "45266b265fefd1e1b12266bf1dc3a2192e59b964c7770912745e190bf19b9791",
+    "experiments/fashion_evidence_snapshot_20261105/results/RECOMPUTED.json": "424c64d52091da4d83c95130f50152e38e360c412879c8cb629f65f58d93ad47",
+    "experiments/fashion_evidence_snapshot_20261105/SOURCE_MANIFEST.json": "877062191a0f3713a9fd2d414cfa1ae55843cb0c28f798b5802f4de868412e7b",
+    "research/decision_value_bridge_20261105/EXACT_CERTIFICATES.json": "7b44d5fcc799da7adf85109be7818f2fa00f4dc27c70cc4c867ea9d7fa6fb426"
+  },
+  "bridge_attempted": 264,
+  "bridge_certified": 257,
+  "bridge_failed": 7,
+  "bridge_new_model_calls": 0,
+  "historical_fashion_panels": [
+    "small_python",
+    "development_python",
+    "validation_python",
+    "test_python",
+    "luna8",
+    "luna48"
+  ],
+  "uncertainty": "Historical fashion intervals retained; bridge intervals use paired response-tape clusters."
+}

@@ -31,3 +31,18 @@ The public check command validates source integrity, syntax, JSON and selected d
 Some historical Markdown and JSON retain absolute producing paths. Follow the relative root README/method navigation for public entry points; historical local paths identify provenance rather than a public download location. Input receipts are preserved without changing their meaning. Files newly created for publication, dependency-path changes and new technical checks are distinguished from scientific artifacts.
 
 No new project license is invented by this export. Third-party datasets, models, and web pages remain subject to their own terms and are not redistributed as downloaded corpora here.
+
+
+## 2026-11-05 update
+
+This update adds the catalogue reliability paper, its prerequisite source
+closure, the paired DV bridge, the exact myopia certificate, and historical
+fashion outcome snapshots. It is allowlisted onto current remote main; unrelated
+local fashion collection, training and service work is not published.
+The 4.4 MB bridge archive contains constructed synthetic histories, including
+ground truth for independent replay. Policy inputs remain separated in code.
+Fashion exports contain outcomes and original aggregate reports, not raw seller
+records, secret credentials, hidden profile prompts or model event streams.
+The reference fashion policy source is not a standalone data-generation bundle.
+See `publication/WWW_DV_BRIDGE_20261105.json` for this update's exact manifest and
+checks. Earlier release receipts are historical and remain unchanged.

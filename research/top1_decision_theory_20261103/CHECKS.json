@@ -1,0 +1,86 @@
+{
+  "status": "ANALYTIC_RESULTS_WITH_BOUNDED_CHECKS_NOT_SUBMISSION_CERTIFICATION",
+  "date": "2026-11-03",
+  "base_commit": "cc3861b669b9e30e7a08834ed203f77fa4d86984",
+  "branch": "top1_decision_theory_20261103",
+  "historical_sources": [
+    {
+      "path": "Theory_Note.md",
+      "sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+      "unchanged_from_base": true
+    },
+    {
+      "path": "experiments/phase2b_alignment_20261031/PROOF_ADDENDUM.md",
+      "sha256": "60d6197e4fe6bb35f5a015d42eaf9394b09eb14c8a77a6076647b65b779eb5e6",
+      "unchanged_from_base": true
+    },
+    {
+      "path": "papers/www2027_recommendation_theory/main.tex",
+      "sha256": "f53724c05a12c369515fd7d51a9b9e6ea7826a4c6db6fd9ebaaa1673b81efbec",
+      "unchanged_from_base": true
+    },
+    {
+      "path": "papers/www2027_recommendation_theory/main.pdf",
+      "sha256": "3055cc407a69d31fa1abb4570d62081bd7cd629ce55ec6c0629759e6d30a760e",
+      "unchanged_from_base": true
+    }
+  ],
+  "new_experimental_qwen_or_api_calls": 0,
+  "new_training_runs": 0,
+  "new_agent_trajectory_runs": 0,
+  "mathematical_assistant_workers": 3,
+  "review_scope": [
+    "OR and general-decision workers derived from the original problem without peer notes",
+    "threshold worker checked stated candidate formulas in a separate context",
+    "positive-calibration extension supplied a candidate proof sketch; final integration check non-blind",
+    "same-family assistant checks; no external expert or formal proof-assistant certification"
+  ],
+  "final_nonblind_integration_review": {
+    "status": "COMPLETED_WITH_SCOPE_CORRECTIONS",
+    "corrections": [
+      "constant decisions have zero online cost and are excluded from positive-coefficient formulas",
+      "full original recovery requires all coordinates supporting and flip size one",
+      "nonsupporting-coordinate wording covers both winning items",
+      "diagnostic solver rejects constant thresholds and enforces its eta=.01 rate domain"
+    ],
+    "numerical_validation_repeated_after_solver_guard_change": true,
+    "external_or_formal_proof_review": false
+  },
+  "numerical_checks": {
+    "decision_states": 258,
+    "independent_inner_SLSQP": 36,
+    "max_inner_difference": 3.865796571744795e-13,
+    "coefficient_cases": 12,
+    "OR_curve_points": 8,
+    "floating_LP_results_are_formal_certificates": false
+  },
+  "exact_certificates": [
+    "majority3_singleton_cost_ratio_greater_than_1.23",
+    "decision_GLR_possible_history"
+  ],
+  "plot_visual_check": "same-session assistant inspection; no clipping after label revision",
+  "published_manuscript_modified": false,
+  "new_files_pushed_to_GitHub": false,
+  "existing_publication_check": {
+    "passed": true,
+    "exported_source_files": 1334,
+    "python": 694,
+    "json": 332,
+    "text_files_scanned": 1328,
+    "failures": []
+  },
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "limitations": [
+    "restricted two-item catalogue structural theorem",
+    "known partition and symmetric fresh response assumptions",
+    "no direct type-report actions in stated theorems",
+    "no empirical natural-user validation",
+    "literature comparison bounded; priority unverified",
+    "all method baselines need the same decision-level target and stopping opportunity"
+  ]
+}

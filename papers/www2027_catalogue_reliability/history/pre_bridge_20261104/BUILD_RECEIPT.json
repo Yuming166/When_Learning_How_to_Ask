@@ -1,0 +1,71 @@
+{
+  "status": "ANONYMOUS_AUTHOR_REVIEW_DRAFT_NOT_SUBMITTED",
+  "command": [
+    "/home/gaoym/.cache/lha-paper-build/tectonic",
+    "--keep-logs",
+    "--keep-intermediates",
+    "main.tex"
+  ],
+  "compiler_exit": 0,
+  "compiler_version": "tectonic 0.15.0Tectonic 0.15.0",
+  "acmart_version": "2022/02/19 v1.83 (local Tectonic bundle)",
+  "current_submission_template_recompile_required": true,
+  "font_size_or_page_geometry_overridden": false,
+  "checks": {
+    "pages_including_references": 4,
+    "within_four_pages": true,
+    "missing_reference_or_citation_markers": false,
+    "unresolved_aux_labels": false,
+    "overfull_hboxes": 0,
+    "overfull_vboxes": 0,
+    "compiler_rerun_warning": true,
+    "placeholders_in_manuscript": false
+  },
+  "source_and_artifact_sha256": {
+    "main.tex": "801e87d5c1fa6edbb53a6b5e283d47f5762b2823682faf2aae16fc1bfedde1b1",
+    "references.bib": "fb43b9481212dc25d749d1eb5c148a5c96edf81f9af421457acb0e8bb2039d44",
+    "results.tex": "f597adc6da53dce5a71627dd3e8929cd988b61c26e11462edbc3cfbd5e7a2372",
+    "make_results.py": "14de31287ca4cea561d3769d812836fd1a5604fb0e4d88a8be8138c912ef4fea",
+    "RESULTS_SOURCE.json": "8df113544dfe9fd34324eff45a947023cb0b60627425df8220aea54912d7b66c",
+    "main.pdf": "6c6b735f28d8e6c8036ea17c4c1eb05f9f269c4ed4546f8deea42be19b49e4cf",
+    "../../research/catalogue_paper_mainline_20261104/PROOF_COMPANION.md": "f7c8ed1c65d7db77705918605a8099a981516aba315a22c5120eacd178a815bf",
+    "../../research/catalogue_paper_mainline_20261104/STRUCTURE_CHECKS.json": "8d12f4486e4e6e1bb2dbdb6558506375d9d4b8db3437aa2b6be26b5794d0570f",
+    "../../experiments/catalogue_mechanism_20261104/FREEZE.json": "04d3d5a0bea2b95b089d25f2fd120face25194f61cf00d3282e4ab08a33d8db4",
+    "../../experiments/catalogue_mechanism_20261104/results/analysis.json": "7289ee5372180147019fe4d25a6b489626bb6661ebde9045469aeaf1ee576e22"
+  },
+  "citation_count": 11,
+  "bibliography_metadata_warnings": 16,
+  "new_model_calls": 0,
+  "training_runs": 0,
+  "limits": [
+    "No formal proof-assistant certificate or external peer review",
+    "Finite-policy tests do not certify ideal allocation optimality",
+    "Two numerical KL failures retained; no broad IG superiority",
+    "No natural-user or LLM reliability validation"
+  ],
+  "visual_review": {
+    "pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewer": "same-session assistant; not human sign-off",
+    "finding": "Final rendered pages inspected: no clipping, missing glyphs, unresolved markers or overflowing table/equation content observed",
+    "pdf_sha256": "6c6b735f28d8e6c8036ea17c4c1eb05f9f269c4ed4546f8deea42be19b49e4cf"
+  },
+  "verification": {
+    "protocol_unit_tests_passed": 3,
+    "exact_structure_cube_states": 96,
+    "exact_structure_cells": 4,
+    "frozen_sources_match": true,
+    "historical_tracked_files_changed": false,
+    "main_trajectories": 144,
+    "certified": 142,
+    "numerical_allocation_failures_retained": 2,
+    "capped": 0,
+    "wrong_certified": 0,
+    "successful_R_prefix_pairs": 71,
+    "failed_R_prefix_pairs_retained": 1
+  }
+}

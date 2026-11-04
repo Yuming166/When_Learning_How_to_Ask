@@ -1,0 +1,727 @@
+{
+  "stage": "DEVELOPMENT_NOT_CONFIRMATION",
+  "attempted": 40,
+  "worlds": 8,
+  "profile_clusters": 4,
+  "anchor_worlds": 4,
+  "metrics": {
+    "round_robin": {
+      "attempted": 8,
+      "certified": 8,
+      "wrong_certified": 0,
+      "capped": 0,
+      "failed": 0,
+      "mean_capped_cost_failure_as_cap": 542.0,
+      "median_capped_cost_failure_as_cap": 433.0,
+      "mean_observed_policy_seconds": 0.00827639491762966,
+      "observed_wall_seconds": 4.180056047160178,
+      "observed_cpu_seconds": 4.179067626999998,
+      "exact_gate_calls": 136,
+      "uniform_unidentified_fallback_updates": 0,
+      "postprocessing_failures": 0
+    },
+    "joint_dr_rc": {
+      "attempted": 8,
+      "certified": 8,
+      "wrong_certified": 0,
+      "capped": 0,
+      "failed": 0,
+      "mean_capped_cost_failure_as_cap": 341.375,
+      "median_capped_cost_failure_as_cap": 283.5,
+      "mean_observed_policy_seconds": 0.01735039707273245,
+      "observed_wall_seconds": 3.4687879495322704,
+      "observed_cpu_seconds": 3.4676973189999987,
+      "exact_gate_calls": 103,
+      "uniform_unidentified_fallback_updates": 1,
+      "postprocessing_failures": 0
+    },
+    "decision_ig": {
+      "attempted": 8,
+      "certified": 8,
+      "wrong_certified": 0,
+      "capped": 0,
+      "failed": 0,
+      "mean_capped_cost_failure_as_cap": 397.875,
+      "median_capped_cost_failure_as_cap": 330.0,
+      "mean_observed_policy_seconds": 0.2683916566311382,
+      "observed_wall_seconds": 5.900308862328529,
+      "observed_cpu_seconds": 5.898815435,
+      "exact_gate_calls": 108,
+      "uniform_unidentified_fallback_updates": 0,
+      "postprocessing_failures": 0
+    },
+    "profile_kl": {
+      "attempted": 8,
+      "certified": 8,
+      "wrong_certified": 0,
+      "capped": 0,
+      "failed": 0,
+      "mean_capped_cost_failure_as_cap": 353.125,
+      "median_capped_cost_failure_as_cap": 291.0,
+      "mean_observed_policy_seconds": 1.2694602269912139,
+      "observed_wall_seconds": 13.114342838991433,
+      "observed_cpu_seconds": 13.109255912,
+      "exact_gate_calls": 93,
+      "uniform_unidentified_fallback_updates": 1,
+      "postprocessing_failures": 0
+    },
+    "decision_kl": {
+      "attempted": 8,
+      "certified": 8,
+      "wrong_certified": 0,
+      "capped": 0,
+      "failed": 0,
+      "mean_capped_cost_failure_as_cap": 243.0,
+      "median_capped_cost_failure_as_cap": 252.5,
+      "mean_observed_policy_seconds": 1.289685056952294,
+      "observed_wall_seconds": 12.751877809874713,
+      "observed_cpu_seconds": 12.750254951999995,
+      "exact_gate_calls": 77,
+      "uniform_unidentified_fallback_updates": 1,
+      "postprocessing_failures": 0
+    }
+  },
+  "paired_costs": {
+    "round_robin": {
+      "worlds": [
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition0",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 64,
+          "baseline_cost": 422,
+          "baseline_minus_method": 358,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition1",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 327,
+          "baseline_cost": 453,
+          "baseline_minus_method": 126,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition0",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 145,
+          "baseline_cost": 336,
+          "baseline_minus_method": 191,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition1",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 89,
+          "baseline_cost": 263,
+          "baseline_minus_method": 174,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition0",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 253,
+          "baseline_cost": 351,
+          "baseline_minus_method": 98,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition1",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 322,
+          "baseline_cost": 444,
+          "baseline_minus_method": 122,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition0",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 252,
+          "baseline_cost": 988,
+          "baseline_minus_method": 736,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition1",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 492,
+          "baseline_cost": 1079,
+          "baseline_minus_method": 587,
+          "both_certified": true
+        }
+      ],
+      "method_cost_lower": 8,
+      "equal_cost": 0,
+      "method_cost_higher": 0,
+      "both_certified_pairs": 8,
+      "mean_baseline_minus_method_restricted": 299.0
+    },
+    "joint_dr_rc": {
+      "worlds": [
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition0",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 64,
+          "baseline_cost": 221,
+          "baseline_minus_method": 157,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition1",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 327,
+          "baseline_cost": 346,
+          "baseline_minus_method": 19,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition0",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 145,
+          "baseline_cost": 157,
+          "baseline_minus_method": 12,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition1",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 89,
+          "baseline_cost": 188,
+          "baseline_minus_method": 99,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition0",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 253,
+          "baseline_cost": 214,
+          "baseline_minus_method": -39,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition1",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 322,
+          "baseline_cost": 440,
+          "baseline_minus_method": 118,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition0",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 252,
+          "baseline_cost": 528,
+          "baseline_minus_method": 276,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition1",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 492,
+          "baseline_cost": 637,
+          "baseline_minus_method": 145,
+          "both_certified": true
+        }
+      ],
+      "method_cost_lower": 7,
+      "equal_cost": 0,
+      "method_cost_higher": 1,
+      "both_certified_pairs": 8,
+      "mean_baseline_minus_method_restricted": 98.375
+    },
+    "decision_ig": {
+      "worlds": [
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition0",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 64,
+          "baseline_cost": 63,
+          "baseline_minus_method": -1,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition1",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 327,
+          "baseline_cost": 294,
+          "baseline_minus_method": -33,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition0",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 145,
+          "baseline_cost": 136,
+          "baseline_minus_method": -9,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition1",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 89,
+          "baseline_cost": 111,
+          "baseline_minus_method": 22,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition0",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 253,
+          "baseline_cost": 366,
+          "baseline_minus_method": 113,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition1",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 322,
+          "baseline_cost": 480,
+          "baseline_minus_method": 158,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition0",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 252,
+          "baseline_cost": 988,
+          "baseline_minus_method": 736,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition1",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 492,
+          "baseline_cost": 745,
+          "baseline_minus_method": 253,
+          "both_certified": true
+        }
+      ],
+      "method_cost_lower": 5,
+      "equal_cost": 0,
+      "method_cost_higher": 3,
+      "both_certified_pairs": 8,
+      "mean_baseline_minus_method_restricted": 154.875
+    },
+    "profile_kl": {
+      "worlds": [
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition0",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 64,
+          "baseline_cost": 221,
+          "baseline_minus_method": 157,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__anchor_all_positive__partition1",
+          "profile_cluster": "weighted_two__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 327,
+          "baseline_cost": 361,
+          "baseline_minus_method": 34,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition0",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 145,
+          "baseline_cost": 157,
+          "baseline_minus_method": 12,
+          "both_certified": true
+        },
+        {
+          "world_id": "weighted_two__seeded_independent__partition1",
+          "profile_cluster": "weighted_two__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 89,
+          "baseline_cost": 148,
+          "baseline_minus_method": 59,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition0",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 253,
+          "baseline_cost": 209,
+          "baseline_minus_method": -44,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__anchor_all_positive__partition1",
+          "profile_cluster": "asymmetric_three__anchor_all_positive",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 322,
+          "baseline_cost": 520,
+          "baseline_minus_method": 198,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition0",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 252,
+          "baseline_cost": 528,
+          "baseline_minus_method": 276,
+          "both_certified": true
+        },
+        {
+          "world_id": "asymmetric_three__seeded_independent__partition1",
+          "profile_cluster": "asymmetric_three__seeded_independent",
+          "decision_kl_status": "CERTIFIED",
+          "baseline_status": "CERTIFIED",
+          "decision_kl_cost": 492,
+          "baseline_cost": 681,
+          "baseline_minus_method": 189,
+          "both_certified": true
+        }
+      ],
+      "method_cost_lower": 7,
+      "equal_cost": 0,
+      "method_cost_higher": 1,
+      "both_certified_pairs": 8,
+      "mean_baseline_minus_method_restricted": 110.125
+    }
+  },
+  "raw_replay": [
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 366,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 253,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 214,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 209,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 351,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 480,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 322,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 440,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 520,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 444,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 988,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 252,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 528,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 528,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 988,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 745,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 492,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 637,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 681,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 1079,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 63,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 64,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 221,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 221,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 422,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 294,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 327,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 346,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 361,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 453,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 136,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 145,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 157,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 157,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 336,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "decision_ig",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 111,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "decision_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 89,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "joint_dr_rc",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 188,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "profile_kl",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 148,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "round_robin",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 263,
+      "terminal_certificate_rechecked": true
+    }
+  ],
+  "cost_definition": "certified tau; cap for noncertified or failed trajectory; failures separately reported",
+  "uncertainty": "descriptive only; no significance inference from four constructed profile clusters",
+  "risk": "analytic exp(-R) model guarantee, not estimated from zero observed errors"
+}

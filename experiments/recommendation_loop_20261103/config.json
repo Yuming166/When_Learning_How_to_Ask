@@ -1,0 +1,26 @@
+{
+  "stage": "bounded_development_not_confirmation",
+  "base_commit": "7207c63",
+  "R": 3,
+  "eta": "1/100",
+  "generating_p": "4/5",
+  "generating_q": "3/5",
+  "calibration_M": 0,
+  "max_queries": 2000,
+  "workers": 2,
+  "seed_root": 2026110307,
+  "profiles": ["anchor_all_positive", "seeded_independent"],
+  "arms": ["round_robin", "joint_dr_rc", "decision_ig", "profile_kl", "decision_kl"],
+  "quadrature_order": 6,
+  "exact_gate_checkpoint": 50,
+  "gate_screen_margin": 1.0,
+  "update_rule": "t + max(2*d,ceil(sqrt(t+1)))",
+  "forced_rule": "at t=2*d*n*n+s force stream s for 0<=s<2*d",
+  "unidentified_rate_gap": 1e-8,
+  "planner_tolerance": 1e-6,
+  "planner_max_iterations": 150,
+  "catalogues": [
+    {"name":"weighted_two","d":4,"offsets":[0,-7],"slopes":[[0,0,0,0],[5,4,2,1]],"partitions":[[0,0,0,0],[0,0,1,1]]},
+    {"name":"asymmetric_three","d":6,"offsets":[0,0,-1],"slopes":[[0,0,0,0,0,0],[-6,-4,-4,-2,-2,0],[0,-2,-2,-4,-4,-8]],"partitions":[[0,0,0,0,0,0],[0,0,0,1,1,1]]}
+  ]
+}

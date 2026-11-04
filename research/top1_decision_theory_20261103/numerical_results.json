@@ -1,0 +1,988 @@
+{
+  "status": "PASS_BOUNDED_NUMERICAL_CHECKS_NOT_EMPIRICAL_VALIDATION",
+  "decision_states_exhaustively_checked": 258,
+  "independent_SLSQP_inner_checks": 36,
+  "max_inner_value_difference": 3.865796571744795e-13,
+  "coefficient_cases": [
+    {
+      "name": "majority3_shared",
+      "theta": [
+        1,
+        1,
+        1
+      ],
+      "groups": [
+        0,
+        0,
+        1
+      ],
+      "threshold": 2,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208601620708,
+        "min_information_before_repair": 0.9999999937024244,
+        "min_information_after_repair": 0.9999999999999999,
+        "allocation": [
+          2.5938912765032045,
+          2.5943173251175033,
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 15,
+        "cuts": 92,
+        "alternative_patterns": 12,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208656180431,
+        "min_information_before_repair": 0.999999983186324,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          2.5944524038745884,
+          0.0,
+          2.593756252305843,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 21,
+        "cuts": 29,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 2,
+        "flip_size": 2,
+        "rho": 0.6666666666666666,
+        "oracle_cost": 5.188208568947571,
+        "required_largest_active_group": 2,
+        "a": 1.7294028563158572,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "majority3_singletons",
+      "theta": [
+        1,
+        1,
+        1
+      ],
+      "groups": [
+        0,
+        1,
+        2
+      ],
+      "threshold": 2,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": false,
+      "unknown": {
+        "numerical_lower_cost": 7.312912636779666,
+        "numerically_repaired_upper_cost": 7.312912698735177,
+        "min_information_before_repair": 0.9999999915279297,
+        "min_information_after_repair": 1.0000000000000002,
+        "allocation": [
+          2.0978460069516363,
+          2.097846006925174,
+          2.0978460069422242,
+          0.33979155929390004,
+          0.33979155931931426,
+          0.3397915593029286
+        ],
+        "iterations": 13,
+        "cuts": 112,
+        "alternative_patterns": 24,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208656180431,
+        "min_information_before_repair": 0.999999983186324,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          2.5944524038745884,
+          0.0,
+          2.593756252305843,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 21,
+        "cuts": 29,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 2,
+        "flip_size": 2,
+        "rho": 0.6666666666666666,
+        "oracle_cost": 5.188208568947571,
+        "required_largest_active_group": 2,
+        "a": 1.7294028563158572,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "majority5_4plus1",
+      "theta": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "threshold": 3,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 5.188208568947572,
+        "numerically_repaired_upper_cost": 5.188208601620708,
+        "min_information_before_repair": 0.9999999937024243,
+        "min_information_after_repair": 0.9999999999999996,
+        "allocation": [
+          1.2971586625608174,
+          1.2967326139432167,
+          1.2971586625558575,
+          1.2971586625608171,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 24,
+        "cuts": 376,
+        "alternative_patterns": 40,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947572,
+        "numerically_repaired_upper_cost": 5.188208656180433,
+        "min_information_before_repair": 0.9999999831863235,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          0.8646208576731527,
+          0.8646208576729383,
+          0.8646208576729383,
+          0.8645145369584848,
+          1.7298315462029195,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 39,
+        "cuts": 140,
+        "alternative_patterns": 10,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 5,
+        "effective_threshold": 3,
+        "flip_size": 3,
+        "rho": 0.6,
+        "oracle_cost": 5.188208568947572,
+        "required_largest_active_group": 4,
+        "a": 1.0376417137895144,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "majority5_3plus2",
+      "theta": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "threshold": 3,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": false,
+      "unknown": {
+        "numerical_lower_cost": 5.730206418959218,
+        "numerically_repaired_upper_cost": 5.730206419383647,
+        "min_information_before_repair": 0.9999999999259314,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          1.7294028562917223,
+          1.7294028565200672,
+          1.7294028565200665,
+          0.5419978500517909,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 4,
+        "cuts": 144,
+        "alternative_patterns": 40,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947572,
+        "numerically_repaired_upper_cost": 5.188208656180433,
+        "min_information_before_repair": 0.9999999831863235,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          0.8646208576731527,
+          0.8646208576729383,
+          0.8646208576729383,
+          0.8645145369584848,
+          1.7298315462029195,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 39,
+        "cuts": 140,
+        "alternative_patterns": 10,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 5,
+        "effective_threshold": 3,
+        "flip_size": 3,
+        "rho": 0.6,
+        "oracle_cost": 5.188208568947572,
+        "required_largest_active_group": 4,
+        "a": 1.0376417137895144,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "near_boundary_together",
+      "theta": [
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "threshold": 3,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 5.7934324946343025,
+        "numerically_repaired_upper_cost": 5.793432494639717,
+        "min_information_before_repair": 0.9999999999990654,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          1.9311441648808667,
+          1.9311441648779835,
+          1.9311441648808672,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 4,
+        "cuts": 72,
+        "alternative_patterns": 12,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.793432478471049,
+        "numerically_repaired_upper_cost": 5.793432510803166,
+        "min_information_before_repair": 0.9999999944191775,
+        "min_information_after_repair": 0.9999999999999998,
+        "allocation": [
+          1.9311441587976512,
+          1.9311441760027572,
+          1.931144176002758,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 5,
+        "cuts": 20,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 3,
+        "flip_size": 1,
+        "rho": 0.3333333333333333,
+        "oracle_cost": 5.793432494637011,
+        "required_largest_active_group": 3,
+        "a": 1.9311441648790035,
+        "fitted_levels": [
+          0.6,
+          0.6
+        ],
+        "root_residual": 0.0
+      }
+    },
+    {
+      "name": "near_boundary_split",
+      "theta": [
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "threshold": 3,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": false,
+      "unknown": {
+        "numerical_lower_cost": 9.553611536552836,
+        "numerically_repaired_upper_cost": 9.553611726726562,
+        "min_information_before_repair": 0.9999999800940491,
+        "min_information_after_repair": 1.0000000000000002,
+        "allocation": [
+          2.3937465196705277,
+          2.3937465188638853,
+          0.0,
+          1.5184955430649332,
+          1.3063360130445631,
+          0.1165069918856197,
+          0.11650699208957585,
+          0.0,
+          1.7082731481074578,
+          0.0
+        ],
+        "iterations": 15,
+        "cuts": 90,
+        "alternative_patterns": 12,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.793432478471049,
+        "numerically_repaired_upper_cost": 5.793432510803166,
+        "min_information_before_repair": 0.9999999944191775,
+        "min_information_after_repair": 0.9999999999999998,
+        "allocation": [
+          1.9311441587976512,
+          1.9311441760027572,
+          0.0,
+          1.931144176002758,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 5,
+        "cuts": 20,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 3,
+        "flip_size": 1,
+        "rho": 0.3333333333333333,
+        "oracle_cost": 5.793432494637011,
+        "required_largest_active_group": 3,
+        "a": 1.9311441648790035,
+        "fitted_levels": [
+          0.6,
+          0.6
+        ],
+        "root_residual": 0.0
+      }
+    },
+    {
+      "name": "majority_negative_symmetry",
+      "theta": [
+        -1,
+        -1,
+        -1
+      ],
+      "groups": [
+        0,
+        0,
+        1
+      ],
+      "threshold": 2,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208601620708,
+        "min_information_before_repair": 0.9999999937024244,
+        "min_information_after_repair": 0.9999999999999999,
+        "allocation": [
+          2.5938912765032045,
+          2.5943173251175033,
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 15,
+        "cuts": 92,
+        "alternative_patterns": 12,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208656180431,
+        "min_information_before_repair": 0.999999983186324,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          2.5944524038745884,
+          0.0,
+          2.593756252305843,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 21,
+        "cuts": 29,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 2,
+        "flip_size": 2,
+        "rho": 0.6666666666666666,
+        "oracle_cost": 5.188208568947571,
+        "required_largest_active_group": 2,
+        "a": 1.7294028563158572,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "OR_positive",
+      "theta": [
+        1,
+        1,
+        -1
+      ],
+      "groups": [
+        0,
+        1,
+        2
+      ],
+      "threshold": 1,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 5.188208568947572,
+        "numerically_repaired_upper_cost": 5.188208568947572,
+        "min_information_before_repair": 1.0,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          -0.0,
+          5.188208568947572,
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 1,
+        "cuts": 24,
+        "alternative_patterns": 8,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947572,
+        "numerically_repaired_upper_cost": 5.188208568947572,
+        "min_information_before_repair": 1.0,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          5.188208568947572,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 1,
+        "cuts": 3,
+        "alternative_patterns": 1,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 2,
+        "effective_threshold": 1,
+        "flip_size": 2,
+        "rho": 1.0,
+        "oracle_cost": 5.188208568947571,
+        "required_largest_active_group": 1,
+        "a": 2.5941042844737856,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -2.220446049250313e-16
+      }
+    },
+    {
+      "name": "OR_negative",
+      "theta": [
+        -1,
+        -1,
+        -1
+      ],
+      "groups": [
+        0,
+        1,
+        2
+      ],
+      "threshold": 1,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": false,
+      "unknown": {
+        "numerical_lower_cost": 12.523673762296099,
+        "numerically_repaired_upper_cost": 12.523673826609372,
+        "min_information_before_repair": 0.9999999948646642,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          2.5721731525127636,
+          2.5721731524581477,
+          2.5721731525336784,
+          1.602384789690975,
+          1.6023847897426025,
+          1.6023847896712036
+        ],
+        "iterations": 14,
+        "cuts": 132,
+        "alternative_patterns": 24,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.793432478471049,
+        "numerically_repaired_upper_cost": 5.793432510803166,
+        "min_information_before_repair": 0.9999999944191775,
+        "min_information_after_repair": 0.9999999999999998,
+        "allocation": [
+          1.9311441587976512,
+          1.9311441760027572,
+          1.931144176002758,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 5,
+        "cuts": 20,
+        "alternative_patterns": 3,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 3,
+        "effective_threshold": 3,
+        "flip_size": 1,
+        "rho": 0.3333333333333333,
+        "oracle_cost": 5.793432494637011,
+        "required_largest_active_group": 3,
+        "a": 1.9311441648790035,
+        "fitted_levels": [
+          0.6,
+          0.6
+        ],
+        "root_residual": 0.0
+      }
+    },
+    {
+      "name": "AND2_singletons",
+      "theta": [
+        1,
+        1
+      ],
+      "groups": [
+        0,
+        1
+      ],
+      "threshold": 2,
+      "p": 0.8,
+      "q": 0.6,
+      "alpha": 0.0,
+      "predicted_zero_premium": false,
+      "unknown": {
+        "numerical_lower_cost": 9.219648854396938,
+        "numerically_repaired_upper_cost": 9.21964898394304,
+        "min_information_before_repair": 0.9999999859489117,
+        "min_information_after_repair": 0.9999999999999998,
+        "allocation": [
+          3.4950530270842846,
+          3.4950530270936744,
+          1.1147714648870217,
+          1.1147714648780596
+        ],
+        "iterations": 13,
+        "cuts": 52,
+        "alternative_patterns": 8,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 5.188208568947573,
+        "numerically_repaired_upper_cost": 5.188208656180434,
+        "min_information_before_repair": 0.9999999831863235,
+        "min_information_after_repair": 1.0,
+        "allocation": [
+          2.5937562523041584,
+          2.5944524038762755,
+          0.0,
+          0.0
+        ],
+        "iterations": 16,
+        "cuts": 21,
+        "alternative_patterns": 2,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 2,
+        "effective_threshold": 2,
+        "flip_size": 1,
+        "rho": 0.5,
+        "oracle_cost": 5.188208568947571,
+        "required_largest_active_group": 2,
+        "a": 2.5941042844737856,
+        "fitted_levels": [
+          0.5,
+          0.5
+        ],
+        "root_residual": -2.220446049250313e-16,
+        "AND_closed_form": 9.219648911016975
+      }
+    },
+    {
+      "name": "active_group_positive_calibration",
+      "theta": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "threshold": 5,
+      "p": 0.75,
+      "q": 0.5,
+      "alpha": 25.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 9.750978280533673,
+        "numerically_repaired_upper_cost": 9.7509782904811,
+        "min_information_before_repair": 0.9999999989798534,
+        "min_information_after_repair": 0.9999999999488812,
+        "allocation": [
+          1.9501956580962192,
+          1.9501956580962192,
+          1.9501956580962192,
+          1.950195658096219,
+          1.9501956580962232,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 3,
+        "cuts": 80,
+        "alternative_patterns": 20,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 9.750978280533673,
+        "numerically_repaired_upper_cost": 9.7509782904811,
+        "min_information_before_repair": 0.9999999989798534,
+        "min_information_after_repair": 0.9999999999488812,
+        "allocation": [
+          1.9501956580962192,
+          1.9501956580962192,
+          1.9501956580962192,
+          1.950195658096219,
+          1.9501956580962232,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 3,
+        "cuts": 25,
+        "alternative_patterns": 5,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 5,
+        "effective_threshold": 5,
+        "flip_size": 1,
+        "rho": 0.2,
+        "oracle_cost": 9.75097829100584,
+        "required_largest_active_group": 5,
+        "a": 1.9501956582011681,
+        "fitted_levels": [
+          0.7219404207577963,
+          0.5
+        ],
+        "root_residual": -1.9984014443252818e-15
+      }
+    },
+    {
+      "name": "active_group_two_flips_positive_calibration",
+      "theta": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "groups": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "threshold": 8,
+      "p": 0.75,
+      "q": 0.5,
+      "alpha": 100.0,
+      "predicted_zero_premium": true,
+      "unknown": {
+        "numerical_lower_cost": 8.365001917882553,
+        "numerically_repaired_upper_cost": 8.365001917891291,
+        "min_information_before_repair": 0.9999999999989553,
+        "min_information_after_repair": 0.9999999999999705,
+        "allocation": [
+          0.9294446575434768,
+          0.9294446575434768,
+          0.9294446575434769,
+          0.9294446575434767,
+          0.9294446575434768,
+          0.9294446575434769,
+          0.9294446575434766,
+          0.9294446575434767,
+          0.9294446575434773,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 3,
+        "cuts": 576,
+        "alternative_patterns": 144,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "oracle": {
+        "numerical_lower_cost": 8.365001917882553,
+        "numerically_repaired_upper_cost": 8.365001917891291,
+        "min_information_before_repair": 0.9999999999989553,
+        "min_information_after_repair": 0.9999999999999704,
+        "allocation": [
+          0.929444657543477,
+          0.9294446575434766,
+          0.929444657543477,
+          0.9294446575434766,
+          0.929444657543477,
+          0.9294446575434766,
+          0.9294446575434766,
+          0.929444657543477,
+          0.9294446575434768,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 3,
+        "cuts": 180,
+        "alternative_patterns": 36,
+        "status": "FLOAT_DIAGNOSTIC_NOT_CERTIFIED"
+      },
+      "analytic_oracle": {
+        "active": 9,
+        "effective_threshold": 8,
+        "flip_size": 2,
+        "rho": 0.2222222222222222,
+        "oracle_cost": 8.365001917891524,
+        "required_largest_active_group": 9,
+        "a": 0.9294446575435027,
+        "fitted_levels": [
+          0.7414230181230677,
+          0.5
+        ],
+        "root_residual": -2.1094237467877974e-15
+      }
+    }
+  ],
+  "OR_calibration_curve": [
+    {
+      "alpha": 0.0,
+      "decision_cost": 5.188208568947572,
+      "oracle_cost": 5.188208568947571,
+      "premium": 8.881784197001252e-16
+    },
+    {
+      "alpha": 0.1,
+      "decision_cost": 5.164532658582443,
+      "oracle_cost": 5.077761844553187,
+      "premium": 0.08677081402925602
+    },
+    {
+      "alpha": 0.25,
+      "decision_cost": 5.129018792457068,
+      "oracle_cost": 4.91209175796161,
+      "premium": 0.21692703449545814
+    },
+    {
+      "alpha": 0.5,
+      "decision_cost": 5.069828922617599,
+      "oracle_cost": 4.635974946975649,
+      "premium": 0.4338539756419504
+    },
+    {
+      "alpha": 1.0,
+      "decision_cost": 4.95144927436257,
+      "oracle_cost": 4.083741325003727,
+      "premium": 0.8677079493588433
+    },
+    {
+      "alpha": 2.0,
+      "decision_cost": 4.714689921620148,
+      "oracle_cost": 2.9792740810598843,
+      "premium": 1.7354158405602638
+    },
+    {
+      "alpha": 4.0,
+      "decision_cost": 4.2411712938241095,
+      "oracle_cost": 1.8953538541118617,
+      "premium": 2.3458174397122478
+    },
+    {
+      "alpha": 8.0,
+      "decision_cost": 3.473080589647056,
+      "oracle_cost": 1.48832157839917,
+      "premium": 1.9847590112478861
+    }
+  ],
+  "new_model_calls": 0,
+  "new_training_runs": 0,
+  "scripts": {
+    "decision_information.py": "5c142339124c7db87c1d3e16904a3c53ef1f8ff72db3c213e9ec827ff6ea6f6e",
+    "validate_results.py": "a77353873934d479fbf04759142e9d9dfabe0582f60be6fdaa29c2b73b5e63a6"
+  },
+  "limits": [
+    "floating LP bounds are diagnostic, not formal certificates",
+    "oracle input parameters are for complexity evaluation, not a deployed query agent",
+    "no claim of first identification/certificate framework or natural-user validity"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scope": "arbitrary admissible full-sign-support belief; no reachability-from-uniform claim",
+  "myopia": {
+    "prior_success": "77/100",
+    "all_one_step_dv": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "two_step_success": "197153/250000",
+    "two_step_gain": "4653/250000",
+    "branches": [
+      {
+        "reply": -1,
+        "probability": "51/200",
+        "next_action": [
+          0,
+          1
+        ],
+        "success": "52639/63750",
+        "dv_next": "7103/127500"
+      },
+      {
+        "reply": 1,
+        "probability": "149/200",
+        "next_action": [
+          0,
+          0
+        ],
+        "success": "72257/93125",
+        "dv_next": "2203/372500"
+      }
+    ],
+    "minimum_one_step_unnormalized_winner_margin": "1/50",
+    "open_neighborhood_radius": "1/1000",
+    "open_neighborhood_gain_lower_bound": "2903/250000"
+  },
+  "reversal": {
+    "target_dv": "1/20",
+    "auxiliary_dv": "0",
+    "target_joint_ig_nats": 0.1657407274498759,
+    "auxiliary_joint_ig_nats": 0.18587624100056466,
+    "ig_difference_exact": "log(2)-h(3/5)>0"
+  }
+}

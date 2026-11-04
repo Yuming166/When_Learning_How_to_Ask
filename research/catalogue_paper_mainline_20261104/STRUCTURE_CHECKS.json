@@ -1,0 +1,620 @@
+{
+  "arithmetic": "Python int and fractions.Fraction only",
+  "catalogues": {
+    "genuine6": {
+      "all_coordinates_relevant": true,
+      "cube_size": 64,
+      "dimension": 6,
+      "global_cover": {
+        "dual": [
+          "2/13",
+          "2/13",
+          "3/26",
+          "3/26",
+          "1/13",
+          "0",
+          "5/26",
+          "5/26"
+        ],
+        "dual_coordinate_loads": [
+          "5/13",
+          "5/13",
+          "5/13",
+          "5/13",
+          "5/13",
+          "5/13"
+        ],
+        "exact_matching_primal_dual_bounds": true,
+        "primal": [
+          "3/13",
+          "2/13",
+          "2/13",
+          "1/13",
+          "1/13",
+          "4/13"
+        ],
+        "primal_coverages": [
+          "5/13",
+          "5/13",
+          "5/13",
+          "5/13",
+          "5/13",
+          "8/13",
+          "5/13",
+          "5/13"
+        ],
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": "5/13"
+      },
+      "minimal_flip_sets": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "minimal_flip_winners": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "minimum_winner_gap": "1",
+      "reference_winner": 0,
+      "relevance_witnesses": [
+        {
+          "after_winner": 1,
+          "before_flips": [
+            2
+          ],
+          "before_winner": 0,
+          "coordinate": 1
+        },
+        {
+          "after_winner": 1,
+          "before_flips": [
+            1
+          ],
+          "before_winner": 0,
+          "coordinate": 2
+        },
+        {
+          "after_winner": 1,
+          "before_flips": [
+            1
+          ],
+          "before_winner": 0,
+          "coordinate": 3
+        },
+        {
+          "after_winner": 1,
+          "before_flips": [
+            2,
+            3
+          ],
+          "before_winner": 0,
+          "coordinate": 4
+        },
+        {
+          "after_winner": 1,
+          "before_flips": [
+            2,
+            3
+          ],
+          "before_winner": 0,
+          "coordinate": 5
+        },
+        {
+          "after_winner": 2,
+          "before_flips": [
+            2,
+            3
+          ],
+          "before_winner": 0,
+          "coordinate": 6
+        }
+      ],
+      "unique_winners": true,
+      "uniqueness": {
+        "dimension": 6,
+        "dual_positive_edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            5
+          ],
+          [
+            1,
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "exact_active_incidence_rank": 6,
+        "full_support": true,
+        "proof": "Matching primal/dual bounds force every dual-positive edge tight; the exact rank-d tight system has the unique displayed solution.",
+        "unique_cover_weight": [
+          "3/13",
+          "2/13",
+          "2/13",
+          "1/13",
+          "1/13",
+          "4/13"
+        ]
+      },
+      "winner_counts": [
+        20,
+        21,
+        23
+      ]
+    },
+    "weighted5": {
+      "all_coordinates_relevant": true,
+      "cube_size": 32,
+      "dimension": 5,
+      "global_cover": {
+        "dual": [
+          "1/9",
+          "1/9",
+          "2/9",
+          "2/9",
+          "1/3"
+        ],
+        "dual_coordinate_loads": [
+          "5/9",
+          "5/9",
+          "5/9",
+          "5/9",
+          "5/9"
+        ],
+        "exact_matching_primal_dual_bounds": true,
+        "primal": [
+          "1/3",
+          "2/9",
+          "2/9",
+          "1/9",
+          "1/9"
+        ],
+        "primal_coverages": [
+          "5/9",
+          "5/9",
+          "5/9",
+          "5/9",
+          "5/9"
+        ],
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": "5/9"
+      },
+      "minimal_flip_sets": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "minimal_flip_winners": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_winner_gap": "1",
+      "reference_winner": 1,
+      "relevance_witnesses": [
+        {
+          "after_winner": 0,
+          "before_flips": [
+            2
+          ],
+          "before_winner": 1,
+          "coordinate": 1
+        },
+        {
+          "after_winner": 0,
+          "before_flips": [
+            1
+          ],
+          "before_winner": 1,
+          "coordinate": 2
+        },
+        {
+          "after_winner": 0,
+          "before_flips": [
+            1
+          ],
+          "before_winner": 1,
+          "coordinate": 3
+        },
+        {
+          "after_winner": 0,
+          "before_flips": [
+            2,
+            3
+          ],
+          "before_winner": 1,
+          "coordinate": 4
+        },
+        {
+          "after_winner": 0,
+          "before_flips": [
+            2,
+            3
+          ],
+          "before_winner": 1,
+          "coordinate": 5
+        }
+      ],
+      "restricted_covers": {
+        "12": {
+          "dual": [
+            "0",
+            "1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          "dual_coordinate_loads": [
+            "1/2",
+            "1/2",
+            "1",
+            "0",
+            "1/2"
+          ],
+          "exact_matching_primal_dual_bounds": true,
+          "primal": [
+            "1/2",
+            "1/2",
+            "0",
+            "0",
+            "0"
+          ],
+          "primal_coverages": [
+            "1",
+            "1/2",
+            "1/2",
+            "1/2",
+            "1/2"
+          ],
+          "support": [
+            1,
+            2
+          ],
+          "value": "1/2"
+        },
+        "14": {
+          "dual": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          "dual_coordinate_loads": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "exact_matching_primal_dual_bounds": true,
+          "primal": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "primal_coverages": [
+            "1",
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          "support": [
+            1,
+            4
+          ],
+          "value": "0"
+        },
+        "235": {
+          "dual": [
+            "1/3",
+            "1/3",
+            "0",
+            "0",
+            "1/3"
+          ],
+          "dual_coordinate_loads": [
+            "1",
+            "1/3",
+            "1/3",
+            "1/3",
+            "1/3"
+          ],
+          "exact_matching_primal_dual_bounds": true,
+          "primal": [
+            "0",
+            "1/3",
+            "1/3",
+            "0",
+            "1/3"
+          ],
+          "primal_coverages": [
+            "1/3",
+            "1/3",
+            "2/3",
+            "1",
+            "1/3"
+          ],
+          "support": [
+            2,
+            3,
+            5
+          ],
+          "value": "1/3"
+        },
+        "345": {
+          "dual": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "dual_coordinate_loads": [
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "exact_matching_primal_dual_bounds": true,
+          "primal": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "primal_coverages": [
+            "0",
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "support": [
+            3,
+            4,
+            5
+          ],
+          "value": "0"
+        }
+      },
+      "unique_winners": true,
+      "winner_counts": [
+        16,
+        16
+      ]
+    }
+  },
+  "cells": [
+    {
+      "catalogue": "weighted5",
+      "criterion": "saturated: some group restricted cover >= 1/2",
+      "group_sizes": [
+        2,
+        3
+      ],
+      "groups": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "premium": "ZERO",
+      "restricted_covers": [
+        "1/2",
+        "0"
+      ],
+      "structural_criterion_verified": true
+    },
+    {
+      "catalogue": "weighted5",
+      "criterion": "saturated: some group restricted cover >= 1/2",
+      "group_sizes": [
+        2,
+        3
+      ],
+      "groups": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "premium": "POSITIVE",
+      "restricted_covers": [
+        "0",
+        "1/3"
+      ],
+      "structural_criterion_verified": true
+    },
+    {
+      "catalogue": "genuine6",
+      "criterion": "unsaturated unique cover: full positive support contained in one group",
+      "group_sizes": [
+        6
+      ],
+      "groups": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "premium": "ZERO",
+      "structural_criterion_verified": true
+    },
+    {
+      "catalogue": "genuine6",
+      "criterion": "unsaturated unique cover: full positive support contained in one group",
+      "group_sizes": [
+        3,
+        3
+      ],
+      "groups": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "premium": "POSITIVE",
+      "structural_criterion_verified": true
+    }
+  ],
+  "claims": {
+    "all_coordinates_relevant": true,
+    "exact_minimal_flips": true,
+    "four_theorem_conditions": true,
+    "full_cube_unique_winners": true,
+    "genuine6_unique_cover": true,
+    "matching_exact_cover_witnesses": true,
+    "same_size_opposite_premiums": true,
+    "weighted5_restricted_covers": true
+  },
+  "date": "2026-11-04",
+  "genuine6_split_binding_imbalance": {
+    "binding_flip": [
+      1,
+      2
+    ],
+    "flipped_mass": "5/13",
+    "group": [
+      1,
+      2,
+      3
+    ],
+    "group_mass": "7/13",
+    "required_balanced_mass": "35/169"
+  },
+  "historical_witness_source": "research/general_catalogue_theory_20261103/CATALOGUE_EXAMPLES.md",
+  "interpretation": "ZERO/POSITIVE conclusions invoke the audited catalogue premium theorems at alpha=0, for any fixed allowed strict q<p; they are not floating coefficient estimates.",
+  "not_performed": [
+    "optimizer search",
+    "entropy-prefix numerical comparisons",
+    "statistical inference",
+    "response collection",
+    "model/API/network/GPU calls",
+    "finite-cost or efficiency certification"
+  ],
+  "scope": "Four fixed manuscript cells; structural theorem conditions, not empirical method efficacy",
+  "source_sha256": "d6657b65dcc3f4832d6b54299f256eee7beac0c9d5d6f5052d2b80b7b4aa70fe",
+  "status": "PASS"
+}

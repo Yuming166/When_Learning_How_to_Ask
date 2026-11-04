@@ -1,0 +1,40 @@
+Four predeclared cells pair the weighted five-coordinate catalogue under the size-matched partitions above, and a six-coordinate three-item catalogue under one group versus $(123,456)$. For the latter, the unique cover weights and value are
+\[
+ w^*=(3,2,2,1,1,4)/13,\qquad \rho=5/13.
+\]
+Corollary~\ref{cor:unique} predicts zero versus positive premium. Its utilities are
+\[
+\begin{aligned}
+ U_0&=0,\\
+ U_1&=-6\theta_1-4\theta_2-4\theta_3-2\theta_4-2\theta_5,\\
+ U_2&=-1-2\theta_2-2\theta_3-4\theta_4-4\theta_5-8\theta_6.
+\end{aligned}
+\]
+Exact rational checks verify all 96 cube winners, flip families and cover witnesses across the two catalogues.
+
+We fix $p=.8,q=.6$, $\theta=(+1)^d$ and $z_g=0$ for all groups; thus the partition contrast changes sharing information alone. A fixed format can work well on these particular anchors. Six independent response tapes per catalogue are paired across partitions, three allocators and $R=\log(1/\delta)\in\{3,9\}$. Decision-KL, repaired item-information-gain (IG) and round-robin share forced exploration, costs, exact-gate checkpoints and a 2,500-query cap. IG integrates the joint state with order-six quadrature and relative numerical ties. Protocol, seeds and analysis were frozen before main outcomes; no path was replaced or used for tuning.
+
+\begin{table}[t]
+\caption{Mean query cost on six tapes per row ($\downarrow$). Failed paths receive cost 2,500; these restricted costs are not completed stopping times. $\dagger$: one numerical failure among six paths.}
+\label{tab:cost}
+\centering
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrr}
+\toprule
+Catalogue / partition & $R$ & KL & IG & RR\\
+\midrule
+Weighted5 / zero & 3 & 182.3 & 224.7 & 533.3\\
+ & 9 & 227.7 & 295.2 & 581.3\\
+Weighted5 / positive & 3 & 222.0 & 235.0 & 449.7\\
+ & 9 & 258.2 & 267.2 & 534.3\\
+Three-item / zero & 3 & 232.2 & 189.8 & 443.5\\
+ & 9 & 264.0 & 216.7 & 536.2\\
+Three-item / positive & 3 & 694.8$\dagger$ & 308.8 & 513.2\\
+ & 9 & 758.7$\dagger$ & 382.3 & 588.3\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Across 144 paths, 142 certified with no observed wrong recommendation, zero reached the query cap, and two KL paths failed at the same paired seed's 213-query update, once per $R$. All raw answers and 142 terminal certificates replay correctly. The analytic risk bound $e^{-R}$ follows from the model and gate, not the zero observed error count. The two failures remain in Table~\ref{tab:cost}; the current numerical allocator is not robust on every tested path.
+
+Sharing produces a clear finite effect in the three-item example: at $R=9$, splitting the group increases IG cost by 165.7 queries (paired tape-bootstrap 95\% interval $[143.5,187.5]$). The weighted-five example gives $-28.0$ ($[-117.8,35.0]$), and round-robin even reverses the ordering. These observations do not contradict the theorem: it compares optimal unknown-type and known-type coefficients within an instance, not arbitrary policies across partitions at finite confidence. No empirical oracle was run. KL is cheaper on the weighted-five anchors, but IG is stronger on the three-item anchors; there is no overall KL superiority claim. Intervals resample the six tapes within each fixed catalogue, preserving all pairing; they do not measure generalization across users or catalogues.

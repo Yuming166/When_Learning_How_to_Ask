@@ -1,0 +1,3 @@
+# Preserve raw local developmental histories, but do not publish them implicitly.
+artifacts/
+results/test_output.txt

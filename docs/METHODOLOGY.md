@@ -43,3 +43,16 @@ A supported public test target only exercises existing engineering fixtures. It 
 Published code resolves core sibling packages relative to the repository. Six training runtime files have documented import-path repairs. Frozen source copies remain identifiable in stage/vendor directories; their original scientific receipts are not reissued as if the path repair had been part of the original run.
 
 Private seeds, training rows, raw answers/trajectories, weights and downloaded datasets remain outside this release. See [PUBLICATION.md](../PUBLICATION.md) before invoking any freeze/runner/evaluation command. A new seed or fresh run is a new experiment, not a historical replay.
+
+
+## 2026-11-05 推荐系统方法连接
+
+最新的[Decision Value连接实验](../experiments/decision_value_bridge_20261105/INTERPRETATION.md)
+比较相同二元可靠性模型上的DV、Decision-KL、Decision-IG和RR。
+264条完整分母中257条认证、7条KL数值失败；没有发现一步DV优于强基线。
+[方法设计与解析局限](../research/decision_value_bridge_20261105/BRIDGE_PROPOSITIONS.md)
+明确区别联合信念、获取分数和认证门。
+
+[服饰证据快照](../experiments/fashion_evidence_snapshot_20261105/README.md)是不同的
+结构化字段披露适配器：开发集有收益，测试集对DS-IG预算5收益区间跨零。
+两套观测模型不能混成一套理论最优性实验。

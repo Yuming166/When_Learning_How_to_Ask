@@ -1,0 +1,595 @@
+{
+  "ask_all": {
+    "correct": 280,
+    "denominator": 280,
+    "information_units": [
+      6
+    ],
+    "turns": [
+      1
+    ]
+  },
+  "category_budget5": {
+    "Dresses": {
+      "decision_set_ig": {
+        "accuracy": 0.775,
+        "correct": 31,
+        "denominator": 40
+      },
+      "decision_value": {
+        "accuracy": 0.9,
+        "correct": 36,
+        "denominator": 40
+      },
+      "fixed_order": {
+        "accuracy": 0.6,
+        "correct": 24,
+        "denominator": 40
+      },
+      "profile_ig": {
+        "accuracy": 0.6,
+        "correct": 24,
+        "denominator": 40
+      }
+    },
+    "Kurtas": {
+      "decision_set_ig": {
+        "accuracy": 0.8942307692307693,
+        "correct": 186,
+        "denominator": 208
+      },
+      "decision_value": {
+        "accuracy": 0.9615384615384616,
+        "correct": 200,
+        "denominator": 208
+      },
+      "fixed_order": {
+        "accuracy": 0.7548076923076923,
+        "correct": 157,
+        "denominator": 208
+      },
+      "profile_ig": {
+        "accuracy": 0.7067307692307693,
+        "correct": 147,
+        "denominator": 208
+      }
+    },
+    "Kurtis": {
+      "decision_set_ig": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "denominator": 8
+      },
+      "decision_value": {
+        "accuracy": 0.875,
+        "correct": 7,
+        "denominator": 8
+      },
+      "fixed_order": {
+        "accuracy": 0.75,
+        "correct": 6,
+        "denominator": 8
+      },
+      "profile_ig": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "denominator": 8
+      }
+    },
+    "Tops": {
+      "decision_set_ig": {
+        "accuracy": 0.875,
+        "correct": 14,
+        "denominator": 16
+      },
+      "decision_value": {
+        "accuracy": 0.875,
+        "correct": 14,
+        "denominator": 16
+      },
+      "fixed_order": {
+        "accuracy": 0.6875,
+        "correct": 11,
+        "denominator": 16
+      },
+      "profile_ig": {
+        "accuracy": 0.6875,
+        "correct": 11,
+        "denominator": 16
+      }
+    },
+    "Tunics": {
+      "decision_set_ig": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "denominator": 8
+      },
+      "decision_value": {
+        "accuracy": 1.0,
+        "correct": 8,
+        "denominator": 8
+      },
+      "fixed_order": {
+        "accuracy": 0.875,
+        "correct": 7,
+        "denominator": 8
+      },
+      "profile_ig": {
+        "accuracy": 0.875,
+        "correct": 7,
+        "denominator": 8
+      }
+    }
+  },
+  "cohort_budget5": {
+    "A": {
+      "decision_set_ig": {
+        "accuracy": 0.85,
+        "correct": 119,
+        "denominator": 140
+      },
+      "decision_value": {
+        "accuracy": 0.9428571428571428,
+        "correct": 132,
+        "denominator": 140
+      },
+      "fixed_order": {
+        "accuracy": 0.6214285714285714,
+        "correct": 87,
+        "denominator": 140
+      },
+      "profile_ig": {
+        "accuracy": 0.6,
+        "correct": 84,
+        "denominator": 140
+      }
+    },
+    "B": {
+      "decision_set_ig": {
+        "accuracy": 0.9142857142857143,
+        "correct": 128,
+        "denominator": 140
+      },
+      "decision_value": {
+        "accuracy": 0.95,
+        "correct": 133,
+        "denominator": 140
+      },
+      "fixed_order": {
+        "accuracy": 0.8428571428571429,
+        "correct": 118,
+        "denominator": 140
+      },
+      "profile_ig": {
+        "accuracy": 0.8071428571428572,
+        "correct": 113,
+        "denominator": 140
+      }
+    }
+  },
+  "development_products": 338,
+  "execution": {
+    "start_method": "spawn",
+    "workers": 8,
+    "writer": "single parent process; ordered one-write-per-case"
+  },
+  "gate": {
+    "minimum_positive_categories_out_of_6": 4,
+    "minimum_positive_profile_clusters_out_of_48": 24,
+    "passed": false,
+    "positive_independent_cohorts": 2,
+    "positive_pooled_mean": true,
+    "positive_stratified_profile_bootstrap_lower_95": true
+  },
+  "interpretation": "Frozen finite development-catalogue census and deterministic synthetic users; intervals only conditional on the synthetic profile generator.",
+  "model_calls": 0,
+  "overall_curves": {
+    "decision_set_ig": {
+      "0": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 0,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.45714285714285713,
+        "no_buy_correct": 152
+      },
+      "1": {
+        "accuracy": 0.55,
+        "buy_correct": 3,
+        "correct": 154,
+        "denominator": 280,
+        "false_purchases": 1,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.44642857142857145,
+        "no_buy_correct": 151
+      },
+      "2": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 38,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 38,
+        "hard_constraint_violations": 1,
+        "mean_normalized_score_regret": 0.32142857142857145,
+        "no_buy_correct": 114
+      },
+      "3": {
+        "accuracy": 0.5892857142857143,
+        "buy_correct": 52,
+        "correct": 165,
+        "denominator": 280,
+        "false_purchases": 39,
+        "hard_constraint_violations": 1,
+        "mean_normalized_score_regret": 0.2714285714285714,
+        "no_buy_correct": 113
+      },
+      "4": {
+        "accuracy": 0.725,
+        "buy_correct": 85,
+        "correct": 203,
+        "denominator": 280,
+        "false_purchases": 34,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.15357142857142858,
+        "no_buy_correct": 118
+      },
+      "5": {
+        "accuracy": 0.8821428571428571,
+        "buy_correct": 111,
+        "correct": 247,
+        "denominator": 280,
+        "false_purchases": 16,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.060714285714285714,
+        "no_buy_correct": 136
+      },
+      "6": {
+        "accuracy": 1.0,
+        "buy_correct": 128,
+        "correct": 280,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.0,
+        "no_buy_correct": 152
+      }
+    },
+    "decision_value": {
+      "0": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 0,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.45714285714285713,
+        "no_buy_correct": 152
+      },
+      "1": {
+        "accuracy": 0.55,
+        "buy_correct": 3,
+        "correct": 154,
+        "denominator": 280,
+        "false_purchases": 1,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.44642857142857145,
+        "no_buy_correct": 151
+      },
+      "2": {
+        "accuracy": 0.5714285714285714,
+        "buy_correct": 42,
+        "correct": 160,
+        "denominator": 280,
+        "false_purchases": 34,
+        "hard_constraint_violations": 5,
+        "mean_normalized_score_regret": 0.30714285714285716,
+        "no_buy_correct": 118
+      },
+      "3": {
+        "accuracy": 0.7214285714285714,
+        "buy_correct": 66,
+        "correct": 202,
+        "denominator": 280,
+        "false_purchases": 16,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.22142857142857142,
+        "no_buy_correct": 136
+      },
+      "4": {
+        "accuracy": 0.8714285714285714,
+        "buy_correct": 101,
+        "correct": 244,
+        "denominator": 280,
+        "false_purchases": 9,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.09642857142857143,
+        "no_buy_correct": 143
+      },
+      "5": {
+        "accuracy": 0.9464285714285714,
+        "buy_correct": 118,
+        "correct": 265,
+        "denominator": 280,
+        "false_purchases": 5,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.03571428571428571,
+        "no_buy_correct": 147
+      },
+      "6": {
+        "accuracy": 1.0,
+        "buy_correct": 128,
+        "correct": 280,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.0,
+        "no_buy_correct": 152
+      }
+    },
+    "fixed_order": {
+      "0": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 0,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.45714285714285713,
+        "no_buy_correct": 152
+      },
+      "1": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 0,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.45714285714285713,
+        "no_buy_correct": 152
+      },
+      "2": {
+        "accuracy": 0.5357142857142857,
+        "buy_correct": 5,
+        "correct": 150,
+        "denominator": 280,
+        "false_purchases": 7,
+        "hard_constraint_violations": 11,
+        "mean_normalized_score_regret": 0.4392857142857143,
+        "no_buy_correct": 145
+      },
+      "3": {
+        "accuracy": 0.5357142857142857,
+        "buy_correct": 14,
+        "correct": 150,
+        "denominator": 280,
+        "false_purchases": 16,
+        "hard_constraint_violations": 24,
+        "mean_normalized_score_regret": 0.40714285714285714,
+        "no_buy_correct": 136
+      },
+      "4": {
+        "accuracy": 0.6464285714285715,
+        "buy_correct": 75,
+        "correct": 181,
+        "denominator": 280,
+        "false_purchases": 46,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.18928571428571428,
+        "no_buy_correct": 106
+      },
+      "5": {
+        "accuracy": 0.7321428571428571,
+        "buy_correct": 98,
+        "correct": 205,
+        "denominator": 280,
+        "false_purchases": 45,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.10714285714285714,
+        "no_buy_correct": 107
+      },
+      "6": {
+        "accuracy": 1.0,
+        "buy_correct": 128,
+        "correct": 280,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.0,
+        "no_buy_correct": 152
+      }
+    },
+    "profile_ig": {
+      "0": {
+        "accuracy": 0.5428571428571428,
+        "buy_correct": 0,
+        "correct": 152,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.45714285714285713,
+        "no_buy_correct": 152
+      },
+      "1": {
+        "accuracy": 0.55,
+        "buy_correct": 3,
+        "correct": 154,
+        "denominator": 280,
+        "false_purchases": 1,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.44642857142857145,
+        "no_buy_correct": 151
+      },
+      "2": {
+        "accuracy": 0.6,
+        "buy_correct": 27,
+        "correct": 168,
+        "denominator": 280,
+        "false_purchases": 11,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.3607142857142857,
+        "no_buy_correct": 141
+      },
+      "3": {
+        "accuracy": 0.5392857142857143,
+        "buy_correct": 39,
+        "correct": 151,
+        "denominator": 280,
+        "false_purchases": 40,
+        "hard_constraint_violations": 1,
+        "mean_normalized_score_regret": 0.31785714285714284,
+        "no_buy_correct": 112
+      },
+      "4": {
+        "accuracy": 0.6214285714285714,
+        "buy_correct": 58,
+        "correct": 174,
+        "denominator": 280,
+        "false_purchases": 36,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.25,
+        "no_buy_correct": 116
+      },
+      "5": {
+        "accuracy": 0.7035714285714286,
+        "buy_correct": 88,
+        "correct": 197,
+        "denominator": 280,
+        "false_purchases": 43,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.14285714285714285,
+        "no_buy_correct": 109
+      },
+      "6": {
+        "accuracy": 1.0,
+        "buy_correct": 128,
+        "correct": 280,
+        "denominator": 280,
+        "false_purchases": 0,
+        "hard_constraint_violations": 0,
+        "mean_normalized_score_regret": 0.0,
+        "no_buy_correct": 152
+      }
+    }
+  },
+  "primary_baseline": "decision_set_ig",
+  "primary_budget": 5,
+  "primary_method": "decision_value",
+  "primary_paired_difference": {
+    "category_differences": {
+      "Dresses": {
+        "denominator": 40,
+        "difference_correct": 5,
+        "mean_difference": 0.125
+      },
+      "Kurtas": {
+        "denominator": 208,
+        "difference_correct": 14,
+        "mean_difference": 0.0673076923076923
+      },
+      "Kurtis": {
+        "denominator": 8,
+        "difference_correct": -1,
+        "mean_difference": -0.125
+      },
+      "Tops": {
+        "denominator": 16,
+        "difference_correct": 0,
+        "mean_difference": 0.0
+      },
+      "Tunics": {
+        "denominator": 8,
+        "difference_correct": 0,
+        "mean_difference": 0.0
+      }
+    },
+    "cohort_differences": {
+      "A": {
+        "denominator": 140,
+        "difference_correct": 13,
+        "mean_difference": 0.09285714285714286
+      },
+      "B": {
+        "denominator": 140,
+        "difference_correct": 5,
+        "mean_difference": 0.03571428571428571
+      }
+    },
+    "correct_difference": 18,
+    "denominator": 280,
+    "mean_difference": 0.06428571428571428,
+    "positive_categories": 2,
+    "positive_profile_clusters": 10,
+    "profile_cluster_count": 48,
+    "profile_cluster_mean_differences": {
+      "A-P00": 0.0,
+      "A-P01": 0.0,
+      "A-P02": 0.18181818181818182,
+      "A-P03": 0.0,
+      "A-P04": 0.0,
+      "A-P05": 0.0,
+      "A-P06": 0.2,
+      "A-P07": 0.0,
+      "A-P08": 0.13333333333333333,
+      "A-P09": 0.26666666666666666,
+      "A-P10": 0.26666666666666666,
+      "A-P11": 0.0,
+      "A-P12": 0.0,
+      "A-P13": 0.0,
+      "A-P14": 0.0,
+      "A-P15": -1.0,
+      "A-P16": 0.0,
+      "A-P17": 0.5,
+      "A-P18": 0.0,
+      "A-P19": 0.0,
+      "A-P20": 0.0,
+      "A-P21": 0.0,
+      "A-P22": 0.0,
+      "A-P23": 0.0,
+      "B-P00": 0.0,
+      "B-P01": 0.0,
+      "B-P02": 0.0,
+      "B-P03": 0.0,
+      "B-P04": 0.2,
+      "B-P05": 0.4,
+      "B-P06": 0.2,
+      "B-P07": 0.0,
+      "B-P08": 0.0,
+      "B-P09": 0.0,
+      "B-P10": 0.13333333333333333,
+      "B-P11": 0.0,
+      "B-P12": 0.0,
+      "B-P13": 0.0,
+      "B-P14": 0.0,
+      "B-P15": 0.0,
+      "B-P16": 0.0,
+      "B-P17": -0.5,
+      "B-P18": 0.0,
+      "B-P19": 0.0,
+      "B-P20": 0.0,
+      "B-P21": 0.0,
+      "B-P22": 0.0,
+      "B-P23": 0.0
+    },
+    "stratified_profile_bootstrap": {
+      "lower_95": 0.02857142857142857,
+      "repetitions": 10000,
+      "scope": "synthetic-profile-generator conditional; menus are a finite development-catalogue census",
+      "seed": 202611041955,
+      "upper_95": 0.10135135135135136
+    }
+  },
+  "profile_menu_cases": 280,
+  "reference_decision_counts": {
+    "BUY": 128,
+    "NO_BUY": 152
+  },
+  "status": "CATALOGUE_ROBUST_ADVANTAGE_NOT_ESTABLISHED",
+  "trace_rows": 8120,
+  "trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699",
+  "training_runs": 0,
+  "unique_menus": 35,
+  "unique_user_profiles": 48,
+  "validation_or_test_products_used": 0
+}

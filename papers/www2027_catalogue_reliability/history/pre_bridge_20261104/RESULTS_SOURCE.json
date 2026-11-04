@@ -1,0 +1,9 @@
+{
+  "source": "experiments/catalogue_mechanism_20261104/results/analysis.json",
+  "sha256": "7289ee5372180147019fe4d25a6b489626bb6661ebde9045469aeaf1ee576e22",
+  "attempted": 144,
+  "certified": 142,
+  "failed": 2,
+  "wrong_certified": 0,
+  "raw_model_calls": 0
+}

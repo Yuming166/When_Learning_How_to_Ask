@@ -1,0 +1,156 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[WWW '27 -- Draft]{The ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\acmBooktitle{}
+\acmDOI{}
+\acmISBN{}
+\usepackage{amsmath,booktabs}
+\setlength{\emergencystretch}{1em}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\kl}{\operatorname{kl}}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Kor}{K_{\mathrm{or}}}
+\newcommand{\cH}{\mathcal H}
+\newcommand{\cW}{\mathcal W}
+\title[Learning How to Ask in Interactive Recommendation]{When Does Learning How to Ask Cost More in Interactive Recommendation?}
+\author{Anonymous Author(s)}
+\begin{document}
+\begin{abstract}
+A shopping assistant must decide which preferences matter and how reliably a visitor can express them. We study the interaction cost of identifying a best item when question formats have unknown, group-shared reliability. Relative to an oracle knowing only the better formats, we characterize exactly when format uncertainty increases the leading query-cost coefficient. The boundary depends on decision-changing preference sets and reliability sharing jointly; equally sized partitions can have opposite outcomes. We then connect this benchmark to a joint-belief, decision-value acquisition loop with an allocation-independent certificate. The connection exposes a limitation: ordinary one-step value can overlook questions that make later questions useful. An explicit robust example proves this possibility; 264 controlled trajectories show widespread zero immediate value and higher cost than decision information gain. A separate real-catalogue study finds gains for structured attribute disclosures on development profiles, but only a small, inconclusive gain over decision-set information gain on held-out test profiles. Together, the results distinguish the information needed for reliable recommendation from the short-horizon value of a question.
+\end{abstract}
+\begin{CCSXML}
+<ccs2012><concept><concept_id>10002951.10003227.10003351</concept_id><concept_desc>Information systems~Recommender systems</concept_desc><concept_significance>500</concept_significance></concept></ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Information systems~Recommender systems}
+\keywords{Interactive recommendation, preference elicitation, unknown reliability, fixed confidence}
+\maketitle
+
+\section{Introduction}
+A shopping assistant has a short conversation in which to make a useful recommendation. A visitor may find a question about wearing a garment to work easier than a question about its technical attributes. But learning this does not automatically help: the next reliable answer must distinguish products the visitor might actually buy. On a Web marketplace, the catalogue determines which uncertainties matter, while the interaction determines how those uncertainties can be resolved.
+
+Existing work studies usage-related questions~\cite{kostric2021}, Bayesian preference elicitation~\cite{guo2010}, and the complexity of conversational recommendation~\cite{dinoia2022}. Expected value of information has long been used to choose recommendation queries~\cite{boutilier2003active}. A different issue remains when the observation channel itself is unknown: \emph{when does discovering a reliable way to ask add unavoidable interaction cost?} This matters for assistants that must recommend without eliciting and repeatedly verifying a complete profile. We model reliability sharing as a hypothesis to analyze, not an established property of shoppers.
+
+We compare a learner with an information-matched oracle. Both lack the preferences and response accuracies; only the oracle knows the better format in each group. Recovering a whole profile requires resolving every coordinate. Finding one best item requires ruling out only combinations that change the winner. We show that this distinction makes the cost of learning how to ask depend on catalogue geometry and sharing jointly, rather than group sizes alone. The general KL framework is established~\cite{garivier2016,deshmukh2019}; our structural contribution is an exact zero-versus-positive premium criterion and an interpretable unique-allocation corollary.
+
+Our second contribution is an operational connection and its limits. We instantiate decision value with joint preference--reliability inference and a separate recommendation certificate, and compare it with information gain under matched observations. This is an application of established one-step value of information, not a new acquisition principle. An explicit within-model example proves that a question can improve how to ask next while leaving the immediate recommendation unchanged. Paired experiments separately test the resulting policy and reveal widespread zero-value choices. Structured disclosures on real product menus show a different regime, with useful but nonuniform gains. The resulting distinction is consequential for Web assistants: learning to ask reliably and asking for immediate decision value are related objectives, but they are not interchangeable.
+
+\section{Reliable Best-Item Elicitation}
+\paragraph{Decision and observations.}
+A known finite catalogue has utilities $U_i(\theta)=b_i+v_i^\top\theta$, with fixed unknown $\theta\in\{-1,+1\}^d$. Assume a unique best item $f(\theta)$ at every sign vector and a nonconstant decision map. A known partition $S_1,\ldots,S_G$ groups preferences whose more reliable question format $z_g\in\{0,1\}$ is shared. A unit-cost query $(j,m)$ asks about the same preference in format $m$, returning
+\begin{equation}\label{eq:channel}
+ \Pr_h(Y=\theta_j\mid j,m)=
+ \begin{cases}p,&m=z_{g(j)},\\q,&m\ne z_{g(j)},\end{cases}
+ \quad \tfrac12\le q<p\le1-\eta,
+\end{equation}
+for known $\eta>0$. The rates are unknown and common across groups; responses are fresh and conditionally independent. Groups are given, not learned. We include no calibration, direct format reports or whole-profile disclosures. The two formats must preserve the underlying decision and access to evidence. These are modelling assumptions, not empirical properties of conversational users.
+
+\paragraph{A matched information benchmark.}
+A policy is uniformly $\delta$-correct if it terminates and returns $f(\theta)$ with probability at least $1-\delta$ for every allowed $h=(\theta,z,p,q)$. Write $P_h^e$ for the Bernoulli law of action $e=(j,m)$, and let $\operatorname{Alt}(h)$ contain states with a different best item. Define
+\begin{equation}\label{eq:K}
+ K=\min_{x\ge0}\left\{\sum_e x_e:
+ \inf_{h'\in\operatorname{Alt}(h)}\sum_e x_e\kl(P_h^e,P_{h'}^e)\ge1\right\}.
+\end{equation}
+Alternative rates use the closure $1/2\le q'\le p'\le1-\eta$. The oracle coefficient $\Kor$ additionally fixes $z'=z$; its rates remain unknown. These are pointwise coefficients at fixed dimension and fixed true rates.
+\begin{proposition}[Information benchmark]\label{prop:framework}
+Every uniformly $\delta$-correct policy satisfies
+$\liminf_{\delta\to0}\E_h\tau/\log(1/\delta)\ge K$.
+Ideal forced-sample joint estimation and information tracking with vanishing actual approximation errors attain equality; the oracle analog holds for $\Kor$.
+\end{proposition}
+\begin{proof}[Proof sketch]
+Stopped-transcript change of measure gives~\eqref{eq:K}. For attainment, force $\Omega(\sqrt t)$ samples of every action, estimate the joint state from forced data, and track the optimizer set with $o(t)$ discrepancy. Local feasibility repair and uniform likelihood concentration yield a summable tail beyond $(K+\epsilon)\log(1/\delta)$, giving the expected-time upper bound~\cite{deshmukh2019}. Fixed solver tolerances do not meet this ideal contract.
+\end{proof}
+
+Let $\theta^F$ reverse coordinates in $F$. The minimal decision-changing sets
+\begin{equation}\label{eq:H}
+ \cH=\min_{\subseteq}\{F\subseteq[d]:f(\theta^F)\ne f(\theta)\}
+\end{equation}
+are the alternatives relevant to~\eqref{eq:K}. Indeed, every wrong decision contains a minimal such set, and deleting other reversals weakly reduces KL: for $r,x\ge1/2$,
+$\kl(r,1-x)-\kl(r,x)=(2r-1)\log(x/(1-x))\ge0$.
+For $w\in\Delta_d$ put $w(F)=\sum_{j\in F}w_j$ and
+\begin{equation}\label{eq:rho}
+ \begin{split}
+ \rho&=\max_{w\in\Delta_d}\min_{F\in\cH}w(F),\\
+ \psi_p(s)&=H_b\!\left(\max\{\tfrac12,p-(2p-1)s\}\right)-H_b(p).
+ \end{split}
+\end{equation}
+Here $H_b$ is binary entropy in nats. The reciprocal cover value $1/\rho$ is a fractional certificate quantity~\cite{kulkarni2013}; we do not introduce it.
+
+\section{When Is Learning the Format Free?}
+\begin{proposition}[Unknown-rate oracle]\label{prop:oracle}
+The oracle coefficient is $\Kor=1/\psi_p(\rho)$. Every optimal oracle allocation uses only the true better formats.
+\end{proposition}
+\begin{proof}
+Set $\lambda=(2q-1)/(2p-1)<1$. A binary symmetric contraction maps $p$ to $q$ and any candidate $u\ge1/2$ to $v=1/2+\lambda(u-1/2)$, including sign complements. Data processing bounds each worse-format divergence by its better-format counterpart. Aggregate both formats' weights by coordinate, choose a least-covered $F$, and fit $u=\max\{1/2,p-(2p-1)w(F)\}$. Feasibility requires $w(F)>0$, since an unqueried wrong set is indistinguishable at the true rates. The resulting information is at most $\psi_p(w(F))\le\psi_p(\rho)$. Better-only sampling at cover-optimal weights attains the bound. Any positive worse-format mass makes the contraction strict since $u<p$, excluding it at equality.
+\end{proof}
+
+For $A\subseteq[G]$ and $F\in\cH$, define
+$W_A=\sum_{g\in A}w(S_g)$, $T_A=\sum_{g\in A}w(F\cap S_g)$, $t=w(F)$, and
+\begin{align}
+ E_p(w;F,A)&=W_A\psi_p(T_A/W_A)\notag\\
+ &\quad +(1-W_A)\psi_p((t-T_A)/(1-W_A)),\label{eq:cut}\\
+ J_p(w)&=\min_{F\in\cH,\ A\subseteq[G]}E_p(w;F,A),\label{eq:J}
+\end{align}
+with zero-mass blocks contributing zero.
+\begin{theorem}[Catalogue--sharing boundary]\label{thm:main}
+For every allowed $q<p$,
+\begin{equation}\label{eq:criterion}
+ K=\Kor\quad\Longleftrightarrow\quad
+ \exists w\in\Delta_d:\ J_p(w)\ge\psi_p(\rho).
+\end{equation}
+Failure of the criterion implies a strictly positive premium. The equality boundary is independent of $q$.
+\end{theorem}
+\begin{proof}
+For better-only weights, a group pool of mass $W$ and reversed fraction $s$ contributes
+$W[(1-s)\kl(p,u)+s\kl(p,1-u)]$. Minimizing over $u\ge1/2$ gives $W\psi_p(s)$, attained at $\max\{1/2,p-(2p-1)s\}\le p$. A candidate type pattern splits groups into two pools sharing two rates. Fit the pools independently and assign the larger fitted rate to $p'$; both orientations are allowed. Thus~\eqref{eq:J} is exactly their least alternative information. By Proposition~\ref{prop:oracle}, equality requires a better-only oracle optimum. Scaling its weights by $1/\psi_p(\rho)$ is feasible for~\eqref{eq:K} exactly when~\eqref{eq:criterion} holds. Conversely such a witness attains the oracle bound. Closed information constraints and compact bounded-cost allocation sets exclude unattained limiting equality. Only $p$, not $q$, enters this test.
+\end{proof}
+This is convex feasibility: each entropy perspective in~\eqref{eq:cut} is concave in $w$. For fixed $F,w$, sort used groups by $w(F\cap S_g)/w(S_g)$; a minimizing two-pool assignment is a prefix cut, since the rate-assignment cost difference is affine and monotone in this fraction. Hence evaluating $J_p(w)$ uses $O(|\cH|G\log G)$ operations after mass preprocessing. The flip family may be exponential; this is not a polynomial-time catalogue algorithm. Outside equality, an optimal learner may use both formats, and $1/\max_wJ_p(w)$ need not equal $K$.
+
+\begin{corollary}[A unique oracle allocation]\label{cor:unique}
+Suppose $\rho<1/2$, and the cover-optimal coordinate allocation $w^*$ is unique. Then $K=\Kor$ exactly when $\operatorname{supp}(w^*)$ lies in one sharing group.
+\end{corollary}
+\begin{proof}
+Any equality witness lies in $\cW=\{w\in\Delta_d:w(F)\ge\rho\ \forall F\}$. For binding $F$, strict entropy concavity below $1/2$ forces $w(F\cap S_g)=\rho w(S_g)$ for every used group; otherwise isolating that group reduces~\eqref{eq:cut} below $\psi_p(\rho)$. Each normalized group restriction $v_g=w|_{S_g}/w(S_g)$ preserves all binding constraints. Small positive and negative moves along $v_g-w$ preserve the slack constraints and support. Uniqueness therefore forces $v_g=w$, possible only with one used group. Conversely a cover-optimal allocation in one group attains~\eqref{eq:criterion}.
+\end{proof}
+
+\paragraph{Why group sizes do not suffice.}
+Take $U_0=0$, $U_1=3\theta_1+2\theta_2+2\theta_3+\theta_4+\theta_5$ at $\theta=(+1)^5$. All cube winners are unique, and
+$\cH=\{12,13,234,235,145\}$, with $12=\{1,2\}$, etc. Primal weights $(3,2,2,1,1)/9$ and dual set weights $(1,1,2,2,3)/9$ certify $\rho=5/9$, so $\Kor=1/\kl(p,1/2)$. In this saturated regime equality requires some group to support weights covering every $F$ by at least $1/2$: otherwise isolating a group with a smaller reversed fraction strictly lowers its entropy cut. For groups $(12,345)$, uniform weight on $12$ suffices. For $(14,235)$, the restricted cover values are $0$ and $1/3$, so the premium is positive. Both partitions have sizes $(2,3)$.
+
+\section{Decision Value and Reliable Acquisition}
+\paragraph{A common decision objective.}
+Let $\pi_t$ be a joint belief over $h=(\theta,z,p,q)$ and $V(\pi)=\max_i\Pr_\pi(f(\theta)=i)$. A query's \emph{decision value} is its expected reduction in one-step decision error:
+\begin{equation}\label{eq:DV}
+ \operatorname{DV}_{\pi}(e)=\sum_y\Pr_\pi(y\mid e)V(\pi^{e,y})-V(\pi).
+\end{equation}
+This is one-step value of information under 0--1 loss~\cite{boutilier2003active}, not utility-regret reduction. Decision-IG instead maximizes $I_\pi(f(\theta);Y\mid e)$. Our implementation uses the same joint likelihood, uniform sign/type prior, and order-six quadrature approximation to a uniform ordered-rate prior for both scores. It is exact for that finite belief up to floating-point error, not for the continuous posterior. Both retain replies, revise types and share forced exploration. DV ties choose the least-sampled action, then its fixed index. Decision-KL instead tracks a numerical optimizer of~\eqref{eq:K} at a joint maximum-likelihood estimate.
+
+\paragraph{Independent certification.}
+Set $\ell_t(i)=\sup_{h:f(\theta)=i}\log L_t(h)$. For any predictable allocator, we certify its maximizing item $\widehat i_t$ when
+\begin{equation}\label{eq:stop}
+ \ell_t(\widehat i_t)-\max_{i\ne\widehat i_t}\ell_t(i)
+ >\log(1/\delta)+\sum_e\log(N_e(t)+1).
+\end{equation}
+Indeed, each action's saturated Bernoulli likelihood is at most $N_e+1$ times its Beta$(1,1)$ mixture likelihood. A wrong certificate puts the true likelihood in a competing class, so~\eqref{eq:stop} forces the product-mixture likelihood ratio above $1/\delta$. Ville's inequality bounds this event by $\delta$. Exact rational fits and outward log intervals implement the gate; unresolved intervals mean continue or abstain at the cap. This gives safety, not asymptotic efficiency or a stopping-time bound for DV.
+
+\paragraph{Why the connection can fail.}
+DV is nonnegative and equals zero precisely when all positive-probability reply branches share a maximizing recommendation: subtract any prior maximizer inside~\eqref{eq:DV} and each summand is nonnegative. Consequently, learning reliability can have zero immediate value. The general myopia limitation is known~\cite{boutilier2003active}; here it occurs inside the shared-format channel itself. Take $\eta=.05$, $U_\pm=\pm\theta_1$, one group $\{1,2\}$, and independent beliefs
+\[
+ \Pr(\theta_1=+)=.77,\quad \Pr(\theta_2=+)=.99,\quad \Pr(z=0)=.5,
+\]
+with equal mass on $(p,q)=(.9,.6)$ and $(.88,.62)$. All four one-query values are zero. Querying $(2,0)$, then $(1,0)$ after $+$ or $(1,1)$ after $-$, and recommending the latter reply's sign succeeds with probability $.788612$. Its gain $.018612$ remains at least $.011612$ when each of the eight prior/rate scalars changes by less than $.001$: a coupling changes two-query success by at most $.006$ and initial success by $.001$. The smallest unnormalized one-query winner margin is $.02$ and changes by at most $.01$, so every one-query value stays zero. Coordinate 2 is auxiliary; this admissible belief is not claimed reachable from our experimental prior. Exact rational enumeration accompanies the proof.
+
+\paragraph{Structured disclosure adapter.}
+For acceptable-item sets $A(h)$, replace $V$ by $\max_i\Pr_\pi(i\in A(h))$; overlapping acceptance probabilities are not normalized. This is the objective used in our fashion study, where NO\_BUY is a decision and differs from uncertified abstention. Its practical belief replaces disclosed fields in independent synthetic prior draws; this is an imputation approximation, not general Bayesian conditioning. The singleton premium theorem and binary-response certificate do not automatically extend to this adapter~\cite{degenne2019multiple}.
+
+\section{Evaluation Across Reply Models}
+\input{results.tex}
+
+\section{Discussion}
+The theorem concerns fixed preferences, known groups and fresh symmetric iid replies with shared rates. It does not establish these properties for people or language models. The controlled bridge isolates acquisition under this channel; the fashion study evaluates richer, largely deterministic disclosures and multiple acceptable items. Their interaction units and guarantees differ. Neither study measures the asymptotic oracle premium directly. The practical lesson is to specify what a reply reveals before transferring a query policy: decision-directed elicitation can save questions, while reliable-channel learning can require questions with no immediate decision payoff.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+\end{document}

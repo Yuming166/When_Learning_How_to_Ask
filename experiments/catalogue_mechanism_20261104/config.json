@@ -1,0 +1,29 @@
+{
+  "stage": "independent_response_tapes_on_predeclared_theory_anchors",
+  "seed_root": 202611041701,
+  "replicate_indices": [0, 1, 2, 3, 4, 5],
+  "risk_R_values": [3, 9],
+  "eta": "1/100",
+  "generating_p": "4/5",
+  "generating_q": "3/5",
+  "type_rule": "all_group_types_zero",
+  "response_pairing": "same_catalogue_and_seed_share_action_tapes_across_partitions_R_and_arms",
+  "arms": ["decision_kl", "decision_ig", "round_robin"],
+  "quadrature_order": 6,
+  "calibration_M": 0,
+  "max_queries": 2500,
+  "workers": 2,
+  "exact_gate_checkpoint": 50,
+  "gate_screen_margin": 1.0,
+  "unidentified_rate_gap": 1e-8,
+  "planner_tolerance": 1e-6,
+  "planner_max_iterations": 150,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 202611041702,
+  "cells": [
+    {"id":"weighted5_zero","catalogue_name":"weighted5","d":5,"groups":[0,0,1,1,1],"offsets":[0,0],"slopes":[[0,0,0,0,0],[3,2,2,1,1]],"premium":"zero","partition_index":0},
+    {"id":"weighted5_positive","catalogue_name":"weighted5","d":5,"groups":[0,1,1,0,1],"offsets":[0,0],"slopes":[[0,0,0,0,0],[3,2,2,1,1]],"premium":"positive","partition_index":1},
+    {"id":"genuine6_zero","catalogue_name":"genuine6","d":6,"groups":[0,0,0,0,0,0],"offsets":[0,0,-1],"slopes":[[0,0,0,0,0,0],[-6,-4,-4,-2,-2,0],[0,-2,-2,-4,-4,-8]],"premium":"zero","partition_index":0},
+    {"id":"genuine6_positive","catalogue_name":"genuine6","d":6,"groups":[0,0,0,1,1,1],"offsets":[0,0,-1],"slopes":[[0,0,0,0,0,0],[-6,-4,-4,-2,-2,0],[0,-2,-2,-4,-4,-8]],"premium":"positive","partition_index":1}
+  ]
+}

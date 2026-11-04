@@ -1,0 +1,3634 @@
+{
+  "status": "ANALYZED_COMPLETE",
+  "requested_model": "gpt-6-luna",
+  "reported_model_strings": [],
+  "unique_profiles": 48,
+  "unique_menus": 35,
+  "profile_menu_cases": 280,
+  "response_bank_replicates": 1,
+  "planned_calls": 288,
+  "records_present": 288,
+  "attempted_calls": 288,
+  "valid_answers": 287,
+  "exact_profile_field_matches": 287,
+  "field_answer_quality": {
+    "neckline": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 48,
+      "exact": 48
+    },
+    "sleeve_length": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 48,
+      "exact": 48
+    },
+    "fabric": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 48,
+      "exact": 48
+    },
+    "wash_care": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 48,
+      "exact": 48
+    },
+    "pattern": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 47,
+      "exact": 47
+    },
+    "purchase_threshold": {
+      "planned": 48,
+      "attempted": 48,
+      "valid": 48,
+      "exact": 48
+    }
+  },
+  "failed_policy_paths_total": 188,
+  "budget_metrics": {
+    "fixed_order": {
+      "0": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 128,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 128,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 280,
+        "correct": 150,
+        "accuracy": 0.5357142857142857,
+        "hard_violations": 11,
+        "false_purchases": 7,
+        "missed_buy": 123,
+        "failed_paths": 0,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 280,
+        "correct": 150,
+        "accuracy": 0.5357142857142857,
+        "hard_violations": 24,
+        "false_purchases": 16,
+        "missed_buy": 114,
+        "failed_paths": 0,
+        "mean_query_units": 3.0
+      },
+      "4": {
+        "n": 280,
+        "correct": 181,
+        "accuracy": 0.6464285714285715,
+        "hard_violations": 0,
+        "false_purchases": 46,
+        "missed_buy": 53,
+        "failed_paths": 0,
+        "mean_query_units": 4.0
+      },
+      "5": {
+        "n": 280,
+        "correct": 212,
+        "accuracy": 0.7571428571428571,
+        "hard_violations": 0,
+        "false_purchases": 38,
+        "missed_buy": 30,
+        "failed_paths": 15,
+        "mean_query_units": 5.0
+      },
+      "6": {
+        "n": 280,
+        "correct": 274,
+        "accuracy": 0.9785714285714285,
+        "hard_violations": 0,
+        "false_purchases": 6,
+        "missed_buy": 0,
+        "failed_paths": 15,
+        "mean_query_units": 5.946428571428571
+      }
+    },
+    "profile_ig": {
+      "0": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 128,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 280,
+        "correct": 154,
+        "accuracy": 0.55,
+        "hard_violations": 0,
+        "false_purchases": 1,
+        "missed_buy": 125,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 280,
+        "correct": 168,
+        "accuracy": 0.6,
+        "hard_violations": 0,
+        "false_purchases": 10,
+        "missed_buy": 102,
+        "failed_paths": 15,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 280,
+        "correct": 158,
+        "accuracy": 0.5642857142857143,
+        "hard_violations": 1,
+        "false_purchases": 32,
+        "missed_buy": 90,
+        "failed_paths": 15,
+        "mean_query_units": 2.9464285714285716
+      },
+      "4": {
+        "n": 280,
+        "correct": 180,
+        "accuracy": 0.6428571428571429,
+        "hard_violations": 0,
+        "false_purchases": 28,
+        "missed_buy": 72,
+        "failed_paths": 15,
+        "mean_query_units": 3.892857142857143
+      },
+      "5": {
+        "n": 280,
+        "correct": 208,
+        "accuracy": 0.7428571428571429,
+        "hard_violations": 0,
+        "false_purchases": 30,
+        "missed_buy": 42,
+        "failed_paths": 15,
+        "mean_query_units": 4.839285714285714
+      },
+      "6": {
+        "n": 280,
+        "correct": 278,
+        "accuracy": 0.9928571428571429,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 15,
+        "mean_query_units": 5.785714285714286
+      }
+    },
+    "decision_set_ig": {
+      "0": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 128,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 280,
+        "correct": 154,
+        "accuracy": 0.55,
+        "hard_violations": 0,
+        "false_purchases": 1,
+        "missed_buy": 125,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 1,
+        "false_purchases": 38,
+        "missed_buy": 90,
+        "failed_paths": 1,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 280,
+        "correct": 167,
+        "accuracy": 0.5964285714285714,
+        "hard_violations": 1,
+        "false_purchases": 37,
+        "missed_buy": 76,
+        "failed_paths": 9,
+        "mean_query_units": 2.9964285714285714
+      },
+      "4": {
+        "n": 280,
+        "correct": 205,
+        "accuracy": 0.7321428571428571,
+        "hard_violations": 0,
+        "false_purchases": 31,
+        "missed_buy": 44,
+        "failed_paths": 12,
+        "mean_query_units": 3.9642857142857144
+      },
+      "5": {
+        "n": 280,
+        "correct": 246,
+        "accuracy": 0.8785714285714286,
+        "hard_violations": 0,
+        "false_purchases": 16,
+        "missed_buy": 18,
+        "failed_paths": 13,
+        "mean_query_units": 4.921428571428572
+      },
+      "6": {
+        "n": 280,
+        "correct": 273,
+        "accuracy": 0.975,
+        "hard_violations": 0,
+        "false_purchases": 5,
+        "missed_buy": 2,
+        "failed_paths": 15,
+        "mean_query_units": 5.875
+      }
+    },
+    "decision_value": {
+      "0": {
+        "n": 280,
+        "correct": 152,
+        "accuracy": 0.5428571428571428,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 128,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 280,
+        "correct": 154,
+        "accuracy": 0.55,
+        "hard_violations": 0,
+        "false_purchases": 1,
+        "missed_buy": 125,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 280,
+        "correct": 160,
+        "accuracy": 0.5714285714285714,
+        "hard_violations": 5,
+        "false_purchases": 34,
+        "missed_buy": 86,
+        "failed_paths": 1,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 280,
+        "correct": 202,
+        "accuracy": 0.7214285714285714,
+        "hard_violations": 0,
+        "false_purchases": 16,
+        "missed_buy": 62,
+        "failed_paths": 1,
+        "mean_query_units": 2.9964285714285714
+      },
+      "4": {
+        "n": 280,
+        "correct": 244,
+        "accuracy": 0.8714285714285714,
+        "hard_violations": 0,
+        "false_purchases": 9,
+        "missed_buy": 27,
+        "failed_paths": 8,
+        "mean_query_units": 3.992857142857143
+      },
+      "5": {
+        "n": 280,
+        "correct": 265,
+        "accuracy": 0.9464285714285714,
+        "hard_violations": 0,
+        "false_purchases": 5,
+        "missed_buy": 10,
+        "failed_paths": 8,
+        "mean_query_units": 4.964285714285714
+      },
+      "6": {
+        "n": 280,
+        "correct": 278,
+        "accuracy": 0.9928571428571429,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 15,
+        "mean_query_units": 5.935714285714286
+      }
+    }
+  },
+  "decision_value_pairwise": {
+    "0": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.007142857142857143,
+          0.02142857142857143
+        ],
+        "case_wins": 3,
+        "case_ties": 276,
+        "case_losses": 1,
+        "profile_clusters_win": 3,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 1,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 1.0,
+          "A-P14": 1.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 1.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "difference": 0.03571428571428571,
+        "cluster_bootstrap_95_ci": [
+          -0.075,
+          0.15
+        ],
+        "case_wins": 48,
+        "case_ties": 194,
+        "case_losses": 38,
+        "profile_clusters_win": 15,
+        "profile_clusters_tie": 22,
+        "profile_clusters_loss": 11,
+        "profile_cluster_mean_differences": {
+          "A-P00": -0.2727272727272727,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.6,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": -0.7333333333333333,
+          "A-P09": 0.13333333333333333,
+          "A-P10": -0.26666666666666666,
+          "A-P11": -0.26666666666666666,
+          "A-P12": 1.0,
+          "A-P13": 1.0,
+          "A-P14": 1.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": -0.5,
+          "A-P18": 0.5,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 1.0,
+          "B-P00": 0.5454545454545454,
+          "B-P01": -0.18181818181818182,
+          "B-P02": -0.18181818181818182,
+          "B-P03": 0.8181818181818182,
+          "B-P04": 0.4,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.4,
+          "B-P08": -0.06666666666666667,
+          "B-P09": 0.06666666666666667,
+          "B-P10": 0.6,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.5,
+          "B-P20": 0.0,
+          "B-P21": -1.0,
+          "B-P22": -1.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": -0.02857142857142857,
+        "cluster_bootstrap_95_ci": [
+          -0.11071428571428571,
+          0.05357142857142857
+        ],
+        "case_wins": 20,
+        "case_ties": 232,
+        "case_losses": 28,
+        "profile_clusters_win": 5,
+        "profile_clusters_tie": 35,
+        "profile_clusters_loss": 8,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.6,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": -0.7333333333333333,
+          "A-P09": 0.13333333333333333,
+          "A-P10": -0.26666666666666666,
+          "A-P11": -0.26666666666666666,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.4,
+          "B-P08": -0.06666666666666667,
+          "B-P09": 0.06666666666666667,
+          "B-P10": 0.5333333333333333,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": -1.0,
+          "B-P15": -1.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": -1.0,
+          "B-P22": -1.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.02857142857142857,
+        "cluster_bootstrap_95_ci": [
+          -0.0035714285714285713,
+          0.060714285714285714
+        ],
+        "case_wins": 13,
+        "case_ties": 262,
+        "case_losses": 5,
+        "profile_clusters_win": 7,
+        "profile_clusters_tie": 37,
+        "profile_clusters_loss": 4,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.09090909090909091,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.4,
+          "A-P06": 0.0,
+          "A-P07": 0.8,
+          "A-P08": 0.0,
+          "A-P09": 0.13333333333333333,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.09090909090909091,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": -0.2,
+          "B-P06": 0.0,
+          "B-P07": 0.2,
+          "B-P08": 0.0,
+          "B-P09": -0.06666666666666667,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": -1.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 1.0,
+          "B-P21": 0.0,
+          "B-P22": -1.0,
+          "B-P23": 0.0
+        }
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "difference": 0.18571428571428572,
+        "cluster_bootstrap_95_ci": [
+          0.1,
+          0.2714285714285714
+        ],
+        "case_wins": 73,
+        "case_ties": 186,
+        "case_losses": 21,
+        "profile_clusters_win": 23,
+        "profile_clusters_tie": 19,
+        "profile_clusters_loss": 6,
+        "profile_cluster_mean_differences": {
+          "A-P00": -0.18181818181818182,
+          "A-P01": 0.0,
+          "A-P02": 0.09090909090909091,
+          "A-P03": 0.0,
+          "A-P04": 0.6,
+          "A-P05": 0.2,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.06666666666666667,
+          "A-P09": 0.3333333333333333,
+          "A-P10": -0.06666666666666667,
+          "A-P11": 0.0,
+          "A-P12": -1.0,
+          "A-P13": 1.0,
+          "A-P14": 1.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.5,
+          "A-P19": 0.0,
+          "A-P20": 1.0,
+          "A-P21": 0.0,
+          "A-P22": 1.0,
+          "A-P23": 1.0,
+          "B-P00": 0.45454545454545453,
+          "B-P01": 0.45454545454545453,
+          "B-P02": -0.09090909090909091,
+          "B-P03": 0.9090909090909091,
+          "B-P04": 0.4,
+          "B-P05": 0.2,
+          "B-P06": 0.2,
+          "B-P07": 0.4,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.5333333333333333,
+          "B-P11": 0.3333333333333333,
+          "B-P12": 0.0,
+          "B-P13": -1.0,
+          "B-P14": 1.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.5,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.15714285714285714,
+        "cluster_bootstrap_95_ci": [
+          0.09285714285714286,
+          0.22142857142857142
+        ],
+        "case_wins": 57,
+        "case_ties": 210,
+        "case_losses": 13,
+        "profile_clusters_win": 19,
+        "profile_clusters_tie": 25,
+        "profile_clusters_loss": 4,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.18181818181818182,
+          "A-P01": 0.0,
+          "A-P02": -0.18181818181818182,
+          "A-P03": 0.09090909090909091,
+          "A-P04": 0.6,
+          "A-P05": 0.2,
+          "A-P06": 0.0,
+          "A-P07": 0.6,
+          "A-P08": 0.4,
+          "A-P09": 0.3333333333333333,
+          "A-P10": 0.0,
+          "A-P11": 0.26666666666666666,
+          "A-P12": -1.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.5,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.09090909090909091,
+          "B-P01": 0.5454545454545454,
+          "B-P02": 0.0,
+          "B-P03": 0.18181818181818182,
+          "B-P04": 0.0,
+          "B-P05": 0.2,
+          "B-P06": 0.4,
+          "B-P07": 0.6,
+          "B-P08": 0.06666666666666667,
+          "B-P09": -0.06666666666666667,
+          "B-P10": -0.06666666666666667,
+          "B-P11": 0.3333333333333333,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 1.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.08571428571428572,
+          0.16428571428571428
+        ],
+        "case_wins": 44,
+        "case_ties": 227,
+        "case_losses": 9,
+        "profile_clusters_win": 19,
+        "profile_clusters_tie": 26,
+        "profile_clusters_loss": 3,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.09090909090909091,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.09090909090909091,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.6,
+          "A-P08": 0.3333333333333333,
+          "A-P09": 0.3333333333333333,
+          "A-P10": 0.26666666666666666,
+          "A-P11": 0.13333333333333333,
+          "A-P12": -1.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 0.5,
+          "A-P18": 0.0,
+          "A-P19": 0.5,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.09090909090909091,
+          "B-P01": 0.18181818181818182,
+          "B-P02": 0.0,
+          "B-P03": 0.18181818181818182,
+          "B-P04": 0.0,
+          "B-P05": -0.2,
+          "B-P06": 0.2,
+          "B-P07": 0.4,
+          "B-P08": 0.0,
+          "B-P09": 0.06666666666666667,
+          "B-P10": 0.0,
+          "B-P11": 0.2,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.5,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 1.0
+        }
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "difference": 0.225,
+        "cluster_bootstrap_95_ci": [
+          0.15,
+          0.30714285714285716
+        ],
+        "case_wins": 74,
+        "case_ties": 195,
+        "case_losses": 11,
+        "profile_clusters_win": 24,
+        "profile_clusters_tie": 22,
+        "profile_clusters_loss": 2,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.09090909090909091,
+          "A-P01": 0.0,
+          "A-P02": 0.45454545454545453,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.4,
+          "A-P06": 0.2,
+          "A-P07": 0.6,
+          "A-P08": 0.2,
+          "A-P09": 0.5333333333333333,
+          "A-P10": 0.26666666666666666,
+          "A-P11": 0.3333333333333333,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.5,
+          "A-P18": 0.5,
+          "A-P19": 0.5,
+          "A-P20": 0.0,
+          "A-P21": 1.0,
+          "A-P22": 1.0,
+          "A-P23": 0.0,
+          "B-P00": 0.09090909090909091,
+          "B-P01": 0.09090909090909091,
+          "B-P02": 0.8181818181818182,
+          "B-P03": 0.18181818181818182,
+          "B-P04": 0.2,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.06666666666666667,
+          "B-P09": 0.06666666666666667,
+          "B-P10": 0.13333333333333333,
+          "B-P11": 0.6,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.5,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": -1.0,
+          "B-P22": -1.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.22857142857142856,
+        "cluster_bootstrap_95_ci": [
+          0.1392857142857143,
+          0.32142857142857145
+        ],
+        "case_wins": 79,
+        "case_ties": 186,
+        "case_losses": 15,
+        "profile_clusters_win": 26,
+        "profile_clusters_tie": 16,
+        "profile_clusters_loss": 6,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.2727272727272727,
+          "A-P01": 0.0,
+          "A-P02": 0.18181818181818182,
+          "A-P03": 0.09090909090909091,
+          "A-P04": 0.4,
+          "A-P05": 0.2,
+          "A-P06": 0.2,
+          "A-P07": 0.6,
+          "A-P08": 0.4666666666666667,
+          "A-P09": 0.8,
+          "A-P10": 0.0,
+          "A-P11": 0.2,
+          "A-P12": -1.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.5,
+          "A-P18": 0.5,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 1.0,
+          "A-P22": 1.0,
+          "A-P23": 0.0,
+          "B-P00": 0.2727272727272727,
+          "B-P01": 0.5454545454545454,
+          "B-P02": 0.0,
+          "B-P03": 0.18181818181818182,
+          "B-P04": -0.2,
+          "B-P05": -0.4,
+          "B-P06": 0.6,
+          "B-P07": 0.2,
+          "B-P08": 0.06666666666666667,
+          "B-P09": 0.2,
+          "B-P10": 0.06666666666666667,
+          "B-P11": 0.6,
+          "B-P12": 0.0,
+          "B-P13": 1.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": -0.5,
+          "B-P18": 0.5,
+          "B-P19": 0.5,
+          "B-P20": 0.0,
+          "B-P21": -1.0,
+          "B-P22": -1.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.1392857142857143,
+        "cluster_bootstrap_95_ci": [
+          0.07857142857142857,
+          0.2
+        ],
+        "case_wins": 48,
+        "case_ties": 223,
+        "case_losses": 9,
+        "profile_clusters_win": 19,
+        "profile_clusters_tie": 25,
+        "profile_clusters_loss": 4,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.2727272727272727,
+          "A-P03": 0.09090909090909091,
+          "A-P04": 0.2,
+          "A-P05": 0.2,
+          "A-P06": 0.2,
+          "A-P07": 0.8,
+          "A-P08": 0.3333333333333333,
+          "A-P09": 0.6,
+          "A-P10": 0.26666666666666666,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.5,
+          "A-P19": 0.5,
+          "A-P20": 0.0,
+          "A-P21": 1.0,
+          "A-P22": 1.0,
+          "A-P23": 0.0,
+          "B-P00": -0.09090909090909091,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.4,
+          "B-P05": 0.0,
+          "B-P06": 0.2,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.26666666666666666,
+          "B-P12": 0.0,
+          "B-P13": 1.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": -0.5,
+          "B-P18": 0.5,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": -1.0,
+          "B-P22": 0.0,
+          "B-P23": 1.0
+        }
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "difference": 0.18928571428571428,
+        "cluster_bootstrap_95_ci": [
+          0.1357142857142857,
+          0.24642857142857144
+        ],
+        "case_wins": 62,
+        "case_ties": 209,
+        "case_losses": 9,
+        "profile_clusters_win": 19,
+        "profile_clusters_tie": 26,
+        "profile_clusters_loss": 3,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.09090909090909091,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.4,
+          "A-P05": 0.0,
+          "A-P06": 0.4,
+          "A-P07": 0.2,
+          "A-P08": 0.6666666666666666,
+          "A-P09": 0.4666666666666667,
+          "A-P10": 0.26666666666666666,
+          "A-P11": 0.3333333333333333,
+          "A-P12": 0.0,
+          "A-P13": 1.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 1.0,
+          "A-P18": 0.0,
+          "A-P19": 1.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 1.0,
+          "A-P23": 0.0,
+          "B-P00": -0.09090909090909091,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.18181818181818182,
+          "B-P04": 0.4,
+          "B-P05": 0.0,
+          "B-P06": 0.8,
+          "B-P07": 0.2,
+          "B-P08": 0.13333333333333333,
+          "B-P09": -0.06666666666666667,
+          "B-P10": 0.13333333333333333,
+          "B-P11": 0.3333333333333333,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": -0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.20357142857142857,
+        "cluster_bootstrap_95_ci": [
+          0.12857142857142856,
+          0.28214285714285714
+        ],
+        "case_wins": 65,
+        "case_ties": 207,
+        "case_losses": 8,
+        "profile_clusters_win": 19,
+        "profile_clusters_tie": 26,
+        "profile_clusters_loss": 3,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.5454545454545454,
+          "A-P03": 0.0,
+          "A-P04": 0.4,
+          "A-P05": 0.0,
+          "A-P06": 0.4,
+          "A-P07": 0.2,
+          "A-P08": 0.6666666666666666,
+          "A-P09": 0.4666666666666667,
+          "A-P10": 0.0,
+          "A-P11": 0.3333333333333333,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 1.0,
+          "A-P18": 0.0,
+          "A-P19": 1.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 1.0,
+          "A-P23": 0.0,
+          "B-P00": 0.2727272727272727,
+          "B-P01": 0.09090909090909091,
+          "B-P02": 0.0,
+          "B-P03": 0.18181818181818182,
+          "B-P04": 0.4,
+          "B-P05": 0.0,
+          "B-P06": 0.8,
+          "B-P07": 0.2,
+          "B-P08": 0.13333333333333333,
+          "B-P09": -0.06666666666666667,
+          "B-P10": 0.13333333333333333,
+          "B-P11": 0.3333333333333333,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": -0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.06785714285714285,
+        "cluster_bootstrap_95_ci": [
+          0.03214285714285714,
+          0.10357142857142858
+        ],
+        "case_wins": 25,
+        "case_ties": 249,
+        "case_losses": 6,
+        "profile_clusters_win": 10,
+        "profile_clusters_tie": 36,
+        "profile_clusters_loss": 2,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.18181818181818182,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.2,
+          "A-P07": 0.0,
+          "A-P08": 0.13333333333333333,
+          "A-P09": 0.26666666666666666,
+          "A-P10": 0.3333333333333333,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": -1.0,
+          "A-P16": 0.0,
+          "A-P17": 0.5,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.2,
+          "B-P05": 0.4,
+          "B-P06": 0.2,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.13333333333333333,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": -0.5,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "difference": 0.014285714285714285,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.04285714285714286
+        ],
+        "case_wins": 6,
+        "case_ties": 272,
+        "case_losses": 2,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 47,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.26666666666666666,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.0,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.017857142857142856,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.05357142857142857
+        ],
+        "case_wins": 5,
+        "case_ties": 275,
+        "case_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 47,
+        "profile_clusters_loss": 0,
+        "profile_cluster_mean_differences": {
+          "A-P00": 0.0,
+          "A-P01": 0.0,
+          "A-P02": 0.0,
+          "A-P03": 0.0,
+          "A-P04": 0.0,
+          "A-P05": 0.0,
+          "A-P06": 0.0,
+          "A-P07": 0.0,
+          "A-P08": 0.0,
+          "A-P09": 0.0,
+          "A-P10": 0.3333333333333333,
+          "A-P11": 0.0,
+          "A-P12": 0.0,
+          "A-P13": 0.0,
+          "A-P14": 0.0,
+          "A-P15": 0.0,
+          "A-P16": 0.0,
+          "A-P17": 0.0,
+          "A-P18": 0.0,
+          "A-P19": 0.0,
+          "A-P20": 0.0,
+          "A-P21": 0.0,
+          "A-P22": 0.0,
+          "A-P23": 0.0,
+          "B-P00": 0.0,
+          "B-P01": 0.0,
+          "B-P02": 0.0,
+          "B-P03": 0.0,
+          "B-P04": 0.0,
+          "B-P05": 0.0,
+          "B-P06": 0.0,
+          "B-P07": 0.0,
+          "B-P08": 0.0,
+          "B-P09": 0.0,
+          "B-P10": 0.0,
+          "B-P11": 0.0,
+          "B-P12": 0.0,
+          "B-P13": 0.0,
+          "B-P14": 0.0,
+          "B-P15": 0.0,
+          "B-P16": 0.0,
+          "B-P17": 0.0,
+          "B-P18": 0.0,
+          "B-P19": 0.0,
+          "B-P20": 0.0,
+          "B-P21": 0.0,
+          "B-P22": 0.0,
+          "B-P23": 0.0
+        }
+      }
+    }
+  },
+  "deterministic_reference_agreement": {
+    "fixed_order": {
+      "0": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "1": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "2": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "3": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "4": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "5": {
+        "n": 280,
+        "exact_decision_matches": 273
+      },
+      "6": {
+        "n": 280,
+        "exact_decision_matches": 274
+      }
+    },
+    "profile_ig": {
+      "0": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "1": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "2": {
+        "n": 280,
+        "exact_decision_matches": 278
+      },
+      "3": {
+        "n": 280,
+        "exact_decision_matches": 271
+      },
+      "4": {
+        "n": 280,
+        "exact_decision_matches": 270
+      },
+      "5": {
+        "n": 280,
+        "exact_decision_matches": 265
+      },
+      "6": {
+        "n": 280,
+        "exact_decision_matches": 278
+      }
+    },
+    "decision_set_ig": {
+      "0": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "1": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "2": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "3": {
+        "n": 280,
+        "exact_decision_matches": 278
+      },
+      "4": {
+        "n": 280,
+        "exact_decision_matches": 276
+      },
+      "5": {
+        "n": 280,
+        "exact_decision_matches": 277
+      },
+      "6": {
+        "n": 280,
+        "exact_decision_matches": 273
+      }
+    },
+    "decision_value": {
+      "0": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "1": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "2": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "3": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "4": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "5": {
+        "n": 280,
+        "exact_decision_matches": 280
+      },
+      "6": {
+        "n": 280,
+        "exact_decision_matches": 278
+      }
+    }
+  },
+  "primary_budget": 5,
+  "confidence_interval_note": "Point estimates are over all 280 profile-menu cases. Bootstrap resamples unique profile clusters within 12 pool-by-cohort strata and carries each selected profile's full menu case vector; n=48 profiles.",
+  "smoke_receipt": {
+    "status": "PHASE_COMPLETED",
+    "phase": "smoke",
+    "started_utc": "2026-11-04T17:08:36.777368+00:00",
+    "finished_utc": "2026-11-04T17:08:58.623463+00:00",
+    "planned_total": 288,
+    "planned_phase_new": 6,
+    "attempted_phase": 6,
+    "valid_phase": 6,
+    "transport_failures": 0,
+    "model_mismatch": false,
+    "concurrency": 8,
+    "requested_model": "gpt-6-luna",
+    "reported_model_strings": [],
+    "abort_reason": null,
+    "records_present": 6,
+    "attempts_total": 6,
+    "retries": 0,
+    "summaries": [
+      {
+        "job_id": "A-P00__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P00__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P00__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P00__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P00__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P00__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      }
+    ]
+  },
+  "run_receipt": {
+    "status": "PHASE_COMPLETED",
+    "phase": "full",
+    "started_utc": "2026-11-04T17:09:22.348353+00:00",
+    "finished_utc": "2026-11-04T17:24:22.905776+00:00",
+    "planned_total": 288,
+    "planned_phase_new": 282,
+    "attempted_phase": 282,
+    "valid_phase": 281,
+    "transport_failures": 0,
+    "model_mismatch": false,
+    "concurrency": 8,
+    "requested_model": "gpt-6-luna",
+    "reported_model_strings": [],
+    "abort_reason": null,
+    "records_present": 288,
+    "attempts_total": 288,
+    "retries": 0,
+    "summaries": [
+      {
+        "job_id": "A-P01__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P01__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P01__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P01__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P01__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P01__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P02__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P03__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P04__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P05__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P06__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P07__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P08__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P10__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P09__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P10__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P10__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P10__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P10__r1__pattern",
+        "attempted": true,
+        "valid": false,
+        "error": "ValueError"
+      },
+      {
+        "job_id": "A-P10__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P11__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P12__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P13__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P14__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P15__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P16__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P17__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P18__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P19__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P20__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P21__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P22__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "A-P23__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P00__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P01__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P02__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P03__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P04__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P05__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P06__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P07__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P08__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P09__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P10__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P11__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P12__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P13__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P14__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P15__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P16__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P17__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P18__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P19__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P20__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P21__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P22__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "B-P23__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      }
+    ]
+  },
+  "claim_limit": "48 synthetic development profiles, 35 development menus already used in deterministic method development; structured Luna field answers, not human evidence or independent confirmation.",
+  "postrun_analysis": {
+    "runner": "parallel_replay_analysis.py",
+    "workers": 8,
+    "execution": "offline deterministic replay of frozen responses; zero model calls",
+    "posthoc_script_sha256": "803a7f082015961c240ed22552d8d743a259604e8ca68c87ead1ee702692264d"
+  },
+  "budget5_pool_level_decision_value_vs_decision_set_ig": [
+    {
+      "pool_index": 0,
+      "category": "Kurtas",
+      "n": 88,
+      "decision_value_correct": 87,
+      "decision_set_ig_correct": 85,
+      "difference_pp": 2.2727272727
+    },
+    {
+      "pool_index": 1,
+      "category": "Dresses",
+      "n": 40,
+      "decision_value_correct": 36,
+      "decision_set_ig_correct": 31,
+      "difference_pp": 12.5
+    },
+    {
+      "pool_index": 2,
+      "category": "Kurtas",
+      "n": 120,
+      "decision_value_correct": 113,
+      "decision_set_ig_correct": 100,
+      "difference_pp": 10.8333333333
+    },
+    {
+      "pool_index": 3,
+      "category": "Kurtis",
+      "n": 8,
+      "decision_value_correct": 7,
+      "decision_set_ig_correct": 8,
+      "difference_pp": -12.5
+    },
+    {
+      "pool_index": 4,
+      "category": "Tops",
+      "n": 16,
+      "decision_value_correct": 14,
+      "decision_set_ig_correct": 14,
+      "difference_pp": 0.0
+    },
+    {
+      "pool_index": 5,
+      "category": "Tunics",
+      "n": 8,
+      "decision_value_correct": 8,
+      "decision_set_ig_correct": 8,
+      "difference_pp": 0.0
+    }
+  ],
+  "robustness_descriptive_note": "At budget 5, profile-cluster wins/ties/losses versus Decision-Set IG are 10/36/2; pool-level signs across six gender/catalogue pools are 3 positive, 2 tied, 1 negative. Exploratory development panel only; not robust superiority or independent confirmation."
+}

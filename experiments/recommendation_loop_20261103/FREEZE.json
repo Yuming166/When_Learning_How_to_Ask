@@ -1,0 +1,43 @@
+{
+  "stage": "DEVELOPMENT_FROZEN_NOT_CONFIRMATION",
+  "base_commit": "7207c63",
+  "created_utc": "2026-11-03T11:02:44.717623+00:00",
+  "source_sha256": {
+    "DESIGN_AUDIT.md": "a506f59348b6aad2bcb8b8c04cea4c1774092a075989e3e42fc265d718a95157",
+    "GATE_NOTE.md": "a4e29489c6dcea0125b4fd5653e58e221733c61730c433d7623396bb73769b32",
+    "IG_NOTE.md": "6375a0332da7e7b977e2623e56ca057eeb0d1589fb60cf199cbea2a522d59c3f",
+    "PROTOCOL.md": "1ad81643740a9c4b3e9b23e4534cbadcf96c3bfeab8e6985a58e34bd3a9a855e",
+    "analyze.py": "2f5a01a0f7344275ae1c1517afe0b25b932f6f37bb6b12df6be4cee4cbbb6719",
+    "certification.py": "ab07a30dc9ed4026f4b2b91dbae1c40500bbbd335b2d63583e9f0558529902c3",
+    "config.json": "9b0a91aa3172c38d4f76aa06e0e3432b1d340ff34e3af3984e83cb01aea89aab",
+    "decision_ig.py": "a7610fdaa6a99ab72c97a4d35d88ce2c152963d45bd0c138f9a0615989e35962",
+    "likelihood.py": "0183038a5f5e42bc24f9b702a85405b9a02755c05f79edcc923a58730fd6ed0e",
+    "policies.py": "dea74651706a578fb915209d7c9f38c1f3b13c4f7f17f0c02fcc4ee19cf4ddaa",
+    "run_loop.py": "7854a033453370335a4ebeb69d528bda650cfbc2fe9dc68426685520ea9d860e",
+    "test_decision_ig.py": "1fe665e56701ca9eed8d12c01333997ecebe0f910d30722dc22ce2fd0c01f28f",
+    "test_likelihood_gate.py": "0153fb717f03386c78fcfb6f691cc283507c1ed3ed6bbafd753f962ca9c6c312",
+    "test_loop.py": "16a0edd0f431f1970eb03373362df16a7bcec50a29e8b0add2bad5a380c9d95e"
+  },
+  "dependency_sha256": {
+    "research/general_catalogue_theory_20261103/general_geometry.py": "c7b6bb0e32ee484938cf4dacf178ba611f8281f6190afb1b12e37b11ac1b7d7a",
+    "research/top1_decision_theory_20261103/decision_information.py": "5c142339124c7db87c1d3e16904a3c53ef1f8ff72db3c213e9ec827ff6ea6f6e",
+    "experiments/phase2d_method_improvement_20261031/phase2d/certified.py": "162fe61943bdebf2b297cdca914a734e9b0befcf66939c800a00a9a35820130c"
+  },
+  "worlds_sha256": "3622fe64163fffb745fb799f4cae1487fe8e1c8b69002f8f942ca2052aed6945",
+  "worlds": 8,
+  "profile_clusters": 4,
+  "planned_trajectories": 40,
+  "max_queries_each": 2000,
+  "tests_passed": 36,
+  "smoke_attempts_retained": [
+    "artifacts/smoke",
+    "artifacts/smoke_after_audit"
+  ],
+  "smoke_status": "10 trajectories each, 24 steps, no failures; caps expected and not efficacy data",
+  "claims": [
+    "observable controlled loop only",
+    "certified stopping separate from planning optimality"
+  ],
+  "no_model_calls": true,
+  "no_training": true
+}

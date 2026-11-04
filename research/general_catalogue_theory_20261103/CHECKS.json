@@ -1,0 +1,195 @@
+{
+  "status": "ANALYTIC_THEORY_WITH_BOUNDED_VERIFICATION_NOT_EXTERNAL_CERTIFICATION",
+  "date": "2026-11-03",
+  "parent_commit": "7016687",
+  "branch": "general_catalogue_theory_20261103",
+  "model_scope": {
+    "alpha": 0,
+    "oracle_knows": "format types only",
+    "known_partition": true,
+    "response_independence": "fresh conditional",
+    "p_q": "unknown common symmetric",
+    "direct_type_actions": false
+  },
+  "historical_sources": [
+    {
+      "path": "Theory_Note.md",
+      "sha256": "66d89b9131fcb29f10a5007166f80a85e9f9de47b463acda9e28f01e062038ef",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "experiments/phase2b_alignment_20261031/PROOF_ADDENDUM.md",
+      "sha256": "60d6197e4fe6bb35f5a015d42eaf9394b09eb14c8a77a6076647b65b779eb5e6",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "papers/www2027_recommendation_theory/main.tex",
+      "sha256": "f53724c05a12c369515fd7d51a9b9e6ea7826a4c6db6fd9ebaaa1673b81efbec",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "papers/www2027_recommendation_theory/main.pdf",
+      "sha256": "3055cc407a69d31fa1abb4570d62081bd7cd629ce55ec6c0629759e6d30a760e",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/CHECKS.json",
+      "sha256": "de906e0b181dcbef0a869d4cb5adf19b369a10f95a6d7991735184d86237eb9d",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/INDEPENDENT_DERIVATION.md",
+      "sha256": "28c8b0bf74ea191e29d6663e05ac7e7acf1c6668c98c70536d84393b120b8074",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/LITERATURE_AND_NOVELTY.md",
+      "sha256": "91d09399e20395288fb532c25f2b3ccaff0a492612d813e269acd76d40b12cb7",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/OR_DERIVATION.md",
+      "sha256": "8b40069404bb07b69bd283daa74b33f94958719e9eba10f31f8350f2848fc848",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/PLAN.md",
+      "sha256": "a0d15eca9a186aabaafc8d10e62d17602cf01de7712ce7bbb0216e7964df4916",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/README_ZH.md",
+      "sha256": "057e7df127fd6b2112faa7fcd9970a01614f0fee7a21b8d7ae1587ad8c861492",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/THEORY_RESULTS.md",
+      "sha256": "8c4e15564fe8c511c76e8ae78f84816f09d6d881f2e462565100385602271441",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/THRESHOLD_AUDIT.md",
+      "sha256": "ebb9e6ef7fe6639713dca668eb018b79a815a4d152aa0579ad2d8c62e5e89687",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/decision_boundary.pdf",
+      "sha256": "66c1ed9531f7f960c483e6b7afee6cd95e4e26f5981a544fabfa09bb5a84be38",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/decision_boundary.png",
+      "sha256": "da7f111259c43053c948893b68b43c11dd8062109ec9c25fee6cebc9b0798622",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/decision_information.py",
+      "sha256": "5c142339124c7db87c1d3e16904a3c53ef1f8ff72db3c213e9ec827ff6ea6f6e",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/exact_certificates.json",
+      "sha256": "098b4c0efec0d403e69ca73e721985145fe6fdc7ee4789452f675c822256dffd",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/initial_numerical_checks.json",
+      "sha256": "fa952503ceae6aa2eb37745893a20f64058e04034b48d751c0b968f105c65fb4",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/numerical_results.json",
+      "sha256": "b65cf71e85bb50a602316f60fe6843f7e927482cbfbd80d453b568e2ed69080d",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/plot_results.py",
+      "sha256": "f41603bcd9e5c269dcb10eddffc54d1cc907fc96834e2ecbe0fa22e579b73b28",
+      "unchanged_from_parent": true
+    },
+    {
+      "path": "research/top1_decision_theory_20261103/validate_results.py",
+      "sha256": "a77353873934d479fbf04759142e9d9dfabe0582f60be6fdaa29c2b73b5e63a6",
+      "unchanged_from_parent": true
+    }
+  ],
+  "all_preexisting_tracked_paths_unchanged": true,
+  "new_model_or_api_calls": 0,
+  "new_training_runs": 0,
+  "new_online_agent_runs": 0,
+  "mathematical_workers": 3,
+  "review_provenance": [
+    "general unsaturated worker and adversarial geometry worker derived reductions without peer notes",
+    "catalogue worker constructed and checked genuine affine examples without peer notes",
+    "parent proposed oracle-face corollary and k-column extension; these received candidate-informed checks",
+    "final canonical integration review by two same-family workers was nonblind",
+    "integration review corrected complexity preprocessing, empty-edge scope and unproved minimality wording",
+    "no external expert review, cross-family verification or proof-assistant certification"
+  ],
+  "bounded_checks": {
+    "different_catalogue_states": 112,
+    "parent_catalogue_states": 80,
+    "independent_catalogue_script_states": 112,
+    "note": "state counts overlap and must not be added",
+    "entropy_vs_original_KL_and_sorted_cut_fixtures": 120,
+    "independent_SLSQP_inner_checks": 24,
+    "max_inner_difference": 2.0153323454508154e-13,
+    "separate_standard_library_prefix_cut_fixtures": 300,
+    "full_continuous_cases_in_saved_results": 6,
+    "floating_optimizer_outputs_are_formal_certificates": false,
+    "exact_rational_phase_signs": 5,
+    "exact_root_bracket": [
+      "73489/100000",
+      "7349/10000"
+    ],
+    "three_item_cover_and_rank": "rational primal/dual witnesses, active rank six",
+    "three_item_proper_group_subset_obstructions": 62,
+    "all_worker_verification_scripts_passed": true
+  },
+  "development_failures_and_fixes": [
+    "fine-grid phase receipt first exceeded Python integer string digit limit; replaced raw fraction serialization with exact outward-rounded compact rational enclosures; full validation rerun passed",
+    "initial plot had overlapping x-axis annotation; annotation moved and final figure visually inspected"
+  ],
+  "validation_status": "PASS_BOUNDED_STRUCTURAL_CHECKS_NOT_POLICY_OR_EMPIRICAL_VALIDATION",
+  "historical_publication_check": {
+    "passed": true,
+    "exported_source_files": 1334,
+    "python": 699,
+    "json": 335,
+    "text_files_scanned": 1343,
+    "failures": []
+  },
+  "artifact_sha256_except_this_receipt": {
+    "ADVERSARIAL_GEOMETRY.md": "cdf4188324ab847efbfece919b62fad7f4f4f44d90a7d69f8236c6e44edf8182",
+    "CATALOGUE_EXAMPLES.md": "a23ba714e62af4c183fad537225d36f1affdd90b1911dba5a029b7714a8671ee",
+    "GENERAL_THEOREM.md": "2177909547019acb357c79ccef631517537a5f55f8d6223e4d6fdaf27d638332",
+    "LITERATURE_BOUNDARY.md": "1dc8ba152bc091d65913878202daafe4757ead99db4744eb6384e6fe6383c228",
+    "PLAN.md": "a692a61538b055273993ae53f0223cfc8860f4ad0d6f193491083096e2be2c92",
+    "README_ZH.md": "faaebe285a14b9cf54dd6491c1ba7f0fcae43ff050f795473f4ebaf87b177df4",
+    "UNSATURATED_DERIVATION.md": "b542d760d0618b8c7bcf3061374df1f5b1bc85487edaf89258e847618f4659d1",
+    "catalogue_examples_search.py": "f80068445e0cf7d155f7f3b522ff1cfb6d30d2aa8f6d3a293cc6a733c08a3132",
+    "exact_certificates.json": "e813cbd084318b43ad9ad37370122e16bcf8ac8bf55d94aff611a814591cbd09",
+    "general_catalogue_boundary.pdf": "e789693e2cd2b624cdb815803d78591bd3d16ea3649d6e5c432f44db3e01e84b",
+    "general_catalogue_boundary.png": "a6580ec04b6a2b60aecaaadcb3f9a6dfe4e54d6faa3b4af51054f1905a6c8793",
+    "general_geometry.py": "c7b6bb0e32ee484938cf4dacf178ba611f8281f6190afb1b12e37b11ac1b7d7a",
+    "geometry_counterexample.py": "0218dfce3c12f78b9013f8bc39d07a75b62d4736aaab2a98cb69a7ade24db3cf",
+    "plot_general.py": "d92423e273cbff782fe10032d4f678dd878c47d3621210bfec15325130749dcc",
+    "results.json": "0b255f9957ffff8983922592e18e89e5fe58251e44829614764aa2a88ddd065f",
+    "validate_general.py": "9a87e00cd0e7f2db844ff3285f8c16db1445052711add0c5e3c1b0038684832e"
+  },
+  "environment": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "claim_limits": [
+    "alpha>0 general catalogue not solved",
+    "no empirical preference reliability validation",
+    "no complete online method implementation in this stage",
+    "no new priority certification",
+    "prefix check is not a full polynomial-time catalogue solver"
+  ],
+  "published_manuscript_modified": false,
+  "new_files_pushed_to_GitHub": false
+}

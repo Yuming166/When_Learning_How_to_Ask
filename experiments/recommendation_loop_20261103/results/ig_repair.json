@@ -1,0 +1,157 @@
+{
+  "stage": "POSTHOC_NUMERICAL_BASELINE_REPAIR_NOT_CONFIRMATION",
+  "attempted": 8,
+  "certified": 8,
+  "wrong_certified": 0,
+  "capped": 0,
+  "failed": 0,
+  "mean_repaired_IG_cost": 237.5,
+  "mean_original_IG_cost": 397.875,
+  "mean_original_Decision_KL_cost": 243.0,
+  "method_cost_lower": 2,
+  "method_cost_equal": 0,
+  "method_cost_higher": 6,
+  "new_controlled_observations": 1900,
+  "mean_policy_seconds": 0.1319656003615819,
+  "pairs": [
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "original_ig_queries": 63,
+      "repaired_ig_cost": 63,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 64,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -1
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "original_ig_queries": 294,
+      "repaired_ig_cost": 302,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 327,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -25
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "original_ig_queries": 136,
+      "repaired_ig_cost": 136,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 145,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -9
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "original_ig_queries": 111,
+      "repaired_ig_cost": 111,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 89,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": 22
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "original_ig_queries": 366,
+      "repaired_ig_cost": 213,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 253,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -40
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "original_ig_queries": 480,
+      "repaired_ig_cost": 351,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 322,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": 29
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "original_ig_queries": 988,
+      "repaired_ig_cost": 250,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 252,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -2
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "original_ig_queries": 745,
+      "repaired_ig_cost": 474,
+      "repaired_ig_status": "CERTIFIED",
+      "decision_kl_cost": 492,
+      "decision_kl_status": "CERTIFIED",
+      "both_certified": true,
+      "baseline_minus_method": -18
+    }
+  ],
+  "raw_replay": [
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition0",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 63,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__anchor_all_positive__partition1",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 302,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition0",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 136,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "weighted_two__seeded_independent__partition1",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 111,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition0",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 213,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__anchor_all_positive__partition1",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 351,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition0",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 250,
+      "terminal_certificate_rechecked": true
+    },
+    {
+      "world_id": "asymmetric_three__seeded_independent__partition1",
+      "arm": "decision_ig_relative_repair",
+      "status": "RAW_REPLAY_PASS",
+      "queries": 474,
+      "terminal_certificate_rechecked": true
+    }
+  ],
+  "primary_results_overwritten": false
+}

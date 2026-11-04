@@ -1,0 +1,46 @@
+\paragraph{Matched binary-channel experiment.}
+We freeze four anchor cells: the weighted-five catalogue above under its two size-matched partitions, and a six-coordinate three-item catalogue with unique cover weights $(3,2,2,1,1,4)/13$, under one group versus $(123,456)$. The latter has $\rho=5/13$, so Corollary~\ref{cor:unique} separates zero and positive premium. Exact rational checks verify all 96 cube winners and cover witnesses. We fix $p=.8,q=.6$, $\theta=(+1)^d$ and initially $z=0$. Six fresh tapes per catalogue are paired across partitions, four allocators and $R=\log(1/\delta)\in\{3,9\}$, giving 192 paths. Three predeclared reversed/mixed-type cells at $R=9$ add 72 paths. All methods share forced exploration, per-action response tapes, the gate and a 2,500-query cap. No calibration or model calls occur.
+
+\begin{table}[t]
+\caption{Binary-channel mean restricted query cost at $R=9$ ($\downarrow$), six tapes per row. A failed path costs 2,500; $\dagger$ marks one failure. ``Zero/positive'' refers to the theoretical premium, not a finite-policy ranking.}
+\label{tab:cost}
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Catalogue / partition & DV & KL & D-IG & RR\\
+\midrule
+Weighted5 / zero & 560.7 & 625.5$\dagger$ & 250.0 & 560.7\\
+Weighted5 / positive & 483.7 & 631.3$\dagger$ & 272.0 & 483.7\\
+Three-item / zero & 628.7 & 290.2 & 273.7 & 628.7\\
+Three-item / positive & 698.8 & 888.0$\dagger$ & 503.7 & 698.8\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Across 264 attempted paths, 257 certify, none incorrectly; seven KL paths fail and none cap. Adaptive histories and all terminal certificates replay. The KL failures reject solver weights with tiny negative roundoff; they are retained, so KL comparisons concern this implementation, including its failures. DV has zero gain on 30,864/30,936 nonforced choices (99.77\%) and matches RR stopping costs on all 66 paired worlds, although only 46 entire histories coincide. Decision-IG is cheaper: at $R=9$, the pooled anchor IG-minus-DV cost is $-268.1$ queries (paired 95\% interval $[-303.8,-236.3]$). The type audit gives $-279.5$ ($[-343.5,-220.8]$). Resampling preserves each catalogue/tape cluster and weights catalogues equally; these are conditional descriptive intervals on two fixed catalogues, not 264 independent users. No empirical oracle was run. These results reject a general DV-efficiency claim and illustrate the distinction between immediate value and reliable evidence accumulation.
+
+\paragraph{Real products, constructed preferences.}
+A historical Myntra catalogue~\cite{myntra} supplies 471 products with five core attributes. The development split uses 338 products through 35 menus of 5--10 items, not one simultaneous 338-item choice; validation/test reserve 78/55 products. Five attribute disclosures plus a purchase threshold define six query units. A deterministic evaluator handles hard exclusions, acceptable purchases and NO\_BUY. All preferences are synthetic. Fixed order, profile-IG, decision-set IG (DS-IG) and DV share menus, prior draws, answers and tie rules. DS-IG targets entropy of the whole acceptable set; DV targets the success of one chosen action. One disclosure reveals a structured field, not one binary reply. Table~\ref{tab:fashion} retains separate denominators and the original primary budget of five.
+
+\begin{table}[t]
+\caption{Acceptable-decision accuracy (\%) at five disclosures ($\uparrow$). $P$ is unique profiles; $n$ is evaluated cases, not independent users. Small Python repeats prior draws; Luna 8 repeats answer banks.}
+\label{tab:fashion}
+\centering
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Panel & $P$ & $n$ & Fixed & P-IG & DS-IG & DV\\
+\midrule
+Small Python & 24 & 96 & 66.7 & 66.7 & 90.6 & 93.8\\
+Dev. Python & 48 & 280 & 73.2 & 70.4 & 88.2 & 94.6\\
+Validation & 120 & 264 & 78.4 & 77.7 & 90.2 & 93.9\\
+Test & 120 & 192 & 80.7 & 82.3 & 92.2 & 92.7\\
+Luna 8 & 8 & 16 & 87.5 & 87.5 & 100.0 & 100.0\\
+Luna 48 & 48 & 280 & 75.7 & 74.3 & 87.9 & 94.6\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+On development, DV exceeds DS-IG by 6.4 percentage points (profile-cluster 95\% interval $[2.9,10.1]$). Validation gives 3.8 points with interval $[0.0,7.8]$; test gives 0.5 with $[-2.6,3.6]$. Development gains at budgets 3/4 are 13.2/14.6 points; test gains are 2.6/5.2. These additional budgets are exploratory. DV loses to DS-IG on test at budget 2, and all Python methods reach 100\% at budget 6. Thus neither all-budget noninferiority nor uniform profile gains is supported.
+
+Luna supplies reset, structured field answers from prescribed profiles (requested alias \texttt{gpt-6-luna}; the backend identity was not separately reported). The 8-profile bank has 96/96 valid exact answers; the 48-profile bank has 287/288, retaining one numeric-string schema failure without retry. Luna 48 reuses the 48 development profiles and menus: its 6.8-point gain ($[3.2,10.4]$) is not independent confirmation or human validation. All valid answers reproduce the deterministic fields, and DV's budget-five outcomes coincide with the deterministic run. This tests a model-answer interface, not free conversational purchasing behavior. Full budgets 0--6, paired outcomes, failure paths and original uncertainty records are retained in the accompanying artifact.

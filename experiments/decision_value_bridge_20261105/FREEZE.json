@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-04T18:08:13.463253+00:00",
+  "local_sha256": {
+    "config.json": "51e00510522d44f0e78f5d7c88858d7ece54f8ffa0a1547f11f757568b557468",
+    "run.py": "815d589c8c986611c308351e0f95ba4138eeddd5e2bf8167af81ed08dd7d2e7c",
+    "analyze.py": "082381da57bf03f37f24aa32aa4b26bcd3b28a9afbefe0c9333b8391fcd0d996",
+    "test_protocol.py": "83bf299ea8e9dfd32d3e412fb376f699c08fe9788191171ef56b980a3c794b57",
+    "PROTOCOL.md": "628abade080a8f476a5acd71663010947bf244b96bc0390353b04deca61aad4b",
+    "README.md": "4dc901835b3d418cb6a76594570af6c399f8247330c99e8914d163c937d02a21",
+    "decision_value.py": "a1462eabbd788a37e2935dfe515460d33319004db0467e0e66a66ccf4dd27b46",
+    "legacy_analysis.py": "e5d4e9d1d9069b55503403f10140a0202b89dc3b70bd406dbd2190dde1755a50"
+  },
+  "dependency_sha256": {
+    "experiments/recommendation_loop_20261103/likelihood.py": "0183038a5f5e42bc24f9b702a85405b9a02755c05f79edcc923a58730fd6ed0e",
+    "experiments/recommendation_loop_20261103/certification.py": "ab07a30dc9ed4026f4b2b91dbae1c40500bbbd335b2d63583e9f0558529902c3",
+    "experiments/recommendation_loop_20261103/policies.py": "dea74651706a578fb915209d7c9f38c1f3b13c4f7f17f0c02fcc4ee19cf4ddaa",
+    "experiments/recommendation_loop_20261103/relative_ig.py": "8e9b51dea65f6263e3a573e93605530b05afe35e31dd53a9d95a26203046a3c1",
+    "experiments/recommendation_loop_20261103/decision_ig.py": "a7610fdaa6a99ab72c97a4d35d88ce2c152963d45bd0c138f9a0615989e35962",
+    "experiments/recommendation_loop_20261103/run_loop.py": "7854a033453370335a4ebeb69d528bda650cfbc2fe9dc68426685520ea9d860e",
+    "experiments/phase2d_method_improvement_20261031/phase2d/certified.py": "162fe61943bdebf2b297cdca914a734e9b0befcf66939c800a00a9a35820130c",
+    "research/general_catalogue_theory_20261103/general_geometry.py": "c7b6bb0e32ee484938cf4dacf178ba611f8281f6190afb1b12e37b11ac1b7d7a",
+    "research/top1_decision_theory_20261103/decision_information.py": "5c142339124c7db87c1d3e16904a3c53ef1f8ff72db3c213e9ec827ff6ea6f6e",
+    "research/general_catalogue_theory_20261103/CATALOGUE_EXAMPLES.md": "a23ba714e62af4c183fad537225d36f1affdd90b1911dba5a029b7714a8671ee"
+  },
+  "worlds_sha256": "5a1491515a9d5f7744cef61bcd1eb9f30b9c165704acbe2c98e35cacc76dfbdc",
+  "planned_trajectories": 264,
+  "model_calls": 0,
+  "training": false
+}

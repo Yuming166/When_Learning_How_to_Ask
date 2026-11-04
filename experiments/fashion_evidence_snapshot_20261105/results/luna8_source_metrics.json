@@ -1,0 +1,1468 @@
+{
+  "status": "ANALYZED_COMPLETE",
+  "requested_model": "gpt-6-luna",
+  "reported_model_strings": [],
+  "unique_profiles": 8,
+  "response_bank_replicates": 2,
+  "planned_calls": 96,
+  "records_present": 96,
+  "attempted_calls": 96,
+  "valid_answers": 96,
+  "exact_profile_field_matches": 96,
+  "field_answer_quality": {
+    "neckline": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    },
+    "sleeve_length": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    },
+    "fabric": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    },
+    "wash_care": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    },
+    "pattern": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    },
+    "purchase_threshold": {
+      "planned": 16,
+      "attempted": 16,
+      "valid": 16,
+      "exact": 16
+    }
+  },
+  "budget_metrics": {
+    "fixed_order": {
+      "0": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 16,
+        "correct": 10,
+        "accuracy": 0.625,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 6,
+        "failed_paths": 0,
+        "mean_query_units": 3.0
+      },
+      "4": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 4.0
+      },
+      "5": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 5.0
+      },
+      "6": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 6.0
+      }
+    },
+    "profile_ig": {
+      "0": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 16,
+        "correct": 12,
+        "accuracy": 0.75,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 4,
+        "failed_paths": 0,
+        "mean_query_units": 3.0
+      },
+      "4": {
+        "n": 16,
+        "correct": 12,
+        "accuracy": 0.75,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 4,
+        "failed_paths": 0,
+        "mean_query_units": 4.0
+      },
+      "5": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 5.0
+      },
+      "6": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 6.0
+      }
+    },
+    "decision_set_ig": {
+      "0": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 3.0
+      },
+      "4": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 4.0
+      },
+      "5": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 5.0
+      },
+      "6": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 6.0
+      }
+    },
+    "decision_value": {
+      "0": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 0.0
+      },
+      "1": {
+        "n": 16,
+        "correct": 8,
+        "accuracy": 0.5,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 8,
+        "failed_paths": 0,
+        "mean_query_units": 1.0
+      },
+      "2": {
+        "n": 16,
+        "correct": 10,
+        "accuracy": 0.625,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 6,
+        "failed_paths": 0,
+        "mean_query_units": 2.0
+      },
+      "3": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 3.0
+      },
+      "4": {
+        "n": 16,
+        "correct": 14,
+        "accuracy": 0.875,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 2,
+        "failed_paths": 0,
+        "mean_query_units": 4.0
+      },
+      "5": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 5.0
+      },
+      "6": {
+        "n": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "hard_violations": 0,
+        "false_purchases": 0,
+        "missed_buy": 0,
+        "failed_paths": 0,
+        "mean_query_units": 6.0
+      }
+    }
+  },
+  "decision_value_pairwise": {
+    "0": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 1.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 1.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 1.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "difference": 0.25,
+        "cluster_bootstrap_95_ci": [
+          0.25,
+          0.25
+        ],
+        "case_bank_wins": 4,
+        "case_bank_ties": 12,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 2,
+        "profile_clusters_tie": 6,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 1.0,
+          "D03": 1.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 1.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 1.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 1.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.125,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.25
+        ],
+        "case_bank_wins": 2,
+        "case_bank_ties": 14,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 7,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 1.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_bank_wins": 0,
+        "case_bank_ties": 16,
+        "case_bank_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 8,
+        "profile_clusters_loss": 0,
+        "profile_cluster_differences": {
+          "D32": 0.0,
+          "D05": 0.0,
+          "D00": 0.0,
+          "D03": 0.0,
+          "D29": 0.0,
+          "D31": 0.0,
+          "D06": 0.0,
+          "D12": 0.0
+        }
+      }
+    }
+  },
+  "primary_budget": 5,
+  "confidence_interval_note": "Stratified bootstrap resamples eight unique profile clusters within the four purposive strata; the two response-bank repeats travel with each profile. Intervals describe only this selected development panel.",
+  "smoke_receipt": {
+    "status": "PHASE_COMPLETED",
+    "phase": "smoke",
+    "started_utc": "2026-11-04T16:33:56.125727+00:00",
+    "finished_utc": "2026-11-04T16:34:46.170918+00:00",
+    "planned_total": 96,
+    "planned_phase_new": 12,
+    "attempted_phase": 12,
+    "valid_phase": 12,
+    "transport_failures": 0,
+    "model_mismatch": false,
+    "concurrency": 4,
+    "requested_model": "gpt-6-luna",
+    "reported_model_strings": [],
+    "abort_reason": null,
+    "records_present": 12,
+    "attempts_total": 12,
+    "retries": 0,
+    "summaries": [
+      {
+        "job_id": "D32__M21__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D32__M21__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      }
+    ]
+  },
+  "run_receipt": {
+    "status": "PHASE_COMPLETED",
+    "phase": "full",
+    "started_utc": "2026-11-04T16:34:53.939693+00:00",
+    "finished_utc": "2026-11-04T16:38:53.682504+00:00",
+    "planned_total": 96,
+    "planned_phase_new": 84,
+    "attempted_phase": 84,
+    "valid_phase": 84,
+    "transport_failures": 0,
+    "model_mismatch": false,
+    "concurrency": 4,
+    "requested_model": "gpt-6-luna",
+    "reported_model_strings": [],
+    "abort_reason": null,
+    "records_present": 96,
+    "attempts_total": 96,
+    "retries": 0,
+    "summaries": [
+      {
+        "job_id": "D05__M00__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D05__M00__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D00__M01__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D03__M01__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D29__M20__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D31__M20__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D06__M01__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r1__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__neckline",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__sleeve_length",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__wash_care",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__fabric",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__purchase_threshold",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      },
+      {
+        "job_id": "D12__M10__r2__pattern",
+        "attempted": true,
+        "valid": true,
+        "error": null
+      }
+    ]
+  },
+  "claim_limit": "Eight purposively selected synthetic personas; structured score elicitation; Codex CLI alias requested, backend not independently attested; not human evidence or independent confirmation.",
+  "posthoc_replay_correction": {
+    "status": "CORRECTED_OFFLINE_REPLAY",
+    "reason": "The original analysis destructured dictionary history entries as pairs, causing every second asked field to be marked failed.",
+    "model_calls_repeated": 0,
+    "original_invalid_outputs_archived": "results/first_pass_invalid_due_to_replay_bug/",
+    "correction_record": "POSTHOC_REPLAY_CORRECTION.md",
+    "corrected_replay_script": "posthoc_replay_corrected.py"
+  }
+}

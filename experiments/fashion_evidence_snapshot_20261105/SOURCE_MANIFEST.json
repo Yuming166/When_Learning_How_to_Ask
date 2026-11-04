@@ -1,0 +1,60 @@
+{
+  "purpose": "Historical outcome replay only; not new experiments",
+  "source_files": {
+    "experiments/myntra_closed_loop_robustness_v01_20261104/results/PAIRED_CASES.jsonl": "c10ac8c10b7acb489fb0b14847c79d7d2ac6a7024f59c0a63a8cd97c355ce468",
+    "experiments/myntra_closed_loop_robustness_v01_20261104/results/ROBUSTNESS_METRICS.json": "93b510d284761a499ed3843c3344e82c2b717a9721bbd870717569c85c22a8ec",
+    "experiments/myntra_closed_loop_robustness_v01_20261104/REPORT_ZH.md": "ce8a4e279cc1f5f02eef60d92a471cc9badaeed25887abb4a6b65b69fcc20f01",
+    "experiments/myntra_closed_loop_robustness_v01_20261104/config.json": "80c829580a679c178e061c0c1b821be07ddfa5febdca865f2f953692de216d9e",
+    "experiments/myntra_full_dev_catalogue_v02_20261104/results/PAIRED_CASES.jsonl": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699",
+    "experiments/myntra_full_dev_catalogue_v02_20261104/results/CATALOGUE_METRICS.json": "11eb241d864602a1157e23a6583720b9239421d2125f8a23e3f8cb22e309651d",
+    "experiments/myntra_full_dev_catalogue_v02_20261104/REPORT_ZH.md": "c3870e353240cba5335a811b89b8d4b840aaf14aa3e3512abcb1cd18947b799f",
+    "experiments/myntra_full_dev_catalogue_v02_20261104/config.json": "fa525b72d4fea0db9d7ae6ff18dc6a95034b0c4b28cec263a5eab793872db239",
+    "experiments/myntra_heldout_confirmation_v01_20261104/results/validation_reserved_PAIRED_CASES.jsonl": "a8d3466afe9b8d86bc824f407e9418fc919cad798b8a154cf22b90f6c6202c42",
+    "experiments/myntra_heldout_confirmation_v01_20261104/results/ANALYSIS.json": "26893fd0862530767144711e5af8aea3cc3057edaa495707cddf6b79f0555350",
+    "experiments/myntra_heldout_confirmation_v01_20261104/results/REPORT_ZH.md": "949337907efa25f89517a2f2b2d84e551b0409e2971a64adf0330daad5e10dc5",
+    "experiments/myntra_heldout_confirmation_v01_20261104/config.json": "e832273522635beafa28b674fa5f963542050a751bf82b836adfb8f23d865726",
+    "experiments/myntra_heldout_confirmation_v01_20261104/results/test_reserved_PAIRED_CASES.jsonl": "b0c9930025d44605fba18abc11a652e15141381b6e2114e6ae0f03fdd000755e",
+    "experiments/myntra_luna_policy_comparison_v01_20261105/results/PAIRED_POLICY_TRACES.jsonl": "19ac559657760463749105ec46fa28716ab22c1531bf956be8268d34d9a93805",
+    "experiments/myntra_luna_policy_comparison_v01_20261105/results/ANALYSIS.json": "e66c92567d9babad787cd1684bed8a4d2c103b82cc1b759b08b76ad5eeac7ac6",
+    "experiments/myntra_luna_policy_comparison_v01_20261105/results/REPORT_ZH.md": "30fcb318795c6e657de631076aba54f597c0918fc86698b2b69fe35950a22399",
+    "experiments/myntra_luna_policy_comparison_v01_20261105/config.json": "e1e213e35048e0bc4afd096ea5f0af2b50c54150ac1c959cb9bd4e8d38189fd8",
+    "experiments/myntra_luna_48profile_policy_v01_20261105/results/PAIRED_POLICY_TRACES.jsonl": "88cc8c0e3093d83fea78847eac9ab98fc13e14f7c78ff334d3f0d1e6c68de2e1",
+    "experiments/myntra_luna_48profile_policy_v01_20261105/results/ANALYSIS.json": "57d54521d3fe3c72759782869e1e80339c8b10b59cceba12c7a1eaad803282a7",
+    "experiments/myntra_luna_48profile_policy_v01_20261105/results/REPORT_ZH.md": "9190a32e1629c4ce071ae854cf7e6cd5423c4d78f187f1dda94343fcf3576fe2",
+    "experiments/myntra_luna_48profile_policy_v01_20261105/config.json": "68346f93fae4ac8c371f7daf331fb2ded6e3e2f506d125c16a96c87fd55660b5",
+    "experiments/myntra_luna_48profile_policy_v01_20261105/engine.py": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+  },
+  "exports": {
+    "small_python": {
+      "trace": "results/small_python_outcomes.jsonl.gz",
+      "rows": 2784,
+      "sha256": "9d44c1bf1489605f1372fa7c2a1a811afb6a8f292a28d7f42bd247de595fae20"
+    },
+    "development_python": {
+      "trace": "results/development_python_outcomes.jsonl.gz",
+      "rows": 8120,
+      "sha256": "0be85f88638d072aa66a896058f5d2e929891451e16b99e6536929b0a11f609c"
+    },
+    "validation_python": {
+      "trace": "results/validation_python_outcomes.jsonl.gz",
+      "rows": 7656,
+      "sha256": "6e572a6cf4f3e9c5b8abb02367e7e61b833e737496effe966f91c50f718e0727"
+    },
+    "test_python": {
+      "trace": "results/test_python_outcomes.jsonl.gz",
+      "rows": 5568,
+      "sha256": "6e60ec586b4b7a28a28f41348556ba8a87af7d106ee2000dc5a12191f71f8679"
+    },
+    "luna8": {
+      "trace": "results/luna8_outcomes.jsonl.gz",
+      "rows": 448,
+      "sha256": "02852eaab40b8ee288653715c4bdfcfe8a5b54efc29b13208a77e0e42cff4362"
+    },
+    "luna48": {
+      "trace": "results/luna48_outcomes.jsonl.gz",
+      "rows": 7840,
+      "sha256": "4b0b53579624a57c862804da6988eabe0cc318bf654ae7a5dda475ce0ab2b96e"
+    }
+  },
+  "engine_note": "Archived source reference; its original config/environment are not bundled. Report replay is standalone via analyze.py."
+}

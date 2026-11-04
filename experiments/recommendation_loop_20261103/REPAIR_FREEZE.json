@@ -1,0 +1,15 @@
+{
+  "stage": "POSTHOC_NUMERICAL_BASELINE_REPAIR_NOT_CONFIRMATION",
+  "planned_trajectories": 8,
+  "original_freeze_sha256": "c9298676de1b26992a1438868c6cadfe7cbb7c1f6d65b959e9052a03ef978434",
+  "sources": {
+    "relative_ig.py": "8e9b51dea65f6263e3a573e93605530b05afe35e31dd53a9d95a26203046a3c1",
+    "test_relative_ig.py": "b133bf4c3a117ad580c1cbd0cbf9dfba5dacd53b0d6ec24d9fb240813fd4d2e3",
+    "run_ig_repair.py": "c7016cdbd5c89d1786fca3e3a3b87f9ab9463bff2cd1e6849f7c961312c887b8",
+    "REPAIR_PROTOCOL.md": "48ff54edd1a0f115ede54ebbc0ccfd65fbd99283867252036bd635547bf10dbd"
+  },
+  "only_algorithm_change": "scale-invariant relative tie tolerance instead of absolute1e-14",
+  "original_Decision_KL_unchanged": true,
+  "quadrature_order": 6,
+  "worlds_sha256": "3622fe64163fffb745fb799f4cae1487fe8e1c8b69002f8f942ca2052aed6945"
+}

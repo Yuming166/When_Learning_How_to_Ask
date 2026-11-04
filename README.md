@@ -2,9 +2,20 @@
 
 未知查询可靠性下的可靠信息获取：共享问法、有限校准、信息分配与 Web 来源读取。
 
-本仓库汇总截至 **2026-11-01** 的理论与 methodology 开发。既有 V5 简报保留为历史起点；代码、开发结果、数学证书及未完成事项分别标明。**受控模型结果不等于真实 Web/用户有效性，理想策略定理也不自动认证近似程序的渐近最优性。**
+本仓库保留历次理论与 methodology 开发，并于 **2026-11-05** 更新推荐系统论文及连接实验。既有 V5 简报保留为历史起点；代码、开发结果、数学证书及未完成事项分别标明。**受控模型结果不等于真实 Web/用户有效性，理想策略定理也不自动认证近似程序的渐近最优性。**
 
-## 从这里开始
+
+## 2026-11-05：推荐系统论文与 Decision Value 连接
+
+- **[当前四页论文 PDF](papers/www2027_catalogue_reliability/main.pdf)** · [源码与复现说明](papers/www2027_catalogue_reliability/README.md) · [本轮中文完成报告](papers/www2027_catalogue_reliability/OVERNIGHT_REPORT_ZH.md)。作者审阅稿，未投稿。
+- [目录—可靠性结构定理](research/catalogue_paper_mainline_20261104/PROOF_COMPANION.md)：最佳商品决策所需证据与共享组共同决定零/正额外成本。
+- [方法连接与精确反例](research/decision_value_bridge_20261105/BRIDGE_PROPOSITIONS.md)、[新意核查](research/decision_value_bridge_20261105/NOVELTY_AUDIT.md)：不把已有一步VOI原则包装为新方法。
+- [264条配对实验](experiments/decision_value_bridge_20261105/INTERPRETATION.md)：257认证、7个保留的KL数值失败；一步DV未超越Decision-IG，且停止成本与RR相同。完整合成轨迹可公开重放。
+- [六个服饰面板](experiments/fashion_evidence_snapshot_20261105/README.md) · [全部预算曲线](experiments/fashion_evidence_snapshot_20261105/results/full_budget_curves.pdf)：真实商品、构造偏好；开发收益不等于测试集稳定优势，Luna字段回答不等于真人验证。
+
+旧稿及历史统计不被覆盖；当前论文原稿另见[归档](papers/www2027_catalogue_reliability/history/pre_bridge_20261104/)。
+
+## 历史入口
 
 - **2026-11-03 新增：[WWW 推荐系统理论短文初稿](papers/www2027_recommendation_theory/README_ZH.md)**（[英文 PDF](papers/www2027_recommendation_theory/main.pdf)、[LaTeX](papers/www2027_recommendation_theory/main.tex)）。以可靠偏好获取的额外成本为主线；属于待作者审阅的初稿，不代表真实推荐效果已获验证。
 - [目前已有的理论与 WWW 故事](research/www_short_story_20261101/README_ZH.md)
@@ -72,4 +83,4 @@ python scripts/run_public_checks.py --stage phase2e_type_evidence_20261031
 
 [来源与文件哈希](publication/SOURCE_MANIFEST.json)、[排除项](publication/EXCLUSIONS.json)、[路径兼容修复](publication/PORTABILITY_CHANGES.json)、[本次检查结果](publication/CHECK_RESULTS.json)分别保留。历史receipt/manifest仍描述原始本地完整实验；它们可能引用有意未公开的文件，不应在此源码子集上被误称为完整重放通过。
 
-原仓库的理论笔记及V5 PDF保留；本次没有重写历史统计或启动新的效果实验。
+原仓库的理论笔记及V5 PDF保留；2026-11-01的首次发布没有重写历史统计或启动新的效果实验；2026-11-05的新增受控连接实验单独记录。

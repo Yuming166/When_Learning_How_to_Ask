@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-03T16:56:36.673049+00:00",
+  "local_sha256": {
+    "config.json": "fd5dd9e3635d110477f53e27734356cdbb84be3ba6bf20c9e5864628fa0c8a25",
+    "run.py": "7377a845025a19fdb3731984c6fc6a45f140c4385219e5e66293a033b9574037",
+    "analyze.py": "e5d4e9d1d9069b55503403f10140a0202b89dc3b70bd406dbd2190dde1755a50",
+    "test_protocol.py": "2b4a7beeeb1103224ba8bf88bf01fcfd0d77431071a17d5ef60b997edecc621c",
+    "PROTOCOL.md": "e2d73607cebe348009c2b9ca287939edc1af84a610234ddf2ea9006abe5a9ebb",
+    "README.md": "99efd59aab193901bcdf9e8673fc5ac618681f87c3a83c69ea8fb04022cf86fe"
+  },
+  "dependency_sha256": {
+    "experiments/recommendation_loop_20261103/likelihood.py": "0183038a5f5e42bc24f9b702a85405b9a02755c05f79edcc923a58730fd6ed0e",
+    "experiments/recommendation_loop_20261103/certification.py": "ab07a30dc9ed4026f4b2b91dbae1c40500bbbd335b2d63583e9f0558529902c3",
+    "experiments/recommendation_loop_20261103/policies.py": "dea74651706a578fb915209d7c9f38c1f3b13c4f7f17f0c02fcc4ee19cf4ddaa",
+    "experiments/recommendation_loop_20261103/relative_ig.py": "8e9b51dea65f6263e3a573e93605530b05afe35e31dd53a9d95a26203046a3c1",
+    "experiments/recommendation_loop_20261103/decision_ig.py": "a7610fdaa6a99ab72c97a4d35d88ce2c152963d45bd0c138f9a0615989e35962",
+    "experiments/recommendation_loop_20261103/run_loop.py": "7854a033453370335a4ebeb69d528bda650cfbc2fe9dc68426685520ea9d860e",
+    "experiments/phase2d_method_improvement_20261031/phase2d/certified.py": "162fe61943bdebf2b297cdca914a734e9b0befcf66939c800a00a9a35820130c",
+    "research/general_catalogue_theory_20261103/general_geometry.py": "c7b6bb0e32ee484938cf4dacf178ba611f8281f6190afb1b12e37b11ac1b7d7a",
+    "research/top1_decision_theory_20261103/decision_information.py": "5c142339124c7db87c1d3e16904a3c53ef1f8ff72db3c213e9ec827ff6ea6f6e",
+    "research/general_catalogue_theory_20261103/CATALOGUE_EXAMPLES.md": "a23ba714e62af4c183fad537225d36f1affdd90b1911dba5a029b7714a8671ee"
+  },
+  "worlds_sha256": "77a6b46b8539adf00a9743e4207b4f12440da36cec625f0833e282f9a8d4afa7",
+  "planned_trajectories": 144,
+  "model_calls": 0,
+  "training": false
+}

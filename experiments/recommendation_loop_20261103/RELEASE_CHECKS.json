@@ -1,0 +1,219 @@
+{
+  "stage": "LOCAL_COMMIT_ONLY_NO_REMOTE_PUSH",
+  "publication_manifest_check": {
+    "passed": true,
+    "historical_exported_sources_unchanged": 1334,
+    "python_parsed_at_check": 715,
+    "json_parsed_at_check": 424,
+    "text_files_scanned_at_check": 1460,
+    "failures": []
+  },
+  "source_receipt_hashes": "PASS",
+  "relative_markdown_links": "PASS",
+  "final_figure_visually_inspected": "PASS",
+  "raw_files_ignored": 79,
+  "full_reproduction_wrapper_executed": false,
+  "reproduction_copy_preparation_only": "PASS",
+  "exported_files": [
+    {
+      "path": "experiments/recommendation_loop_20261103/.gitignore",
+      "bytes": 117,
+      "sha256": "f324acb9d920f09c6b437e74ad4c3adef562b96f484de7b3a7404983af6558a0"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/CHECKS.json",
+      "bytes": 23367,
+      "sha256": "b66e8739e47c301a8a393feb0efc57f4d525854e48c7f00189d5490a4dfd399e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/DESIGN_AUDIT.md",
+      "bytes": 29062,
+      "sha256": "a506f59348b6aad2bcb8b8c04cea4c1774092a075989e3e42fc265d718a95157"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/FREEZE.json",
+      "bytes": 2428,
+      "sha256": "c9298676de1b26992a1438868c6cadfe7cbb7c1f6d65b959e9052a03ef978434"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/GATE_NOTE.md",
+      "bytes": 9831,
+      "sha256": "a4e29489c6dcea0125b4fd5653e58e221733c61730c433d7623396bb73769b32"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/IG_NOTE.md",
+      "bytes": 6343,
+      "sha256": "6375a0332da7e7b977e2623e56ca057eeb0d1589fb60cf199cbea2a522d59c3f"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/METHOD_NOTE.md",
+      "bytes": 5151,
+      "sha256": "fc5a43f6b904473b7704eb53c0160e4792c6d2b99e6b25adce5733341c090400"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/PROTOCOL.md",
+      "bytes": 7021,
+      "sha256": "1ad81643740a9c4b3e9b23e4534cbadcf96c3bfeab8e6985a58e34bd3a9a855e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/RAW_MANIFEST.json",
+      "bytes": 16738,
+      "sha256": "935167093532ddd87f39b423d3798eddbd248c91d5e33756a712e3b945ea1650"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/README_ZH.md",
+      "bytes": 10143,
+      "sha256": "b8a70064309298037f9ef8051be1f9804caca05e3debc2d832d8f5b949b867bf"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/REPAIR_FREEZE.json",
+      "bytes": 831,
+      "sha256": "47f6e22eaec109b97a014a2857377ed21955ff9f3b0b9f033c2d5655c3ab9f5f"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/REPAIR_PROTOCOL.md",
+      "bytes": 1556,
+      "sha256": "48ff54edd1a0f115ede54ebbc0ccfd65fbd99283867252036bd635547bf10dbd"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/VALIDATION.md",
+      "bytes": 4904,
+      "sha256": "41805147ea65034ec42f7f32e6382adf59760f31d5dbafb63c5a45e3379a35c9"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/analyze.py",
+      "bytes": 9544,
+      "sha256": "2f5a01a0f7344275ae1c1517afe0b25b932f6f37bb6b12df6be4cee4cbbb6719"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/certification.py",
+      "bytes": 10111,
+      "sha256": "ab07a30dc9ed4026f4b2b91dbae1c40500bbbd335b2d63583e9f0558529902c3"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/config.json",
+      "bytes": 991,
+      "sha256": "9b0a91aa3172c38d4f76aa06e0e3432b1d340ff34e3af3984e83cb01aea89aab"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/decision_ig.py",
+      "bytes": 15469,
+      "sha256": "a7610fdaa6a99ab72c97a4d35d88ce2c152963d45bd0c138f9a0615989e35962"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/finalize_analysis.py",
+      "bytes": 8008,
+      "sha256": "362c8f274813c65d17a5403c55a2265c81e768382c0a2f00be1ef82dc2567e0d"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/likelihood.py",
+      "bytes": 11514,
+      "sha256": "0183038a5f5e42bc24f9b702a85405b9a02755c05f79edcc923a58730fd6ed0e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/policies.py",
+      "bytes": 6996,
+      "sha256": "dea74651706a578fb915209d7c9f38c1f3b13c4f7f17f0c02fcc4ee19cf4ddaa"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/quadrature_replay_audit.py",
+      "bytes": 2754,
+      "sha256": "66a4e364aacadb513e09171d4cacc468f6702a0d1c4822d1d37fd43745dbb18d"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/relative_ig.py",
+      "bytes": 2228,
+      "sha256": "8e9b51dea65f6263e3a573e93605530b05afe35e31dd53a9d95a26203046a3c1"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/reproduce_in_copy.py",
+      "bytes": 4553,
+      "sha256": "6239272050c00c9eb6bd5c74c503c65ffa8270e2555b64feaf875256e52b61a3"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/run_ig_repair.py",
+      "bytes": 4652,
+      "sha256": "c7016cdbd5c89d1786fca3e3a3b87f9ab9463bff2cd1e6849f7c961312c887b8"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/run_loop.py",
+      "bytes": 12013,
+      "sha256": "7854a033453370335a4ebeb69d528bda650cfbc2fe9dc68426685520ea9d860e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/test_decision_ig.py",
+      "bytes": 9645,
+      "sha256": "1fe665e56701ca9eed8d12c01333997ecebe0f910d30722dc22ce2fd0c01f28f"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/test_likelihood_gate.py",
+      "bytes": 17035,
+      "sha256": "0153fb717f03386c78fcfb6f691cc283507c1ed3ed6bbafd753f962ca9c6c312"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/test_loop.py",
+      "bytes": 5538,
+      "sha256": "16a0edd0f431f1970eb03373362df16a7bcec50a29e8b0add2bad5a380c9d95e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/test_relative_ig.py",
+      "bytes": 5950,
+      "sha256": "b133bf4c3a117ad580c1cbd0cbf9dfba5dacd53b0d6ec24d9fb240813fd4d2e3"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/validate_results.py",
+      "bytes": 9613,
+      "sha256": "9ead6e745f9e71d425b7f1af637c4a1056cd2cf9a98c4257310560b0e916502f"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/FINAL_COMPARISON.md",
+      "bytes": 2160,
+      "sha256": "9db98cece256af8636c866d678141925333b1d3bc82f94f8cc4199cb65c98f2e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/RESULTS.md",
+      "bytes": 1860,
+      "sha256": "4cdf12b649ca9c8b59f61c635eec215712ae1886a3879f7758580c92155fd757"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/analysis.json",
+      "bytes": 24784,
+      "sha256": "9ade1b9b009fecfa1b3fb54909c53e462e321b52daa8bc06398d738b7a67d449"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/cost_comparison.pdf",
+      "bytes": 18907,
+      "sha256": "82779b69f6a5ff1c38c200214fad5176a9e7b2d62ead96f8dca9f7815d37b66c"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/cost_comparison.png",
+      "bytes": 97090,
+      "sha256": "a200ae982ddbdd441862b0cdf7421433d5e41674910bf4b55aba6af975e37fdf"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/cost_comparison_repaired.pdf",
+      "bytes": 21297,
+      "sha256": "6ee1d3a2452f657b819bb001b1b51e96e83b9ab8672388420808f306b77ad5e3"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/cost_comparison_repaired.png",
+      "bytes": 138057,
+      "sha256": "2dbd530ef0a5eadd4d8bf8e7f98b4f1993216cd6447f6d5651ada5589847abb0"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/final_comparison.json",
+      "bytes": 5568,
+      "sha256": "682d844ae540d951c5b6059e65ccd89c11d900b95b476b22272aa1d62411ef5e"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/ig_repair.json",
+      "bytes": 4919,
+      "sha256": "4be79f9ff0ea3a53bdd516b35d5fc70b7e3764232a61166f617c4dadc7c9ae66"
+    },
+    {
+      "path": "experiments/recommendation_loop_20261103/results/quadrature_replay_audit.json",
+      "bytes": 55070,
+      "sha256": "6e32d3e5ee7fc304cf8daf32b37f5323302611d1f411ee5a77cf7561531f7c03"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-11-03T17:00:06.177796+00:00",
+  "source_and_dependency_freeze_matches": true,
+  "freeze_sha256": "04d3d5a0bea2b95b089d25f2fd120face25194f61cf00d3282e4ab08a33d8db4",
+  "planned": 144,
+  "completed": 144,
+  "certified": 142,
+  "capped": 0,
+  "failed": 2,
+  "wrong_certified": 0,
+  "raw_replay_status_counts": {
+    "RAW_REPLAY_PASS": 142,
+    "FAILED_PATH_RETAINED": 2
+  },
+  "R_prefix_status_counts": {
+    "R_PREFIX_PASS": 71,
+    "FAILED_PATH_RETAINED": 1
+  },
+  "failed_history_counts_match": true,
+  "raw_files": 174,
+  "raw_bytes": 19737143,
+  "observed_main_queries": 50262,
+  "observed_main_cpu_seconds": 140.82404458000002,
+  "engineering_smoke_trajectories": 15,
+  "engineering_smoke_query_requests": 768,
+  "smoke_excluded_from_main": true,
+  "workers": 2,
+  "observed_affinity_counts": {
+    "[1]": 75,
+    "[0]": 69
+  },
+  "observed_thread_environment_counts": {
+    "{\"MKL_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\"}": 144
+  },
+  "Python": "3.13.13",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "fixed_profiles": 2,
+  "independent_response_seed_clusters": 12,
+  "policy_or_scientific_parameter_changes_after_freeze": false,
+  "retries": 0,
+  "replacements": 0,
+  "new_model_API_calls": 0,
+  "GPU_jobs": 0,
+  "training": false,
+  "failure_diagnostics": "saved-record inspection and recomputed MLE only; failed allocation values were not serialized",
+  "results_report": "results/RESULTS.md",
+  "compact_table": "results/PAPER_TABLE.md",
+  "raw_manifest": "results/RAW_MANIFEST.json"
+}
