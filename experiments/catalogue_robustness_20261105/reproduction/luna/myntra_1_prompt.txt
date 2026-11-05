@@ -1,0 +1,141 @@
+Answer as each of the following separate shoppers, using that shopper's fixed preference card. For each shopper answer the same six questions below. Keep each shopper's preferences separate. For maximum price select the stated maximum, not a lower acceptable price. Answer each question with A or B.
+
+Questions (the answer array must use this order):
+1. sleeve length: A = three-quarter sleeves; B = short sleeves.
+2. pattern: A = printed; B = solid.
+3. neckline: A = round neck; B = mandarin collar.
+4. main fabric: A = cotton; B = viscose rayon.
+5. wash care: A = hand wash; B = machine wash.
+6. maximum price: A = 824.0; B = 1199.0.
+
+Preference cards:
+
+Customer C005
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: round neck
+- main fabric: viscose rayon
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C013
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: viscose rayon
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C011
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: cotton
+- wash care: machine wash
+- maximum price: 1199.0
+
+Customer C063
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: mandarin collar
+- main fabric: viscose rayon
+- wash care: machine wash
+- maximum price: 1199.0
+
+Customer C023
+- sleeve length: three-quarter sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: viscose rayon
+- wash care: machine wash
+- maximum price: 1199.0
+
+Customer C012
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: viscose rayon
+- wash care: hand wash
+- maximum price: 824.0
+
+Customer C049
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C058
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: mandarin collar
+- main fabric: cotton
+- wash care: machine wash
+- maximum price: 824.0
+
+Customer C029
+- sleeve length: three-quarter sleeves
+- pattern: solid
+- neckline: mandarin collar
+- main fabric: viscose rayon
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C040
+- sleeve length: short sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 824.0
+
+Customer C041
+- sleeve length: short sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C000
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: round neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 824.0
+
+Customer C001
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: round neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 1199.0
+
+Customer C050
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: cotton
+- wash care: machine wash
+- maximum price: 824.0
+
+Customer C038
+- sleeve length: short sleeves
+- pattern: printed
+- neckline: round neck
+- main fabric: viscose rayon
+- wash care: machine wash
+- maximum price: 824.0
+
+Customer C008
+- sleeve length: three-quarter sleeves
+- pattern: printed
+- neckline: mandarin collar
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 824.0
+
+Return only one JSON object with an "answers" array. Each element has exactly "id" (the customer ID) and "answers" (six A/B strings, in question order). Give every listed shopper once and no explanations.

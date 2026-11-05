@@ -1,0 +1,141 @@
+Answer as each of the following separate shoppers, using that shopper's fixed preference card. For each shopper answer the same six questions below. Keep each shopper's preferences separate. For maximum price select the stated maximum, not a lower acceptable price. Answer each question with A or B.
+
+Questions (the answer array must use this order):
+1. sleeve length: A = long sleeves; B = short sleeves.
+2. pattern: A = floral; B = solid.
+3. neckline: A = v-neck; B = round neck.
+4. main fabric: A = polyester; B = cotton.
+5. wash care: A = machine wash; B = hand wash.
+6. maximum price: A = 22.09; B = 25.99.
+
+Preference cards:
+
+Customer C008
+- sleeve length: long sleeves
+- pattern: floral
+- neckline: round neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 22.09
+
+Customer C019
+- sleeve length: long sleeves
+- pattern: solid
+- neckline: v-neck
+- main fabric: polyester
+- wash care: hand wash
+- maximum price: 25.99
+
+Customer C040
+- sleeve length: short sleeves
+- pattern: floral
+- neckline: round neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 22.09
+
+Customer C054
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: v-neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 22.09
+
+Customer C009
+- sleeve length: long sleeves
+- pattern: floral
+- neckline: round neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 25.99
+
+Customer C022
+- sleeve length: long sleeves
+- pattern: solid
+- neckline: v-neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 22.09
+
+Customer C024
+- sleeve length: long sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 22.09
+
+Customer C026
+- sleeve length: long sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: polyester
+- wash care: hand wash
+- maximum price: 22.09
+
+Customer C052
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: v-neck
+- main fabric: cotton
+- wash care: machine wash
+- maximum price: 22.09
+
+Customer C041
+- sleeve length: short sleeves
+- pattern: floral
+- neckline: round neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 25.99
+
+Customer C059
+- sleeve length: short sleeves
+- pattern: solid
+- neckline: round neck
+- main fabric: polyester
+- wash care: hand wash
+- maximum price: 25.99
+
+Customer C002
+- sleeve length: long sleeves
+- pattern: floral
+- neckline: v-neck
+- main fabric: polyester
+- wash care: hand wash
+- maximum price: 22.09
+
+Customer C047
+- sleeve length: short sleeves
+- pattern: floral
+- neckline: round neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 25.99
+
+Customer C007
+- sleeve length: long sleeves
+- pattern: floral
+- neckline: v-neck
+- main fabric: cotton
+- wash care: hand wash
+- maximum price: 25.99
+
+Customer C016
+- sleeve length: long sleeves
+- pattern: solid
+- neckline: v-neck
+- main fabric: polyester
+- wash care: machine wash
+- maximum price: 22.09
+
+Customer C034
+- sleeve length: short sleeves
+- pattern: floral
+- neckline: v-neck
+- main fabric: polyester
+- wash care: hand wash
+- maximum price: 22.09
+
+Return only one JSON object with an "answers" array. Each element has exactly "id" (the customer ID) and "answers" (six A/B strings, in question order). Give every listed shopper once and no explanations.

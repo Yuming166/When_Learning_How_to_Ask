@@ -1,0 +1,73 @@
+{
+  "completed_beijing": "2026-11-05T14:15:38+08:00",
+  "elapsed_seconds": 2.0005117000546306,
+  "python_version": "3.13.3",
+  "libraries": {
+    "numpy": "2.4.3",
+    "pandas": "2.2.3",
+    "pyarrow": "23.0.1"
+  },
+  "execution": "Pure Python; exact truthful field disclosures; no LLM calls; no task tuning",
+  "scope": "Rerun of frozen common-six-field protocol; same menus and priors, not a new independent sample",
+  "fields": [
+    "sleeve_length",
+    "pattern",
+    "neckline",
+    "fabric",
+    "wash_care",
+    "budget"
+  ],
+  "methods": [
+    "Fixed order",
+    "Profile information gain",
+    "Decision-set information gain",
+    "One-step decision value"
+  ],
+  "budgets": [
+    3,
+    4,
+    5
+  ],
+  "menus_per_dataset": 576,
+  "items_per_menu": 16,
+  "profiles_per_menu": 64,
+  "seeds": [
+    20261105541,
+    20261105542,
+    20261105543
+  ],
+  "menu_budget_records": 3456,
+  "method_menu_budget_records": 13824,
+  "execution_failures": 0,
+  "missing_method_cells": 0,
+  "protocol_matches_frozen": true,
+  "entire_results_match_frozen": true,
+  "max_abs_difference_from_previous_run": 0.0,
+  "independent_check_max_abs_error": 2.220446049250313e-16,
+  "protocol_sha256": "0fce7c8af9d8cd2f7838a5166dbcc9463b5cf941b95cdc5db48a785098de7e5d",
+  "results_sha256": "148079450f476d5ae8666d592f3c97d960abf1a7f072ccd92258514a9a12308b",
+  "source_code_sha256": {
+    "cross_catalogue.py": "6b013282b3eca1a4301a7105a14ffd80f704de7c1a9f00bc8a167d4d6c0a8eef",
+    "budget_comparison.py": "c4e0337dfd47499b750e80aee6583550f3032ca6ad355f802f7e43c9b4eb8b5c",
+    "ranking_search.py": "e09a8bdaeff300cc85eb7a06ac469932753e75153056f7beb451b924256fe7ff",
+    "richer_preferences.py": "dd2fa2b85df82ccf8cae451386ac9468f231bd85040a33e0da5c5021ab119fa8"
+  },
+  "data_sources": {
+    "Myntra_Structured_Catalogue_v01.zip": "ac7c38ccbfa446ec587b6e7ce16296be4af82333ef51056267aebba3e0bdeef6",
+    "实验商品.parquet": "e455465193984e8ca922000876a25f3d63d01d9bea1c2d576d75e5530c0d7d78"
+  },
+  "product_splits": {
+    "Myntra": {
+      "development": 228,
+      "validation_reserved": 52,
+      "test_reserved": 37
+    },
+    "Amazon": {
+      "development": 237,
+      "validation_reserved": 42,
+      "test_reserved": 49
+    }
+  },
+  "xlsx_first_run_completed_beijing": "2026-11-05T14:09:04+08:00",
+  "retained_originals": "Existing project code, frozen protocol, frozen results, main.tex and source ZIP are unchanged."
+}

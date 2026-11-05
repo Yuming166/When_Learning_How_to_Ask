@@ -1,0 +1,160 @@
+{
+  "repository": "https://github.com/Yuming166/When_Learning_How_to_Ask",
+  "commit": "6a7e00626147ab64a3ca74d8c542262680747adb",
+  "source": "experiments/fashion_evidence_snapshot_20261105/results/RECOMPUTED.json",
+  "historical_myntra_luna": {
+    "unique_profiles": 48,
+    "curves": {
+      "fixed_order": {
+        "0": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "1": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "2": {
+          "correct": 150,
+          "n": 280,
+          "accuracy": 0.5357142857142857
+        },
+        "3": {
+          "correct": 150,
+          "n": 280,
+          "accuracy": 0.5357142857142857
+        },
+        "4": {
+          "correct": 181,
+          "n": 280,
+          "accuracy": 0.6464285714285715
+        },
+        "5": {
+          "correct": 212,
+          "n": 280,
+          "accuracy": 0.7571428571428571
+        },
+        "6": {
+          "correct": 274,
+          "n": 280,
+          "accuracy": 0.9785714285714285
+        }
+      },
+      "profile_ig": {
+        "0": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "1": {
+          "correct": 154,
+          "n": 280,
+          "accuracy": 0.55
+        },
+        "2": {
+          "correct": 168,
+          "n": 280,
+          "accuracy": 0.6
+        },
+        "3": {
+          "correct": 158,
+          "n": 280,
+          "accuracy": 0.5642857142857143
+        },
+        "4": {
+          "correct": 180,
+          "n": 280,
+          "accuracy": 0.6428571428571429
+        },
+        "5": {
+          "correct": 208,
+          "n": 280,
+          "accuracy": 0.7428571428571429
+        },
+        "6": {
+          "correct": 278,
+          "n": 280,
+          "accuracy": 0.9928571428571429
+        }
+      },
+      "decision_set_ig": {
+        "0": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "1": {
+          "correct": 154,
+          "n": 280,
+          "accuracy": 0.55
+        },
+        "2": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "3": {
+          "correct": 167,
+          "n": 280,
+          "accuracy": 0.5964285714285714
+        },
+        "4": {
+          "correct": 205,
+          "n": 280,
+          "accuracy": 0.7321428571428571
+        },
+        "5": {
+          "correct": 246,
+          "n": 280,
+          "accuracy": 0.8785714285714286
+        },
+        "6": {
+          "correct": 273,
+          "n": 280,
+          "accuracy": 0.975
+        }
+      },
+      "decision_value": {
+        "0": {
+          "correct": 152,
+          "n": 280,
+          "accuracy": 0.5428571428571428
+        },
+        "1": {
+          "correct": 154,
+          "n": 280,
+          "accuracy": 0.55
+        },
+        "2": {
+          "correct": 160,
+          "n": 280,
+          "accuracy": 0.5714285714285714
+        },
+        "3": {
+          "correct": 202,
+          "n": 280,
+          "accuracy": 0.7214285714285714
+        },
+        "4": {
+          "correct": 244,
+          "n": 280,
+          "accuracy": 0.8714285714285714
+        },
+        "5": {
+          "correct": 265,
+          "n": 280,
+          "accuracy": 0.9464285714285714
+        },
+        "6": {
+          "correct": 278,
+          "n": 280,
+          "accuracy": 0.9928571428571429
+        }
+      }
+    }
+  },
+  "scope": "Historical six-field Myntra development study: 48 prescribed profiles and 280 cases. These results are retained separately; they are not inserted into the new matched-protocol Luna table.",
+  "erratum": "# Correction to the historical Luna 48-profile report\n\nThe archived report says that the sole invalid answer, `A-P10__r1__pattern`,\ncontained out-of-vocabulary `dyed` and `yoke design` labels. That diagnosis was\nincorrect: both labels occur in the supplied profile. The raw answer encoded\nall numeric scores as JSON strings (for example `\"4\"` rather than `4`), and the\nfrozen validator returned `score_domain`. No coercion or retry was performed.\n\nThe original report remains archived verbatim for provenance. This correction\nchanges the explanation only: 288 calls, 287 valid answers, one invalid answer,\nall method outcomes, full denominators and confidence intervals are unchanged.\nThe revised manuscript uses the corrected diagnosis. Raw profiles, prompts and\nmodel event streams remain local and are not included in this outcome release.\n"
+}

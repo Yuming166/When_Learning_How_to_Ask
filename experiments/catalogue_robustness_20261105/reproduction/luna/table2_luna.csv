@@ -1,0 +1,7 @@
+﻿Dataset,Questions,Fixed order,Profile information gain,Decision-set information gain,One-step decision value
+Myntra,3,68.06,69.79,76.43,84.89
+Myntra,4,80.39,82.00,87.40,91.80
+Myntra,5,95.02,94.45,95.53,97.45
+Amazon,3,79.20,70.84,79.59,82.05
+Amazon,4,85.43,80.50,85.89,88.17
+Amazon,5,96.61,88.34,94.52,97.81

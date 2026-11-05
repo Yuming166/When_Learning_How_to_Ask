@@ -1,0 +1,263 @@
+\documentclass[sigconf,anonymous,review]{acmart}
+\usepackage{amsmath,booktabs,array,tabularx}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcommand{\tablehead}[1]{\shortstack[l]{#1}}
+\newcommand{\tablenote}[1]{\par\smallskip{\footnotesize\raggedright\textit{Notes.} #1\par}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\DeclareMathOperator{\kl}{kl}
+\DeclareMathOperator{\Alt}{Alt}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\acmConference[WWW '27]{The ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\acmYear{2027}
+\copyrightyear{2027}
+\acmDOI{}
+\acmISBN{}
+\title{When Does Learning How to Ask Cost More in Interactive Recommendation?}
+\begin{document}
+\begin{abstract}
+A shopping assistant must decide which preferences matter and how reliably a visitor can express them. We study the interaction cost of identifying a best item when question formats have unknown, group-shared reliability. Relative to an oracle knowing only the better formats, we characterize when format uncertainty increases the leading query-cost coefficient. The boundary depends jointly on decision-changing preference sets and reliability sharing. We connect this benchmark to a joint-belief decision-value acquisition loop with an independent certificate. A robust example and 264 controlled trajectories show that one-step value can overlook questions that improve later questions. Catalogue experiments cover six or nine preference fields, with robustness checks across question budgets and datasets. On 576 new menus under a development-selected synthetic population, one-step decision value exceeds decision-set information gain by 2.26 percentage points at four queries, chiefly through correct no-purchase decisions. These findings distinguish learning reliable question formats from allocating a short interaction budget to an acceptable recommendation.
+\end{abstract}
+\ccsdesc[500]{Information systems~Recommender systems}
+\ccsdesc[300]{Computing methodologies~Active learning settings}
+\keywords{Interactive recommendation, preference elicitation, unknown reliability, fixed confidence}
+\maketitle
+\section{Introduction}
+A shopping assistant has a short conversation in which to make a useful recommendation. A visitor may find a question about wearing a garment to work easier than a question about its technical attributes. But learning this does not automatically help: the next reliable answer must distinguish products the visitor might actually buy. On a Web marketplace, the catalogue determines which uncertainties matter, while the interaction determines how those uncertainties can be resolved.
+
+Existing work studies usage-related questions~\cite{r8}, Bayesian preference elicitation~\cite{r7}, and the complexity of conversational recommendation~\cite{r4}. Expected value of information has long been used to choose recommendation queries~\cite{r1}. Related work studies decision-equivalence classes under noise \cite{r10,r11}, sequential experimental design \cite{r12}, and design for downstream decision utility \cite{r13}. A different issue remains when the observation channel itself is unknown: when does discovering a reliable way to ask add unavoidable interaction cost? This matters for assistants that must recommend without eliciting and repeatedly verifying a complete profile. We model reliability sharing as a hypothesis to analyze, not an established property of shoppers.
+
+We compare a learner with an information-matched oracle. Both lack the preferences and response accuracies; only the oracle knows the better format in each group. Recovering a whole profile requires resolving every coordinate. Finding one best item requires ruling out only combinations that change the winner. We show that this distinction makes the cost of learning how to ask depend on catalogue geometry and sharing jointly, rather than group sizes alone. The general KL framework is established~\cite{r3,r5}; our structural contribution is an exact zero-versus-positive premium criterion and an interpretable unique-allocation corollary.
+\par
+Our second contribution examines decision-directed acquisition and its limits. We instantiate established one-step value of information \cite{r1} with joint preference--reliability inference and a separate recommendation certificate. A within-model example shows that a question can improve how to ask next while leaving the immediate recommendation unchanged; matched experiments reveal widespread zero-value choices. We then study two finite-budget settings on real product menus, with six or nine preference fields and multiple acceptable decisions. After development selection, new-menu confirmation in the nine-preference setting finds gains over decision-set information gain and a trained fixed question set, mainly in identifying when no purchase is suitable. The channel and catalogue experiments distinguish the cost of learning reliable formats from the practical value of decision-directed querying under a specified response model.
+\section{Reliable Best-Item Elicitation}
+\emph{Decision and observations.} A known finite catalogue has utilities $U_i(\theta)=b_i+v_i^\top\theta$, with fixed unknown $\theta\in\{-1,+1\}^d$. Assume a unique best item $f(\theta)$ at every sign vector and a nonconstant decision map. A known partition $S_1,\ldots,S_G$ groups preferences whose more reliable question format $z_g\in\{0,1\}$ is shared. A unit-cost query $(j,m)$ asks about the same preference in format $m$, returning
+\begin{equation}\Pr_h(Y=\theta_j\mid j,m)=\begin{cases}p,&m=z_{g(j)},\\q,&m\ne z_{g(j)},\end{cases}\quad \tfrac12\le q<p\le1-\eta,\end{equation}
+for known $\eta>0$. The rates are unknown and common across groups; responses are fresh and conditionally independent. Groups are given, not learned. We include no calibration, direct format reports or whole-profile disclosures. The two formats must preserve the underlying decision and access to evidence. These are modelling assumptions, not empirical properties of conversational users.
+
+\emph{A matched information benchmark.} A policy is uniformly $\delta$-correct if it terminates and returns $f(\theta)$ with probability at least $1-\delta$ for every allowed $h=(\theta,z,p,q)$. Write $P_h^e$ for the Bernoulli law of action $e=(j,m)$, and let $\Alt(h)$ contain states with a different best item. Define
+\begin{equation}K=\min_{x\ge0}\left\{\sum_e x_e:\inf_{h'\in\Alt(h)}\sum_e x_e\kl(P_h^e,P_{h'}^e)\ge1\right\}.\end{equation}
+Alternative rates use the closure $1/2\le q'\le p'\le1-\eta$. The oracle coefficient $K_{\rm or}$ additionally fixes $z'=z$; its rates remain unknown. These are pointwise coefficients at fixed dimension and fixed true rates.
+\begin{proposition}[Information benchmark]
+Every uniformly $\delta$-correct policy satisfies $\liminf_{\delta\to0}\mathbb E_h\tau/\log(1/\delta)\ge K$. Ideal forced-sample joint estimation and information tracking with vanishing actual approximation errors attain equality; the oracle analog holds for $K_{\rm or}$.
+\end{proposition}
+\begin{proof}[Proof sketch] Stopped-transcript change of measure gives (2). For attainment, force $\Omega(\sqrt t)$ samples of every action, estimate the joint state from forced data, and track the optimizer set with $o(t)$ discrepancy. Local feasibility repair and uniform likelihood concentration yield a summable tail beyond $(K+\epsilon)\log(1/\delta)$, giving the expected-time upper bound~\cite{r3}. Fixed solver tolerances do not meet this ideal contract.\end{proof}
+Let $\theta^F$ reverse coordinates in $F$. The minimal decision-changing sets
+\begin{equation}\mathcal H=\min_{\subseteq}\{F\subseteq[d]:f(\theta^F)\ne f(\theta)\}\end{equation}
+are the alternatives relevant to (2). Indeed, every wrong decision contains a minimal such set, and deleting other reversals weakly reduces KL: for $r,x\ge1/2$, $\kl(r,1-x)-\kl(r,x)=(2r-1)\log(x/(1-x))\ge0$. For $w\in\Delta_d$ put $w(F)=\sum_{j\in F}w_j$ and
+\begin{equation}\begin{split}\rho&=\max_{w\in\Delta_d}\min_{F\in\mathcal H}w(F),\\\psi_p(s)&=H_b\!\left(\max\{\tfrac12,p-(2p-1)s\}\right)-H_b(p).\end{split}\end{equation}
+Here $H_b$ is binary entropy in nats. The reciprocal cover value $1/\rho$ is a fractional certificate quantity~\cite{r9}; we do not introduce it.
+\section{When Is Learning the Format Free?}
+\begin{proposition}[Unknown-rate oracle] The oracle coefficient is $K_{\rm or}=1/\psi_p(\rho)$. Every optimal oracle allocation uses only the true better formats.\end{proposition}
+\begin{proof} Set $\lambda=(2q-1)/(2p-1)<1$. A binary symmetric contraction maps $p$ to $q$ and any candidate $u\ge1/2$ to $v=1/2+\lambda(u-1/2)$, including sign complements. Data processing bounds each worse-format divergence by its better-format counterpart. Aggregate both formats' weights by coordinate, choose a least-covered $F$, and fit $u=\max\{1/2,p-(2p-1)w(F)\}$. Feasibility requires $w(F)>0$, since an unqueried wrong set is indistinguishable at the true rates. The resulting information is at most $\psi_p(w(F))\le\psi_p(\rho)$. Better-only sampling at cover-optimal weights attains the bound. Any positive worse-format mass makes the contraction strict since $u<p$, excluding it at equality.\end{proof}
+For $A\subseteq[G]$ and $F\in\mathcal H$, define $W_A=\sum_{g\in A}w(S_g)$, $T_A=\sum_{g\in A}w(F\cap S_g)$, $t=w(F)$, and
+\begin{equation}\begin{split}E_p(w;F,A)={}&W_A\psi_p(T_A/W_A)\\&+(1-W_A)\psi_p((t-T_A)/(1-W_A)),\end{split}\end{equation}
+\begin{equation}J_p(w)=\min_{F\in\mathcal H,\,A\subseteq[G]} E_p(w;F,A),\end{equation}
+with zero-mass blocks contributing zero.
+\begin{theorem}[Catalogue--sharing boundary] For every allowed $q<p$,
+\begin{equation}K=K_{\rm or}\ \Longleftrightarrow\ \exists w\in\Delta_d:\ J_p(w)\ge\psi_p(\rho).\end{equation}
+Failure of the criterion implies a strictly positive premium. The equality boundary is independent of $q$.
+\end{theorem}
+\begin{proof} For better-only weights, a group pool of mass $W$ and reversed fraction $s$ contributes $W[(1-s)\kl(p,u)+s\kl(p,1-u)]$. Minimizing over $u\ge1/2$ gives $W\psi_p(s)$, attained at $\max\{1/2,p-(2p-1)s\}\le p$. A candidate type pattern splits groups into two pools sharing two rates. Fit the pools independently and assign the larger fitted rate to $p'$; both orientations are allowed. Thus (6) is exactly their least alternative information. By Proposition 2, equality requires a better-only oracle optimum. Scaling its weights by $1/\psi_p(\rho)$ is feasible for (2) exactly when (7) holds. Conversely such a witness attains the oracle bound. Closed information constraints and compact bounded-cost allocation sets exclude unattained limiting equality. Only $p$, not $q$, enters this test.\end{proof}
+This is convex feasibility: each entropy perspective in (5) is concave in $w$. For fixed $F,w$, sort used groups by $w(F\cap S_g)/w(S_g)$; a minimizing two-pool assignment is a prefix cut, since the rate-assignment cost difference is affine and monotone in this fraction. Hence evaluating $J_p(w)$ uses $O(|\mathcal H|G\log G)$ operations after mass preprocessing. The flip family may be exponential; this is not a polynomial-time catalogue algorithm. Outside equality, an optimal learner may use both formats, and $1/\max_w J_p(w)$ need not equal $K$.
+\begin{corollary}[A unique oracle allocation] Suppose $\rho<1/2$, and the cover-optimal coordinate allocation $w^*$ is unique. Then $K=K_{\rm or}$ exactly when $\operatorname{supp}(w^*)$ lies in one sharing group.\end{corollary}
+\begin{proof} Any equality witness lies in $\mathcal W=\{w\in\Delta_d:w(F)\ge\rho\ \forall F\}$. For binding $F$, strict entropy concavity below $1/2$ forces $w(F\cap S_g)=\rho w(S_g)$ for every used group; otherwise isolating that group reduces (5) below $\psi_p(\rho)$. Each normalized group restriction $v_g=w|_{S_g}/w(S_g)$ preserves all binding constraints. Small positive and negative moves along $v_g-w$ preserve the slack constraints and support. Uniqueness therefore forces $v_g=w$, possible only with one used group. Conversely a cover-optimal allocation in one group attains (7).\end{proof}
+\emph{Why group sizes do not suffice.} Take $U_0=0$, $U_1=3\theta_1+2\theta_2+2\theta_3+\theta_4+\theta_5$ at $\theta=(+1)^5$. All cube winners are unique, and $\mathcal H=\{12,13,234,235,145\}$, with $12=\{1,2\}$, etc. Primal weights $(3,2,2,1,1)/9$ and dual set weights $(1,1,2,2,3)/9$ certify $\rho=5/9$, so $K_{\rm or}=1/\kl(p,1/2)$. In this saturated regime equality requires some group to support weights covering every $F$ by at least $1/2$: otherwise isolating a group with a smaller reversed fraction strictly lowers its entropy cut. For groups $(12,345)$, uniform weight on $12$ suffices. For $(14,235)$, the restricted cover values are $0$ and $1/3$, so the premium is positive. Both partitions have sizes $(2,3)$.
+\section{Decision Value and Reliable Acquisition}
+\emph{A common decision objective.} Let $\pi_t$ be a joint belief over $h=(\theta,z,p,q)$ and $V(\pi)=\max_i\Pr_\pi(f(\theta)=i)$. A query's decision value is its expected reduction in one-step decision error:
+\begin{equation}\operatorname{DV}_\pi(e)=\sum_y\Pr_\pi(y\mid e)V(\pi^{e,y})-V(\pi).\end{equation}
+This is one-step value of information under 0--1 loss~\cite{r1}, not utility-regret reduction. Decision-IG instead maximizes $I_\pi(f(\theta);Y\mid e)$.
+\emph{Link to the information benchmark.} Equation (2) separates states with different optimal recommendations. Under the same terminal loss $L(i,h)=\mathbf 1\{f(\theta)\ne i\}$, the posterior Bayes risk is $\mathcal R(\pi)=1-V(\pi)$, so (8) equals $\mathcal R(\pi)-\mathbb E_y\mathcal R(\pi^{e,y})$. DV therefore implements the decision-focused objective as a one-step rule. Theorem 3 characterizes the cost of learning reliable formats; a one-step rule can overlook their value for later questions. In the fashion task, replacing the loss by $\mathbf 1\{i\notin A(h)\}$ gives the same DV criterion for acceptable recommendations.
+
+Our implementation uses the same joint likelihood, uniform sign/type prior, and order-six quadrature approximation to a uniform ordered-rate prior for both scores. It is exact for that finite belief up to floating-point error, not for the continuous posterior. Both retain replies, revise types and share forced exploration. DV ties choose the least-sampled action, then its fixed index. Decision-KL instead tracks a numerical optimizer of (2) at a joint maximum-likelihood estimate.
+
+\emph{Independent certification.} Set $\ell_t(i)=\sup_{h:f(\theta)=i}\log L_t(h)$. For any predictable allocator, we certify its maximizing item $\hat i_t$ when
+\begin{equation}\ell_t(\hat i_t)-\max_{i\ne\hat i_t}\ell_t(i)>\log(1/\delta)+\sum_e\log(N_e(t)+1).\end{equation}
+Indeed, each action's saturated Bernoulli likelihood is at most $N_e+1$ times its Beta$(1,1)$ mixture likelihood. A wrong certificate puts the true likelihood in a competing class, so (9) forces the product-mixture likelihood ratio above $1/\delta$. Ville's inequality bounds this event by $\delta$. Exact rational fits and outward log intervals implement the gate; unresolved intervals mean continue or abstain at the cap. This gives safety, not asymptotic efficiency or a stopping-time bound for DV.
+
+\emph{Why the connection can fail.} DV is nonnegative and equals zero precisely when all positive-probability reply branches share a maximizing recommendation: subtract any prior maximizer inside (8) and each summand is nonnegative. Consequently, learning reliability can have zero immediate value. The general myopia limitation is known~\cite{r1,r10,r11}; here it occurs inside the shared-format channel itself. Take $\eta=0.05$, $U_\pm=\pm\theta_1$, one group $\{1,2\}$, and independent beliefs
+\[\Pr(\theta_1=+)=0.77,\quad \Pr(\theta_2=+)=0.99,\quad\Pr(z=0)=0.5,\]
+with equal mass on $(p,q)=(0.9,0.6)$ and $(0.88,0.62)$. All four one-query values are zero. Querying $(2,0)$, then $(1,0)$ after $+$ or $(1,1)$ after $-$, and recommending the latter reply's sign succeeds with probability $0.788612$. Its gain $0.018612$ remains at least $0.011612$ when each of the eight prior/rate scalars changes by less than $0.001$: a coupling changes two-query success by at most $0.006$ and initial success by $0.001$. The smallest unnormalized one-query winner margin is $0.02$ and changes by at most $0.01$, so every one-query value stays zero. Coordinate 2 is auxiliary; this admissible belief is not claimed reachable from our experimental prior. Exact rational enumeration accompanies the proof.
+\par
+\emph{Structured disclosure adapter.} For an acceptable-item set $A(h)$, define $V$ as the largest posterior probability that a chosen action belongs to $A(h)$. Acceptance probabilities may overlap. NO\_BUY is correct exactly when no purchase is acceptable; it differs from uncertified abstention. The six-field study imputes disclosed fields into prior draws; the nine-preference study conditions exactly over 512 binary profiles, including under known symmetric answer error. Both evaluate finite-budget decision accuracy. The singleton premium theorem and the binary-channel certificate concern the preceding model \cite{r2}.
+\section{Evaluation and Robustness Checks}
+\begin{table}[t]
+\caption{Mean queries to certify the best item at $R=9$ (lower is better). Six paired runs per row.}
+\label{tab:channel}
+\centering\small
+\begin{tabularx}{\columnwidth}{@{}Lrrrr@{}}\toprule
+\tablehead{Catalogue /\\extra cost} & \tablehead{Decision\\value} & \tablehead{Decision\\KL} & \tablehead{Best-item\\info. gain} & \tablehead{Round\\robin}\\\midrule
+Weighted (5D) / zero & 560.7 & $625.5^\dagger$ & \textbf{250.0} & 560.7\\
+Weighted (5D) / positive & 483.7 & $631.3^\dagger$ & \textbf{272.0} & 483.7\\
+Three-item (6D) / zero & 628.7 & 290.2 & \textbf{273.7} & 628.7\\
+Three-item (6D) / positive & 698.8 & $888.0^\dagger$ & \textbf{503.7} & 698.8\\\bottomrule
+\end{tabularx}
+\tablenote{Extra cost is $K-K_{\rm or}$. DV is one-step decision value. Decision-IG is best-item information gain; Decision-KL tracks the KL allocation. All methods share exploration, response sequences and certification. Failed runs cost 2,500 queries; $\dagger$ denotes one failure. Bold marks the lowest cost.}
+\end{table}
+
+\emph{Matched binary-channel experiment.} We freeze four anchor cells: the weighted-five catalogue above under its two size-matched partitions, and a six-coordinate three-item catalogue with unique cover weights $(3,2,2,1,1,4)/13$, under one group versus $(123,456)$. The latter has $\rho=5/13$, so Corollary 4 separates zero and positive premium. Exact rational checks verify all 96 cube winners and cover witnesses. We fix $p=0.8,q=0.6,\theta=(+1)^d$ and initially $z=0$. Six fresh tapes per catalogue are paired across partitions, four allocators and $R=\log(1/\delta)\in\{3,9\}$, giving 192 paths. Three predeclared reversed/mixed-type cells at $R=9$ add 72 paths. All methods share forced exploration, per-action response tapes, the gate and a 2,500-query cap. No calibration or model calls occur.
+
+Across 264 attempted paths, 257 certify, none incorrectly; seven KL paths fail and none cap. Adaptive histories and all terminal certificates replay. The KL failures reject solver weights with tiny negative roundoff; they are retained, so KL comparisons concern this implementation, including its failures. DV has zero gain on 30,864/30,936 nonforced choices (99.77\%) and matches RR stopping costs on all 66 paired worlds, although only 46 entire histories coincide. Decision-IG is cheaper: at $R=9$, the pooled anchor IG-minus-DV cost is $-268.1$ queries (paired 95\% interval $[-303.8,-236.3]$). The type audit gives $-279.5$ ($[-343.5,-220.8]$). Resampling preserves each catalogue/tape cluster and weights catalogues equally; these are conditional descriptive intervals on two fixed catalogues, not 264 independent users. No empirical oracle was run. These results reject a general DV-efficiency claim and illustrate the distinction between immediate value and reliable evidence accumulation.
+\par
+\emph{Real-catalogue recommendation: two settings.} Both use Myntra products \cite{r6}, synthetic preferences and acceptable-decision accuracy. Within each, methods share menus, prior, answers, inference and ties; NO\_BUY is correct when no product is acceptable.
+
+The \emph{six-field setting} retains 471 products: 338 development products form 35 menus of 5--10 items; validation/test reserve 78/55 products. Five attributes plus a purchase threshold define six query units, with hard exclusions and imputed beliefs.
+
+The \emph{nine-preference setting} uses sixteen-item women's-kurta menus, eight binary attribute preferences and budget. Exact inference covers 512 independent-prior profiles. Acceptance requires meeting the budget and weighted matching fraction minus 0.05 times price/budget $\geq0.55$; occasion, length and shape weigh 2, others 1.
+\begin{table}[t]
+\centering\small
+\caption{Python simulation across datasets and query budgets: acceptable-decision accuracy (\%, higher is better).}
+\label{tab:python-six-field}
+\begin{tabularx}{\columnwidth}{@{}Lrrrrr@{}}\toprule
+Dataset & Queries & \tablehead{Fixed\\order} & \tablehead{Profile\\IG} & \tablehead{Set\\IG} & \tablehead{One-step\\DV}\\\midrule
+Myntra & 3 & 68.06 & 69.79 & 76.43 & \textbf{84.89}\\
+Myntra & 4 & 80.39 & 82.00 & 87.40 & \textbf{91.80}\\
+Myntra & 5 & 95.02 & 94.45 & 95.53 & \textbf{97.45}\\
+\midrule
+Amazon & 3 & 79.20 & 70.84 & 79.59 & \textbf{82.05}\\
+Amazon & 4 & 85.43 & 80.50 & 85.89 & \textbf{88.17}\\
+Amazon & 5 & 96.61 & 88.34 & 94.52 & \textbf{97.81}\\
+\bottomrule\end{tabularx}
+\tablenote{IG: information gain; Set IG: decision-set IG; DV: decision value. Each source uses 576 sixteen-item menus and all 64 profiles, weighted by the same prior. Five common attributes plus budget define six questions. All methods share menus, inference, acceptance and ties; replies reveal the true queried field.}
+\end{table}
+
+\emph{Development and confirmation.} Nine-preference development selection maximized the minimum adjacent gap in DV $>$ set IG $>$ profile IG $>$ fixed, positive under both seeds. The frozen task received 576 new menus across three seeds, reusing 24 reserved products.
+
+\emph{Primary results.} Six-field test DV gains 0.5 points (profile-cluster 95\% interval [$-$2.6, 3.6]); nine-preference confirmation gains 2.26 [2.07, 2.46]. Trained fixed, menu-best fixed and optimal four-step policies score 79.31\%, 79.79\% and 83.60\%.
+
+
+
+\emph{Robustness across datasets and budgets.} A fixed common-field protocol uses five attributes plus budget and 576 sixteen-item menus per source. DV ranks first on Myntra and Amazon~\cite{r14} at all three budgets (Table~\ref{tab:python-six-field}), with no retuning across sources.
+
+\emph{Mechanism.} Nine-preference DV/set-IG accuracy is 67.10/56.28\% when no purchase is suitable and 85.06/84.72\% otherwise. Its gains at three/four/five queries are 3.32/2.26/1.40 points. Table~\ref{tab:luna-six-field} separately tests robustness to model-generated field answers.
+
+\begin{table}[t]
+\centering\small
+\caption{GPT-6 Luna customer answer banks: acceptable-decision accuracy (\%, higher is better).}
+\label{tab:luna-six-field}
+\begin{tabularx}{\columnwidth}{@{}Lrrrrr@{}}\toprule
+Dataset & Queries & \tablehead{Fixed\\order} & \tablehead{Profile\\IG} & \tablehead{Set\\IG} & \tablehead{One-step\\DV}\\\midrule
+Myntra & 3 & 68.06 & 69.79 & 76.43 & \textbf{84.89}\\
+Myntra & 4 & 80.39 & 82.00 & 87.40 & \textbf{91.80}\\
+Myntra & 5 & 95.02 & 94.45 & 95.53 & \textbf{97.45}\\
+\midrule
+Amazon & 3 & 79.20 & 70.84 & 79.59 & \textbf{82.05}\\
+Amazon & 4 & 85.43 & 80.50 & 85.89 & \textbf{88.17}\\
+Amazon & 5 & 96.61 & 88.34 & 94.52 & \textbf{97.81}\\
+\bottomrule\end{tabularx}
+\tablenote{Same menus, profiles, methods and scoring as Table~\ref{tab:python-six-field}. Eight fresh batches contain 16 prescribed shoppers each. Luna supplies six field answers per shopper; replay reveals only queried fields. All 768 answers match the cards, so both tables coincide. This tests the structured-answer interface.}
+\end{table}
+
+\section{Discussion}
+
+The theory characterizes the cost of unknown, shared question-format reliability. The matched channel experiment studies acquisition in that model and exposes one-step myopia. The fashion experiments evaluate two finite-budget settings with specified response models and multiple acceptable decisions. The common-field comparison preserves the lead across datasets and query budgets; the nine-preference gain comes chiefly from correct no-purchase decisions. They do not estimate the asymptotic oracle premium. Real product records anchor the menus, while preferences and answers remain synthetic. Together, the results identify distinct roles for learning reliable formats and directing limited queries toward a final decision.
+\begin{thebibliography}{14}
+
+\bibitem{r1} Craig Boutilier, Richard S. Zemel, and Benjamin Marlin. 2003. \href{https://www.cs.toronto.edu/kr/papers/acf.pdf}{Active Collaborative Filtering.} In \emph{Proceedings of the Nineteenth Conference on Uncertainty in Artificial Intelligence}. 98--106. 
+\bibitem{r2} R\'emy Degenne and Wouter M. Koolen. 2019. \href{https://papers.neurips.cc/paper_files/paper/2019/hash/60cb558c40e4f18479664069d9642d5a-Abstract.html}{Pure Exploration with Multiple Correct Answers.} In \emph{Advances in Neural Information Processing Systems}, Vol. 32. 
+\bibitem{r3} Aditya Deshmukh, Srikrishna Bhashyam, and Venugopal V. Veeravalli. 2019. \href{https://arxiv.org/abs/1910.12697}{Sequential Controlled Sensing for Composite Multihypothesis Testing.} \emph{arXiv preprint arXiv:1910.12697}. 
+\bibitem{r4} Tommaso Di Noia, Francesco Donini, Dietmar Jannach, Fedelucio Narducci, and Claudio Pomo. 2022. \href{https://doi.org/10.1016/j.ins.2022.07.169}{Conversational Recommendation: Theoretical Model and Complexity Analysis.} \emph{Information Sciences} 614, 325--347. 
+\bibitem{r5} Aur\'elien Garivier and Emilie Kaufmann. 2016. \href{https://proceedings.mlr.press/v49/garivier16a.html}{Optimal Best Arm Identification with Fixed Confidence.} In \emph{Proceedings of the 29th Annual Conference on Learning Theory}, PMLR 49, 998--1027. 
+\bibitem{r6} Gssmc. n.d. \href{https://huggingface.co/datasets/Gssmc/myntra_dataset}{Myntra Dataset.} Hugging Face dataset repository.  Snapshot e3037c0, accessed November 2026; product records, not user preferences.
+\bibitem{r7} Shengbo Guo and Scott Sanner. 2010. \href{https://proceedings.mlr.press/v9/guo10b.html}{Real-time Multiattribute Bayesian Preference Elicitation with Pairwise Comparison Queries.} In \emph{Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics}, PMLR 9, 289--296. 
+\bibitem{r8} Ivica Kostric, Krisztian Balog, and Filip Radlinski. 2021. \href{https://research.google/pubs/soliciting-user-preferences-in-conversational-recommender-systems-via-usage-related-questions/}{Soliciting User Preferences in Conversational Recommender Systems via Usage-related Questions.} In \emph{Proceedings of the ACM Conference on Recommender Systems}. 
+\bibitem{r9} Raghav Kulkarni and Avishay Tal. 2013. \href{https://eccc.weizmann.ac.il/report/2013/168/}{On Fractional Block Sensitivity.} Technical Report TR13-168, Electronic Colloquium on Computational Complexity.  Revised November 30, 2013.
+\bibitem{r10} Daniel Golovin, Andreas Krause, and Debajyoti Ray. 2010. \href{https://proceedings.neurips.cc/paper_files/paper/2010/hash/1e6e0a04d20f50967c64dac2d639a577-Abstract.html}{Near-Optimal Bayesian Active Learning with Noisy Observations.} In \emph{Advances in Neural Information Processing Systems}, Vol. 23. 
+\bibitem{r11} Yuxin Chen, S. Hamed Hassani, and Andreas Krause. 2017. \href{https://proceedings.mlr.press/v54/chen17b.html}{Near-optimal Bayesian Active Learning with Correlated and Noisy Tests.} In \emph{Proceedings of the 20th International Conference on Artificial Intelligence and Statistics}, PMLR 54, 223--231. 
+\bibitem{r12} Adam Foster, Desi R. Ivanova, Ilyas Malik, and Tom Rainforth. 2021. \href{https://proceedings.mlr.press/v139/foster21a.html}{Deep Adaptive Design: Amortizing Sequential Bayesian Experimental Design.} In \emph{Proceedings of the 38th International Conference on Machine Learning}, PMLR 139, 3384--3395. 
+\bibitem{r13} Daolang Huang, Yujia Guo, Luigi Acerbi, and Samuel Kaski. 2024. \href{https://doi.org/10.52202/079017-3475}{Amortized Bayesian Experimental Design for Decision-Making.} In \emph{Advances in Neural Information Processing Systems}, Vol. 37. 
+\bibitem{r14} McAuley Lab. 2023. \href{https://amazon-reviews-2023.github.io/}{Amazon Reviews 2023.} UC San Diego. Product metadata.
+\end{thebibliography}
+% The four-page submission ends above. Define IncludeResearchAppendix
+% to compile the retained research appendix for internal use.
+\ifdefined\IncludeResearchAppendix
+\clearpage
+\onecolumn
+\appendix
+\section*{Appendix A. Additional Experimental Details}
+\subsection*{Detailed catalogue evaluation and budget extension}
+Nine-preference development search evaluated 160 then 576 settings, with overlap, varying prior probabilities, acceptance rules, weights and menu size. Eight candidates were expanded to 192 development menus each. The chosen setting maximized the smallest adjacent gap in the order DV, decision-set IG, profile IG, fixed order, requiring positive gaps under both development seeds. It was frozen before drawing 576 new confirmation menus, 192 per seed, from the previously used 24-product pool. This is conditional new-menu confirmation after task selection.
+
+On 576 menus from 44 reserved men's-kurta products, DV and decision-set IG score 83.17\% and 80.96\%. On all seventeen sixteen-item menus from seventeen reserved women's dresses they score 79.12\% and 73.45\%; the latter is a finite census without a sampling interval. Both categories preserve the four-policy ordering. These category pools were unused in earlier evaluation.
+
+The original nine-preference primary comparison uses 5,000 paired-menu bootstrap resamples within seed and 98.33\% marginal intervals for its three adjacent policy gaps: 2.26 [2.07, 2.46], 19.50 [19.09, 19.92] and 12.33 [12.15, 12.50] percentage points. The four-policy ordering holds in each seed. The trained fixed questions are fabric, occasion, garment length and shape. Purchase-suitable cases have mass 81.68\%, with DV/set-IG accuracy 85.06/84.72\%; remaining cases have accuracy 67.10/56.28\%. On 128 paired menus, independent known symmetric answer error rising from 0\% to 10\% changes DV accuracy from 82.10\% to 67.26\% and set IG from 79.88\% to 66.10\%. The three adjacent corrected intervals remain positive at 2.5\%, 5\% and 10\% error. Reserved category checks retain the four-policy ordering; the seventeen women's-dress menus form a census.
+
+The new three/four/five-query check fixes the nine-preference task, prior, acceptance rule, 576 menus and tie rules. All four original methods are evaluated at all three budgets. Fixed-order accuracy is 43.49/47.68/55.29\%; profile IG is 45.69/60.01/64.12\%; decision-set IG is 71.55/79.51/83.92\%; one-step DV is 74.88/81.77/85.32\%. Its intervals correct across three budget comparisons, separately from the original correction across three policy comparisons. Every original four-query menu result is reproduced to within $5.6\times10^{-16}$. Independent direct posterior-subset enumeration on one menu per seed at all three budgets differs by at most $3.4\times10^{-16}$. Complete per-menu results, frozen protocol and reproducible code accompany the source package.
+
+\subsection*{Common-field cross-catalogue checks}
+This post-confirmation diagnostic uses five common attributes (sleeve length, pattern, neckline, fabric and wash care) plus budget. It retains 317 eligible women's products from Myntra, with supplied development/validation/test counts 228/52/37, and 328 audited women's-clothing records from Amazon Reviews 2023, split 237/42/49. Amazon split assignment uses SHA256 of a fixed salt and product identifier, modulo 100: below 70 for development, below 85 for validation, otherwise test. Both catalogues had been available to earlier research; this diagnostic does not claim an untouched product population.
+
+The same protocol uses sixteen-item menus, 192 new menus under each of three fixed seeds per dataset, independent binary probabilities (0.50, 0.65, 0.40, 0.55, 0.60, 0.50), equal weights on five attributes, threshold 0.55, price penalty 0.05 and a hard budget ceiling. Each dataset supplies its two most frequent development attribute labels and median/75th-percentile development prices. The budget values are 824/1199 for Myntra and 22.09/25.99 for Amazon, in their respective source units. The price-to-budget ratio is dimensionless; no currency conversion is performed. Amazon fibre mixtures use the largest stated percentage, with alphabetical ties; pure cotton is merged with cotton, and viscose/rayon with viscose rayon. Crew and round neck and exact sleeve/wash synonyms are normalized. Other categories remain distinct. Normalization and all settings were fixed before evaluating outcomes, with no configuration search.
+
+\begin{center}
+\small\textbf{Common-field protocol: acceptable-decision accuracy (\%).}
+\par\medskip
+\begin{tabularx}{\textwidth}{@{}Lrrrrr@{}}\toprule
+Catalogue & Questions & Fixed order & Profile IG & Decision-set IG & One-step DV\\\midrule
+Myntra & 3 & 68.06 & 69.79 & 76.43 & \textbf{84.89}\\
+Myntra & 4 & 80.39 & 82.00 & 87.40 & \textbf{91.80}\\
+Myntra & 5 & 95.02 & 94.45 & 95.53 & \textbf{97.45}\\
+Amazon & 3 & 79.20 & 70.84 & 79.59 & \textbf{82.05}\\
+Amazon & 4 & 85.43 & 80.50 & 85.89 & \textbf{88.17}\\
+Amazon & 5 & 96.61 & 88.34 & 94.52 & \textbf{97.81}\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Five thousand paired-menu bootstrap resamples within seed, corrected for six dataset--budget comparisons, give DV-minus-set-IG intervals [7.79, 9.08], [3.96, 4.86], [1.67, 2.18] for Myntra and [2.12, 2.79], [1.98, 2.58], [2.95, 3.66] for Amazon. These intervals condition on fixed catalogue pools and synthetic preferences. All methods and all budgets are retained, including changes in the ordering of the baselines.
+
+\subsection*{Matched Luna answer-bank check}
+For direct comparison with the common-field Python table, eight fresh customer-only agents were requested as gpt-6-luna with low reasoning and no parent conversation. Four batches per source contain sixteen prescribed shoppers each, covering all 64 binary profiles in a frozen shuffled order. Each shopper supplies a bank of six A/B field answers. Only the selected answer is revealed to each recommendation policy. Agents see preference cards and questions, with no products, scoring rules, policy names or outcomes. Completed malformed responses are retained without repair; a path selecting an invalid answer is unsuccessful. One infrastructure attempt failed before producing any answer and was retried once with the same prompt. All 768 field answers match the cards. Offline replay on all 576 menus per source reproduces Table~\ref{tab:python-six-field}. Independent subset-conditioning replay agrees within $5.6\times10^{-16}$. This is a batched structured-answer check conditional on synthetic profiles. Requested model settings, prompts, literal model responses and hashes accompany the source.
+
+\subsection*{Additional model-answer banks}
+We collected 256 reset local-model requests: two checkpoints, two catalogue sources and all 64 binary profiles per source, with six field answers per request. The local Qwen-family checkpoint is a third-party modified 27.3B Q4\_K\_M model, tagged qwen38-codex:latest while reporting qwen35 architecture. The local Gemma-family checkpoint is tagged gemma4-e4b-q8kp:latest and reports gemma4 architecture, 7.5B and Q8\_0 quantization. These names identify local checkpoints, not verified unmodified official releases. Full model manifests, digests and server version are retained.
+
+Both use temperature zero, a fixed seed, thinking disabled, context length 2048, an output cap of 128 tokens and the same JSON schema. A prompt contains a prescribed preference card and six A/B questions. It contains no product menus, policy names, acceptance rules or comparative outcomes. The recommendation procedure sees only the selected field at each query; it never receives the complete card. One reset call supplies each answer bank. Completed malformed replies would be retained without retry and trajectories selecting an invalid reply would count as unsuccessful.
+
+For each checkpoint and each source, all 64 banks are valid and all 384 fields reproduce the prescribed profile. Thus each checkpoint has 768/768 correct fields across the two sources, and policy replay on all 576 menus per source exactly reproduces the program-generated accuracies at three, four and five queries. This is a structured-answer interface check, not an additional independent test of the simulated preference distribution or unrestricted conversational behavior. Neither new checkpoint is used to select the experimental parameters, questions or terminal recommendations.
+
+\subsection*{Earlier six-field study}
+The earlier experiment used 471 products with five core attributes. Its development split contained 338 products used through 35 menus of 5--10 items; validation and test reserved 78 and 55 products. Five attribute disclosures and a purchase threshold defined six query units. A deterministic evaluator handled hard exclusions, acceptable purchases, and NO\_BUY. Preferences were synthetic. Its practical belief replaced disclosed fields in independent prior draws, an imputation approximation. This design differs from the exact finite-profile posterior in the new experiment.
+
+
+\begin{center}
+\small\textbf{Table A1. Earlier six-field study: acceptable-decision accuracy after five disclosures (\%).}
+\par\medskip
+\begin{tabularx}{\textwidth}{@{}Lrrrrrr@{}}\toprule
+\tablehead{Evaluation sample} & \tablehead{Unique\\profiles ($P$)} & \tablehead{Evaluated\\cases ($n$)} & \tablehead{Fixed\\questions} & \tablehead{Profile\\information gain} & \tablehead{Decision-set\\information gain} & \tablehead{One-step\\DV}\\\midrule
+Small Python & 24 & 96 & 66.7 & 66.7 & 90.6 & 93.8\\
+Development & 48 & 280 & 73.2 & 70.4 & 88.2 & 94.6\\
+Validation & 120 & 264 & 78.4 & 77.7 & 90.2 & 93.9\\
+Test & 120 & 192 & 80.7 & 82.3 & 92.2 & 92.7\\
+Luna: 8-profile bank & 8 & 16 & 87.5 & 87.5 & 100.0 & 100.0\\
+Luna: 48-profile bank & 48 & 280 & 75.7 & 74.3 & 87.9 & 94.6\\\bottomrule
+\end{tabularx}
+\tablenote{Higher is better. Cases include repeated draws or answer banks and do not represent independent users. All methods use five disclosures; the main experiment uses four questions over nine preferences.}
+\end{center}
+
+P denotes unique profiles; n denotes evaluated cases. P-IG is profile information gain; DS-IG is decision-set information gain. Small Python repeats prior draws; Luna 8 repeats answer banks. Cases are not independent users.
+
+
+DV exceeds DS-IG by 6.4 points on development (profile-cluster 95\% interval [2.9, 10.1]), 3.8 on validation [0.0, 7.8], and 0.5 on test [$-$2.6, 3.6]. Development gains at budgets three and four are 13.2 and 14.6 points; test gains are 2.6 and 5.2. These budgets were exploratory. DV loses to DS-IG at test budget two, and all Python methods reach 100\% at budget six.
+
+
+Luna supplied reset, structured answers from prescribed profiles (requested alias gpt-6-luna; backend identity was not separately reported). The eight-profile bank had 96/96 valid exact answers; the 48-profile bank had 287/288, retaining one numeric-string schema failure without retry. Luna 48 reused development profiles and menus; its 6.8-point gain [3.2, 10.4] tests the answer interface. Valid answers reproduced the deterministic fields, and DV's budget-five outcomes coincided with the deterministic run. Complete budgets, paired outcomes, and failures remain in the research records.
+\subsection*{Frozen nine-preference task}
+The field order is sleeve length, pattern, neckline, fabric, wash care, budget, occasion, garment length, and shape. Probabilities of the second binary answer are (0.50, 0.65, 0.40, 0.55, 0.60, 0.50, 0.35, 0.65, 0.45), independently across fields. Attribute values are the two most frequent development labels in each category; budget values are its development median and 75th percentile. For women's kurtas, these are 799 and 1169 in the source's numerical price units.
+
+
+The primary category has 149 development, 41 validation, and 24 test products with all eight attributes. Main confirmation uses the 24 test products already available to earlier work, with new menus. Transfer uses 44 reserved men's-kurta and seventeen women's-dress products. The original fixed policy asks sleeve length, pattern, neckline, and fabric. All policies share the final action rule and ties. Decision-set IG measures entropy of the complete acceptable set; profile IG measures entropy of the profile; DV maximizes the expected one-step increase in the success probability of one selected action.
+
+
+\subsection*{Sensitivity and post-confirmation checks}
+Shifting all prior probabilities by $-$0.05 or +0.05 preserves the ordering; DV gains over DS-IG are 2.52 and 3.07 points. Increasing the three emphasized weights to 2.25 changes 576 of 65,536 profile--menu acceptance sets and preserves the ordering. Thresholds 0.525 and 0.575 and weight 1.75 leave all these sets unchanged; these settings lie on a discrete plateau.
+
+
+Post-confirmation thresholds 0.50 and 0.60 change 214,312 and 127,612 of 294,912 primary profile--menu acceptance sets. The ordering persists, with DV gains of 1.09 and 1.18 points. A separate post-confirmation six-preference diagnostic retains the five original attributes and budget, renormalizing attribute weights. Fixed, profile IG, DS-IG, and DV score 81.32\%, 81.08\%, 88.18\%, and 91.49\%. Its optimal four-step reference is 93.47\%, versus 83.60\% in the nine-preference task. The harder task lowers attainable accuracy; the DV--DS-IG gap is larger in the six-preference diagnostic.
+
+
+The development search logs, frozen specification, confirmation outputs, and post-confirmation diagnostics are retained with the research code. The nine-preference study uses program-generated responses; historical Luna and the new common-field model checks are reported separately above.
+\fi
+\end{document}

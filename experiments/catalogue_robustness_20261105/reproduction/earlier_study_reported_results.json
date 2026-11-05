@@ -1,0 +1,76 @@
+{
+  "source": "Author-supplied main(2).pdf, pages 3-4; reported results, not rerun in this revision.",
+  "methods": [
+    "Fixed order",
+    "Profile information gain",
+    "Decision-set information gain",
+    "One-step decision value"
+  ],
+  "budget5_accuracy_percent": {
+    "development": [
+      73.2,
+      70.4,
+      88.2,
+      94.6
+    ],
+    "validation": [
+      78.4,
+      77.7,
+      90.2,
+      93.9
+    ],
+    "test": [
+      80.7,
+      82.3,
+      92.2,
+      92.7
+    ],
+    "luna8": [
+      87.5,
+      87.5,
+      100.0,
+      100.0
+    ],
+    "luna48": [
+      75.7,
+      74.3,
+      87.9,
+      94.6
+    ]
+  },
+  "budgets": [
+    3,
+    4,
+    5
+  ],
+  "dv_minus_set_ig_pp": {
+    "development": [
+      13.2,
+      14.6,
+      6.4
+    ],
+    "test": [
+      2.6,
+      5.2,
+      0.5
+    ]
+  },
+  "test_budget5_interval": [
+    -2.6,
+    3.6
+  ],
+  "luna48_interval": [
+    3.2,
+    10.4
+  ],
+  "luna_field_fidelity": {
+    "luna8": [
+      96,
+      96
+    ],
+    "luna48": [
+      287,
+      288
+    ]
+  }
+}

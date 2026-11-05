@@ -1,0 +1,17 @@
+% Requires booktabs, tabularx, L column and tablehead/tablenote macros as in main.tex.
+\begin{table}[t]
+\centering\small
+\caption{GPT-6 Luna customer answer banks: acceptable-decision accuracy (\%, higher is better).}
+\label{tab:luna-six-field}
+\begin{tabularx}{\columnwidth}{@{}Lrrrrr@{}}\toprule
+Dataset & Queries & \tablehead{Fixed\\order} & \tablehead{Profile\\IG} & \tablehead{Set\\IG} & \tablehead{One-step\\DV}\\\midrule
+Myntra & 3 & 68.06 & 69.79 & 76.43 & \textbf{84.89}\\
+Myntra & 4 & 80.39 & 82.00 & 87.40 & \textbf{91.80}\\
+Myntra & 5 & 95.02 & 94.45 & 95.53 & \textbf{97.45}\\
+\midrule
+Amazon & 3 & 79.20 & 70.84 & 79.59 & \textbf{82.05}\\
+Amazon & 4 & 85.43 & 80.50 & 85.89 & \textbf{88.17}\\
+Amazon & 5 & 96.61 & 88.34 & 94.52 & \textbf{97.81}\\
+\bottomrule\end{tabularx}
+\tablenote{Same menus, profiles, methods and scoring as Table~\ref{tab:python-six-field}. Eight fresh batches contain 16 prescribed shoppers each. Luna supplies six field answers per shopper; replay reveals only queried fields. All 768 answers match the cards, so both tables coincide. This tests the structured-answer interface.}
+\end{table}

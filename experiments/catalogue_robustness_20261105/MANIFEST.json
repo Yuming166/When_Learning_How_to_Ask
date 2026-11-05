@@ -1,0 +1,260 @@
+{
+  "files": [
+    {
+      "path": "archive/nine_preference_research_records.tar.gz",
+      "bytes": 12404350,
+      "sha256": "f1c31d357a135bca77565a3fb826435ffd994b7a1c76a1fc11d831a905411e9b"
+    },
+    {
+      "path": "CHECKS.json",
+      "bytes": 540,
+      "sha256": "4ab69909004270ba9947890dd7954a4293fb9bae7f6e9e5b58df92663b6a78a3"
+    },
+    {
+      "path": "paper/full_version.tex",
+      "bytes": 119,
+      "sha256": "99b324bc08df7deb5458a900bdabcb164546d5391ea0247351c32889420d6cd7"
+    },
+    {
+      "path": "paper/main.tex",
+      "bytes": 42751,
+      "sha256": "c6d5f84f931e5910efbdce2a85e01ff6fefb13ae65d01d3ed11ab7cf7c0374e9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4801,
+      "sha256": "1b59f67e18270ed5e8ef2da1433c8d0322324de2a40ddee8e19be852776cd34a"
+    },
+    {
+      "path": "reproduction/budget_comparison.py",
+      "bytes": 9406,
+      "sha256": "c4e0337dfd47499b750e80aee6583550f3032ca6ad355f802f7e43c9b4eb8b5c"
+    },
+    {
+      "path": "reproduction/common_field_protocol.json",
+      "bytes": 575842,
+      "sha256": "0fce7c8af9d8cd2f7838a5166dbcc9463b5cf941b95cdc5db48a785098de7e5d"
+    },
+    {
+      "path": "reproduction/common_field_results.json",
+      "bytes": 1028353,
+      "sha256": "148079450f476d5ae8666d592f3c97d960abf1a7f072ccd92258514a9a12308b"
+    },
+    {
+      "path": "reproduction/cross_catalogue.py",
+      "bytes": 7408,
+      "sha256": "6b013282b3eca1a4301a7105a14ffd80f704de7c1a9f00bc8a167d4d6c0a8eef"
+    },
+    {
+      "path": "reproduction/earlier_study_reported_results.json",
+      "bytes": 1109,
+      "sha256": "1aa9a2f433e96ae9ebcf6b9e9ab718f2d11d9f751ff131f85be3ac15daf56532"
+    },
+    {
+      "path": "reproduction/experiment_inputs.json",
+      "bytes": 1019308,
+      "sha256": "7f34450c6e60bd40b97070d2c490d7d56c272de47cb5de7b2d77b7906c43687b"
+    },
+    {
+      "path": "reproduction/luna/amazon_1_prompt.txt",
+      "bytes": 3471,
+      "sha256": "f25fd6aa4d0568f856c4eedd6ed659f124e4ad7b58cbf61634b085f5658f6c8e"
+    },
+    {
+      "path": "reproduction/luna/amazon_1_response.json",
+      "bytes": 2215,
+      "sha256": "974208359c9e78101f021d40cf4c5b329e93ca4975bf86a5b9af2c4ea3f2eea2"
+    },
+    {
+      "path": "reproduction/luna/amazon_2_prompt.txt",
+      "bytes": 3456,
+      "sha256": "c79a236b095126c47aa0f2ea9e471ea80e3db4ac108581362a8101e9ff58d208"
+    },
+    {
+      "path": "reproduction/luna/amazon_2_response.json",
+      "bytes": 815,
+      "sha256": "65931d74532b70a34af6736a7b1a7c627c0f8385e516805c53a3cb887902b594"
+    },
+    {
+      "path": "reproduction/luna/amazon_3_prompt.txt",
+      "bytes": 3463,
+      "sha256": "c8371e3d03db72f673b03718eb08399a7f0c67b7599a4d8d5a95531560a74410"
+    },
+    {
+      "path": "reproduction/luna/amazon_3_response.json",
+      "bytes": 813,
+      "sha256": "734f35b68a68b73b9096a3166a136e3e2d412cc995ca15ab701913a7ee7cbf0b"
+    },
+    {
+      "path": "reproduction/luna/amazon_4_prompt.txt",
+      "bytes": 3442,
+      "sha256": "a10778c16798e36fbfd9d1cf0efacf28bd26a664621b41fa4a9530bb58e5864f"
+    },
+    {
+      "path": "reproduction/luna/amazon_4_response.json",
+      "bytes": 813,
+      "sha256": "bc8a98aeb6ec709a3bab4ef48ec8ad1767d560a92d37a56cfb9a7ea4a2c35a29"
+    },
+    {
+      "path": "reproduction/luna/collection_receipt.json",
+      "bytes": 2677,
+      "sha256": "4471fd52485faeae2361fd05b23562d2c490b15835ed5a84caee2c69b72b0d9f"
+    },
+    {
+      "path": "reproduction/luna/historical_luna_provenance.json",
+      "bytes": 4602,
+      "sha256": "1fc853ebf68501daa4f8ee0f6ac741db6c12985ddbc03a7cd3f63648a35c8022"
+    },
+    {
+      "path": "reproduction/luna/luna_table2.py",
+      "bytes": 10030,
+      "sha256": "4ea74750af218e75d5f3c922dabc2d7c30655fcdcaaffb65e17f1980c8019bbe"
+    },
+    {
+      "path": "reproduction/luna/myntra_1_prompt.txt",
+      "bytes": 3679,
+      "sha256": "9c063b606f38fb3ae4f784ab773f410e29ca0d91937757738fbd9a99ad444a8e"
+    },
+    {
+      "path": "reproduction/luna/myntra_1_response.json",
+      "bytes": 813,
+      "sha256": "1b6f96c3a5f02933cea09085ec80af710e624c00554a5159c0869aa03cd1e2d6"
+    },
+    {
+      "path": "reproduction/luna/myntra_2_prompt.txt",
+      "bytes": 3708,
+      "sha256": "9e1c4985885dbe84ac9637ebbf21e8a91d1eed6821d3c73a66f27a5708986698"
+    },
+    {
+      "path": "reproduction/luna/myntra_2_response.json",
+      "bytes": 813,
+      "sha256": "3c0d808fca8721fa280a8cb3a9970907b8f51323a80b072a2f7cca5ead10623b"
+    },
+    {
+      "path": "reproduction/luna/myntra_3_prompt.txt",
+      "bytes": 3654,
+      "sha256": "09c422e5c14d1b69ad1d7662343be79293368ebc64a896d8916e4a8daadfdb06"
+    },
+    {
+      "path": "reproduction/luna/myntra_3_response.json",
+      "bytes": 813,
+      "sha256": "7da9f83c895e8c06be77926159575f0fd5e999dd74bc124ddd00939de1800d67"
+    },
+    {
+      "path": "reproduction/luna/myntra_4_prompt.txt",
+      "bytes": 3655,
+      "sha256": "e7a327b243eada98fcbeb011e27bdce5e4c01491d9377c3a6fdb5629173d5d1d"
+    },
+    {
+      "path": "reproduction/luna/myntra_4_response.json",
+      "bytes": 815,
+      "sha256": "b0316ae60a39dc5e7e6fd4267e098a8bc13cc0e8dadef3b11ea43748dd09f9fa"
+    },
+    {
+      "path": "reproduction/luna/protocol.json",
+      "bytes": 5584,
+      "sha256": "80cd20f7057002c361296a3a35d476781e6e451e840da4e00605498fd8444a5d"
+    },
+    {
+      "path": "reproduction/luna/results.json",
+      "bytes": 1164866,
+      "sha256": "3ee351708a7118e3fe14a3573a39f8a40581b33b5b5a69049c768ddb7e7a92c1"
+    },
+    {
+      "path": "reproduction/luna/table1_python.tex",
+      "bytes": 1070,
+      "sha256": "08c4499d29d504d1786c1754d626eee8c402afe00f7fbf93dc8258284fd4c6a5"
+    },
+    {
+      "path": "reproduction/luna/table2_luna.csv",
+      "bytes": 317,
+      "sha256": "85670572a4d0899f207da652a39797d9ba8a1cf8b82b72f5697ecb88da9f53a9"
+    },
+    {
+      "path": "reproduction/luna/table2_luna.tex",
+      "bytes": 1147,
+      "sha256": "2dfe14764f08598ad472ed381d472670aae729742418c8d9588586c7822968de"
+    },
+    {
+      "path": "reproduction/model_answer_banks.py",
+      "bytes": 8344,
+      "sha256": "fd70e12132c95a27b75a556d2a1309316c7e5d4083baa76b7bb57e1d513f8600"
+    },
+    {
+      "path": "reproduction/model_bank_protocol.json",
+      "bytes": 10321,
+      "sha256": "99bba21caf8f5c238d76aa8c9494d58ac3f716cd60761d9109667704cb975713"
+    },
+    {
+      "path": "reproduction/model_bank_responses.jsonl",
+      "bytes": 416352,
+      "sha256": "78aec2b83a8ba622af477435f310b7de0354ac2641bc837269701a3aea9e67e2"
+    },
+    {
+      "path": "reproduction/model_bank_results.json",
+      "bytes": 2427615,
+      "sha256": "e329ff7a4db6cf89432e75fec3a1cc8da1964c320a0bf79e088506fe8b4b4603"
+    },
+    {
+      "path": "reproduction/nine_preference_protocol.json",
+      "bytes": 250359,
+      "sha256": "f7154f0563bde22985bc418a6f7851bda2771936b27d8d41eef25fb43aafcd83"
+    },
+    {
+      "path": "reproduction/nine_preference_results.json",
+      "bytes": 496832,
+      "sha256": "2b6b23a459ce5b2e9f09536e665346669510a0ef8de7390a219f51faed058608"
+    },
+    {
+      "path": "reproduction/ranking_search.py",
+      "bytes": 8866,
+      "sha256": "e09a8bdaeff300cc85eb7a06ac469932753e75153056f7beb451b924256fe7ff"
+    },
+    {
+      "path": "reproduction/README.txt",
+      "bytes": 1913,
+      "sha256": "69f1f9e86f95de4314d978b61a06674ec9c4a934102e4cb119e9aff6e62e9176"
+    },
+    {
+      "path": "reproduction/reproduce_tables.py",
+      "bytes": 3751,
+      "sha256": "c16f3910258b19cde656f36b58bd48f8375ef5b71915bd93361c8b2c809429f4"
+    },
+    {
+      "path": "reproduction/richer_preferences.py",
+      "bytes": 12207,
+      "sha256": "dd2fa2b85df82ccf8cae451386ac9468f231bd85040a33e0da5c5021ab119fa8"
+    },
+    {
+      "path": "reproduction/table1_run_metadata.json",
+      "bytes": 2487,
+      "sha256": "9ef7809cc9b9dabd5479cd9644eaa7c2b7a9e7e7f86ae3cd4b5a811f492f9a90"
+    },
+    {
+      "path": "tables/table1_python.csv",
+      "bytes": 317,
+      "sha256": "85670572a4d0899f207da652a39797d9ba8a1cf8b82b72f5697ecb88da9f53a9"
+    },
+    {
+      "path": "tables/table1_python.tex",
+      "bytes": 1070,
+      "sha256": "08c4499d29d504d1786c1754d626eee8c402afe00f7fbf93dc8258284fd4c6a5"
+    },
+    {
+      "path": "tables/table2_luna.csv",
+      "bytes": 317,
+      "sha256": "85670572a4d0899f207da652a39797d9ba8a1cf8b82b72f5697ecb88da9f53a9"
+    },
+    {
+      "path": "tables/table2_luna.tex",
+      "bytes": 1147,
+      "sha256": "2dfe14764f08598ad472ed381d472670aae729742418c8d9588586c7822968de"
+    },
+    {
+      "path": "tables/表1_六字段Python模拟_两数据集.xlsx",
+      "bytes": 182640,
+      "sha256": "49d3d0eccda801191551f00a755e03b3425ae8979988d337ac5ba5f45d21ea50"
+    }
+  ],
+  "scope": "New matched Python/Luna tables, literal model answers, frozen inputs, earlier complete nine-preference research records, and source-only paper revision."
+}

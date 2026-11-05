@@ -1,0 +1,15 @@
+{
+  "offline_full_replay": "PASSED",
+  "settings_replayed": 9,
+  "menus_per_setting": 576,
+  "maximum_difference_from_saved_results": 0.0,
+  "luna_field_answers_correct": 768,
+  "luna_field_answers_total": 768,
+  "luna_fresh_batch_agents": 8,
+  "transport_failure_before_answer": 1,
+  "completed_answer_retries": 0,
+  "luna_independent_replay_max_error": 5.551115123125783e-16,
+  "table1_protocol_and_results_match_frozen": true,
+  "theory_equations_first_experiment_preserved": true,
+  "pdf_compiled_this_revision": false
+}

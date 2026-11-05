@@ -1,0 +1,690 @@
+{
+  "models": {
+    "qwen38-codex:latest": {
+      "name": "qwen38-codex:latest",
+      "size": 16810714921,
+      "digest": "6c8dc254fcda3ebcd6fd7b2fd5cc5ac1256d5ab266ec01e6dce28af8fee8dd24",
+      "details": {
+        "parent_model": "hf.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF:Q4_K_M",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "27.3B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 5120
+      }
+    },
+    "gemma4-e4b-q8kp:latest": {
+      "name": "gemma4-e4b-q8kp:latest",
+      "size": 8133226872,
+      "digest": "8630c1afd0ead7423928178fde3a13e372a7b1329296ce44f32168453627fd39",
+      "details": {
+        "parent_model": "C:\\Users\\22797\\.ollama\\models\\blobs\\sha256-a4c4177f9fd7e3f56522675afb742f079a53f9226195b7db5e9888c872f053da",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "7.5B",
+        "quantization_level": "Q8_0",
+        "context_length": 131072,
+        "embedding_length": 2560
+      }
+    }
+  },
+  "model_identity": "Qwen local checkpoint is a third-party modified Qwen-family 27.3B Q4_K_M checkpoint, tagged qwen38-codex but reporting qwen35 architecture. Gemma local checkpoint reports gemma4 architecture, 7.5B, Q8_0. No claim of official unmodified weights.",
+  "server_version": {
+    "version": "0.32.13"
+  },
+  "datasets": [
+    "Myntra",
+    "Amazon"
+  ],
+  "profiles": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "fields": [
+    "sleeve_length",
+    "pattern",
+    "neckline",
+    "fabric",
+    "wash_care",
+    "budget"
+  ],
+  "labels": {
+    "Myntra": {
+      "sleeve_length": [
+        "three-quarter sleeves",
+        "short sleeves"
+      ],
+      "pattern": [
+        "printed",
+        "solid"
+      ],
+      "neckline": [
+        "round neck",
+        "mandarin collar"
+      ],
+      "fabric": [
+        "cotton",
+        "viscose rayon"
+      ],
+      "wash_care": [
+        "hand wash",
+        "machine wash"
+      ],
+      "budget": [
+        824.0,
+        1199.0
+      ]
+    },
+    "Amazon": {
+      "sleeve_length": [
+        "long sleeves",
+        "short sleeves"
+      ],
+      "pattern": [
+        "floral",
+        "solid"
+      ],
+      "neckline": [
+        "v-neck",
+        "round neck"
+      ],
+      "fabric": [
+        "polyester",
+        "cotton"
+      ],
+      "wash_care": [
+        "machine wash",
+        "hand wash"
+      ],
+      "budget": [
+        22.09,
+        25.99
+      ]
+    }
+  },
+  "generation": {
+    "temperature": 0,
+    "num_ctx": 2048,
+    "num_predict": 128,
+    "seed": 20261105545,
+    "think": false,
+    "format": {
+      "type": "object",
+      "properties": {
+        "sleeve_length": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "pattern": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "neckline": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "fabric": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "wash_care": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "budget": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B"
+          ]
+        }
+      },
+      "required": [
+        "sleeve_length",
+        "pattern",
+        "neckline",
+        "fabric",
+        "wash_care",
+        "budget"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "interaction": "One reset request per profile, six field answers as a bank. Each policy sees only the selected field at each step. No menus, method names, success criteria or comparative results in customer prompts.",
+  "failures": "Do not retry malformed/completed responses. Transport errors retained as invalid banks. A selected invalid answer makes that trajectory unsuccessful. All 64 profiles are retained and weighted by the same prior.",
+  "scope": "Post-confirmation single answer-bank interface check per model/profile; no human behavior claim, no claim of free multi-turn conversational validation, no task retuning.",
+  "example_prompt": "You are a simulated shopper. The following card states your fixed preferences. Answer the six questions using only these preferences. Do not change your preferences. No products or recommendation policies are shown.\nPreference card:\n- sleeve length: three-quarter sleeves\n- pattern: printed\n- neckline: round neck\n- main fabric: cotton\n- wash care: hand wash\n- maximum price: 824.0\nQuestions:\nsleeve_length: Which is your preference? A = three-quarter sleeves; B = short sleeves.\npattern: Which is your preference? A = printed; B = solid.\nneckline: Which is your preference? A = round neck; B = mandarin collar.\nfabric: Which is your preference? A = cotton; B = viscose rayon.\nwash_care: Which is your preference? A = hand wash; B = machine wash.\nbudget: Which is your preference? A = 824.0; B = 1199.0.\nReturn a JSON object with exactly these six field names. Each answer must be the string A or B. Give no explanation.",
+  "source_protocol_sha256": "0fce7c8af9d8cd2f7838a5166dbcc9463b5cf941b95cdc5db48a785098de7e5d"
+}
