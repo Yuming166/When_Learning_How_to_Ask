@@ -1,0 +1,73 @@
+{
+  "artifacts": {
+    "FROZEN.json": {
+      "bytes": 10322,
+      "sha256": "1036b0bd695aa1c7fe0d2ce08df9884ab710992102eb958e534b8abc76bc4e9d"
+    },
+    "REPORT_ZH.md": {
+      "bytes": 5921,
+      "sha256": "ce8a4e279cc1f5f02eef60d92a471cc9badaeed25887abb4a6b65b69fcc20f01"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1511,
+      "sha256": "fd235900532921cdca01605440179a1113decfcbd5fac79b883e7f7dec5b9053"
+    },
+    "ROBUSTNESS_PROTOCOL.md": {
+      "bytes": 3134,
+      "sha256": "9fcaa792065a6f634e3c3d7a2a549e94aa682ed913ddb8bc8b869374d8a25126"
+    },
+    "artifacts/SMOKE_CASES.jsonl": {
+      "bytes": 33963,
+      "sha256": "e65884ec6ecd775ee8fd560fdd6ab1a49f2d83590f65a2e06ed3425c3a666157"
+    },
+    "artifacts/SMOKE_METRICS.json": {
+      "bytes": 338,
+      "sha256": "a69fc8868c303a51e0547d7789d1ab4ebb0a3dedb7504b164b6cf0fa3c5e43d0"
+    },
+    "config.json": {
+      "bytes": 1174,
+      "sha256": "80c829580a679c178e061c0c1b821be07ddfa5febdca865f2f953692de216d9e"
+    },
+    "freeze_robustness.py": {
+      "bytes": 3668,
+      "sha256": "eb13ab49b58eb6ec3d18432e8c0351e06e4c32af84e20408a78680d99bdbe9c4"
+    },
+    "results/ACCURACY_BY_BUDGET.png": {
+      "bytes": 113050,
+      "sha256": "3832fa805d3735ce314d0ab463bc6d2c66f580a4482295cd48a49f68eba50c95"
+    },
+    "results/B5_FAILURES.jsonl": {
+      "bytes": 31075,
+      "sha256": "a9b9fa077cd3d4690d83daab39424842ce645bb82e078a527aefdd4a0410ff0d"
+    },
+    "results/PAIRED_CASES.jsonl": {
+      "bytes": 1636733,
+      "sha256": "c10ac8c10b7acb489fb0b14847c79d7d2ac6a7024f59c0a63a8cd97c355ce468"
+    },
+    "results/ROBUSTNESS_METRICS.json": {
+      "bytes": 14134,
+      "sha256": "93b510d284761a499ed3843c3344e82c2b717a9721bbd870717569c85c22a8ec"
+    },
+    "results/RUN_STARTED.json": {
+      "bytes": 171,
+      "sha256": "f724425d6d504ce1423f35f17fe4d3ce2b4c9e5a0d93afdcb0f0b0cc43454cff"
+    },
+    "results/VERIFICATION.json": {
+      "bytes": 1278,
+      "sha256": "06b2db376a1a60c87925bbf09cd87e1810946c84b1eb911db142d6dd9c4d25ab"
+    },
+    "run_robustness.py": {
+      "bytes": 15213,
+      "sha256": "f3b2fc46d33fab37a2af717318c78a87c493dc6bb8f5dd2413a09bd59933e9a8"
+    },
+    "test_robustness.py": {
+      "bytes": 2420,
+      "sha256": "a3478ad76f6bc79c2a0e9475bb32b5e3e02b89d558aebc961ab71208635f07a9"
+    },
+    "verify_robustness.py": {
+      "bytes": 7113,
+      "sha256": "e557c4a1119a2715bdf38eaf8f722d4a7c84b694d1f7f37f35ca47613404ae8e"
+    }
+  },
+  "status": "COMPLETE"
+}

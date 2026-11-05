@@ -1,0 +1,2 @@
+# Preserve the exact bytes of frozen historical snapshots, including original whitespace.
+historical/** -whitespace

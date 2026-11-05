@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "profile_id": "A-P00",
+  "profile_menu_case": "A-P00__M0_00",
+  "model_calls": 6,
+  "valid_answers": 6,
+  "exact_profile_field_matches": 6,
+  "methods_replayed": 4,
+  "trace_rows": 28,
+  "failed_policy_paths_retained": 0,
+  "deterministic_reference_check": "performed during full analysis",
+  "pre_inference_frozen_files": 32
+}

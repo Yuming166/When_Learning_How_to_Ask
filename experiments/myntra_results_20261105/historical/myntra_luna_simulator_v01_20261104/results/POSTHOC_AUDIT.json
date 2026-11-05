@@ -1,0 +1,23 @@
+{
+  "status": "POSTHOC_REPORTING_CORRECTION",
+  "original_analysis_sha256": "bf4fca5b315117e15304b52efaa5d5d4808f9fd397410f5b79ba423d661650a1",
+  "corrected_analysis_sha256": "0cfd338bf08583b28e70ea3afa13b607af3929ad13fddf378e0e486795b658b0",
+  "posthoc_script_sha256": "56bc0ecbf000bfd4382f03e1c5cf76e0c97bf14ff5246a8b59df6d06535ebd85",
+  "pre_correction_analysis_preserved": true,
+  "luna_stable_profiles_out_of_8": 6,
+  "qwen_stable_profiles_out_of_8": 5,
+  "usage": {
+    "invocations_with_usage": 72,
+    "input_tokens": 1104497,
+    "cached_input_tokens": 875392,
+    "output_tokens": 2878,
+    "reasoning_output_tokens": 118
+  },
+  "stderr": {
+    "calls_with_nonempty_stderr": 18,
+    "model_list_refresh_timeout_lines": 19,
+    "system_skill_install_race_lines": 1
+  },
+  "prompt_envelope_difference": "Luna persona is serialized into one Codex CLI user message; Qwen reference used separate system/user roles",
+  "scoring_or_outputs_changed": false
+}

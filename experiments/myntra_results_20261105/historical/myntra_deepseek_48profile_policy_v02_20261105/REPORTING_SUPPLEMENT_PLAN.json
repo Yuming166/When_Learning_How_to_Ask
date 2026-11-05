@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-05T06:45:03.592257+00:00",
+  "script_sha256": "040f1011d7632809228d744b816a41b73cbd8313323ea92a47b5668a48668458",
+  "reason": "read-only audit found inherited report lacked explicit post-failure continuation and complete-bank disclosures",
+  "changes_frozen_collector": false,
+  "model_calls": 0,
+  "primary_scores_changed": false,
+  "subset_role": "post-failure descriptive only; all 280 cases remain primary",
+  "last_updated_utc": "2026-11-05T06:52:03.751251+00:00",
+  "additional_clarifications": "unique request attempts vs provider generations; original raw response paths; provenance plan hash",
+  "final_post_collection_edit": "added complete zero-call reproduction command sequence to report; no score or collector change"
+}

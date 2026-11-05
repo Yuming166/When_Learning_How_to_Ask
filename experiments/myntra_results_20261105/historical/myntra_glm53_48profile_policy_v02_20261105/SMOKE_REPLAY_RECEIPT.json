@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "profile_id": "A-P01",
+  "case_id": "A-P01__M0_00",
+  "valid_answers": 6,
+  "trace_rows": 28,
+  "luna_bank_equivalent": true,
+  "luna_trace_exact_parity_when_equivalent": true,
+  "model_calls": 6
+}

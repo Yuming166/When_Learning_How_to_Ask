@@ -1,0 +1,9 @@
+{
+  "planned_cases": 280,
+  "planned_trace_rows": 8120,
+  "start_method": "spawn",
+  "started_utc": "2026-11-04T13:56:08.098852+00:00",
+  "status": "FULL_PANEL_STARTED_ONCE",
+  "workers": 8,
+  "writer": "single parent process; ordered one-write-per-case"
+}

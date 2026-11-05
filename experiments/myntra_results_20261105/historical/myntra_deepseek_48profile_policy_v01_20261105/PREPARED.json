@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_ZERO_MODEL_CALLS",
+  "original_luna_freeze_verified": true,
+  "source_luna": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105",
+  "model_calls": 0,
+  "engine_byte_equal": true,
+  "environment_byte_equal": true,
+  "extracted_functions": {
+    "_reject_duplicate_keys": "8ecde6dade928dbcb260dedd075bd43c0d5aa713aed9e0e34b7f37541ea2f9b0",
+    "parse_field_answer": "c1bb53db500790ede427f6164b39411aa94092cc551de0dfc49ae696f83843f8",
+    "_case_trace": "3f2f969a52637143578e77ebf61890d867d5f8dd2a932e1554c716c541c9d852"
+  },
+  "input_files": 9
+}

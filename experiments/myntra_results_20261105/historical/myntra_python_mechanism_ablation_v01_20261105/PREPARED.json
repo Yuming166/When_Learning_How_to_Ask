@@ -1,0 +1,12 @@
+{
+  "cases": 736,
+  "menus": 54,
+  "model_calls": 0,
+  "new_component_outcomes_generated": false,
+  "prior_draws": 12288,
+  "profiles": 288,
+  "reference_python_sql_agreement": 736,
+  "status": "INPUT_AND_REFERENCE_PREFLIGHT_PASS",
+  "training_runs": 0,
+  "upstream_preserved_files": 101
+}

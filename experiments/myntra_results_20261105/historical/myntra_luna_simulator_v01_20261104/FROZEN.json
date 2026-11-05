@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_PRE_INFERENCE",
+  "files": {
+    "PREPARED.json": "ad42373cec5e4de832bd76cc10fd6a120112048c2b8472bd612de560883f1cd2",
+    "PROTOCOL.md": "bacf9d13e32ef10f79d5ce138430ba9c18aca0d6784c5e01302f56f13bf8b70c",
+    "artifacts/input/SOURCE_RECEIPT.json": "5b9e862a2a50010641411c8fb96cca2f15fc363bea2e779d905d496302b35ffc",
+    "artifacts/input/SYSTEM_PROMPT_ZH.txt": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427",
+    "artifacts/input/private/jobs.jsonl": "51668e6450c8af46f5cccddc55f28fc0d8f180998dc936ea3342eb0537731c3b",
+    "artifacts/input/private/profiles.jsonl": "6fdeef3b9645e00ce9ef42e1e8b097af1515c960a7400d0d6159b1993bf455aa",
+    "artifacts/input/private/prompt_templates.json": "9143407781524970350a5ae2143495b796048b1fb29d5f61aebe44386a5e30f5",
+    "artifacts/input/private/selected_cases.jsonl": "6aeb9829ea6250ccb76ed9e1978d993850acdf4c5161bdb5f91b2010050b24bb",
+    "artifacts/input/private/source_jobs.jsonl": "4d57bc5e946a0c15b13b777d26bdf20b510029ffeb3e58253fcb82d00c0c89a1",
+    "artifacts/input/private/source_request_templates.json": "59cada167220b1a49f0be25db0dbd84fa3f4cac6110e62e22e6974d75c2f1709",
+    "artifacts/input/public/menus.jsonl": "6d8bea1e59f78875631984cce3a8b4b5a3765afe60900afa5a8cc759833ade20",
+    "artifacts/input/public/vocabularies.json": "dec5d3ec4fc3ddcfa90e76ff96244e7c911dd079ab9447e7873a4d09468270c9",
+    "config.json": "615dcb7177c050cb0a40b3f9b53e396b50f974946a3e024519c2b0878456f6b4",
+    "luna_simulator.py": "085a009739dd12b1110d9244d6649e89b558b22310603b5e93e93b401579a12b",
+    "test_luna_simulator.py": "9441a7a6bcc21ccdb2d2a470554665685f43deffa46ac1ee97682de28e870cd4",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_coverage_diag_v02_20261104/RUN_FREEZE.json": "1e3328886e7aeb9121d351f89fc47471583b3c498e5891873b11975064e72171",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_coverage_diag_v02_20261104/analyze.py": "d2b34015464c4b06e895904354a90d12c77f166d2ebe06af5491446d23adf250",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_coverage_diag_v02_20261104/config.json": "9e81f1256dff9ac8026bae1d81c747dd2ce3d3d74322425bc9c11c3fe11dc634",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_coverage_diag_v02_20261104/diagnostic.py": "26ef88842ac2be59415019d9b7e3674b984fd9ebcb80a1cd2041cf2da06c7c5f",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/environment.py": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+    "EXTERNAL::/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/qwen_smoke.py": "a114cc53c91cbab5ba07476e05d709c29b0e7b7f5e99da94ae08923cdee79f1b"
+  },
+  "sha256_scope": "all protocol/config/code/input/Qwen reference records and prompt templates; plus source code dependencies"
+}

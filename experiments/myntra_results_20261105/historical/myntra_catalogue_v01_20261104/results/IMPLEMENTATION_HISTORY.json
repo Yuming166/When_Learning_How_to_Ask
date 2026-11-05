@@ -1,0 +1,20 @@
+{
+  "selection_rules_changed": false,
+  "retained_initial_output": "artifacts/catalogue_v01",
+  "final_output": "artifacts/catalogue_v01_final",
+  "implementation_fix": "Recognize neck and neckline word forms so mandarin collar with split V-neckline does not spuriously count as a singleton conflicting neck phrase. Added regression test. No records or source labels edited.",
+  "initial_strict_products": 471,
+  "final_strict_products": 471,
+  "initial_discordance_counts": {
+    "care_report_discordance": 12,
+    "fabric_label_discordance": 8,
+    "neckline_description_discordance": 5,
+    "sleeve_length_description_discordance": 3
+  },
+  "final_discordance_counts": {
+    "care_report_discordance": 12,
+    "fabric_label_discordance": 8,
+    "neckline_description_discordance": 4,
+    "sleeve_length_description_discordance": 3
+  }
+}

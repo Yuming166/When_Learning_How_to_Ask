@@ -1,0 +1,21 @@
+{
+  "status": "PREPARED_ZERO_MODEL_CALLS",
+  "source_full_dev": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104",
+  "profiles": 48,
+  "menus": 35,
+  "profile_menu_cases": 280,
+  "response_bank_replicates": 1,
+  "actions_per_profile": 6,
+  "planned_calls": 288,
+  "model_calls": 0,
+  "prior_counts_by_pool": {
+    "0": 2048,
+    "1": 2048,
+    "2": 2048,
+    "3": 2048,
+    "4": 2048,
+    "5": 2048
+  },
+  "reserved_products_used": 0,
+  "reuse_rule": "one Luna answer per profile-field shared across that profile's menus and paired methods"
+}

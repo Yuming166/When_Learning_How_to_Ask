@@ -1,0 +1,7 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "scope": "legacy stop/fallback/unfaithful-answer counterexamples, exact ties, source coverage and dependent-model bootstrap",
+  "status": "PASS",
+  "tests": 9
+}

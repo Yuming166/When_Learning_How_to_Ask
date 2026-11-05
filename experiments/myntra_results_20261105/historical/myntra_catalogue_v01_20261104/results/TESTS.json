@@ -1,0 +1,8 @@
+{
+  "command": "python -m unittest discover -s experiments/myntra_catalogue_v01_20261104 -p test_catalogue.py",
+  "tests_run": 29,
+  "return_code": 0,
+  "status": "PASS",
+  "test_source_sha256": "d71db288ed00141e562d8c1ba08df936adb493d67b6e1471e3a940d47be68563",
+  "observed_output": "Ran 29 tests; OK"
+}

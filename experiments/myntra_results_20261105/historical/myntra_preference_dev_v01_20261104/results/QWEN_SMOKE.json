@@ -1,0 +1,81 @@
+{
+  "attempted": 16,
+  "by_kind": {
+    "care": {
+      "attempted": 4,
+      "correct": 3,
+      "planned": 4,
+      "valid": 4
+    },
+    "choice": {
+      "attempted": 8,
+      "correct": 7,
+      "planned": 8,
+      "valid": 8
+    },
+    "dialogue_choice": {
+      "attempted": 2,
+      "correct": 2,
+      "planned": 2,
+      "valid": 2
+    },
+    "disclosure": {
+      "attempted": 2,
+      "correct": 2,
+      "planned": 2,
+      "valid": 2
+    }
+  },
+  "choice_decisions_correct": 9,
+  "choice_optimal_actions_correct": 9,
+  "choice_planned": 10,
+  "closed_loop_recommendations_correct": 2,
+  "consistency": [
+    {
+      "all_views_reference_correct": false,
+      "decision_stable": false,
+      "exact_selected_id_stable": false,
+      "note": "Different tied maximizers are not correctness failures",
+      "profile_id": "P00",
+      "valid_views": 4
+    },
+    {
+      "all_views_reference_correct": true,
+      "decision_stable": true,
+      "exact_selected_id_stable": true,
+      "note": "Different tied maximizers are not correctness failures",
+      "profile_id": "P08",
+      "valid_views": 4
+    }
+  ],
+  "fenced_outputs": 0,
+  "hard_violating_selections": 0,
+  "human_behavior_validated": false,
+  "invalid_attempted": 0,
+  "method_superiority_established": false,
+  "model": "Qwen3.6-35B-A3B",
+  "natural_reliability_sharing_established": false,
+  "not_attempted": 0,
+  "planned": 16,
+  "positive_negative_purchase_coverage": false,
+  "profiles": 2,
+  "reference_buy_calls": 0,
+  "reference_buy_correct": 0,
+  "reference_no_buy_calls": 10,
+  "reference_no_buy_correct": 9,
+  "reference_no_buy_with_feasible_goods_calls": 10,
+  "reserved_items_transmitted_or_evaluated": 0,
+  "response_ids_recorded": 16,
+  "scope": "two_constructed_profiles_development_smoke_only",
+  "selected_utility_regrets": [
+    0
+  ],
+  "token_usage": {
+    "completion_tokens": 1104,
+    "prompt_tokens": 16420,
+    "total_tokens": 17524
+  },
+  "unique_response_ids": 16,
+  "valid": 16,
+  "valid_buy_selections": 1
+}

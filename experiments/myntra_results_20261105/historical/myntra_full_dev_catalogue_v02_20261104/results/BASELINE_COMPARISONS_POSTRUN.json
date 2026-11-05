@@ -1,0 +1,72 @@
+{
+  "budget": 5,
+  "case_denominator": 280,
+  "claim_limit": "Conditional on the deterministic synthetic-profile generator and this finite development catalogue; not a human or held-out-catalogue estimate.",
+  "comparisons": {
+    "decision_set_ig": {
+      "baseline_accuracy": 0.8821428571428571,
+      "baseline_correct": 247,
+      "ci_excludes_zero": true,
+      "decision_value_accuracy": 0.9464285714285714,
+      "decision_value_correct": 265,
+      "denominator": 280,
+      "interval_method": "10,000-replicate profile-cluster bootstrap stratified by cohort and category; percentile interval",
+      "paired_correct_difference": 18,
+      "paired_difference_95_ci": [
+        0.02857142857142857,
+        0.10135135135135136
+      ],
+      "paired_mean_difference": 0.06428571428571428,
+      "profile_clusters_positive_negative_tied": {
+        "negative": 2,
+        "positive": 10,
+        "tied": 36
+      }
+    },
+    "fixed_order": {
+      "baseline_accuracy": 0.7321428571428571,
+      "baseline_correct": 205,
+      "ci_excludes_zero": true,
+      "decision_value_accuracy": 0.9464285714285714,
+      "decision_value_correct": 265,
+      "denominator": 280,
+      "interval_method": "10,000-replicate profile-cluster bootstrap stratified by cohort and category; percentile interval",
+      "paired_correct_difference": 60,
+      "paired_difference_95_ci": [
+        0.12313432835820895,
+        0.3047945205479452
+      ],
+      "paired_mean_difference": 0.21428571428571427,
+      "profile_clusters_positive_negative_tied": {
+        "negative": 3,
+        "positive": 19,
+        "tied": 26
+      }
+    },
+    "profile_ig": {
+      "baseline_accuracy": 0.7035714285714286,
+      "baseline_correct": 197,
+      "ci_excludes_zero": true,
+      "decision_value_accuracy": 0.9464285714285714,
+      "decision_value_correct": 265,
+      "denominator": 280,
+      "interval_method": "10,000-replicate profile-cluster bootstrap stratified by cohort and category; percentile interval",
+      "paired_correct_difference": 68,
+      "paired_difference_95_ci": [
+        0.15441176470588236,
+        0.3287671232876712
+      ],
+      "paired_mean_difference": 0.24285714285714285,
+      "profile_clusters_positive_negative_tied": {
+        "negative": 3,
+        "positive": 20,
+        "tied": 25
+      }
+    }
+  },
+  "multiple_comparison_adjustment": "none; intervals are descriptive and unadjusted",
+  "primary_interval_reproduces_frozen_metric": true,
+  "primary_method": "decision_value",
+  "status": "POSTRUN_COMPARATIVE_INTERVALS",
+  "trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699"
+}

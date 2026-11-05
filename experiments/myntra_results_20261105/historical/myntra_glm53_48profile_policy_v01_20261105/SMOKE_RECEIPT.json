@@ -1,0 +1,10 @@
+{
+  "phase": "smoke",
+  "status": "STOPPED",
+  "started_utc": "2026-11-05T07:05:50.725108+00:00",
+  "finished_utc": "2026-11-05T07:07:57.237473+00:00",
+  "records": 6,
+  "attempted": 6,
+  "valid": 1,
+  "abort_reason": "three_consecutive_transport_failures"
+}

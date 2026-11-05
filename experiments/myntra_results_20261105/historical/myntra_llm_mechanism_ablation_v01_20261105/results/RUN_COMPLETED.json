@@ -1,0 +1,13 @@
+{
+  "case_model_receipts": 840,
+  "cases_per_model": 280,
+  "elapsed_seconds": 134.90450561605394,
+  "historical_dv_replayed_rows": 5880,
+  "new_model_calls": 0,
+  "new_static_rows": 5880,
+  "profiles": 48,
+  "rows": 11760,
+  "status": "COMPLETE",
+  "trace_sha256": "db84cad89cffbf1c8ba8ac44a5443101a48fdded9cc2d89e4bbe358d2b507e1d",
+  "training_runs": 0
+}

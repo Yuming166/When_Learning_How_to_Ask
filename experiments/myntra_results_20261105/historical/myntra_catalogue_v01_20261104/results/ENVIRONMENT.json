@@ -1,0 +1,9 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "dependencies": "Python standard library only",
+  "models_called": [],
+  "training_runs": 0,
+  "images_downloaded": 0,
+  "new_human_reviews": 0
+}

@@ -1,0 +1,267 @@
+{
+  "budgets": {
+    "0": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.0,
+          0.0
+        ],
+        "correct_difference": 0,
+        "mean_difference": 0.0,
+        "profile_cluster_signs": {
+          "negative": 0,
+          "positive": 0,
+          "tied": 48
+        }
+      }
+    },
+    "1": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.55,
+          "correct": 154,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.55,
+          "correct": 154,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.55,
+          "correct": 154,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.0,
+          0.0
+        ],
+        "correct_difference": 0,
+        "mean_difference": 0.0,
+        "profile_cluster_signs": {
+          "negative": 0,
+          "positive": 0,
+          "tied": 48
+        }
+      }
+    },
+    "2": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.5428571428571428,
+          "correct": 152,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.5714285714285714,
+          "correct": 160,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.5357142857142857,
+          "correct": 150,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.6,
+          "correct": 168,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          -0.003424657534246575,
+          0.0625
+        ],
+        "correct_difference": 8,
+        "mean_difference": 0.02857142857142857,
+        "profile_cluster_signs": {
+          "negative": 4,
+          "positive": 7,
+          "tied": 37
+        }
+      }
+    },
+    "3": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.5892857142857143,
+          "correct": 165,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.7214285714285714,
+          "correct": 202,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.5357142857142857,
+          "correct": 150,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.5392857142857143,
+          "correct": 151,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.07876223091976517,
+          0.1858108108108108
+        ],
+        "correct_difference": 37,
+        "mean_difference": 0.13214285714285715,
+        "profile_cluster_signs": {
+          "negative": 3,
+          "positive": 19,
+          "tied": 26
+        }
+      }
+    },
+    "4": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.725,
+          "correct": 203,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.8714285714285714,
+          "correct": 244,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.6464285714285715,
+          "correct": 181,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.6214285714285714,
+          "correct": 174,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.07720588235294118,
+          0.2210144927536232
+        ],
+        "correct_difference": 41,
+        "mean_difference": 0.14642857142857144,
+        "profile_cluster_signs": {
+          "negative": 4,
+          "positive": 19,
+          "tied": 25
+        }
+      }
+    },
+    "5": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 0.8821428571428571,
+          "correct": 247,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 0.9464285714285714,
+          "correct": 265,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 0.7321428571428571,
+          "correct": 205,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 0.7035714285714286,
+          "correct": 197,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.02857142857142857,
+          0.10135135135135136
+        ],
+        "correct_difference": 18,
+        "mean_difference": 0.06428571428571428,
+        "profile_cluster_signs": {
+          "negative": 2,
+          "positive": 10,
+          "tied": 36
+        }
+      }
+    },
+    "6": {
+      "accuracy_by_method": {
+        "decision_set_ig": {
+          "accuracy": 1.0,
+          "correct": 280,
+          "denominator": 280
+        },
+        "decision_value": {
+          "accuracy": 1.0,
+          "correct": 280,
+          "denominator": 280
+        },
+        "fixed_order": {
+          "accuracy": 1.0,
+          "correct": 280,
+          "denominator": 280
+        },
+        "profile_ig": {
+          "accuracy": 1.0,
+          "correct": 280,
+          "denominator": 280
+        }
+      },
+      "decision_value_minus_decision_set_ig": {
+        "95_ci": [
+          0.0,
+          0.0
+        ],
+        "correct_difference": 0,
+        "mean_difference": 0.0,
+        "profile_cluster_signs": {
+          "negative": 0,
+          "positive": 0,
+          "tied": 48
+        }
+      }
+    }
+  },
+  "claim_limit": "Exploratory budget curve on the frozen development catalogue; budget 4 was not the preregistered primary point and must be confirmed independently before emphasis.",
+  "interval_method": "10,000-replicate profile-cluster bootstrap stratified by cohort and category; percentile intervals; no multiple-comparison adjustment",
+  "status": "POSTRUN_BUDGET_SENSITIVITY",
+  "trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699"
+}

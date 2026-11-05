@@ -1,0 +1,58 @@
+{
+  "development_prior_profiles_sha256": "179b64f9ea04b1fe34eecf14beca25c1a337de075d5660d6a3a22ef3baa6cb57",
+  "model_calls": 0,
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "splits": {
+    "test_reserved": {
+      "cases": 192,
+      "menu_size_distribution": {
+        "1": 1,
+        "2": 1,
+        "8": 3,
+        "9": 2,
+        "10": 1
+      },
+      "menus": 8,
+      "model_calls": 0,
+      "products": 55,
+      "profile_menu_case_denominator": 192,
+      "profiles": 120,
+      "reference_evaluators_agree": true,
+      "represented_pools": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "test_reserved",
+      "unseen_value_policy": "development-support neutral zero"
+    },
+    "validation_reserved": {
+      "cases": 264,
+      "menu_size_distribution": {
+        "1": 1,
+        "3": 1,
+        "7": 1,
+        "8": 5,
+        "9": 3
+      },
+      "menus": 11,
+      "model_calls": 0,
+      "products": 78,
+      "profile_menu_case_denominator": 264,
+      "profiles": 120,
+      "reference_evaluators_agree": true,
+      "represented_pools": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "split": "validation_reserved",
+      "unseen_value_policy": "development-support neutral zero"
+    }
+  },
+  "status": "PREPARED_NO_METHOD_OUTCOMES"
+}

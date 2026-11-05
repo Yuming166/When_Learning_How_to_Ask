@@ -1,0 +1,21 @@
+{
+  "version": "myntra-luna-simulator-diagnostic-v0.1.1",
+  "requested_model": "gpt-6-luna",
+  "codex_cli_version": "codex-cli 0.166.0",
+  "source_experiment": "experiments/myntra_coverage_diag_v02_20261104",
+  "source_cases": 8,
+  "planned_jobs": 72,
+  "jobs_per_case": 9,
+  "base_choice_independent_repeats": 3,
+  "concurrency": 2,
+  "request_timeout_seconds": 120,
+  "total_wall_seconds": 3600,
+  "retries": 0,
+  "abort_after_consecutive_cli_failures": 2,
+  "minimum_valid_fraction": 0.95,
+  "minimum_action_accuracy_per_stratum": 0.90,
+  "minimum_care_accuracy": 0.90,
+  "minimum_full_disclosure_accuracy": 0.90,
+  "maximum_selected_hard_violations": 0,
+  "note": "Codex CLI-mediated Luna role-play; no API sampling controls or independently attested backend model ID. Revision 0.1.1 fixes prompt-log directory initialization after a zero-call preflight failure; tasks/prompts/scoring unchanged."
+}

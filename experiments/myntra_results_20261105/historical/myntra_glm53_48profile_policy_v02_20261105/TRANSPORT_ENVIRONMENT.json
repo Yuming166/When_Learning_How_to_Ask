@@ -1,0 +1,10 @@
+{
+  "requests": "2.34.2",
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "per_thread_sessions": true,
+  "concurrency": 4,
+  "trust_env": false,
+  "max_retries": 0,
+  "global_environment_modified": false,
+  "new_model_calls": 0
+}

@@ -1,0 +1,96 @@
+{
+  "independent_audit": {
+    "case_local_action_hash_collisions": 0,
+    "derived_files": 6,
+    "extracted_functions_byte_identical": 9,
+    "numerical_projection_rows_verified": 55160,
+    "source_files": 313,
+    "status": "PASS"
+  },
+  "isolated_copy_checks": {
+    "analyze": {
+      "bootstrap_repetitions": 10000,
+      "llm_cases_per_model": 280,
+      "llm_rows": 29400,
+      "llm_shared_draws_across_models": true,
+      "llm_shared_profiles": 48,
+      "new_model_calls": 0,
+      "python_bootstrap_groups": 10,
+      "python_cases": 736,
+      "python_profiles": 288,
+      "python_rows": 25760,
+      "scope": "statistics from published projections; no strategy/model re-execution",
+      "status": "PASS_ALL_PUBLISHED_STATISTICS_MATCH",
+      "tolerance": 1e-12
+    },
+    "tests": {
+      "status": "PASS",
+      "tests": 10
+    },
+    "verify": {
+      "json": 170,
+      "llm_cases_per_model": 280,
+      "llm_rows": 29400,
+      "llm_shared_profiles": 48,
+      "manifest_files": 327,
+      "new_model_calls": 0,
+      "python": 91,
+      "python_cases": 736,
+      "python_profiles": 288,
+      "python_rows": 25760,
+      "scope": "published subset only; does not rerun original raw-source validation",
+      "status": "PASS",
+      "text": 322
+    }
+  },
+  "network_access_blocked": true,
+  "new_model_calls": 0,
+  "new_navigation_links": "PASS",
+  "original_project_paths_blocked": true,
+  "repository_legacy_checker": {
+    "existing_binary_format_failures": [
+      {
+        "file": "experiments/catalogue_robustness_20261105/archive/nine_preference_research_records.tar.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/catalogue_robustness_20261105/tables/表1_六字段Python模拟_两数据集.xlsx",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/decision_value_bridge_20261105/results/synthetic_raw_replay.tar.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/development_python_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/luna48_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/luna8_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/small_python_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/test_python_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      },
+      {
+        "file": "experiments/fashion_evidence_snapshot_20261105/results/validation_python_outcomes.jsonl.gz",
+        "kind": "unexpected_binary"
+      }
+    ],
+    "new_package_failures": 0,
+    "passed": false,
+    "same_before_and_after_publication": true
+  },
+  "scope": "Numerical/statistical reproduction and toy mechanism tests; original full model/strategy execution requires omitted inputs.",
+  "status": "PASS_PUBLIC_SUBSET",
+  "training_runs": 0
+}

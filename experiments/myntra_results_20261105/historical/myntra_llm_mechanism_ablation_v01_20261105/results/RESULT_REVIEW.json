@@ -1,0 +1,82 @@
+{
+  "budget0_1_all_fields_identical": true,
+  "case_model_receipts": 840,
+  "common_complete_subset": {
+    "all_models_budget5_correct": [
+      185,
+      159
+    ],
+    "banks_identical": true,
+    "cases_per_model": 196,
+    "profiles": 37
+  },
+  "complete_terminal_paths_same_metrics": true,
+  "exact_key_coverage_rows": 11760,
+  "failed_path_state_cost_recommendation_constant": true,
+  "historical_dv_records_unchanged": 5880,
+  "independent_counts": {
+    "deepseek": {
+      "budget3": [
+        202,
+        192
+      ],
+      "budget4": [
+        239,
+        204
+      ],
+      "budget5": [
+        259,
+        221
+      ]
+    },
+    "glm": {
+      "budget3": [
+        204,
+        196
+      ],
+      "budget4": [
+        238,
+        205
+      ],
+      "budget5": [
+        255,
+        215
+      ]
+    },
+    "luna": {
+      "budget3": [
+        202,
+        195
+      ],
+      "budget4": [
+        244,
+        206
+      ],
+      "budget5": [
+        265,
+        225
+      ]
+    }
+  },
+  "independent_joint_bootstrap": {
+    "budget5_all_weightings_intervals_bands_match": true,
+    "draws": 10000,
+    "profiles": 48,
+    "shared_draws_across_models": true,
+    "strata": 12
+  },
+  "initial_menu_orders": 35,
+  "interpretation": "case-equal primary effects positive; profile-equal GLM pointwise CI and all three primary simultaneous bands include zero",
+  "new_model_calls": 0,
+  "report_values_match": true,
+  "reviewer": "independent_read_only_agent",
+  "status": "PASS_INDEPENDENT_RESULT_REVIEW",
+  "training_runs": 0,
+  "uncached_real_failure_examples": {
+    "deepseek": "A-P02__M0_00",
+    "glm": "A-P00__M0_00",
+    "luna": "A-P10__M2_00"
+  },
+  "uncached_replay_budget_rows": 21,
+  "uncached_replay_match": true
+}

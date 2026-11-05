@@ -1,0 +1,135 @@
+{
+  "catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "cross_split_leakage_groups": 0,
+  "leakage_groups": 454,
+  "method_outcomes_computed": false,
+  "records": 471,
+  "split_counts": {
+    "development": 338,
+    "test_reserved": 55,
+    "validation_reserved": 78
+  },
+  "split_pool_counts": {
+    "test_reserved": {
+      "Men/Kurtas": 18,
+      "Women/Dresses": 10,
+      "Women/Kurtas": 24,
+      "Women/Kurtis": 1,
+      "Women/Tops": 2,
+      "Women/Tunics": 0
+    },
+    "validation_reserved": {
+      "Men/Kurtas": 26,
+      "Women/Dresses": 7,
+      "Women/Kurtas": 41,
+      "Women/Kurtis": 1,
+      "Women/Tops": 3,
+      "Women/Tunics": 0
+    }
+  },
+  "status": "PASS",
+  "unseen_policy": "Profiles, prior support and elicited rating maps use development-only vocabularies. An item attribute value absent from the corresponding development vocabulary receives soft utility 0; it is not inferred or added to a profile. Existing care/fabric hard constraints apply only to explicitly listed labels.",
+  "unseen_values_by_split_pool_field": {
+    "test_reserved": {
+      "Men/Kurtas": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Dresses": {
+        "fabric": [
+          "modal"
+        ],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Kurtas": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Kurtis": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [
+          "yoke design"
+        ],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Tops": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Tunics": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      }
+    },
+    "validation_reserved": {
+      "Men/Kurtas": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Dresses": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Kurtas": {
+        "fabric": [
+          "art silk",
+          "crepe"
+        ],
+        "neckline": [
+          "scoop neck"
+        ],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Kurtis": {
+        "fabric": [
+          "pure silk"
+        ],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Tops": {
+        "fabric": [],
+        "neckline": [
+          "keyhole neck"
+        ],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      },
+      "Women/Tunics": {
+        "fabric": [],
+        "neckline": [],
+        "pattern": [],
+        "sleeve_length": [],
+        "wash_care": []
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "cases_per_model": 280,
+  "common_complete_cases": 196,
+  "common_complete_profiles": [
+    "A-P01",
+    "A-P04",
+    "A-P05",
+    "A-P06",
+    "A-P07",
+    "A-P08",
+    "A-P09",
+    "A-P11",
+    "A-P12",
+    "A-P13",
+    "A-P14",
+    "A-P15",
+    "A-P17",
+    "A-P18",
+    "A-P19",
+    "A-P20",
+    "A-P21",
+    "A-P22",
+    "A-P23",
+    "B-P00",
+    "B-P01",
+    "B-P02",
+    "B-P03",
+    "B-P04",
+    "B-P05",
+    "B-P06",
+    "B-P07",
+    "B-P08",
+    "B-P10",
+    "B-P12",
+    "B-P14",
+    "B-P15",
+    "B-P16",
+    "B-P17",
+    "B-P18",
+    "B-P19",
+    "B-P22"
+  ],
+  "menus": 35,
+  "new_model_calls": 0,
+  "profiles": 48,
+  "quality": {
+    "deepseek": {
+      "attempted": 288,
+      "complete_valid_profiles": 46,
+      "exact": 278,
+      "records": 288,
+      "valid": 278
+    },
+    "glm": {
+      "attempted": 288,
+      "complete_valid_profiles": 40,
+      "exact": 271,
+      "records": 288,
+      "valid": 272
+    },
+    "luna": {
+      "attempted": 288,
+      "complete_valid_profiles": 47,
+      "exact": 287,
+      "records": 288,
+      "valid": 287
+    }
+  },
+  "source_freeze_file_counts": {
+    "deepseek": 628,
+    "glm": 909,
+    "luna": 32
+  },
+  "status": "INPUT_PREFLIGHT_PASS",
+  "upstream_preserved_files": 4209
+}

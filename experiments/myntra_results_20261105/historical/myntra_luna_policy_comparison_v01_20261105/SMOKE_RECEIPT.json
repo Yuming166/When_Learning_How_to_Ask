@@ -1,0 +1,93 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "smoke",
+  "started_utc": "2026-11-04T16:33:56.125727+00:00",
+  "finished_utc": "2026-11-04T16:34:46.170918+00:00",
+  "planned_total": 96,
+  "planned_phase_new": 12,
+  "attempted_phase": 12,
+  "valid_phase": 12,
+  "transport_failures": 0,
+  "model_mismatch": false,
+  "concurrency": 4,
+  "requested_model": "gpt-6-luna",
+  "reported_model_strings": [],
+  "abort_reason": null,
+  "records_present": 12,
+  "attempts_total": 12,
+  "retries": 0,
+  "summaries": [
+    {
+      "job_id": "D32__M21__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "D32__M21__r2__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    }
+  ]
+}

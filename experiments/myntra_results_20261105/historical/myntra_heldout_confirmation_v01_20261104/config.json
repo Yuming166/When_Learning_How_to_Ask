@@ -1,0 +1,45 @@
+{
+  "version": "myntra-heldout-confirmation-v0.1",
+  "source_worktree": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104",
+  "source_experiment": "experiments/myntra_preference_dev_v01_20261104",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "development_experiment": "myntra_full_dev_catalogue_v02_20261104",
+  "primary_experiment": "myntra_closed_loop_dev_v01_20261104",
+  "splits": ["validation_reserved", "test_reserved"],
+  "pools": [
+    ["Men", "Kurtas"], ["Women", "Dresses"], ["Women", "Kurtas"],
+    ["Women", "Kurtis"], ["Women", "Tops"], ["Women", "Tunics"]
+  ],
+  "menu_target_size": 10,
+  "menu_seed_roots": {
+    "validation_reserved": "myntra-heldout-validation-menus-v01-20261104",
+    "test_reserved": "myntra-heldout-test-menus-v01-20261104"
+  },
+  "profiles_per_pool_per_cohort": 12,
+  "user_cohort_seed_roots": {
+    "validation_reserved": {
+      "A": "myntra-heldout-validation-users-a-v01-20261104",
+      "B": "myntra-heldout-validation-users-b-v01-20261104"
+    },
+    "test_reserved": {
+      "A": "myntra-heldout-test-users-a-v01-20261104",
+      "B": "myntra-heldout-test-users-b-v01-20261104"
+    }
+  },
+  "prior_seed_root": "myntra-full-dev-prior-c-v01-20261104",
+  "prior_profiles_per_pool": 2048,
+  "methods": ["fixed_order", "profile_ig", "decision_set_ig", "decision_value"],
+  "budgets": [0, 1, 2, 3, 4, 5, 6],
+  "primary_budget": 5,
+  "primary_baseline": "decision_set_ig",
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 202611042130,
+  "simultaneous_family": "all 21 decision_value-minus-baseline contrasts (3 baselines x 7 budgets) within each held-out split",
+  "workers": 4,
+  "total_workers_when_splits_run_concurrently": 8,
+  "start_method": "spawn",
+  "model_calls": 0,
+  "training_runs": 0,
+  "unseen_attribute_policy": "Profiles, prior support and elicited rating maps use development-only vocabularies. An item attribute value absent from the corresponding development vocabulary receives soft utility 0; it is not inferred or added to a profile. Existing care/fabric hard constraints apply only to explicitly listed labels.",
+  "data_scope": "All eligible records in validation_reserved and test_reserved, each product and leakage group assigned once within its original split; no held-out outcome-driven tuning."
+}

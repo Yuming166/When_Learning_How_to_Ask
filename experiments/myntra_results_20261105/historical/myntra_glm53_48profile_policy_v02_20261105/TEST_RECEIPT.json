@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "unit_tests": 9,
+  "live_network_calls": 0,
+  "new_guards": "exactly one response ID; thread-local direct Sessions with retries=0; preserve six initial attempts and only call unattempted jobs"
+}

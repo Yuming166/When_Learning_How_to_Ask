@@ -1,0 +1,37 @@
+{
+  "all_product_ids": 959,
+  "catalogue_readiness": "GO_FOR_SOURCE_LABEL_CATALOGUE_AND_SIMULATOR_DEVELOPMENT",
+  "code_sha256": {
+    "acquire_source.py": "2097e8873a4090c17f816cb38fa29b1d6429bde5ed1b6fba3876b1eca38b6acb",
+    "build_catalogue.py": "2ab6814452a44680044e8c8d59bdcece749dd76fcf1d4d1e03a4731f02b60995",
+    "package_catalogue.py": "e6ccdec5290b35e26bd48d2796d24f11f60c8b76ad9c5f4b32bf60ae085fbfa1",
+    "test_catalogue.py": "d71db288ed00141e562d8c1ba08df936adb493d67b6e1471e3a940d47be68563",
+    "verify_catalogue.py": "d5c3ecca62add90614cdc184e8e5e0d325ecd84120a224a0daad4858513aefa7"
+  },
+  "construction_status": "COMPLETE",
+  "date": "2026-11-04",
+  "empty_records": 14000,
+  "external_upload": false,
+  "generated_data_manifest_sha256": "cda8441d7d22ce1b27b760754c5ae945a335f458c8b251bf1c068db4157bf502",
+  "historical_files_unchanged": 1742,
+  "images_downloaded": 0,
+  "independent_source_checks": 156668,
+  "model_calls": 0,
+  "natural_reliability_benchmark_status": "NOT_ESTABLISHED",
+  "network_requests_this_stage": 0,
+  "new_human_reviews": 0,
+  "offline_files_byte_identical": 24,
+  "selection_rule_changes_after_freeze": false,
+  "source_data_staged_in_git": false,
+  "source_records": 15000,
+  "strict_products": 471,
+  "strict_split_counts": {
+    "development": 338,
+    "test_reserved": 55,
+    "validation_reserved": 78
+  },
+  "tests_passed": 29,
+  "training_runs": 0,
+  "variant_records": 1000,
+  "version": "myntra-catalogue-v0.1"
+}

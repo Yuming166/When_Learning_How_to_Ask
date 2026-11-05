@@ -1,0 +1,30 @@
+{
+  "version": "myntra-closed-loop-robustness-v0.1",
+  "frozen_policy_experiment": "myntra_closed_loop_dev_v01_20261104",
+  "source_worktree": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "cohorts": {
+    "A": "myntra-closed-loop-robust-users-a-v01-20261104",
+    "B": "myntra-closed-loop-robust-users-b-v01-20261104"
+  },
+  "prior_seeds": {
+    "A": "myntra-closed-loop-robust-prior-a-v01-20261104",
+    "B": "myntra-closed-loop-robust-prior-b-v01-20261104"
+  },
+  "profiles_per_pool": 4,
+  "prior_profiles_per_pool": 2048,
+  "methods": ["fixed_order", "profile_ig", "decision_set_ig", "decision_value"],
+  "budgets": [0, 1, 2, 3, 4, 5, 6],
+  "primary_budget": 5,
+  "smoke_case_ids": ["A:P00:M00", "A:P11:M21"],
+  "smoke_prior_seed": "A",
+  "robustness_gate": {
+    "minimum_positive_panels_out_of_4": 3,
+    "minimum_positive_unique_profile_clusters": 4,
+    "require_positive_pooled_unique_profile_mean": true,
+    "compare_against": ["fixed_order", "profile_ig"]
+  },
+  "model_calls": 0,
+  "training_runs": 0,
+  "statistical_inference": false
+}

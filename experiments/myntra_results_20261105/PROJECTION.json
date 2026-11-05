@@ -1,0 +1,53 @@
+{
+  "source_record_files": [
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/PAIRED_CASES.jsonl",
+      "sha256": "9dd53ce736625ac2ffe6eecbcd13784f9dae8677a0347d8728e0ea07798f58c6"
+    },
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/results/PAIRED_POLICY_TRACES.jsonl",
+      "sha256": "88cc8c0e3093d83fea78847eac9ab98fc13e14f7c78ff334d3f0d1e6c68de2e1"
+    },
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/PAIRED_POLICY_TRACES.jsonl",
+      "sha256": "f326c6736ed0adbece9dc42be6dce6abe72d888d507f4f6250707a614a9ef57a"
+    },
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/results/PAIRED_POLICY_TRACES.jsonl",
+      "sha256": "cb69c63311f496d07fe97fefffae0bba1aea862b932c926d91298cab9a9f8ccb"
+    },
+    {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/PAIRED_CASES.jsonl",
+      "sha256": "db84cad89cffbf1c8ba8ac44a5443101a48fdded9cc2d89e4bbe358d2b507e1d"
+    }
+  ],
+  "public_records": {
+    "python.csv": {
+      "rows": 25760,
+      "cases": 736,
+      "profiles": 288
+    },
+    "llm.csv": {
+      "rows": 29400,
+      "cases_per_model": 280,
+      "shared_profiles": 48
+    }
+  },
+  "transformations": [
+    "explicit numerical/cluster/path field whitelist",
+    "selected item represented as case-local hash shared across methods and models",
+    "NO_BUY preserved",
+    "Python path completeness default true for lossless deterministic simulator",
+    "field sequences encoded with semicolons; failure null encoded empty"
+  ],
+  "omitted": [
+    "catalogue attributes",
+    "raw product IDs",
+    "target sets",
+    "private preferences and priors",
+    "prompts",
+    "model content/reasoning",
+    "provider and session identifiers"
+  ],
+  "reproduction_scope": "recompute evaluation statistics and mechanism toy tests; not raw source evaluation or model collection"
+}

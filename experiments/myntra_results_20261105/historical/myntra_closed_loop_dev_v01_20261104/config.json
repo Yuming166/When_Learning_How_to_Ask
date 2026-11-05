@@ -1,0 +1,13 @@
+{
+  "version": "myntra-closed-loop-dev-v0.1",
+  "source_experiment": "experiments/myntra_preference_dev_v01_20261104",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "prior_seed_root": "myntra-closed-loop-prior-v01-20261104",
+  "prior_profiles_per_pool": 2048,
+  "query_actions": ["neckline", "sleeve_length", "fabric", "wash_care", "pattern", "purchase_threshold"],
+  "methods": ["fixed_order", "profile_ig", "decision_set_ig", "decision_value"],
+  "budgets": [0, 1, 2, 3, 4, 5, 6],
+  "smoke_case_ids": ["P00__M00", "P08__M21"],
+  "full_disclosure_information_units": 6,
+  "evaluation_note": "Development-only finite Myntra catalogue and synthetic profile experiment. No model calls."
+}

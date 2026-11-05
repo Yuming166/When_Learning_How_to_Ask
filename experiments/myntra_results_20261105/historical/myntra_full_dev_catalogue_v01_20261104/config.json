@@ -1,0 +1,41 @@
+{
+  "version": "myntra-full-dev-catalogue-v0.1",
+  "policy_experiment": "myntra_closed_loop_dev_v01_20261104",
+  "previous_robustness_experiment": "myntra_closed_loop_robustness_v01_20261104",
+  "source_worktree": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "pools": [
+    ["Men", "Kurtas"],
+    ["Women", "Dresses"],
+    ["Women", "Kurtas"],
+    ["Women", "Kurtis"],
+    ["Women", "Tops"],
+    ["Women", "Tunics"]
+  ],
+  "menu_target_size": 10,
+  "menu_seed_root": "myntra-full-dev-menus-v01-20261104",
+  "user_cohorts": {
+    "A": "myntra-full-dev-users-a-v01-20261104",
+    "B": "myntra-full-dev-users-b-v01-20261104"
+  },
+  "profiles_per_pool_per_cohort": 4,
+  "prior_seed_root": "myntra-full-dev-prior-c-v01-20261104",
+  "prior_profiles_per_pool": 2048,
+  "methods": ["fixed_order", "profile_ig", "decision_set_ig", "decision_value"],
+  "budgets": [0, 1, 2, 3, 4, 5, 6],
+  "primary_budget": 5,
+  "primary_baseline": "decision_set_ig",
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 202611041955,
+  "robustness_gate": {
+    "positive_pooled_mean": true,
+    "positive_stratified_profile_bootstrap_lower_95": true,
+    "positive_independent_cohorts": 2,
+    "minimum_positive_categories_out_of_6": 4,
+    "minimum_positive_profile_clusters_out_of_48": 24
+  },
+  "smoke_case_ids": ["A-P00__M0_00", "A-P12__M3_00"],
+  "model_calls": 0,
+  "training_runs": 0,
+  "data_scope": "All eligible, five-core-attribute-complete development records only; validation_reserved and test_reserved remain untouched."
+}

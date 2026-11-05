@@ -1,0 +1,21 @@
+{
+  "cases": 24,
+  "development_source_items": 338,
+  "menu_items": 48,
+  "menus": 6,
+  "model_calls": 0,
+  "no_buy_reasons": {
+    "BELOW_OR_EQUAL_THRESHOLD": 13,
+    "NO_FEASIBLE_ITEM": 5
+  },
+  "profile_outcome_filtering": false,
+  "profiles": 12,
+  "reference_decisions": {
+    "BUY": 6,
+    "NO_BUY": 18
+  },
+  "reference_evaluators_agree": true,
+  "reserved_items_transmitted_or_evaluated": 0,
+  "source_catalogue_records_scanned": 471,
+  "tied_favorite_cases": 7
+}

@@ -1,0 +1,13 @@
+{
+  "case_jobs": 280,
+  "frozen_files": 889,
+  "models": [
+    "luna",
+    "deepseek",
+    "glm"
+  ],
+  "new_model_calls": 0,
+  "planned_rows": 11760,
+  "preserved_upstream_files": 4209,
+  "status": "STARTED_ONCE"
+}

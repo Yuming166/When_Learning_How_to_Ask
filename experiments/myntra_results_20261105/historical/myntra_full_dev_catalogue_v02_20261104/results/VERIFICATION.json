@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "ask_all_exact_terminals": 280,
+    "development_records_used": 338,
+    "frozen_files": 85,
+    "menus": 35,
+    "method_budget_cells": 28,
+    "model_calls": 0,
+    "primary_gate_passed": false,
+    "prior_profiles": 12288,
+    "profile_menu_cases": 280,
+    "reserved_records_used": 0,
+    "six_question_exact_terminals": 1120,
+    "source_records": 471,
+    "trace_rows": 8120,
+    "training_runs": 0,
+    "user_profiles": 48
+  },
+  "freeze_sha256": "d6991bb58bf4204623899f3f0235f6c02a6075e83a5629ee3d31c901ea893eb0",
+  "metrics_sha256": "11eb241d864602a1157e23a6583720b9239421d2125f8a23e3f8cb22e309651d",
+  "scope": "frozen_source_complete_development_coverage_full_denominators_exact_terminals_and_predeclared_gate",
+  "status": "PASS",
+  "trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699"
+}

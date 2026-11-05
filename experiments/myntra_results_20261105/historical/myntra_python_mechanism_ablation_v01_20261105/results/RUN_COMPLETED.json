@@ -1,0 +1,13 @@
+{
+  "cases": 736,
+  "elapsed_seconds": 295.62035319488496,
+  "historical_dv_prediction_replays": 5152,
+  "historical_metric_replays": 20608,
+  "menu_orders": 54,
+  "model_calls": 0,
+  "new_static_rows": 5152,
+  "status": "COMPLETE",
+  "trace_rows": 25760,
+  "trace_sha256": "9dd53ce736625ac2ffe6eecbcd13784f9dae8677a0347d8728e0ea07798f58c6",
+  "training_runs": 0
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "unit_tests": 3,
+  "reference_profile_fields_parsed": 288,
+  "network_calls": 0,
+  "verification": "inventory; parser/replay function identity; model mismatch; truncation; schema; mocked no-retry failure accounting and credential nonpersistence"
+}

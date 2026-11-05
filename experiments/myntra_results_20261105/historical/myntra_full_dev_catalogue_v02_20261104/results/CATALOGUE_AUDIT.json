@@ -1,0 +1,159 @@
+{
+  "development_item_coverage": 338,
+  "development_records_used": 338,
+  "leakage_groups_kept_within_one_menu": 326,
+  "menu_size_distribution": {
+    "5": 1,
+    "8": 3,
+    "9": 1,
+    "10": 30
+  },
+  "menus": 35,
+  "model_calls": 0,
+  "pool_audit": {
+    "Men/Kurtas": {
+      "attribute_vocab_counts": {
+        "fabric": 8,
+        "neckline": 4,
+        "pattern": 6,
+        "sleeve_length": 2,
+        "wash_care": 3
+      },
+      "development_records": 110,
+      "evaluation_cases": 88,
+      "leakage_groups": 100,
+      "menu_count": 11,
+      "menu_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "Women/Dresses": {
+      "attribute_vocab_counts": {
+        "fabric": 4,
+        "neckline": 10,
+        "pattern": 7,
+        "sleeve_length": 4,
+        "wash_care": 3
+      },
+      "development_records": 50,
+      "evaluation_cases": 40,
+      "leakage_groups": 50,
+      "menu_count": 5,
+      "menu_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "Women/Kurtas": {
+      "attribute_vocab_counts": {
+        "fabric": 10,
+        "neckline": 7,
+        "pattern": 10,
+        "sleeve_length": 4,
+        "wash_care": 3
+      },
+      "development_records": 149,
+      "evaluation_cases": 120,
+      "leakage_groups": 147,
+      "menu_count": 15,
+      "menu_sizes": [
+        9,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "Women/Kurtis": {
+      "attribute_vocab_counts": {
+        "fabric": 3,
+        "neckline": 2,
+        "pattern": 2,
+        "sleeve_length": 2,
+        "wash_care": 3
+      },
+      "development_records": 5,
+      "evaluation_cases": 8,
+      "leakage_groups": 5,
+      "menu_count": 1,
+      "menu_sizes": [
+        5
+      ]
+    },
+    "Women/Tops": {
+      "attribute_vocab_counts": {
+        "fabric": 6,
+        "neckline": 5,
+        "pattern": 3,
+        "sleeve_length": 3,
+        "wash_care": 3
+      },
+      "development_records": 16,
+      "evaluation_cases": 16,
+      "leakage_groups": 16,
+      "menu_count": 2,
+      "menu_sizes": [
+        8,
+        8
+      ]
+    },
+    "Women/Tunics": {
+      "attribute_vocab_counts": {
+        "fabric": 2,
+        "neckline": 4,
+        "pattern": 2,
+        "sleeve_length": 2,
+        "wash_care": 3
+      },
+      "development_records": 8,
+      "evaluation_cases": 8,
+      "leakage_groups": 8,
+      "menu_count": 1,
+      "menu_sizes": [
+        8
+      ]
+    }
+  },
+  "prior_bank_profiles": 12288,
+  "prior_profiles_per_pool": 2048,
+  "profile_cohorts": {
+    "A": 24,
+    "B": 24
+  },
+  "profile_menu_cases": 280,
+  "profiles_per_pool_per_cohort": 4,
+  "python_sql_reference_agreement": 280,
+  "reserved_item_transmissions": 0,
+  "reserved_records_used": 0,
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "source_rows": 471,
+  "split_counts": {
+    "development": 338,
+    "test_reserved": 55,
+    "validation_reserved": 78
+  },
+  "status": "PASS"
+}

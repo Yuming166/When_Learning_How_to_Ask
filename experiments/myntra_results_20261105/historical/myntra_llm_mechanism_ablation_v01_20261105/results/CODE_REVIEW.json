@@ -1,0 +1,18 @@
+{
+  "frozen_files_verified": 889,
+  "independent_joint_bootstrap_validation": {
+    "cells": 42,
+    "match": "point estimates, pointwise intervals, primary-three and full-21 simultaneous bands for both weightings"
+  },
+  "legacy_parity_toy_checks": {
+    "compared_rows": 896,
+    "exact_match": true,
+    "field_validity_patterns": 64
+  },
+  "new_model_calls": 0,
+  "new_real_panel_outcomes_used_for_review": false,
+  "reviewer": "independent_read_only_agent",
+  "scope": "frozen replay semantics, source coverage, cache and joint model statistics",
+  "status": "PASS_NO_BLOCKING_ISSUES",
+  "upstream_files_verified": 4209
+}

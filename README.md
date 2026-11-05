@@ -5,6 +5,13 @@
 本仓库保留历次理论与 methodology 开发，并于 **2026-11-05** 更新推荐系统论文及连接实验。既有 V5 简报保留为历史起点；代码、开发结果、数学证书及未完成事项分别标明。**受控模型结果不等于真实 Web/用户有效性，理想策略定理也不自动认证近似程序的渐近最优性。**
 
 
+## 2026-11-05：Myntra结果、Python与三种LLM机制消融
+
+- **[结果与复现入口](experiments/myntra_results_20261105/README.md)** · [完整方法说明](experiments/myntra_results_20261105/METHODS_ZH.md) · [结果及限制](experiments/myntra_results_20261105/RESULTS_ZH.md)。
+- Python合并736案例/288画像；Luna、DeepSeek V4.1 Flash、GLM-5.3各复核同一280案例/48画像。保留全部预算、失败、两种权重和原划分结果。
+- 发布原代码/协议/报告快照、精简逐案数值记录和离线统计重算入口。既有回答库重放新增模型调用为0；推荐端为Python，结论限于受控结构化顾客通道。
+- 本面板与[另一个Myntra/Amazon目录匹配实验](experiments/catalogue_robustness_20261105/README.md)分别报告；原论文和既有结论保持原样。
+
 ## 2026-11-05：推荐系统论文与 Decision Value 连接
 
 - **[当前四页论文 PDF](papers/www2027_catalogue_reliability/main.pdf)** · [源码与复现说明](papers/www2027_catalogue_reliability/README.md) · [本轮中文完成报告](papers/www2027_catalogue_reliability/OVERNIGHT_REPORT_ZH.md)。作者审阅稿，未投稿。

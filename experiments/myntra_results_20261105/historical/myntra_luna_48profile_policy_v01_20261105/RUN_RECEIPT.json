@@ -1,0 +1,1713 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "full",
+  "started_utc": "2026-11-04T17:09:22.348353+00:00",
+  "finished_utc": "2026-11-04T17:24:22.905776+00:00",
+  "planned_total": 288,
+  "planned_phase_new": 282,
+  "attempted_phase": 282,
+  "valid_phase": 281,
+  "transport_failures": 0,
+  "model_mismatch": false,
+  "concurrency": 8,
+  "requested_model": "gpt-6-luna",
+  "reported_model_strings": [],
+  "abort_reason": null,
+  "records_present": 288,
+  "attempts_total": 288,
+  "retries": 0,
+  "summaries": [
+    {
+      "job_id": "A-P01__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P01__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P01__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P01__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P01__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P01__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P02__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P03__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P04__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P05__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P06__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P07__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P08__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P10__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P09__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P10__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P10__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P10__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P10__r1__pattern",
+      "attempted": true,
+      "valid": false,
+      "error": "ValueError"
+    },
+    {
+      "job_id": "A-P10__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P11__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P12__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P13__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P14__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P15__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P16__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P17__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P18__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P19__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P20__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P21__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P22__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "A-P23__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P00__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P01__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P02__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P03__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P04__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P05__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P06__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P07__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P08__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P09__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P10__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P11__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P12__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P13__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P14__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P15__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P16__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P17__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P18__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P19__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P20__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P21__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P22__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__neckline",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__sleeve_length",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__wash_care",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__fabric",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__pattern",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    },
+    {
+      "job_id": "B-P23__r1__purchase_threshold",
+      "attempted": true,
+      "valid": true,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PREPARED_ZERO_GLM_CALLS",
+  "input_files_copied": 9,
+  "profiles": 48,
+  "menus": 35,
+  "cases": 280,
+  "planned_new_calls": 288,
+  "prior_experiments_frozen_hash_verified": true
+}

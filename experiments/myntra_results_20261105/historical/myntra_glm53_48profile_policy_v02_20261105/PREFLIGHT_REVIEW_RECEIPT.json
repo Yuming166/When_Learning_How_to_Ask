@@ -1,0 +1,6 @@
+{
+  "status": "NO_BLOCKING_BUG_IN_CHANGED_LOGIC",
+  "independent_read_only_review": true,
+  "scope": "direct route/thread-local Session; preserving six initial attempts; no repeated initial jobs; missing response-ID guard; attempted-only failure classification",
+  "new_model_calls": 0
+}

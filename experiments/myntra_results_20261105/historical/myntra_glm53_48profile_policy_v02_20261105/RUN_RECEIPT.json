@@ -1,0 +1,20 @@
+{
+  "status": "COLLECTION_COMPLETE",
+  "finished_utc": "2026-11-05T07:16:53.739264+00:00",
+  "planned": 288,
+  "attempted": 288,
+  "records": 288,
+  "valid": 272,
+  "transport_failures": 5,
+  "abort_reason": null,
+  "retries": 0,
+  "concurrency": 4,
+  "wall_seconds": 222.10988895362243,
+  "initial_attempts_carried_forward": 6,
+  "new_attempts": 282,
+  "transport_continuation_post_failure": true,
+  "trust_environment_proxy": false,
+  "reported_models": [
+    "glm-5.3"
+  ]
+}

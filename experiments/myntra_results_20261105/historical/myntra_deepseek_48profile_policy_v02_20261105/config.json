@@ -1,0 +1,72 @@
+{
+  "version": "myntra-deepseek-48profile-policy-v0.2-transport-continuation",
+  "requested_model": "deepseek-v4.1-flash",
+  "source_full_dev_experiment": "experiments/myntra_full_dev_catalogue_v02_20261104",
+  "source_luna_simulator": "experiments/myntra_luna_simulator_v01_20261104",
+  "source_environment": "experiments/myntra_preference_dev_v01_20261104",
+  "source_user_profiles": "48 existing development-only deterministic synthetic profiles; 8 per six catalogue pools",
+  "source_menus": "all 35 frozen development menus; all 280 profile-menu cases",
+  "methods": [
+    "fixed_order",
+    "profile_ig",
+    "decision_set_ig",
+    "decision_value"
+  ],
+  "query_actions": [
+    "neckline",
+    "sleeve_length",
+    "fabric",
+    "wash_care",
+    "pattern",
+    "purchase_threshold"
+  ],
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "primary_budget": 5,
+  "primary_baseline": "decision_set_ig",
+  "response_bank_replicates": 1,
+  "prior_seed_root": "myntra-full-dev-prior-c-v01-20261104",
+  "prior_profiles_per_pool": 2048,
+  "planned_profiles": 48,
+  "planned_menus": 35,
+  "planned_cases": 280,
+  "planned_calls": 288,
+  "smoke_profile_id": "A-P04",
+  "smoke_calls": 6,
+  "full_calls_after_smoke": 282,
+  "concurrency": 1,
+  "analysis_workers": 8,
+  "request_timeout_seconds": 120,
+  "total_wall_seconds": 3600,
+  "retries": 0,
+  "note": "Same-data second deployment structured-answer transfer check; not human or held-out evidence.",
+  "source_experiment": "experiments/myntra_preference_dev_v01_20261104",
+  "base_url": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1",
+  "accepted_reported_models": [
+    "deepseek-v4.1-flash",
+    "deepseek-v4.1-flash-1017"
+  ],
+  "api_parameters": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "enable_thinking": true,
+    "reasoning_effort": "high",
+    "max_tokens": 8192,
+    "stream": false
+  },
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 202611041955,
+  "source_luna_experiment": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105",
+  "initial_attempts": 24,
+  "initial_transport_failures": 10,
+  "continuation_new_calls": 264,
+  "transport": "requests.Session pooled HTTPS; retries=0",
+  "minimum_request_interval_seconds": 0.5
+}

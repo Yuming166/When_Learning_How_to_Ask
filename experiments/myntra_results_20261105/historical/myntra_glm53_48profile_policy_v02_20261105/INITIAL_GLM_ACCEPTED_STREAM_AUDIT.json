@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "initial_valid_streams": 1,
+  "each_has_exactly_one_response_id": true,
+  "raw_content_hash_match": true,
+  "initial_failures_retained": 5,
+  "new_model_calls": 0,
+  "guard_gap_had_no_observed_effect_on_accepted_initial_data": true
+}

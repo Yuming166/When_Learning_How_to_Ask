@@ -1,0 +1,10 @@
+{
+  "phase": "full",
+  "status": "STOPPED",
+  "started_utc": "2026-11-05T06:37:40.810790+00:00",
+  "finished_utc": "2026-11-05T06:37:48.299406+00:00",
+  "records": 282,
+  "attempted": 18,
+  "valid": 8,
+  "abort_reason": "three_consecutive_transport_failures"
+}

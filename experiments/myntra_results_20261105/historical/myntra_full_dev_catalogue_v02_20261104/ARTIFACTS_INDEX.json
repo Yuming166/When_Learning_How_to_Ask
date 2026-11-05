@@ -1,0 +1,137 @@
+{
+  "artifacts": [
+    {
+      "bytes": 1881,
+      "path": "config.json",
+      "sha256": "fa525b72d4fea0db9d7ae6ff18dc6a95034b0c4b28cec263a5eab793872db239"
+    },
+    {
+      "bytes": 4579,
+      "path": "PROTOCOL.md",
+      "sha256": "71aaf909f0a8f6e102b58e359ff81ef7c966c5d4b402430b804b152bd301c6c2"
+    },
+    {
+      "bytes": 26331,
+      "path": "FROZEN.json",
+      "sha256": "d6991bb58bf4204623899f3f0235f6c02a6075e83a5629ee3d31c901ea893eb0"
+    },
+    {
+      "bytes": 31130,
+      "path": "run_full_dev.py",
+      "sha256": "0b44d8427e8eaba04305e58c38b8616d0095d7ebd5ea6fcae9decdab2e5fb282"
+    },
+    {
+      "bytes": 3842,
+      "path": "test_full_dev.py",
+      "sha256": "5f4e208b13ab907b8f84922c97ed4b381e78079ffe2cd16b9eb40ad18d0aca6d"
+    },
+    {
+      "bytes": 5377,
+      "path": "freeze_full_dev.py",
+      "sha256": "678709d5f640d10993888047358e371f50c0daa105478f220032ee76614db4a0"
+    },
+    {
+      "bytes": 8574,
+      "path": "verify_full_dev.py",
+      "sha256": "36c7e24fe086a039b3a67a22453771d24586bfacfef0d0dfccd41a6f0df44d3d"
+    },
+    {
+      "bytes": 1224,
+      "path": "verify_full_dev_postrun.py",
+      "sha256": "a7fa89461c11103f25607a839c270790e75cf10fd253bb6332a3a49a1db7203f"
+    },
+    {
+      "bytes": 2945,
+      "path": "analyze_pools_postrun.py",
+      "sha256": "0fa73f5c4a48a29c65e87187ed6fe456c56120220a4d1fce9ec5475321d6500f"
+    },
+    {
+      "bytes": 3581,
+      "path": "analyze_baseline_comparisons_postrun.py",
+      "sha256": "f956869dcc7e3d40eabf9c127f0a440a97f87bb069787d71af8948469b22bc25"
+    },
+    {
+      "bytes": 2834,
+      "path": "analyze_budget_sensitivity_postrun.py",
+      "sha256": "716f1b12b11588af13a5cb190fa83af34618633dfc66449f806b663d453d3ea5"
+    },
+    {
+      "bytes": 7679,
+      "path": "REPORT_ZH.md",
+      "sha256": "c3870e353240cba5335a811b89b8d4b840aaf14aa3e3512abcb1cd18947b799f"
+    },
+    {
+      "bytes": 1471,
+      "path": "REPRODUCE.md",
+      "sha256": "9f525be1fddeb1a431e89e84c3b77ba9e0517463b2b1e906ea0037cab21b2c0c"
+    },
+    {
+      "bytes": 257,
+      "path": "artifacts/SMOKE_METRICS.json",
+      "sha256": "51af5cf79df294829fbca400e830fe764933f9530b110426aaa8bf5429e0fc59"
+    },
+    {
+      "bytes": 37638,
+      "path": "artifacts/SMOKE_CASES.jsonl",
+      "sha256": "6784093537fa022e777e771bde5bf4f409761c7bf82f63cec3c62b3590c67337"
+    },
+    {
+      "bytes": 3205,
+      "path": "results/CATALOGUE_AUDIT.json",
+      "sha256": "4d25b25f7d3e13ec7a8b337c1440c832e953d91b4618ee32f0301e92b5667608"
+    },
+    {
+      "bytes": 257,
+      "path": "results/RUN_STARTED.json",
+      "sha256": "8ab1a03644be05431844d62f95d3900bb7fa7ed3b93a0f543649c825d2859894"
+    },
+    {
+      "bytes": 367,
+      "path": "results/RUN_COMPLETED.json",
+      "sha256": "4c4d53f2d48dbdc1823d4a28bd3008928e5f206af5bb8ff9b7a4da3fac5fa572"
+    },
+    {
+      "bytes": 15590,
+      "path": "results/CATALOGUE_METRICS.json",
+      "sha256": "11eb241d864602a1157e23a6583720b9239421d2125f8a23e3f8cb22e309651d"
+    },
+    {
+      "bytes": 5278161,
+      "path": "results/PAIRED_CASES.jsonl",
+      "sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699"
+    },
+    {
+      "bytes": 850,
+      "path": "results/VERIFICATION.json",
+      "sha256": "8f09abf7d7766424b52268fb0e5b2120aeab73469bba71afb1d4fa7349521ad7"
+    },
+    {
+      "bytes": 1574,
+      "path": "results/POSTRUN_POOL_ANALYSIS.json",
+      "sha256": "d547d6d2298249a3daa5846b944c7df62529b3f6f55467035c346c4c3aab22da"
+    },
+    {
+      "bytes": 2635,
+      "path": "results/BASELINE_COMPARISONS_POSTRUN.json",
+      "sha256": "ae3c6061d80826a4844e955cbf62965acbbf0038cef6b732ee58eb3942d9c8ac"
+    },
+    {
+      "bytes": 6777,
+      "path": "results/BUDGET_SENSITIVITY_POSTRUN.json",
+      "sha256": "e730ee03cda141bab750354507d9b72c1f57516572f86805de7be5278e166f71"
+    },
+    {
+      "bytes": 1330,
+      "path": "../myntra_full_dev_catalogue_v01_20261104/results/RUN_ABORTED.json",
+      "sha256": "6466d2c43caae4c3e29ab87a817a55f7c1e4a6c507ffe87546156c16e53ffe58"
+    },
+    {
+      "bytes": 16259720,
+      "path": "../myntra_full_dev_catalogue_v01_20261104/results/PAIRED_CASES.jsonl",
+      "sha256": "56284051b72a2e4c3ae572d5f28a4a4bbf642a654e8a74c497da658e765c5d01"
+    }
+  ],
+  "freeze_sha256": "d6991bb58bf4204623899f3f0235f6c02a6075e83a5629ee3d31c901ea893eb0",
+  "note": "The adjacent v0.1 trace is an intentionally preserved aborted artifact and must not be analyzed.",
+  "version": "myntra-full-dev-catalogue-v0.2-parallel"
+}

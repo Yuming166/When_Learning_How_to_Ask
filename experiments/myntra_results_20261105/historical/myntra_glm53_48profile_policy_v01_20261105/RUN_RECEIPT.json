@@ -1,0 +1,16 @@
+{
+  "status": "COLLECTION_STOPPED",
+  "finished_utc": "2026-11-05T07:07:57.791024+00:00",
+  "planned": 288,
+  "attempted": 6,
+  "records": 288,
+  "valid": 1,
+  "transport_failures": 5,
+  "abort_reason": "three_consecutive_transport_failures",
+  "retries": 0,
+  "concurrency": 1,
+  "wall_seconds": 127.0662364619784,
+  "reported_models": [
+    "glm-5.3"
+  ]
+}

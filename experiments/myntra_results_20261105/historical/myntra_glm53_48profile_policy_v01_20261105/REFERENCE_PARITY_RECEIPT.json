@@ -1,0 +1,6 @@
+{
+  "status": "REFERENCE_STATISTICS_EXACT_PARITY",
+  "cells": 28,
+  "paired_comparisons": 21,
+  "bootstrap_repetitions": 10000
+}

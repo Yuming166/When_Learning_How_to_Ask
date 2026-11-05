@@ -1,0 +1,1214 @@
+{
+  "cross_model_quality": {
+    "glm": {
+      "planned": 288,
+      "valid": 272,
+      "exact": 271,
+      "complete_valid_profiles": 40
+    },
+    "luna": {
+      "planned": 288,
+      "valid": 287,
+      "exact": 287,
+      "complete_valid_profiles": 47
+    },
+    "deepseek": {
+      "planned": 288,
+      "valid": 278,
+      "exact": 278,
+      "complete_valid_profiles": 46
+    }
+  },
+  "parsed_field_agreement": {
+    "luna": {
+      "jointly_valid": 271,
+      "equal": 271
+    },
+    "deepseek": {
+      "jointly_valid": 262,
+      "equal": 261
+    }
+  },
+  "common_complete_profiles": [
+    "A-P01",
+    "A-P04",
+    "A-P05",
+    "A-P06",
+    "A-P07",
+    "A-P08",
+    "A-P09",
+    "A-P11",
+    "A-P12",
+    "A-P13",
+    "A-P14",
+    "A-P15",
+    "A-P17",
+    "A-P18",
+    "A-P19",
+    "A-P20",
+    "A-P21",
+    "A-P22",
+    "A-P23",
+    "B-P00",
+    "B-P01",
+    "B-P02",
+    "B-P03",
+    "B-P04",
+    "B-P05",
+    "B-P06",
+    "B-P07",
+    "B-P08",
+    "B-P10",
+    "B-P12",
+    "B-P14",
+    "B-P15",
+    "B-P16",
+    "B-P17",
+    "B-P18",
+    "B-P19",
+    "B-P22"
+  ],
+  "common_complete_cases": 196,
+  "common_complete_subset_metrics": {
+    "0": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 98,
+          "luna": 98,
+          "deepseek": 98
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 98,
+          "luna": 98,
+          "deepseek": 98
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 98,
+          "luna": 98,
+          "deepseek": 98
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 98,
+          "luna": 98,
+          "deepseek": 98
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 98,
+          "luna": 98,
+          "deepseek": 98
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 100,
+          "luna": 100,
+          "deepseek": 100
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 100,
+          "luna": 100,
+          "deepseek": 100
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 100,
+          "luna": 100,
+          "deepseek": 100
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 96,
+          "luna": 96,
+          "deepseek": 96
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 117,
+          "luna": 117,
+          "deepseek": 117
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 106,
+          "luna": 106,
+          "deepseek": 106
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 113,
+          "luna": 113,
+          "deepseek": 113
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 95,
+          "luna": 95,
+          "deepseek": 95
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 107,
+          "luna": 107,
+          "deepseek": 107
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 121,
+          "luna": 121,
+          "deepseek": 121
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 145,
+          "luna": 145,
+          "deepseek": 145
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 126,
+          "luna": 126,
+          "deepseek": 126
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 124,
+          "luna": 124,
+          "deepseek": 124
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 144,
+          "luna": 144,
+          "deepseek": 144
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 170,
+          "luna": 170,
+          "deepseek": 170
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 141,
+          "luna": 141,
+          "deepseek": 141
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 138,
+          "luna": 138,
+          "deepseek": 138
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 173,
+          "luna": 173,
+          "deepseek": 173
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 185,
+          "luna": 185,
+          "deepseek": 185
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "n": 196,
+        "correct": {
+          "glm": 196,
+          "luna": 196,
+          "deepseek": 196
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "profile_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 196,
+          "luna": 196,
+          "deepseek": 196
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_set_ig": {
+        "n": 196,
+        "correct": {
+          "glm": 196,
+          "luna": 196,
+          "deepseek": 196
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      },
+      "decision_value": {
+        "n": 196,
+        "correct": {
+          "glm": 196,
+          "luna": 196,
+          "deepseek": 196
+        },
+        "glm_luna_same_action": 196,
+        "glm_deepseek_same_action": 196
+      }
+    }
+  },
+  "model_minus_luna_pairwise": {
+    "0": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "decision_value": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      },
+      "decision_value": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 280
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280,
+        "query_sequence_agreement": 252
+      },
+      "profile_ig": {
+        "difference": 0.010714285714285714,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.03214285714285714
+        ],
+        "case_wins": 3,
+        "case_ties": 277,
+        "case_losses": 0,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 47,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 277,
+        "query_sequence_agreement": 262
+      },
+      "decision_set_ig": {
+        "difference": 0.010714285714285714,
+        "cluster_bootstrap_95_ci": [
+          -0.014285714285714285,
+          0.04285714285714286
+        ],
+        "case_wins": 5,
+        "case_ties": 273,
+        "case_losses": 2,
+        "profile_clusters_win": 2,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 273,
+        "query_sequence_agreement": 261
+      },
+      "decision_value": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.007142857142857143,
+          0.02857142857142857
+        ],
+        "case_wins": 3,
+        "case_ties": 276,
+        "case_losses": 1,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 46,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 276,
+        "query_sequence_agreement": 262
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          -0.007142857142857143,
+          0.007142857142857143
+        ],
+        "case_wins": 1,
+        "case_ties": 278,
+        "case_losses": 1,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 46,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 278,
+        "query_sequence_agreement": 236
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          -0.039285714285714285,
+          0.03571428571428571
+        ],
+        "case_wins": 8,
+        "case_ties": 264,
+        "case_losses": 8,
+        "profile_clusters_win": 3,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 261,
+        "query_sequence_agreement": 235
+      },
+      "decision_set_ig": {
+        "difference": 0.017857142857142856,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.039285714285714285
+        ],
+        "case_wins": 8,
+        "case_ties": 269,
+        "case_losses": 3,
+        "profile_clusters_win": 3,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 265,
+        "query_sequence_agreement": 246
+      },
+      "decision_value": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.02142857142857143
+        ],
+        "case_wins": 6,
+        "case_ties": 270,
+        "case_losses": 4,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 47,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 267,
+        "query_sequence_agreement": 249
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "difference": -0.014285714285714285,
+        "cluster_bootstrap_95_ci": [
+          -0.04285714285714286,
+          0.007142857142857143
+        ],
+        "case_wins": 1,
+        "case_ties": 274,
+        "case_losses": 5,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 274,
+        "query_sequence_agreement": 233
+      },
+      "profile_ig": {
+        "difference": -0.014285714285714285,
+        "cluster_bootstrap_95_ci": [
+          -0.05357142857142857,
+          0.02142857142857143
+        ],
+        "case_wins": 4,
+        "case_ties": 268,
+        "case_losses": 8,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 265,
+        "query_sequence_agreement": 233
+      },
+      "decision_set_ig": {
+        "difference": -0.017857142857142856,
+        "cluster_bootstrap_95_ci": [
+          -0.05357142857142857,
+          0.007142857142857143
+        ],
+        "case_wins": 3,
+        "case_ties": 269,
+        "case_losses": 8,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 265,
+        "query_sequence_agreement": 237
+      },
+      "decision_value": {
+        "difference": -0.02142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.05714285714285714,
+          0.0
+        ],
+        "case_wins": 1,
+        "case_ties": 272,
+        "case_losses": 7,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 46,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 270,
+        "query_sequence_agreement": 247
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "difference": -0.075,
+        "cluster_bootstrap_95_ci": [
+          -0.14285714285714285,
+          -0.017857142857142856
+        ],
+        "case_wins": 1,
+        "case_ties": 257,
+        "case_losses": 22,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 256,
+        "query_sequence_agreement": 233
+      },
+      "profile_ig": {
+        "difference": -0.09285714285714286,
+        "cluster_bootstrap_95_ci": [
+          -0.18214285714285713,
+          -0.02142857142857143
+        ],
+        "case_wins": 2,
+        "case_ties": 250,
+        "case_losses": 28,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 250,
+        "query_sequence_agreement": 218
+      },
+      "decision_set_ig": {
+        "difference": -0.04642857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.08571428571428572,
+          -0.007142857142857143
+        ],
+        "case_wins": 3,
+        "case_ties": 261,
+        "case_losses": 16,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 257,
+        "query_sequence_agreement": 228
+      },
+      "decision_value": {
+        "difference": -0.03571428571428571,
+        "cluster_bootstrap_95_ci": [
+          -0.06785714285714285,
+          -0.007142857142857143
+        ],
+        "case_wins": 1,
+        "case_ties": 268,
+        "case_losses": 11,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 267,
+        "query_sequence_agreement": 236
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "difference": -0.05714285714285714,
+        "cluster_bootstrap_95_ci": [
+          -0.15,
+          0.017857142857142856
+        ],
+        "case_wins": 6,
+        "case_ties": 252,
+        "case_losses": 22,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 3,
+        "selected_action_agreement": 252,
+        "query_sequence_agreement": 218
+      },
+      "profile_ig": {
+        "difference": -0.07142857142857142,
+        "cluster_bootstrap_95_ci": [
+          -0.15357142857142858,
+          0.0
+        ],
+        "case_wins": 1,
+        "case_ties": 258,
+        "case_losses": 21,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 3,
+        "selected_action_agreement": 258,
+        "query_sequence_agreement": 218
+      },
+      "decision_set_ig": {
+        "difference": -0.03214285714285714,
+        "cluster_bootstrap_95_ci": [
+          -0.08571428571428572,
+          0.03214285714285714
+        ],
+        "case_wins": 6,
+        "case_ties": 259,
+        "case_losses": 15,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 258,
+        "query_sequence_agreement": 223
+      },
+      "decision_value": {
+        "difference": -0.039285714285714285,
+        "cluster_bootstrap_95_ci": [
+          -0.07857142857142857,
+          -0.0035714285714285713
+        ],
+        "case_wins": 1,
+        "case_ties": 267,
+        "case_losses": 12,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 266,
+        "query_sequence_agreement": 228
+      }
+    }
+  },
+  "model_minus_deepseek_pairwise": {
+    "0": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "decision_value": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "profile_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "decision_set_ig": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "decision_value": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.0
+        ],
+        "case_wins": 0,
+        "case_ties": 280,
+        "case_losses": 0,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 48,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 280
+      },
+      "profile_ig": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.010714285714285714,
+          0.03214285714285714
+        ],
+        "case_wins": 4,
+        "case_ties": 274,
+        "case_losses": 2,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 46,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 274
+      },
+      "decision_set_ig": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.017857142857142856,
+          0.039285714285714285
+        ],
+        "case_wins": 5,
+        "case_ties": 272,
+        "case_losses": 3,
+        "profile_clusters_win": 2,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 272
+      },
+      "decision_value": {
+        "difference": 0.0035714285714285713,
+        "cluster_bootstrap_95_ci": [
+          -0.014285714285714285,
+          0.02857142857142857
+        ],
+        "case_wins": 3,
+        "case_ties": 275,
+        "case_losses": 2,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 275
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "difference": 0.0,
+        "cluster_bootstrap_95_ci": [
+          -0.007142857142857143,
+          0.007142857142857143
+        ],
+        "case_wins": 5,
+        "case_ties": 270,
+        "case_losses": 5,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 46,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 268
+      },
+      "profile_ig": {
+        "difference": 0.02857142857142857,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.060714285714285714
+        ],
+        "case_wins": 12,
+        "case_ties": 264,
+        "case_losses": 4,
+        "profile_clusters_win": 5,
+        "profile_clusters_tie": 41,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 258
+      },
+      "decision_set_ig": {
+        "difference": 0.02142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.0035714285714285713,
+          0.05
+        ],
+        "case_wins": 12,
+        "case_ties": 262,
+        "case_losses": 6,
+        "profile_clusters_win": 4,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 1,
+        "selected_action_agreement": 256
+      },
+      "decision_value": {
+        "difference": 0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          0.0,
+          0.02142857142857143
+        ],
+        "case_wins": 7,
+        "case_ties": 268,
+        "case_losses": 5,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 47,
+        "profile_clusters_loss": 0,
+        "selected_action_agreement": 265
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "difference": -0.010714285714285714,
+        "cluster_bootstrap_95_ci": [
+          -0.039285714285714285,
+          0.010714285714285714
+        ],
+        "case_wins": 6,
+        "case_ties": 265,
+        "case_losses": 9,
+        "profile_clusters_win": 2,
+        "profile_clusters_tie": 44,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 263
+      },
+      "profile_ig": {
+        "difference": 0.014285714285714285,
+        "cluster_bootstrap_95_ci": [
+          -0.014285714285714285,
+          0.04285714285714286
+        ],
+        "case_wins": 8,
+        "case_ties": 268,
+        "case_losses": 4,
+        "profile_clusters_win": 3,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 263
+      },
+      "decision_set_ig": {
+        "difference": -0.007142857142857143,
+        "cluster_bootstrap_95_ci": [
+          -0.04642857142857143,
+          0.025
+        ],
+        "case_wins": 9,
+        "case_ties": 260,
+        "case_losses": 11,
+        "profile_clusters_win": 3,
+        "profile_clusters_tie": 42,
+        "profile_clusters_loss": 3,
+        "selected_action_agreement": 257
+      },
+      "decision_value": {
+        "difference": -0.0035714285714285713,
+        "cluster_bootstrap_95_ci": [
+          -0.04285714285714286,
+          0.03571428571428571
+        ],
+        "case_wins": 6,
+        "case_ties": 267,
+        "case_losses": 7,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 2,
+        "selected_action_agreement": 265
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "difference": -0.025,
+        "cluster_bootstrap_95_ci": [
+          -0.08571428571428572,
+          0.04285714285714286
+        ],
+        "case_wins": 8,
+        "case_ties": 257,
+        "case_losses": 15,
+        "profile_clusters_win": 2,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 3,
+        "selected_action_agreement": 252
+      },
+      "profile_ig": {
+        "difference": -0.05357142857142857,
+        "cluster_bootstrap_95_ci": [
+          -0.10357142857142858,
+          -0.0035714285714285713
+        ],
+        "case_wins": 0,
+        "case_ties": 265,
+        "case_losses": 15,
+        "profile_clusters_win": 0,
+        "profile_clusters_tie": 45,
+        "profile_clusters_loss": 3,
+        "selected_action_agreement": 260
+      },
+      "decision_set_ig": {
+        "difference": -0.03571428571428571,
+        "cluster_bootstrap_95_ci": [
+          -0.08214285714285714,
+          0.010714285714285714
+        ],
+        "case_wins": 5,
+        "case_ties": 260,
+        "case_losses": 15,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 42,
+        "profile_clusters_loss": 5,
+        "selected_action_agreement": 256
+      },
+      "decision_value": {
+        "difference": -0.014285714285714285,
+        "cluster_bootstrap_95_ci": [
+          -0.060714285714285714,
+          0.03571428571428571
+        ],
+        "case_wins": 7,
+        "case_ties": 262,
+        "case_losses": 11,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 261
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "difference": -0.05357142857142857,
+        "cluster_bootstrap_95_ci": [
+          -0.15,
+          0.02857142857142857
+        ],
+        "case_wins": 7,
+        "case_ties": 251,
+        "case_losses": 22,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 251
+      },
+      "profile_ig": {
+        "difference": -0.05714285714285714,
+        "cluster_bootstrap_95_ci": [
+          -0.15,
+          0.02142857142857143
+        ],
+        "case_wins": 6,
+        "case_ties": 252,
+        "case_losses": 22,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 43,
+        "profile_clusters_loss": 4,
+        "selected_action_agreement": 252
+      },
+      "decision_set_ig": {
+        "difference": -0.03571428571428571,
+        "cluster_bootstrap_95_ci": [
+          -0.08928571428571429,
+          0.025
+        ],
+        "case_wins": 6,
+        "case_ties": 258,
+        "case_losses": 16,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 42,
+        "profile_clusters_loss": 5,
+        "selected_action_agreement": 257
+      },
+      "decision_value": {
+        "difference": -0.025,
+        "cluster_bootstrap_95_ci": [
+          -0.075,
+          0.02857142857142857
+        ],
+        "case_wins": 6,
+        "case_ties": 261,
+        "case_losses": 13,
+        "profile_clusters_win": 1,
+        "profile_clusters_tie": 42,
+        "profile_clusters_loss": 5,
+        "selected_action_agreement": 260
+      }
+    }
+  },
+  "source_comparison_note": "Luna CLI decoding/identity unavailable; DeepSeek retained 10 original TLS failures and a post-failure serial continuation; GLM uses complete SSE and matching explicit high inference setting.",
+  "common_subset_limit": "Secondary failure-excluding descriptive intersection; not the 280-case primary estimate."
+}

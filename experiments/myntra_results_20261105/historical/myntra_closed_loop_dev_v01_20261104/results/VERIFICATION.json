@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "all_exact_six_question_terminals": 4,
+    "ask_all_one_turn_six_units": 24,
+    "development_menu_items_only": 24,
+    "full_denominator_and_class_balance": 1,
+    "independent_reference_replay": 24,
+    "model_calls": 0,
+    "paired_method_budget_coverage": 672,
+    "source_catalogue_hash": 1,
+    "training_runs": 0
+  },
+  "evaluated_cases": 24,
+  "result_sha256": "4e0378d6eb77b965a4a577f1faf88e09982deac78b83ea393bbd4f57bd2fc8a4",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "status": "PASS",
+  "trace_rows": 696,
+  "trace_sha256": "b99c1d5b832dd3b0f774f69740edb53416fa3d8d3afabbb00515ec15e7cf97eb",
+  "verification_scope": "source_binding_full_denominators_costs_recommendation_replay_and_run_receipt"
+}

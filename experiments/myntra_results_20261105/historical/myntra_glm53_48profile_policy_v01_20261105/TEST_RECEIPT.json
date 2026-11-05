@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "unit_tests": 7,
+  "live_network_calls": 0,
+  "coverage": "byte-identical inputs and replay; schema/model/truncation; mocked no-retry and no persisted key; SSE content/reasoning/usage separation; missing DONE/finish; wrong model; malformed stream; tool calls; duplicate finish"
+}

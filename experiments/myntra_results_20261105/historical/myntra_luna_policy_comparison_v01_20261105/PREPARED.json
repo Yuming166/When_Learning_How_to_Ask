@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED_ZERO_MODEL_CALLS",
+  "source_luna_simulator": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104",
+  "source_full_dev_prior": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/artifacts/prepared/private/prior_profiles.jsonl",
+  "cases": 8,
+  "unique_profiles": 8,
+  "menus": 5,
+  "response_bank_replicates": 2,
+  "actions_per_profile": 6,
+  "planned_calls": 96,
+  "model_calls": 0,
+  "prior_counts_by_full_catalogue_pool": {
+    "0": 2048,
+    "1": 2048,
+    "2": 2048
+  },
+  "reserved_products_used": 0
+}

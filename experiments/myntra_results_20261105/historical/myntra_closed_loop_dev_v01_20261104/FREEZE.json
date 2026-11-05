@@ -1,0 +1,17 @@
+{
+  "files": {
+    "PROTOCOL.md": "1e13c57b77397adf26b8058adca1a5d6823caca1e9854630736829b3452cd551",
+    "config.json": "0653df0c90e38c5166544490b4f1c1dfd36c5e1f72a4da0ee1c77b08b8c50549",
+    "engine.py": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+    "freeze.py": "34ec5265a126c7c93c3b9e1b4a95430cc869feeca5a14bf188bd32070b311ffd",
+    "run.py": "9f846bff6dc657f84ee876cdb23dccb08d5f94cd9cfda5fe3c7ad38785368182",
+    "test_closed_loop.py": "24f4a92b02e436b36843e6e50bf86b7a1563b06a7c4e01a808a5c6390fb931fc"
+  },
+  "full_panel_started": false,
+  "python_version": "3.13.13",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "source_environment_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+  "source_rules_freeze_sha256": "98f9a3d25835aa46cded2cb1f5254368378a9ae6c0800b12320d50b46f2cbe94",
+  "source_worktree_label": "When_Learning_How_to_Ask_myntra_preference_dev_20261104",
+  "status": "FROZEN_BEFORE_FULL_PANEL"
+}

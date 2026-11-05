@@ -1,0 +1,13 @@
+{
+  "status": "FINAL_COLLECTION_AND_STREAM_AUDIT_PASS",
+  "unique_attempts": 288,
+  "duplicate_attempts": 0,
+  "initial_records_preserved": 6,
+  "transport_failures": 5,
+  "invalid_model_output": 11,
+  "valid_fields": 272,
+  "exact_fields": 271,
+  "complete_streams_with_one_consistent_response_id": 283,
+  "complete_valid_profiles": 40,
+  "verification_model_calls": 0
+}

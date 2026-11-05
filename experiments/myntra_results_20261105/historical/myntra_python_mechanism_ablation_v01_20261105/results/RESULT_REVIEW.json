@@ -1,0 +1,108 @@
+{
+  "all_five_methods_terminal_correct": 736,
+  "budget_0_1_6_per_case_metrics_identical": true,
+  "case_replay_receipts": 736,
+  "exact_unique_trace_rows": 25760,
+  "historical_rows_unchanged": 20608,
+  "independent_correct_counts": {
+    "development": {
+      "budget3": [
+        202,
+        194
+      ],
+      "budget4": [
+        244,
+        207
+      ],
+      "budget5": [
+        265,
+        224
+      ],
+      "cases": 280
+    },
+    "pooled": {
+      "budget3": [
+        534,
+        509
+      ],
+      "budget4": [
+        621,
+        551
+      ],
+      "budget5": [
+        691,
+        595
+      ],
+      "cases": 736
+    },
+    "test_reserved": {
+      "budget3": [
+        149,
+        139
+      ],
+      "budget4": [
+        161,
+        151
+      ],
+      "budget5": [
+        178,
+        155
+      ],
+      "cases": 192
+    },
+    "validation_reserved": {
+      "budget3": [
+        183,
+        176
+      ],
+      "budget4": [
+        216,
+        193
+      ],
+      "budget5": [
+        248,
+        216
+      ],
+      "cases": 264
+    }
+  },
+  "independent_primary_bootstrap": {
+    "case_equal_95_ci": [
+      0.10054347826086957,
+      0.16032608695652173
+    ],
+    "case_equal_point": 0.13043478260869565,
+    "case_equal_simultaneous_14_band": [
+      0.08967391304347827,
+      0.17119565217391303
+    ],
+    "match": "exact",
+    "profile_equal_95_ci": [
+      0.06176267887205388,
+      0.13420691287878786
+    ],
+    "profile_equal_point": 0.09784301346801345,
+    "repetitions": 10000,
+    "seed": 202611052305
+  },
+  "initial_menu_orders": 54,
+  "model_calls": 0,
+  "report_matches_independent_counts": true,
+  "reviewer": "independent_read_only_agent",
+  "status": "PASS_INDEPENDENT_RESULT_REVIEW",
+  "training_runs": 0,
+  "uncached_static_replay": {
+    "budget_rows": 21,
+    "cases": [
+      "A-P00__M0_00",
+      "val-A-P00__val-M0_00",
+      "tes-A-P00__tes-M0_00"
+    ],
+    "matched": [
+      "original_DV_initial_scores_and_order",
+      "selected_action",
+      "posterior_predicted_success",
+      "all_hidden_reference_metrics"
+    ]
+  }
+}

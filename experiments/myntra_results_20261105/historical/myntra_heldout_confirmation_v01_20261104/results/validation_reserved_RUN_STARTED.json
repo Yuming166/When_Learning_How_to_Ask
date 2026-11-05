@@ -1,0 +1,9 @@
+{
+  "cases": 264,
+  "model_calls": 0,
+  "planned_trace_rows": 7656,
+  "split": "validation_reserved",
+  "started_utc": "2026-11-04T14:51:57.735453+00:00",
+  "status": "HELDOUT_PANEL_STARTED_ONCE",
+  "workers": 4
+}

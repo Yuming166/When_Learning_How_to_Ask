@@ -1,0 +1,8 @@
+{
+  "status": "PREPARED_ZERO_NEW_GLM_CALLS",
+  "initial_attempts": 6,
+  "initial_valid": 1,
+  "initial_transport_failures": 5,
+  "new_pending_jobs": 282,
+  "planned_combined_unique_attempts": 288
+}

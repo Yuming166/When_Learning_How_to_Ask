@@ -1,0 +1,11 @@
+{
+  "status": "FINAL_COLLECTION_INTEGRITY_PASS",
+  "planned_unique_jobs": 288,
+  "unique_attempts": 288,
+  "duplicate_attempts": 0,
+  "initial_records_preserved": 24,
+  "initial_tls_failures_preserved": 10,
+  "continuation_new_valid": 264,
+  "valid_total": 278,
+  "complete_valid_profiles": 46
+}

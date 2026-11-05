@@ -1,0 +1,11 @@
+{
+  "cases_per_model": 280,
+  "frozen_files": 889,
+  "new_model_calls": 0,
+  "output_files": 13,
+  "preserved_upstream_files": 4209,
+  "profiles": 48,
+  "rows": 11760,
+  "status": "PASS",
+  "training_runs": 0
+}

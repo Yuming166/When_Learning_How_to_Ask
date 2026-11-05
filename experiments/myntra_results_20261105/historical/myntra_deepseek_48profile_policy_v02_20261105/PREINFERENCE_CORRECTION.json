@@ -1,0 +1,7 @@
+{
+  "status": "CORRECTED_BEFORE_ANY_CONTINUATION_CALL",
+  "new_model_calls": 0,
+  "reason": "mocked transport test found local request-body dictionary shadowed the requests module; renamed dictionary before collection",
+  "original_first_attempts_unchanged": 24,
+  "terminal_process_before_correction": "cancelled at hidden key prompt before supplying credential"
+}

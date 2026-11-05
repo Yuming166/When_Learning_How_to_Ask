@@ -1,0 +1,13 @@
+{
+  "cases": 736,
+  "frozen_files": 25,
+  "historical_dv_path_reselected": false,
+  "historical_dv_predictions_replayed": true,
+  "model_calls": 0,
+  "planned_trace_rows": 25760,
+  "preserved_upstream_files": 101,
+  "started_utc": "2026-11-05T08:41:33.691665+00:00",
+  "status": "STARTED_ONCE",
+  "training_runs": 0,
+  "workers": 8
+}

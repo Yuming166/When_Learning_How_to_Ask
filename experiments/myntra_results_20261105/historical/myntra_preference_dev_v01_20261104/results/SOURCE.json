@@ -1,0 +1,9 @@
+{
+  "source_commit": "4ff3ce1",
+  "source_dataset": "myntra-catalogue-v0.1",
+  "source_file": "catalogue_strict.jsonl",
+  "sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "bytes": 2007435,
+  "items": 471,
+  "source_manifest_sha256": "cda8441d7d22ce1b27b760754c5ae945a335f458c8b251bf1c068db4157bf502"
+}

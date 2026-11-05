@@ -1,0 +1,8 @@
+{
+  "stage": "before_profile_generation",
+  "files": {
+    "config.json": "999017d42256fca47b6d9914f65defef83e40fa8e162af7c5c7c745c77f3ea05",
+    "PROTOCOL.md": "a920230257c5ec87f4af18f033fc7537f85594d178d41d22c0aec74d7c6cda86",
+    "SYSTEM_PROMPT_ZH.txt": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427"
+  }
+}

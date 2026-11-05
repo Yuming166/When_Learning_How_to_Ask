@@ -1,0 +1,53 @@
+{
+  "baseline": "decision_set_ig",
+  "budget": 5,
+  "claim_limit": "Post-run diagnostic of the already frozen trace; no method, data, or outcome was changed.",
+  "method": "decision_value",
+  "negative_pools": 1,
+  "pools": {
+    "Men/Kurtas": {
+      "correct_difference": 2,
+      "denominator": 88,
+      "direction": "positive",
+      "mean_difference": 0.022727272727272728
+    },
+    "Women/Dresses": {
+      "correct_difference": 5,
+      "denominator": 40,
+      "direction": "positive",
+      "mean_difference": 0.125
+    },
+    "Women/Kurtas": {
+      "correct_difference": 12,
+      "denominator": 120,
+      "direction": "positive",
+      "mean_difference": 0.1
+    },
+    "Women/Kurtis": {
+      "correct_difference": -1,
+      "denominator": 8,
+      "direction": "negative",
+      "mean_difference": -0.125
+    },
+    "Women/Tops": {
+      "correct_difference": 0,
+      "denominator": 16,
+      "direction": "tie",
+      "mean_difference": 0.0
+    },
+    "Women/Tunics": {
+      "correct_difference": 0,
+      "denominator": 8,
+      "direction": "tie",
+      "mean_difference": 0.0
+    }
+  },
+  "positive_pools": 3,
+  "positive_profile_clusters": 10,
+  "predeclared_profile_cluster_gate_passed": false,
+  "purpose": "Recompute the frozen six-pool robustness criterion by gender/category because the frozen metrics aggregate both Kurtas pools under one category name.",
+  "six_pool_gate_passed": false,
+  "source_trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699",
+  "status": "SUPPLEMENTAL_POSTRUN_AUDIT",
+  "tied_pools": 2
+}

@@ -1,0 +1,8 @@
+{
+  "status": "EXACT_REPLAY_PARITY_PASS",
+  "case_id": "A-P00__M0_00",
+  "methods": 4,
+  "budgets": 7,
+  "trace_rows": 28,
+  "model_calls": 0
+}

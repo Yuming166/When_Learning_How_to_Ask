@@ -1,0 +1,10 @@
+{
+  "behavior_rule": "buy_only_if_feasible_maximum_strictly_exceeds_threshold",
+  "dependent_requests": 2,
+  "development_products_only": true,
+  "gold_in_requests": false,
+  "independent_requests": 14,
+  "planned_generation_cap": 16,
+  "status": "PASS",
+  "test_count": 33
+}

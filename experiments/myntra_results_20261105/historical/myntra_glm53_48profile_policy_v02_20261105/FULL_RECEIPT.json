@@ -1,0 +1,10 @@
+{
+  "phase": "full",
+  "status": "PHASE_COMPLETED",
+  "started_utc": "2026-11-05T07:13:31.703178+00:00",
+  "finished_utc": "2026-11-05T07:16:53.653001+00:00",
+  "records": 276,
+  "attempted": 276,
+  "valid": 265,
+  "abort_reason": null
+}

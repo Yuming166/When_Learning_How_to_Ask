@@ -1,0 +1,8 @@
+{
+  "status": "TRANSPORT_CONTINUATION_PREPARED_ZERO_NEW_CALLS",
+  "initial_unique_attempts": 24,
+  "initial_valid": 14,
+  "initial_tls_failures": 10,
+  "never_attempted_pending": 264,
+  "planned_combined_unique_attempts": 288
+}

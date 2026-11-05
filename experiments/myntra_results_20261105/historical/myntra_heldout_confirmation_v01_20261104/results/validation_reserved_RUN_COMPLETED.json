@@ -1,0 +1,12 @@
+{
+  "cases": 264,
+  "completed_utc": "2026-11-04T15:07:47.037557+00:00",
+  "elapsed_seconds": 949.3020939021371,
+  "model_calls": 0,
+  "split": "validation_reserved",
+  "started_utc": "2026-11-04T14:51:57.735453+00:00",
+  "status": "HELDOUT_PANEL_COMPLETED",
+  "trace_rows": 7656,
+  "trace_sha256": "a8d3466afe9b8d86bc824f407e9418fc919cad798b8a154cf22b90f6c6202c42",
+  "training_runs": 0
+}

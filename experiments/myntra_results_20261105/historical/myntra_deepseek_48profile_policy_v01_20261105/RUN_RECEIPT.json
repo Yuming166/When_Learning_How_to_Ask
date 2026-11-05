@@ -1,0 +1,16 @@
+{
+  "status": "COLLECTION_STOPPED",
+  "finished_utc": "2026-11-05T06:37:48.369268+00:00",
+  "planned": 288,
+  "attempted": 24,
+  "records": 288,
+  "valid": 14,
+  "transport_failures": 10,
+  "abort_reason": "three_consecutive_transport_failures",
+  "retries": 0,
+  "concurrency": 8,
+  "wall_seconds": 23.04155366215855,
+  "reported_models": [
+    "deepseek-v4.1-flash"
+  ]
+}

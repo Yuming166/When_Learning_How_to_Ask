@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "test": "extract_bundle_and_verify_without_repository_imports",
+  "checks": 156668,
+  "strict_products": 471,
+  "inference_calls": 0
+}

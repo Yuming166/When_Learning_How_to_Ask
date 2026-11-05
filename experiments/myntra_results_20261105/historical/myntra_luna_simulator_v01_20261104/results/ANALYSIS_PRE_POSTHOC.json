@@ -1,0 +1,3447 @@
+{
+  "status": "LUNA_DIAGNOSTIC_ANALYZED",
+  "requested_model": "gpt-6-luna",
+  "codex_cli_version": "codex-cli 0.166.0",
+  "luna": {
+    "planned": 72,
+    "attempted": 72,
+    "valid": 72,
+    "invalid_attempted": 0,
+    "not_attempted": 0,
+    "choice_actions_correct": 44,
+    "choice_actions_planned": 48,
+    "choice_decisions_correct": 44,
+    "by_kind": {
+      "choice": {
+        "planned": 40,
+        "attempted": 40,
+        "valid": 40,
+        "correct": 38
+      },
+      "care": {
+        "planned": 16,
+        "attempted": 16,
+        "valid": 16,
+        "correct": 16
+      },
+      "disclosure": {
+        "planned": 8,
+        "attempted": 8,
+        "valid": 8,
+        "correct": 8
+      },
+      "dialogue_choice": {
+        "planned": 8,
+        "attempted": 8,
+        "valid": 8,
+        "correct": 6
+      }
+    },
+    "by_stratum": {
+      "BUY_UNIQUE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 12,
+        "decision_correct": 12
+      },
+      "BUY_TIED": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 9,
+        "decision_correct": 9
+      },
+      "NO_BUY_FEASIBLE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 11,
+        "decision_correct": 11
+      },
+      "NO_BUY_INFEASIBLE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 12,
+        "decision_correct": 12
+      }
+    },
+    "hard_violations": 0,
+    "valid_buy_selections": 22,
+    "base_repeat_stability": {
+      "D32__M21": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          }
+        ]
+      },
+      "D05__M00": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          }
+        ]
+      },
+      "D00__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "2520001"
+          }
+        ]
+      },
+      "D03__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "9371125"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          }
+        ]
+      },
+      "D29__M20": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "8543255"
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      },
+      "D31__M20": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      },
+      "D06__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      },
+      "D12__M10": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      }
+    },
+    "evaluated_rows": [
+      {
+        "job_id": "D32__M21__base_1",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__base_2",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__base_3",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__reverse",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__alias",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__care_A",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__care_B",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__disclosure",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__dialogue",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D05__M00__base_1",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__base_2",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__base_3",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__reverse",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__alias",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__care_A",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__care_B",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__disclosure",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__dialogue",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D00__M01__base_1",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__base_2",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__base_3",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__reverse",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__alias",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "2520001"
+        }
+      },
+      {
+        "job_id": "D00__M01__care_A",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__care_B",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__disclosure",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__dialogue",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D03__M01__base_1",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__base_2",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D03__M01__base_3",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__reverse",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "9371125"
+        }
+      },
+      {
+        "job_id": "D03__M01__alias",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__care_A",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__care_B",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__disclosure",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__dialogue",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D29__M20__base_1",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D29__M20__base_2",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D29__M20__base_3",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "8543255"
+        }
+      },
+      {
+        "job_id": "D29__M20__reverse",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D29__M20__alias",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D29__M20__care_A",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__care_B",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__disclosure",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__dialogue",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__base_1",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__base_2",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__base_3",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__reverse",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__alias",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__care_A",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__care_B",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__disclosure",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__dialogue",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__base_1",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__base_2",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__base_3",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__reverse",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__alias",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__care_A",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__care_B",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__disclosure",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__dialogue",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__base_1",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_1",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__base_2",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_2",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__base_3",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base_3",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__reverse",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__alias",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__care_A",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__care_B",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__disclosure",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__dialogue",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      }
+    ],
+    "readiness_screens": {
+      "valid_fraction": true,
+      "care_accuracy": true,
+      "full_disclosure": true,
+      "no_hard_violation": true,
+      "action_BUY_UNIQUE": true,
+      "action_BUY_TIED": false,
+      "action_NO_BUY_FEASIBLE": true,
+      "action_NO_BUY_INFEASIBLE": true
+    },
+    "readiness": "REVISE_SIMULATOR_OR_PROTOCOL",
+    "failed_screens": [
+      "action_BUY_TIED"
+    ]
+  },
+  "qwen_reference": {
+    "planned": 72,
+    "attempted": 72,
+    "valid": 72,
+    "invalid_attempted": 0,
+    "not_attempted": 0,
+    "choice_actions_correct": 34,
+    "choice_actions_planned": 48,
+    "choice_decisions_correct": 35,
+    "by_kind": {
+      "choice": {
+        "planned": 40,
+        "attempted": 40,
+        "valid": 40,
+        "correct": 26
+      },
+      "care": {
+        "planned": 16,
+        "attempted": 16,
+        "valid": 16,
+        "correct": 16
+      },
+      "disclosure": {
+        "planned": 8,
+        "attempted": 8,
+        "valid": 8,
+        "correct": 8
+      },
+      "dialogue_choice": {
+        "planned": 8,
+        "attempted": 8,
+        "valid": 8,
+        "correct": 8
+      }
+    },
+    "by_stratum": {
+      "BUY_UNIQUE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 8,
+        "decision_correct": 9
+      },
+      "BUY_TIED": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 9,
+        "decision_correct": 9
+      },
+      "NO_BUY_FEASIBLE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 5,
+        "decision_correct": 5
+      },
+      "NO_BUY_INFEASIBLE": {
+        "planned": 12,
+        "attempted": 12,
+        "valid": 12,
+        "correct": 12,
+        "decision_correct": 12
+      }
+    },
+    "hard_violations": 2,
+    "valid_buy_selections": 25,
+    "base_repeat_stability": {
+      "D32__M21": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "1431028"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "6955923"
+          }
+        ]
+      },
+      "D05__M00": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7740918"
+          }
+        ]
+      },
+      "D00__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7764230"
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      },
+      "D03__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "9371125"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "3250478"
+          }
+        ]
+      },
+      "D29__M20": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "BUY",
+            "selected_id": "7098908"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "8543255"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "8543255"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "8543255"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "7098908"
+          }
+        ]
+      },
+      "D31__M20": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "9327939"
+          },
+          {
+            "decision": "BUY",
+            "selected_id": "9327939"
+          }
+        ]
+      },
+      "D06__M01": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      },
+      "D12__M10": {
+        "base_choice_count": 5,
+        "valid_base": 5,
+        "all_valid_base_same_action": false,
+        "base_choices": [
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          },
+          {
+            "decision": "NO_BUY",
+            "selected_id": null
+          }
+        ]
+      }
+    },
+    "evaluated_rows": [
+      {
+        "job_id": "D32__M21__base",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__repeat_same",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__repeat_new",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__reverse",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "1431028"
+        }
+      },
+      {
+        "job_id": "D32__M21__alias",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D32__M21__care_A",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__care_B",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__disclosure",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D32__M21__dialogue",
+        "case_id": "D32__M21",
+        "profile_id": "D32",
+        "stratum": "BUY_UNIQUE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "6955923"
+        }
+      },
+      {
+        "job_id": "D05__M00__base",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D05__M00__repeat_same",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D05__M00__repeat_new",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__reverse",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D05__M00__alias",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D05__M00__care_A",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__care_B",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__disclosure",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D05__M00__dialogue",
+        "case_id": "D05__M00",
+        "profile_id": "D05",
+        "stratum": "BUY_UNIQUE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7740918"
+        }
+      },
+      {
+        "job_id": "D00__M01__base",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D00__M01__repeat_same",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D00__M01__repeat_new",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__reverse",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7764230"
+        }
+      },
+      {
+        "job_id": "D00__M01__alias",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": null,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D00__M01__care_A",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__care_B",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__disclosure",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D00__M01__dialogue",
+        "case_id": "D00__M01",
+        "profile_id": "D00",
+        "stratum": "BUY_TIED",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "2520001"
+        }
+      },
+      {
+        "job_id": "D03__M01__base",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__repeat_same",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__repeat_new",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__reverse",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "9371125"
+        }
+      },
+      {
+        "job_id": "D03__M01__alias",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D03__M01__care_A",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__care_B",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__disclosure",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D03__M01__dialogue",
+        "case_id": "D03__M01",
+        "profile_id": "D03",
+        "stratum": "BUY_TIED",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": false,
+        "reference_decision": "BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "3250478"
+        }
+      },
+      {
+        "job_id": "D29__M20__base",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7098908"
+        }
+      },
+      {
+        "job_id": "D29__M20__repeat_same",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "8543255"
+        }
+      },
+      {
+        "job_id": "D29__M20__repeat_new",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "8543255"
+        }
+      },
+      {
+        "job_id": "D29__M20__reverse",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "8543255"
+        }
+      },
+      {
+        "job_id": "D29__M20__alias",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": false,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "7098908"
+        }
+      },
+      {
+        "job_id": "D29__M20__care_A",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__care_B",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__disclosure",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D29__M20__dialogue",
+        "case_id": "D29__M20",
+        "profile_id": "D29",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__base",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__repeat_same",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__repeat_new",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D31__M20__reverse",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": true,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "9327939"
+        }
+      },
+      {
+        "job_id": "D31__M20__alias",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": false,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": false,
+        "hard_violation": true,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "BUY",
+          "selected_id": "9327939"
+        }
+      },
+      {
+        "job_id": "D31__M20__care_A",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__care_B",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__disclosure",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D31__M20__dialogue",
+        "case_id": "D31__M20",
+        "profile_id": "D31",
+        "stratum": "NO_BUY_FEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__base",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__repeat_same",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__repeat_new",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__reverse",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__alias",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D06__M01__care_A",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__care_B",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__disclosure",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D06__M01__dialogue",
+        "case_id": "D06__M01",
+        "profile_id": "D06",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__base",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "base",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__repeat_same",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_same",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__repeat_new",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "repeat_new",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__reverse",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "reverse",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__alias",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "choice",
+        "variant": "alias",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      },
+      {
+        "job_id": "D12__M10__care_A",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_A",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__care_B",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "care",
+        "variant": "care_B",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__disclosure",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "disclosure",
+        "variant": "disclosure",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null
+      },
+      {
+        "job_id": "D12__M10__dialogue",
+        "case_id": "D12__M10",
+        "profile_id": "D12",
+        "stratum": "NO_BUY_INFEASIBLE",
+        "kind": "dialogue_choice",
+        "variant": "dialogue",
+        "planned": true,
+        "attempted": true,
+        "valid": true,
+        "correct": true,
+        "not_attempted_reason": null,
+        "error_class": null,
+        "validation_error": null,
+        "decision_correct": true,
+        "hard_violation": null,
+        "reference_decision": "NO_BUY",
+        "canonical_choice": {
+          "decision": "NO_BUY",
+          "selected_id": null
+        }
+      }
+    ],
+    "readiness_screens": {
+      "valid_fraction": true,
+      "care_accuracy": true,
+      "full_disclosure": true,
+      "no_hard_violation": false,
+      "action_BUY_UNIQUE": false,
+      "action_BUY_TIED": false,
+      "action_NO_BUY_FEASIBLE": false,
+      "action_NO_BUY_INFEASIBLE": true
+    },
+    "readiness": "REVISE_SIMULATOR_OR_PROTOCOL",
+    "failed_screens": [
+      "no_hard_violation",
+      "action_BUY_UNIQUE",
+      "action_BUY_TIED",
+      "action_NO_BUY_FEASIBLE"
+    ]
+  },
+  "claim_limit": "Eight reference-stratified synthetic development profiles; Codex-CLI-mediated Luna; not human behavior, population performance, or an adaptive-method comparison.",
+  "reserved_products_used": 0,
+  "training_runs": 0
+}

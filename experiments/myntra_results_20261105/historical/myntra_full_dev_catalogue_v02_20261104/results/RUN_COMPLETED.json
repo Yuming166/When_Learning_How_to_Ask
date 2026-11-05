@@ -1,0 +1,11 @@
+{
+  "cases": 280,
+  "completed_utc": "2026-11-04T14:04:47.277339+00:00",
+  "elapsed_seconds": 519.1785250920802,
+  "start_method": "spawn",
+  "started_utc": "2026-11-04T13:56:08.098840+00:00",
+  "status": "FULL_PANEL_COMPLETED_AND_ANALYZED",
+  "trace_rows": 8120,
+  "trace_sha256": "d9c767baa3d78cefb6c1e17dc4e31d3e757d5933370ef76f6a98c00d7a756699",
+  "workers": 8
+}

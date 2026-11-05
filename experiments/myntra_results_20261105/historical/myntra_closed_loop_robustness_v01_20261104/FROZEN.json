@@ -1,0 +1,153 @@
+{
+  "claim_limit": "Development robustness only; no model calls, no training, no population inference.",
+  "files": {
+    "primary/FREEZE.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/FREEZE.json",
+      "sha256": "917692e0b56c2a2c2d9cfc983f7ffeca33322a44fbdee14f51e63ebd54851af7"
+    },
+    "primary/PROTOCOL.md": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/PROTOCOL.md",
+      "sha256": "1e13c57b77397adf26b8058adca1a5d6823caca1e9854630736829b3452cd551"
+    },
+    "primary/config.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/config.json",
+      "sha256": "0653df0c90e38c5166544490b4f1c1dfd36c5e1f72a4da0ee1c77b08b8c50549"
+    },
+    "primary/engine.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/engine.py",
+      "sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    "primary/freeze.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/freeze.py",
+      "sha256": "34ec5265a126c7c93c3b9e1b4a95430cc869feeca5a14bf188bd32070b311ffd"
+    },
+    "primary/results/DEV_METRICS.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/results/DEV_METRICS.json",
+      "sha256": "4e0378d6eb77b965a4a577f1faf88e09982deac78b83ea393bbd4f57bd2fc8a4"
+    },
+    "primary/run.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/run.py",
+      "sha256": "9f846bff6dc657f84ee876cdb23dccb08d5f94cd9cfda5fe3c7ad38785368182"
+    },
+    "primary/test_closed_loop.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/test_closed_loop.py",
+      "sha256": "24f4a92b02e436b36843e6e50bf86b7a1563b06a7c4e01a808a5c6390fb931fc"
+    },
+    "robustness/ROBUSTNESS_PROTOCOL.md": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/ROBUSTNESS_PROTOCOL.md",
+      "sha256": "9fcaa792065a6f634e3c3d7a2a549e94aa682ed913ddb8bc8b869374d8a25126"
+    },
+    "robustness/config.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/config.json",
+      "sha256": "80c829580a679c178e061c0c1b821be07ddfa5febdca865f2f953692de216d9e"
+    },
+    "robustness/freeze_robustness.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/freeze_robustness.py",
+      "sha256": "eb13ab49b58eb6ec3d18432e8c0351e06e4c32af84e20408a78680d99bdbe9c4"
+    },
+    "robustness/run_robustness.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/run_robustness.py",
+      "sha256": "f3b2fc46d33fab37a2af717318c78a87c493dc6bb8f5dd2413a09bd59933e9a8"
+    },
+    "robustness/test_robustness.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/test_robustness.py",
+      "sha256": "a3478ad76f6bc79c2a0e9475bb32b5e3e02b89d558aebc961ab71208635f07a9"
+    },
+    "smoke/SMOKE_CASES.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/artifacts/SMOKE_CASES.jsonl",
+      "sha256": "e65884ec6ecd775ee8fd560fdd6ab1a49f2d83590f65a2e06ed3425c3a666157"
+    },
+    "smoke/SMOKE_METRICS.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/artifacts/SMOKE_METRICS.json",
+      "sha256": "a69fc8868c303a51e0547d7789d1ab4ebb0a3dedb7504b164b6cf0fa3c5e43d0"
+    },
+    "source/PROTOCOL.md": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/PROTOCOL.md",
+      "sha256": "a920230257c5ec87f4af18f033fc7537f85594d178d41d22c0aec74d7c6cda86"
+    },
+    "source/RULES_FREEZE.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/RULES_FREEZE.json",
+      "sha256": "98f9a3d25835aa46cded2cb1f5254368378a9ae6c0800b12320d50b46f2cbe94"
+    },
+    "source/RUN_FREEZE.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/RUN_FREEZE.json",
+      "sha256": "fb3ba72cdb4055e19ce1bb6b84a21948fade0dc65aa2af033fc82aef525c2f35"
+    },
+    "source/SYSTEM_PROMPT_ZH.txt": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt",
+      "sha256": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427"
+    },
+    "source/analyze_smoke.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/analyze_smoke.py",
+      "sha256": "c6aa2c64667045d6c61aba593476720ada8a56da369e298ba8834f38e884c01e"
+    },
+    "source/artifacts/input/catalogue_strict.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/input/catalogue_strict.jsonl",
+      "sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759"
+    },
+    "source/artifacts/prepared/evaluator_only/references.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/evaluator_only/references.jsonl",
+      "sha256": "52f9ae422067f418105b766d2f6bc317ffcbdcca8049cac4fe029d9dc9c418b0"
+    },
+    "source/artifacts/prepared/private/independent_request_templates.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/private/independent_request_templates.json",
+      "sha256": "4809b484903e4be49a88b87a4a8dad757bb7385440e2f7f4cd96ec220cfaa9f0"
+    },
+    "source/artifacts/prepared/private/profiles.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/private/profiles.jsonl",
+      "sha256": "759a55ce90e2247dca5e1f50d9dbdef0e5d088c8ebd9c117f3d08b97d0b2a575"
+    },
+    "source/artifacts/prepared/private/smoke_jobs.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/private/smoke_jobs.jsonl",
+      "sha256": "b263b742b20b96c346a66c7183707d3919e233afdf4fc1a47fb860ef6067133d"
+    },
+    "source/artifacts/prepared/public/cases.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/public/cases.jsonl",
+      "sha256": "12f0d9411702ca81a362ea2aad721e5adf5993abfa5c079d59a32fd6252c5c2e"
+    },
+    "source/artifacts/prepared/public/menus.jsonl": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/public/menus.jsonl",
+      "sha256": "07cface0f27655bc007c34982ee824a6a70702676233b5552e61a1c007bdbc11"
+    },
+    "source/artifacts/prepared/public/vocabularies.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/artifacts/prepared/public/vocabularies.json",
+      "sha256": "dec5d3ec4fc3ddcfa90e76ff96244e7c911dd079ab9447e7873a4d09468270c9"
+    },
+    "source/config.json": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/config.json",
+      "sha256": "999017d42256fca47b6d9914f65defef83e40fa8e162af7c5c7c745c77f3ea05"
+    },
+    "source/environment.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/environment.py",
+      "sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    "source/qwen_smoke.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/qwen_smoke.py",
+      "sha256": "a114cc53c91cbab5ba07476e05d709c29b0e7b7f5e99da94ae08923cdee79f1b"
+    },
+    "source/test_environment.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/test_environment.py",
+      "sha256": "71e4ccbf1d701d60842c3f5ff0598d4f3fabb6370f25e7ac6c2a7a254d3e471b"
+    },
+    "source/test_smoke.py": {
+      "path": "/home/gaoym/When_Learning_How_to_Ask_myntra_preference_dev_20261104/experiments/myntra_preference_dev_v01_20261104/test_smoke.py",
+      "sha256": "5a93d2071ab926b466ba1d7feea8c5d65b2d95ddbaa1519ddf6be785dfc46165"
+    }
+  },
+  "full_panel_started": false,
+  "planned": {
+    "crossed_panels": 4,
+    "prior_banks": 2,
+    "profile_menu_cases": 96,
+    "trace_rows": 2784,
+    "unique_profiles": 24,
+    "user_cohorts": 2
+  },
+  "platform": "Linux-6.8.0-146-generic-x86_64-with-glibc2.39",
+  "python_version": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "smoke_receipt_sha256": "a69fc8868c303a51e0547d7789d1ab4ebb0a3dedb7504b164b6cf0fa3c5e43d0",
+  "smoke_trace_sha256": "e65884ec6ecd775ee8fd560fdd6ab1a49f2d83590f65a2e06ed3425c3a666157",
+  "source_catalogue_sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759",
+  "status": "FROZEN_BEFORE_FULL_PANEL",
+  "version": "myntra-closed-loop-robustness-v0.1"
+}

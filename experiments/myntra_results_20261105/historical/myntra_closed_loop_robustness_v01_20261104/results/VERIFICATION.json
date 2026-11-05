@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "ask_all_exact_terminals": 96,
+    "cases_per_panel": 24,
+    "crossed_panels": 4,
+    "frozen_file_bindings": 33,
+    "method_budget_cells": 112,
+    "model_calls": 0,
+    "primary_comparisons": {
+      "fixed_order": {
+        "gate_pass": true,
+        "panels": 4,
+        "pooled_unique_profile_mean_difference": 0.2708333333333333,
+        "positive_panels": 4,
+        "positive_unique_profile_clusters": 11,
+        "unique_profile_clusters": 24
+      },
+      "profile_ig": {
+        "gate_pass": true,
+        "panels": 4,
+        "pooled_unique_profile_mean_difference": 0.2708333333333333,
+        "positive_panels": 4,
+        "positive_unique_profile_clusters": 11,
+        "unique_profile_clusters": 24
+      }
+    },
+    "six_question_exact_terminals": 16,
+    "trace_rows": 2784,
+    "training_runs": 0,
+    "unique_profiles": 24
+  },
+  "freeze_sha256": "1036b0bd695aa1c7fe0d2ce08df9884ab710992102eb958e534b8abc76bc4e9d",
+  "metrics_sha256": "93b510d284761a499ed3843c3344e82c2b717a9721bbd870717569c85c22a8ec",
+  "status": "PASS",
+  "trace_sha256": "c10ac8c10b7acb489fb0b14847c79d7d2ac6a7024f59c0a63a8cd97c355ce468",
+  "verification_scope": "frozen_inputs_trace_integrity_full_denominators_terminal_replay_and_predeclared_descriptive_gate"
+}

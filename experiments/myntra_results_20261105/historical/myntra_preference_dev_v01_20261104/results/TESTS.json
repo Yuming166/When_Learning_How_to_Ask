@@ -1,0 +1,10 @@
+{
+  "tests_run": 33,
+  "status": "PASS",
+  "command": "python -m unittest discover -s experiments/myntra_preference_dev_v01_20261104 -p 'test_*.py'",
+  "frozen_test_sha256": {
+    "test_environment.py": "71e4ccbf1d701d60842c3f5ff0598d4f3fabb6370f25e7ac6c2a7a254d3e471b",
+    "test_smoke.py": "5a93d2071ab926b466ba1d7feea8c5d65b2d95ddbaa1519ddf6be785dfc46165"
+  },
+  "observed_output": "Ran 33 tests; OK"
+}

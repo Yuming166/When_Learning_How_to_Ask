@@ -1,0 +1,21 @@
+{
+  "correct": 48,
+  "episodes": 48,
+  "method_superiority_established": false,
+  "model_calls": 0,
+  "scope": "lossless_reference_user_software_closure_only",
+  "strategies": {
+    "ask_all": {
+      "episodes": 24,
+      "questions_per_episode": [
+        1
+      ]
+    },
+    "fieldwise": {
+      "episodes": 24,
+      "questions_per_episode": [
+        6
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "smoke",
+  "status": "PHASE_COMPLETED",
+  "started_utc": "2026-11-05T06:41:33.562855+00:00",
+  "finished_utc": "2026-11-05T06:41:45.642000+00:00",
+  "records": 6,
+  "attempted": 6,
+  "valid": 6,
+  "abort_reason": null
+}

@@ -1,0 +1,11 @@
+{
+  "status": "READY",
+  "profiles": 8,
+  "menus": 5,
+  "cases": 8,
+  "planned_jobs": 72,
+  "model_calls": 0,
+  "reserved_products": 0,
+  "identical_base_prompt_groups": 8,
+  "qwen_records_copied": 72
+}

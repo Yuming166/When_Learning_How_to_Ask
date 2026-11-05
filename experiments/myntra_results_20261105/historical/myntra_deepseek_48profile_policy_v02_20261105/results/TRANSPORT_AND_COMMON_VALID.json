@@ -1,0 +1,282 @@
+{
+  "analysis_status": "DESCRIPTIVE_POST_FAILURE_TRANSPORT_DISCLOSURE",
+  "added_by": "finalize_report.py; reporting supplement, not frozen collector change",
+  "initial_unique_attempts": 24,
+  "continuation_new_attempts": 264,
+  "combined_unique_attempts": 288,
+  "combined_retries": 0,
+  "transport_failures": 10,
+  "transport_failure_classes": {
+    "URLError": 10
+  },
+  "transport_failure_profile_ids": [
+    "A-P02",
+    "A-P03"
+  ],
+  "complete_valid_deepseek_profiles": 46,
+  "complete_valid_luna_profiles": 47,
+  "common_complete_valid_profiles": 45,
+  "common_complete_valid_cases": 243,
+  "jointly_valid_fields": 277,
+  "jointly_valid_fields_equal": 277,
+  "common_complete_valid_profile_ids": [
+    "A-P00",
+    "A-P01",
+    "A-P04",
+    "A-P05",
+    "A-P06",
+    "A-P07",
+    "A-P08",
+    "A-P09",
+    "A-P11",
+    "A-P12",
+    "A-P13",
+    "A-P14",
+    "A-P15",
+    "A-P16",
+    "A-P17",
+    "A-P18",
+    "A-P19",
+    "A-P20",
+    "A-P21",
+    "A-P22",
+    "A-P23",
+    "B-P00",
+    "B-P01",
+    "B-P02",
+    "B-P03",
+    "B-P04",
+    "B-P05",
+    "B-P06",
+    "B-P07",
+    "B-P08",
+    "B-P09",
+    "B-P10",
+    "B-P11",
+    "B-P12",
+    "B-P13",
+    "B-P14",
+    "B-P15",
+    "B-P16",
+    "B-P17",
+    "B-P18",
+    "B-P19",
+    "B-P20",
+    "B-P21",
+    "B-P22",
+    "B-P23"
+  ],
+  "common_complete_valid_subset_metrics": {
+    "0": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 123,
+        "luna_correct": 123,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 123,
+        "luna_correct": 123,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 123,
+        "luna_correct": 123,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 123,
+        "luna_correct": 123,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "1": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 123,
+        "luna_correct": 123,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 125,
+        "luna_correct": 125,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 125,
+        "luna_correct": 125,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 125,
+        "luna_correct": 125,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "2": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 122,
+        "luna_correct": 122,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 140,
+        "luna_correct": 140,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 128,
+        "luna_correct": 128,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 136,
+        "luna_correct": 136,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "3": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 121,
+        "luna_correct": 121,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 128,
+        "luna_correct": 128,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 143,
+        "luna_correct": 143,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 173,
+        "luna_correct": 173,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "4": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 156,
+        "luna_correct": 156,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 149,
+        "luna_correct": 149,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 179,
+        "luna_correct": 179,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 210,
+        "luna_correct": 210,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "5": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 181,
+        "luna_correct": 181,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 179,
+        "luna_correct": 179,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 218,
+        "luna_correct": 218,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 230,
+        "luna_correct": 230,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    },
+    "6": {
+      "fixed_order": {
+        "n": 243,
+        "deepseek_correct": 243,
+        "luna_correct": 243,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "profile_ig": {
+        "n": 243,
+        "deepseek_correct": 243,
+        "luna_correct": 243,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_set_ig": {
+        "n": 243,
+        "deepseek_correct": 243,
+        "luna_correct": 243,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      },
+      "decision_value": {
+        "n": 243,
+        "deepseek_correct": 243,
+        "luna_correct": 243,
+        "same_selected_action": 243,
+        "same_query_sequence": 243
+      }
+    }
+  },
+  "subset_limit": "Post-failure descriptive common-valid subset; selection excludes failures and is not the 280-case primary endpoint."
+}

@@ -1,0 +1,9 @@
+{
+  "attempted": 16,
+  "model": "Qwen3.6-35B-A3B",
+  "model_discovery_gets": 1,
+  "planned": 16,
+  "retries": 0,
+  "valid": 16,
+  "wall_seconds": 4.150463672354817
+}

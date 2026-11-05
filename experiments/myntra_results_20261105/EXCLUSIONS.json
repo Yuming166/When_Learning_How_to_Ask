@@ -1,0 +1,30 @@
+{
+  "earlier_failed_screens_and_partial_transport_runs_retained_in_historical_aggregates": true,
+  "excluded": [
+    {
+      "class": "raw and derived merchandise catalogue, attributes, source pages and images",
+      "reason": "existing dataset-card redistribution boundary; keep local"
+    },
+    {
+      "class": "private preference/profile banks, priors, evaluator references and serialized per-profile request prompts",
+      "reason": "not needed for numerical-statistics reproduction; full strategy replay needs separately supplied inputs"
+    },
+    {
+      "class": "raw model responses, reasoning streams, CLI session events, HTTP headers/error bodies and provider/session identifiers",
+      "reason": "no raw session or provider material in the public projection"
+    },
+    {
+      "class": "raw paired JSONL trajectories",
+      "reason": "publish only an allow-listed numerical CSV projection; omit product IDs/target sets and response content"
+    },
+    {
+      "class": "credentials, caches, environments, downloads and runtime logs",
+      "reason": "outside publication scope"
+    }
+  ],
+  "positive_and_negative_outcomes_retained": true,
+  "retained_generic_templates": [
+    "historical/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt",
+    "prompt-construction source code; no serialized private-profile requests"
+  ]
+}

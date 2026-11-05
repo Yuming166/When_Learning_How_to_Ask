@@ -1,0 +1,1941 @@
+{
+  "derived_files": [
+    {
+      "path": "records/python.csv",
+      "published_sha256": "9aa1ae0f51d74fba46d70482cd8a5df99d321877c9827f8c962f70ee54b314c5",
+      "rows": 25760,
+      "transformation": "explicit numerical-field whitelist; original outcomes preserved; case-local item hashes; LF text line endings"
+    },
+    {
+      "path": "records/llm.csv",
+      "published_sha256": "c10a65d94614ac8f779d7c5184cf4d476f1af89e27b80c5a1476e1908b3436d1",
+      "rows": 29400,
+      "transformation": "explicit numerical-field whitelist; original outcomes preserved; case-local item hashes; LF text line endings"
+    },
+    {
+      "functions": [
+        "cluster_arrays",
+        "bootstrap",
+        "method_curves"
+      ],
+      "path": "statistics_python.py",
+      "published_sha256": "37e4d6c7b5ce90e2dd482ee661bb0722d9edb90ffe736b720dac7b4b5cb2fa6e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/ablation_statistics.py",
+      "source_sha256": "4d235d260bfba8b1c9ede3fbfb542dbfd935f37fd0aad692f561999fa0d1383c",
+      "transformation": "byte-identical extracted function bodies with public relative-path import wrapper"
+    },
+    {
+      "functions": [
+        "joint_bootstrap",
+        "curves",
+        "diagnostics"
+      ],
+      "path": "statistics_llm.py",
+      "published_sha256": "d926eb0ab27713b50720779b6d7858b9ee199b9ea17adda6c854dd0b7161d2b4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/analysis.py",
+      "source_sha256": "752b9fb19e4890b0332abddea2deaa41883d632e2a59819441da85c9677ce50a",
+      "transformation": "byte-identical extracted function bodies with public relative-path import wrapper"
+    },
+    {
+      "functions": [
+        "initial_rank",
+        "predict_cached",
+        "replay_path"
+      ],
+      "path": "policy_replay.py",
+      "published_sha256": "563efce38bb5d01d93b5f5c98367eee10fdbb7f32c9adb0bb26b0aba9df4a6dd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/experiment.py",
+      "source_sha256": "2f7d549f309fb7489ac3e9e41755827152d0ef888cc1ca97a79b74f12064b035",
+      "transformation": "byte-identical extracted function bodies with public relative-path import wrapper"
+    },
+    {
+      "path": "test_public_release.py",
+      "published_sha256": "cfd8563d4465847dade994276d972e7c1e1d0176ca7624b1909854393466257c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/test_ablation.py",
+      "source_sha256": "dcb208f8c4fe49b8ae9edc3fd4b754a88a23078337d39cad8788ac1ae1f98b64",
+      "transformation": "reuse 8 original toy tests unchanged; replace private-bank coverage with 2 public-projection tests"
+    }
+  ],
+  "original_freezes_are_historical_provenance_not_public_completeness_receipts": true,
+  "scope": "explicit source/report subset plus derived numerical evaluation projection",
+  "source_files": [
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/DATASET_CARD.md",
+      "published_sha256": "aa4cd0a1cc3574d0da69042435879ac7fbe41f466a34f97fdadf4db38d411243",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/DATASET_CARD.md",
+      "source_sha256": "aa4cd0a1cc3574d0da69042435879ac7fbe41f466a34f97fdadf4db38d411243"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/FREEZE.json",
+      "published_sha256": "7fc799d98bad400eb910a23d2c78ccb45be79e035d9c226eb59071f89400d506",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/FREEZE.json",
+      "source_sha256": "7fc799d98bad400eb910a23d2c78ccb45be79e035d9c226eb59071f89400d506"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/PRESERVATION_BASE.json",
+      "published_sha256": "fe56858ffe13555f59e2a1154d7608de67edf16b6905e2fd5b0337972cc329ad",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/PRESERVATION_BASE.json",
+      "source_sha256": "fe56858ffe13555f59e2a1154d7608de67edf16b6905e2fd5b0337972cc329ad"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/PROTOCOL.md",
+      "published_sha256": "63774b3b950539c1a10f6aad1b7300a3aba92c055197fea0fcd50312845dc6e5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/PROTOCOL.md",
+      "source_sha256": "63774b3b950539c1a10f6aad1b7300a3aba92c055197fea0fcd50312845dc6e5"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/README_ZH.md",
+      "published_sha256": "bea22327175c646f5a214edb7ef157b98530767bae3db9e1ec166e34cfe0c315",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/README_ZH.md",
+      "source_sha256": "bea22327175c646f5a214edb7ef157b98530767bae3db9e1ec166e34cfe0c315"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/REPORT_ZH.md",
+      "published_sha256": "ae084905cd6f63b52572948f2cc155a44bf12e63e6e79a02140fc3b7a97d8020",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/REPORT_ZH.md",
+      "source_sha256": "ae084905cd6f63b52572948f2cc155a44bf12e63e6e79a02140fc3b7a97d8020"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/REPRODUCE.md",
+      "published_sha256": "4227ccce87085be0d9cfe5bfd5517e48d44baf5c382633e7078033b83363e201",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/REPRODUCE.md",
+      "source_sha256": "4227ccce87085be0d9cfe5bfd5517e48d44baf5c382633e7078033b83363e201"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/SCHEMA.md",
+      "published_sha256": "94f5c3c0eb807a58bf6a9620bc5cd3bcec45e8b250ca9dc49c7d90cd8cb47219",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/SCHEMA.md",
+      "source_sha256": "94f5c3c0eb807a58bf6a9620bc5cd3bcec45e8b250ca9dc49c7d90cd8cb47219"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/acquire_source.py",
+      "published_sha256": "2097e8873a4090c17f816cb38fa29b1d6429bde5ed1b6fba3876b1eca38b6acb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/acquire_source.py",
+      "source_sha256": "2097e8873a4090c17f816cb38fa29b1d6429bde5ed1b6fba3876b1eca38b6acb"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/build_catalogue.py",
+      "published_sha256": "2ab6814452a44680044e8c8d59bdcece749dd76fcf1d4d1e03a4731f02b60995",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/build_catalogue.py",
+      "source_sha256": "2ab6814452a44680044e8c8d59bdcece749dd76fcf1d4d1e03a4731f02b60995"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/config.json",
+      "published_sha256": "86aa6c5404906055986e33019b7ace4536fd333b3298b9a96747d0f287c30aec",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/config.json",
+      "source_sha256": "86aa6c5404906055986e33019b7ace4536fd333b3298b9a96747d0f287c30aec"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/package_catalogue.py",
+      "published_sha256": "e6ccdec5290b35e26bd48d2796d24f11f60c8b76ad9c5f4b32bf60ae085fbfa1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/package_catalogue.py",
+      "source_sha256": "e6ccdec5290b35e26bd48d2796d24f11f60c8b76ad9c5f4b32bf60ae085fbfa1"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/test_catalogue.py",
+      "published_sha256": "d71db288ed00141e562d8c1ba08df936adb493d67b6e1471e3a940d47be68563",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/test_catalogue.py",
+      "source_sha256": "d71db288ed00141e562d8c1ba08df936adb493d67b6e1471e3a940d47be68563"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/verify_catalogue.py",
+      "published_sha256": "d5c3ecca62add90614cdc184e8e5e0d325ecd84120a224a0daad4858513aefa7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/verify_catalogue.py",
+      "source_sha256": "d5c3ecca62add90614cdc184e8e5e0d325ecd84120a224a0daad4858513aefa7"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/BUNDLE.json",
+      "published_sha256": "c5f5c1772e9678c64d631c4a24b0b1b2ddc833e66d747f0df46dfe5e32d96e2f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/BUNDLE.json",
+      "source_sha256": "c5f5c1772e9678c64d631c4a24b0b1b2ddc833e66d747f0df46dfe5e32d96e2f"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/BUNDLE_SMOKE.json",
+      "published_sha256": "b75c5e2ed2844449a3ee015ba8fcd8c36668614ca5710a74af33cf5137dae190",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/BUNDLE_SMOKE.json",
+      "source_sha256": "b75c5e2ed2844449a3ee015ba8fcd8c36668614ca5710a74af33cf5137dae190"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/ENVIRONMENT.json",
+      "published_sha256": "788d5081b9802a3d2fdb5203b9090fe89994172a39839590a84e27a937bde1a9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/ENVIRONMENT.json",
+      "source_sha256": "788d5081b9802a3d2fdb5203b9090fe89994172a39839590a84e27a937bde1a9"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/FINAL_RECEIPT.json",
+      "published_sha256": "61c6b3d5e076df76f930894321be04234f4fd7f2ed554f3356dbf9b20f3478c4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/FINAL_RECEIPT.json",
+      "source_sha256": "61c6b3d5e076df76f930894321be04234f4fd7f2ed554f3356dbf9b20f3478c4"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/IMPLEMENTATION_HISTORY.json",
+      "published_sha256": "5c5724edff6521b61e9305028daa3626c29251fe53a477ace8e5b31f1ff40a0f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/IMPLEMENTATION_HISTORY.json",
+      "source_sha256": "5c5724edff6521b61e9305028daa3626c29251fe53a477ace8e5b31f1ff40a0f"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/MANIFEST.json",
+      "published_sha256": "cda8441d7d22ce1b27b760754c5ae945a335f458c8b251bf1c068db4157bf502",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/MANIFEST.json",
+      "source_sha256": "cda8441d7d22ce1b27b760754c5ae945a335f458c8b251bf1c068db4157bf502"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/PRESERVATION.json",
+      "published_sha256": "ec809f2f5f1ec9a95b4a235a0673c184b427326179796e619db28d3933e1cc95",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/PRESERVATION.json",
+      "source_sha256": "ec809f2f5f1ec9a95b4a235a0673c184b427326179796e619db28d3933e1cc95"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/REPLAY.json",
+      "published_sha256": "b5f3df501c972b8366b3178058dba0e7510de37d3de15d45bdd432e633001965",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/REPLAY.json",
+      "source_sha256": "b5f3df501c972b8366b3178058dba0e7510de37d3de15d45bdd432e633001965"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/SOURCE_RECEIPT.json",
+      "published_sha256": "77571f9a1cdf8f1fa680a8fc7ca32476ddca4b4d45de90ac1664e10419e2b615",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/SOURCE_RECEIPT.json",
+      "source_sha256": "77571f9a1cdf8f1fa680a8fc7ca32476ddca4b4d45de90ac1664e10419e2b615"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/SUMMARY.json",
+      "published_sha256": "88fd74d13cbd1cb4404cfa816d39cc877ea1523a0b0c2349d3d375df0d06b859",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/SUMMARY.json",
+      "source_sha256": "88fd74d13cbd1cb4404cfa816d39cc877ea1523a0b0c2349d3d375df0d06b859"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/TESTS.json",
+      "published_sha256": "e129fcfe19918a999991df311e5e91483f1dcb1702353f6a0b29de21f8af91e1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/TESTS.json",
+      "source_sha256": "e129fcfe19918a999991df311e5e91483f1dcb1702353f6a0b29de21f8af91e1"
+    },
+    {
+      "path": "historical/myntra_catalogue_v01_20261104/results/VERIFICATION.json",
+      "published_sha256": "fd0e315083550b3f602da40a8278a83b391953cdcf3ba309e3c3db7dd1b5c25a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_catalogue_v01_20261104/results/VERIFICATION.json",
+      "source_sha256": "fd0e315083550b3f602da40a8278a83b391953cdcf3ba309e3c3db7dd1b5c25a"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/PRESERVATION_BASE.json",
+      "published_sha256": "669c2ed2847065756eef75704b5aa47a9ab9c521e1b42387b66b5d680b94b578",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/PRESERVATION_BASE.json",
+      "source_sha256": "669c2ed2847065756eef75704b5aa47a9ab9c521e1b42387b66b5d680b94b578"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/PROTOCOL.md",
+      "published_sha256": "a920230257c5ec87f4af18f033fc7537f85594d178d41d22c0aec74d7c6cda86",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/PROTOCOL.md",
+      "source_sha256": "a920230257c5ec87f4af18f033fc7537f85594d178d41d22c0aec74d7c6cda86"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/README_ZH.md",
+      "published_sha256": "f7934dcbb7961dff084c354295d6eeb4cbf177e6c8d1c192125720f4e4357419",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/README_ZH.md",
+      "source_sha256": "f7934dcbb7961dff084c354295d6eeb4cbf177e6c8d1c192125720f4e4357419"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/REPORT_ZH.md",
+      "published_sha256": "c1f272da8a3512b88f288a8bf02c6db66ae9c273a4e0e263ecd7dabe9eb0f195",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/REPORT_ZH.md",
+      "source_sha256": "c1f272da8a3512b88f288a8bf02c6db66ae9c273a4e0e263ecd7dabe9eb0f195"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/REPRODUCE.md",
+      "published_sha256": "d1499f003fede23f5f041570eada315fa34e48e9f37ec70166edf8f198a18aaa",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/REPRODUCE.md",
+      "source_sha256": "d1499f003fede23f5f041570eada315fa34e48e9f37ec70166edf8f198a18aaa"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/RULES_FREEZE.json",
+      "published_sha256": "98f9a3d25835aa46cded2cb1f5254368378a9ae6c0800b12320d50b46f2cbe94",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/RULES_FREEZE.json",
+      "source_sha256": "98f9a3d25835aa46cded2cb1f5254368378a9ae6c0800b12320d50b46f2cbe94"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/RUN_FREEZE.json",
+      "published_sha256": "fb3ba72cdb4055e19ce1bb6b84a21948fade0dc65aa2af033fc82aef525c2f35",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/RUN_FREEZE.json",
+      "source_sha256": "fb3ba72cdb4055e19ce1bb6b84a21948fade0dc65aa2af033fc82aef525c2f35"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt",
+      "published_sha256": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt",
+      "source_sha256": "9160e6ceacee3f3f22ad29c97c67edef8897e229e0480d7f1ae2e108af5ae427"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/VALIDATION.md",
+      "published_sha256": "8b1ec6e7cdb454367a7cd61c5e6c890169a0f65d68e329c9b13da8cb56a072d4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/VALIDATION.md",
+      "source_sha256": "8b1ec6e7cdb454367a7cd61c5e6c890169a0f65d68e329c9b13da8cb56a072d4"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/analyze_smoke.py",
+      "published_sha256": "c6aa2c64667045d6c61aba593476720ada8a56da369e298ba8834f38e884c01e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/analyze_smoke.py",
+      "source_sha256": "c6aa2c64667045d6c61aba593476720ada8a56da369e298ba8834f38e884c01e"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/config.json",
+      "published_sha256": "999017d42256fca47b6d9914f65defef83e40fa8e162af7c5c7c745c77f3ea05",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/config.json",
+      "source_sha256": "999017d42256fca47b6d9914f65defef83e40fa8e162af7c5c7c745c77f3ea05"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/qwen_smoke.py",
+      "published_sha256": "a114cc53c91cbab5ba07476e05d709c29b0e7b7f5e99da94ae08923cdee79f1b",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/qwen_smoke.py",
+      "source_sha256": "a114cc53c91cbab5ba07476e05d709c29b0e7b7f5e99da94ae08923cdee79f1b"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/test_environment.py",
+      "published_sha256": "71e4ccbf1d701d60842c3f5ff0598d4f3fabb6370f25e7ac6c2a7a254d3e471b",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/test_environment.py",
+      "source_sha256": "71e4ccbf1d701d60842c3f5ff0598d4f3fabb6370f25e7ac6c2a7a254d3e471b"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/test_smoke.py",
+      "published_sha256": "5a93d2071ab926b466ba1d7feea8c5d65b2d95ddbaa1519ddf6be785dfc46165",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/test_smoke.py",
+      "source_sha256": "5a93d2071ab926b466ba1d7feea8c5d65b2d95ddbaa1519ddf6be785dfc46165"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/verify_records.py",
+      "published_sha256": "de716e4f3c92f05bbbc44b6788c41802f4ab5df8320bffa3017ba698fcefc7f1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/verify_records.py",
+      "source_sha256": "de716e4f3c92f05bbbc44b6788c41802f4ab5df8320bffa3017ba698fcefc7f1"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/CONSTRUCTION.json",
+      "published_sha256": "da65a16ea5e00ceef7848bd3685bbedc3f364b3b45617f206cb737cc2e0fa5ee",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/CONSTRUCTION.json",
+      "source_sha256": "da65a16ea5e00ceef7848bd3685bbedc3f364b3b45617f206cb737cc2e0fa5ee"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/FINAL_RECEIPT.json",
+      "published_sha256": "0548c1864ea4d6a8e481bda15e10a59f3c865fdedc193030c57a3964fcc6d40d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/FINAL_RECEIPT.json",
+      "source_sha256": "0548c1864ea4d6a8e481bda15e10a59f3c865fdedc193030c57a3964fcc6d40d"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/MODEL_DISCOVERY.json",
+      "published_sha256": "10bd7f14d66386a59d99fa06c62335178c6670b17baa1bf62e704cd338250699",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/MODEL_DISCOVERY.json",
+      "source_sha256": "10bd7f14d66386a59d99fa06c62335178c6670b17baa1bf62e704cd338250699"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/OFFLINE_CLOSURE.json",
+      "published_sha256": "627590ae2305ccdd93b8f17b281023f9d0c68069b72a86075a8a88a0cfb76ccf",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/OFFLINE_CLOSURE.json",
+      "source_sha256": "627590ae2305ccdd93b8f17b281023f9d0c68069b72a86075a8a88a0cfb76ccf"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/PREFLIGHT.json",
+      "published_sha256": "4691dcefdb753e578b992c9f272aed0ba7c334ea2789f89e3f6150d3ed96b148",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/PREFLIGHT.json",
+      "source_sha256": "4691dcefdb753e578b992c9f272aed0ba7c334ea2789f89e3f6150d3ed96b148"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/QWEN_SMOKE.json",
+      "published_sha256": "55674999856e8a8c3029ab30ead6b18782585496a02f791e8fcb76fbb1f911f2",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/QWEN_SMOKE.json",
+      "source_sha256": "55674999856e8a8c3029ab30ead6b18782585496a02f791e8fcb76fbb1f911f2"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/RUN_RECEIPT.json",
+      "published_sha256": "ff154d651b7693ade54ad35d2e932fb3f2585ebd3bc650c8cbcd6166d5555ba9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/RUN_RECEIPT.json",
+      "source_sha256": "ff154d651b7693ade54ad35d2e932fb3f2585ebd3bc650c8cbcd6166d5555ba9"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/SOURCE.json",
+      "published_sha256": "cc0613ade925cb94f14f2abd917e4263e850fa5087035431a8c142489434b9af",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/SOURCE.json",
+      "source_sha256": "cc0613ade925cb94f14f2abd917e4263e850fa5087035431a8c142489434b9af"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/TESTS.json",
+      "published_sha256": "b52b872c90090d71ce1d67085618b6aec823a8b352664bda326518b72242bf28",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/TESTS.json",
+      "source_sha256": "b52b872c90090d71ce1d67085618b6aec823a8b352664bda326518b72242bf28"
+    },
+    {
+      "path": "historical/myntra_preference_dev_v01_20261104/results/VERIFICATION.json",
+      "published_sha256": "c4b69c9bbaef81a28313bc2ac4b1b9f496774bb847da246327151edb117f9ab1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_preference_dev_v01_20261104/results/VERIFICATION.json",
+      "source_sha256": "c4b69c9bbaef81a28313bc2ac4b1b9f496774bb847da246327151edb117f9ab1"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/FREEZE.json",
+      "published_sha256": "917692e0b56c2a2c2d9cfc983f7ffeca33322a44fbdee14f51e63ebd54851af7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/FREEZE.json",
+      "source_sha256": "917692e0b56c2a2c2d9cfc983f7ffeca33322a44fbdee14f51e63ebd54851af7"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/PROTOCOL.md",
+      "published_sha256": "1e13c57b77397adf26b8058adca1a5d6823caca1e9854630736829b3452cd551",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/PROTOCOL.md",
+      "source_sha256": "1e13c57b77397adf26b8058adca1a5d6823caca1e9854630736829b3452cd551"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/README_ZH.md",
+      "published_sha256": "79b5ca16b7074da4d73df0ef84dae03f0f987d5abaa525148ad96117e3cbd0fb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/README_ZH.md",
+      "source_sha256": "79b5ca16b7074da4d73df0ef84dae03f0f987d5abaa525148ad96117e3cbd0fb"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/REPORT_ZH.md",
+      "published_sha256": "c731e9c1aa1757b816f65cb01bc20ed105c992e7f3e226952f31dd5cbe244f99",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/REPORT_ZH.md",
+      "source_sha256": "c731e9c1aa1757b816f65cb01bc20ed105c992e7f3e226952f31dd5cbe244f99"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/REPRODUCE.md",
+      "published_sha256": "07a282db5c3fe8c092e453b5c4c5644fb6258b251ebd97d39b8e8af49c885b47",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/REPRODUCE.md",
+      "source_sha256": "07a282db5c3fe8c092e453b5c4c5644fb6258b251ebd97d39b8e8af49c885b47"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/config.json",
+      "published_sha256": "0653df0c90e38c5166544490b4f1c1dfd36c5e1f72a4da0ee1c77b08b8c50549",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/config.json",
+      "source_sha256": "0653df0c90e38c5166544490b4f1c1dfd36c5e1f72a4da0ee1c77b08b8c50549"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/freeze.py",
+      "published_sha256": "34ec5265a126c7c93c3b9e1b4a95430cc869feeca5a14bf188bd32070b311ffd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/freeze.py",
+      "source_sha256": "34ec5265a126c7c93c3b9e1b4a95430cc869feeca5a14bf188bd32070b311ffd"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/prepare_reproduction.py",
+      "published_sha256": "0a4a1a196701d52c3a90404ef1e8e082d207949bde23145bad74ec0443115edd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/prepare_reproduction.py",
+      "source_sha256": "0a4a1a196701d52c3a90404ef1e8e082d207949bde23145bad74ec0443115edd"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/run.py",
+      "published_sha256": "9f846bff6dc657f84ee876cdb23dccb08d5f94cd9cfda5fe3c7ad38785368182",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/run.py",
+      "source_sha256": "9f846bff6dc657f84ee876cdb23dccb08d5f94cd9cfda5fe3c7ad38785368182"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/test_closed_loop.py",
+      "published_sha256": "24f4a92b02e436b36843e6e50bf86b7a1563b06a7c4e01a808a5c6390fb931fc",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/test_closed_loop.py",
+      "source_sha256": "24f4a92b02e436b36843e6e50bf86b7a1563b06a7c4e01a808a5c6390fb931fc"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/verify_results.py",
+      "published_sha256": "c6a05151a7a2e8d9ecd3e222b8bc4a6da95e00e41509665db7e48dedf79b233e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/verify_results.py",
+      "source_sha256": "c6a05151a7a2e8d9ecd3e222b8bc4a6da95e00e41509665db7e48dedf79b233e"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/results/DEV_METRICS.json",
+      "published_sha256": "4e0378d6eb77b965a4a577f1faf88e09982deac78b83ea393bbd4f57bd2fc8a4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/results/DEV_METRICS.json",
+      "source_sha256": "4e0378d6eb77b965a4a577f1faf88e09982deac78b83ea393bbd4f57bd2fc8a4"
+    },
+    {
+      "path": "historical/myntra_closed_loop_dev_v01_20261104/results/VERIFICATION.json",
+      "published_sha256": "17f98d694600ecff28af8fd56c830a8b77f73989eef00a3a8c4cb2f4e5d0b31f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_dev_v01_20261104/results/VERIFICATION.json",
+      "source_sha256": "17f98d694600ecff28af8fd56c830a8b77f73989eef00a3a8c4cb2f4e5d0b31f"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/ARTIFACTS_INDEX.json",
+      "published_sha256": "8daae764ecac7919b41a05ebc8511ab0c437cb04b37fe25e05bc31887505feeb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/ARTIFACTS_INDEX.json",
+      "source_sha256": "8daae764ecac7919b41a05ebc8511ab0c437cb04b37fe25e05bc31887505feeb"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/FROZEN.json",
+      "published_sha256": "1036b0bd695aa1c7fe0d2ce08df9884ab710992102eb958e534b8abc76bc4e9d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/FROZEN.json",
+      "source_sha256": "1036b0bd695aa1c7fe0d2ce08df9884ab710992102eb958e534b8abc76bc4e9d"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/REPORT_ZH.md",
+      "published_sha256": "ce8a4e279cc1f5f02eef60d92a471cc9badaeed25887abb4a6b65b69fcc20f01",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/REPORT_ZH.md",
+      "source_sha256": "ce8a4e279cc1f5f02eef60d92a471cc9badaeed25887abb4a6b65b69fcc20f01"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/REPRODUCE.md",
+      "published_sha256": "fd235900532921cdca01605440179a1113decfcbd5fac79b883e7f7dec5b9053",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/REPRODUCE.md",
+      "source_sha256": "fd235900532921cdca01605440179a1113decfcbd5fac79b883e7f7dec5b9053"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/ROBUSTNESS_PROTOCOL.md",
+      "published_sha256": "9fcaa792065a6f634e3c3d7a2a549e94aa682ed913ddb8bc8b869374d8a25126",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/ROBUSTNESS_PROTOCOL.md",
+      "source_sha256": "9fcaa792065a6f634e3c3d7a2a549e94aa682ed913ddb8bc8b869374d8a25126"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/config.json",
+      "published_sha256": "80c829580a679c178e061c0c1b821be07ddfa5febdca865f2f953692de216d9e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/config.json",
+      "source_sha256": "80c829580a679c178e061c0c1b821be07ddfa5febdca865f2f953692de216d9e"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/freeze_robustness.py",
+      "published_sha256": "eb13ab49b58eb6ec3d18432e8c0351e06e4c32af84e20408a78680d99bdbe9c4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/freeze_robustness.py",
+      "source_sha256": "eb13ab49b58eb6ec3d18432e8c0351e06e4c32af84e20408a78680d99bdbe9c4"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/run_robustness.py",
+      "published_sha256": "f3b2fc46d33fab37a2af717318c78a87c493dc6bb8f5dd2413a09bd59933e9a8",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/run_robustness.py",
+      "source_sha256": "f3b2fc46d33fab37a2af717318c78a87c493dc6bb8f5dd2413a09bd59933e9a8"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/test_robustness.py",
+      "published_sha256": "a3478ad76f6bc79c2a0e9475bb32b5e3e02b89d558aebc961ab71208635f07a9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/test_robustness.py",
+      "source_sha256": "a3478ad76f6bc79c2a0e9475bb32b5e3e02b89d558aebc961ab71208635f07a9"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/verify_robustness.py",
+      "published_sha256": "e557c4a1119a2715bdf38eaf8f722d4a7c84b694d1f7f37f35ca47613404ae8e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/verify_robustness.py",
+      "source_sha256": "e557c4a1119a2715bdf38eaf8f722d4a7c84b694d1f7f37f35ca47613404ae8e"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/results/ACCURACY_BY_BUDGET.png",
+      "published_sha256": "3832fa805d3735ce314d0ab463bc6d2c66f580a4482295cd48a49f68eba50c95",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/results/ACCURACY_BY_BUDGET.png",
+      "source_sha256": "3832fa805d3735ce314d0ab463bc6d2c66f580a4482295cd48a49f68eba50c95"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/results/ROBUSTNESS_METRICS.json",
+      "published_sha256": "93b510d284761a499ed3843c3344e82c2b717a9721bbd870717569c85c22a8ec",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/results/ROBUSTNESS_METRICS.json",
+      "source_sha256": "93b510d284761a499ed3843c3344e82c2b717a9721bbd870717569c85c22a8ec"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/results/RUN_STARTED.json",
+      "published_sha256": "f724425d6d504ce1423f35f17fe4d3ce2b4c9e5a0d93afdcb0f0b0cc43454cff",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/results/RUN_STARTED.json",
+      "source_sha256": "f724425d6d504ce1423f35f17fe4d3ce2b4c9e5a0d93afdcb0f0b0cc43454cff"
+    },
+    {
+      "path": "historical/myntra_closed_loop_robustness_v01_20261104/results/VERIFICATION.json",
+      "published_sha256": "06b2db376a1a60c87925bbf09cd87e1810946c84b1eb911db142d6dd9c4d25ab",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_closed_loop_robustness_v01_20261104/results/VERIFICATION.json",
+      "source_sha256": "06b2db376a1a60c87925bbf09cd87e1810946c84b1eb911db142d6dd9c4d25ab"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/FROZEN.json",
+      "published_sha256": "bc1556696066a63dc5832a9edf9ec0f75ae21347c7cb8ba887f73bf2ef4a872f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/FROZEN.json",
+      "source_sha256": "bc1556696066a63dc5832a9edf9ec0f75ae21347c7cb8ba887f73bf2ef4a872f"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/PROTOCOL.md",
+      "published_sha256": "a5e440c74c483b9be10f20d81ce8b2c0f253723b2f8904cb224389bfef080acb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/PROTOCOL.md",
+      "source_sha256": "a5e440c74c483b9be10f20d81ce8b2c0f253723b2f8904cb224389bfef080acb"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/config.json",
+      "published_sha256": "99bea9876cdf1772dd0c9150096ffe3979806becd2b078f51fe4bf2e4b42d064",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/config.json",
+      "source_sha256": "99bea9876cdf1772dd0c9150096ffe3979806becd2b078f51fe4bf2e4b42d064"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/freeze_full_dev.py",
+      "published_sha256": "678709d5f640d10993888047358e371f50c0daa105478f220032ee76614db4a0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/freeze_full_dev.py",
+      "source_sha256": "678709d5f640d10993888047358e371f50c0daa105478f220032ee76614db4a0"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/run_full_dev.py",
+      "published_sha256": "0d592808b4607d41070d6aa14b0648ea09e88e2b5a2258bb2476f19d9f82f499",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/run_full_dev.py",
+      "source_sha256": "0d592808b4607d41070d6aa14b0648ea09e88e2b5a2258bb2476f19d9f82f499"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/test_full_dev.py",
+      "published_sha256": "5f4e208b13ab907b8f84922c97ed4b381e78079ffe2cd16b9eb40ad18d0aca6d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/test_full_dev.py",
+      "source_sha256": "5f4e208b13ab907b8f84922c97ed4b381e78079ffe2cd16b9eb40ad18d0aca6d"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/verify_full_dev.py",
+      "published_sha256": "5c9f51d2ae4cbea1ab3c8dcaf5e238004cc688bc2387c9d6c2823128d275b3db",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/verify_full_dev.py",
+      "source_sha256": "5c9f51d2ae4cbea1ab3c8dcaf5e238004cc688bc2387c9d6c2823128d275b3db"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/results/CATALOGUE_AUDIT.json",
+      "published_sha256": "4d25b25f7d3e13ec7a8b337c1440c832e953d91b4618ee32f0301e92b5667608",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/results/CATALOGUE_AUDIT.json",
+      "source_sha256": "4d25b25f7d3e13ec7a8b337c1440c832e953d91b4618ee32f0301e92b5667608"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/results/RUN_ABORTED.json",
+      "published_sha256": "6466d2c43caae4c3e29ab87a817a55f7c1e4a6c507ffe87546156c16e53ffe58",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/results/RUN_ABORTED.json",
+      "source_sha256": "6466d2c43caae4c3e29ab87a817a55f7c1e4a6c507ffe87546156c16e53ffe58"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v01_20261104/results/RUN_STARTED.json",
+      "published_sha256": "0c8be80b7d277db27a16a5c99f039f8564bfa621ae74dfdeeb68530df31391b6",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v01_20261104/results/RUN_STARTED.json",
+      "source_sha256": "0c8be80b7d277db27a16a5c99f039f8564bfa621ae74dfdeeb68530df31391b6"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/ARTIFACTS_INDEX.json",
+      "published_sha256": "2d0719e3276ad68f574492314ee2609e7eafb0b0a057fe0c399f4c27098504cd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/ARTIFACTS_INDEX.json",
+      "source_sha256": "2d0719e3276ad68f574492314ee2609e7eafb0b0a057fe0c399f4c27098504cd"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/FROZEN.json",
+      "published_sha256": "d6991bb58bf4204623899f3f0235f6c02a6075e83a5629ee3d31c901ea893eb0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/FROZEN.json",
+      "source_sha256": "d6991bb58bf4204623899f3f0235f6c02a6075e83a5629ee3d31c901ea893eb0"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/PROTOCOL.md",
+      "published_sha256": "71aaf909f0a8f6e102b58e359ff81ef7c966c5d4b402430b804b152bd301c6c2",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/PROTOCOL.md",
+      "source_sha256": "71aaf909f0a8f6e102b58e359ff81ef7c966c5d4b402430b804b152bd301c6c2"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/REPORT_ZH.md",
+      "published_sha256": "c3870e353240cba5335a811b89b8d4b840aaf14aa3e3512abcb1cd18947b799f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/REPORT_ZH.md",
+      "source_sha256": "c3870e353240cba5335a811b89b8d4b840aaf14aa3e3512abcb1cd18947b799f"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/REPRODUCE.md",
+      "published_sha256": "9f525be1fddeb1a431e89e84c3b77ba9e0517463b2b1e906ea0037cab21b2c0c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/REPRODUCE.md",
+      "source_sha256": "9f525be1fddeb1a431e89e84c3b77ba9e0517463b2b1e906ea0037cab21b2c0c"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/analyze_baseline_comparisons_postrun.py",
+      "published_sha256": "f956869dcc7e3d40eabf9c127f0a440a97f87bb069787d71af8948469b22bc25",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/analyze_baseline_comparisons_postrun.py",
+      "source_sha256": "f956869dcc7e3d40eabf9c127f0a440a97f87bb069787d71af8948469b22bc25"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/analyze_budget_sensitivity_postrun.py",
+      "published_sha256": "716f1b12b11588af13a5cb190fa83af34618633dfc66449f806b663d453d3ea5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/analyze_budget_sensitivity_postrun.py",
+      "source_sha256": "716f1b12b11588af13a5cb190fa83af34618633dfc66449f806b663d453d3ea5"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/analyze_pools_postrun.py",
+      "published_sha256": "0fa73f5c4a48a29c65e87187ed6fe456c56120220a4d1fce9ec5475321d6500f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/analyze_pools_postrun.py",
+      "source_sha256": "0fa73f5c4a48a29c65e87187ed6fe456c56120220a4d1fce9ec5475321d6500f"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/config.json",
+      "published_sha256": "fa525b72d4fea0db9d7ae6ff18dc6a95034b0c4b28cec263a5eab793872db239",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/config.json",
+      "source_sha256": "fa525b72d4fea0db9d7ae6ff18dc6a95034b0c4b28cec263a5eab793872db239"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/freeze_full_dev.py",
+      "published_sha256": "678709d5f640d10993888047358e371f50c0daa105478f220032ee76614db4a0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/freeze_full_dev.py",
+      "source_sha256": "678709d5f640d10993888047358e371f50c0daa105478f220032ee76614db4a0"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/run_full_dev.py",
+      "published_sha256": "0b44d8427e8eaba04305e58c38b8616d0095d7ebd5ea6fcae9decdab2e5fb282",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/run_full_dev.py",
+      "source_sha256": "0b44d8427e8eaba04305e58c38b8616d0095d7ebd5ea6fcae9decdab2e5fb282"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/test_full_dev.py",
+      "published_sha256": "5f4e208b13ab907b8f84922c97ed4b381e78079ffe2cd16b9eb40ad18d0aca6d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/test_full_dev.py",
+      "source_sha256": "5f4e208b13ab907b8f84922c97ed4b381e78079ffe2cd16b9eb40ad18d0aca6d"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/verify_full_dev.py",
+      "published_sha256": "36c7e24fe086a039b3a67a22453771d24586bfacfef0d0dfccd41a6f0df44d3d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/verify_full_dev.py",
+      "source_sha256": "36c7e24fe086a039b3a67a22453771d24586bfacfef0d0dfccd41a6f0df44d3d"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/verify_full_dev_postrun.py",
+      "published_sha256": "a7fa89461c11103f25607a839c270790e75cf10fd253bb6332a3a49a1db7203f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/verify_full_dev_postrun.py",
+      "source_sha256": "a7fa89461c11103f25607a839c270790e75cf10fd253bb6332a3a49a1db7203f"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/BASELINE_COMPARISONS_POSTRUN.json",
+      "published_sha256": "ae3c6061d80826a4844e955cbf62965acbbf0038cef6b732ee58eb3942d9c8ac",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/BASELINE_COMPARISONS_POSTRUN.json",
+      "source_sha256": "ae3c6061d80826a4844e955cbf62965acbbf0038cef6b732ee58eb3942d9c8ac"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/BUDGET_SENSITIVITY_POSTRUN.json",
+      "published_sha256": "e730ee03cda141bab750354507d9b72c1f57516572f86805de7be5278e166f71",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/BUDGET_SENSITIVITY_POSTRUN.json",
+      "source_sha256": "e730ee03cda141bab750354507d9b72c1f57516572f86805de7be5278e166f71"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/CATALOGUE_AUDIT.json",
+      "published_sha256": "4d25b25f7d3e13ec7a8b337c1440c832e953d91b4618ee32f0301e92b5667608",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/CATALOGUE_AUDIT.json",
+      "source_sha256": "4d25b25f7d3e13ec7a8b337c1440c832e953d91b4618ee32f0301e92b5667608"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/CATALOGUE_METRICS.json",
+      "published_sha256": "11eb241d864602a1157e23a6583720b9239421d2125f8a23e3f8cb22e309651d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/CATALOGUE_METRICS.json",
+      "source_sha256": "11eb241d864602a1157e23a6583720b9239421d2125f8a23e3f8cb22e309651d"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/POSTRUN_POOL_ANALYSIS.json",
+      "published_sha256": "d547d6d2298249a3daa5846b944c7df62529b3f6f55467035c346c4c3aab22da",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/POSTRUN_POOL_ANALYSIS.json",
+      "source_sha256": "d547d6d2298249a3daa5846b944c7df62529b3f6f55467035c346c4c3aab22da"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/RUN_COMPLETED.json",
+      "published_sha256": "4c4d53f2d48dbdc1823d4a28bd3008928e5f206af5bb8ff9b7a4da3fac5fa572",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/RUN_COMPLETED.json",
+      "source_sha256": "4c4d53f2d48dbdc1823d4a28bd3008928e5f206af5bb8ff9b7a4da3fac5fa572"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/RUN_STARTED.json",
+      "published_sha256": "8ab1a03644be05431844d62f95d3900bb7fa7ed3b93a0f543649c825d2859894",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/RUN_STARTED.json",
+      "source_sha256": "8ab1a03644be05431844d62f95d3900bb7fa7ed3b93a0f543649c825d2859894"
+    },
+    {
+      "path": "historical/myntra_full_dev_catalogue_v02_20261104/results/VERIFICATION.json",
+      "published_sha256": "8f09abf7d7766424b52268fb0e5b2120aeab73469bba71afb1d4fa7349521ad7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_full_dev_catalogue_v02_20261104/results/VERIFICATION.json",
+      "source_sha256": "8f09abf7d7766424b52268fb0e5b2120aeab73469bba71afb1d4fa7349521ad7"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/DATA_AUDIT.json",
+      "published_sha256": "664f233e5f61572679000727592902d9c0b76bbe98c7052b0777fcf49e864596",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/DATA_AUDIT.json",
+      "source_sha256": "664f233e5f61572679000727592902d9c0b76bbe98c7052b0777fcf49e864596"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/FROZEN.json",
+      "published_sha256": "4d646443baf4838684bcb140e5ba8a356b7327a044c332d6fa53c2bce3d7b86e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/FROZEN.json",
+      "source_sha256": "4d646443baf4838684bcb140e5ba8a356b7327a044c332d6fa53c2bce3d7b86e"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/PROTOCOL.md",
+      "published_sha256": "edb537879904c84cb088acf3c74d99ea0dffa05fac56dee68e7af305471edb4c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/PROTOCOL.md",
+      "source_sha256": "edb537879904c84cb088acf3c74d99ea0dffa05fac56dee68e7af305471edb4c"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/README_ZH.md",
+      "published_sha256": "3c279d8f4aa9665e4ba5033f7350a27cf784f72b50ef451fba34e1d8777e6663",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/README_ZH.md",
+      "source_sha256": "3c279d8f4aa9665e4ba5033f7350a27cf784f72b50ef451fba34e1d8777e6663"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/analyze_confirmation.py",
+      "published_sha256": "09394a5a1f10bcd031f06b2247c806be01dfc5c8701753c7cea0f9e3f32f2d21",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/analyze_confirmation.py",
+      "source_sha256": "09394a5a1f10bcd031f06b2247c806be01dfc5c8701753c7cea0f9e3f32f2d21"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/config.json",
+      "published_sha256": "e832273522635beafa28b674fa5f963542050a751bf82b836adfb8f23d865726",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/config.json",
+      "source_sha256": "e832273522635beafa28b674fa5f963542050a751bf82b836adfb8f23d865726"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/run_confirmation.py",
+      "published_sha256": "ce97280a5fbb8f6f0942148602fdf3e38d4395c26601366da178685ae9959803",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/run_confirmation.py",
+      "source_sha256": "ce97280a5fbb8f6f0942148602fdf3e38d4395c26601366da178685ae9959803"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/test_confirmation.py",
+      "published_sha256": "2c1b6e6717dfbfb3ada7838502e54b66a0dea379a4ff624b000cd5b1a22bda46",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/test_confirmation.py",
+      "source_sha256": "2c1b6e6717dfbfb3ada7838502e54b66a0dea379a4ff624b000cd5b1a22bda46"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/ANALYSIS.json",
+      "published_sha256": "26893fd0862530767144711e5af8aea3cc3057edaa495707cddf6b79f0555350",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/ANALYSIS.json",
+      "source_sha256": "26893fd0862530767144711e5af8aea3cc3057edaa495707cddf6b79f0555350"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/PREPARED.json",
+      "published_sha256": "d421685c7ed203c4b876edd3f1466339706b6a8c708544e4a7aef8c46f500fb4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/PREPARED.json",
+      "source_sha256": "d421685c7ed203c4b876edd3f1466339706b6a8c708544e4a7aef8c46f500fb4"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/REPORT_ZH.md",
+      "published_sha256": "949337907efa25f89517a2f2b2d84e551b0409e2971a64adf0330daad5e10dc5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/REPORT_ZH.md",
+      "source_sha256": "949337907efa25f89517a2f2b2d84e551b0409e2971a64adf0330daad5e10dc5"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/test_reserved_RUN_COMPLETED.json",
+      "published_sha256": "96f66b73118a0efe50feca0600f2b5184d2db3bc26525961a81311cebf565a85",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/test_reserved_RUN_COMPLETED.json",
+      "source_sha256": "96f66b73118a0efe50feca0600f2b5184d2db3bc26525961a81311cebf565a85"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/test_reserved_RUN_STARTED.json",
+      "published_sha256": "4f0f368e3f65d82404b04a2e9ebf7417df76d01826c1f3e6454c999ebbcf7234",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/test_reserved_RUN_STARTED.json",
+      "source_sha256": "4f0f368e3f65d82404b04a2e9ebf7417df76d01826c1f3e6454c999ebbcf7234"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/validation_reserved_RUN_COMPLETED.json",
+      "published_sha256": "57d4f66f7ea7901b0d0e8523f43bebc8520a83d51b25fe3be473083d2ebefa93",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/validation_reserved_RUN_COMPLETED.json",
+      "source_sha256": "57d4f66f7ea7901b0d0e8523f43bebc8520a83d51b25fe3be473083d2ebefa93"
+    },
+    {
+      "path": "historical/myntra_heldout_confirmation_v01_20261104/results/validation_reserved_RUN_STARTED.json",
+      "published_sha256": "51a9041bee788a3477082dfae527a6885d7d9f8dd28567941bf2152bc607367f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_heldout_confirmation_v01_20261104/results/validation_reserved_RUN_STARTED.json",
+      "source_sha256": "51a9041bee788a3477082dfae527a6885d7d9f8dd28567941bf2152bc607367f"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/FROZEN.json",
+      "published_sha256": "da8d3868ab369e4d352ae2040d594e7fa5de7ded3a8ec049a7daf7de086b9e68",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/FROZEN.json",
+      "source_sha256": "da8d3868ab369e4d352ae2040d594e7fa5de7ded3a8ec049a7daf7de086b9e68"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/FROZEN_CORRECTED.json",
+      "published_sha256": "35665384a44afb6104834ec7b50223e256b65e753dbc567c540c75d37ec7180f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/FROZEN_CORRECTED.json",
+      "source_sha256": "35665384a44afb6104834ec7b50223e256b65e753dbc567c540c75d37ec7180f"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/PREPARED.json",
+      "published_sha256": "ad42373cec5e4de832bd76cc10fd6a120112048c2b8472bd612de560883f1cd2",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/PREPARED.json",
+      "source_sha256": "ad42373cec5e4de832bd76cc10fd6a120112048c2b8472bd612de560883f1cd2"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/PROTOCOL.md",
+      "published_sha256": "47a700c7f2d1ae8d969c929ae12091378967433557a98a67f2d366d27b095140",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/PROTOCOL.md",
+      "source_sha256": "47a700c7f2d1ae8d969c929ae12091378967433557a98a67f2d366d27b095140"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/README_ZH.md",
+      "published_sha256": "7032698a08435e1bc30877b1e9602791147efdc3154a061a588c9745e9579c2c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/README_ZH.md",
+      "source_sha256": "7032698a08435e1bc30877b1e9602791147efdc3154a061a588c9745e9579c2c"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/config.json",
+      "published_sha256": "012eafaf195b25268454cb184dc4d77e506b01ec7cc3ab17aa927fe5c726aae9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/config.json",
+      "source_sha256": "012eafaf195b25268454cb184dc4d77e506b01ec7cc3ab17aa927fe5c726aae9"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/luna_simulator.py",
+      "published_sha256": "4215af31c8d0d82625fbb7858cf94688cd47efde484452acfa9d62cc2d7c47ac",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/luna_simulator.py",
+      "source_sha256": "4215af31c8d0d82625fbb7858cf94688cd47efde484452acfa9d62cc2d7c47ac"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/posthoc_audit.py",
+      "published_sha256": "56bc0ecbf000bfd4382f03e1c5cf76e0c97bf14ff5246a8b59df6d06535ebd85",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/posthoc_audit.py",
+      "source_sha256": "56bc0ecbf000bfd4382f03e1c5cf76e0c97bf14ff5246a8b59df6d06535ebd85"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/test_luna_simulator.py",
+      "published_sha256": "9441a7a6bcc21ccdb2d2a470554665685f43deffa46ac1ee97682de28e870cd4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/test_luna_simulator.py",
+      "source_sha256": "9441a7a6bcc21ccdb2d2a470554665685f43deffa46ac1ee97682de28e870cd4"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/results/ANALYSIS.json",
+      "published_sha256": "0cfd338bf08583b28e70ea3afa13b607af3929ad13fddf378e0e486795b658b0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/results/ANALYSIS.json",
+      "source_sha256": "0cfd338bf08583b28e70ea3afa13b607af3929ad13fddf378e0e486795b658b0"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/results/ANALYSIS_PRE_POSTHOC.json",
+      "published_sha256": "bf4fca5b315117e15304b52efaa5d5d4808f9fd397410f5b79ba423d661650a1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/results/ANALYSIS_PRE_POSTHOC.json",
+      "source_sha256": "bf4fca5b315117e15304b52efaa5d5d4808f9fd397410f5b79ba423d661650a1"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/results/POSTHOC_AUDIT.json",
+      "published_sha256": "d2e29a5c2f5d46b662efc50a254cb549659c920d8cf17946b0dce7ec0927fbef",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/results/POSTHOC_AUDIT.json",
+      "source_sha256": "d2e29a5c2f5d46b662efc50a254cb549659c920d8cf17946b0dce7ec0927fbef"
+    },
+    {
+      "path": "historical/myntra_luna_simulator_v01_20261104/results/REPORT_ZH.md",
+      "published_sha256": "12bb1f8827279c96a5968e28494d58d4df75714a1e9a614c15a636afddf18d5f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_simulator_v01_20261104/results/REPORT_ZH.md",
+      "source_sha256": "12bb1f8827279c96a5968e28494d58d4df75714a1e9a614c15a636afddf18d5f"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/FROZEN.json",
+      "published_sha256": "e20f19d5bd8d2280768ebb4b1e975fe4a4a8ce558443a428d4c95e918404cad4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/FROZEN.json",
+      "source_sha256": "e20f19d5bd8d2280768ebb4b1e975fe4a4a8ce558443a428d4c95e918404cad4"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/POSTHOC_REPLAY_CORRECTION.md",
+      "published_sha256": "fe65961c666b85bf21b44a00a891bdf419f50e38b7748bdc75311909222254cb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/POSTHOC_REPLAY_CORRECTION.md",
+      "source_sha256": "fe65961c666b85bf21b44a00a891bdf419f50e38b7748bdc75311909222254cb"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/PREPARED.json",
+      "published_sha256": "c4b1f69a9e9660ad40b2bcef90e1d384fc85661b2e05833adb6b1448db5c8647",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/PREPARED.json",
+      "source_sha256": "c4b1f69a9e9660ad40b2bcef90e1d384fc85661b2e05833adb6b1448db5c8647"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/PROTOCOL.md",
+      "published_sha256": "ffc6e4248d5ed19fd8c318f7ae98632cc4034c19d028fc3c313daab30b502583",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/PROTOCOL.md",
+      "source_sha256": "ffc6e4248d5ed19fd8c318f7ae98632cc4034c19d028fc3c313daab30b502583"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/RUN_RECEIPT.json",
+      "published_sha256": "0a7b78c0d65e5beffa658af1f3f328ae6fdb84d4fb4a6da1b398c3b5e08d80b9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/RUN_RECEIPT.json",
+      "source_sha256": "0a7b78c0d65e5beffa658af1f3f328ae6fdb84d4fb4a6da1b398c3b5e08d80b9"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "371bb49428f728c5f8fa3a917ecb8aeb379163b883e5150219c45e68b295b4da",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "371bb49428f728c5f8fa3a917ecb8aeb379163b883e5150219c45e68b295b4da"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/config.json",
+      "published_sha256": "e1e213e35048e0bc4afd096ea5f0af2b50c54150ac1c959cb9bd4e8d38189fd8",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/config.json",
+      "source_sha256": "e1e213e35048e0bc4afd096ea5f0af2b50c54150ac1c959cb9bd4e8d38189fd8"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/luna_policy_comparison.py",
+      "published_sha256": "d529357f96c3a732df7ebdd69c1aea5e512ebfd55de570b03fe49faf7dd6ecf9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/luna_policy_comparison.py",
+      "source_sha256": "d529357f96c3a732df7ebdd69c1aea5e512ebfd55de570b03fe49faf7dd6ecf9"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/posthoc_replay_corrected.py",
+      "published_sha256": "1ad21622162378c49db8c06824ab9297818cc40372841e9c78e7e6f585355c70",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/posthoc_replay_corrected.py",
+      "source_sha256": "1ad21622162378c49db8c06824ab9297818cc40372841e9c78e7e6f585355c70"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/test_luna_policy_comparison.py",
+      "published_sha256": "e1fd822b3b154356b1d721ece9d64f1fbc6fd2704986158ac0873e1f94c4b9e6",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/test_luna_policy_comparison.py",
+      "source_sha256": "e1fd822b3b154356b1d721ece9d64f1fbc6fd2704986158ac0873e1f94c4b9e6"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/results/ANALYSIS.json",
+      "published_sha256": "e66c92567d9babad787cd1684bed8a4d2c103b82cc1b759b08b76ad5eeac7ac6",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/results/ANALYSIS.json",
+      "source_sha256": "e66c92567d9babad787cd1684bed8a4d2c103b82cc1b759b08b76ad5eeac7ac6"
+    },
+    {
+      "path": "historical/myntra_luna_policy_comparison_v01_20261105/results/REPORT_ZH.md",
+      "published_sha256": "30fcb318795c6e657de631076aba54f597c0918fc86698b2b69fe35950a22399",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_policy_comparison_v01_20261105/results/REPORT_ZH.md",
+      "source_sha256": "30fcb318795c6e657de631076aba54f597c0918fc86698b2b69fe35950a22399"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/FROZEN.json",
+      "published_sha256": "7cd2990c0236af430be9ad872236596a83a043051b4de1c47e45d39956bd25af",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/FROZEN.json",
+      "source_sha256": "7cd2990c0236af430be9ad872236596a83a043051b4de1c47e45d39956bd25af"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/POSTRUN_ANALYSIS.md",
+      "published_sha256": "45348db32467d65a7bc4bb7d75c43bbc2eece32fff92379297ed3e679937ae6e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/POSTRUN_ANALYSIS.md",
+      "source_sha256": "45348db32467d65a7bc4bb7d75c43bbc2eece32fff92379297ed3e679937ae6e"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/PREPARED.json",
+      "published_sha256": "fbfaf47fc63fce56c80d609c83d6a1c8ed392360883294db0c772b750c75b00c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/PREPARED.json",
+      "source_sha256": "fbfaf47fc63fce56c80d609c83d6a1c8ed392360883294db0c772b750c75b00c"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/PROTOCOL.md",
+      "published_sha256": "c13686bb978b9b97994607c8584f1c7405b8619b85fc11c7d09b92cb2b4cbf41",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/PROTOCOL.md",
+      "source_sha256": "c13686bb978b9b97994607c8584f1c7405b8619b85fc11c7d09b92cb2b4cbf41"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "published_sha256": "a654a60c87214a2916feceb82ec428aeace8ee9c066b66fbbd54d1d9345cd1f2",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "source_sha256": "a654a60c87214a2916feceb82ec428aeace8ee9c066b66fbbd54d1d9345cd1f2"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "6b64cf512dd8d6b7d8b2846b80f2ae74300eddc34b37efda8e5908b9b985d602",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "6b64cf512dd8d6b7d8b2846b80f2ae74300eddc34b37efda8e5908b9b985d602"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "published_sha256": "8513b6210d70647e8d4dae45343d56d83f2e2cd9b6c574bb82357dfe0cc48c89",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "source_sha256": "8513b6210d70647e8d4dae45343d56d83f2e2cd9b6c574bb82357dfe0cc48c89"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/config.json",
+      "published_sha256": "68346f93fae4ac8c371f7daf331fb2ded6e3e2f506d125c16a96c87fd55660b5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/config.json",
+      "source_sha256": "68346f93fae4ac8c371f7daf331fb2ded6e3e2f506d125c16a96c87fd55660b5"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/luna_48_policy_comparison.py",
+      "published_sha256": "1a03a8e0bd4c64282672834be9d085457aad4b463e53a456b84a52263e950989",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/luna_48_policy_comparison.py",
+      "source_sha256": "1a03a8e0bd4c64282672834be9d085457aad4b463e53a456b84a52263e950989"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/parallel_replay_analysis.py",
+      "published_sha256": "803a7f082015961c240ed22552d8d743a259604e8ca68c87ead1ee702692264d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/parallel_replay_analysis.py",
+      "source_sha256": "803a7f082015961c240ed22552d8d743a259604e8ca68c87ead1ee702692264d"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/test_luna_48_policy.py",
+      "published_sha256": "8a46eb0e081f19a27d617965b5037efe240cb1bdd30e637322e8e8ebd29b2ce9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/test_luna_48_policy.py",
+      "source_sha256": "8a46eb0e081f19a27d617965b5037efe240cb1bdd30e637322e8e8ebd29b2ce9"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/results/ANALYSIS.json",
+      "published_sha256": "57d54521d3fe3c72759782869e1e80339c8b10b59cceba12c7a1eaad803282a7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/results/ANALYSIS.json",
+      "source_sha256": "57d54521d3fe3c72759782869e1e80339c8b10b59cceba12c7a1eaad803282a7"
+    },
+    {
+      "path": "historical/myntra_luna_48profile_policy_v01_20261105/results/REPORT_ZH.md",
+      "published_sha256": "9190a32e1629c4ce071ae854cf7e6cd5423c4d78f187f1dda94343fcf3576fe2",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_luna_48profile_policy_v01_20261105/results/REPORT_ZH.md",
+      "source_sha256": "9190a32e1629c4ce071ae854cf7e6cd5423c4d78f187f1dda94343fcf3576fe2"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/FROZEN.json",
+      "published_sha256": "90ca068edd67655e73bf53d14ef9b88b5bbcef480a624e84d214f0c34977523e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/FROZEN.json",
+      "source_sha256": "90ca068edd67655e73bf53d14ef9b88b5bbcef480a624e84d214f0c34977523e"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/FULL_RECEIPT.json",
+      "published_sha256": "dd8224f149b7ea18b65a21e41c253643e49360e75735ff9714d7a88e287c487f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/FULL_RECEIPT.json",
+      "source_sha256": "dd8224f149b7ea18b65a21e41c253643e49360e75735ff9714d7a88e287c487f"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "published_sha256": "3e08dac40d258bc636bc0c7969a5980dffc4e2a30a3d39bcd1aff5b158942db4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "source_sha256": "3e08dac40d258bc636bc0c7969a5980dffc4e2a30a3d39bcd1aff5b158942db4"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/PREPARED.json",
+      "published_sha256": "e3593899ae2270724ca9b725202067f3a1934e3be96c51f06a9826e11cb604b3",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/PREPARED.json",
+      "source_sha256": "e3593899ae2270724ca9b725202067f3a1934e3be96c51f06a9826e11cb604b3"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/PROTOCOL.md",
+      "published_sha256": "51914f288839706d2fb93d5afa7ed22d4d9084634a8019b15753b522d83c4f53",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/PROTOCOL.md",
+      "source_sha256": "51914f288839706d2fb93d5afa7ed22d4d9084634a8019b15753b522d83c4f53"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/README.md",
+      "published_sha256": "24c589753c89c3c76c9c0f6c9d71a50120245c90e5872fce713ef1d75c3485d0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/README.md",
+      "source_sha256": "24c589753c89c3c76c9c0f6c9d71a50120245c90e5872fce713ef1d75c3485d0"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "published_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "source_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "published_sha256": "5c0cfc145539a988646fc860b1b105d504217a1478f4fd7141b46e95640ff597",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "source_sha256": "5c0cfc145539a988646fc860b1b105d504217a1478f4fd7141b46e95640ff597"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "98f85bc6a9ffa65fe14e60795cc85c9b6cfe0434c35765529c2d7c0b2a06bd66",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "98f85bc6a9ffa65fe14e60795cc85c9b6cfe0434c35765529c2d7c0b2a06bd66"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "published_sha256": "803abc5ccb252b5650d7acfe684d134533f9614ad06ba3c9deea8a92aa6f18cf",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "source_sha256": "803abc5ccb252b5650d7acfe684d134533f9614ad06ba3c9deea8a92aa6f18cf"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/TEST_RECEIPT.json",
+      "published_sha256": "39a8ad432199513dbd9d42d5785dcef79181ad66475a0a9e038ecfe0c86fd1e5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/TEST_RECEIPT.json",
+      "source_sha256": "39a8ad432199513dbd9d42d5785dcef79181ad66475a0a9e038ecfe0c86fd1e5"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/config.json",
+      "published_sha256": "80edb49492c7b795a04ccddc560833544e617253ebc6752b72e9a27f339f663f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/config.json",
+      "source_sha256": "80edb49492c7b795a04ccddc560833544e617253ebc6752b72e9a27f339f663f"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/experiment.py",
+      "published_sha256": "211d656a30b8f5bb6a25a7f1048c826aa3a0261853d224229a513db9854c3cc1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/experiment.py",
+      "source_sha256": "211d656a30b8f5bb6a25a7f1048c826aa3a0261853d224229a513db9854c3cc1"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/prepare.py",
+      "published_sha256": "c903f8ece546073829e85358498572efcb5b2252383759fe8aa74879334ca43c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/prepare.py",
+      "source_sha256": "c903f8ece546073829e85358498572efcb5b2252383759fe8aa74879334ca43c"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v01_20261105/test_experiment.py",
+      "published_sha256": "0251c49f10a3eba8bf3c9d8d994ffcfad44d191d3af25e4ed5db7acf471d52cc",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v01_20261105/test_experiment.py",
+      "source_sha256": "0251c49f10a3eba8bf3c9d8d994ffcfad44d191d3af25e4ed5db7acf471d52cc"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/COLLECTION_INTEGRITY_RECEIPT.json",
+      "published_sha256": "2c1b2f5523af5682f9908757098d707f78868e6ab8d22ca961e4eaca54656714",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/COLLECTION_INTEGRITY_RECEIPT.json",
+      "source_sha256": "2c1b2f5523af5682f9908757098d707f78868e6ab8d22ca961e4eaca54656714"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/FROZEN.json",
+      "published_sha256": "fbf6005bf4cb12a8707cf308536db684e180630a01ce5f0d3d8684bf1d5ae0a1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/FROZEN.json",
+      "source_sha256": "fbf6005bf4cb12a8707cf308536db684e180630a01ce5f0d3d8684bf1d5ae0a1"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/FROZEN_BEFORE_PREFLIGHT_CORRECTION_ZERO_NEW_CALLS.json",
+      "published_sha256": "138e7d6d4a78400b53d9a26a4509af1fd9f62f6fb62d762464f473ebb7db3cdb",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/FROZEN_BEFORE_PREFLIGHT_CORRECTION_ZERO_NEW_CALLS.json",
+      "source_sha256": "138e7d6d4a78400b53d9a26a4509af1fd9f62f6fb62d762464f473ebb7db3cdb"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/FULL_RECEIPT.json",
+      "published_sha256": "e8f07b3c19ca7955314eac3d0bf63620096d3969812ffd3d508d323f68d2e0e1",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/FULL_RECEIPT.json",
+      "source_sha256": "e8f07b3c19ca7955314eac3d0bf63620096d3969812ffd3d508d323f68d2e0e1"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/PREINFERENCE_CORRECTION.json",
+      "published_sha256": "d1ffe987ecfa5f62bfdfb5ae53ea3e802b9f21f3c61ecb49387733aa5f512cd7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/PREINFERENCE_CORRECTION.json",
+      "source_sha256": "d1ffe987ecfa5f62bfdfb5ae53ea3e802b9f21f3c61ecb49387733aa5f512cd7"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "published_sha256": "3e08dac40d258bc636bc0c7969a5980dffc4e2a30a3d39bcd1aff5b158942db4",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "source_sha256": "3e08dac40d258bc636bc0c7969a5980dffc4e2a30a3d39bcd1aff5b158942db4"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/PREPARED.json",
+      "published_sha256": "bdb0683a71c3a56c5b485faa13401ffabe01a17d3d9228fac60aceb9f1a35377",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/PREPARED.json",
+      "source_sha256": "bdb0683a71c3a56c5b485faa13401ffabe01a17d3d9228fac60aceb9f1a35377"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/PROTOCOL.md",
+      "published_sha256": "4a833ace5d28ac06f1346c9ea66906487d48c93cced82a8e478e7597d9707430",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/PROTOCOL.md",
+      "source_sha256": "4a833ace5d28ac06f1346c9ea66906487d48c93cced82a8e478e7597d9707430"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/README.md",
+      "published_sha256": "c93cc8f80e11618be73cfddbcac0c117883dd5d740bb1b8ff4d636581c786575",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/README.md",
+      "source_sha256": "c93cc8f80e11618be73cfddbcac0c117883dd5d740bb1b8ff4d636581c786575"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "published_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "source_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/REPORTING_SUPPLEMENT_PLAN.json",
+      "published_sha256": "c0599bd1e1f099c13953a161278dc46ee7f5fa72c244555145e198f7d3c9f21c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/REPORTING_SUPPLEMENT_PLAN.json",
+      "source_sha256": "c0599bd1e1f099c13953a161278dc46ee7f5fa72c244555145e198f7d3c9f21c"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/RUN_RECEIPT.json",
+      "published_sha256": "9edf78f0f9a85acb9c1e93b8d65b036921e0803e2c018ba0f33b255b0e2b98ef",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/RUN_RECEIPT.json",
+      "source_sha256": "9edf78f0f9a85acb9c1e93b8d65b036921e0803e2c018ba0f33b255b0e2b98ef"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "f3e76fae526e046a3c0774bedfa77409508618349319ce9165ba073abc915c4c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "f3e76fae526e046a3c0774bedfa77409508618349319ce9165ba073abc915c4c"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "published_sha256": "402026bfe98980c7ca9b6da7e04db8412487faf5b36a0bdf97a99d9bda641722",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "source_sha256": "402026bfe98980c7ca9b6da7e04db8412487faf5b36a0bdf97a99d9bda641722"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/TEST_RECEIPT.json",
+      "published_sha256": "ddd1509c23c012de487d42e10cb3771b902d498f2f73ea909d2a39c43055c20f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/TEST_RECEIPT.json",
+      "source_sha256": "ddd1509c23c012de487d42e10cb3771b902d498f2f73ea909d2a39c43055c20f"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/TRANSPORT_ENVIRONMENT.json",
+      "published_sha256": "314476ab2837c5a12f6505e1bfe3bb2b6eac781b3d326e526777cd22db3fb90d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/TRANSPORT_ENVIRONMENT.json",
+      "source_sha256": "314476ab2837c5a12f6505e1bfe3bb2b6eac781b3d326e526777cd22db3fb90d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/config.json",
+      "published_sha256": "658af9eb8f644f000b6b52771188d0e772c96ec1b1ce1a133300eeb8ba1ce3c0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/config.json",
+      "source_sha256": "658af9eb8f644f000b6b52771188d0e772c96ec1b1ce1a133300eeb8ba1ce3c0"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/experiment.py",
+      "published_sha256": "7616d763a7967dae4c3ab6f90a7a87216ac628ffb9178c416358493a2ba7c222",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/experiment.py",
+      "source_sha256": "7616d763a7967dae4c3ab6f90a7a87216ac628ffb9178c416358493a2ba7c222"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/finalize_report.py",
+      "published_sha256": "040f1011d7632809228d744b816a41b73cbd8313323ea92a47b5668a48668458",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/finalize_report.py",
+      "source_sha256": "040f1011d7632809228d744b816a41b73cbd8313323ea92a47b5668a48668458"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/test_experiment.py",
+      "published_sha256": "891500c8073e04ef54ba773cbe43ed6efdff4aaafd5461b0d0e839ea907f4f39",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/test_experiment.py",
+      "source_sha256": "891500c8073e04ef54ba773cbe43ed6efdff4aaafd5461b0d0e839ea907f4f39"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/results/ANALYSIS.json",
+      "published_sha256": "c29c75977feed18a0ebc3776ff7acf365671acc54103d7221307196c69defe9d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/ANALYSIS.json",
+      "source_sha256": "c29c75977feed18a0ebc3776ff7acf365671acc54103d7221307196c69defe9d"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/results/OUTPUT_MANIFEST.json",
+      "published_sha256": "872e6bd3c65f99da7715af7ed981651ee03d2ad1656a0df1e397d3813e699036",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/OUTPUT_MANIFEST.json",
+      "source_sha256": "872e6bd3c65f99da7715af7ed981651ee03d2ad1656a0df1e397d3813e699036"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/results/REPORT_FINALIZATION_RECEIPT.json",
+      "published_sha256": "3c7c1c2b25e6e72fd4704753883bf99dccfb8939cc17db37da7888c1f61d3d5f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/REPORT_FINALIZATION_RECEIPT.json",
+      "source_sha256": "3c7c1c2b25e6e72fd4704753883bf99dccfb8939cc17db37da7888c1f61d3d5f"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/results/REPORT_ZH.md",
+      "published_sha256": "2a28dc18dcc69c84fb771de9fc8e11bd086cdc0040ce8ec0b338e32ee2c1edd0",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/REPORT_ZH.md",
+      "source_sha256": "2a28dc18dcc69c84fb771de9fc8e11bd086cdc0040ce8ec0b338e32ee2c1edd0"
+    },
+    {
+      "path": "historical/myntra_deepseek_48profile_policy_v02_20261105/results/TRANSPORT_AND_COMMON_VALID.json",
+      "published_sha256": "e5e3165b78cc9172f587b4db23316065c3e3d6203d2d6b6ec7eb9f4727b7a087",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_deepseek_48profile_policy_v02_20261105/results/TRANSPORT_AND_COMMON_VALID.json",
+      "source_sha256": "e5e3165b78cc9172f587b4db23316065c3e3d6203d2d6b6ec7eb9f4727b7a087"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/FROZEN.json",
+      "published_sha256": "a4d622fb3c4766015b57a0c0d7e2974b52333ee10c6acc85735b9727b6e27d47",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/FROZEN.json",
+      "source_sha256": "a4d622fb3c4766015b57a0c0d7e2974b52333ee10c6acc85735b9727b6e27d47"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "published_sha256": "56500a2b11b04f1339a6706b7b86887c785c452fd9f0a7f89b7e28bec6a44b91",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "source_sha256": "56500a2b11b04f1339a6706b7b86887c785c452fd9f0a7f89b7e28bec6a44b91"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/PREPARED.json",
+      "published_sha256": "b6e5e9139ccac5a480c4de0d1fc6d2759c6c90c392e7352f282a0e97a5b4e5bc",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/PREPARED.json",
+      "source_sha256": "b6e5e9139ccac5a480c4de0d1fc6d2759c6c90c392e7352f282a0e97a5b4e5bc"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/PROTOCOL.md",
+      "published_sha256": "e8ed102ef7f554fbb37ade3c9fe2a004eb5131838c91a040488472635d57a54a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/PROTOCOL.md",
+      "source_sha256": "e8ed102ef7f554fbb37ade3c9fe2a004eb5131838c91a040488472635d57a54a"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/README.md",
+      "published_sha256": "bb825c2d278b17b8219d9de32124c1f4d7bb40cd3b09b34b0dbf05e3b4e56e59",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/README.md",
+      "source_sha256": "bb825c2d278b17b8219d9de32124c1f4d7bb40cd3b09b34b0dbf05e3b4e56e59"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "published_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "source_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "published_sha256": "20364203cd199d08d4fdf73eeb7390a01809f26209b3e7ac0656280881d05923",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/RUN_RECEIPT.json",
+      "source_sha256": "20364203cd199d08d4fdf73eeb7390a01809f26209b3e7ac0656280881d05923"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "74bb63089b24f802a1bcce8001260660da7a8789459dc7d01a440d23fdf91049",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "74bb63089b24f802a1bcce8001260660da7a8789459dc7d01a440d23fdf91049"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/TEST_RECEIPT.json",
+      "published_sha256": "cb6fa676a887ae1ccf3287af239a34cbee04eabf30d32165fccfdbba75617ad7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/TEST_RECEIPT.json",
+      "source_sha256": "cb6fa676a887ae1ccf3287af239a34cbee04eabf30d32165fccfdbba75617ad7"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/TRANSPORT_ENVIRONMENT.json",
+      "published_sha256": "09b7da8712efa729b11b7071863aa4ebb448ed991b8b7c8fc5333cae886baab3",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/TRANSPORT_ENVIRONMENT.json",
+      "source_sha256": "09b7da8712efa729b11b7071863aa4ebb448ed991b8b7c8fc5333cae886baab3"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/config.json",
+      "published_sha256": "3536282f4799be430beabd18f37ca02898342a1ee8517424fadb85be55b8937b",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/config.json",
+      "source_sha256": "3536282f4799be430beabd18f37ca02898342a1ee8517424fadb85be55b8937b"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/experiment.py",
+      "published_sha256": "583f4cdc08ce51f69149d0fdaddceddecc78a11e087acc5a09efc8a7e9dbfd94",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/experiment.py",
+      "source_sha256": "583f4cdc08ce51f69149d0fdaddceddecc78a11e087acc5a09efc8a7e9dbfd94"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/reporting.py",
+      "published_sha256": "609b91e566977b70c55a93abcea5d7dfc0f5d26f022a92d662c5db87cf19e8e8",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/reporting.py",
+      "source_sha256": "609b91e566977b70c55a93abcea5d7dfc0f5d26f022a92d662c5db87cf19e8e8"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/stream_transport.py",
+      "published_sha256": "0b0299159124e3d7f9841b9a8c1d29d8ec593a71e79d7b9b1d61ee25d4a86302",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/stream_transport.py",
+      "source_sha256": "0b0299159124e3d7f9841b9a8c1d29d8ec593a71e79d7b9b1d61ee25d4a86302"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v01_20261105/test_experiment.py",
+      "published_sha256": "9928023e0fd3c151423828972d053eaffaa0bce2b8f1a5f4859d3883f16f2962",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v01_20261105/test_experiment.py",
+      "source_sha256": "9928023e0fd3c151423828972d053eaffaa0bce2b8f1a5f4859d3883f16f2962"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/COLLECTION_INTEGRITY_RECEIPT.json",
+      "published_sha256": "1f7273f0238c9f3210dccf63c197563bd697b31619cd05d74604b34522c7a991",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/COLLECTION_INTEGRITY_RECEIPT.json",
+      "source_sha256": "1f7273f0238c9f3210dccf63c197563bd697b31619cd05d74604b34522c7a991"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/FROZEN.json",
+      "published_sha256": "da2be0ab7348723989e63842fe4d4ea58a218b931cca3fee32c27141e3943daf",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/FROZEN.json",
+      "source_sha256": "da2be0ab7348723989e63842fe4d4ea58a218b931cca3fee32c27141e3943daf"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/FULL_RECEIPT.json",
+      "published_sha256": "c835e56d0db858eba32250884f1d28d1ce97bd309dc373509251a8b5ff445bda",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/FULL_RECEIPT.json",
+      "source_sha256": "c835e56d0db858eba32250884f1d28d1ce97bd309dc373509251a8b5ff445bda"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/INITIAL_GLM_ACCEPTED_STREAM_AUDIT.json",
+      "published_sha256": "5162fc7d24c59f3b2f9ee225a40ceb18ce554527255e957fd6a42c1cd8a63b67",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/INITIAL_GLM_ACCEPTED_STREAM_AUDIT.json",
+      "source_sha256": "5162fc7d24c59f3b2f9ee225a40ceb18ce554527255e957fd6a42c1cd8a63b67"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/PREFLIGHT_REVIEW_RECEIPT.json",
+      "published_sha256": "af4df087e151edadf884cc4bc7f7e0c0c3b050015d115b00dce22672862f264f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/PREFLIGHT_REVIEW_RECEIPT.json",
+      "source_sha256": "af4df087e151edadf884cc4bc7f7e0c0c3b050015d115b00dce22672862f264f"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "published_sha256": "56500a2b11b04f1339a6706b7b86887c785c452fd9f0a7f89b7e28bec6a44b91",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/PREINFERENCE_REPLAY_RECEIPT.json",
+      "source_sha256": "56500a2b11b04f1339a6706b7b86887c785c452fd9f0a7f89b7e28bec6a44b91"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/PREPARED.json",
+      "published_sha256": "369420ce406ce5dd8a3bdee60a87ed7f16ec6ce694e065f7619d01a55dd6c790",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/PREPARED.json",
+      "source_sha256": "369420ce406ce5dd8a3bdee60a87ed7f16ec6ce694e065f7619d01a55dd6c790"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/PROTOCOL.md",
+      "published_sha256": "5c7407ff962494550b0d4b064df0194930df9c825815c57bae520f71bc03c65f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/PROTOCOL.md",
+      "source_sha256": "5c7407ff962494550b0d4b064df0194930df9c825815c57bae520f71bc03c65f"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/README.md",
+      "published_sha256": "5d8c8d93102d9e646e46c6c5d3b7fcb8218a89c43c2da70bc242d5884949db04",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/README.md",
+      "source_sha256": "5d8c8d93102d9e646e46c6c5d3b7fcb8218a89c43c2da70bc242d5884949db04"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "published_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/REFERENCE_PARITY_RECEIPT.json",
+      "source_sha256": "34212b4b87992f73e5d3fd7339d063496816c8f58b6fc6b97702912bc3bf7187"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/RUN_RECEIPT.json",
+      "published_sha256": "bf8b80e21d671fcb1e123219e5815489dbc8095c6056cfc33c52ac8d5cbe5de8",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/RUN_RECEIPT.json",
+      "source_sha256": "bf8b80e21d671fcb1e123219e5815489dbc8095c6056cfc33c52ac8d5cbe5de8"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/SMOKE_RECEIPT.json",
+      "published_sha256": "5273d3b7b6daad86bc6c52f31867e5f822d722fe2b3464e751b9c09c70119933",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/SMOKE_RECEIPT.json",
+      "source_sha256": "5273d3b7b6daad86bc6c52f31867e5f822d722fe2b3464e751b9c09c70119933"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "published_sha256": "de4a39601cd51b22ae2321c1667a51babf4fb80d1d3c7b11e1b55d0bd6e2ab87",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/SMOKE_REPLAY_RECEIPT.json",
+      "source_sha256": "de4a39601cd51b22ae2321c1667a51babf4fb80d1d3c7b11e1b55d0bd6e2ab87"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/TEST_RECEIPT.json",
+      "published_sha256": "8293800b938b6989f301af8dea3b64a0e605f1afec1ab6ce6cacf029d369b8da",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/TEST_RECEIPT.json",
+      "source_sha256": "8293800b938b6989f301af8dea3b64a0e605f1afec1ab6ce6cacf029d369b8da"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/TRANSPORT_ENVIRONMENT.json",
+      "published_sha256": "d52000a7f7f4457c1e5155e82b7a0fb57d98ff312083d62513e061667aeec200",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/TRANSPORT_ENVIRONMENT.json",
+      "source_sha256": "d52000a7f7f4457c1e5155e82b7a0fb57d98ff312083d62513e061667aeec200"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/config.json",
+      "published_sha256": "cbc1f0e431dd2f9685eef2b17c6cb43632cdbcf79f89d30546f7767fc5df17ad",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/config.json",
+      "source_sha256": "cbc1f0e431dd2f9685eef2b17c6cb43632cdbcf79f89d30546f7767fc5df17ad"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/experiment.py",
+      "published_sha256": "42356045a68efde704be169a51281761fc27b3a513f84a5a9a436d8c229a24c5",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/experiment.py",
+      "source_sha256": "42356045a68efde704be169a51281761fc27b3a513f84a5a9a436d8c229a24c5"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/reporting.py",
+      "published_sha256": "411f8d453494bebe7c998e88aede3105423c24ce6df4f89c09222f869e4f6b1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/reporting.py",
+      "source_sha256": "411f8d453494bebe7c998e88aede3105423c24ce6df4f89c09222f869e4f6b1d"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/stream_transport.py",
+      "published_sha256": "6261b6425f461a7a23778d7e15ebe536f178d5477a4d741beaf9138db4cdb796",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/stream_transport.py",
+      "source_sha256": "6261b6425f461a7a23778d7e15ebe536f178d5477a4d741beaf9138db4cdb796"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/test_experiment.py",
+      "published_sha256": "b677c66b98d64e9e0e9cb2aa7399b03d0f4d87332a0e18297bedb92b59994e07",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/test_experiment.py",
+      "source_sha256": "b677c66b98d64e9e0e9cb2aa7399b03d0f4d87332a0e18297bedb92b59994e07"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/results/ANALYSIS.json",
+      "published_sha256": "24479d0189f5d0c703fa9a993302fc75095a630b5077ebd00a3f1c91eae944e3",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/results/ANALYSIS.json",
+      "source_sha256": "24479d0189f5d0c703fa9a993302fc75095a630b5077ebd00a3f1c91eae944e3"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/results/OUTPUT_MANIFEST.json",
+      "published_sha256": "8c14556a87a18978f283687d4bc33b27ae8e8fa83f069f00df33a341472f5d6a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/results/OUTPUT_MANIFEST.json",
+      "source_sha256": "8c14556a87a18978f283687d4bc33b27ae8e8fa83f069f00df33a341472f5d6a"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/results/REPORT_ZH.md",
+      "published_sha256": "4f402841b6cda9bf91805cbb19c537a04a7b2041e756acd8ad4ad79474beb0ad",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/results/REPORT_ZH.md",
+      "source_sha256": "4f402841b6cda9bf91805cbb19c537a04a7b2041e756acd8ad4ad79474beb0ad"
+    },
+    {
+      "path": "historical/myntra_glm53_48profile_policy_v02_20261105/results/THREE_MODEL_COMPARISON.json",
+      "published_sha256": "8357ba86a1d9ec831fd78b09de9a8c69b238a1a32895e22d37a0df20c22dacff",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/results/THREE_MODEL_COMPARISON.json",
+      "source_sha256": "8357ba86a1d9ec831fd78b09de9a8c69b238a1a32895e22d37a0df20c22dacff"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/FROZEN.json",
+      "published_sha256": "bc85a6749757c868e8059be8468079a0c0d1a209caef3ec320ffe1dfc8a40927",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/FROZEN.json",
+      "source_sha256": "bc85a6749757c868e8059be8468079a0c0d1a209caef3ec320ffe1dfc8a40927"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/PREPARED.json",
+      "published_sha256": "d962555674a21037e9a9efd5bc48826bea70e9c9e6918587b3900652e3ef2194",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/PREPARED.json",
+      "source_sha256": "d962555674a21037e9a9efd5bc48826bea70e9c9e6918587b3900652e3ef2194"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/PROTOCOL.md",
+      "published_sha256": "bb11cd82ad62c0bbbf2d071f590e5687304f60c32a0385f3e53a81e296d2bf96",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/PROTOCOL.md",
+      "source_sha256": "bb11cd82ad62c0bbbf2d071f590e5687304f60c32a0385f3e53a81e296d2bf96"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/README_ZH.md",
+      "published_sha256": "678b6ca78e35cb7f3ff3d7ccff2975588ce8550ae59a1d065b2630e1f26a5168",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/README_ZH.md",
+      "source_sha256": "678b6ca78e35cb7f3ff3d7ccff2975588ce8550ae59a1d065b2630e1f26a5168"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/TEST_RECEIPT.json",
+      "published_sha256": "c243b05ba63271cfafc245434dce020d937d0d24908d759f7319d48e03d1d989",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/TEST_RECEIPT.json",
+      "source_sha256": "c243b05ba63271cfafc245434dce020d937d0d24908d759f7319d48e03d1d989"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/UPSTREAM_PRESERVATION.json",
+      "published_sha256": "1fc6a8e2f75f8b61e63297bd4d9d0fb1734507d9abafb5444a172c6c572d9ed7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/UPSTREAM_PRESERVATION.json",
+      "source_sha256": "1fc6a8e2f75f8b61e63297bd4d9d0fb1734507d9abafb5444a172c6c572d9ed7"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/ablation_statistics.py",
+      "published_sha256": "4d235d260bfba8b1c9ede3fbfb542dbfd935f37fd0aad692f561999fa0d1383c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/ablation_statistics.py",
+      "source_sha256": "4d235d260bfba8b1c9ede3fbfb542dbfd935f37fd0aad692f561999fa0d1383c"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/config.json",
+      "published_sha256": "8956a357422286e3ce9537a06d1146a0f060772a0b568fc3549eab1efd3ad785",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/config.json",
+      "source_sha256": "8956a357422286e3ce9537a06d1146a0f060772a0b568fc3549eab1efd3ad785"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/experiment.py",
+      "published_sha256": "e210ac755061e412bdd9eaeabe20f0b1f3ace14ae7ef8ea3ae916b124cb6571a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/experiment.py",
+      "source_sha256": "e210ac755061e412bdd9eaeabe20f0b1f3ace14ae7ef8ea3ae916b124cb6571a"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/test_mechanism.py",
+      "published_sha256": "941a7c54cc7893153a9a46249e5c490df9cd6a33f8eba5d8952f3361adb3fd2e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/test_mechanism.py",
+      "source_sha256": "941a7c54cc7893153a9a46249e5c490df9cd6a33f8eba5d8952f3361adb3fd2e"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/ACCURACY_CURVES.csv",
+      "published_sha256": "75a74cd3c109917525caffde89cf7f45d04643a355a034a2dc2566c598eb255c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/ACCURACY_CURVES.csv",
+      "source_sha256": "75a74cd3c109917525caffde89cf7f45d04643a355a034a2dc2566c598eb255c"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/ANALYSIS.json",
+      "published_sha256": "d8866e3ed43f8a44fd5365b5466620257e90b7f5018f1e118fcefe256ac491af",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/ANALYSIS.json",
+      "source_sha256": "d8866e3ed43f8a44fd5365b5466620257e90b7f5018f1e118fcefe256ac491af"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/CODE_REVIEW.json",
+      "published_sha256": "d06739a43c922962e5b3b58140e8f71d4edeb2ed8edf5591ac5a525f5957bf48",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/CODE_REVIEW.json",
+      "source_sha256": "d06739a43c922962e5b3b58140e8f71d4edeb2ed8edf5591ac5a525f5957bf48"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/CONTRASTS.csv",
+      "published_sha256": "366dc06ffb7068a5dc77efa9fd9e3960ee3ea0b0703969bc1d2e589ad75c733b",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/CONTRASTS.csv",
+      "source_sha256": "366dc06ffb7068a5dc77efa9fd9e3960ee3ea0b0703969bc1d2e589ad75c733b"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/MECHANISM_ABLATION.pdf",
+      "published_sha256": "87d33f4e29c4481a3aabbdc003cde59ab6541e3e0e9e9b11ec93d347ca733d96",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/MECHANISM_ABLATION.pdf",
+      "source_sha256": "87d33f4e29c4481a3aabbdc003cde59ab6541e3e0e9e9b11ec93d347ca733d96"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/MECHANISM_ABLATION.png",
+      "published_sha256": "13effd2254c57350c0a5b83ef86218074f6fa53ae02bf96453be7612824e50ba",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/MECHANISM_ABLATION.png",
+      "source_sha256": "13effd2254c57350c0a5b83ef86218074f6fa53ae02bf96453be7612824e50ba"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/OUTPUT_MANIFEST.json",
+      "published_sha256": "f74a8b2ac1edf17e6772343d64b9d9b2bb8095bf234aa359b9ad782554b04583",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/OUTPUT_MANIFEST.json",
+      "source_sha256": "f74a8b2ac1edf17e6772343d64b9d9b2bb8095bf234aa359b9ad782554b04583"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/REPORT_ZH.md",
+      "published_sha256": "88f33b6981a647500c8439c605c4a1a64fb48db4122d666178761d25e9941972",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/REPORT_ZH.md",
+      "source_sha256": "88f33b6981a647500c8439c605c4a1a64fb48db4122d666178761d25e9941972"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/RESULT_REVIEW.json",
+      "published_sha256": "80956cfc514819f0f3066dade5d98ea4078f36357c2a4226f058b23d085aed0f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/RESULT_REVIEW.json",
+      "source_sha256": "80956cfc514819f0f3066dade5d98ea4078f36357c2a4226f058b23d085aed0f"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/RUN_COMPLETED.json",
+      "published_sha256": "60f542772bc9d213471436528c289b53b7e5123c365f5ed69892104254a05f81",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/RUN_COMPLETED.json",
+      "source_sha256": "60f542772bc9d213471436528c289b53b7e5123c365f5ed69892104254a05f81"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/RUN_STARTED.json",
+      "published_sha256": "f5d1325141a82eb54f394b0ba729be6d48c5ee3d9f7cdf1f633d97425fbf5328",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/RUN_STARTED.json",
+      "source_sha256": "f5d1325141a82eb54f394b0ba729be6d48c5ee3d9f7cdf1f633d97425fbf5328"
+    },
+    {
+      "path": "historical/myntra_python_mechanism_ablation_v01_20261105/results/VERIFICATION.json",
+      "published_sha256": "35b0103e2f0096a1af71274d3131bca82787c4f96ab873633344681684db22fa",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/results/VERIFICATION.json",
+      "source_sha256": "35b0103e2f0096a1af71274d3131bca82787c4f96ab873633344681684db22fa"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/FROZEN.json",
+      "published_sha256": "15a3be8e3ac8bdcd559d3602ee115d32bc1e7629bfc07c458f3ab2ed147b2d5a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/FROZEN.json",
+      "source_sha256": "15a3be8e3ac8bdcd559d3602ee115d32bc1e7629bfc07c458f3ab2ed147b2d5a"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/PREPARED.json",
+      "published_sha256": "183a9116bce1e317e4055bcea82cde8fcbf3efca1b028552e8aa4eb924d5190e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/PREPARED.json",
+      "source_sha256": "183a9116bce1e317e4055bcea82cde8fcbf3efca1b028552e8aa4eb924d5190e"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/PROTOCOL.md",
+      "published_sha256": "cfd08cedc2d5d2b720fc568e68e8adc3c4d1b4bbde7d54dd1d509e9497311c7c",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/PROTOCOL.md",
+      "source_sha256": "cfd08cedc2d5d2b720fc568e68e8adc3c4d1b4bbde7d54dd1d509e9497311c7c"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/README_ZH.md",
+      "published_sha256": "dc6cc4880389c6680fb16318ec3c2db5cf35a210e8e970b9a7341c2714d99d8a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/README_ZH.md",
+      "source_sha256": "dc6cc4880389c6680fb16318ec3c2db5cf35a210e8e970b9a7341c2714d99d8a"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/TEST_RECEIPT.json",
+      "published_sha256": "53405295e1240ea2e0c3ce69699ee7fe8767213c30c0b4e4a4c4e2cf54766c53",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/TEST_RECEIPT.json",
+      "source_sha256": "53405295e1240ea2e0c3ce69699ee7fe8767213c30c0b4e4a4c4e2cf54766c53"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/UPSTREAM_PRESERVATION.json",
+      "published_sha256": "7f48af80925210c7345ba664183a8be099eb71832f12f58bdc242ac47683d6a7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/UPSTREAM_PRESERVATION.json",
+      "source_sha256": "7f48af80925210c7345ba664183a8be099eb71832f12f58bdc242ac47683d6a7"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/analysis.py",
+      "published_sha256": "752b9fb19e4890b0332abddea2deaa41883d632e2a59819441da85c9677ce50a",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/analysis.py",
+      "source_sha256": "752b9fb19e4890b0332abddea2deaa41883d632e2a59819441da85c9677ce50a"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/config.json",
+      "published_sha256": "d36142754881e2f28eed4a74db9a1751ad6ab6efa02898d7ee0563fcc4286f57",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/config.json",
+      "source_sha256": "d36142754881e2f28eed4a74db9a1751ad6ab6efa02898d7ee0563fcc4286f57"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/experiment.py",
+      "published_sha256": "2f7d549f309fb7489ac3e9e41755827152d0ef888cc1ca97a79b74f12064b035",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/experiment.py",
+      "source_sha256": "2f7d549f309fb7489ac3e9e41755827152d0ef888cc1ca97a79b74f12064b035"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/legacy_replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/legacy_replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/test_ablation.py",
+      "published_sha256": "dcb208f8c4fe49b8ae9edc3fd4b754a88a23078337d39cad8788ac1ae1f98b64",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/test_ablation.py",
+      "source_sha256": "dcb208f8c4fe49b8ae9edc3fd4b754a88a23078337d39cad8788ac1ae1f98b64"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/ACCURACY_CURVES.csv",
+      "published_sha256": "340521cb47b81f3899c53a6158576093b4a2a96ad66986745eb7519a7f0f93dd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/ACCURACY_CURVES.csv",
+      "source_sha256": "340521cb47b81f3899c53a6158576093b4a2a96ad66986745eb7519a7f0f93dd"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/ANALYSIS.json",
+      "published_sha256": "98866d47612e6b4541d032a10140da51e499049efa0d292f4fe76c679ffb0194",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/ANALYSIS.json",
+      "source_sha256": "98866d47612e6b4541d032a10140da51e499049efa0d292f4fe76c679ffb0194"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/CODE_REVIEW.json",
+      "published_sha256": "504c088263518e242f68104f5495f3f2a0e6217b0c1e9044d38a138178769190",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/CODE_REVIEW.json",
+      "source_sha256": "504c088263518e242f68104f5495f3f2a0e6217b0c1e9044d38a138178769190"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/CONTRASTS.csv",
+      "published_sha256": "67d078f006af806fe83baefeb84939a033430930169e32beef619625296cb6b8",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/CONTRASTS.csv",
+      "source_sha256": "67d078f006af806fe83baefeb84939a033430930169e32beef619625296cb6b8"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/OUTPUT_MANIFEST.json",
+      "published_sha256": "6e3f6c0951e9db39c4d61edf8f15ae98655cfd6d20f98d0adbd3dc0dac8bef17",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/OUTPUT_MANIFEST.json",
+      "source_sha256": "6e3f6c0951e9db39c4d61edf8f15ae98655cfd6d20f98d0adbd3dc0dac8bef17"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/REPORT_ZH.md",
+      "published_sha256": "4f5bdd0381afd2adb2d4ab1cded54d7b9380adeaad660eb4750083d5bfd9c5e7",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/REPORT_ZH.md",
+      "source_sha256": "4f5bdd0381afd2adb2d4ab1cded54d7b9380adeaad660eb4750083d5bfd9c5e7"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/RESULT_REVIEW.json",
+      "published_sha256": "567fdd3801a1dd72ada59c4ea97e32e40df208a756ff5ae837e79ff31150481f",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/RESULT_REVIEW.json",
+      "source_sha256": "567fdd3801a1dd72ada59c4ea97e32e40df208a756ff5ae837e79ff31150481f"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/RUN_COMPLETED.json",
+      "published_sha256": "a64b58b0f1008a03b785f4ab9f34a8b9fe24e21124bbcc3533af31c90168d600",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/RUN_COMPLETED.json",
+      "source_sha256": "a64b58b0f1008a03b785f4ab9f34a8b9fe24e21124bbcc3533af31c90168d600"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/RUN_STARTED.json",
+      "published_sha256": "8c1b3ebf2b70e39cc8df0797caa736286598be5805e7149db0605959691031de",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/RUN_STARTED.json",
+      "source_sha256": "8c1b3ebf2b70e39cc8df0797caa736286598be5805e7149db0605959691031de"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/THREE_MODEL_ABLATION.pdf",
+      "published_sha256": "e36d2e25c6b845bbc964f2a2598ce9111fee2a4946ce4d431865e7c75e47f6b9",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/THREE_MODEL_ABLATION.pdf",
+      "source_sha256": "e36d2e25c6b845bbc964f2a2598ce9111fee2a4946ce4d431865e7c75e47f6b9"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/THREE_MODEL_ABLATION.png",
+      "published_sha256": "49bfb4cc099215c9231077d0d4133ed7eb6f32c164292da9337151df02df0024",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/THREE_MODEL_ABLATION.png",
+      "source_sha256": "49bfb4cc099215c9231077d0d4133ed7eb6f32c164292da9337151df02df0024"
+    },
+    {
+      "path": "historical/myntra_llm_mechanism_ablation_v01_20261105/results/VERIFICATION.json",
+      "published_sha256": "c9dd259ee74b1b69217ef8f436647c08c2adbc2583c45dfbafbdba732d3859ed",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/results/VERIFICATION.json",
+      "source_sha256": "c9dd259ee74b1b69217ef8f436647c08c2adbc2583c45dfbafbdba732d3859ed"
+    },
+    {
+      "path": "code/engine.py",
+      "published_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/engine.py",
+      "source_sha256": "373d4cd38fb239f657d070af8c49c889e27be07e35061fb97eb4b5fcb4c8a96d"
+    },
+    {
+      "path": "code/environment.py",
+      "published_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/environment.py",
+      "source_sha256": "28165d29ab103cd8116e8671f0032a31975a86f3aff5aaada9b910eac57441bd"
+    },
+    {
+      "path": "code/config.json",
+      "published_sha256": "cbc1f0e431dd2f9685eef2b17c6cb43632cdbcf79f89d30546f7767fc5df17ad",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/config.json",
+      "source_sha256": "cbc1f0e431dd2f9685eef2b17c6cb43632cdbcf79f89d30546f7767fc5df17ad"
+    },
+    {
+      "path": "code/legacy_replay.py",
+      "published_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_glm53_48profile_policy_v02_20261105/replay.py",
+      "source_sha256": "b6263f83637cb987efd7b22b163df0230a35bb4f0c0261cb7102312373641e1d"
+    },
+    {
+      "path": "python_config.json",
+      "published_sha256": "8956a357422286e3ce9537a06d1146a0f060772a0b568fc3549eab1efd3ad785",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_python_mechanism_ablation_v01_20261105/config.json",
+      "source_sha256": "8956a357422286e3ce9537a06d1146a0f060772a0b568fc3549eab1efd3ad785"
+    },
+    {
+      "path": "llm_config.json",
+      "published_sha256": "d36142754881e2f28eed4a74db9a1751ad6ab6efa02898d7ee0563fcc4286f57",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/config.json",
+      "source_sha256": "d36142754881e2f28eed4a74db9a1751ad6ab6efa02898d7ee0563fcc4286f57"
+    },
+    {
+      "path": "llm_panel_metadata.json",
+      "published_sha256": "183a9116bce1e317e4055bcea82cde8fcbf3efca1b028552e8aa4eb924d5190e",
+      "source_path": "/home/gaoym/When_Learning_How_to_Ask_myntra_coverage_diag_20261104/experiments/myntra_llm_mechanism_ablation_v01_20261105/PREPARED.json",
+      "source_sha256": "183a9116bce1e317e4055bcea82cde8fcbf3efca1b028552e8aa4eb924d5190e"
+    },
+    {
+      "path": "publication_export.py",
+      "published_sha256": "e016cb1b248a3a0f4cae43d058abd2e016c457fb0591a978cae78501bde2085b",
+      "source_path": "/tmp/export_myntra_results_20261105.py",
+      "source_sha256": "e016cb1b248a3a0f4cae43d058abd2e016c457fb0591a978cae78501bde2085b"
+    }
+  ]
+}
