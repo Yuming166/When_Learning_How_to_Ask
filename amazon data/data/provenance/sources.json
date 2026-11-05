@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "name": "metadata",
+      "filename": "meta_Clothing_Shoes_and_Jewelry.jsonl.gz",
+      "size": 4051587355,
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/meta_categories/meta_Clothing_Shoes_and_Jewelry.jsonl.gz",
+      "sha256": "df6ac054307600d03e8d1dfcf215dc2220b1d7592f667b9ce5b28ed2eb833b02",
+      "downloaded_at_utc": "2026-11-04T12:00:31Z"
+    },
+    {
+      "name": "reviews",
+      "filename": "Clothing_Shoes_and_Jewelry.jsonl.gz",
+      "size": 7109695439,
+      "url": "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Clothing_Shoes_and_Jewelry.jsonl.gz",
+      "sha256": "ae07b6254bf3192f8eb0e5b44935470209ba7d9ed679c107ea44c816428d61e3",
+      "downloaded_at_utc": "2026-11-04T12:07:37Z"
+    },
+    {
+      "name": "google_extension",
+      "filename": "extended_amazon2023_dataset.jsonl.zip",
+      "size": 2860481866,
+      "expected_sha256": "184795702084df48cd7947ef136e014fd58e75818335b57f30b3763d5bbc8ce3",
+      "url": "https://huggingface.co/datasets/google/extended_amazon_2023_dataset/resolve/main/extended_amazon2023_dataset.jsonl.zip",
+      "sha256": "184795702084df48cd7947ef136e014fd58e75818335b57f30b3763d5bbc8ce3",
+      "downloaded_at_utc": "2026-11-04T11:57:19Z"
+    }
+  ],
+  "original_dataset": "https://amazon-reviews-2023.github.io/",
+  "google_dataset": "https://huggingface.co/datasets/google/extended_amazon_2023_dataset",
+  "google_license": "CC-BY-4.0"
+}

@@ -1,0 +1,20 @@
+{
+  "answers": [
+    {"id": "C021", "answers": ["A", "B", "A", "B", "A", "B"]},
+    {"id": "C049", "answers": ["B", "B", "A", "A", "A", "B"]},
+    {"id": "C014", "answers": ["A", "A", "B", "B", "B", "A"]},
+    {"id": "C043", "answers": ["B", "A", "B", "A", "B", "B"]},
+    {"id": "C038", "answers": ["B", "A", "A", "B", "B", "A"]},
+    {"id": "C036", "answers": ["B", "A", "A", "B", "A", "A"]},
+    {"id": "C032", "answers": ["B", "A", "A", "A", "A", "A"]},
+    {"id": "C055", "answers": ["B", "B", "A", "B", "B", "B"]},
+    {"id": "C010", "answers": ["A", "A", "B", "A", "B", "A"]},
+    {"id": "C020", "answers": ["A", "B", "A", "B", "A", "A"]},
+    {"id": "C031", "answers": ["A", "B", "B", "B", "B", "B"]},
+    {"id": "C039", "answers": ["B", "A", "A", "B", "B", "B"]},
+    {"id": "C001", "answers": ["A", "A", "A", "A", "A", "B"]},
+    {"id": "C005", "answers": ["A", "A", "A", "B", "A", "B"]},
+    {"id": "C061", "answers": ["B", "B", "B", "B", "A", "B"]},
+    {"id": "C050", "answers": ["B", "B", "A", "A", "B", "A"]}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch": "amazon_4",
+  "started_utc": "2026-11-05T11:18:15.948373+00:00",
+  "requested_model": "glm-5.3",
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "error": null,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 995,
+    "total_tokens": 2510,
+    "completion_tokens": 1515,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1012
+    }
+  },
+  "duration_seconds": 23.969000000040978,
+  "prompt_sha256": "a10778c16798e36fbfd9d1cf0efacf28bd26a664621b41fa4a9530bb58e5864f",
+  "response_sha256": "831fabd6063453cef5813228f81c2f4eb2f2d8406b4cfe1c6dfafabfdba7687e"
+}

@@ -1,0 +1,99 @@
+{
+  "model": "glm-5.3",
+  "requests": 4,
+  "retries": 0,
+  "receipts": [
+    {
+      "batch": "amazon_1",
+      "started_utc": "2026-11-05T11:17:14.569292+00:00",
+      "requested_model": "glm-5.3",
+      "returned_model": "glm-5.3",
+      "http_status": 200,
+      "error": null,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 996,
+        "total_tokens": 2830,
+        "completion_tokens": 1834,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1261
+        }
+      },
+      "duration_seconds": 22.93799999996554,
+      "prompt_sha256": "f25fd6aa4d0568f856c4eedd6ed659f124e4ad7b58cbf61634b085f5658f6c8e",
+      "response_sha256": "12af6580d7fe10b8dac3a7afbf332c8ef295a28264d7d868430c958d3c7e843f"
+    },
+    {
+      "batch": "amazon_2",
+      "started_utc": "2026-11-05T11:17:37.515568+00:00",
+      "requested_model": "glm-5.3",
+      "returned_model": "glm-5.3",
+      "http_status": 200,
+      "error": null,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 997,
+        "total_tokens": 2427,
+        "completion_tokens": 1430,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 946
+        }
+      },
+      "duration_seconds": 20.03200000000652,
+      "prompt_sha256": "c79a236b095126c47aa0f2ea9e471ea80e3db4ac108581362a8101e9ff58d208",
+      "response_sha256": "b6dc9c7d805e2947c1a1aa0d60452d14e4cf1e36ddf357cb8259ba8c8ae4122d"
+    },
+    {
+      "batch": "amazon_3",
+      "started_utc": "2026-11-05T11:17:57.547311+00:00",
+      "requested_model": "glm-5.3",
+      "returned_model": "glm-5.3",
+      "http_status": 200,
+      "error": null,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 995,
+        "total_tokens": 2490,
+        "completion_tokens": 1495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 992
+        }
+      },
+      "duration_seconds": 18.375,
+      "prompt_sha256": "c8371e3d03db72f673b03718eb08399a7f0c67b7599a4d8d5a95531560a74410",
+      "response_sha256": "f3d629553c047cbf17a990b058ca4c8c5d7844179d365c726e7660ac0f25ff89"
+    },
+    {
+      "batch": "amazon_4",
+      "started_utc": "2026-11-05T11:18:15.948373+00:00",
+      "requested_model": "glm-5.3",
+      "returned_model": "glm-5.3",
+      "http_status": 200,
+      "error": null,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 995,
+        "total_tokens": 2510,
+        "completion_tokens": 1515,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1012
+        }
+      },
+      "duration_seconds": 23.969000000040978,
+      "prompt_sha256": "a10778c16798e36fbfd9d1cf0efacf28bd26a664621b41fa4a9530bb58e5864f",
+      "response_sha256": "831fabd6063453cef5813228f81c2f4eb2f2d8406b4cfe1c6dfafabfdba7687e"
+    }
+  ]
+}

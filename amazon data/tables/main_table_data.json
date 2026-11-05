@@ -1,0 +1,92 @@
+[
+  {
+    "model": "Luna",
+    "budget": 3,
+    "fixed_order_percent": 79.20095920138876,
+    "profile_ig_percent": 70.83838541666671,
+    "decision_set_ig_percent": 79.59456597222217,
+    "dv_percent": 82.04555989583355,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "Luna",
+    "budget": 4,
+    "fixed_order_percent": 85.42874131944436,
+    "profile_ig_percent": 80.49643663194446,
+    "decision_set_ig_percent": 85.88972222222222,
+    "dv_percent": 88.16704861111096,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "Luna",
+    "budget": 5,
+    "fixed_order_percent": 96.60790364583315,
+    "profile_ig_percent": 88.34202256944428,
+    "decision_set_ig_percent": 94.52123697916673,
+    "dv_percent": 97.81386718749998,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "DeepSeek",
+    "budget": 3,
+    "fixed_order_percent": 79.20095920138876,
+    "profile_ig_percent": 70.83838541666671,
+    "decision_set_ig_percent": 79.59456597222217,
+    "dv_percent": 82.04555989583355,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "DeepSeek",
+    "budget": 4,
+    "fixed_order_percent": 85.42874131944436,
+    "profile_ig_percent": 80.49643663194446,
+    "decision_set_ig_percent": 85.88972222222222,
+    "dv_percent": 88.16704861111096,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "DeepSeek",
+    "budget": 5,
+    "fixed_order_percent": 96.60790364583315,
+    "profile_ig_percent": 88.34202256944428,
+    "decision_set_ig_percent": 94.52123697916673,
+    "dv_percent": 97.81386718749998,
+    "valid_profiles": 64,
+    "total_profiles": 64
+  },
+  {
+    "model": "GLM",
+    "budget": 3,
+    "fixed_order_percent": 60.564032118055565,
+    "profile_ig_percent": 56.409869791666765,
+    "decision_set_ig_percent": 61.9244401041667,
+    "dv_percent": 63.30137152777775,
+    "valid_profiles": 48,
+    "total_profiles": 64
+  },
+  {
+    "model": "GLM",
+    "budget": 4,
+    "fixed_order_percent": 67.29440104166645,
+    "profile_ig_percent": 64.16193142361102,
+    "decision_set_ig_percent": 66.61444444444442,
+    "dv_percent": 69.55430555555546,
+    "valid_profiles": 48,
+    "total_profiles": 64
+  },
+  {
+    "model": "GLM",
+    "budget": 5,
+    "fixed_order_percent": 75.03628038194486,
+    "profile_ig_percent": 68.60908854166681,
+    "decision_set_ig_percent": 74.43876736111137,
+    "dv_percent": 76.61447048611174,
+    "valid_profiles": 48,
+    "total_profiles": 64
+  }
+]

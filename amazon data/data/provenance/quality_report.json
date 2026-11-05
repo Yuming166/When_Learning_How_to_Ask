@@ -1,0 +1,259 @@
+{
+  "created_date_beijing": "2026-11-04",
+  "checks": {
+    "product_id_duplicates": 0,
+    "review_id_duplicates": 0,
+    "review_source_row_duplicates": 0,
+    "invalid_clean_prices": 0,
+    "invalid_clean_ratings": 0,
+    "invalid_clean_review_dates": 0,
+    "attributes_without_top_product": 0,
+    "tops_without_attribute_row": 0,
+    "review_summary_count_difference": 0,
+    "evidence_without_top_product": 0
+  },
+  "counts": {
+    "metadata": {
+      "raw_rows": 7218481,
+      "valid_rows": 7217886,
+      "clean_products": 7217881,
+      "invalid_rows": 595,
+      "duplicate_parent_asin_rows": 5
+    },
+    "reviews": {
+      "raw_rows": 66033346,
+      "valid_rows": 66033346,
+      "clean_reviews": 65346226,
+      "invalid_rows": 0,
+      "exact_source_duplicate_rows": 687120,
+      "reviews_without_product_metadata": 2505,
+      "womens_tops_reviews": 2767701
+    },
+    "attributes": {
+      "womens_tops": 339364,
+      "products_with_attribute": {
+        "sleeve": 250499,
+        "stretch": 78579,
+        "composition": 204974,
+        "care": 231194,
+        "neckline": 179535,
+        "fit": 103781,
+        "weight": 95054
+      },
+      "evidence_rows": 2115990
+    },
+    "google": {
+      "archive_rows_by_category": {
+        "Sports & Outdoors": 1592834,
+        "VideoGames": 136210,
+        "Appliances": 89112,
+        "Clothing, Shoes & Jewelry": 7190124
+      },
+      "clothing_rows": 7190124,
+      "clean_clothing_products": 4736162,
+      "matched_to_original_metadata": 4736162,
+      "unmatched_to_original_metadata": 0,
+      "note": "All *_ai fields are LLM-generated; product_id is joined to parent_asin without fuzzy matching.",
+      "invalid_id_rows": 0,
+      "duplicate_product_id_rows": 2453962
+    }
+  },
+  "product_groups": {
+    "apparel": 2964695,
+    "shoes": 1689541,
+    "other_or_unknown": 769653,
+    "jewelry": 744778,
+    "accessories": 577782,
+    "bags_luggage": 301450,
+    "watches": 169982
+  },
+  "missing_product_fields": {
+    "price_missing": 5758774,
+    "store_missing": 45516,
+    "brand_reported_missing": 6877461,
+    "features_missing": 744640,
+    "description_missing": 3424795,
+    "categories_missing": 0,
+    "primary_image_missing": 10048
+  },
+  "review_profile": {
+    "text_missing": 100695,
+    "helpful_votes_negative": 6,
+    "outside_documented_period": 0,
+    "first_review_utc": "1998-07-11 03:53:44",
+    "last_review_utc": "2023-09-13 01:01:34.664000"
+  },
+  "attribute_coverage": {
+    "sleeve": {
+      "products": 250499,
+      "share": 0.7381425254299219
+    },
+    "stretch": {
+      "products": 78579,
+      "share": 0.2315478365412949
+    },
+    "composition": {
+      "products": 204974,
+      "share": 0.6039945309461228
+    },
+    "care": {
+      "products": 231194,
+      "share": 0.6812567037163636
+    },
+    "neckline": {
+      "products": 179535,
+      "share": 0.5290337219033251
+    },
+    "fit": {
+      "products": 103781,
+      "share": 0.30581028040687874
+    },
+    "weight": {
+      "products": 95054,
+      "share": 0.28009452976744736
+    }
+  },
+  "focused_subsets": {
+    "womens_tshirts_research": 96575,
+    "womens_blouses_research": 93263
+  },
+  "top_womens_tops_brands_or_stores": [
+    [
+      "Daily Ritual",
+      4106
+    ],
+    [
+      "Lucky Brand",
+      2955
+    ],
+    [
+      "SheIn",
+      2672
+    ],
+    [
+      "Generic",
+      2519
+    ],
+    [
+      "Lark & Ro",
+      2455
+    ],
+    [
+      "Romwe",
+      2215
+    ],
+    [
+      "SweatyRocks",
+      2063
+    ],
+    [
+      "Goodthreads",
+      2022
+    ],
+    [
+      "SAMPEEL",
+      1923
+    ],
+    [
+      "Milumia",
+      1873
+    ],
+    [
+      "ROMWE",
+      1761
+    ],
+    [
+      "Floerns",
+      1748
+    ],
+    [
+      "Woman Within",
+      1623
+    ],
+    [
+      "Allegra K",
+      1515
+    ],
+    [
+      "Made By Johnny",
+      1259
+    ]
+  ],
+  "files": [
+    {
+      "file": "attribute_distribution.parquet",
+      "rows": 2305,
+      "bytes": 12547
+    },
+    {
+      "file": "google_clothing_ai.parquet",
+      "rows": 4736162,
+      "bytes": 1525756178
+    },
+    {
+      "file": "product_review_summary.parquet",
+      "rows": 7216881,
+      "bytes": 165994728
+    },
+    {
+      "file": "products.parquet",
+      "rows": 7217881,
+      "bytes": 4194984114
+    },
+    {
+      "file": "products_rejected.parquet",
+      "rows": 595,
+      "bytes": 424306
+    },
+    {
+      "file": "reviews.parquet",
+      "rows": 65346226,
+      "bytes": 7300006087
+    },
+    {
+      "file": "reviews_rejected.parquet",
+      "rows": 0,
+      "bytes": 508
+    },
+    {
+      "file": "womens_blouses_research.parquet",
+      "rows": 93263,
+      "bytes": 43155677
+    },
+    {
+      "file": "womens_tops.parquet",
+      "rows": 339364,
+      "bytes": 165698711
+    },
+    {
+      "file": "womens_tops_attribute_evidence.parquet",
+      "rows": 2115990,
+      "bytes": 64763646
+    },
+    {
+      "file": "womens_tops_attributes.parquet",
+      "rows": 339364,
+      "bytes": 3605171
+    },
+    {
+      "file": "womens_tops_brands.parquet",
+      "rows": 16693,
+      "bytes": 129516
+    },
+    {
+      "file": "womens_tops_google_ai.parquet",
+      "rows": 221081,
+      "bytes": 56736021
+    },
+    {
+      "file": "womens_tops_reviews.parquet",
+      "rows": 2767701,
+      "bytes": 297409416
+    },
+    {
+      "file": "womens_tshirts_research.parquet",
+      "rows": 96575,
+      "bytes": 43018126
+    }
+  ]
+}

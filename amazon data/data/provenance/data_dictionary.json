@@ -1,0 +1,976 @@
+{
+  "attribute_distribution.parquet": [
+    {
+      "name": "attribute",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "products",
+      "type": "BIGINT"
+    }
+  ],
+  "google_clothing_ai.parquet": [
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "data_source",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "image_description_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "derived_features_ai",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    }
+  ],
+  "product_review_summary.parquet": [
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "review_count",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviewers",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_rating_mean",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "verified_reviews",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviews_with_text",
+      "type": "BIGINT"
+    },
+    {
+      "name": "first_review_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "last_review_utc",
+      "type": "TIMESTAMP"
+    }
+  ],
+  "products.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "brand_reported",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "main_category",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "categories",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "features",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "description",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "details_json",
+      "type": "JSON"
+    },
+    {
+      "name": "price_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "average_rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "rating_number",
+      "type": "BIGINT"
+    },
+    {
+      "name": "primary_image_url",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "category_path",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "features_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "is_apparel",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "is_womens_top",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "product_group",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price_invalid",
+      "type": "BOOLEAN"
+    }
+  ],
+  "products_rejected.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "brand_reported",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "main_category",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "categories",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "features",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "description",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "details_json",
+      "type": "JSON"
+    },
+    {
+      "name": "price_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "average_rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "rating_number",
+      "type": "BIGINT"
+    },
+    {
+      "name": "primary_image_url",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "category_path",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "features_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "is_apparel",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "is_womens_top",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "product_group",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "valid_product",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "price_invalid",
+      "type": "BOOLEAN"
+    }
+  ],
+  "reviews.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_id",
+      "type": "UUID"
+    },
+    {
+      "name": "user_id",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "review_title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "review_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "timestamp_ms",
+      "type": "BIGINT"
+    },
+    {
+      "name": "helpful_votes",
+      "type": "BIGINT"
+    },
+    {
+      "name": "verified_purchase",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "images_json",
+      "type": "JSON"
+    },
+    {
+      "name": "review_datetime_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "text_missing",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "helpful_votes_invalid",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "outside_documented_period",
+      "type": "BOOLEAN"
+    }
+  ],
+  "reviews_rejected.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_id",
+      "type": "UUID"
+    },
+    {
+      "name": "user_id",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "review_title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "review_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "timestamp_ms",
+      "type": "BIGINT"
+    },
+    {
+      "name": "helpful_votes",
+      "type": "BIGINT"
+    },
+    {
+      "name": "verified_purchase",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "images_json",
+      "type": "JSON"
+    },
+    {
+      "name": "review_datetime_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "valid_review",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "text_missing",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "helpful_votes_invalid",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "outside_documented_period",
+      "type": "BOOLEAN"
+    }
+  ],
+  "womens_blouses_research.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "brand_reported",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "main_category",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "categories",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "features",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "description",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "details_json",
+      "type": "JSON"
+    },
+    {
+      "name": "price_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "average_rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "rating_number",
+      "type": "BIGINT"
+    },
+    {
+      "name": "primary_image_url",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "category_path",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "features_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "is_apparel",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "is_womens_top",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "product_group",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price_invalid",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "care_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "composition_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "weight_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "stretch_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "fit_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "neckline_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "sleeve_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "downloaded_review_count",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviewers",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_rating_mean",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "verified_reviews",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviews_with_text",
+      "type": "BIGINT"
+    },
+    {
+      "name": "first_review_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "last_review_utc",
+      "type": "TIMESTAMP"
+    }
+  ],
+  "womens_tops.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "brand_reported",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "main_category",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "categories",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "features",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "description",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "details_json",
+      "type": "JSON"
+    },
+    {
+      "name": "price_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "average_rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "rating_number",
+      "type": "BIGINT"
+    },
+    {
+      "name": "primary_image_url",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "category_path",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "features_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "is_apparel",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "is_womens_top",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "product_group",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price_invalid",
+      "type": "BOOLEAN"
+    }
+  ],
+  "womens_tops_attribute_evidence.parquet": [
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "attribute",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "value",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "source_field",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "evidence",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "evidence_type",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "requires_context_review",
+      "type": "BOOLEAN"
+    }
+  ],
+  "womens_tops_attributes.parquet": [
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "care_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "composition_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "weight_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "stretch_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "fit_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "neckline_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "sleeve_mentions",
+      "type": "VARCHAR[]"
+    }
+  ],
+  "womens_tops_brands.parquet": [
+    {
+      "name": "brand_or_store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "products",
+      "type": "BIGINT"
+    },
+    {
+      "name": "with_price",
+      "type": "BIGINT"
+    }
+  ],
+  "womens_tops_google_ai.parquet": [
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "data_source",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "image_description_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_ai",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "derived_features_ai",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    }
+  ],
+  "womens_tops_reviews.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_id",
+      "type": "UUID"
+    },
+    {
+      "name": "user_id",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "review_title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "review_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "timestamp_ms",
+      "type": "BIGINT"
+    },
+    {
+      "name": "helpful_votes",
+      "type": "BIGINT"
+    },
+    {
+      "name": "verified_purchase",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "images_json",
+      "type": "JSON"
+    },
+    {
+      "name": "review_datetime_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "text_missing",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "helpful_votes_invalid",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "outside_documented_period",
+      "type": "BOOLEAN"
+    }
+  ],
+  "womens_tshirts_research.parquet": [
+    {
+      "name": "source_row",
+      "type": "BIGINT"
+    },
+    {
+      "name": "parent_asin",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "title_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "store",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "brand_reported",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "main_category",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "categories",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "features",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "description",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "details_json",
+      "type": "JSON"
+    },
+    {
+      "name": "price_original",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "average_rating",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "rating_number",
+      "type": "BIGINT"
+    },
+    {
+      "name": "primary_image_url",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "category_path",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "features_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "description_text",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "is_apparel",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "is_womens_top",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "product_group",
+      "type": "VARCHAR"
+    },
+    {
+      "name": "price_invalid",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "care_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "composition_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "weight_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "stretch_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "fit_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "neckline_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "sleeve_mentions",
+      "type": "VARCHAR[]"
+    },
+    {
+      "name": "downloaded_review_count",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviewers",
+      "type": "BIGINT"
+    },
+    {
+      "name": "review_rating_mean",
+      "type": "DOUBLE"
+    },
+    {
+      "name": "verified_reviews",
+      "type": "BIGINT"
+    },
+    {
+      "name": "reviews_with_text",
+      "type": "BIGINT"
+    },
+    {
+      "name": "first_review_utc",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "last_review_utc",
+      "type": "TIMESTAMP"
+    }
+  ]
+}

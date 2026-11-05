@@ -1,0 +1,26 @@
+{
+  "batch": "amazon_1",
+  "started_utc": "2026-11-05T11:17:14.566674+00:00",
+  "requested_model": "deepseek-v4.1-flash",
+  "returned_model": "deepseek-v4.1-flash",
+  "http_status": 200,
+  "error": null,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1028,
+    "total_tokens": 2184,
+    "completion_tokens": 1156,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 0,
+      "text_tokens": 1028
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 813,
+      "text_tokens": 342
+    }
+  },
+  "duration_seconds": 8.35999999998603,
+  "prompt_sha256": "f25fd6aa4d0568f856c4eedd6ed659f124e4ad7b58cbf61634b085f5658f6c8e",
+  "response_sha256": "e28d5b9493f3b0e2ec752bed25f0858b1e31ff136767164515c1ab1b615ba4c2"
+}

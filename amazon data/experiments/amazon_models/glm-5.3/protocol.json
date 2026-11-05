@@ -1,0 +1,147 @@
+{
+  "requested_model": "glm-5.3",
+  "requested_reasoning": "provider default",
+  "collection": "Four fresh API requests, each containing 16 Amazon shoppers. Exact original Luna user prompts; same customer-only system prompt as successful Gemini replication. No tools, retries, answer repair, or additional model calls.",
+  "identity": "Requested model slug and returned API model field retained; provider routes are not independently verified.",
+  "fields": [
+    "sleeve_length",
+    "pattern",
+    "neckline",
+    "fabric",
+    "wash_care",
+    "budget"
+  ],
+  "methods": [
+    "Fixed order",
+    "Profile information gain",
+    "Decision-set information gain",
+    "One-step decision value"
+  ],
+  "budgets": [
+    3,
+    4,
+    5
+  ],
+  "profiles_per_dataset": 64,
+  "menus_per_dataset": 576,
+  "products_per_menu": 16,
+  "shuffle_seed": 20261105561,
+  "protocol_sha256": "0fce7c8af9d8cd2f7838a5166dbcc9463b5cf941b95cdc5db48a785098de7e5d",
+  "table1_results_sha256": "148079450f476d5ae8666d592f3c97d960abf1a7f072ccd92258514a9a12308b",
+  "inputs_sha256": "7f34450c6e60bd40b97070d2c490d7d56c272de47cb5de7b2d77b7906c43687b",
+  "failures": "No retry or repair of completed replies. Missing, duplicated, malformed or non-A/B profile replies are all-invalid banks. Every profile remains in the denominator; a trajectory selecting an invalid answer counts as unsuccessful.",
+  "scope": "Post-confirmation structured-answer interface check using constructed preferences, fixed menus and unchanged methods. Batches are not independent human shoppers; menu intervals condition on the observed answer bank.",
+  "batches": [
+    {
+      "id": "amazon_1",
+      "dataset": "Amazon",
+      "profiles": [
+        63,
+        12,
+        37,
+        57,
+        0,
+        11,
+        3,
+        33,
+        13,
+        4,
+        28,
+        53,
+        48,
+        58,
+        62,
+        25
+      ],
+      "prompt_file": "amazon_1_prompt.txt",
+      "prompt_sha256": "f25fd6aa4d0568f856c4eedd6ed659f124e4ad7b58cbf61634b085f5658f6c8e",
+      "response_file": "amazon_1_response.json"
+    },
+    {
+      "id": "amazon_2",
+      "dataset": "Amazon",
+      "profiles": [
+        18,
+        51,
+        27,
+        56,
+        17,
+        46,
+        42,
+        45,
+        15,
+        29,
+        23,
+        44,
+        6,
+        60,
+        30,
+        35
+      ],
+      "prompt_file": "amazon_2_prompt.txt",
+      "prompt_sha256": "c79a236b095126c47aa0f2ea9e471ea80e3db4ac108581362a8101e9ff58d208",
+      "response_file": "amazon_2_response.json"
+    },
+    {
+      "id": "amazon_3",
+      "dataset": "Amazon",
+      "profiles": [
+        8,
+        19,
+        40,
+        54,
+        9,
+        22,
+        24,
+        26,
+        52,
+        41,
+        59,
+        2,
+        47,
+        7,
+        16,
+        34
+      ],
+      "prompt_file": "amazon_3_prompt.txt",
+      "prompt_sha256": "c8371e3d03db72f673b03718eb08399a7f0c67b7599a4d8d5a95531560a74410",
+      "response_file": "amazon_3_response.json"
+    },
+    {
+      "id": "amazon_4",
+      "dataset": "Amazon",
+      "profiles": [
+        21,
+        49,
+        14,
+        43,
+        38,
+        36,
+        32,
+        55,
+        10,
+        20,
+        31,
+        39,
+        1,
+        5,
+        61,
+        50
+      ],
+      "prompt_file": "amazon_4_prompt.txt",
+      "prompt_sha256": "a10778c16798e36fbfd9d1cf0efacf28bd26a664621b41fa4a9530bb58e5864f",
+      "response_file": "amazon_4_response.json"
+    }
+  ],
+  "transport": {
+    "base_url": "https://cn-beijing.maas.qianwenaiapi.com/compatible-mode/v1",
+    "system": "You answer as shoppers from the preference cards in the user message. Use only those cards. Return the requested answers directly. Do not use tools or consult files, websites, other conversations, or other agents. Use the customer IDs exactly as C followed by three digits. Return only the requested JSON object.",
+    "max_tokens": 4096,
+    "temperature": "provider default",
+    "retries": 0,
+    "timeout_seconds": 180
+  },
+  "source_driver_sha256": "69070de2c18374c496496b4c6ab78dafbab2151d6520858ba3dba7597e69e1b7",
+  "scorer_sha256": "4ea74750af218e75d5f3c922dabc2d7c30655fcdcaaffb65e17f1980c8019bbe",
+  "interval_comparisons": "Six contrasts: two new models times three question budgets."
+}

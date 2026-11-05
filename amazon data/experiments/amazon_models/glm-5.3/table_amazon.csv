@@ -1,0 +1,4 @@
+﻿Dataset,Questions,Fixed order,Profile information gain,Decision-set information gain,One-step decision value
+Amazon,3,60.56,56.41,61.92,63.30
+Amazon,4,67.29,64.16,66.61,69.55
+Amazon,5,75.04,68.61,74.44,76.61

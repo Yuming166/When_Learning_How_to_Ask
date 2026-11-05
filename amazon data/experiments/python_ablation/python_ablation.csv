@@ -1,0 +1,22 @@
+﻿Variant,Budget,Full DV minus variant (pp),Pointwise 95% lower,Pointwise 95% upper
+Profile information gain,0,0.0,0.0,0.0
+Profile information gain,1,2.9908159722222223,2.6090202907986053,3.3984513888888848
+Profile information gain,2,11.667065972222224,11.291263020833327,12.06719704861113
+Profile information gain,3,11.207174479166673,10.905463867187493,11.50107953559028
+Profile information gain,4,7.67061197916667,7.461019531250003,7.879669162326393
+Profile information gain,5,9.471844618055552,9.205415690104157,9.726472439236124
+Profile information gain,6,0.0,0.0,0.0
+Decision-set information gain,0,0.0,0.0,0.0
+Decision-set information gain,1,1.902534722222222,1.609842881944445,2.215664496527776
+Decision-set information gain,2,4.6010156250000005,4.221004557291667,4.993869574652773
+Decision-set information gain,3,2.450993923611113,2.2035758463541693,2.697258572048615
+Decision-set information gain,4,2.2773263888888877,2.045148003472222,2.5176858723958357
+Decision-set information gain,5,3.292630208333332,3.017478298611107,3.564879123263885
+Decision-set information gain,6,0.0,0.0,0.0
+Decision value with frozen initial order,0,0.0,0.0,0.0
+Decision value with frozen initial order,1,0.0,0.0,0.0
+Decision value with frozen initial order,2,3.0309331597222218,2.7794724392361085,3.298086263020832
+Decision value with frozen initial order,3,1.370364583333333,1.220473849826384,1.5252170138888836
+Decision value with frozen initial order,4,1.9188585069444448,1.7069254557291662,2.12312923177083
+Decision value with frozen initial order,5,1.363741319444443,1.20331011284722,1.5334934895833323
+Decision value with frozen initial order,6,0.0,0.0,0.0

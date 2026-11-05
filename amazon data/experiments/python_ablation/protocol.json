@@ -1,0 +1,54 @@
+{
+  "dataset": "Amazon",
+  "profiles": 64,
+  "menus": 576,
+  "products_per_menu": 16,
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "display_budgets": [
+    3,
+    4,
+    5
+  ],
+  "methods": [
+    "Profile information gain",
+    "Decision-set information gain",
+    "Full decision value",
+    "Decision value with frozen initial order"
+  ],
+  "answers": "Pure Python truth oracle: model.bits provides selected answers directly. No LLM responses used as input to Python policy trajectories.",
+  "interventions": [
+    "Replace decision-value question objective with profile entropy reduction; retain adaptation and terminal recommendation.",
+    "Replace decision-value objective with decision-set entropy reduction; retain adaptation and terminal recommendation.",
+    "Rank empty-history DV scores once, then fix question order; retain answer updates and terminal recommendation."
+  ],
+  "tie_rule": "Lowest field index within 1e-12 of maximum; static ranking repeatedly applies this to remaining INITIAL scores.",
+  "estimand": "Prior-weighted profiles and equal original menus, using frozen Amazon acceptable-or-no-purchase rule.",
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 20261105563,
+    "unit": "Paired menus, stratified by original seed; common draws for all contrasts.",
+    "main_table": "Pointwise percentile 95% intervals to match requested table presentation.",
+    "additional": "Bonferroni correction over nine Python variant-budget contrasts, separately from the previous LLM family.",
+    "scope": "Conditional on fixed products, constructed profiles and prior; no profile-bootstrap claim."
+  },
+  "design_status": "Post-hoc component analysis; frozen before new pure-Python ablation results. Existing main and LLM results already observed.",
+  "new_model_calls": 0,
+  "sources": {
+    "outputs\\amazon_python_ablation_20261105\\run_python_ablation.py": "5429a8d0ec735bb775be7f8d86ed90dc6b9ec9af4d5ced65a12df360dea52580",
+    "Learning_How_to_Ask_Overleaf\\research\\experiment_inputs.json": "7f34450c6e60bd40b97070d2c490d7d56c272de47cb5de7b2d77b7906c43687b",
+    "Learning_How_to_Ask_Overleaf\\research\\common_field_results.json": "148079450f476d5ae8666d592f3c97d960abf1a7f072ccd92258514a9a12308b",
+    "Learning_How_to_Ask_Overleaf\\research\\budget_comparison.py": "c4e0337dfd47499b750e80aee6583550f3032ca6ad355f802f7e43c9b4eb8b5c",
+    "Learning_How_to_Ask_Overleaf\\research\\richer_preferences.py": "dd2fa2b85df82ccf8cae451386ac9468f231bd85040a33e0da5c5021ab119fa8",
+    "Learning_How_to_Ask_Overleaf\\research\\ranking_search.py": "e09a8bdaeff300cc85eb7a06ac469932753e75153056f7beb451b924256fe7ff",
+    "outputs\\amazon_dv_ablation_20261105\\run_ablation.py": "679b70894fb6aba971cf22067ce9536626a8c5e813412cc43d0d02e8dd43fac6",
+    "outputs\\amazon_dv_ablation_20261105\\results.json": "1df127fd6b687e0299697610547c7892ed8b71f093410940779fe36bebad39f5"
+  }
+}

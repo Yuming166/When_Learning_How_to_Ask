@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "amazon_products": 49,
+  "menus": 576,
+  "profiles": 64,
+  "models": [
+    "Luna",
+    "DeepSeek",
+    "GLM"
+  ],
+  "new_model_calls": 0,
+  "main_and_ablation_max_abs_error": 3.3306690738754696e-16,
+  "bootstrap_draws": 5000,
+  "pointwise_and_corrected_intervals_verified": true,
+  "valid_profiles": {
+    "Luna": 64,
+    "DeepSeek": 64,
+    "GLM": 48
+  }
+}
