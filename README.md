@@ -5,6 +5,11 @@
 本仓库保留历次理论与 methodology 开发，并于 **2026-11-05** 更新推荐系统论文及连接实验。既有 V5 简报保留为历史起点；代码、开发结果、数学证书及未完成事项分别标明。**受控模型结果不等于真实 Web/用户有效性，理想策略定理也不自动认证近似程序的渐近最优性。**
 
 
+## 可直接使用的整理数据集
+
+- **[Myntra 结构化数据集](datasets/myntra_structured_v01/README.md)**：959 个商品，471 件核心商品，六个品类池、中文事实卡和来源证据；提供 CSV、JSONL、固定划分及离线核验命令。
+- [471 件核心商品 CSV](datasets/myntra_structured_v01/catalogue/catalogue_strict.csv) · [959 个商品完整 CSV](datasets/myntra_structured_v01/catalogue/products_all.csv)。原文件逐字节发布，未重新清洗或划分。
+
 ## 2026-11-05：Myntra结果、Python与三种LLM机制消融
 
 - **[结果与复现入口](experiments/myntra_results_20261105/README.md)** · [完整方法说明](experiments/myntra_results_20261105/METHODS_ZH.md) · [结果及限制](experiments/myntra_results_20261105/RESULTS_ZH.md)。

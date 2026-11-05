@@ -1,0 +1,19 @@
+{
+  "version": "myntra-catalogue-v0.1",
+  "source_repo": "Gssmc/myntra_dataset",
+  "source_revision": "e3037c0e7aba89376ac8ea24f69b416d9d0335cb",
+  "source_file": "marketing_sample_for_myntra_com-ecommerce__20190601_20190831__15k_data.csv",
+  "source_sha256": "d8091d2ec14ed95dc887994ce216679069391488fe32905873cbe13bff45ab58",
+  "expected_source_rows": 15000,
+  "core_attributes": ["neckline", "sleeve_length", "fabric", "wash_care", "pattern"],
+  "adult_genders": ["Men", "Women"],
+  "single_garment_categories": ["Kurtas", "Kurtis", "Tops", "Tunics", "Dresses", "Shirts"],
+  "gate_order": ["valid_identity_and_taxonomy", "adult_single_garment_category", "no_reported_multiple_components", "complete_singleton_core_attributes", "one_source_price", "no_detected_core_discordance", "no_unparsed_specification_fragment"],
+  "split_salt": "myntra-catalogue-v01-grouped-20261104",
+  "split_buckets": {"development": 70, "validation_reserved": 15, "test_reserved": 15},
+  "currency": null,
+  "unknown_attribute_policy": "unknown_is_not_negative",
+  "care_policy": "reported_instruction_is_not_an_exhaustive_set_of_permitted_methods",
+  "purchase_policy": "catalogue_has_no_user_utilities_or_purchase_labels",
+  "human_semantic_validation": false
+}

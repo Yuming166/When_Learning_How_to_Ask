@@ -1,0 +1,4 @@
+# Original frozen files keep their exact bytes across checkouts.
+catalogue/** -text -whitespace
+reproduction/** -text -whitespace
+provenance/** -text -whitespace

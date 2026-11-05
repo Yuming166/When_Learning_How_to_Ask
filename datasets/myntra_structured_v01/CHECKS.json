@@ -1,0 +1,55 @@
+{
+  "constructor_tests": {
+    "count": 29,
+    "status": "PASS"
+  },
+  "isolated_network_blocked": true,
+  "isolated_original_project_paths_blocked": true,
+  "model_calls": 0,
+  "prepublication_source_fidelity_check": {
+    "scope": "source_fidelity_schema_accounting_and_exact_text_leakage_only",
+    "source_csv_used_locally_but_not_published": true,
+    "status": "PASS",
+    "total_checks": 156668
+  },
+  "public_isolated_verification": {
+    "all_split_counts": {
+      "development": 670,
+      "test_reserved": 132,
+      "validation_reserved": 157
+    },
+    "catalogue_files": 24,
+    "csv_tables": 8,
+    "exact_source_copies": 37,
+    "factual_cards": 471,
+    "new_model_calls": 0,
+    "pools": {
+      "men_kurtas": 154,
+      "women_dresses": 67,
+      "women_kurtas": 214,
+      "women_kurtis": 7,
+      "women_tops": 21,
+      "women_tunics": 8
+    },
+    "products": 959,
+    "raw_source_fidelity_rechecked_by_this_command": false,
+    "release_content_files": 41,
+    "scope": "published file integrity, record parsing and cross-table consistency",
+    "specification_claims": 18991,
+    "status": "PASS",
+    "strict_products": 471,
+    "strict_split_counts": {
+      "development": 338,
+      "test_reserved": 55,
+      "validation_reserved": 78
+    },
+    "variants": 1000
+  },
+  "raw_downloaded_csv_included": false,
+  "scientific_results_changed": false,
+  "source_files_byte_identical": 37,
+  "source_record_files_byte_identical": 24,
+  "splits_changed": false,
+  "status": "PASS_DATASET_PUBLICATION",
+  "training_runs": 0
+}

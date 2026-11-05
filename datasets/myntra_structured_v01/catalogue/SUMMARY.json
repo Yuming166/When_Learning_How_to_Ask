@@ -1,0 +1,472 @@
+{
+  "all_products": 959,
+  "all_split_counts": {
+    "development": 670,
+    "test_reserved": 132,
+    "validation_reserved": 157
+  },
+  "categories": {
+    "Boys/Kurta Sets": {
+      "all_products": 30,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Boys/Kurtas": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Boys/Nehru Jackets": {
+      "all_products": 2,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Boys/Sherwani": {
+      "all_products": 8,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Dresses": {
+      "all_products": 3,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Kurta Sets": {
+      "all_products": 18,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Kurtas": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Kurtis": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Leggings": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Lehenga Choli": {
+      "all_products": 24,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Girls/Tops": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Men/Dhotis": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Men/Kurta Sets": {
+      "all_products": 118,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Men/Kurtas": {
+      "all_products": 160,
+      "splits": {
+        "development": 110,
+        "test_reserved": 18,
+        "validation_reserved": 26
+      },
+      "strict_products": 154
+    },
+    "Unisex/Bed Covers": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Unisex/Bedsheets": {
+      "all_products": 23,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Unisex/Blankets Quilts and Dohars": {
+      "all_products": 7,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Unisex/Pillow Covers": {
+      "all_products": 2,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Unisex/Pillows": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Dhotis": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Dresses": {
+      "all_products": 80,
+      "splits": {
+        "development": 50,
+        "test_reserved": 10,
+        "validation_reserved": 7
+      },
+      "strict_products": 67
+    },
+    "Women/Dupatta": {
+      "all_products": 10,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Flats": {
+      "all_products": 12,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Handbags": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Harem Pants": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Heels": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Jackets": {
+      "all_products": 2,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Kurta Sets": {
+      "all_products": 52,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Kurtas": {
+      "all_products": 241,
+      "splits": {
+        "development": 149,
+        "test_reserved": 24,
+        "validation_reserved": 41
+      },
+      "strict_products": 214
+    },
+    "Women/Kurtis": {
+      "all_products": 10,
+      "splits": {
+        "development": 5,
+        "test_reserved": 1,
+        "validation_reserved": 1
+      },
+      "strict_products": 7
+    },
+    "Women/Leggings": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Lehenga Choli": {
+      "all_products": 11,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Palazzos": {
+      "all_products": 29,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Saree Blouse": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Sarees": {
+      "all_products": 2,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Shawl": {
+      "all_products": 4,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Shirts": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Shrug": {
+      "all_products": 5,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Skirts": {
+      "all_products": 21,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Sweaters": {
+      "all_products": 2,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Tops": {
+      "all_products": 24,
+      "splits": {
+        "development": 16,
+        "test_reserved": 2,
+        "validation_reserved": 3
+      },
+      "strict_products": 21
+    },
+    "Women/Trousers": {
+      "all_products": 9,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Tunics": {
+      "all_products": 9,
+      "splits": {
+        "development": 8
+      },
+      "strict_products": 8
+    },
+    "Women/Waistcoat": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    },
+    "Women/Watches": {
+      "all_products": 1,
+      "splits": {},
+      "strict_products": 0
+    }
+  },
+  "core_complete_but_excluded": 63,
+  "coverage_all_products": {
+    "bottom_fabric": {
+      "reported": 218,
+      "unknown": 741
+    },
+    "closure": {
+      "reported": 112,
+      "unknown": 847
+    },
+    "component_count": {
+      "reported": 765,
+      "unknown": 194
+    },
+    "dupatta_fabric": {
+      "reported": 66,
+      "unknown": 893
+    },
+    "fabric": {
+      "reported": 677,
+      "unknown": 282
+    },
+    "fabric_purity": {
+      "reported": 408,
+      "unknown": 551
+    },
+    "fabric_type": {
+      "reported": 34,
+      "unknown": 925
+    },
+    "fit": {
+      "reported": 41,
+      "unknown": 918
+    },
+    "garment_length": {
+      "reported": 584,
+      "unknown": 375
+    },
+    "neckline": {
+      "reported": 801,
+      "unknown": 158
+    },
+    "occasion": {
+      "reported": 907,
+      "unknown": 52
+    },
+    "pattern": {
+      "reported": 656,
+      "unknown": 303
+    },
+    "print_pattern_type": {
+      "reported": 856,
+      "unknown": 103
+    },
+    "shape": {
+      "reported": 504,
+      "unknown": 455
+    },
+    "sleeve_length": {
+      "reported": 808,
+      "unknown": 151
+    },
+    "top_fabric": {
+      "reported": 218,
+      "unknown": 741
+    },
+    "transparency": {
+      "reported": 158,
+      "unknown": 801
+    },
+    "wash_care": {
+      "reported": 861,
+      "unknown": 98
+    }
+  },
+  "discordance_counts": {
+    "care_report_discordance": 12,
+    "fabric_label_discordance": 8,
+    "neckline_description_discordance": 4,
+    "sleeve_length_description_discordance": 3
+  },
+  "empty_records": 14000,
+  "human_semantic_reviews": 0,
+  "images_downloaded": 0,
+  "invalid_records": 0,
+  "largest_leakage_group": 4,
+  "leakage_groups": 937,
+  "model_calls": 0,
+  "multi_product_text_groups": 18,
+  "overlapping_exclusion_counts": {
+    "adult_single_garment_category": 434,
+    "complete_singleton_core_attributes": 425,
+    "no_detected_core_discordance": 25,
+    "no_reported_multiple_components": 250,
+    "one_source_price": 1
+  },
+  "products_with_multiple_variants": 41,
+  "recovered_inventory_specification_records": 502,
+  "sequential_funnel": [
+    {
+      "before": 959,
+      "gate": "valid_identity_and_taxonomy",
+      "remaining": 959,
+      "removed": 0
+    },
+    {
+      "before": 959,
+      "gate": "adult_single_garment_category",
+      "remaining": 525,
+      "removed": 434
+    },
+    {
+      "before": 525,
+      "gate": "no_reported_multiple_components",
+      "remaining": 504,
+      "removed": 21
+    },
+    {
+      "before": 504,
+      "gate": "complete_singleton_core_attributes",
+      "remaining": 495,
+      "removed": 9
+    },
+    {
+      "before": 495,
+      "gate": "one_source_price",
+      "remaining": 495,
+      "removed": 0
+    },
+    {
+      "before": 495,
+      "gate": "no_detected_core_discordance",
+      "remaining": 471,
+      "removed": 24
+    },
+    {
+      "before": 471,
+      "gate": "no_unparsed_specification_fragment",
+      "remaining": 471,
+      "removed": 0
+    }
+  ],
+  "source_csv_records": 15000,
+  "specification_claims": 18991,
+  "strict_attribute_distributions": {
+    "fabric": {
+      "acrylic": 2,
+      "art silk": 1,
+      "blended": 1,
+      "chanderi silk": 2,
+      "cotton": 254,
+      "cotton silk": 8,
+      "crepe": 1,
+      "dupion silk": 5,
+      "georgette": 2,
+      "linen": 5,
+      "liva": 1,
+      "modal": 2,
+      "polyester": 44,
+      "pure cotton": 8,
+      "pure silk": 1,
+      "silk": 9,
+      "viscose rayon": 125
+    },
+    "neckline": {
+      "boat neck": 5,
+      "keyhole neck": 9,
+      "mandarin collar": 229,
+      "off-shoulder": 1,
+      "round neck": 167,
+      "scoop neck": 2,
+      "shawl neck": 1,
+      "shirt collar": 16,
+      "shoulder straps": 2,
+      "square neck": 3,
+      "tie-up neck": 6,
+      "v-neck": 30
+    },
+    "pattern": {
+      "checked": 12,
+      "colourblocked": 6,
+      "dyed": 4,
+      "embellished": 2,
+      "embroidered": 5,
+      "printed": 233,
+      "self design": 2,
+      "solid": 139,
+      "striped": 27,
+      "woven design": 23,
+      "yoke design": 18
+    },
+    "sleeve_length": {
+      "long sleeves": 157,
+      "short sleeves": 49,
+      "sleeveless": 35,
+      "three-quarter sleeves": 230
+    },
+    "wash_care": {
+      "dry clean": 67,
+      "hand wash": 194,
+      "machine wash": 210
+    }
+  },
+  "strict_component_count_unreported": 71,
+  "strict_products": 471,
+  "strict_split_counts": {
+    "development": 338,
+    "test_reserved": 55,
+    "validation_reserved": 78
+  },
+  "training_runs": 0,
+  "unique_specification_keys": 126,
+  "unique_variant_ids": 1000,
+  "variant_records": 1000,
+  "version": "myntra-catalogue-v0.1"
+}

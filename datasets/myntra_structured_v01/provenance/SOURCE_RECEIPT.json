@@ -1,0 +1,13 @@
+{
+  "acquisition_mode": "reused_local_bytes_from_prior_read_only_hf_check",
+  "source_repo": "Gssmc/myntra_dataset",
+  "source_revision": "e3037c0e7aba89376ac8ea24f69b416d9d0335cb",
+  "source_url": "https://huggingface.co/datasets/Gssmc/myntra_dataset/resolve/e3037c0e7aba89376ac8ea24f69b416d9d0335cb/marketing_sample_for_myntra_com-ecommerce__20190601_20190831__15k_data.csv",
+  "source_bytes": 1938089,
+  "source_sha256": "d8091d2ec14ed95dc887994ce216679069391488fe32905873cbe13bff45ab58",
+  "current_stage_network_requests": 0,
+  "prior_download_response_headers_available": false,
+  "source_timestamp": "historical_2019_snapshot",
+  "uploader_license_metadata": "MIT",
+  "original_marketplace_content_rights_independently_verified": false
+}

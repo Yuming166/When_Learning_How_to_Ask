@@ -46,3 +46,19 @@ records, secret credentials, hidden profile prompts or model event streams.
 The reference fashion policy source is not a standalone data-generation bundle.
 See `publication/WWW_DV_BRIDGE_20261105.json` for this update's exact manifest and
 checks. Earlier release receipts are historical and remain unchanged.
+
+## Processed Myntra dataset supplement — 2026-11-05
+
+The [processed dataset](datasets/myntra_structured_v01/README.md) now publishes
+the exact final catalogue files: 959 source product IDs, 471 strict products,
+six pools, factual cards, provenance tables and fixed product splits. The
+original constructor, configuration, schema and tests accompany the records.
+This is an authorized supplement to the earlier code/results-only export;
+older local-only statements describe their original publication scope.
+
+The supplement excludes the downloaded source CSV, private customer profiles,
+evaluation targets, model replies and credentials. Processed provenance tables
+retain source field text for traceability. Source attribution and recorded
+license metadata remain explicit; this release does not introduce a new
+third-party data license. Its manifest and check receipts are separate from
+earlier publication freezes. No scientific results or splits were changed.

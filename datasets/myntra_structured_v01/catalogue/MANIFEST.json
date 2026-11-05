@@ -1,0 +1,102 @@
+{
+  "configuration_sha256": "86aa6c5404906055986e33019b7ace4536fd333b3298b9a96747d0f287c30aec",
+  "constructor_sha256": "2ab6814452a44680044e8c8d59bdcece749dd76fcf1d4d1e03a4731f02b60995",
+  "files": {
+    "SUMMARY.json": {
+      "bytes": 9977,
+      "sha256": "88fd74d13cbd1cb4404cfa816d39cc877ea1523a0b0c2349d3d375df0d06b859"
+    },
+    "catalogue_strict.csv": {
+      "bytes": 220681,
+      "sha256": "19a0c2425c22477c23a51f05caa43ae3c9b0309b5f2bec154e31adf2b6cbb81d"
+    },
+    "catalogue_strict.jsonl": {
+      "bytes": 2007435,
+      "sha256": "5d60ccf2137e76f85ca8ed5cf654dc3b1dd4e28f2a85640a6a806584c01d1759"
+    },
+    "factual_cards.jsonl": {
+      "bytes": 416843,
+      "sha256": "c44606d7791bce47c3af151b844f3e43da7d80f0e95f53e488a6d303dae8159c"
+    },
+    "pools/men_kurtas.csv": {
+      "bytes": 72060,
+      "sha256": "8474cf40f361d100b3438a3da7f41f17ab92fa5e663cb639b26c0cb6e9a961c0"
+    },
+    "pools/men_kurtas.jsonl": {
+      "bytes": 652362,
+      "sha256": "61aa1e6f12302a1d314951d387e5b2a7e3ed8e377a69b900ae4cd52650b5eda5"
+    },
+    "pools/women_dresses.csv": {
+      "bytes": 32285,
+      "sha256": "52f488617f1704918076f17135f2ce4bb85871ae35df6385df5b3196c78676dc"
+    },
+    "pools/women_dresses.jsonl": {
+      "bytes": 287328,
+      "sha256": "ad570f97c17416452bda6640ab9751865ca135851a68f130d5a8ddce9af638ae"
+    },
+    "pools/women_kurtas.csv": {
+      "bytes": 101741,
+      "sha256": "585a9799d4a190499250d22b4a1342a2f6f422c52c62c19ecc099e0e8dec301b"
+    },
+    "pools/women_kurtas.jsonl": {
+      "bytes": 920108,
+      "sha256": "139284d0515a61df370e33002bcbdf0783ee8da40733b06f9d61b062d64bdb05"
+    },
+    "pools/women_kurtis.csv": {
+      "bytes": 3838,
+      "sha256": "dbc244455ac77ea0287841d84813b21f08e0831161bfa5c0bfaaa6cb44254cdc"
+    },
+    "pools/women_kurtis.jsonl": {
+      "bytes": 28814,
+      "sha256": "043a1ad91ebe10c2617dc233603aaba7c753c41a43ec37ace7aff568a822d5d1"
+    },
+    "pools/women_tops.csv": {
+      "bytes": 10248,
+      "sha256": "64eea03e84c6200dee331edb3f55d8ecc3a331dadcb393320af63cb2ebd5fdc0"
+    },
+    "pools/women_tops.jsonl": {
+      "bytes": 87284,
+      "sha256": "d1aab1097a765a0fe17e21bd992611aee16c93fa07ed0bc2ce4489dbc97446fd"
+    },
+    "pools/women_tunics.csv": {
+      "bytes": 4089,
+      "sha256": "2022315601329952b0e40635058b2e7f58a3ee0165275eae4149c5325789a5b8"
+    },
+    "pools/women_tunics.jsonl": {
+      "bytes": 31539,
+      "sha256": "416863e74bb934ffea98daed1a9d51daf917216a396e8fe23112555d5222a480"
+    },
+    "products_all.csv": {
+      "bytes": 483156,
+      "sha256": "f5e164f9a7abf9b5a5b1a591fffa516c1ec05812add5ac869c1ae4be88c44d66"
+    },
+    "products_all.jsonl": {
+      "bytes": 4127226,
+      "sha256": "179e0fdab428ceab79236bc89a14f57f97a4ab9369e4d1b258ebcfcdaf754383"
+    },
+    "quality_issues.jsonl": {
+      "bytes": 336569,
+      "sha256": "b28c378334b7c50a0d7b0f0d6e432f774c3ae41e598ba5b6b14a8107ed29208f"
+    },
+    "source_claims.jsonl": {
+      "bytes": 5097575,
+      "sha256": "421c08fd500533bc68ec2bbdf890e290e9970ac02faeaa9c3fdea43a91bdd312"
+    },
+    "source_record_accounting.json": {
+      "bytes": 145179,
+      "sha256": "b9ab09f42ffb3f27589f5169c2054488a8f61242de7b98b1fb33762212b23519"
+    },
+    "split_manifest.json": {
+      "bytes": 134836,
+      "sha256": "dfb84faec06739a1af0b61eb6a88f5bf7bf7f4010ecf08386d3ff831aed47e2f"
+    },
+    "variants.jsonl": {
+      "bytes": 6791275,
+      "sha256": "89191f4ddb40f068bfa0d7cb9b01896aa9705819f9ba75f6129733f51aa7983d"
+    }
+  },
+  "protocol_sha256": "63774b3b950539c1a10f6aad1b7300a3aba92c055197fea0fcd50312845dc6e5",
+  "source_repo": "Gssmc/myntra_dataset",
+  "source_revision": "e3037c0e7aba89376ac8ea24f69b416d9d0335cb",
+  "source_sha256": "d8091d2ec14ed95dc887994ce216679069391488fe32905873cbe13bff45ab58"
+}

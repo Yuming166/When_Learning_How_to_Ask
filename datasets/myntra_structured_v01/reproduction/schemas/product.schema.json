@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Myntra source-claim product v0.1",
+  "type": "object",
+  "required": ["product_id", "title", "brand", "gender", "category", "attributes", "variant_ids", "source_records", "source_price", "quality", "split", "leakage_group_id"],
+  "properties": {
+    "product_id": {"type": "string", "pattern": "^[0-9]+$"},
+    "title": {"type": ["string", "null"]},
+    "brand": {"type": ["string", "null"]},
+    "gender": {"type": ["string", "null"]},
+    "category": {"type": ["string", "null"]},
+    "attributes": {
+      "type": "object",
+      "required": ["neckline", "sleeve_length", "fabric", "wash_care", "pattern"],
+      "additionalProperties": {"$ref": "#/$defs/attribute"}
+    },
+    "source_price": {
+      "type": "object", "required": ["values", "minimum", "maximum", "currency"],
+      "properties": {
+        "values": {"type": "array", "items": {"type": "string"}},
+        "minimum": {"type": ["string", "null"]},
+        "maximum": {"type": ["string", "null"]},
+        "currency": {"type": "null"}
+      }
+    },
+    "variant_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "source_records": {"type": "array", "minItems": 1, "items": {"type": "integer", "minimum": 2}},
+    "split": {"enum": ["development", "validation_reserved", "test_reserved"]},
+    "leakage_group_id": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "quality": {
+      "type": "object", "required": ["strict_eligible", "exclusion_reasons", "gates", "discordances", "semantic_validation", "ground_truth_scope"],
+      "properties": {
+        "strict_eligible": {"type": "boolean"},
+        "exclusion_reasons": {"type": "array", "items": {"type": "string"}},
+        "gates": {"type": "object", "additionalProperties": {"type": "boolean"}},
+        "discordances": {"type": "array", "items": {"type": "object"}},
+        "semantic_validation": {"const": "automated_limited_guards_only"},
+        "ground_truth_scope": {"const": "seller_reported_attributes"}
+      }
+    }
+  },
+  "$defs": {
+    "attribute": {
+      "type": "object",
+      "required": ["status", "value", "reported_values", "source_labels", "evidence_ids"],
+      "properties": {
+        "status": {"enum": ["unknown", "reported", "ambiguous"]},
+        "value": {"type": ["string", "null"]},
+        "reported_values": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "source_labels": {"type": "array", "items": {"type": "string"}},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"const": "unknown"}}}, "then": {"properties": {"value": {"type": "null"}, "reported_values": {"maxItems": 0}, "evidence_ids": {"maxItems": 0}}}},
+        {"if": {"properties": {"status": {"const": "reported"}}}, "then": {"properties": {"value": {"type": "string"}, "reported_values": {"minItems": 1, "maxItems": 1}, "evidence_ids": {"minItems": 1}}}},
+        {"if": {"properties": {"status": {"const": "ambiguous"}}}, "then": {"properties": {"value": {"type": "null"}, "reported_values": {"minItems": 2}}}}
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "phase": "before_constructor_execution",
+  "files": {
+    "config.json": "86aa6c5404906055986e33019b7ace4536fd333b3298b9a96747d0f287c30aec",
+    "PROTOCOL.md": "63774b3b950539c1a10f6aad1b7300a3aba92c055197fea0fcd50312845dc6e5"
+  }
+}

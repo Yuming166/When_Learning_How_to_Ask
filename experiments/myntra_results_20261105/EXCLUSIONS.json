@@ -2,8 +2,8 @@
   "earlier_failed_screens_and_partial_transport_runs_retained_in_historical_aggregates": true,
   "excluded": [
     {
-      "class": "raw and derived merchandise catalogue, attributes, source pages and images",
-      "reason": "existing dataset-card redistribution boundary; keep local"
+      "class": "downloaded raw merchandise CSV, source pages and images; catalogue rows outside this result package",
+      "reason": "processed final Myntra catalogue is now published separately in datasets/myntra_structured_v01; this result package remains a numerical projection"
     },
     {
       "class": "private preference/profile banks, priors, evaluator references and serialized per-profile request prompts",
@@ -23,6 +23,7 @@
     }
   ],
   "positive_and_negative_outcomes_retained": true,
+  "processed_catalogue_supplement": "../../datasets/myntra_structured_v01/README.md",
   "retained_generic_templates": [
     "historical/myntra_preference_dev_v01_20261104/SYSTEM_PROMPT_ZH.txt",
     "prompt-construction source code; no serialized private-profile requests"
